@@ -1,0 +1,479 @@
+# translation of printer-applet.po to Arabic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: printer-applet\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-07-29 01:26+0200\n"
+"PO-Revision-Date: 2009-07-09 13:29+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"\n"
+"\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: printer-applet.py:250
+msgid "_Hide"
+msgstr "ا_خف"
+
+#: printer-applet.py:251
+msgid "Quit"
+msgstr "اخرج"
+
+#: printer-applet.py:258
+msgid "Cancel"
+msgstr "ألغ"
+
+#: printer-applet.py:259
+msgid "_Hold"
+msgstr "ا_مسك"
+
+#: printer-applet.py:260
+msgid "_Release"
+msgstr "ا_طلق"
+
+#: printer-applet.py:261
+msgid "Re_print"
+msgstr "أ_عد الطبع"
+
+#: printer-applet.py:267
+msgid "&Refresh"
+msgstr "أ&نعش"
+
+#: printer-applet.py:346
+msgid "Not authorized"
+msgstr "غير مصرح"
+
+#: printer-applet.py:347
+msgid "The password may be incorrect."
+msgstr "قد تكون كلمة السر خاطئة"
+
+#: printer-applet.py:350
+msgid "CUPS server error"
+msgstr "خطأ خادم CUPS"
+
+#: printer-applet.py:351
+msgid "There was an error during the CUPS operation: '%1'."
+msgstr "هناك خطأ خلال عملية CUPS: '%1'."
+
+#: printer-applet.py:356
+msgid "Error"
+msgstr "خطأ"
+
+#: printer-applet.py:405
+msgctxt "%1 in the '%1 and %2 ago' message below"
+msgid "1 hour"
+msgid_plural "%1 hours"
+msgstr[0] " "
+msgstr[1] "ساعة واحدة"
+msgstr[2] "ساعتين"
+msgstr[3] "%1 ساعات"
+msgstr[4] "%1 ساعة"
+msgstr[5] "%1 ساعة"
+
+#: printer-applet.py:406
+msgctxt "%2 in the '%1 and %2 ago' message below"
+msgid "1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] " "
+msgstr[1] "دقيقة واحدة"
+msgstr[2] "دقيقتين"
+msgstr[3] "%1 دقائق"
+msgstr[4] "%1 دقيقة"
+msgstr[5] "%1 دقيقة"
+
+#: printer-applet.py:407
+msgctxt "Arguments are formatted hours and minutes from the messages above"
+msgid "%1 and %2 ago"
+msgstr "منذ %1 و %2"
+
+#: printer-applet.py:409
+msgid "1 hour ago"
+msgid_plural "%1 hours ago"
+msgstr[0] "منذ أقل من ساعة"
+msgstr[1] "منذ ساعة واحدة"
+msgstr[2] "منذ ساعتين"
+msgstr[3] "منذ %1 ساعات"
+msgstr[4] "منذ %1 ساعة"
+msgstr[5] "منذ %1 ساعة"
+
+#: printer-applet.py:413
+msgid "a minute ago"
+msgid_plural "%1 minutes ago"
+msgstr[0] "منذ أقل من دقيقة"
+msgstr[1] "منذ دقيقة واحدة"
+msgstr[2] "منذ دقيقتين"
+msgstr[3] "منذ %1 دقائق"
+msgstr[4] "منذ %1 دقيقة"
+msgstr[5] "منذ %1 دقيقة"
+
+#: printer-applet.py:442
+msgctxt "User who printed is not known"
+msgid "Unknown"
+msgstr "مجهول"
+
+#: printer-applet.py:443
+msgctxt "Print job name is not known"
+msgid "Unknown"
+msgstr "مجهول"
+
+#: printer-applet.py:456
+msgid "Unknown"
+msgstr "مجهول"
+
+#: printer-applet.py:471
+msgctxt "Job state"
+msgid "Held for authentication"
+msgstr "توقف للاستيثاق"
+
+#: printer-applet.py:473
+msgctxt "Job state"
+msgid "Pending"
+msgstr "ينتظر"
+
+#: printer-applet.py:474
+msgctxt "Job state"
+msgid "Held"
+msgstr "ممسوك"
+
+#: printer-applet.py:475
+msgctxt "Job state"
+msgid "Processing"
+msgstr "يعالج"
+
+#: printer-applet.py:476
+msgctxt "Job state"
+msgid "Stopped"
+msgstr "موقوف"
+
+#: printer-applet.py:477
+msgctxt "Job state"
+msgid "Canceled"
+msgstr "ملغي"
+
+#: printer-applet.py:478
+msgctxt "Job state"
+msgid "Aborted"
+msgstr "مجهض"
+
+#: printer-applet.py:479
+msgctxt "Job state"
+msgid "Completed"
+msgstr "مكتمل"
+
+#: printer-applet.py:486
+msgctxt "Job state"
+msgid "Unknown"
+msgstr "مجهول"
+
+#: printer-applet.py:655
+msgid "No documents queued"
+msgstr "لا يوجد مستندات في الصف"
+
+#: printer-applet.py:657
+msgid "1 document queued"
+msgid_plural "%1 documents queued"
+msgstr[0] "لا شيء"
+msgstr[1] "وثيقة واحد في الصف"
+msgstr[2] "وثيقتان في الصف"
+msgstr[3] "%1 وثائق في الصف"
+msgstr[4] "%1 وثيقة في الصف"
+msgstr[5] "%1 وثيقة في الصف"
+
+#: printer-applet.py:868
+msgid "There was a problem sending document `%1' (job %2) to the printer."
+msgstr "توجد مشكلة في ارسال الوثيقة إلى `%1' (المهمة %2) الطابعة."
+
+#: printer-applet.py:871
+msgid "There was a problem processing document `%1' (job %2)."
+msgstr "توجد مشكلة في معالجة الوثيقة `%1' (المهمة %2)"
+
+#: printer-applet.py:877
+msgid "There was a problem printing document `%1' (job %2): `%3'."
+msgstr "توجد مشكلة في طباعة الوثيقة `%1' (المهمة %2): `%3'."
+
+#: printer-applet.py:884 printer-applet.py:896
+msgid "Print Error"
+msgstr "خطأ الطابعة"
+
+#: printer-applet.py:890
+msgid "The printer called `%1' has been disabled."
+msgstr "ألغي نداء الطابعة لـ `%1' ."
+
+#: printer-applet.py:1069
+msgid "Configuring New Printer"
+msgstr "ضبط طابعة جديدة"
+
+#: printer-applet.py:1123
+msgid "'%1' is ready for printing."
+msgstr "'%1' جاهز للطباعة."
+
+#: printer-applet.py:1125
+msgid "'%1' has been added, using the '%2' driver."
+msgstr "تمت إضافة '%1' باستعمال المعرف '%2'."
+
+#: printer-applet.py:1134
+msgid "Printer Applet"
+msgstr "بريمج الطابعة"
+
+#: printer-applet.py:1136
+msgid "Applet to view current print jobs and configure new printers"
+msgstr "بريمج لرؤية أعمال الطباعة الحالية و ضبط الطابعات الجديدة"
+
+#: printer-applet.py:1138
+msgid "2007-2008 Canonical Ltd"
+msgstr "2007-2008 شركة كونيكل"
+
+#: printer-applet.py:1145
+msgid "Jonathan Riddell"
+msgstr "Jonathan Riddell"
+
+#: printer-applet.py:1145
+msgid "Author"
+msgstr "المؤلف"
+
+#: printer-applet.py:1146
+msgid "Tim Waugh/Red Hat"
+msgstr "Tim Waugh/رد هات"
+
+#: printer-applet.py:1146
+msgid "System Config Printer Author"
+msgstr "مؤلف ضبط نظام الطابعة"
+
+#: printer-applet.py:1149
+msgid "Show even when nothing printing"
+msgstr "أظهر حتى و إن كان لا يوجد شيء للطباعة"
+
+#. i18n: file: printer-appletui.rc:4
+#. i18n: ectx: Menu (view)
+#: rc.py:3
+msgid "&View"
+msgstr "ا&عرض"
+
+#. i18n: file: printer-applet-printers.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, Form)
+#: rc.py:6
+msgid "Printer Status"
+msgstr "حالة الطابعة"
+
+#. i18n: file: printer-applet-printers.ui:41
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#. i18n: file: printer-applet.ui:55
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.py:9 rc.py:27
+msgid "Printer"
+msgstr "الطابعة"
+
+#. i18n: file: printer-applet-printers.ui:46
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.py:12
+msgid "Message"
+msgstr "الرسالة"
+
+#. i18n: file: printer-applet.ui:13
+#. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
+#: rc.py:15
+msgid "Document Print Status"
+msgstr "حالة طباعة المستند"
+
+#. i18n: file: printer-applet.ui:40
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.py:18
+msgid "Job"
+msgstr "العمل"
+
+#. i18n: file: printer-applet.ui:45
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.py:21
+msgid "User"
+msgstr "المستخدم"
+
+#. i18n: file: printer-applet.ui:50
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.py:24
+msgid "Document"
+msgstr "الوثيقة"
+
+#. i18n: file: printer-applet.ui:60
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.py:30
+msgid "Size"
+msgstr "الحجم"
+
+#. i18n: file: printer-applet.ui:65
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.py:33
+msgid "Time Submitted"
+msgstr "وقت التسليم"
+
+#. i18n: file: printer-applet.ui:70
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: rc.py:36
+msgid "Status"
+msgstr "الحالة"
+
+#. i18n: file: printer-applet.ui:88
+#. i18n: ectx: property (title), widget (QMenu, menuFile)
+#: rc.py:39
+msgid "File"
+msgstr "الملف"
+
+#. i18n: file: printer-applet.ui:94
+#. i18n: ectx: property (title), widget (QMenu, menuView)
+#: rc.py:42
+msgid "View"
+msgstr "اعرض"
+
+#. i18n: file: printer-applet.ui:107
+#. i18n: ectx: property (text), widget (QStatusBar, statusbar)
+#. i18n: file: printer-applet.ui:124
+#. i18n: ectx: property (text), widget (QStatusBar, statusbar)
+#: rc.py:45 rc.py:51
+msgid "Show Completed Jobs"
+msgstr "أظهر  المهام المكتملة"
+
+#. i18n: file: printer-applet.ui:116
+#. i18n: ectx: property (text), widget (QStatusBar, statusbar)
+#: rc.py:48
+msgid "Refresh"
+msgstr "أنعش"
+
+#. i18n: file: printer-applet.ui:133
+#. i18n: ectx: property (text), widget (QStatusBar, statusbar)
+#: rc.py:54
+msgid "Close"
+msgstr "أغلق"
+
+#. i18n: file: printer-applet.ui:144
+#. i18n: ectx: property (text), widget (QStatusBar, statusbar)
+#: rc.py:57
+msgid "Show Printer Status"
+msgstr "أظهر حالة الطابعة"
+
+#: statereason.py:80
+msgid "Toner low"
+msgstr "حبر التصوير منخفض"
+
+#: statereason.py:81
+msgid "Printer '%1' is low on toner."
+msgstr "حبر تصوير الطابعة '%1' منخفض"
+
+#: statereason.py:82
+msgid "Toner empty"
+msgstr "حبر التصوير فارغ"
+
+#: statereason.py:83
+msgid "Printer '%1' has no toner left."
+msgstr "لم يتبقى حبر تصوير في الطابعة '%1'"
+
+#: statereason.py:84
+msgid "Cover open"
+msgstr "فتح الغطاء"
+
+#: statereason.py:85
+msgid "The cover is open on printer '%1'."
+msgstr "لقد فتح غطاء الطابعة '%1'."
+
+#: statereason.py:86
+msgid "Door open"
+msgstr "فتح الباب"
+
+#: statereason.py:87
+msgid "The door is open on printer '%1'."
+msgstr "لقد فتح باب الطابعة '%1'."
+
+#: statereason.py:88
+msgid "Paper low"
+msgstr "الورق منخفض"
+
+#: statereason.py:89
+msgid "Printer '%1' is low on paper."
+msgstr "عدد الأوراق في الطابعة '%1' منخفض."
+
+#: statereason.py:90
+msgid "Out of paper"
+msgstr "بدون ورق"
+
+#: statereason.py:91
+msgid "Printer '%1' is out of paper."
+msgstr "الطابعة '%1' بدون ورق."
+
+#: statereason.py:92
+msgid "Ink low"
+msgstr "الحبر منخفض"
+
+#: statereason.py:93
+msgid "Printer '%1' is low on ink."
+msgstr "مستوى حبر الطابعة '%1' منخفض."
+
+#: statereason.py:94
+msgid "Ink empty"
+msgstr "لا يوجد حبر"
+
+#: statereason.py:95
+msgid "Printer '%1' has no ink left."
+msgstr "لم يتبقى حبر في الطابعة '%1'."
+
+#: statereason.py:96
+msgid "Printer off-line"
+msgstr "الطابعة خارج الخط"
+
+#: statereason.py:97
+msgid "Printer `%1' is currently offline."
+msgstr "الطابعة '%1' حاليا خارج الخط."
+
+#: statereason.py:98
+msgid "Not connected?"
+msgstr "ليست متصلة ؟"
+
+#: statereason.py:99
+msgid "Printer '%1' may not be connected."
+msgstr "قد تكون الطابعة '%1' غير متصلة."
+
+#: statereason.py:100 statereason.py:112
+msgid "Printer error"
+msgstr "خطأ الطابعة"
+
+#: statereason.py:101
+msgid "There is a problem on printer `%1'."
+msgstr "توجد مشكلة في الطابعة '%1'."
+
+#: statereason.py:108
+msgid "Printer report"
+msgstr "تقرير الطابعة"
+
+#: statereason.py:110
+msgid "Printer warning"
+msgstr "تحذير الطابعة"
+
+#: statereason.py:113
+msgid "Printer '%1': '%2'."
+msgstr "الطابعة '%1': '%2'."
+
+#, fuzzy
+#~| msgid "1 document queued"
+#~| msgid_plural "%1 documents queued"
+#~ msgid "%1 documents queued"
+#~ msgstr "لا شيء"
+
+#~ msgid "Password required"
+#~ msgstr "يطلب كلمة سر"
+
+#~ msgid "New Printer"
+#~ msgstr "طابعة جديدة"
+
+#~ msgid "Printer added"
+#~ msgstr "أضيفت الطابعة"
+
+#~ msgid "Missing printer driver"
+#~ msgstr "معرف الطابعة مفقود"

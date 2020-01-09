@@ -1,0 +1,270 @@
+# translation of kio_sftp.po to Arabic
+# translation of kio_sftp.po to
+# Copyright (C) 2002, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_sftp\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-22 11:28+0200\n"
+"PO-Revision-Date: 2009-07-08 17:12+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+
+#: kio_sftp.cpp:432
+msgid "An internal error occurred. Please retry the request again."
+msgstr "حصل خطأ داخلي. من فضلك أعد الطلب مرة ثانية."
+
+#: kio_sftp.cpp:514
+#, kde-format
+msgid "Opening SFTP connection to host %1:%2"
+msgstr "جاري فتح اتصال SFTP مع المضيف %1:%2"
+
+#: kio_sftp.cpp:518
+msgid "No hostname specified"
+msgstr "لم يحدد اسم المضيف"
+
+#: kio_sftp.cpp:529
+msgid "SFTP Login"
+msgstr "تسجيل دخول SFTP"
+
+#: kio_sftp.cpp:531
+msgid "site:"
+msgstr "الموقع:"
+
+#: kio_sftp.cpp:631
+msgid "Please enter your username and key passphrase."
+msgstr "من فضلك أدخل اسم المستخدم و كلمة السر الخاصة بمفتاحك."
+
+#: kio_sftp.cpp:633
+msgid "Please enter your username and password."
+msgstr "من فضلك أدخل اسم المستخدم و كلمة السر الخاصة بك."
+
+#: kio_sftp.cpp:641
+msgid "Incorrect username or password"
+msgstr "اسم المستخدم أو كلمة السر غير صحيحة."
+
+#: kio_sftp.cpp:698
+msgid "Warning: Cannot verify host's identity."
+msgstr "إنذار: لم أتمكن من التحقق من هوية المضيف."
+
+#: kio_sftp.cpp:709
+msgid "Warning: Host's identity changed."
+msgstr "إنذار: هوية المضيف قد تغيرت."
+
+#: kio_sftp.cpp:720 kio_sftp.cpp:721
+msgid "Authentication failed."
+msgstr "فشل التوثيق."
+
+#: kio_sftp.cpp:735 kio_sftp.cpp:753
+msgid "Connection failed."
+msgstr "فشل الاتصال."
+
+#: kio_sftp.cpp:736 ksshprocess.cpp:833 ksshprocess.cpp:977
+msgid "Connection closed by remote host."
+msgstr "أغلق الاتصال من المضيف البعيد."
+
+#: kio_sftp.cpp:755
+#, kde-format
+msgid "unexpected SFTP error: %1"
+msgstr "خطأ SFTP غير متوقع: %1"
+
+#: kio_sftp.cpp:802
+#, kde-format
+msgid "SFTP version %1"
+msgstr "SFTP إصدار %1 "
+
+#: kio_sftp.cpp:808
+msgid "Protocol error."
+msgstr "خطأ في البروتوكول."
+
+#: kio_sftp.cpp:814
+#, kde-format
+msgid "Successfully connected to %1"
+msgstr "تم الاتصال بنجاح بـ:%1"
+
+#: kio_sftp.cpp:1172
+msgid "An internal error occurred. Please try again."
+msgstr "حصل خطأ داخلي. من فضلك حاول مرة ثانية"
+
+#: kio_sftp.cpp:1193
+#, kde-format
+msgid ""
+"Unknown error was encountered while copying the file to '%1'. Please try "
+"again."
+msgstr "خطأ مجهول صادف عملية نسخ الملف إلى '%1'. من فضلك حاول مرة ثانية."
+
+#: kio_sftp.cpp:1411
+msgid "The remote host does not support renaming files."
+msgstr "المضيف البعيد لا يدعم تغيير أسماء الملفات."
+
+#: kio_sftp.cpp:1460
+msgid "The remote host does not support creating symbolic links."
+msgstr "المضيف البعيد لا يدعم إنشاء الوصلات الرمزية."
+
+#: kio_sftp.cpp:1594
+msgid "Connection closed"
+msgstr "أغلق الاتصال."
+
+#: kio_sftp.cpp:1596
+msgid "Could not read SFTP packet"
+msgstr "تعذرت قراءة حزمة SFTP."
+
+#: kio_sftp.cpp:1708
+msgid "End of file."
+msgstr "نهاية الملف"
+
+#: kio_sftp.cpp:1717
+msgid "SFTP command failed for an unknown reason."
+msgstr "فشل أمر SFTP لسبب مجهول."
+
+#: kio_sftp.cpp:1721
+msgid "The SFTP server received a bad message."
+msgstr "استلم خادم SFTP رسالة سيئة."
+
+#: kio_sftp.cpp:1725
+msgid "You attempted an operation unsupported by the SFTP server."
+msgstr "لقد حاولت القيام بعملية غير مدعومة من خادم SFTP."
+
+#: kio_sftp.cpp:1729
+#, kde-format
+msgid "Error code: %1"
+msgstr "رمز الخطأ: %1"
+
+#: ksshprocess.cpp:449
+msgid "Cannot specify a subsystem and command at the same time."
+msgstr "لا يمكن تحديد نظام فرعي و أمر في نفس الوقت"
+
+#: ksshprocess.cpp:770
+msgid "No options provided for ssh execution."
+msgstr "لا خيارات متوفرة لــ ssh التنفيذية"
+
+#: ksshprocess.cpp:777
+msgid "Failed to execute ssh process."
+msgstr "فشل أثناء تنفيذ عملية ssh"
+
+#: ksshprocess.cpp:801 ksshprocess.cpp:828 ksshprocess.cpp:944
+#: ksshprocess.cpp:1015
+msgid "Error encountered while talking to ssh."
+msgstr "حدث خطأ أثناء التحدث إلى ssh"
+
+#: ksshprocess.cpp:878
+msgid "Please supply a password."
+msgstr "من فضلك أدخل كلمة السر."
+
+#: ksshprocess.cpp:916
+msgid "Please supply the passphrase for your SSH private key."
+msgstr "من فضلك قم بتوفير كلمة السر لمفتاح SSH الخاص بك."
+
+#: ksshprocess.cpp:930
+#, kde-format
+msgid "Authentication to %1 failed"
+msgstr "التوثيق لـ %1 فشل"
+
+#: ksshprocess.cpp:952
+#, kde-format
+msgid ""
+"The identity of the remote host '%1' could not be verified because the "
+"host's key is not in the \"known hosts\" file."
+msgstr ""
+"تعذر التحقق من هوية المضيف البعيد '%1' لأن مفتاح المضيف ليس موجوداً في ملف "
+"\"known hosts\"."
+
+#: ksshprocess.cpp:958
+msgid ""
+" Manually, add the host's key to the \"known hosts\" file or contact your "
+"administrator."
+msgstr ""
+" بشكل يدوي ، قم بإضافة مفتاح المضيف الى ملف \"known hosts\" أو اتصل بمدير "
+"النظام."
+
+#: ksshprocess.cpp:964
+#, kde-format
+msgid " Manually, add the host's key to %1 or contact your administrator."
+msgstr " بشكل يدوي ، أضف مفتاح المضيف إلى %1 أو اتصل بمدير النظام."
+
+#: ksshprocess.cpp:996
+#, kde-format
+msgid ""
+"The identity of the remote host '%1' could not be verified. The host's key "
+"fingerprint is:\n"
+"%2\n"
+"You should verify the fingerprint with the host's administrator before "
+"connecting.\n"
+"\n"
+"Would you like to accept the host's key and connect anyway? "
+msgstr ""
+"تعذر التحقق من هوية المضيف البعيد '%1'. بصمة مفتاح المضيف هي:\n"
+"%2\n"
+"يجب عليك التحقق من البصمة مع مدير المضيف قبل الاتصال.\n"
+"\n"
+"هل تود قبول مفتاح المضيف و الاتصال على أي حال؟  "
+
+#: ksshprocess.cpp:1023
+#, kde-format
+msgid ""
+"WARNING: The identity of the remote host '%1' has changed!\n"
+"\n"
+"Someone could be eavesdropping on your connection, or the administrator may "
+"have just changed the host's key. Either way, you should verify the host's "
+"key fingerprint with the host's administrator. The key fingerprint is:\n"
+"%2\n"
+"Add the correct host key to \"%3\" to get rid of this message."
+msgstr ""
+"إنذار: هوية المضيف البعيد '%1' قد تغيرت!\n"
+"\n"
+"قد يكون هناك من يتجسس على اتصالك ، أو ربما أن مدير المضيف قد غير المفتاح. "
+"على أي حال ، يجب عليك التحقق من بصمة مفتاح المضيف مع مدير المضيف. بصمة "
+"المفتاح هي:\n"
+"%2\n"
+"أضف مفتاح المضيف الصحيح \"%3\" للتخلص من هذه الرسالة."
+
+#: ksshprocess.cpp:1058
+#, kde-format
+msgid ""
+"WARNING: The identity of the remote host '%1' has changed!\n"
+"\n"
+"Someone could be eavesdropping on your connection, or the administrator may "
+"have just changed the host's key. Either way, you should verify the host's "
+"key fingerprint with the host's administrator before connecting. The key "
+"fingerprint is:\n"
+"%2\n"
+"\n"
+"Would you like to accept the host's new key and connect anyway?"
+msgstr ""
+"إنذار: هوية المضيف البعيد '%1' قد تغيرت!\n"
+"\n"
+"قد يكون هناك من يتجسس على اتصالك ، أو ربما أن مدير المضيف قد غير المفتاح. "
+"على أي حال ، يجب عليك التحقق من بصمة مفتاح المضيف مع مدير المضيف. بصمة "
+"المفتاح هي:\n"
+"%2\n"
+"\n"
+"هل تود قبول مفتاح المضيف الجديد و الاتصال على أي حال؟"
+
+#: ksshprocess.cpp:1080
+msgid "Host key was rejected."
+msgstr "رفض مفتاح المضيف."
+
+#~ msgid "Please enter a username and password"
+#~ msgstr "من فضلك أدخل اسم المستخدم و كلمة السر."
+
+#~ msgid "File does not exist."
+#~ msgstr "الملف غير موجود"
+
+#~ msgid "Access is denied."
+#~ msgstr "النفاذ ممنوع"

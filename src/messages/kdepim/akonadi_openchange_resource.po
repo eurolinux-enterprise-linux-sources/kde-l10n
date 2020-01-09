@@ -1,0 +1,91 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# walid <01walid@gmail.com>, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_openchange_resource\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-06 11:05+0200\n"
+"PO-Revision-Date: 2009-07-20 13:44+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: profiledialog.cpp:41
+msgid "Profile Configuration"
+msgstr "ضبط التشكيلة"
+
+#: profiledialog.cpp:45
+msgid "OpenChange Profiles"
+msgstr "تشكيلات OpenChange"
+
+#: profiledialog.cpp:60
+msgid "Add Profile"
+msgstr "أضف تشكيلة"
+
+#: profiledialog.cpp:65
+msgid "Edit Profile"
+msgstr "حرر تشكيلة"
+
+#: profiledialog.cpp:70
+msgid "Make default"
+msgstr "اجعله افتراضي"
+
+#: profiledialog.cpp:75
+msgid "Remove Profile"
+msgstr "احذف التشكيلة"
+
+#: profiledialog.cpp:80
+msgid "Close"
+msgstr "أغلق"
+
+#: profileeditdialog.cpp:45
+msgid "Add / Edit Profile"
+msgstr "أضف/حرر التشكيلة"
+
+#: profileeditdialog.cpp:49
+msgid "Profile name"
+msgstr "اسم التشكيلة"
+
+#: profileeditdialog.cpp:57
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: profileeditdialog.cpp:65
+msgid "Password"
+msgstr "كلمة السر"
+
+#: profileeditdialog.cpp:74
+msgid "Server name or address"
+msgstr "اسم الخادم أو عنوانه"
+
+#: profileeditdialog.cpp:82
+msgid "Local machine name or address"
+msgstr "اسم الآلة المحلية أو عنوانها"
+
+#: profileeditdialog.cpp:93
+msgid "Authentication domain"
+msgstr "مجال الاستيثاق"
+
+#: profileeditdialog.cpp:99
+msgid ""
+"The authentication domain (also known as realm) to use for this account. Ask "
+"your exchange server administrator if you are do not know about this."
+msgstr ""
+"مجال الاستيثاق (أيضا يعرف كـ realm) لاستعماله لهذا الحساب. اسأل مدير الخادم  "
+"exchange إذا كنت لاتعرف عن هذا الأمر."
+
+#: profileeditdialog.cpp:106
+msgid "OK"
+msgstr "موافق"
+
+#: profileeditdialog.cpp:111
+msgid "Cancel"
+msgstr "ألغِ"

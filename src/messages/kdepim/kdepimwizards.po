@@ -1,0 +1,703 @@
+# translation of kdepimwizards.po to
+# Language AR translations for PACKAGE package.
+#
+# Automatically generated, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepimwizards\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-07-17 07:09+0200\n"
+"PO-Revision-Date: 2007-10-14 15:53+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: egroupwaremain.cpp:35
+#, fuzzy
+msgid "eGroupware Server Configuration Wizard"
+msgstr "الخادم إعدادات المساعد"
+
+#: egroupwaremain.cpp:40 groupwisemain.cpp:40 kolabmain.cpp:39
+#: scalixmain.cpp:38 sloxmain.cpp:39
+#, fuzzy
+msgid "Verbose output"
+msgstr "بالتفاصيل مخرجات"
+
+#: egroupwarewizard.cpp:64 egroupwarewizard.cpp:91
+#, fuzzy
+msgid "Create eGroupware Address Book Resource"
+msgstr "إنشاء دفتر العناوين مورد"
+
+#: egroupwarewizard.cpp:80 egroupwarewizard.cpp:141 egroupwarewizard.cpp:207
+#: overviewpage.cpp:65
+msgid "eGroupware"
+msgstr ""
+
+#: egroupwarewizard.cpp:129 egroupwarewizard.cpp:155
+#, fuzzy
+msgid "Create eGroupware Calendar Resource"
+msgstr "إنشاء التقويم مورد"
+
+#: egroupwarewizard.cpp:193 egroupwarewizard.cpp:221
+#, fuzzy
+msgid "Create eGroupware Notes Resource"
+msgstr "إنشاء ملاحظات مورد"
+
+#: egroupwarewizard.cpp:306
+#, fuzzy
+msgid "eGroupware Server"
+msgstr "الخادم"
+
+#: egroupwarewizard.cpp:311
+#, fuzzy
+msgid "&Server name:"
+msgstr "الخادم الإسم:"
+
+#: egroupwarewizard.cpp:317
+#, fuzzy
+msgid "&Domain name:"
+msgstr "اسم الن&طاق:"
+
+#: egroupwarewizard.cpp:323
+#, fuzzy
+msgid "&Username:"
+msgstr "&إسم المستخدم:"
+
+#: egroupwarewizard.cpp:329
+#, fuzzy
+msgid "&Password:"
+msgstr "&كلمة المرور:"
+
+#: egroupwarewizard.cpp:336
+#, fuzzy
+msgid "&Location xmlrpc.php on server:"
+msgstr "الموقع PHP يعمل خادم:"
+
+#: egroupwarewizard.cpp:342
+#, fuzzy
+msgid ""
+"Some servers may not have the xmlrpc.php file in the 'egroupware' folder of "
+"the server. With this option it is possible to eventually change the path to "
+"that file. For most servers, the default value is OK."
+msgstr ""
+"بعض خوادم أيار ليس PHP ملفّ بوصة مجلد من خادم مع خيار الإيطالية هو إلى تغيير "
+"المسار إلى ملفّ لـ خوادم افتراضي قيمة هو موافق."
+
+#: egroupwarewizard.cpp:344
+#, fuzzy
+msgid "Use SS&L connection"
+msgstr "إستعمل SS&L اتصال"
+
+#: egroupwarewizard.cpp:362
+#, fuzzy
+msgid "Invalid path to xmlrpc.php entered."
+msgstr "غير صحيح المسار إلى PHP."
+
+#: egroupwarewizard.cpp:369 groupwisewizard.cpp:364 groupwisewizard.cpp:370
+#: kolabwizard.cpp:325 scalixwizard.cpp:462 sloxwizard.cpp:273
+#, fuzzy
+msgid "Please fill in all fields."
+msgstr "رجاء ملء بوصة الكل."
+
+#: groupwaremain.cpp:35
+#, fuzzy
+msgid "KDE-PIM Groupware Configuration Wizard"
+msgstr "كيدي مدير المعلومات الشخصي برامج المجموعات إعدادات المساعد"
+
+#: groupwaremain.cpp:39
+#, fuzzy
+msgid "The server type"
+msgstr "الـ خادم نوع"
+
+#: groupwarewizard.cpp:34 overviewpage.cpp:50
+#, fuzzy
+msgid "KDE Groupware Wizard"
+msgstr "كيدي برامج المجموعات المساعد"
+
+#: groupwisemain.cpp:35
+#, fuzzy
+msgid "Novell GroupWise Configuration Wizard"
+msgstr "GroupWise إعدادات المساعد"
+
+#: groupwisewizard.cpp:57
+#, fuzzy
+msgid "Create GroupWise Calendar Resource"
+msgstr "إنشاء GroupWise التقويم مورد"
+
+#: groupwisewizard.cpp:68 groupwisewizard.cpp:134 groupwisewizard.cpp:246
+#, fuzzy
+msgid "GroupWise"
+msgstr "GroupWise"
+
+#: groupwisewizard.cpp:87
+#, fuzzy
+msgid "Update GroupWise Calendar Resource"
+msgstr "تحديث GroupWise التقويم مورد"
+
+#: groupwisewizard.cpp:117
+#, fuzzy
+msgid "Create GroupWise Address Book Resource"
+msgstr "إنشاء GroupWise دفتر العناوين مورد"
+
+#: groupwisewizard.cpp:146
+#, fuzzy
+msgid "Update GroupWise Address Book Resource"
+msgstr "تحديث GroupWise دفتر العناوين مورد"
+
+#: groupwisewizard.cpp:273 overviewpage.cpp:79
+#, fuzzy
+msgid "Novell GroupWise"
+msgstr "Novell GroupWise"
+
+#: groupwisewizard.cpp:279 kolabwizard.cpp:263 sloxwizard.cpp:232
+#, fuzzy
+msgid "Server name:"
+msgstr "إسم الخادم:"
+
+#: groupwisewizard.cpp:284
+#, fuzzy
+msgid "Path to SOAP interface:"
+msgstr "المسار إلى واجهة:"
+
+#: groupwisewizard.cpp:289
+#, fuzzy
+msgid "Port:"
+msgstr "المنفذ:"
+
+#: groupwisewizard.cpp:294 sloxwizard.cpp:237
+#, fuzzy
+msgid "User name:"
+msgstr "اسم المستخدم:"
+
+#: groupwisewizard.cpp:299 kolabwizard.cpp:280 scalixwizard.cpp:405
+#: sloxwizard.cpp:242
+#, fuzzy
+msgid "Password:"
+msgstr "كلمة المرور:"
+
+#: groupwisewizard.cpp:305 kolabwizard.cpp:286 scalixwizard.cpp:413
+#: sloxwizard.cpp:248
+#, fuzzy
+msgid "Save password"
+msgstr "احفظ كلمة السر"
+
+#: groupwisewizard.cpp:308 sloxwizard.cpp:251
+#, fuzzy
+msgid "Encrypt communication with server"
+msgstr "تشفير تواصل مع خادم"
+
+#: groupwisewizard.cpp:314
+#, fuzzy
+msgid "Mail"
+msgstr "بريد"
+
+#: groupwisewizard.cpp:320
+#, fuzzy
+msgid "Create Mail Account"
+msgstr "إنشاء بريد الحساب"
+
+#: groupwisewizard.cpp:327 kolabwizard.cpp:268 scalixwizard.cpp:381
+#, fuzzy
+msgid "Email address:"
+msgstr "عنوان البريد الالكترونى:"
+
+#: groupwisewizard.cpp:333 scalixwizard.cpp:374
+#, fuzzy
+msgid "Full name:"
+msgstr "الإسم الكامل:"
+
+#: groupwisewizard.cpp:368
+#, fuzzy
+msgid "Invalid email address entered."
+msgstr "غير صحيح بريد إلكتروني عنوان."
+
+#: kmailchanges.cpp:39
+#, fuzzy
+msgid "Calendar"
+msgstr "التقويم"
+
+#: kmailchanges.cpp:40
+#, fuzzy
+msgid "Contacts"
+msgstr "المراسَلون"
+
+#: kmailchanges.cpp:41
+#, fuzzy
+msgid "Notes"
+msgstr "ملاحظات"
+
+#: kmailchanges.cpp:42
+#, fuzzy
+msgid "Tasks"
+msgstr "المهام"
+
+#: kmailchanges.cpp:43
+#, fuzzy
+msgid "Journal"
+msgstr "سّجل يومي"
+
+#: kmailchanges.cpp:152
+#, fuzzy
+msgid "Create Disconnected IMAP Account for KMail"
+msgstr "إنشاء انقطع الاتصال IMAP الحساب لـ KMail"
+
+#: kmailchanges.cpp:312
+#, fuzzy
+msgid "Create Online IMAP Account for KMail"
+msgstr "إنشاء متصل IMAP الحساب لـ KMail"
+
+#: kolabkmailchanges.cpp:133
+#, fuzzy
+msgid "Kolab Server Mail"
+msgstr "Kolab الخادم بريد"
+
+#: kolabkmailchanges.cpp:149 kolabwizard.cpp:110 kolabwizard.cpp:130
+#: kolabwizard.cpp:151 kolabwizard.cpp:258
+#, fuzzy
+msgid "Kolab Server"
+msgstr "خادم Kolab"
+
+#: kolabmain.cpp:35
+#, fuzzy
+msgid "Kolab Configuration Wizard"
+msgstr "Kolab إعدادات المساعد"
+
+#: kolabwizard.cpp:50 scalixwizard.cpp:58
+#, fuzzy
+msgid "Setup LDAP Search Account"
+msgstr "التعيين LDAP ابحث الحساب"
+
+#: kolabwizard.cpp:101 scalixwizard.cpp:159
+#, fuzzy
+msgid "Create Calendar IMAP Resource"
+msgstr "إنشاء التقويم IMAP مورد"
+
+#: kolabwizard.cpp:121 scalixwizard.cpp:179
+#, fuzzy
+msgid "Create Contact IMAP Resource"
+msgstr "إنشاء المراسَل IMAP مورد"
+
+#: kolabwizard.cpp:142
+#, fuzzy
+msgid "Create Notes IMAP Resource"
+msgstr "إنشاء ملاحظات IMAP مورد"
+
+#: kolabwizard.cpp:272
+#, fuzzy
+msgid "Your email address on the Kolab Server. Format: <i>name@example.net</i>"
+msgstr ""
+"ملكك بريد إلكتروني عنوان يعمل Kolab الخادم تنسيق<i>name@example.net</i>"
+
+#: kolabwizard.cpp:275
+#, fuzzy
+msgid "Real name:"
+msgstr "الاسم الحقيقي:"
+
+#: kolabwizard.cpp:291
+#, fuzzy
+msgid "Use an online IMAP account for non-groupware folders"
+msgstr ""
+"إستعمل متصل\n"
+"على الخط IMAP الحساب لـ"
+
+#: kolabwizard.cpp:295
+#, fuzzy
+msgid "Server Version"
+msgstr "نسخة الخادم"
+
+#: kolabwizard.cpp:298
+#, fuzzy
+msgid "Choose the version of the Kolab Server you are using."
+msgstr "اختر النسخة من Kolab الخادم."
+
+#: kolabwizard.cpp:299
+#, fuzzy
+msgid "Kolab 1"
+msgstr "Kolab 1"
+
+#: kolabwizard.cpp:301
+#, fuzzy
+msgid "Kolab 2"
+msgstr "Kolab 2"
+
+#: overviewpage.cpp:62
+#, fuzzy
+msgid "Select the type of server you would like Kontact to connect to:"
+msgstr "انتقِ نوع من خادم اتصال كيدي إلى:"
+
+#: overviewpage.cpp:71
+#, fuzzy
+msgid "Kolab"
+msgstr "Kolab"
+
+#: overviewpage.cpp:75
+#, fuzzy
+msgid "SUSE Linux Openexchange (SLOX)"
+msgstr "لينكس"
+
+#. i18n: file: egroupware.kcfg:10
+#. i18n: ectx: label, entry (Server), group (General)
+#. i18n: file: groupwise.kcfg:10
+#. i18n: ectx: label, entry, group (General)
+#. i18n: file: slox.kcfg:10
+#. i18n: ectx: label, entry (Server), group (General)
+#: rc.cpp:3 rc.cpp:24 rc.cpp:90
+#, fuzzy
+msgid "Server name"
+msgstr "إسم الخادم"
+
+#. i18n: file: egroupware.kcfg:14
+#. i18n: ectx: label, entry (Domain), group (General)
+#: rc.cpp:6
+#, fuzzy
+msgid "Domain name"
+msgstr "اسم النطاق"
+
+#. i18n: file: egroupware.kcfg:18
+#. i18n: ectx: label, entry (User), group (General)
+#. i18n: file: groupwise.kcfg:17
+#. i18n: ectx: label, entry, group (General)
+#. i18n: file: slox.kcfg:14
+#. i18n: ectx: label, entry (User), group (General)
+#: rc.cpp:9 rc.cpp:30 rc.cpp:93
+#, fuzzy
+msgid "User name"
+msgstr "اسم المستخدم"
+
+#. i18n: file: egroupware.kcfg:22
+#. i18n: ectx: label, entry (Password), group (General)
+#. i18n: file: groupwise.kcfg:24
+#. i18n: ectx: label, entry, group (General)
+#. i18n: file: slox.kcfg:18
+#. i18n: ectx: label, entry (Password), group (General)
+#: rc.cpp:12 rc.cpp:36 rc.cpp:96
+#, fuzzy
+msgid "User password"
+msgstr "المستخدم كلمة مرور"
+
+#. i18n: file: egroupware.kcfg:26
+#. i18n: ectx: label, entry (xmlrpc_location), group (General)
+#: rc.cpp:15
+#, fuzzy
+msgid "XMLRPC location on server"
+msgstr "موقع يعمل خادم"
+
+#. i18n: file: egroupware.kcfg:30
+#. i18n: ectx: label, entry (UseSSLConnection), group (General)
+#: rc.cpp:18
+#, fuzzy
+msgid "Use SSL connection"
+msgstr "إستعمل SSL اتصال"
+
+#. i18n: file: egroupware.kcfg:34
+#. i18n: ectx: label, entry (LogFile), group (General)
+#. i18n: file: groupwise.kcfg:47
+#. i18n: ectx: label, entry, group (General)
+#. i18n: file: slox.kcfg:30
+#. i18n: ectx: label, entry (LogFile), group (General)
+#: rc.cpp:21 rc.cpp:54 rc.cpp:105
+#, fuzzy
+msgid "Log File"
+msgstr "ملف سجل الوقائع"
+
+#. i18n: file: groupwise.kcfg:13
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:27
+#, fuzzy
+msgid "Port"
+msgstr "منفذ"
+
+#. i18n: file: groupwise.kcfg:20
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:33
+#, fuzzy
+msgid "Path to SOAP interface"
+msgstr "المسار إلى واجهة"
+
+#. i18n: file: groupwise.kcfg:28
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:39
+#, fuzzy
+msgid "Email Address"
+msgstr "عنوان البريد الإلكتروني"
+
+#. i18n: file: groupwise.kcfg:31
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:42
+#, fuzzy
+msgid "Full Name of User"
+msgstr "كامل الاسم من المستخدم"
+
+#. i18n: file: groupwise.kcfg:34
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:45
+#, fuzzy
+msgid "Create email account"
+msgstr "إنشاء بريد إلكتروني الحساب"
+
+#. i18n: file: groupwise.kcfg:39
+#. i18n: ectx: label, entry, group (General)
+#. i18n: file: kolab.kcfg:26
+#. i18n: ectx: label, entry (SavePassword), group (General)
+#. i18n: file: slox.kcfg:22
+#. i18n: ectx: label, entry (SavePassword), group (General)
+#: rc.cpp:48 rc.cpp:81 rc.cpp:99
+#, fuzzy
+msgid "Save Password"
+msgstr "احفظ كلمة السر"
+
+#. i18n: file: groupwise.kcfg:43
+#. i18n: ectx: label, entry, group (General)
+#. i18n: file: slox.kcfg:26
+#. i18n: ectx: label, entry (UseHttps), group (General)
+#: rc.cpp:51 rc.cpp:102
+#, fuzzy
+msgid "Use HTTPS"
+msgstr "إستعمل HTTPS"
+
+#. i18n: file: groupwise.kcfg:53
+#. i18n: ectx: label, entry, group (Resources)
+#. i18n: file: slox.kcfg:36
+#. i18n: ectx: label, entry (KcalResource), group (Resources)
+#: rc.cpp:57 rc.cpp:108
+#, fuzzy
+msgid "Id of KCal resource"
+msgstr "هوية من مورِد"
+
+#. i18n: file: groupwise.kcfg:56
+#. i18n: ectx: label, entry, group (Resources)
+#. i18n: file: slox.kcfg:39
+#. i18n: ectx: label, entry (KabcResource), group (Resources)
+#: rc.cpp:60 rc.cpp:111
+#, fuzzy
+msgid "Id of KABC resource"
+msgstr "هوية من مورِد"
+
+#. i18n: file: groupwise.kcfg:59
+#. i18n: ectx: label, entry, group (Resources)
+#: rc.cpp:63
+#, fuzzy
+msgid "Id of KMail account for receiving mail"
+msgstr "هوية من KMail الحساب لـ بريد"
+
+#. i18n: file: groupwise.kcfg:63
+#. i18n: ectx: label, entry, group (Resources)
+#: rc.cpp:66
+#, fuzzy
+msgid "Id of KMail transport for sending mail"
+msgstr "هوية من KMail نقل لـ بريد"
+
+#. i18n: file: kolab.kcfg:10
+#. i18n: ectx: label, entry (Server), group (General)
+#: rc.cpp:69
+#, fuzzy
+msgid "Kolab server name"
+msgstr "Kolab خادم الإسم"
+
+#. i18n: file: kolab.kcfg:14
+#. i18n: ectx: label, entry (User), group (General)
+#: rc.cpp:72
+#, fuzzy
+msgid "Kolab user name"
+msgstr "Kolab مستخدم الإسم"
+
+#. i18n: file: kolab.kcfg:18
+#. i18n: ectx: label, entry (RealName), group (General)
+#: rc.cpp:75
+#, fuzzy
+msgid "Real user name"
+msgstr "حقيقي مستخدم الإسم"
+
+#. i18n: file: kolab.kcfg:22
+#. i18n: ectx: label, entry (Password), group (General)
+#: rc.cpp:78
+#, fuzzy
+msgid "Kolab user password"
+msgstr "Kolab مستخدم كلمة مرور"
+
+#. i18n: file: kolab.kcfg:31
+#. i18n: ectx: label, entry (UseOnlineForNonGroupware), group (General)
+#: rc.cpp:84
+#, fuzzy
+msgid "Use Online IMAP account for non groupware folders"
+msgstr "إستعمل متصل IMAP الحساب لـ"
+
+#. i18n: file: kolab.kcfg:36
+#. i18n: ectx: label, entry (Kolab1Legacy), group (General)
+#: rc.cpp:87
+#, fuzzy
+msgid "Enable Kolab 1 Legacy settings"
+msgstr "مكّن Kolab التراث خصائص"
+
+#: rc.cpp:112
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:113
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"
+
+#: scalixkmailchanges.cpp:117 scalixwizard.cpp:168 scalixwizard.cpp:188
+#: scalixwizard.cpp:234 scalixwizard.cpp:238 scalixwizard.cpp:369
+#, fuzzy
+msgid "Scalix Server"
+msgstr "خادم Kolab"
+
+#: scalixmain.cpp:35
+#, fuzzy
+msgid "Scalix Configuration Wizard"
+msgstr "Kolab إعدادات المساعد"
+
+#: scalixwizard.cpp:96
+#, fuzzy
+msgid "Setup ScalixAdmin Account"
+msgstr "التعيين LDAP ابحث الحساب"
+
+#: scalixwizard.cpp:200
+msgid "Synchronize Scalix Account"
+msgstr ""
+
+#: scalixwizard.cpp:207
+msgid "Preparing initial synchronization with Scalix server..."
+msgstr ""
+
+#: scalixwizard.cpp:220
+msgid ""
+"Unable to start KMail to trigger initial synchronization with Scalix server"
+msgstr ""
+
+#: scalixwizard.cpp:379
+msgid "Your full name. Example: <i>Joe User</i>"
+msgstr ""
+
+#: scalixwizard.cpp:386
+#, fuzzy
+msgid ""
+"Your email address on the Scalix Server. Example: <i>name@crossplatform.com</"
+"i>"
+msgstr ""
+"ملكك بريد إلكتروني عنوان يعمل Kolab الخادم تنسيق<i>name@example.net</i>"
+
+#: scalixwizard.cpp:389
+#, fuzzy
+msgid "Server:"
+msgstr "إسم الخادم:"
+
+#: scalixwizard.cpp:394
+msgid "The name or IP of the Scalix Server. Example: <i>scalix.domain.com</i>"
+msgstr ""
+
+#: scalixwizard.cpp:397
+#, fuzzy
+msgid "Username:"
+msgstr "&إسم المستخدم:"
+
+#: scalixwizard.cpp:402
+msgid "The user respectively login name. Example: <i>joe</i>"
+msgstr ""
+
+#: scalixwizard.cpp:411
+msgid "The password to your login."
+msgstr ""
+
+#: scalixwizard.cpp:415
+msgid "Shall the password be saved in KWallet?"
+msgstr ""
+
+#: scalixwizard.cpp:417
+#, fuzzy
+msgid "Use secure connection:"
+msgstr "إستعمل SSL اتصال"
+
+#: scalixwizard.cpp:420
+#, fuzzy
+msgid "No Encryption"
+msgstr "إستعمل SSL اتصال"
+
+#: scalixwizard.cpp:421
+#, fuzzy
+msgid "TLS Encryption"
+msgstr "إستعمل SSL اتصال"
+
+#: scalixwizard.cpp:422
+#, fuzzy
+msgid "SSL Encryption"
+msgstr "إستعمل SSL اتصال"
+
+#: scalixwizard.cpp:425
+msgid "Choose the encryption type that is supported by your server."
+msgstr ""
+
+#: scalixwizard.cpp:427
+msgid "Authentication type:"
+msgstr ""
+
+#: scalixwizard.cpp:430
+#, fuzzy
+msgid "Password"
+msgstr "كلمة المرور:"
+
+#: scalixwizard.cpp:431
+msgid "NTLM / SPA"
+msgstr ""
+
+#: scalixwizard.cpp:432
+msgid "GSSAPI"
+msgstr ""
+
+#: scalixwizard.cpp:433
+msgid "DIGEST-MD5"
+msgstr ""
+
+#: scalixwizard.cpp:434
+msgid "CRAM-MD5"
+msgstr ""
+
+#: scalixwizard.cpp:437
+msgid "Choose the authentication type that is supported by your server."
+msgstr ""
+
+#: sloxmain.cpp:34
+#, fuzzy
+msgid "SUSE LINUX Openexchange Server Configuration Wizard"
+msgstr "لينكس الخادم إعدادات المساعد"
+
+#: sloxwizard.cpp:57
+#, fuzzy
+msgid "Create SLOX Calendar Resource"
+msgstr "إنشاء التقويم مورد"
+
+#: sloxwizard.cpp:69 sloxwizard.cpp:131
+#, fuzzy
+msgid "Openexchange Server"
+msgstr "الخادم"
+
+#: sloxwizard.cpp:86
+#, fuzzy
+msgid "Update SLOX Calendar Resource"
+msgstr "تحديث التقويم مورد"
+
+#: sloxwizard.cpp:117
+#, fuzzy
+msgid "Create SLOX Address Book Resource"
+msgstr "إنشاء دفتر العناوين مورد"
+
+#: sloxwizard.cpp:143
+#, fuzzy
+msgid "Update SLOX Address Book Resource"
+msgstr "تحديث دفتر العناوين مورد"
+
+#: sloxwizard.cpp:226
+#, fuzzy
+msgid "SUSE LINUX OpenExchange Server"
+msgstr "لينكس الخادم"

@@ -1,0 +1,220 @@
+# translation of kuiserver.po to Arabic
+# translation of kuiserver.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Abdulaziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kuiserver\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-28 11:15+0200\n"
+"PO-Revision-Date: 2009-07-08 14:36+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: progresslistdelegate.cpp:173
+#, kde-format
+msgid "%1 of %2 processed at %3/s"
+msgstr "%1 من %2 تنفذ بسرعة %3/ثانية"
+
+#: progresslistdelegate.cpp:175
+#, kde-format
+msgid "%1 of %2 processed"
+msgstr "%1 من %2 نفذت"
+
+#: progresslistdelegate.cpp:177
+#, kde-format
+msgid "%1 processed at %2/s"
+msgstr "%1 تنفذ بسرعة %2/ثانية"
+
+#: progresslistdelegate.cpp:179
+#, kde-format
+msgid "%1 processed"
+msgstr "%1 نفذت"
+
+#: progresslistdelegate.cpp:265 progresslistdelegate.cpp:309
+msgid "Pause"
+msgstr "توقف"
+
+#: progresslistdelegate.cpp:266
+msgid "Cancel"
+msgstr "ألغ"
+
+#: progresslistdelegate.cpp:267
+msgid "Clear"
+msgstr "امح"
+
+#: progresslistdelegate.cpp:313
+msgid "Resume"
+msgstr "استأنف"
+
+#. i18n: file: kuiserversettings.kcfg:8
+#. i18n: ectx: label, entry, group (Configuration)
+#: rc.cpp:3
+msgid "Move them to a different list."
+msgstr "انقل العنصر إلى قائمة مختلفة."
+
+#. i18n: file: kuiserversettings.kcfg:12
+#. i18n: ectx: label, entry, group (Configuration)
+#: rc.cpp:6
+msgid "Remove them."
+msgstr "أزل العنصر."
+
+#. i18n: file: kuiserversettings.kcfg:16
+#. i18n: ectx: label, entry, group (Configuration)
+#: rc.cpp:9
+msgid "Show all jobs in a list."
+msgstr "أظهر كلّ المهام في لائحة."
+
+#. i18n: file: kuiserversettings.kcfg:20
+#. i18n: ectx: label, entry, group (Configuration)
+#: rc.cpp:12
+msgid "Show all jobs in a tree."
+msgstr "أظهر كلّ المهام في عرض شجري"
+
+#. i18n: file: kuiserversettings.kcfg:24
+#. i18n: ectx: label, entry, group (Configuration)
+#: rc.cpp:15
+msgid "Show separate windows."
+msgstr "أظهر النوافذ المفصولة."
+
+#. i18n: file: uiserverConfigDialog.ui:30
+#. i18n: ectx: property (title), widget (QGroupBox, groupFinishedJobs)
+#: rc.cpp:18
+msgid "Finished Jobs"
+msgstr "المهام المنتهية"
+
+#. i18n: file: uiserverConfigDialog.ui:42
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioMove)
+#: rc.cpp:21
+msgid "Move them to a different list"
+msgstr "انقل العنصر إلى قائمة مختلفة "
+
+#. i18n: file: uiserverConfigDialog.ui:49
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioRemove)
+#: rc.cpp:24
+msgid "Remove them"
+msgstr "أزل العنصر"
+
+#. i18n: file: uiserverConfigDialog.ui:59
+#. i18n: ectx: property (title), widget (QGroupBox, groupAppearance)
+#: rc.cpp:27
+msgid "Appearance"
+msgstr "المظهر"
+
+#. i18n: file: uiserverConfigDialog.ui:71
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioList)
+#: rc.cpp:30
+msgid "Show all jobs in a list"
+msgstr "أظهر كلّ المهام في لائحة"
+
+#. i18n: file: uiserverConfigDialog.ui:78
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_radioTree)
+#: rc.cpp:33
+msgid "Show all jobs in a tree"
+msgstr "أظهر كلّ المهام في عرض شجري"
+
+#. i18n: file: uiserverConfigDialog.ui:98
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkShowSeparateWindows)
+#: rc.cpp:36
+msgid "Show separate windows"
+msgstr "أظهر النوافذ المفصولة"
+
+#: rc.cpp:37
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "يوسف الشهيبي, زايد السعيدي"
+
+#: rc.cpp:38
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "chahibi@gmail.com,zayed.alsaidi@gmail.com"
+
+#: uiserver.cpp:125 uiserver.cpp:141
+#, kde-format
+msgid "%1 file"
+msgid_plural "%1 files"
+msgstr[0] "لا شيء"
+msgstr[1] "ملف واحد"
+msgstr[2] "ملفين"
+msgstr[3] "%1 ملفات"
+msgstr[4] "%1 ملفا"
+msgstr[5] "%1 ملف"
+
+#: uiserver.cpp:128 uiserver.cpp:144
+#, kde-format
+msgid "%1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 مجلد"
+msgstr[1] "مجلد واحد"
+msgstr[2] "مجلدان"
+msgstr[3] "%1 مجلدات"
+msgstr[4] "%1 مجلدا"
+msgstr[5] "%1 مجلد"
+
+#: uiserver.cpp:208
+msgid "Configure..."
+msgstr "اضبط..."
+
+#: uiserver.cpp:227
+msgid "Search"
+msgstr "ابحث"
+
+#: uiserver.cpp:243
+msgid "In Progress"
+msgstr "قيد التقدم"
+
+#: uiserver.cpp:310
+msgid "Finished"
+msgstr "منتهي"
+
+#: uiserver.cpp:339
+msgid "Behavior"
+msgstr "السلوك"
+
+#: uiserver.cpp:375
+msgid "Progress Manager"
+msgstr "مدير التقدم"
+
+#: uiserver.cpp:376
+msgid "KDE Progress Information UI Server"
+msgstr "خادم كدي لعرض معلومات التقدم"
+
+#: uiserver.cpp:377
+msgid "(C) 2000-2008, KDE Team"
+msgstr "(C) 2000-2008، فريق كدي"
+
+#: uiserver.cpp:378
+msgid "Rafael Fernández López"
+msgstr "Rafael Fernández López"
+
+#: uiserver.cpp:378
+msgid "Maintainer"
+msgstr "المشرف"
+
+#: uiserver.cpp:379
+msgid "David Faure"
+msgstr "David Faure"
+
+#: uiserver.cpp:379
+msgid "Former maintainer"
+msgstr "المشرف السابق"
+
+#: uiserver.cpp:380
+msgid "Matej Koss"
+msgstr "Matej Koss"
+
+#: uiserver.cpp:380
+msgid "Developer"
+msgstr "مطور"

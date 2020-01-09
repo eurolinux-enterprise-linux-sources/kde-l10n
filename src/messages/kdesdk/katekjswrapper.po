@@ -1,0 +1,61 @@
+# translation of katekjswrapper.po to
+#
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: katekjswrapper\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-08-25 09:06+0200\n"
+"PO-Revision-Date: 2007-10-14 15:58+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: bindings.cpp:91
+#, fuzzy
+msgid "Call of DocumentManager member on destroyed object"
+msgstr "نداء من عضو يعمل كائن"
+
+#: bindings.cpp:179 bindings.cpp:313 bindings.cpp:463
+#, fuzzy, kde-format
+msgid "Method %1 called with wrong signature"
+msgstr "منهج مع خطأ إمضاء"
+
+#: bindings.cpp:195
+#, fuzzy
+msgid "One parameter expected"
+msgstr "واحد معلمة"
+
+#: bindings.cpp:207
+#, fuzzy
+msgid "One or no parameter expected"
+msgstr "واحد أو لا معلمة"
+
+#: bindings.cpp:215
+msgid "A maximum of three parameters expected"
+msgstr "عدد الضوابط الأقصى المتوقع هو ثلاثة"
+
+#: bindings.cpp:280
+#, fuzzy
+msgid "Call of KATE  member on destroyed object"
+msgstr "نداء من عضو يعمل كائن"
+
+#: bindings.cpp:447
+#, fuzzy
+msgid "Call of MainWindow  member on destroyed object"
+msgstr "نداء من النافذة الرئيسية عضو يعمل كائن"
+
+#. i18n: file: samples/katekjsconsolewindow.rc:4
+#. i18n: ectx: Menu (tools)
+#. i18n: file: samples/katekjsselect.rc:4
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:3 rc.cpp:6
+#, fuzzy
+msgid "&Tools"
+msgstr "أ&دوات"

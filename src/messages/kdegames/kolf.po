@@ -1,0 +1,712 @@
+# translation of kolf.po to
+# Copyright (C) 2002, 2007 Free Software Foundation, Inc.
+#
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kolf\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-07-06 07:12+0200\n"
+"PO-Revision-Date: 2007-10-14 15:45+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: kolf.cpp:102
+msgid "Save &Course"
+msgstr "احفظ الم&ضمار"
+
+#: kolf.cpp:104
+msgid "Save &Course As..."
+msgstr "احفظ الم&ضمار باسم..."
+
+#: kolf.cpp:107
+msgid "&Save Game"
+msgstr "ح&فظ اللعبة"
+
+#: kolf.cpp:110
+msgid "&Save Game As..."
+msgstr "&حفظ اللعبة باسم..."
+
+#: kolf.cpp:117
+msgid "&Edit"
+msgstr "&حرر"
+
+#: kolf.cpp:123
+msgid "&New"
+msgstr "ج&ديد"
+
+#: kolf.cpp:132
+msgid "&Reset"
+msgstr "ا&سترد"
+
+#: kolf.cpp:137
+msgid "&Undo Shot"
+msgstr "تراجع ع&ن الضربة"
+
+#: kolf.cpp:141
+msgid "Switch to Hole"
+msgstr "تحويل إلى حفرة"
+
+#: kolf.cpp:146
+msgid "&Next Hole"
+msgstr "الحف&رة التالية"
+
+#: kolf.cpp:151
+msgid "&Previous Hole"
+msgstr "الحفرة الساب&قة"
+
+#: kolf.cpp:156
+msgid "&First Hole"
+msgstr "الحفرة ال&أولى"
+
+#: kolf.cpp:160
+msgid "&Last Hole"
+msgstr "الحفرة الأ&خيرة"
+
+#: kolf.cpp:165
+msgid "&Random Hole"
+msgstr "حفرة ع&شوائية"
+
+#: kolf.cpp:169
+msgid "Enable &Mouse for Moving Putter"
+msgstr "&مكن تحريك المضرب بواسطة الفأرة"
+
+#: kolf.cpp:176
+msgid "Enable &Advanced Putting"
+msgstr "مك&ن الضرابات المتقدمة"
+
+#: kolf.cpp:182
+msgid "Show &Info"
+msgstr "عرض ال&بيانات"
+
+#: kolf.cpp:189
+msgid "Show Putter &Guideline"
+msgstr "أ&ظهر الخط الإرشادية للمضرب"
+
+#: kolf.cpp:195
+#, fuzzy
+msgid "Enable All Dialog Boxes"
+msgstr "مكّن الكل حوار الصّناديق"
+
+#: kolf.cpp:199
+msgid "Play &Sounds"
+msgstr "تشغيل الأ&صوات"
+
+#: kolf.cpp:215
+msgid "&About Course"
+msgstr "ع&ن المضمار"
+
+#: kolf.cpp:218
+msgid "&Tutorial"
+msgstr "در&س تعليمي\t"
+
+#: kolf.cpp:470 kolf.cpp:514 kolf.cpp:541 scoreboard.cpp:29 newgame.cpp:259
+msgid "Par"
+msgstr "المعدل"
+
+#: kolf.cpp:501
+msgid " and "
+msgstr " و "
+
+#: kolf.cpp:502
+#, fuzzy, kde-format
+#| msgid "%1 tied"
+msgid "%1 tied"
+msgstr "متعادل 1%"
+
+#: kolf.cpp:505
+#, kde-format
+msgid "%1 won!"
+msgstr "%1 فاز!"
+
+#: kolf.cpp:531 kolf.cpp:547 newgame.cpp:261
+#, fuzzy, kde-format
+#| msgid "High Scores for %1"
+msgid "High Scores for %1"
+msgstr "أعلى نقاط لـ 1%"
+
+#: kolf.cpp:568 game.cpp:4455
+msgid "Pick Kolf Course to Save To"
+msgstr "حدد مضمار Kolf ليتم الحفظ إلية"
+
+#: kolf.cpp:581
+msgid "Pick Saved Game to Save To"
+msgstr "حدد لعبة محفوظة ليتم الحفظ إليها"
+
+#: kolf.cpp:612
+msgid "Pick Kolf Saved Game"
+msgstr "اختر لعبة Kolf محفوظة"
+
+#: kolf.cpp:647
+#, kde-format
+msgid "%1's turn"
+msgstr "دور %1"
+
+#: kolf.cpp:719
+#, kde-format
+msgid "%1's score has reached the maximum for this hole."
+msgstr "بلغت نتيجة %1 الحد الأقصى لهذه الحفرة"
+
+#: kolf.cpp:777
+#, kde-format
+msgid "Print %1 - Hole %2"
+msgstr "اطبع %1 - حفرة %2"
+
+#: kolf.cpp:866
+msgid "Currently Loaded Plugins"
+msgstr "الإضافات الفعالة حاليا"
+
+#: kolf.cpp:873
+#, kde-format
+msgid "by %1"
+msgstr "بواسطة %1"
+
+#: kolf.cpp:886
+msgid "Plugins"
+msgstr "الإضافات"
+
+#: floater.h:111
+msgid "Floater"
+msgstr "العائم"
+
+#: floater.cpp:329
+msgid "Moving speed"
+msgstr "سرعة التحرك"
+
+#: floater.cpp:333 game.cpp:505 game.cpp:817
+msgid "Slow"
+msgstr "بطئ"
+
+#: floater.cpp:339 game.cpp:511 game.cpp:824
+msgid "Fast"
+msgstr "سريع"
+
+#: slope.h:125
+#, fuzzy
+msgid "Slope"
+msgstr "الإنحدار"
+
+#: main.cpp:35
+msgid "KDE Minigolf Game"
+msgstr "لعبة جولف مصغرة للكدي"
+
+#: main.cpp:42
+msgid "Kolf"
+msgstr "Kolf"
+
+#: main.cpp:42
+msgid "(c) 2002-2005, Jason Katz-Brown"
+msgstr "(c) 2002-2005, Jason Katz-Brown"
+
+#: main.cpp:44
+msgid "Jason Katz-Brown"
+msgstr "Jason Katz-Brown"
+
+#: main.cpp:44
+msgid "Main author"
+msgstr "المطور الرئيسي"
+
+#: main.cpp:45
+msgid "Niklas Knutsson"
+msgstr "Niklas Knutsson"
+
+#: main.cpp:45
+msgid "Advanced putting mode"
+msgstr "نمط متقدم للوضع"
+
+#: main.cpp:46
+msgid "Rik Hemsley"
+msgstr "Rik Hemsley"
+
+#: main.cpp:46
+msgid "Border around course"
+msgstr "إطار حول المضمار"
+
+#: main.cpp:47
+msgid "Ryan Cumming"
+msgstr "Ryan Cumming"
+
+#: main.cpp:47
+#, fuzzy
+msgid "Vector class"
+msgstr "الموجه الفئة"
+
+#: main.cpp:48
+msgid "Daniel Matza-Brown"
+msgstr "Daniel Matza-Brown"
+
+#: main.cpp:48
+msgid "Working wall-bouncing algorithm"
+msgstr "تشغيل خوارزمة الجدار الضخم"
+
+#: main.cpp:49
+msgid "Timo A. Hummel"
+msgstr "Timo A. Hummel"
+
+#: main.cpp:49
+msgid "Some good sound effects"
+msgstr "بعض التأثيرات الصوتية الجيدة"
+
+#: main.cpp:51
+msgid "Rob Renaud"
+msgstr "Rob Renaud"
+
+#: main.cpp:51
+msgid "Wall-bouncing help"
+msgstr "مساعدة الجدار الضخم"
+
+#: main.cpp:52
+msgid "Aaron Seigo"
+msgstr "Aaron Seigo"
+
+#: main.cpp:52
+msgid "Suggestions, bug reports"
+msgstr "الاقتراحات، و الابلاغ عن المشاكل الفنية"
+
+#: main.cpp:57
+#, fuzzy
+msgid "File"
+msgstr "ملف"
+
+#: main.cpp:58
+#, fuzzy
+msgid "Print course information and exit"
+msgstr "اطبع معلومات و خروج"
+
+#: main.cpp:74 newgame.cpp:251
+#, kde-format
+msgid "By %1"
+msgstr "بواسطة %1"
+
+#: main.cpp:75 game.cpp:3972
+#, kde-format
+msgid "%1 holes"
+msgstr "%1 حفر"
+
+#: main.cpp:76
+#, fuzzy, kde-format
+msgid "par %1"
+msgstr "1"
+
+#: main.cpp:83
+#, kde-format
+msgid "Course %1 does not exist."
+msgstr "المضمار %1 غير موجود"
+
+#: printdialogpage.cpp:31
+msgid "Kolf Options"
+msgstr "خصائص الجولف"
+
+#: printdialogpage.cpp:37
+msgid "Draw title text"
+msgstr "ارسم نص العنوان"
+
+#: config.cpp:65
+msgid "No configuration options"
+msgstr "لا توجد خصائص للتنسيق"
+
+#: game.h:262
+msgid "Puddle"
+msgstr "بركة"
+
+#: game.h:275
+msgid "Sand"
+msgstr "رمل"
+
+#: game.h:318
+#, fuzzy
+msgid "Bumper"
+msgstr "ممتصّ الصّدمة"
+
+#: game.h:351
+msgid "Cup"
+msgstr "كأس"
+
+#: game.h:487
+msgid "Black Hole"
+msgstr "حفرة سوداء"
+
+#: game.h:589
+msgid "Wall"
+msgstr "حائط"
+
+#: game.h:726
+msgid "Bridge"
+msgstr "جسر"
+
+#: game.h:768
+#, fuzzy
+msgid "Sign"
+msgstr "توقيع"
+
+#: game.h:836
+#, fuzzy
+msgid "Windmill"
+msgstr "الطاحونة"
+
+#. i18n: file: kolfui.rc:17
+#. i18n: ectx: Menu (hole)
+#: rc.cpp:3
+msgid "Ho&le"
+msgstr "حفر&ة"
+
+#. i18n: file: kolfui.rc:31
+#. i18n: ectx: Menu (go_course)
+#: rc.cpp:6
+msgid "&Go"
+msgstr "ا&ذهب"
+
+#: rc.cpp:7
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:8
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"
+
+#: scoreboard.cpp:30
+msgid "Total"
+msgstr "الإجمالي"
+
+#: game.cpp:220
+msgid "Walls on:"
+msgstr "الحوائط تعمل:"
+
+#: game.cpp:221
+msgid "&Top"
+msgstr "أ&على"
+
+#: game.cpp:225
+#, fuzzy
+msgid "&Bottom"
+msgstr "أس&فل"
+
+#: game.cpp:229
+msgid "&Left"
+msgstr "&يسار"
+
+#: game.cpp:233
+msgid "&Right"
+msgstr "ي&مين"
+
+#: game.cpp:497
+#, fuzzy
+msgid "Windmill on bottom"
+msgstr "الطاحونة يعمل الأسفل"
+
+#: game.cpp:722
+msgid "New Text"
+msgstr "نص جديد"
+
+#: game.cpp:787
+#, fuzzy
+msgid "Sign HTML:"
+msgstr "توقيع HTML:"
+
+#: game.cpp:809
+msgid "Enable show/hide"
+msgstr "تفعيل الإظهار / الإخفاء"
+
+#: game.cpp:1826
+msgid "Exiting ball angle:"
+msgstr "زاوية خروج الكرة:"
+
+#: game.cpp:1830
+#, fuzzy
+#| msgid "degrees"
+msgid " degrees"
+msgstr "درجات"
+
+#: game.cpp:1841
+msgid "Minimum exit speed:"
+msgstr "الحد الأدنى لسرعة الخروج :"
+
+#: game.cpp:1851 game.cpp:2379
+msgid "Maximum:"
+msgstr "الحد الأقصى:"
+
+#: game.cpp:2352
+msgid "Course name: "
+msgstr "اسم المضمار:"
+
+#: game.cpp:2360
+msgid "Course author: "
+msgstr "مطور المضمار:"
+
+#: game.cpp:2370
+#, fuzzy
+msgid "Par:"
+msgstr "المعدل:"
+
+#: game.cpp:2383
+msgid "Maximum number of strokes player can take on this hole."
+msgstr "عدد الضربات التي يمكن للاعب عملها عند هذه الحفرة."
+
+#: game.cpp:2384
+msgid "Maximum number of strokes"
+msgstr "الحد الأقصى للضربات"
+
+#: game.cpp:2385
+msgid "Unlimited"
+msgstr "غير محدود"
+
+#: game.cpp:2390
+msgid "Show border walls"
+msgstr "أظهر إطارات الحوائط"
+
+#: game.cpp:2591 game.cpp:4777
+msgid "Course Author"
+msgstr "مطور المضمار"
+
+#: game.cpp:2592 game.cpp:2593 game.cpp:4777
+msgid "Course Name"
+msgstr "اسم المضمار"
+
+#: game.cpp:3615
+#, fuzzy
+msgid "Drop Outside of Hazard"
+msgstr "إسقاط خارج من الخطر"
+
+#: game.cpp:3616
+#, fuzzy
+msgid "Rehit From Last Location"
+msgstr "من الأخير الموقع"
+
+#: game.cpp:3618
+msgid "What would you like to do for your next shot?"
+msgstr "ماذا تريد فعله بالنسبة لضربتك التالية؟"
+
+#: game.cpp:3618
+#, fuzzy, kde-format
+msgid "%1 is in a Hazard"
+msgstr "هو بوصة a الخطر"
+
+#: game.cpp:3808
+#, fuzzy, kde-format
+msgid "%1 will start off."
+msgstr "تشغيل موقف."
+
+#: game.cpp:3808
+msgid "New Hole"
+msgstr "حفرة جديده"
+
+#: game.cpp:3970
+#, kde-format
+msgid "Course name: %1"
+msgstr "اسم المضمار: %1"
+
+#: game.cpp:3971
+#, kde-format
+msgid "Created by %1"
+msgstr "انشئ بواسطة %1"
+
+#: game.cpp:3973
+msgid "Course Information"
+msgstr "معلومات المضمار"
+
+#: game.cpp:4116
+msgid "This hole uses the following plugins, which you do not have installed:"
+msgstr "هذه الحفرة تتطلب الاضافات التالية، التي لم تقم بتثبيتها:"
+
+#: game.cpp:4289
+msgid "There are unsaved changes to current hole. Save them?"
+msgstr "يوجد تغييرات لم يتم حفظها. هل تريد الحفظ؟"
+
+#: game.cpp:4289
+msgid "Unsaved Changes"
+msgstr "تغييرات غير محفوظة"
+
+#: game.cpp:4289
+msgid "Save &Later"
+msgstr "احفظ لا&حقاً"
+
+#: game.cpp:4642
+#, kde-format
+msgid "%1 - Hole %2; by %3"
+msgstr "%1 - حفرة %2، بواسطة %3"
+
+#: editor.cpp:44
+msgid "Add object:"
+msgstr "أضف عنصر:"
+
+#: slope.cpp:51
+#, fuzzy
+msgid "Vertical"
+msgstr "رأسي"
+
+#: slope.cpp:52
+#, fuzzy
+msgid "Horizontal"
+msgstr "أفقي"
+
+#: slope.cpp:53
+msgid "Diagonal"
+msgstr "مائل"
+
+#: slope.cpp:54
+msgid "Opposite Diagonal"
+msgstr "مائل عكسي"
+
+#: slope.cpp:55
+msgid "Circular"
+msgstr "مستدير"
+
+#: slope.cpp:565
+msgid "Reverse direction"
+msgstr "اتجاه معاكس"
+
+#: slope.cpp:573
+#, fuzzy
+msgid "Grade:"
+msgstr "الدرجة:"
+
+#: slope.cpp:580
+msgid "Unmovable"
+msgstr "غير قابل للتحريك"
+
+#: slope.cpp:581
+#, fuzzy
+msgid "Whether or not this slope can be moved by other objects, like floaters."
+msgstr "سواء أو ليس منحدر أداء غير ذلك مثل."
+
+#: kcomboboxdialog.cpp:59
+msgid "&Do not ask again"
+msgstr "لا &تسأل مرة أخرى"
+
+#: newgame.cpp:48
+#, fuzzy
+msgid "New Game"
+msgstr "لعبة جديدة"
+
+#: newgame.cpp:65
+msgid "Players"
+msgstr "لاعبين"
+
+#: newgame.cpp:71
+#, fuzzy
+msgid "&New Player"
+msgstr "جديد اللاعب"
+
+#: newgame.cpp:106
+msgid "Choose Course to Play"
+msgstr "اختر مضمار للعب"
+
+#: newgame.cpp:107
+msgid "Course"
+msgstr "مضمار"
+
+#: newgame.cpp:140
+msgid "Create New"
+msgstr "انشائ جديد"
+
+#: newgame.cpp:141
+msgid "You"
+msgstr "أنت"
+
+#: newgame.cpp:169
+msgid "Highscores"
+msgstr "النتائج العليا"
+
+#: newgame.cpp:180
+msgid "Add..."
+msgstr "اضف..."
+
+#: newgame.cpp:184 newgame.cpp:369
+#, fuzzy
+msgid "Remove"
+msgstr "احذف"
+
+#: newgame.cpp:194
+msgid "Game Options"
+msgstr "خصائص اللعبة"
+
+#: newgame.cpp:195
+#, fuzzy
+msgid "Options"
+msgstr "خيارات"
+
+#: newgame.cpp:202
+#, fuzzy
+msgid "&Strict mode"
+msgstr "صارم نمط"
+
+#: newgame.cpp:206
+#, fuzzy
+msgid ""
+"In strict mode, undo, editing, and switching holes is not allowed. This is "
+"generally for competition. Only in strict mode are highscores kept."
+msgstr "داخل صارم نمط تراجع و هو ليس المسموح لهم هذا هو لـ فقط بوصة صارم نمط."
+
+#: newgame.cpp:252
+#, fuzzy, kde-format
+msgid "Par %1"
+msgstr "المعدل 1"
+
+#: newgame.cpp:253
+#, kde-format
+msgid "%1 Holes"
+msgstr "%1 حفر"
+
+#: newgame.cpp:291
+msgid "Pick Kolf Course"
+msgstr "اختر مضمار الجولف"
+
+#: newgame.cpp:313
+msgid "Chosen course is already on course list."
+msgstr "المضمار المحدد موجود مسبقاً في القوائم."
+
+#: newgame.cpp:326
+#, kde-format
+msgid "Player %1"
+msgstr "اللاعب %1"
+
+#~ msgid "&Reload Plugins"
+#~ msgstr "أعد التحمي&ل الإضافات"
+
+#~ msgid "Show &Plugins"
+#~ msgstr "إظ&هار الإضافات"
+
+#, fuzzy
+#~ msgid "Flash speed"
+#~ msgstr "فلاش سرعة"
+
+#, fuzzy
+#~ msgid "Flash"
+#~ msgstr "فلاش"
+
+#, fuzzy
+#~ msgid "Pool Ball"
+#~ msgstr "تجمّع الكرة"
+
+#, fuzzy
+#~ msgid "Number:"
+#~ msgstr "العدد:"
+
+#~ msgid "Disable &Mouse for Moving Putter"
+#~ msgstr "&عطل تحريك المضرب بواسطة الفأرة"
+
+#, fuzzy
+#~ msgid "Disable &Advanced Putting"
+#~ msgstr "عطّل متقدم الوضع"
+
+#, fuzzy
+#~ msgid "Hide &Info"
+#~ msgstr "إخفاء معلومات"
+
+#~ msgid "Hide Putter &Guideline"
+#~ msgstr "أ&خف الخط الإرشادي للمضرب"
+
+#, fuzzy
+#~ msgid "Disable All Dialog Boxes"
+#~ msgstr "عطّل الكل حوار الصّناديق"

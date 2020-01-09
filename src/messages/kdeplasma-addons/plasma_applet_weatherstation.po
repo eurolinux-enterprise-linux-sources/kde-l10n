@@ -1,0 +1,184 @@
+# translation of plasma_applet_weatherstation.po to Arabic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_weatherstation\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-08-16 01:27+0200\n"
+"PO-Revision-Date: 2009-07-11 13:34+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#. i18n: file: appearanceconfig.ui:32
+#. i18n: ectx: property (windowTitle), widget (QWidget, AppearanceConfig)
+#: rc.cpp:3
+msgid "Weather Station Configuration"
+msgstr "ضبط محطة الطقس"
+
+#. i18n: file: appearanceconfig.ui:38
+#. i18n: ectx: property (text), widget (QCheckBox, backgroundCheckBox)
+#: rc.cpp:6
+msgid "Show LCD &background"
+msgstr "أ&ظهر خلفية المصابيح"
+
+#. i18n: file: appearanceconfig.ui:45
+#. i18n: ectx: property (text), widget (QCheckBox, tooltipCheckBox)
+#: rc.cpp:9
+msgid "Show &tool tip"
+msgstr "أظهر أداة &تلميحات"
+
+#. i18n: This and other all-caps messages are pieces of text shown on
+#. an LCD-like image mimicking a electronic weather station display.
+#. If weather station displays in your country are always in English,
+#. you may want to consider leaving these strings in English too,
+#. to achieve a more realistic feeling.
+#: weatherstation.cpp:53
+msgid "PRESSURE"
+msgstr ""
+
+#: weatherstation.cpp:54
+msgid "CURRENT WEATHER"
+msgstr ""
+
+#: weatherstation.cpp:55 weatherstation.cpp:63
+msgid "OUTDOOR TEMP"
+msgstr ""
+
+#: weatherstation.cpp:56
+msgid "HUMIDITY"
+msgstr ""
+
+#: weatherstation.cpp:57
+msgid "WIND"
+msgstr ""
+
+#: weatherstation.cpp:109
+msgid "Appearance"
+msgstr "المظهر"
+
+#: weatherstation.cpp:163
+#, fuzzy, kde-format
+#| msgid "Last updated: "
+msgid "Last updated: %1"
+msgstr "أخر تحديث:"
+
+#, fuzzy
+#~| msgid "&Search"
+#~ msgid "Search"
+#~ msgstr "ا&بحث"
+
+#, fuzzy
+#~| msgid "Weather Applet Configuration"
+#~ msgid "Weather station:"
+#~ msgstr "ضبط بريمج الطقس"
+
+#, fuzzy
+#~| msgid "Found places"
+#~ msgid "Found multiple places:"
+#~ msgstr "الأماكن الموجودة"
+
+#, fuzzy
+#~| msgid "&Search"
+#~ msgid "&Search..."
+#~ msgstr "ا&بحث"
+
+#, fuzzy
+#~| msgctxt "Units of wind speed"
+#~| msgid "Metres Per Second"
+#~ msgid "Meters per Second m/s"
+#~ msgstr "متر في ثانية"
+
+#, fuzzy
+#~| msgctxt "Units of wind speed"
+#~| msgid "Kilometers Per Hour"
+#~ msgid "Kilometer per Hour km/h"
+#~ msgstr "كيلومتر في ساعة"
+
+#, fuzzy
+#~| msgctxt "Units of wind speed"
+#~| msgid "Miles Per Hour"
+#~ msgid "Miles per Hour mph"
+#~ msgstr "ميل في الساعة"
+
+#, fuzzy
+#~| msgctxt "Units of wind speed"
+#~| msgid "Knots"
+#~ msgid "Knots kt"
+#~ msgstr "عقدة"
+
+#, fuzzy
+#~| msgctxt "Units of wind speed"
+#~| msgid "Beaufort Scale"
+#~ msgid "Beaufort scale bft"
+#~ msgstr "مقياس بيوفورت"
+
+#, fuzzy
+#~| msgid " minutes"
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "دقائق"
+#~ msgstr[1] "دقائق"
+#~ msgstr[2] "دقائق"
+#~ msgstr[3] "دقائق"
+#~ msgstr[4] "دقائق"
+#~ msgstr[5] "دقائق"
+
+#~ msgid "Weather"
+#~ msgstr "الطقس"
+
+#~ msgid "Found Places"
+#~ msgstr "الأماكن الموجودة"
+
+#, fuzzy
+#~| msgid "Selected places:"
+#~ msgid "Please select one place."
+#~ msgstr "الأماكن المنتقاة:"
+
+#~ msgid "Select data source:"
+#~ msgstr "اختر مصدر البيانات"
+
+#~ msgid "Type in a location:"
+#~ msgstr "اكتب موقع:"
+
+#~ msgid "&Remove Place"
+#~ msgstr "أ&زل المكان"
+
+#~ msgid "Update weather information every"
+#~ msgstr "حدث معلومات الطقس كل"
+
+#~ msgid "Select wind format:"
+#~ msgstr "اختر  تنسيق الرياح:"
+
+#~ msgid "Data Source"
+#~ msgstr "مصدر البيانات"
+
+#~ msgid "Place"
+#~ msgstr "المكان"
+
+#~ msgid "Plugin"
+#~ msgstr "الملحق"
+
+#~ msgid ""
+#~ "The applet was not able to contact the server, please try again later"
+#~ msgstr "لم يتمكن البريمج من الإتصال بالخادم ، الرجاء المحاولة لاحقا"
+
+#~ msgid ""
+#~ "The place '%1' is not valid. The data source is not able to find this "
+#~ "place."
+#~ msgstr "المكان %1 غير صالح . لم يتمكن مصدر البيانات من العثور عليه."
+
+#~ msgid "Invalid Place"
+#~ msgstr "مكان غير صالح"
+
+#~ msgid "&Add"
+#~ msgstr "ا&ضف"

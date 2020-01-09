@@ -1,0 +1,1630 @@
+# translation of drkonqi.po to Arabic
+# translation of drkonqi.po to
+# Copyright (C) 2001,2002,2003, 2004, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+#
+# Mohammed Gamal <f2c2001@yahoo.com>, 2001.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002,2003.
+# Nuriddin Aminagha <nuriddin@eminaga.de>, 2003.
+# Ossama Khayat <okhayat@yahoo.com>, 2004.
+# Ossama M. Khayat <okhayat@yahoo.com>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Anas Husseini <linux.anas@gmail.com>, 2008.
+# OsamaKhalid <osamak.wfm@gmail.com>, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: drkonqi\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-08-17 01:19+0200\n"
+"PO-Revision-Date: 2009-07-08 17:07+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+
+#: aboutbugreportingdialog.cpp:34
+msgctxt "@title title of the dialog"
+msgid "About Bug Reporting"
+msgstr "حول إبلاغ العلل"
+
+#: aboutbugreportingdialog.cpp:48
+msgctxt "@title"
+msgid "Information about bug reporting"
+msgstr "معلومات حول إبلاغ العلل"
+
+#: aboutbugreportingdialog.cpp:50
+msgctxt "@info/rich"
+msgid "You can help us improve this software by filing a bug report."
+msgstr "يمكنك مساعدتنا في تحسين هذا التطبيق بواسطة ملئ تقرير علة."
+
+#: aboutbugreportingdialog.cpp:51
+msgctxt "@info/rich"
+msgid ""
+"<note>It is safe to close this dialog. If you do not want to, you do not "
+"have to file a bug report.</note>"
+msgstr ""
+"<note>يمكنك غلق هذا الحوار بأمان ،أنت غير ملزم بالإبلاغ عن علة ؛ إذا لم ترغب "
+"بذلك .</note>"
+
+#: aboutbugreportingdialog.cpp:53
+msgctxt "@info/rich"
+msgid ""
+"In order to generate a useful bug report we need some information about both "
+"the crash and your system. (You may also need to install some debug "
+"packages.)"
+msgstr ""
+"من أجل توليد تقرير مفيد بالعلة ؛ نحن بحاجة إلى بعض المعلومات عن الانهيار و "
+"نظامك . (و قد تحتاج أيضا تثبيت بعض حزم التنقيح)."
+
+#: aboutbugreportingdialog.cpp:57
+msgctxt "@title"
+msgid "Bug Reporting Assistant Steps Guide"
+msgstr "دليل مساعد التبليغ عن العلل"
+
+#: aboutbugreportingdialog.cpp:59
+msgctxt "@info/rich"
+msgid ""
+"This assistant will guide you through the crash reporting process for the "
+"KDE Bug Reports Database Site. All the information you enter on the bug "
+"report must be in English, if possible, as KDE is developed internationally."
+msgstr ""
+"سيرشدك هذا الدليل حول كيفية الإبلاغ عن الانهيار في موقع قاعدة علل كدي.  يجب "
+"أن تكون جميع المعلومات المدخلة في العلة مكتوبة باللغة الإنجليزية إذا أمكن "
+"لأن كدي تطور بشكل عالمي."
+
+#: aboutbugreportingdialog.cpp:65
+msgctxt "@title"
+msgid "Crash Information"
+msgstr "معلومات الانهيار"
+
+#: aboutbugreportingdialog.cpp:67
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"This page will generate a backtrace of the crash. This is information that "
+"tells the developers where the application crashed. If the crash information "
+"is not detailed enough, you may need to install some debug packages and "
+"reload it. You can find more information about backtraces, what they mean, "
+"and how they are useful at <link>%1</link>"
+msgstr ""
+"ستنشئ هذه الصفحة المتتبع الخلفي للانهيار ، هذه المعلومات تخبر المطورين أين "
+"انهار التطبيق. إذا لم تكن معلومات التطبيق مفصلة بشكل كافي ؛ فقد تحتاج إلى "
+"تثبيت بعض حزم التنقيح و إعادة تحميلها. ستجد معلومات أكثر حول المتتبع الخلفي "
+"و ماذا يعني و كيف يمكن الاستفادة منه هنا  <link>%1</link> ."
+
+#: aboutbugreportingdialog.cpp:73
+msgctxt "@info/rich"
+msgid ""
+"Once you get a useful backtrace (or if you do not want to install the "
+"missing debugging packages) you can continue."
+msgstr ""
+"عندما تحصل على متتبع خلفي مفيد (أو إذا لم ترغب بتثبيت حزم التنقيح الناقصة) "
+"يمكنك المواصلة."
+
+#: aboutbugreportingdialog.cpp:77 aboutbugreportingdialog.cpp:188
+#: drkonqibugreport.cpp:70
+msgctxt "@title"
+msgid "What do you know about the crash?"
+msgstr "ماذا تعرف عن الانهيار؟"
+
+#: aboutbugreportingdialog.cpp:80
+msgctxt "@info/rich"
+msgid ""
+"In this page you answer some questions about the crash context, and note "
+"whether you are willing to help the developers in the future. To do this, "
+"you will need to open a KDE Bug tracking system account. This is strongly "
+"encouraged, as often a developer may need to ask you for clarification. "
+"Also, you can track the status of your bug report by having email updates "
+"sent to you."
+msgstr ""
+"في هذه الصفحة ستجيب عن بعض الأسئلة حول سياق الانهيار و هل أنت مستعد لمساعدة "
+"المطورين في المستقبل أم لا ، لتفعل هذا ستحتاج إلى  تفتح حساب في نظام تتبع "
+"علل كدي ؛ و هذا مستحسن لأنه في الغالب سيحتاج المطور أن يسألك بعض الإيضاحات ، "
+"كذلك يمكنك تتبع حالة تقريرك بواسطة البريد الإلكتروني."
+
+#: aboutbugreportingdialog.cpp:87
+msgctxt "@info/rich"
+msgid ""
+"If you can, describe in as much detail as possible, the crash circumstances, "
+"and what you were doing when the application crashed. You can mention: "
+msgstr ""
+"إذا تستطيع ؛ صف كل التفاصيل قد الامكان حول ملبسات الانهيار ،  و ماذا كنت "
+"تفعل وقت الانهيار ، تستطيع ذكر :"
+
+#: aboutbugreportingdialog.cpp:90
+msgctxt "@info/rich crash situation example"
+msgid "actions you were taking inside or outside the application"
+msgstr "الإجراءات التي كنت تقوم بها داخل و خارج التطبيق"
+
+#: aboutbugreportingdialog.cpp:92
+msgctxt "@info/rich crash situation example"
+msgid ""
+"documents or images that you were using and their type/format (later if you "
+"go to look at the report in the bug tracking system, you can attach a file "
+"to the report)"
+msgstr ""
+"أو المستندات و الصور التي كنت تستخدمها و  نوعها و تنسيقها (لاحقا عندما ستنظر "
+"إلى تقريرك في نظام تتعب العلل ، تستطيع أن ترف ملف بتقريرك)"
+
+#: aboutbugreportingdialog.cpp:95
+msgctxt "@info/rich crash situation example"
+msgid "widgets that you were running"
+msgstr "أو الودجات التي كنت تشغلها"
+
+#: aboutbugreportingdialog.cpp:96
+msgctxt "@info/rich crash situation example"
+msgid "the url of a web site you were browsing"
+msgstr "أو وصلة الموقع الذي كنت تتصفحه"
+
+#: aboutbugreportingdialog.cpp:97
+msgctxt "@info/rich crash situation example"
+msgid "or other strange things you notice before or after the crash. "
+msgstr "أو الأشياء الغريبة التي لاحظتها قبل و بعد الانهيار."
+
+#: aboutbugreportingdialog.cpp:99
+msgctxt "@info/rich"
+msgid ""
+"Screenshots can be very helpful. You can attach them to the bug report after "
+"it is posted to the bug tracking system."
+msgstr ""
+"لقطات الشاشة يمكن أن تكون مفيدة جدا ، يمكنك أن ترفقها مع تقرير العلة بعد أن "
+"تضع التقرير في نظام تعقب العلل."
+
+#: aboutbugreportingdialog.cpp:103
+msgctxt "@title"
+msgid "Conclusions"
+msgstr "الخاتمة"
+
+#: aboutbugreportingdialog.cpp:105
+msgctxt "@info/rich"
+msgid ""
+"Using the quality of the crash information gathered, and your answers on the "
+"previous page, the assistant will tell you if the crash is worth reporting "
+"or not."
+msgstr ""
+"باستخدام جودة المعلومات المجمعة و إجاباتك في الصفحة السابقة  ،  سيخبرك "
+"المساعد إذا ما كانت هذا الانهيار يستحق أن تبلغ عنه أم لا."
+
+#: aboutbugreportingdialog.cpp:108
+msgctxt "@info/rich"
+msgid ""
+"If the crash is worth reporting, and the application is supported in the KDE "
+"bug tracking system, you can click <interface>Next</interface>. However, if "
+"it is not supported, you will need to directly contact the maintainer of the "
+"application."
+msgstr ""
+"إذا كان الانهيار  يستحق التبليغ ، و التطبيق مدعوم في نظام تعقب العلل الخاص "
+"بكدي ، فيمكنك أن تنقر  <interface>التالي</interface>. على كل حال إذا لم يكن "
+"التطبيق مدعوم ، فستحتاج إلى أن تتصل بالمشرف على التطبيق مباشرة."
+
+#: aboutbugreportingdialog.cpp:112
+msgctxt "@info/rich"
+msgid ""
+"If the crash is listed as being not worth reporting, and you think the "
+"assistant has made a mistake, you can still manually report the bug by "
+"logging into the bug tracking system. You can also go back and change "
+"information and download debug packages."
+msgstr ""
+"إذا كان الانهيار لا يستحق التبليغ  ، و كنت تعتقد أن المساعد قد أخطأ ، "
+"فبإمكانك أن تبلغ عن العلة بشكل يدوي عن طريق الدخول إلى نظام تعقب العلل. "
+"يمكنك أيضا العودة للوراء و تغير المعلومات و تنزيل حزم التنقيح."
+
+#: aboutbugreportingdialog.cpp:119 drkonqibugreport.cpp:89
+msgctxt "@title"
+msgid "KDE Bug Tracking System Login"
+msgstr "التسجيل في نظام تعقب علل كدي"
+
+#: aboutbugreportingdialog.cpp:121
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"We may need to contact you in the future to ask for further information. As "
+"we need to keep track of the bug reports, you need to have an account on the "
+"KDE bug tracking system. If you do not have one, you can create one here: "
+"<link>%1</link>"
+msgstr ""
+"قد نحتاج إلى الاتصال بك في المستقبل لنسألك عن المزيد من المعلومات. و حتى "
+"نتابع العلل بشكل جيد ، فأنت بحاجة إلى حساب على نظام تعقب علل كدي. إذا لم تكن "
+"تملك واحدا ، يمكنك أن تنشئ واحد من هنا <link>%1</link>"
+
+#: aboutbugreportingdialog.cpp:127
+msgctxt "@info/rich"
+msgid ""
+"Then, enter your username and password and press the Login button. Once you "
+"are authenticated, you can press Next to continue. You can use this login to "
+"directly access the KDE bug tracking system later."
+msgstr ""
+"بعد ذلك ، أدخل اسم المستخدم و كلمة السر و اضغط زر الولوج ، بعد الاستيثاق ، "
+"يمكنك أن تضغط التالي لتواصل ، يمكنك أن تستخدم هذا الولوج حتى تصل إلى نظام "
+"تعقب علل كدي مباشرة لاحقا."
+
+#: aboutbugreportingdialog.cpp:131
+msgctxt "@info/rich"
+msgid ""
+"The KWallet dialog may appear when pressing Login to save your password in "
+"the KWallet password system. Also, it will prompt you for the KWallet "
+"password upon loading to autocomplete the login fields if you use this "
+"assistant again."
+msgstr ""
+"قد يظهر لك حوار KWallet  عندما تضغط على زر الولوج ؛ ليحفظ كلمة السر في  نظام "
+"كلمات السر KWallet ، كذلك سيطلب من كلمة سر KWallet في وقت  التحميل حتى يكمل "
+"خانات الولوج بشكل تلقائي في حال استخدامك لهذا المساعد مرة أخرى."
+
+#: aboutbugreportingdialog.cpp:137 drkonqibugreport.cpp:98
+msgctxt "@title"
+msgid "Bug Report Keywords"
+msgstr "الكلمات المفتاحية لتقرير العلة"
+
+#: aboutbugreportingdialog.cpp:139
+msgctxt "@info/rich"
+msgid ""
+"In this step you need to write at least four (4) words to describe and "
+"identify the crash. You do not need to use the application name, since that "
+"will be automatically sent. This text will be used to search for similar "
+"crashes already reported in the database, to help you and others find them "
+"later. Also, this text will be used to start the title of the future bug "
+"report. You can change this title later. Some examples: toolbar vanishes "
+"then plasma crashes, or (konqueror) crash on a site with CSS. Note that you "
+"do not need to use the word crash, since that is already part of the report."
+msgstr ""
+" في هذه الخطوة ؛ ستحتاج إلى أن تكتب أربع كلمات على الأقل تصف و تعرف الانهيار "
+"، و لا تحتاج إلى أن تستخدم اسم التطبيق حيث أنه سيرسل بشكل تلقائي ، سيستخدم "
+"النص للبحث عن الانهيارات المشابهة المبلغ عنها في قاعدة البيانات ، كذلك "
+"سيستخدم هذا النص كعنوان للعلة التي ستبلغ عنها ، سيكون بإمكانك تغير العنوان "
+"لاحقا ، بعض الأمثل مثل  toolbar vanishes then plasma crashes أو konqueror "
+"crash on a site with CSS ، لاحظ أنك لا تحتاج إلى ذكر كلمة الانهيار حيث أنها "
+"جزء من التقرير بالفعل."
+
+#: aboutbugreportingdialog.cpp:151 aboutbugreportingdialog.cpp:189
+msgctxt "@info/rich"
+msgid "<note>You should write in English.</note>"
+msgstr "<note>يجب أن تكتب باللغة الإنجليزية.</note>"
+
+#: aboutbugreportingdialog.cpp:154
+msgctxt "@title"
+msgid "Bug Report Possible Duplicate list"
+msgstr "قائمة التقارير المحتمل أن تكون متكررة"
+
+#: aboutbugreportingdialog.cpp:157
+msgctxt "@info/rich"
+msgid "This is an optional step."
+msgstr "هذه خطوة اختيارية"
+
+#: aboutbugreportingdialog.cpp:158
+msgctxt "@info/rich"
+msgid ""
+"This page will search the bug report database for similar crashes which are "
+"possible duplicates of your bug. If there are similar bug reports found, you "
+"can double click on them to see details. Then, read the current bug report "
+"information so you can check to see if they are similar. "
+msgstr ""
+"هذه الصفحة سبتحث عن التقارير التي تشابه انهيارك في قاعدة البيانات ، إذا عثرت "
+"على إحدها فيمكنك أن تنقر عليها نقر مزودجا لترى التفاصيل ، تقرر إذا ما كانت "
+"متشابهة أم لا."
+
+#: aboutbugreportingdialog.cpp:163
+msgctxt "@info/rich"
+msgid ""
+"If you are very sure your bug is the same as another that is previously "
+"reported, you can open the previously reported crash in the bug tracking "
+"program by clicking on <interface>Bug report page at the KDE bug tracking "
+"system</interface>. You can then add any new information that you might "
+"have. "
+msgstr ""
+"إذا كنت متأكد أن علتك مشابهة لواحدة أخرى مبلغ عنها ؛ فبإمكانك أن تفتح "
+"السابقة  في برنامج تعقب العلل و تنقر على <interface>صفحة تقرير العلة في نظام "
+"تعقب علل كدي</interface>  ، ثم أضف المعلومات الجديدة التي ترها مناسبة."
+
+#: aboutbugreportingdialog.cpp:169
+msgctxt "@info/rich"
+msgid ""
+"If you are unsure whether your report is the same, follow the main options "
+"to tentatively mark your crash as a duplicate of that report. This is "
+"usually the safest thing to do. We cannot uncombine bug reports, but we can "
+"easily merge them."
+msgstr ""
+"إذا كنت غير متأكد أن تقرير مشابه لتقرير ما ، اتبع الخيارات العامة كي تضع  "
+"انهيارك كتكرار لذاك التقرير مؤقتا ، هذه أمن طريقة حيث أننا لا نستطيع أن نفصل "
+"تقارير العلل ، ولكن نستطيع أن ندمجها بسهولة."
+
+#: aboutbugreportingdialog.cpp:173
+msgctxt "@info/rich"
+msgid ""
+"If not enough possible duplicates are found, or you did not find a similar "
+"report, then you can force it to search for more bug reports (only if the "
+"date range is not reached.)"
+msgstr ""
+"إذا لم تجد تقارير مكررة كافية أو لم تجد تقرير مشابه ، فيمكنك أن تجبره على "
+"البحث عن تقارير أكثر (فقط إذا لم ينتهي إلى مدى التاريخ)."
+
+#: aboutbugreportingdialog.cpp:176
+msgctxt "@info/rich"
+msgid ""
+"Do not worry if you cannot find a similar bug report or you do not know what "
+"to look at. The bug report database maintainers will look at it later. It is "
+"better to file a duplicate then to not file at all."
+msgstr ""
+"لا تقلق إذا لم تجد تقرير مشابه لتقريرك أو إذا لم تعرف كيف سيبدو ، حيث سينظر "
+"مشرفي قاعدة بيانات العلل في ذلك لاحقا ، من الأفضل أن تبلغ عن تكرار من أن لا "
+"تبلغ عنه أصلا."
+
+#: aboutbugreportingdialog.cpp:183
+msgctxt "@title"
+msgid "Details of the Bug report"
+msgstr "تفاصيل تقرير العلة"
+
+#: aboutbugreportingdialog.cpp:185
+msgctxt "@info/rich"
+msgid ""
+"In this case you need to write a title and description of the crash. Explain "
+"as best you can. "
+msgstr ""
+"في هذه الحالة ستحتاج إلى أن تكتب عنوان و وصف للانهيار ، اشرح بأفضل ما عندك "
+"من قدرات."
+
+#: aboutbugreportingdialog.cpp:192 drkonqibugreport.cpp:124
+msgctxt "@title"
+msgid "Send Crash Report"
+msgstr "أرسل تقرير الانهيار"
+
+#: aboutbugreportingdialog.cpp:194
+msgctxt "@info/rich"
+msgid ""
+"This page will send the bug report to the bug tracking system and will "
+"notify you when it is done. It will then show the web address of the bug "
+"report in the KDE bug tracking system, so that you can look at the report "
+"later."
+msgstr ""
+"سترسل هذه الصفحة تقرير العلة إلى نظام تعقب العلل و ستنبهك عندما تنتهي. ستعرض "
+"لك عنوان الويب لتقرير العلة في نظام تعقب علل كدي ، مما يمكنك من متابعة "
+"التقرير لاحقا."
+
+#: aboutbugreportingdialog.cpp:198
+msgctxt "@info/rich"
+msgid ""
+"If the process fails, you can click <interface>Retry</interface> to try "
+"sending the bug report again."
+msgstr ""
+"إذا فشلت العملية ، يمكنك النقر على <interface>أعد المحاولة</interface> لتعيد "
+"محاولة إرسال التقرير."
+
+#: bugzillalib.cpp:112
+msgctxt "@info"
+msgid "Unknown response from the server"
+msgstr "استجابة مجهولة من الخادم"
+
+#: bugzillalib.cpp:146
+msgctxt "@info"
+msgid "Invalid bug report: corrupted data"
+msgstr "تقرير العلة غير صحيح: بيانات معطوبة"
+
+#: bugzillalib.cpp:191
+msgctxt "@info"
+msgid "Invalid bug list: corrupted data"
+msgstr "قائمة علل غير صحيحة : بيانات معطوبة"
+
+#: bugzillalib.cpp:262
+msgctxt "@info"
+msgid "Unknown error"
+msgstr "خطأ مجهول"
+
+#: drkonqiassistantpages_base.cpp:93
+msgctxt "@info"
+msgid ""
+"This crash information is not useful enough, do you want to try to improve "
+"it? You will need to install some debugging packages."
+msgstr ""
+"معلومات هذه الانهيار غير مفيدة بما فيه الكفاية ، هل تريد تحسينها؟ ستحتاج إلى "
+"تثبيت بعض حزم التنقيح."
+
+#: drkonqiassistantpages_base.cpp:96
+msgctxt "@title:window"
+msgid "Crash Information is not useful enough"
+msgstr "معلومات الانهيار غير مفيدة بما فيه الكفاية"
+
+#: drkonqiassistantpages_base.cpp:139 drkonqiassistantpages_bugzilla.cpp:814
+msgctxt "@action:button"
+msgid "Sho&w Contents of the Report"
+msgstr "ا&عرض محتيوات التقرير"
+
+#: drkonqiassistantpages_base.cpp:141 drkonqiassistantpages_bugzilla.cpp:816
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to show the generated report information about this crash."
+msgstr "استخدم هذا الزر لتعرض معلومات التقرير المجموعة عن هذا الانهيار."
+
+#: drkonqiassistantpages_base.cpp:171 drkonqiassistantpages_base.cpp:342
+#: drkonqiassistantpages_bugzilla.cpp:888
+#, kde-format
+msgctxt "@info/plain"
+msgid "Report to %1"
+msgstr "بلغّ إلى %1"
+
+#: drkonqiassistantpages_base.cpp:205
+msgctxt "@info"
+msgid "The automatically generated crash information is useful."
+msgstr "المعلومات المولدة بشكل تلقائي عن الانيهار مفيدة."
+
+#: drkonqiassistantpages_base.cpp:211
+msgctxt "@info"
+msgid ""
+"The automatically generated crash information lacks some details but may be "
+"still be useful."
+msgstr ""
+"المعلومات المولدة بشكل تلقائي عن الانهيار تنقصها بعض التفاصيل ، ولكن ما تزال "
+"مفيدة."
+
+#: drkonqiassistantpages_base.cpp:219
+msgctxt "@info"
+msgid ""
+"The automatically generated crash information lacks important details and it "
+"is probably not helpful."
+msgstr ""
+"المعلومات المولدة بشكل تلقائي عن الانهيار تنقصها تفاصيل مهمة ؛ لذا على "
+"الأرجح أنها غير مفيدة."
+
+#: drkonqiassistantpages_base.cpp:228
+msgctxt "@info"
+msgid ""
+"The automatically generated crash information does not contain enough "
+"information to be helpful."
+msgstr ""
+"المعلومات المولدة بشكل تلقائي عن الانهيار لا تحوي معلومات كافية لتكون مفيدة."
+
+#: drkonqiassistantpages_base.cpp:231
+msgctxt "@info"
+msgid ""
+"<note>You can improve it by installing debugging packages and reloading the "
+"crash on the Crash Information page. You can get help with the Bug Reporting "
+"Guide by clicking on the <interface>Help</interface> button.</note>"
+msgstr ""
+"<note>بإمكانك تحسينها بواسطة تثبيت حزم التنقيح ، و إعادة تحميل الانهيار في "
+"صفحة معلومات الانهيار ، و يمكنك أن تحصل  على مساعدة من دليل التلبيغ عن العلل "
+"بالنقر على زر <interface>مساعدة</interface>.</note>"
+
+#: drkonqiassistantpages_base.cpp:245
+msgctxt "@info"
+msgid ""
+"You can provide crash details, and the developers can contact you if "
+"required."
+msgstr "يمكنك تقديم تفاصيل الانهيار ، و سيتصل بك المطورين إذا اقتضى الأمر."
+
+#: drkonqiassistantpages_base.cpp:249
+msgctxt "@info"
+msgid ""
+"You can provide crash details, but do not want developers to contact you for "
+"more information if required."
+msgstr ""
+"يمكنك تقديم تفاصيل الانهيار ، ولكن لا تريد أن يتصل بك المطورين لمعلومات أكثر "
+"إذا لازم الأمر."
+
+#: drkonqiassistantpages_base.cpp:255
+msgctxt "@info"
+msgid ""
+"You are not sure what you were doing when the application crashed, but the "
+"developers can contact you for more information if required."
+msgstr ""
+"غير متأكد ماذا كنت تفعل عندما انهار التطبيق ، ولكن باستطاع المطورين أن "
+"يتصلوا بك لمزيد من المعلومات إذا اقتضى الأمر."
+
+#: drkonqiassistantpages_base.cpp:259
+msgctxt "@info"
+msgid ""
+"You are not sure what you were doing when the application crashed, and do "
+"not want the developers to contact you for more information if required."
+msgstr ""
+"غير متأكد ماذا كنت تفعل عندما انهار التطبيق ، ولا تريد أن يتصل بك المطورين."
+
+#: drkonqiassistantpages_base.cpp:270
+msgctxt "@info"
+msgid "This report is considered helpful."
+msgstr "يعتبر هذا التقرير مفيد."
+
+#: drkonqiassistantpages_base.cpp:275
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This application's bugs are reported to the KDE bug tracking system: click "
+"<interface>Next</interface> to start the reporting process. You can manually "
+"report at <link>%1</link>"
+msgstr ""
+"ترسل علل هذا التطبيق إلى نظام تعقب علل كدي: انقر <interface>التالي</"
+"interface> لتبدأ عملية التبليغ ، بإمكانك التبليغ بشكل يدوي إلى <link>%1</"
+"link>"
+
+#: drkonqiassistantpages_base.cpp:286
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This application is not supported in the KDE bug tracking system. Click "
+"<interface>Finish</interface> to report this bug to the application "
+"maintainer. Also, you can manually report at <link>%1</link>."
+msgstr ""
+"علل هذا التطبيق غير مدعومة في نظام تعقب علل كدي. انقر <interface>أنه</"
+"interface> لتبلغ هذه العلة إلى مشرف المشروع  ، يمكنك أيضا التبليغ بشكل يدوي "
+"إلى <link>%1</link>."
+
+#: drkonqiassistantpages_base.cpp:302
+msgctxt "@info"
+msgid ""
+"This report does not contain enough information for the developers, so the "
+"automated bug reporting process is not enabled for this crash."
+msgstr ""
+"لا يحوي هذا التقرير على معلومات كافية للمطورين ، لذا فإن التلبيغ الآلي لهذه "
+"الانهيار  غير مفعل."
+
+#: drkonqiassistantpages_base.cpp:305
+msgctxt "@info"
+msgid "If you wish, you can go back and change your answers. "
+msgstr "إذا رغبت يمكنك أن ترجع للخلف ، و تغير بعض الأجوبة."
+
+#: drkonqiassistantpages_base.cpp:309
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This application is supported in the KDE bug tracking system. You can "
+"manually report this bug at <link>%1</link>. Click <interface>Finish</"
+"interface> to close the assistant."
+msgstr ""
+"هذا التطبيق مدعوم في نظام تعقب علل كدي ، تستطيع التبليغ عن هذه العلة بشكل "
+"يدوي إلى <link>%1</link>. انقر <interface>أنه</interface> لتغلق المساعد."
+
+#: drkonqiassistantpages_base.cpp:316
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This application is not supported in the KDE bug tracking system. You can "
+"manually report this bug to its maintainer at <link>%1</link>. Click "
+"<interface>Finish</interface> to close the assistant."
+msgstr ""
+"هذا التطبيق غير مدعوم في نظام تعقب علل كدي ، تستطيع التبليغ عن هذه العلة "
+"بشكل يدوي إلى مشرفها عن طريق <link>%1</link>. انقر <interface>أنه</"
+"interface> لتغلق المساعد."
+
+#: drkonqiassistantpages_base.cpp:368
+msgctxt "@title:window"
+msgid "Contents of the Report"
+msgstr "محتويات التقرير"
+
+#: drkonqiassistantpages_base.cpp:373 getbacktracewidget.cpp:65
+msgctxt "@action:button"
+msgid "&Save to File..."
+msgstr "ا&حفظ إلى ملف..."
+
+#: drkonqiassistantpages_base.cpp:375
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to save the generated crash report information to a file. "
+"You can use this option to report the bug later."
+msgstr ""
+"استخدم هذا الزر لحفظ تقرير الانهيار المولد إلى ملف ، يمكن استخدام هذا  "
+"الخيار  لتبلغ عن العلة لاحقا."
+
+#: drkonqiassistantpages_bugzilla.cpp:54
+#, kde-format
+msgctxt "@info:status '1' is replaced with \"bugs.kde.org\""
+msgid "You need to login with your %1 account in order to proceed."
+msgstr "تحتاج إلى الولوج باستخدام حساب %1 حتى تواصل."
+
+#: drkonqiassistantpages_bugzilla.cpp:57
+msgctxt "@action:button"
+msgid "Login"
+msgstr "لج"
+
+#: drkonqiassistantpages_bugzilla.cpp:59
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to login to the KDE bug tracking system using the provided "
+"username and password."
+msgstr ""
+"استخدم هذا الزر للولوج إلى نظام تعقب علل كدي باستخدام اسم المستخدم و كلمة "
+"السر المعطاة."
+
+#: drkonqiassistantpages_bugzilla.cpp:68
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"<note>You need a user account on the <link url='%1'>KDE bug tracking system</"
+"link> in order to file a bug report, because we may need to contact you "
+"later for requesting further information. If you do not have one, you can "
+"freely <link url='%2'>create one here</link>.</note>"
+msgstr ""
+"<note>تحتاج إلى حساب مستخدم على  <link url='%1'>نظام تعقب علل كدي</link> من "
+"أجل أن تبلغ عن علة ، لأننا قد نحتاج إلى التواصل معك لاحقا  للمزيد من "
+"المعلومات ، إذا كنت لا تملك واحد ؛ فيمكنك أن <link url='%2'>تنشئ واحد من "
+"هنا</link> مجانا.</note>"
+
+#: drkonqiassistantpages_bugzilla.cpp:85
+#, kde-format
+msgctxt "@info:status"
+msgid "Error when trying to login: <message>%1.</message>"
+msgstr "خطأ عن محاولة الولوج: <message>%1.</message>"
+
+#: drkonqiassistantpages_bugzilla.cpp:110
+#, kde-format
+msgctxt "@info:status the user is logged at the bugtracker site as USERNAME"
+msgid "Logged in at the KDE bug tracking system (%1) as: %2."
+msgstr "ولجت إلى نظام تعقب علل كدي (%1)  كـ : %2."
+
+#: drkonqiassistantpages_bugzilla.cpp:197
+#, kde-format
+msgctxt "@info:status '1' is a url, '2' the username"
+msgid "Performing login at %1 as %2..."
+msgstr "يلج في %1 كـ %2..."
+
+#: drkonqiassistantpages_bugzilla.cpp:219
+msgctxt "@info:status"
+msgid "Invalid username or password"
+msgstr "كلمة السر أو اسم المستخدم غير صحيحان"
+
+#: drkonqiassistantpages_bugzilla.cpp:322
+msgctxt "@action:button"
+msgid "Search for more reports"
+msgstr "ابحث عن المزيد من التقارير"
+
+#: drkonqiassistantpages_bugzilla.cpp:324
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to search for more similar bug reports on an earlier date."
+msgstr "استخدم هذا الزر لتبحث عن المزيد من العلل المشابة في قبل هذا التاريخ."
+
+#: drkonqiassistantpages_bugzilla.cpp:330
+msgctxt "@action:button"
+msgid "Retry search"
+msgstr "عاود البحث"
+
+#: drkonqiassistantpages_bugzilla.cpp:332
+msgctxt "@info:tooltip"
+msgid "Use this button to retry the search that previously failed."
+msgstr "استخدم هذا الزر لمعاودة البحث الذي فشل سابقا."
+
+#: drkonqiassistantpages_bugzilla.cpp:336
+msgctxt "@action:button"
+msgid "Open selected report"
+msgstr "افتح التقرير المختار"
+
+#: drkonqiassistantpages_bugzilla.cpp:338
+msgctxt "@info:tooltip"
+msgid "Use this button to view the information of the selected bug report."
+msgstr "استخدم هذا الزر لعرض معلومات تقرير العلة المختارة."
+
+#: drkonqiassistantpages_bugzilla.cpp:342
+msgctxt "@action:button"
+msgid "Stop searching"
+msgstr "توقف عن البحث"
+
+#: drkonqiassistantpages_bugzilla.cpp:344
+msgctxt "@info:tooltip"
+msgid "Use this button to stop the current search."
+msgstr "استخدم هذا الزر لتوقف عن البحث الحالي."
+
+#: drkonqiassistantpages_bugzilla.cpp:394
+msgctxt "@info:status"
+msgid "Error fetching the bug report list"
+msgstr "خطأ في جلب قائمة العلل."
+
+#: drkonqiassistantpages_bugzilla.cpp:396
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"Error fetching the bug report list<nl/><message>%1.</message><nl/>Please "
+"wait some time and try again."
+msgstr ""
+"خطأ في جلب قائمة العلل<nl/><message>%1.</message><nl/> الرجاء انتظر بعض "
+"الوقت ثم حاول مرة أخرى."
+
+#: drkonqiassistantpages_bugzilla.cpp:428
+#, kde-format
+msgctxt "@option:check"
+msgid "My crash may be duplicate of bug: <numid>%1</numid>"
+msgstr "ربما يكون انهياري تكرار لعلة: <numid>%1</numid>"
+
+#: drkonqiassistantpages_bugzilla.cpp:480
+msgctxt "@info:status"
+msgid "Search stopped."
+msgstr "توقف البحث."
+
+#: drkonqiassistantpages_bugzilla.cpp:482
+#, kde-format
+msgctxt "@info:status"
+msgid "Search stopped. Showing results from %1 to %2"
+msgstr "التوقف البحث ، تعرض النتائج من %1 إلى %2"
+
+#: drkonqiassistantpages_bugzilla.cpp:496
+#, kde-format
+msgctxt "@info:status"
+msgid "Searching for duplicates (from %1 to %2)..."
+msgstr "البحث عن المكررات (من %1 إلى %2)..."
+
+#: drkonqiassistantpages_bugzilla.cpp:534
+#, kde-format
+msgctxt "@info:status"
+msgid "Showing results from %1 to %2"
+msgstr "تعرض النتائج من  %1 إلى %2"
+
+#: drkonqiassistantpages_bugzilla.cpp:561
+msgctxt "@info:status"
+msgid "Search Finished. No reports found."
+msgstr "البحث انتهى ، لا يوجد تقارير."
+
+#: drkonqiassistantpages_bugzilla.cpp:585
+msgctxt "@title:window"
+msgid "Bug Description"
+msgstr "وصف العلة"
+
+#: drkonqiassistantpages_bugzilla.cpp:593
+msgctxt "@action:button"
+msgid "My crash may be a duplicate of this report"
+msgstr "قد يكون انهياري تكرار لهذه التقرير"
+
+#: drkonqiassistantpages_bugzilla.cpp:594
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to mark your crash as related to the currently shown bug "
+"report. This will help the KDE developers to determine whether they are "
+"duplicates or not."
+msgstr ""
+"استخدم هذا الزر لجعل انهيارك مرتبط بتقرير العلة المعروضة حاليا ، سيساعد هذا "
+"مطوري كدي على تحديد إذا كانت تكرار أم لا."
+
+#: drkonqiassistantpages_bugzilla.cpp:623 getbacktracewidget.cpp:84
+msgctxt "@info:status"
+msgid "Loading..."
+msgstr "يحمل..."
+
+#: drkonqiassistantpages_bugzilla.cpp:626
+#, kde-format
+msgctxt "@info"
+msgid "<link url='%1'>Bug report page at the KDE bug tracking system</link>"
+msgstr "<link url='%1'>صفحة تقرير العلة على نظام تعقب علل كدي</link>"
+
+#: drkonqiassistantpages_bugzilla.cpp:630
+#, kde-format
+msgctxt "@info:status"
+msgid "Loading information about bug <numid>%1</numid> from %2...."
+msgstr "يحمل معلومات علة <numid>%1</numid> من %2...."
+
+#: drkonqiassistantpages_bugzilla.cpp:652
+#, kde-format
+msgid "<strong>Bug ID:</strong> %1<br />"
+msgstr "<strong>رقم العلة:</strong> %1<br />"
+
+#: drkonqiassistantpages_bugzilla.cpp:653
+#, kde-format
+msgid "<strong>Product:</strong> %1/%2<br />"
+msgstr "<strong>المنتج:</strong> %1/%2<br />"
+
+#: drkonqiassistantpages_bugzilla.cpp:655
+#, kde-format
+msgid "<strong>Short Description:</strong> %1<br />"
+msgstr "<strong>الوصف المختصر:</strong> %1<br />"
+
+#: drkonqiassistantpages_bugzilla.cpp:657
+#, kde-format
+msgid "<strong>Status:</strong> %1<br />"
+msgstr "<strong>الحالة:</strong> %1<br />"
+
+#: drkonqiassistantpages_bugzilla.cpp:658
+#, kde-format
+msgid "<strong>Resolution:</strong> %1<br />"
+msgstr "<strong>الحل:</strong> %1<br />"
+
+#: drkonqiassistantpages_bugzilla.cpp:659
+#, kde-format
+msgid "<strong>Full Description:</strong><br />%1"
+msgstr "<strong>الوصف الكامل:</strong><br />%1"
+
+#: drkonqiassistantpages_bugzilla.cpp:662
+#, kde-format
+msgid "<strong>Comments:</strong> %1"
+msgstr "<strong>التعليقات:</strong> %1"
+
+#: drkonqiassistantpages_bugzilla.cpp:669
+#, kde-format
+msgctxt "@info:status"
+msgid "Showing report <numid>%1</numid>"
+msgstr "تعرض تقرير <numid>%1</numid>"
+
+#: drkonqiassistantpages_bugzilla.cpp:673
+msgctxt "@info"
+msgid "Invalid report data"
+msgstr "بيانات التقرير غير صحيحة"
+
+#: drkonqiassistantpages_bugzilla.cpp:686
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"Error fetching the bug report<nl/><message>%1.</message><nl/>Please wait "
+"some time and try again."
+msgstr ""
+"خطأ في جلب تقرير العلة <nl/><message>%1.</message><nl/>الرجاء انتظر بعض "
+"الوقت ثم حاول مرة أخرى."
+
+#: drkonqiassistantpages_bugzilla.cpp:690
+msgctxt "@info"
+msgid "Error fetching the bug report"
+msgstr "خطأ في جلب تقرير العلة"
+
+#: drkonqiassistantpages_bugzilla.cpp:691
+msgctxt "@info:status"
+msgid "Error fetching the bug report"
+msgstr "خطأ في جلب تقرير العلة"
+
+#: drkonqiassistantpages_bugzilla.cpp:748
+msgctxt "@info"
+msgid "The title does not provide enough information."
+msgstr "العنوان ليقدم معلومات كافية."
+
+#: drkonqiassistantpages_bugzilla.cpp:750
+msgctxt "@info"
+msgid ""
+"The description about the crash details does not provide enough information."
+msgstr "وصف تفاصيل الانهيار لا يقدم معلومات كافية."
+
+#: drkonqiassistantpages_bugzilla.cpp:753
+msgctxt "@info"
+msgid ""
+"Both the title and the description about the crash details do not provide "
+"enough information."
+msgstr "كلا العنوان و الوصف لتفاصيل الانهيار لا يقدمان معلومات كافية."
+
+#: drkonqiassistantpages_bugzilla.cpp:757
+msgctxt "@info"
+msgid "Can you tell us more?"
+msgstr "هل يمكنك أن تخبرنا بالمزيد؟"
+
+#: drkonqiassistantpages_bugzilla.cpp:761
+msgctxt "@title:window"
+msgid "We need more information"
+msgstr "نحن نحتاج معلومات أكثر"
+
+#: drkonqiassistantpages_bugzilla.cpp:771
+msgctxt "@info question"
+msgid "Are you ready to submit this report?"
+msgstr "هل أنت متسعد لتسليم هذا التقرير ؟"
+
+#: drkonqiassistantpages_bugzilla.cpp:772
+msgctxt "@title:window"
+msgid "Are you sure?"
+msgstr "هل أنت متأكد؟"
+
+#: drkonqiassistantpages_bugzilla.cpp:808
+msgctxt "@action:button"
+msgid "Retry..."
+msgstr "أعِد المحاولة..."
+
+#: drkonqiassistantpages_bugzilla.cpp:810
+msgctxt "@info:tooltip"
+msgid "Use this button to retry sending the crash report if it failed before."
+msgstr "استخدم هذا الزر لمعاودة إرسال تقرير الانهيار إذا فشلت سابقا."
+
+#: drkonqiassistantpages_bugzilla.cpp:837
+msgctxt "@info:status"
+msgid "Sending crash report... (please wait)"
+msgstr "يرسل تقرير الانهيار ... (الرجاء الانتظار)"
+
+#: drkonqiassistantpages_bugzilla.cpp:854
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"Crash report sent.<nl/>Bug Number :: <numid>%1</numid><nl/>URL :: <link>%2</"
+"link><nl/>Thanks for contributing to KDE. You can now close this window."
+msgstr ""
+"أرسل تقرير الانهيار.<nl/>رقم العلة :: <numid>%1</numid><nl/>الوصلة :: <link>%"
+"2</link><nl/>شكرا لمساهمتك في كدي . يمكنك الآن غلق هذه النافذة."
+
+#: drkonqiassistantpages_bugzilla.cpp:866
+#, kde-format
+msgctxt "@info:status"
+msgid "Error sending the crash report:  <message>%1.</message>"
+msgstr "خطأ في إرسال تقرير الانهيار:  <message>%1.</message>"
+
+#: drkonqibugreport.cpp:40
+msgctxt "@title:window"
+msgid "Crash Reporting Assistant"
+msgstr "مساعد التبليغ عن الانهيارات"
+
+#: drkonqibugreport.cpp:52
+msgctxt "@title the introduction page"
+msgid "Introduction"
+msgstr "المقدمة"
+
+#: drkonqibugreport.cpp:61
+msgctxt "@title"
+msgid "Crash Information (Backtrace)"
+msgstr "معلومات الانهيار (المتتبع الخلفي)"
+
+#: drkonqibugreport.cpp:79
+msgctxt "@title"
+msgid "Crash Analysis Results"
+msgstr "نتائج تحليل الانهيار"
+
+#: drkonqibugreport.cpp:107
+msgctxt "@title"
+msgid "Bug Report Possible Duplicates List"
+msgstr "قائمة المكررات المحتملة للعلة"
+
+#: drkonqibugreport.cpp:116
+msgctxt "@title"
+msgid "Details of the Bug Report"
+msgstr "تفاصيل تقرير العلة"
+
+#: drkonqibugreport.cpp:237
+msgctxt "@info"
+msgid ""
+"Do you really want to close the bug assistant without submitting the bug "
+"report?"
+msgstr "هل ترغب حقا في إغلاق مساعد التبليغ بدون تسليم تقرير العلة؟"
+
+#: drkonqibugreport.cpp:239
+msgctxt "@title:window"
+msgid "Close Crash Reporting Assistant"
+msgstr "أغلق مساعد التبليغ بالانهيارات"
+
+#: drkonqi.cpp:188
+#, kde-format
+msgctxt "@info"
+msgid "Report saved to <filename>%1</filename>."
+msgstr "حُفظ التقرير في <filename>%1</filename>."
+
+#: drkonqi.cpp:191
+msgctxt "@info"
+msgid "Could not create a file in which to save the report."
+msgstr "لا يمكن إنشاء ملف لحفظ التقرير فيه."
+
+#: drkonqi.cpp:202
+msgctxt "@title:window"
+msgid "Select Filename"
+msgstr "اختر اسم الملف"
+
+#: drkonqi.cpp:216
+#, kde-format
+msgctxt "@info"
+msgid "Cannot open file <filename>%1</filename> for writing."
+msgstr "لم استطع فتح الملف <filename>%1</filename> للكتابة."
+
+#: drkonqidialog.cpp:62
+msgctxt "@title:tab general information"
+msgid "&General"
+msgstr "&عام"
+
+#: drkonqidialog.cpp:66
+msgctxt "@title:tab"
+msgid "&Developer Information"
+msgstr "&معلومات المطور"
+
+#: drkonqidialog.cpp:87
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>We are sorry, <application>%1</application> closed unexpectedly.</para>"
+msgstr "<para> نحن آسفون <application>%1</application> انغلق فجأة.</para>"
+
+#: drkonqidialog.cpp:92
+msgctxt "@info"
+msgid ""
+"<para>You can help us improve KDE by reporting this error.<nl /><link "
+"url='#aboutbugreporting'>Learn more about bug reporting.</link></"
+"para><para><note>It is safe to close this dialog if you do not want to "
+"report this bug.</note></para>"
+msgstr ""
+"<para>يمكن المساعدة في تحسين كدي بالتبليغ عن هذا الخطأ.<nl /><link "
+"url='#aboutbugreporting'>تعلم المزيد حول التلبيغ عن العلل.</link></"
+"para><para><note>يمكنك غلق هذا الحوار بأمان إذا لم ترغب بالتبليغ عن  هذه "
+"العلة.</note></para>"
+
+#: drkonqidialog.cpp:121
+msgctxt "@label"
+msgid "Details:"
+msgstr "التفاصيل:"
+
+#: drkonqidialog.cpp:123
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Executable: <application>%1</application> PID: <numid>%2</numid> "
+"Signal: %3 (%4)</para>"
+msgstr ""
+"<para>الملف التنفيذي: <application>%1</application> رقم العملية: <numid>%2</"
+"numid> الإشارة: %3 (%4)</para>"
+
+#: drkonqidialog.cpp:143
+msgctxt "@action:button"
+msgid "Report Bug"
+msgstr "أبلغ عن العلة"
+
+#: drkonqidialog.cpp:146
+msgctxt "@info:tooltip"
+msgid "Starts the bug report assistant."
+msgstr "تبدأ مساعدة التلبيغ عن العلل."
+
+#: drkonqidialog.cpp:152
+msgctxt ""
+"@action:button this is the debug menu button label which contains the "
+"debugging applications"
+msgid "Debug"
+msgstr "نقح"
+
+#: drkonqidialog.cpp:153
+msgctxt "@info:tooltip"
+msgid "Starts a program to debug the crashed application."
+msgstr "تبدأ البرنامج لتنقح التطبيق المنهار."
+
+#: drkonqidialog.cpp:162 drkonqidialog.cpp:231
+#, kde-format
+msgctxt "@action:inmenu 1 is the debugger name"
+msgid "Debug in <application>%1</application>"
+msgstr "نقح في <application>%1</application>"
+
+#: drkonqidialog.cpp:179
+msgctxt "@action:button"
+msgid "Restart Application"
+msgstr "أعد تشغيل التطبيق"
+
+#: drkonqidialog.cpp:181
+msgctxt "@info:tooltip"
+msgid "Use this button to restart the crashed application."
+msgstr "استخدم هذا الزر لتعيد تشغيل التطبيق المنهار."
+
+#: drkonqidialog.cpp:187
+msgctxt "@info:tooltip"
+msgid "Close this dialog (you will lose the crash information.)"
+msgstr "أغلق هذا الحوار ( ستفقد معلومات الانهيار)."
+
+#: getbacktracewidget.cpp:52
+msgctxt "@action:button"
+msgid "&Reload Crash Information"
+msgstr "أع&د تحميل معلومات الانهيار"
+
+#: getbacktracewidget.cpp:53
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to reload the crash information (backtrace). This is useful "
+"when you have installed the proper debug symbol packages and you want to "
+"obtain a better backtrace."
+msgstr ""
+"استخدم هذا الزر لإعادة تحميل معلومات الانهيار (المتتبع الخلفي). هذا مفيد "
+"عندما تثبت حزم التنقيح الصحيحة و تريد أن أن تحصل على تتبع خلفي أفضل."
+
+#: getbacktracewidget.cpp:59
+msgctxt "@action:button"
+msgid "&Copy"
+msgstr "ان&سخ"
+
+#: getbacktracewidget.cpp:60
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to copy the crash information (backtrace) to the clipboard."
+msgstr "استخدم هذا الزر لتنسخ معلومات الانهيار (المتتبع الخلفي) إلى الحافظة."
+
+#: getbacktracewidget.cpp:67
+msgctxt "@info:tooltip"
+msgid ""
+"Use this button to save the crash information (backtrace) to a file. This is "
+"useful if you want to take a look at it or to report the bug later."
+msgstr ""
+"استخدم هذا الزر لتحفظ معلومات الانهيار (المتتبع الخلفي) إلى ملف ، هذا مفيد "
+"في حالة أن أردت أن تلقي نظرة على التقرير أو تبلغ عن العلة لاحقا."
+
+#: getbacktracewidget.cpp:88
+msgctxt "@info:status"
+msgid "Loading crash information... (this may take some time)"
+msgstr "يحمل معلومات الانهيار ... (قد يأخذ هذا بعض الوقت)"
+
+#: getbacktracewidget.cpp:132
+msgctxt "@info"
+msgid ""
+"Another debugger is currently debugging the same application. The crash "
+"information could not be fetched."
+msgstr ""
+"منقح آخر يعمل على تقيح نفس التطبيق حاليا ، لا يمكن جلب معلومات الانهيار."
+
+#: getbacktracewidget.cpp:136
+msgctxt "@info:status"
+msgid "The crash information could not be fetched."
+msgstr "لا يمكن جلب معلومات الانهيار."
+
+#: getbacktracewidget.cpp:138
+msgctxt "@info/rich"
+msgid ""
+"Another debugging process is attached to the crashed application. Therefore, "
+"the DrKonqi debugger cannot fetch the backtrace. Please close the other "
+"debugger and click <interface>Reload Crash Information</interface>."
+msgstr ""
+"يوجد عملية تنقيح أخرى ملتصقة بالتبطبيق المنهار ، لذا لا يستطيع منقح DrKonqi "
+"أن يجلب المتعقب الخلفي ، الرجاء غلق المنقح الأخر و النقر على <interface>أعد "
+"تحميل ملعومات الانهيار</interface>."
+
+#: getbacktracewidget.cpp:159
+msgctxt "@info"
+msgid "This crash information is useful"
+msgstr "معلومات الانهيار هذه مفيدة"
+
+#: getbacktracewidget.cpp:162
+msgctxt "@info"
+msgid "This crash information may be useful"
+msgstr "معلومات الانهيار هذه قد تكون مفيدة"
+
+#: getbacktracewidget.cpp:165
+msgctxt "@info"
+msgid "This crash information is probably not useful"
+msgstr "معلومات الانيهار هذه قد لا تكون مفيدة"
+
+#: getbacktracewidget.cpp:168
+msgctxt "@info"
+msgid "This crash information is not useful"
+msgstr "معلومات الانهيار هذه غير مفيدة"
+
+#: getbacktracewidget.cpp:172
+msgctxt "@info"
+msgid ""
+"The rating of this crash information is invalid. This is a bug in drkonqi "
+"itself."
+msgstr "تقيم معلومات الانهيار هذه غير صحيح ، هذه علة في drkonqi بنفسه."
+
+#: getbacktracewidget.cpp:180
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"Please read <link url='%1'>How to create useful crash reports</link> to "
+"learn how to get a useful backtrace. After you install the needed packages, "
+"click the <interface>Reload Crash Information</interface> button."
+msgstr ""
+"الرجاء قراءة <link url='%1'>كيف تنشئ تقرير انهيار مفيد</link> to لتتعلم كيف "
+"تحصل على متعقب خلفي مفيد ، بعد أن تثبت الحزم المطلوبة انقر <interface>أعد "
+"تحميل معلومات الانهيار</interface> button."
+
+#: getbacktracewidget.cpp:192
+msgctxt "@info:status"
+msgid "The debugger has quit unexpectedly."
+msgstr "خرج المنقح فجأة."
+
+#: getbacktracewidget.cpp:195 getbacktracewidget.cpp:208
+msgctxt "@info:status"
+msgid "The crash information could not be generated."
+msgstr "لا يمكن توليد معلومات الانهيار ."
+
+#: getbacktracewidget.cpp:198
+msgctxt "@info/rich"
+msgid ""
+"You could try to regenerate the backtrace by clicking the <interface>Reload "
+"Crash Information</interface> button."
+msgstr ""
+"يمكنك محاولة توليد المتعقب الخلفي بالنقر على زر <interface>أعد تحميل معلومات "
+"الانهيار</interface>."
+
+#: getbacktracewidget.cpp:204
+msgctxt "@info:status"
+msgid "The debugger application is missing or could not be launched."
+msgstr "تطبيق المنقح مفقود أو لا يمكن إطلاقه."
+
+#: getbacktracewidget.cpp:210
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"You need to install the debugger package (%1) and click the "
+"<interface>Reload Crash Information</interface> button."
+msgstr ""
+"تحتاج إلى تثبيت حزمة المنقح (%1) ثم انقر على زر <interface>أعد تحميل معلومات "
+"الانهيار</interface>."
+
+#: krashconf.cpp:74
+msgctxt "@info unknown application"
+msgid "unknown"
+msgstr "مجهول"
+
+#: krashconf.cpp:161
+#, kde-format
+msgctxt "@info/rich"
+msgid "<application>%1</application>"
+msgstr "<application>%1</application>"
+
+#: krashconf.cpp:165 krashconf.cpp:172
+#, kde-format
+msgctxt "@info/rich"
+msgid "<command>%1</command>"
+msgstr "<command>%1</command>"
+
+#: krashconf.cpp:178
+#, kde-format
+msgctxt "@info/rich"
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: main.cpp:41
+msgid "The KDE crash handler gives the user feedback if a program has crashed."
+msgstr "يعطي مداول انهيار كدي ردة فعل للمستخدم إذا انهار برنامج."
+
+#: main.cpp:57
+msgid "The KDE Crash Handler"
+msgstr "مداول انهيار كدي"
+
+#: main.cpp:60
+msgid "(C) 2000-2009, The DrKonqi Authors"
+msgstr "(C) 2000-2009 ، مؤلفو DrKonqi "
+
+#: main.cpp:61
+msgctxt "@info:credit"
+msgid "Hans Petter Bieker"
+msgstr "Hans Petter Bieker"
+
+#: main.cpp:63
+msgctxt "@info:credit"
+msgid "Dario Andres Rodriguez"
+msgstr "Dario Andres Rodriguez"
+
+#: main.cpp:65
+msgctxt "@info:credit"
+msgid "George Kiagiadakis"
+msgstr "George Kiagiadakis"
+
+#: main.cpp:67
+msgctxt "@info:credit"
+msgid "A. L. Spehr"
+msgstr "A. L. Spehr"
+
+#: main.cpp:74
+msgctxt "@info:shell"
+msgid "The signal number that was caught"
+msgstr "رقم الإشارة الملتقطة."
+
+#: main.cpp:75
+msgctxt "@info:shell"
+msgid "Name of the program"
+msgstr "اسم البرنامج"
+
+#: main.cpp:76
+msgctxt "@info:shell"
+msgid "Path to the executable"
+msgstr "المسار إلى الملف التنفيذي"
+
+#: main.cpp:77
+msgctxt "@info:shell"
+msgid "The version of the program"
+msgstr "إصدارة البرنامج"
+
+#: main.cpp:78
+msgctxt "@info:shell"
+msgid "The bug address to use"
+msgstr "عنوان العلة الذي سيتم استخدامه"
+
+#: main.cpp:79
+msgctxt "@info:shell"
+msgid "Translated name of the program"
+msgstr "الاسم المترجم للبرنامج"
+
+#: main.cpp:80
+msgctxt "@info:shell"
+msgid "The PID of the program"
+msgstr "رقم تعريف العملية الخاص بالبرنامج"
+
+#: main.cpp:81
+msgctxt "@info:shell"
+msgid "Startup ID of the program"
+msgstr "رقم بدء التشغيل (PID) الخاص بالبرنامج"
+
+#: main.cpp:82
+msgctxt "@info:shell"
+msgid "The program was started by kdeinit"
+msgstr "بدأ البرنامج عن طريق kdeinit"
+
+#: main.cpp:83
+msgctxt "@info:shell"
+msgid "Disable arbitrary disk access"
+msgstr "عطّل وصول القرص العشوائي"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"
+
+#. i18n: file: ui/assistantpage_bugawareness.ui:17
+#. i18n: ectx: property (text), widget (QLabel, m_detailLabel)
+#: rc.cpp:5
+msgctxt "@info"
+msgid ""
+"<p><b>Can you detail how it can be reproduced?</b></p><p><i> Examples: "
+"<ul><li>steps to reproduce the crash</li> <li>what you were doing at the "
+"time</li> <li>if it happens every time</li> <li>a URL or document that "
+"crashes</li></ul></i></p>"
+msgstr ""
+"<p><b>هل يمكنك شرح كيف يمكن إعادة توليد هذا الإنهيار؟</b></p><p><i> أمثلة: "
+"<ul><li>خطوات إعادة توليد الانهيار</li> <li>ماذا كنت تفعل في ذاك الوقت </li> "
+"<li>إذا كان يحصل كل مرة</li> <li> وصلة أو مستند الذي يسبب الانهيار</li></"
+"ul></i></p>"
+
+#. i18n: file: ui/assistantpage_bugawareness.ui:27
+#. i18n: ectx: property (text), widget (QCheckBox, m_canDetailCheckBox)
+#: rc.cpp:8
+msgctxt "@option:check"
+msgid "Yes, I can give information about the crash."
+msgstr "نعم ، استطيع أن أعطي معلومات عن الانهيار."
+
+#. i18n: file: ui/assistantpage_bugawareness.ui:50
+#. i18n: ectx: property (text), widget (QLabel, m_developersCanContactReporterLabel)
+#: rc.cpp:11
+msgctxt "@info"
+msgid "<p><b>Can the developers contact you for more information?</b></p>"
+msgstr "<p><b>هل يستطيع المطورين الاتصال بك للمزيد من المعلومات؟</b></p>"
+
+#. i18n: file: ui/assistantpage_bugawareness.ui:60
+#. i18n: ectx: property (text), widget (QCheckBox, m_developersCanContactReporterCheckBox)
+#: rc.cpp:14
+msgctxt "@option:check"
+msgid "Yes, developers can contact me."
+msgstr "نعم ، يستطيع المطورين الاتصال بي."
+
+#. i18n: file: ui/assistantpage_bugzilla_duplicates_dialog.ui:41
+#. i18n: ectx: property (text), widget (QLabel, m_backtraceTitleLabel)
+#: rc.cpp:17
+msgctxt "@label:textbox"
+msgid "Backtrace of the crash I am sending:"
+msgstr "المتعقب الخلفي الي سأرسله:"
+
+#. i18n: file: ui/assistantpage_bugzilla_duplicates.ui:17
+#. i18n: ectx: property (text), widget (QLabel, m_explanationLabel)
+#: rc.cpp:20
+msgctxt "@info/rich"
+msgid ""
+"See if your bug is already been reported. If there are search results, "
+"double click a report in the list and compare it to yours. You can suggest "
+"that your crash is a duplicate of that report."
+msgstr ""
+"انظر إذا كانت هذه العلة مبلغ عنها أم لا ، إذا كان هناك نتيجة للبحث انقر نقر "
+"مزدوج على القائمة وقارنها بالمعلومات التي معك ، تستطيع اقتراح انهيارك كتكرار "
+"لذاك التقرير."
+
+#. i18n: file: ui/assistantpage_bugzilla_duplicates.ui:40
+#. i18n: ectx: property (text), widget (QTreeWidget, m_bugListWidget)
+#: rc.cpp:23
+msgctxt "@title:column"
+msgid "Bug ID"
+msgstr "رقم العلة"
+
+#. i18n: file: ui/assistantpage_bugzilla_duplicates.ui:45
+#. i18n: ectx: property (text), widget (QTreeWidget, m_bugListWidget)
+#: rc.cpp:26
+msgctxt "@title:column"
+msgid "Description"
+msgstr "الوصف"
+
+#. i18n: file: ui/assistantpage_bugzilla_information.ui:17
+#. i18n: ectx: property (text), widget (QLabel, m_explanationLabel)
+#: rc.cpp:29
+msgctxt "@info/rich"
+msgid "Complete the bug report fields: <nl /><note>Use English.</note>"
+msgstr "اكمل حقول العلة: <nl /><note>استخدم اللغة الإنجليزية.</note>"
+
+#. i18n: file: ui/assistantpage_bugzilla_information.ui:27
+#. i18n: ectx: property (text), widget (QLabel, m_titleLabel)
+#: rc.cpp:32
+msgctxt "@label:textbox"
+msgid "Title of the bug report"
+msgstr "عنوان تقرير العلة"
+
+#. i18n: file: ui/assistantpage_bugzilla_information.ui:37
+#. i18n: ectx: property (text), widget (QLabel, m_detailsLabel)
+#: rc.cpp:35
+msgctxt "@label:textbox"
+msgid "Details about the crash"
+msgstr "تفاصيل الانهيار"
+
+#. i18n: file: ui/assistantpage_bugzilla_information.ui:64
+#. i18n: ectx: property (text), widget (QLabel, m_crashInfoLabel)
+#: rc.cpp:38
+msgctxt "@info/rich"
+msgid ""
+"<note>The crash and system information will be automatically added to the "
+"bug report.</note>"
+msgstr ""
+"<note>الانهيار و معلومات النظام ستضاف بشكل آلي إلى تقرير العلة .</note>"
+
+#. i18n: file: ui/assistantpage_bugzilla_keywords.ui:17
+#. i18n: ectx: property (text), widget (QLabel, m_detailsLabel)
+#: rc.cpp:41
+msgctxt "@info/rich"
+msgid ""
+"<para>Enter at least four words to describe the crash.</para><para>You can "
+"use the application name or another keyword that could describe the crash "
+"situation. These keywords will be used to search for already reported bugs "
+"that could be the same (possible duplicates).</para><para><note>You must use "
+"English words.</note></para>"
+msgstr ""
+"<para>أدخل على الأقل أربع كلمات تصف الانهيار.</para><para> تستطيع استخدام "
+"اسم التطبيق أو كملة مفتاحية تصف حالة الانهيار. هذه الكلمات ستستخدم للبحث عن "
+"العلل المبلغ عنها بالفعل و التي قد  تكون مشابهة لعلتك (مكررات).</"
+"para><para><note> يجب عليك استخدام  كلمات انجليزية.</note></para>"
+
+#. i18n: file: ui/assistantpage_bugzilla_login.ui:22
+#. i18n: ectx: property (text), widget (QLabel, m_userLabel)
+#: rc.cpp:44
+msgctxt "@label:textbox bugzilla account username"
+msgid "Username:"
+msgstr "اسم المستخدم:"
+
+#. i18n: file: ui/assistantpage_bugzilla_login.ui:29
+#. i18n: ectx: property (text), widget (QLabel, m_passwordLabel)
+#: rc.cpp:47
+msgctxt "@label:textbox bugzilla account password"
+msgid "Password:"
+msgstr "كلمة السر:"
+
+#. i18n: file: ui/assistantpage_bugzilla_login.ui:48
+#. i18n: ectx: property (text), widget (QCheckBox, m_savePasswordCheckBox)
+#: rc.cpp:50
+msgctxt "@option:check"
+msgid "Save login information using the KDE Wallet system"
+msgstr "احفظ معلومات الولوج باستخدم نظام حافظة كدي"
+
+#. i18n: file: ui/assistantpage_bugzilla_send.ui:75
+#. i18n: ectx: property (text), widget (QCheckBox, m_launchPageOnFinish)
+#: rc.cpp:53
+msgctxt "@option:check"
+msgid "Open the bug report page when clicking the Finish button"
+msgstr "افتح صفحة تقرير العلة عند النقر على زر الإنتهاء."
+
+#. i18n: file: ui/assistantpage_bugzilla_send.ui:98
+#. i18n: ectx: property (text), widget (QCheckBox, m_restartAppOnFinish)
+#: rc.cpp:56
+msgctxt "@option:check"
+msgid "Restart the application when clicking the Finish button"
+msgstr "أعد تشغيل التطبيق عند النقر على زر الإنتهاء"
+
+#. i18n: file: ui/assistantpage_conclusions.ui:70
+#. i18n: ectx: property (text), widget (QCheckBox, m_restartAppOnFinish)
+#: rc.cpp:59
+msgid "Restart the application when clicking the Finish button"
+msgstr "أعد تشغيل التطبيق عند النقر على زر الإنتهاء"
+
+#. i18n: file: ui/assistantpage_introduction.ui:17
+#. i18n: ectx: property (text), widget (QLabel, m_introductionLabel)
+#: rc.cpp:62
+msgctxt "@info"
+msgid ""
+"<para>This assistant will analyze the crash information and guide you "
+"through the bug reporting process.</para><para>You can get help on this bug "
+"reporting assistant by clicking the <emphasis>Help</emphasis> button.</"
+"para><para>To start gathering the crash information click the "
+"<emphasis>Next</emphasis> button.</para>"
+msgstr ""
+"<para>هذا المساعد سيحلل معلومات الانهيار و يرشدك عبر خطوات التبليغ عن العلل."
+"</para><para> يمكنك الحصول على المساعدة حول مساعد التبليغ هذا بالنقر على زر "
+"<emphasis>مساعدة</emphasis>.</para><para>لتبدأ جمع معلومات الانهيار انقر على "
+"زر <emphasis>التالي</emphasis> .</para>"
+
+#: reportinfo.cpp:171
+msgctxt "@info/plain"
+msgid ""
+"<placeholder>In detail, tell us what you were doing  when the application "
+"crashed.</placeholder>"
+msgstr ""
+"<placeholder>أخبرنا بالتفصيل ماذا كنت تفعل عندما انهار التطبيق.</placeholder>"
+
+#~ msgid "Could not generate a backtrace as the debugger '%1' was not found."
+#~ msgstr "تعذر توليد متتبع خلفي حيث لم يمكن العثور على المنقّح `%1`."
+
+#~ msgid "Application: %progname (%execname), signal %signame"
+#~ msgstr "تطبيق: %progname (%execname)، signal %signame"
+
+#~ msgctxt "debugging finished"
+#~ msgid "Backtrace loaded."
+#~ msgstr "حُمّل الأثر الخلفي."
+
+#~ msgid ""
+#~ "A file named <filename>%1</filename> already exists. Are you sure you "
+#~ "want to overwrite it?"
+#~ msgstr ""
+#~ "الملف المسمى <filename>%1</filename> موجود مسبقاً. هل تريد الكتابة فوقه "
+#~ "حقاً؟"
+
+#~ msgid "Overwrite File?"
+#~ msgstr "أأكتب على الملف؟"
+
+#~ msgid "&Overwrite"
+#~ msgstr "ا&كتب عليه"
+
+#~ msgid "Unable to create a valid backtrace."
+#~ msgstr "تعذر إنشاء متتبع خلفي صالح."
+
+#~ msgid ""
+#~ "This backtrace appears to be of no use.\n"
+#~ "This is probably because your packages are built in a way which prevents "
+#~ "creation of proper backtraces, or the stack frame was seriously corrupted "
+#~ "in the crash.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "يبدو أنّ المتتبع الخلفي عديم الفائدة.\n"
+#~ "هذا على الأرجح بسبب أنّ حزمك مبنيّة بطريقة تمنع إنشاء متتبع خلفي ملائم، أو "
+#~ "أن إطار الرصة كان فاسداً كلّيّاً في الإنهيار.\n"
+#~ "\n"
+
+#~ msgid "Loading backtrace..."
+#~ msgstr "جاري تحميل المتتبع الخلفي..."
+
+#~ msgid ""
+#~ "The following options are enabled:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "الخيارات التالية ممكنة:\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "As the usage of these options is not recommended - because they can, in "
+#~ "rare cases, be responsible for KDE problems - a backtrace will not be "
+#~ "generated.\n"
+#~ "You need to turn these options off and reproduce the problem again in "
+#~ "order to get a backtrace.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "في حين استعمال هذه الخيارت الغير موصى بها - بسبب أنها , في حالات نادرة, "
+#~ "تكون مسؤولة عن مشاكل كيدي - المتتبع الخلفي لن يتم إنشائه.\n"
+#~ "أنت بحاجة إلى تعطيل هذه الخيارات وإعادة توليد هذا المشكلة مرة أخرى عند "
+#~ "طلب متتبع خلفي.\n"
+
+#~ msgid "Backtrace will not be created."
+#~ msgstr "المتتبع الخلفي لم يتم إنشائه."
+
+#~ msgid "System configuration startup check disabled.\n"
+#~ msgstr "فحص تشكيل النظام عند بدء التشغيل معطّل.\n"
+
+#~ msgid "You have to edit the description before the report can be sent."
+#~ msgstr "يجب عليك تحرير الوصف قبل إرسال تقرير بالخلل."
+
+#~ msgid "(C) 2000-2003, Hans Petter Bieker"
+#~ msgstr "(C) 2000-2003, Hans Petter Bieker"
+
+#~ msgid ""
+#~ "Please include the following information in your bug report, after your "
+#~ "description of the steps to reproduce the crash."
+#~ msgstr ""
+#~ "من فضلك ضمّن هذه المعلومات في تبليغك للعلل، بعد وصفك للخطوات التي ولدت هذا "
+#~ "الانهيار."
+
+#~ msgid "A Fatal Error Occurred"
+#~ msgstr "حدث خطأ فادح"
+
+#~ msgid ""
+#~ "<p style=\"margin-bottom: 6px;\"><b>Application crashed</b></p><p>The "
+#~ "program %appname crashed.</p>"
+#~ msgstr ""
+#~ "<p style=\"margin-bottom: 6px;\"><b>التطبيق قد انهار</b></p><p>البرنامج %"
+#~ "appname قد انهار.</p>"
+
+#~ msgid ""
+#~ "<p>Do you want to generate a backtrace? This will help the developers to "
+#~ "figure out what went wrong.</p>\n"
+#~ "<p>Unfortunately this will take some time on slow machines.</"
+#~ "p><p><b>Note: A backtrace is not a substitute for a proper description of "
+#~ "the bug and information on how to reproduce it. It is not possible to fix "
+#~ "the bug without a proper description.</b></p>"
+#~ msgstr ""
+#~ "<p>هل تريد توليد متتبع خلفي؟ هذا سيساعد المطورين على معرفة ماذا حدث "
+#~ "بالتحديد</p>\n"
+#~ "<p>للأسف, قد تأخذ هذه العملية وقتاً طويلاً على الأجهزة البطيئة.</"
+#~ "p><p><b>ملاحظة: المتتبع الخلفي ليس بديلاً عن وصف مناسب للعلة ومعلومات عن "
+#~ "كيفية توليدها. ليس ممكناً إصلاح الخلل دون وصف مناسب له.</b></p>"
+
+#~ msgid "Include Backtrace"
+#~ msgstr "تضمين المتتبع الخلفي"
+
+#~ msgid "Do Not Generate"
+#~ msgstr "لا تولد"
+
+#~ msgid "It was not possible to generate a backtrace."
+#~ msgstr "لم يكن ممكناً إنشاء متتبع خلفي"
+
+#~ msgid "Backtrace Not Possible"
+#~ msgstr "المتتبع الخلفي غير ممكن"

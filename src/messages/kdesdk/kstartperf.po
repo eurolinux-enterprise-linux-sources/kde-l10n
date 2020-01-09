@@ -1,0 +1,62 @@
+# translation of kstartperf.po to
+# Copyright (C) 2002, 2004, 2007 Free Software Foundation, Inc.
+#
+# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002.
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kstartperf\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-01-10 10:25+0100\n"
+"PO-Revision-Date: 2007-10-14 15:59+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: kstartperf.cpp:90
+msgid "KStartPerf"
+msgstr "KStartPerf"
+
+#: kstartperf.cpp:91
+msgid "Measures start up time of a KDE application"
+msgstr "تقيس وقت بدء التشغيل لبرنامج KDE"
+
+#: kstartperf.cpp:93
+#, fuzzy
+msgid "Copyright (c) 2000 Geert Jansen and libkmapnotify authors"
+msgstr "حقوق النسخ c جانسين و"
+
+#: kstartperf.cpp:94
+#, fuzzy
+msgid "Geert Jansen"
+msgstr "Geert Jansen"
+
+#: kstartperf.cpp:94
+msgid "Maintainer"
+msgstr "المتابع"
+
+#: kstartperf.cpp:100
+#, fuzzy
+msgid "Specifies the command to run"
+msgstr "يحدد الأمر المطلوب تشغيله"
+
+#: kstartperf.cpp:101
+#, fuzzy
+msgid "Arguments to 'command'"
+msgstr "المتغيرات إلى أمر"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "السيد جعفر الموسوي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mosawi@arabeyes.org"

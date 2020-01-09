@@ -1,0 +1,633 @@
+# translation of khelpcenter.po to Arabic
+# translation of khelpcenter.po to
+# Copyright (C) 2001,2002, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Mohammed Ibrahim Halabi <mih_flyer@hotmail.com>, 2001.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Munzir Taha <munzir@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: khelpcenter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-01-28 09:13+0100\n"
+"PO-Revision-Date: 2008-12-06 21:18+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+
+#: application.cpp:57 navigator.cpp:470
+msgid "KDE Help Center"
+msgstr "مركز مساعدة كيدي"
+
+#: application.cpp:59 khc_indexbuilder.cpp:156
+msgid "The KDE Help Center"
+msgstr "مركز المساعدة لِـ كيدي"
+
+#: application.cpp:61
+msgid "(c) 1999-2003, The KHelpCenter developers"
+msgstr "(c) 1999-2003, مطوري مركز المساعدة لـِ كيدي"
+
+#: application.cpp:63 khc_indexbuilder.cpp:160
+msgid "Cornelius Schumacher"
+msgstr "Cornelius Schumacher"
+
+#: application.cpp:64
+msgid "Frerich Raabe"
+msgstr "Frerich Raabe"
+
+#: application.cpp:65
+msgid "Matthias Elter"
+msgstr "Matthias Elter"
+
+#: application.cpp:65
+msgid "Original Author"
+msgstr "المؤلف الأصلي"
+
+#: application.cpp:67
+msgid "Wojciech Smigaj"
+msgstr "Wojciech Smigaj"
+
+#: application.cpp:67
+msgid "Info page support"
+msgstr "دعم صفحة المعلومات"
+
+#: application.cpp:74
+msgid "URL to display"
+msgstr "الموقع للعرض"
+
+#: docmetainfo.cpp:34
+msgid "Top-Level Documentation"
+msgstr "توثيق المستوى الأعلى"
+
+#: docmetainfo.cpp:74
+#, kde-format
+msgctxt "doctitle (language)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: docmetainfo.cpp:110
+msgctxt "Describes documentation entries that are in English"
+msgid "English"
+msgstr "إنجليزي"
+
+#: fontdialog.cpp:45
+msgid "Font Configuration"
+msgstr "تشكيل الخط"
+
+#: fontdialog.cpp:68
+msgid "Sizes"
+msgstr "أحجام"
+
+#: fontdialog.cpp:74
+msgctxt "The smallest size a will have"
+msgid "M&inimum font size:"
+msgstr "أ&دنى مقاس للخط:"
+
+#: fontdialog.cpp:81
+msgctxt "The normal size a font will have"
+msgid "M&edium font size:"
+msgstr "مقا&س الخط الأوسط:"
+
+#: fontdialog.cpp:91
+msgid "Fonts"
+msgstr "الخطوط"
+
+#: fontdialog.cpp:97
+msgid "S&tandard font:"
+msgstr "الخط ال&قياسي:"
+
+#: fontdialog.cpp:103
+msgid "F&ixed font:"
+msgstr "الخط ال&ثابت:"
+
+#: fontdialog.cpp:109
+msgid "S&erif font:"
+msgstr "خط S&erif:"
+
+#: fontdialog.cpp:115
+msgid "S&ans serif font:"
+msgstr "خط S&ans serif:"
+
+#: fontdialog.cpp:121
+msgid "&Italic font:"
+msgstr "خط م&ائل:"
+
+#: fontdialog.cpp:127
+msgid "&Fantasy font:"
+msgstr "خط ت&خيلي:"
+
+#: fontdialog.cpp:136
+msgid "Encoding"
+msgstr "الترميز"
+
+#: fontdialog.cpp:142
+msgid "&Default encoding:"
+msgstr "الترميز الإفتراض&ي:"
+
+#: fontdialog.cpp:147 fontdialog.cpp:217
+msgid "Use Language Encoding"
+msgstr "استخدم ترميز اللغة"
+
+#: fontdialog.cpp:151
+msgid "&Font size adjustment:"
+msgstr "عدّل حجم الخ&ط:"
+
+#: glossary.cpp:95
+msgid "By Topic"
+msgstr "حسب الموضوع"
+
+#: glossary.cpp:98 infotree.cpp:94
+msgid "Alphabetically"
+msgstr "أبجدياً"
+
+#: glossary.cpp:154
+msgid "Rebuilding glossary cache..."
+msgstr "أعد بناء الذاكرة المخبئة للمصطلحات..."
+
+#: glossary.cpp:207
+msgid "Rebuilding cache... done."
+msgstr "إعادة بناء الذاكرة المخبئة... انتهت."
+
+#: glossary.cpp:301
+msgid "Error"
+msgstr "خطأ"
+
+#: glossary.cpp:302
+msgid ""
+"Unable to show selected glossary entry: unable to open file 'glossary.html."
+"in'!"
+msgstr "تعذر إظهار مدخل القاموس المنتقى: تعذر فتح الملف 'glossary.html. in'!"
+
+#: glossary.cpp:307
+msgid "See also: "
+msgstr "انظر أيضاً:"
+
+#: glossary.cpp:322
+msgid "KDE Glossary"
+msgstr "قاموس كيدي"
+
+#: htmlsearchconfig.cpp:50
+msgid "ht://dig"
+msgstr ".ht://dig"
+
+#: htmlsearchconfig.cpp:59
+msgid ""
+"The fulltext search feature makes use of the ht://dig HTML search engine."
+msgstr "ميزة البحث النصي الكامل تجعلك تستفيد من محرك بحث ht://dig HTML. "
+
+#: htmlsearchconfig.cpp:63
+msgid "Information about where to get the ht://dig package."
+msgstr "معلومات حول مكان إيجاد حزمة ht://dig"
+
+#: htmlsearchconfig.cpp:67
+msgid "You can get ht://dig at the ht://dig home page"
+msgstr "يمكنك الحصول على  ht://dig في صفحة البيت لـ ht://dig"
+
+#: htmlsearchconfig.cpp:73
+msgid "Program Locations"
+msgstr "أماكن البرنامج"
+
+#: htmlsearchconfig.cpp:82
+msgid "htsearch:"
+msgstr "htsearch:"
+
+#: htmlsearchconfig.cpp:88
+msgid "Enter the URL of the htsearch CGI program."
+msgstr "أدخل عنوان برنامج htsearch."
+
+#: htmlsearchconfig.cpp:93
+msgid "Indexer:"
+msgstr "المفهرس:"
+
+#: htmlsearchconfig.cpp:99
+msgid "Enter the path to your htdig indexer program here."
+msgstr "أدخل مسار برنامج الفهرسة htdig هنا."
+
+#: htmlsearchconfig.cpp:105
+msgid "htdig database:"
+msgstr "قاعدة بيانات htdig:"
+
+#: htmlsearchconfig.cpp:111
+msgid "Enter the path to the htdig database folder."
+msgstr "أدخل مسار مجلد قاعدة بيانات htdig."
+
+#: infotree.cpp:97
+msgid "By Category"
+msgstr "بواسطة الفئة"
+
+#: kcmhelpcenter.cpp:63
+msgid "Change Index Folder"
+msgstr "غيّر مجلد الفهرسة"
+
+#: kcmhelpcenter.cpp:71 kcmhelpcenter.cpp:293
+msgid "Index folder:"
+msgstr "مجلد الفهرسة:"
+
+#: kcmhelpcenter.cpp:103
+msgid "Build Search Indices"
+msgstr "أنشء فهارس البحث"
+
+#: kcmhelpcenter.cpp:116
+msgid "Index creation log:"
+msgstr "سجل وقائع إنشاء الفهرسة:"
+
+#: kcmhelpcenter.cpp:172
+msgctxt ""
+"Label for button to close search index progress dialog after successful "
+"completion"
+msgid "Close"
+msgstr "أغلق"
+
+#: kcmhelpcenter.cpp:173
+msgid "Index creation finished."
+msgstr "انتهى إنشاء الفهرسة."
+
+#: kcmhelpcenter.cpp:176
+msgctxt "Label for stopping search index generation before completion"
+msgid "Stop"
+msgstr "قف"
+
+#: kcmhelpcenter.cpp:202
+msgid "Details &lt;&lt;"
+msgstr "تفاصيل &lt;&lt;"
+
+#: kcmhelpcenter.cpp:215
+msgid "Details &gt;&gt;"
+msgstr "تفاصيل &gt;&gt;"
+
+#: kcmhelpcenter.cpp:232
+msgid "Build Search Index"
+msgstr "أنشء فهرسة بحث"
+
+#: kcmhelpcenter.cpp:241
+msgid "Build Index"
+msgstr "أنشء فهرسة"
+
+#: kcmhelpcenter.cpp:272
+msgid ""
+"To be able to search a document, a search\n"
+"index needs to exist. The status column of the list below shows whether an "
+"index\n"
+"for a document exists.\n"
+msgstr ""
+"لكي تتمكن من البحث عن مستند, تحتاج إلى وجود فهرس بحث\n"
+"عمود الحالة من القائمة أدناه سيظهر  إذا كان هناك  \n"
+"فهرس للمستند.\n"
+
+#: kcmhelpcenter.cpp:275
+msgid ""
+"To create an index, check the box in the list and press the\n"
+"\"Build Index\" button.\n"
+msgstr ""
+"لإنشاء الفهرسة ، حدّد المربع في القائمة ثم إضغط الزر\n"
+"\"أنشء فهرسة\".\n"
+
+#: kcmhelpcenter.cpp:283
+msgid "Search Scope"
+msgstr "نطاق البحث"
+
+#: kcmhelpcenter.cpp:284
+msgid "Status"
+msgstr "الحالة"
+
+#: kcmhelpcenter.cpp:299
+msgid "Change..."
+msgstr "غيّر..."
+
+#: kcmhelpcenter.cpp:321
+#, kde-format
+msgid "<qt>The folder <b>%1</b> does not exist; unable to create index.</qt>"
+msgstr "<qt>المجلد <b>%1</b> غير موجود. تعذر إنشاء الفهرسة.</qt>"
+
+#: kcmhelpcenter.cpp:358
+msgctxt "Describes the status of a documentation index that is present"
+msgid "OK"
+msgstr "موافق"
+
+#: kcmhelpcenter.cpp:361
+msgctxt "Describes the status of a documentation index that is missing"
+msgid "Missing"
+msgstr "مفقود"
+
+#: kcmhelpcenter.cpp:405
+#, kde-format
+msgctxt ""
+" Generic prefix label for error messages when creating documentation index, "
+"first arg is the document's identifier, second is the document's name"
+msgid "Document '%1' (%2):\n"
+msgstr "المستند '%1' (%2):\n"
+
+#: kcmhelpcenter.cpp:410
+msgid "No document type."
+msgstr "لا نوع للمستند."
+
+#: kcmhelpcenter.cpp:416
+#, kde-format
+msgid "No search handler available for document type '%1'."
+msgstr "لا يوجد مداوِل بحث متوفر  لنوع المستند '%1'."
+
+#: kcmhelpcenter.cpp:423
+#, kde-format
+msgid "No indexing command specified for document type '%1'."
+msgstr "لا يوجد أمر  محدّد لفهرسة نوع المستند '%1'."
+
+#: kcmhelpcenter.cpp:541
+msgid "Failed to build index."
+msgstr "تعذر بناء الفهارس"
+
+#: kcmhelpcenter.cpp:596
+#, kde-format
+msgid ""
+"Error executing indexing build command:\n"
+"%1"
+msgstr ""
+"خطأ عند تنفيذ أمر بناء الفهرسة:\n"
+"%1"
+
+#: khc_indexbuilder.cpp:98
+#, kde-format
+msgid "Unable to start command '%1'."
+msgstr "غير قادر على بدء تنفيذ الأمر '%1'."
+
+#: khc_indexbuilder.cpp:154
+msgid "KHelpCenter Index Builder"
+msgstr "أداة  بناء فهرسة مركز  المساعدة"
+
+#: khc_indexbuilder.cpp:158
+msgid "(c) 2003, The KHelpCenter developers"
+msgstr "(c) 2003, مطوري مركز مساعدة كيدي"
+
+#: khc_indexbuilder.cpp:165
+msgid "Document to be indexed"
+msgstr "المستند المطلوب فهرسته"
+
+#: khc_indexbuilder.cpp:166
+msgid "Index directory"
+msgstr "دليل الفهرسة"
+
+#: mainwindow.cpp:72
+msgid "Search Error Log"
+msgstr "سجل وقائع أخطاء البحث"
+
+#: mainwindow.cpp:130
+msgid "Preparing Index"
+msgstr "جاري تحضير الفهرسة"
+
+#: mainwindow.cpp:179
+msgid "Ready"
+msgstr "جاهز"
+
+#: mainwindow.cpp:234
+msgid "Previous Page"
+msgstr "الصفحة السابقة"
+
+#: mainwindow.cpp:236
+msgid "Moves to the previous page of the document"
+msgstr "ينتقل إلى الصفحة السابقة من المستند"
+
+#: mainwindow.cpp:240
+msgid "Next Page"
+msgstr "الصفحة التالية"
+
+#: mainwindow.cpp:242
+msgid "Moves to the next page of the document"
+msgstr "ينتقل إلى الصفحة التالية من المستند"
+
+#: mainwindow.cpp:247
+msgid "Table of &Contents"
+msgstr "جدول ال&محتويات"
+
+#: mainwindow.cpp:248
+msgid "Table of contents"
+msgstr "جدول المحتويات"
+
+#: mainwindow.cpp:249
+msgid "Go back to the table of contents"
+msgstr "أذهب إلى جدول المحتويات"
+
+#: mainwindow.cpp:255
+msgid "&Last Search Result"
+msgstr "آ&خر نتائج البحث"
+
+#: mainwindow.cpp:260
+msgid "Build Search Index..."
+msgstr "أنشء فهرسة البحث..."
+
+#: mainwindow.cpp:268
+msgid "Show Search Error Log"
+msgstr "أظهر سجل أخطاء البحث"
+
+#: mainwindow.cpp:275
+msgid "Configure Fonts..."
+msgstr "اضبط الخطوط..."
+
+#: mainwindow.cpp:279
+msgid "Increase Font Sizes"
+msgstr "زيادة أحجام الخط"
+
+#: mainwindow.cpp:284
+msgid "Decrease Font Sizes"
+msgstr "تقليل أحجام الخط"
+
+#: navigator.cpp:116
+msgid "&Search"
+msgstr "&إبحث"
+
+#: navigator.cpp:173
+msgid "&Contents"
+msgstr "ال&محتويات"
+
+#: navigator.cpp:186
+msgid "Search Options"
+msgstr "خيارات البحث"
+
+#: navigator.cpp:194
+msgid "G&lossary"
+msgstr "القا&موس"
+
+#: navigator.cpp:469
+msgid "Start Page"
+msgstr "صفحة البداية"
+
+#: navigator.cpp:557
+msgid "Unable to run search program."
+msgstr "غير قادر على تنفيذ برنامج البحث."
+
+#: navigator.cpp:597
+msgid "A search index does not yet exist. Do you want to create the index now?"
+msgstr "لا يوجد فهرس بحث حتى الآن, هل تريد إنشاء الفهرس الآن؟"
+
+#: navigator.cpp:601
+msgid "Create"
+msgstr "أنشء"
+
+#: navigator.cpp:602
+msgid "Do Not Create"
+msgstr "لا تنشئ"
+
+#. i18n: file: khelpcenter.kcfg:11
+#. i18n: ectx: label, entry, group (Search)
+#: rc.cpp:3 rc.cpp:29
+msgid "Path to index directory."
+msgstr "المسار إلى دليل الفهرسة."
+
+#. i18n: file: khelpcenter.kcfg:12
+#. i18n: ectx: whatsthis, entry, group (Search)
+#: rc.cpp:6 rc.cpp:32
+msgid "Path to directory containing search indices."
+msgstr "المسار إلى الدليل الذي يحتوي على فهارس البحث."
+
+#. i18n: file: khelpcenter.kcfg:26
+#. i18n: ectx: label, entry, group (Layout)
+#: rc.cpp:9 rc.cpp:35
+msgid "Currently visible navigator tab"
+msgstr "لسان المتصفح الظاهر حالياً"
+
+#. i18n: file: khelpcenterui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:12
+msgid "&File"
+msgstr "&ملف"
+
+#. i18n: file: khelpcenterui.rc:12
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:15
+msgid "&Edit"
+msgstr "&حرّر"
+
+#. i18n: file: khelpcenterui.rc:20
+#. i18n: ectx: Menu (view)
+#: rc.cpp:18
+msgid "&View"
+msgstr "&أعرض"
+
+#. i18n: file: khelpcenterui.rc:25
+#. i18n: ectx: Menu (go)
+#: rc.cpp:21
+msgid "&Go"
+msgstr "أ&ذهب"
+
+#. i18n: file: khelpcenterui.rc:40
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:24
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسي"
+
+#: rc.cpp:25
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد,زايد السعيدي"
+
+#: rc.cpp:26
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr,zayed.alsaidi@gmail.com"
+
+#: searchengine.cpp:77
+msgid "Error: No document type specified."
+msgstr "خطأ: لا يوجد نوع مستند محدّد."
+
+#: searchengine.cpp:79
+#, kde-format
+msgid "Error: No search handler for document type '%1'."
+msgstr "خطأ: لا يوجد مداوِل بحث لنوع المستند '%1'."
+
+#: searchengine.cpp:227
+#, kde-format
+msgid "Unable to initialize SearchHandler from file '%1'."
+msgstr "تعذر تهيئة مداوٍل البحث من الملف '%1'."
+
+#: searchengine.cpp:241
+msgid "No valid search handler found."
+msgstr "لم أجد مداول بحث صالح."
+
+#: searchengine.cpp:282
+#, kde-format
+msgid "Search Results for '%1':"
+msgstr "نتائج البحث لـِ'%1':"
+
+#: searchengine.cpp:287
+msgid "Search Results"
+msgstr "نتائج البحث"
+
+#: searchhandler.cpp:54
+#, kde-format
+msgid "Error executing search command '%1'."
+msgstr "خطأ عند تنفيذ أمر البحث '%1'."
+
+#: searchhandler.cpp:97
+#, kde-format
+msgid "Error: %1"
+msgstr "الخطأ: %1"
+
+#: searchhandler.cpp:214
+msgid "No search command or URL specified."
+msgstr "لا يوجد أمر بحث أو رابط عنوان URL محدّد."
+
+#: searchwidget.cpp:66
+msgid "and"
+msgstr "و"
+
+#: searchwidget.cpp:67
+msgid "or"
+msgstr "أو"
+
+#: searchwidget.cpp:69
+msgid "&Method:"
+msgstr "ال&طريقة:"
+
+#: searchwidget.cpp:85
+msgid "Max. &results:"
+msgstr "أقصى &عدد للنتائج:"
+
+#: searchwidget.cpp:101
+msgid "&Scope selection:"
+msgstr "ا&ختيار النطاق:"
+
+#: searchwidget.cpp:109
+msgid "Scope"
+msgstr "النطاق"
+
+#: searchwidget.cpp:112
+msgid "Build Search &Index..."
+msgstr "أنشء &فهرس البحث..."
+
+#: searchwidget.cpp:367
+msgctxt "Label for searching documentation using custom (user defined) scope"
+msgid "Custom"
+msgstr "مخصص"
+
+#: searchwidget.cpp:369
+msgctxt "Label for searching documentation using default search scope"
+msgid "Default"
+msgstr "مبدئي"
+
+#: searchwidget.cpp:371
+msgctxt "Label for searching documentation in all subsections"
+msgid "All"
+msgstr "الكل"
+
+#: searchwidget.cpp:373
+msgctxt "Label for scope that deselects all search subsections"
+msgid "None"
+msgstr "لا شيء"
+
+#: searchwidget.cpp:375
+msgctxt "Label for Unknown search scope, that should never appear"
+msgid "unknown"
+msgstr "مجهول"
+
+#: view.cpp:209
+msgid "Copy Link Address"
+msgstr "انسخ عنوان الرابط"

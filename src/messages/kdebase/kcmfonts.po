@@ -1,0 +1,268 @@
+# translation of kcmfonts.po to Arabic
+# translation of kcmfonts.po to
+# Fonts KControl Module.
+# Copyright (C) 2001,2002, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2001,2002.
+# Ossama Khayat <okhayat@yahoo.com>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Amine Roukh <amineroukh@gmail.com>, 2008.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmfonts\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-09-09 01:22+0200\n"
+"PO-Revision-Date: 2008-11-23 22:18+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+
+#: fonts.cpp:226
+msgid "Configure Anti-Alias Settings"
+msgstr "اضبط إعدادات إزالة التسنن"
+
+#: fonts.cpp:234
+msgid "E&xclude range:"
+msgstr "اس&تثن المدى:"
+
+#: fonts.cpp:237 fonts.cpp:242
+msgid " pt"
+msgstr " نقطة"
+
+#: fonts.cpp:239
+msgid " to "
+msgstr " إلى "
+
+#: fonts.cpp:246
+msgid ""
+"<p>If you have a TFT or LCD screen you can further improve the quality of "
+"displayed fonts by selecting this option.<br />Sub-pixel rendering is also "
+"known as ClearType(tm).<br /> In order for sub-pixel rendering to work "
+"correctly you need to know how the sub-pixels of your display are aligned.</"
+"p> <p>On TFT or LCD displays a single pixel is actually composed of three "
+"sub-pixels, red, green and blue. Most displays have a linear ordering of RGB "
+"sub-pixel, some have BGR.<br /> This feature does not work with CRT monitors."
+"</p>"
+msgstr ""
+"<p>إذا تلملك شاشة TFT أو LCD فيمكنك تحسين جودة عرضعرض الخطوط أكثر باختيار "
+"هذا الخيار.<br /> يعرف التصيير جزء-بكسلي أيضا بـ  ClearType(tm).<br /> من "
+"أجل أن يعمل التصيير تحت البكسلي بشكل جيد أنت بحاجة لمعرفة كيف تمت  محاذاة "
+"جزيئات البكسل لشاشتك.   .</p> <p>في شاشات TFT أو LCD يتكون البكسل من ثلاثة "
+"أجزاء ،الأحمر ، والأخضر ، والأزرق. أغلب الشاشات تملك ترتيب خطي لجزيئات "
+"البكسل RGBو أخرى تملك BGR.<br /> هذه الميزة لا توجد في شاشات CRT.</p>"
+
+#: fonts.cpp:257
+msgid "&Use sub-pixel rendering:"
+msgstr "إ&ستعمل التصيير  جزء-بكسلي:"
+
+#: fonts.cpp:269
+msgid "Hinting style: "
+msgstr "أسلوب التلميح:"
+
+#: fonts.cpp:276
+msgid ""
+"Hinting is a process used to enhance the quality of fonts at small sizes."
+msgstr "التلميح هو عملية تستخدم في تحسين جودة خطوط ذات أحجام صغيرة."
+
+#: fonts.cpp:502
+msgid "General"
+msgstr "عام"
+
+#: fonts.cpp:503
+msgid "Fixed width"
+msgstr "عرض ثابت"
+
+#: fonts.cpp:504
+msgid "Small"
+msgstr "صغير"
+
+#: fonts.cpp:505
+msgid "Toolbar"
+msgstr "شريط الأدوات"
+
+#: fonts.cpp:506
+msgid "Menu"
+msgstr "قائمة"
+
+#: fonts.cpp:507
+msgid "Window title"
+msgstr "عنوان النافذة"
+
+#: fonts.cpp:508
+msgid "Taskbar"
+msgstr "شريط المهام"
+
+#: fonts.cpp:509
+msgid "Desktop"
+msgstr "سطح المكتب"
+
+#: fonts.cpp:539
+msgid "Used for normal text (e.g. button labels, list items)."
+msgstr "يستعمل للنص العادي (مثلاً الكتابة على الأزرار، مفردات القوائم)"
+
+#: fonts.cpp:540
+msgid "A non-proportional font (i.e. typewriter font)."
+msgstr "خط غير متناسب ( مثلاً خط الألة الكاتبة)."
+
+#: fonts.cpp:541
+msgid "Smallest font that is still readable well."
+msgstr "الخطوط الصغيرة القابلة للقراءة."
+
+#: fonts.cpp:542
+msgid "Used to display text beside toolbar icons."
+msgstr "يستعمل لعرض النص بجانب أيقونات شريط الأدوات."
+
+#: fonts.cpp:543
+msgid "Used by menu bars and popup menus."
+msgstr "يستعمل من قبل أشرطة القوائم، و القوائم المنبثقة."
+
+#: fonts.cpp:544
+msgid "Used by the window titlebar."
+msgstr "يستعمل في شريط عنوان النافذة."
+
+#: fonts.cpp:545
+msgid "Used by the taskbar."
+msgstr "يستعمل في شريط المهام."
+
+#: fonts.cpp:546
+msgid "Used for desktop icons."
+msgstr "تستعمل لأيقونات سطح المكتب."
+
+#: fonts.cpp:585
+#, kde-format
+msgctxt "Font role"
+msgid "%1: "
+msgstr "%1: "
+
+#: fonts.cpp:598
+msgid "Ad&just All Fonts..."
+msgstr "ع&دّل كلّ الخطوط..."
+
+#: fonts.cpp:599
+msgid "Click to change all fonts"
+msgstr "انقر لتغيير كلّ الخطوط"
+
+#: fonts.cpp:610
+msgid "Use a&nti-aliasing:"
+msgstr "استخدم إزا&لة التسنن :"
+
+#: fonts.cpp:614
+msgctxt "Use anti-aliasing"
+msgid "Enabled"
+msgstr "ممكّن"
+
+#: fonts.cpp:615
+msgctxt "Use anti-aliasing"
+msgid "System Settings"
+msgstr "إعدادات النظام"
+
+#: fonts.cpp:616
+msgctxt "Use anti-aliasing"
+msgid "Disabled"
+msgstr "معطل"
+
+#: fonts.cpp:617
+msgid ""
+"If this option is selected, KDE will smooth the edges of curves in fonts."
+msgstr "إذا تم انتقاء هذا الخيار، سيقوم كيدي بتحسين حواف الخطوط."
+
+#: fonts.cpp:619
+msgid "Configure..."
+msgstr "اضبط..."
+
+#: fonts.cpp:626
+msgid "Force fonts DPI:"
+msgstr "افرِض عدد النقاط في البوصة للخطوط:"
+
+#: fonts.cpp:631
+msgctxt "Force fonts DPI"
+msgid "Disabled"
+msgstr "معطل"
+
+#: fonts.cpp:632
+msgid "96 DPI"
+msgstr "96 نقطة في البوصة"
+
+#: fonts.cpp:633
+msgid "120 DPI"
+msgstr "120 نقطة في البوصة"
+
+#: fonts.cpp:635
+msgid ""
+"<p>This option forces a specific DPI value for fonts. It may be useful when "
+"the real DPI of the hardware is not detected properly and it is also often "
+"misused when poor quality fonts are used that do not look well with DPI "
+"values other than 96 or 120 DPI.</p><p>The use of this option is generally "
+"discouraged. For selecting proper DPI value a better option is explicitly "
+"configuring it for the whole X server if possible (e.g. DisplaySize in xorg."
+"conf or adding <i>-dpi value</i> to ServerLocalArgs= in $KDEDIR/share/config/"
+"kdm/kdmrc). When fonts do not render properly with real DPI value better "
+"fonts should be used or configuration of font hinting should be checked.</p>"
+msgstr ""
+"<p>هذا الخيار يجبر قيمة معية لعدد النقاط في كل بكسل للخطوط. قد تكون "
+"هذهالميزة مفيدة عندما يفشل النظام في إيجاد العدد المدعوم من العتاد بشكل جيد "
+"، وهي كذلكيساء استعمالها عندما تستخدم خطوط سيئة ولا تعرض بشكل سيء إلا في وضع "
+"96 أو 120 نقطة..</p><p>استعمال هذا الخيار في الغالب غير محبب. لاختيار قيمة "
+"جيدة لعدد النقاط في البكسل فمن الأفضل ضبطها بشكلصريح لكامل خادم العرض X  "
+"(على سبيل المثال ضبط DisplaySize في ملف xorg.conf أو إضافة <i>-dpi value</i> "
+"إلى ServerLocalArgs= في $KDEDIR/share/config/kdm/kdmrc). عندما تصير الخطوط "
+"بشكل سيء في القيمة الحقيقة لعدد النقاط في البكسلفيجب استخدام خطوط أفضل أو "
+"تفعيل تلميح الخط.</p>"
+
+#: fonts.cpp:778
+msgid ""
+"<p>Some changes such as anti-aliasing will only affect newly started "
+"applications.</p>"
+msgstr ""
+"<p>بعض التغييرات كإزالة التسنن سيتم تطبيقها على التطبيقات الجديدة فقط.</p>"
+
+#: fonts.cpp:779 fonts.cpp:788
+msgid "Font Settings Changed"
+msgstr "تم تغيير إعدادات الخط"
+
+#: fonts.cpp:787
+msgid ""
+"<p>Some changes such as DPI will only affect newly started applications.</p>"
+msgstr ""
+"<p>بعض التغييرات كنقطة في البوصة سيتم تطبيقها على التطبيقات الجديدة فقط.</p>"
+
+#: kxftconfig.cpp:591 kxftconfig.cpp:631
+msgid "None"
+msgstr "لا شيء"
+
+#: kxftconfig.cpp:593
+msgid "RGB"
+msgstr "أحمر أخضر أزرق"
+
+#: kxftconfig.cpp:595
+msgid "BGR"
+msgstr "أزرق أخضر أحمر"
+
+#: kxftconfig.cpp:597
+msgid "Vertical RGB"
+msgstr "RGB عامودي"
+
+#: kxftconfig.cpp:599
+msgid "Vertical BGR"
+msgstr "BGR عامودي"
+
+#: kxftconfig.cpp:627
+msgid "Medium"
+msgstr "وسط"
+
+#: kxftconfig.cpp:633
+msgid "Slight"
+msgstr "خفيف"
+
+#: kxftconfig.cpp:635
+msgid "Full"
+msgstr "كامل"

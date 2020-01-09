@@ -1,0 +1,65 @@
+# translation of kdelirc.po to
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Khaled Hosny <dr.khaled.hosny@gmail.com>, 2006.
+# Fahad Al-Saidi <fahad.alsaidi@gmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelirc\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-18 12:05+0200\n"
+"PO-Revision-Date: 2009-07-09 12:27+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: iraction.cpp:122
+msgid "Exit mode"
+msgstr "اخرج من النَمط"
+
+#: iraction.cpp:124
+#, kde-format
+msgid "Switch to %1"
+msgstr "بدل إلى %1"
+
+#: iraction.cpp:127
+msgid "Just start"
+msgstr "ابدأ فقط"
+
+#: iraction.cpp:141
+msgid "Do actions before. "
+msgstr "القيام بالإجراءات قبل."
+
+#: iraction.cpp:142
+msgid "Do actions after. "
+msgstr "القيام بالإجراءات بعد."
+
+#: iraction.cpp:146
+msgid "Auto-start. "
+msgstr "بدء تلقائي."
+
+#: iraction.cpp:147
+msgid "Repeatable. "
+msgstr "متكرّر."
+
+#: iraction.cpp:148
+msgid "Do nothing if many instances. "
+msgstr "عدم فعل أى شيء عند تعدَد حالات التشغيل."
+
+#: iraction.cpp:149
+msgid "Send to top instance. "
+msgstr "أرسل إلى أعلى حالة."
+
+#: iraction.cpp:150
+msgid "Send to bottom instance. "
+msgstr "أرسل إلى أدنى حالة."
+
+#: iraction.cpp:150
+msgid "Send to all instances. "
+msgstr "أرسل إلى كل الحالات."

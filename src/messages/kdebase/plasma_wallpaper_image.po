@@ -1,0 +1,211 @@
+# translation of plasma_wallpaper_image.po to Arabic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_wallpaper_image\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-04 01:21+0100\n"
+"PO-Revision-Date: 2009-07-04 15:38+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: backgrounddelegate.cpp:68
+#, kde-format
+msgctxt "Caption to wallpaper preview, %1 author name"
+msgid "by %1"
+msgstr "بواسطة  %1"
+
+#: backgroundlistmodel.cpp:309 backgroundlistmodel.cpp:338
+#: backgroundlistmodel.cpp:354
+msgid "Finding images for the wallpaper slideshow."
+msgstr "تعثر على صور لعرض خلفية الشاشة."
+
+#: backgroundlistmodel.cpp:339
+#, kde-format
+msgid "Adding wallpaper package in %1"
+msgstr "تضيف حزمة صور خلفية في %1"
+
+#: backgroundlistmodel.cpp:355
+#, kde-format
+msgid "Adding image %1"
+msgstr "تضيف صورة %1"
+
+#: image.cpp:137 image.cpp:182
+msgid "Scaled & Cropped"
+msgstr "مكبرة و مقطوعة"
+
+#: image.cpp:138 image.cpp:183
+msgid "Scaled"
+msgstr "مكبرة"
+
+#: image.cpp:139 image.cpp:184
+msgid "Scaled, keep proportions"
+msgstr "مكبرة ،و إبقاء الأبعاد"
+
+#: image.cpp:140 image.cpp:185
+msgid "Centered"
+msgstr "في الوسط"
+
+#: image.cpp:141 image.cpp:186
+msgid "Tiled"
+msgstr "مرصوفة"
+
+#: image.cpp:142 image.cpp:187
+msgid "Center Tiled"
+msgstr "مرصوفة مركزيا"
+
+#: image.cpp:446
+#, kde-format
+msgctxt "Wallpaper info, author name"
+msgid "%1"
+msgstr "%1"
+
+#: image.cpp:475
+msgid "Select Wallpaper Image File"
+msgstr "اختر ملف صورة الخلفية"
+
+#. i18n: file: imageconfig.ui:22
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:3 rc.cpp:62
+msgid "&Picture:"
+msgstr "ال&صورة:"
+
+#. i18n: file: imageconfig.ui:45
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_pictureUrlButton)
+#: rc.cpp:6 rc.cpp:65
+msgid "Browse"
+msgstr "استعرض"
+
+#. i18n: file: imageconfig.ui:48
+#. i18n: ectx: property (text), widget (QToolButton, m_pictureUrlButton)
+#: rc.cpp:9 rc.cpp:68
+msgid "..."
+msgstr "..."
+
+#. i18n: file: imageconfig.ui:57
+#. i18n: ectx: property (text), widget (QLabel, m_authorLabel)
+#: rc.cpp:12 rc.cpp:71
+msgid "Author:"
+msgstr "المؤلف:"
+
+#. i18n: file: imageconfig.ui:80
+#. i18n: ectx: property (text), widget (QLabel, m_emailLabel)
+#: rc.cpp:15 rc.cpp:74
+msgid "Email:"
+msgstr "البريد:"
+
+#. i18n: file: imageconfig.ui:103
+#. i18n: ectx: property (text), widget (QLabel, m_licenseLabel)
+#: rc.cpp:18 rc.cpp:77
+msgid "License:"
+msgstr "الرخصة:"
+
+#. i18n: file: imageconfig.ui:137
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: slideshowconfig.ui:140
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: imageconfig.ui:137
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: slideshowconfig.ui:140
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:21 rc.cpp:45 rc.cpp:80 rc.cpp:104
+msgid "P&ositioning:"
+msgstr "التم&وضع:"
+
+#. i18n: file: imageconfig.ui:177
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:24 rc.cpp:83
+msgid "&Color:"
+msgstr "ال&لون:"
+
+#. i18n: file: imageconfig.ui:246
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_newStuff)
+#. i18n: file: slideshowconfig.ui:243
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_newStuff)
+#. i18n: file: imageconfig.ui:246
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_newStuff)
+#. i18n: file: slideshowconfig.ui:243
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_newStuff)
+#: rc.cpp:27 rc.cpp:51 rc.cpp:86 rc.cpp:110
+msgid "Download new wallpapers"
+msgstr "نزل خلفية-شاشة جديدة"
+
+#. i18n: file: imageconfig.ui:249
+#. i18n: ectx: property (text), widget (QPushButton, m_newStuff)
+#. i18n: file: slideshowconfig.ui:246
+#. i18n: ectx: property (text), widget (QPushButton, m_newStuff)
+#. i18n: file: imageconfig.ui:249
+#. i18n: ectx: property (text), widget (QPushButton, m_newStuff)
+#. i18n: file: slideshowconfig.ui:246
+#. i18n: ectx: property (text), widget (QPushButton, m_newStuff)
+#: rc.cpp:30 rc.cpp:54 rc.cpp:89 rc.cpp:113
+msgid "Get New Wallpapers..."
+msgstr "احصل على خلفيات-شاشة جديدة..."
+
+#. i18n: file: slideshowconfig.ui:28
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:33 rc.cpp:92
+msgid "Folders:"
+msgstr "المجلدات:"
+
+#. i18n: file: slideshowconfig.ui:47
+#. i18n: ectx: property (text), widget (KPushButton, m_addDir)
+#: rc.cpp:36 rc.cpp:95
+msgid "&Add Folder..."
+msgstr "أ&ضف مجلدا..."
+
+#. i18n: file: slideshowconfig.ui:60
+#. i18n: ectx: property (text), widget (KPushButton, m_removeDir)
+#: rc.cpp:39 rc.cpp:98
+msgid "&Remove Folder"
+msgstr "أ&زل مجلدا"
+
+#. i18n: file: slideshowconfig.ui:105
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, m_slideshowDelay)
+#: rc.cpp:42 rc.cpp:101
+msgctxt ""
+"(qtdt-format) Please do not change the quotes (') and translate only the "
+"content of the quotes."
+msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
+msgstr "س س 'ساعات' دد 'دقائق' ث ث 'ثواني'"
+
+#. i18n: file: slideshowconfig.ui:180
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:48 rc.cpp:107
+msgid "Color:"
+msgstr "اللون:"
+
+#. i18n: file: slideshowconfig.ui:274
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:57 rc.cpp:116
+msgid "&Change images every:"
+msgstr "&غير الصورة كل:"
+
+#: rc.cpp:58
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي,أسامة العقاد"
+
+#: rc.cpp:59
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"
+
+#~ msgid "Images"
+#~ msgstr "الصور"
+
+#~ msgid "Screenshot"
+#~ msgstr "لقطات شاشة"
+
+#~ msgid "Maxpect"
+#~ msgstr "المؤلف:"

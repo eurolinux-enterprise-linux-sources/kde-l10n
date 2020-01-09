@@ -1,0 +1,476 @@
+# translation of kcmkwincompositing.po to Arabic
+# translation of kcmkwincompositing.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Abdulaziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkwincompositing\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-09-24 01:24+0200\n"
+"PO-Revision-Date: 2009-07-06 18:15+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"\n"
+"\n"
+
+#: ktimerdialog.cpp:166
+#, kde-format
+msgid "1 second remaining:"
+msgid_plural "%1 seconds remaining:"
+msgstr[0] "لم يبقى شيء:"
+msgstr[1] "بقى ثانية واحدة:"
+msgstr[2] "بقى ثانيتين:"
+msgstr[3] "بقى %1 ثوان:"
+msgstr[4] "بقى %1 ثانية:"
+msgstr[5] "بقى %1 ثانية:"
+
+#: main.cpp:56
+msgid "Confirm Desktop Effects Change"
+msgstr "أكد تغير تأثيرات سطح المكتب"
+
+#: main.cpp:60
+msgid "&Accept Configuration"
+msgstr "ا&قبل الضبط"
+
+#: main.cpp:61
+msgid "&Return to Previous Configuration"
+msgstr "ا&رجع إلى الإعدادات السابقة"
+
+#: main.cpp:63
+msgid ""
+"Desktop effects settings have changed.\n"
+"Do you want to keep the new settings?\n"
+"They will be automatically reverted in 10 seconds."
+msgstr ""
+"إعدادات تأثيرات سطح المكتب تغيرت.\n"
+"هل ترغب في الاحتفاظ بالإعدادات الجديدة؟\n"
+"سيتم استرجاعهن في 10 ثوان."
+
+#: main.cpp:150
+msgid "Compositing is not supported on your system."
+msgstr "التركيب ليس مدعوم في نظامك."
+
+#: main.cpp:160
+msgid "kcmkwincompositing"
+msgstr "kcmkwincompositing"
+
+#: main.cpp:161
+msgid "KWin Desktop Effects Configuration Module"
+msgstr "وحدة ضبط تأثيرات كوين لسطح المكتب"
+
+#: main.cpp:162
+msgid "(c) 2007 Rivo Laks"
+msgstr "(c) 2007 Rivo Laks"
+
+#: main.cpp:163
+msgid "Rivo Laks"
+msgstr "Rivo Laks"
+
+#: main.cpp:194 main.cpp:200
+msgid "No Effect"
+msgstr "بدون تأثير"
+
+#: main.cpp:232
+msgid ""
+"Failed to activate desktop effects using the given configuration options. "
+"Settings will be reverted to their previous values.\n"
+"\n"
+"Check your X configuration. You may also consider changing advanced options, "
+"especially changing the compositing type."
+msgstr ""
+"فشل في تفعيل تأثيرات سطح المكتب باستخدمات خيارات الضبط المعطاة. الإعدادات "
+"القديمة ستسترجع .\n"
+"\n"
+"تأكد من ضبط خادم العرض أكس ، و ربما قد تحتاج تغير بعض الخيارات المتقدمة "
+"خصوصا تغير نوع التركيب."
+
+#: main.cpp:275
+msgid "Appearance"
+msgstr "المظهر"
+
+#: main.cpp:276
+msgid "Accessibility"
+msgstr "إتاحة الوصول"
+
+#: main.cpp:277
+msgid "Focus"
+msgstr "التركيز"
+
+#: main.cpp:278
+msgid "Window Management"
+msgstr "إدارة النوافذ"
+
+#: main.cpp:279
+msgid "Candy"
+msgstr "حلوى"
+
+#: main.cpp:280
+msgid "Demos"
+msgstr "عروض توضيحية"
+
+#: main.cpp:281
+msgid "Tests"
+msgstr "اختبارات"
+
+#: main.cpp:282
+msgid "Tools"
+msgstr "أدوات"
+
+#: main.cpp:374
+msgid "Compositing is active"
+msgstr "التركيب نشط"
+
+#: main.cpp:375
+msgid "Suspend Compositing"
+msgstr "التركيب معلق"
+
+#: main.cpp:380
+msgid "Compositing is temporarily disabled"
+msgstr "علق التركيب بشكل مؤقت"
+
+#: main.cpp:381 main.cpp:389
+msgid "Resume Compositing"
+msgstr "استأنف التركيب"
+
+#: main.cpp:388
+msgid "Compositing is disabled"
+msgstr "التركيب معطل"
+
+#: main.cpp:669
+msgid "The following effects could not be activated:"
+msgstr "التأتيرات التالية لا يمكن تنشيطها:"
+
+#: main.cpp:731
+msgid "<h1>Desktop Effects</h1>"
+msgstr "<h1>تأثيرات سطح المكتب</h1>"
+
+#. i18n: file: main.ui:21
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:3 rc.cpp:135
+msgid "General"
+msgstr "عام"
+
+#. i18n: file: main.ui:30
+#. i18n: ectx: property (text), widget (QCheckBox, useCompositing)
+#: rc.cpp:6 rc.cpp:138
+msgctxt "@option:check"
+msgid "Enable desktop effects"
+msgstr "مكّن تأثيرات سطح المكتب"
+
+#. i18n: file: main.ui:43
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:9 rc.cpp:141
+msgid "Common Settings"
+msgstr "تأثيرات العامة"
+
+#. i18n: file: main.ui:49
+#. i18n: ectx: property (text), widget (QCheckBox, effectWinManagement)
+#: rc.cpp:12 rc.cpp:144
+msgid "Improved window management"
+msgstr "إدارة النوافذ المحسنة"
+
+#. i18n: file: main.ui:59
+#. i18n: ectx: property (text), widget (QCheckBox, effectShadows)
+#: rc.cpp:15 rc.cpp:147
+msgid "Shadows"
+msgstr "ظلال"
+
+#. i18n: file: main.ui:69
+#. i18n: ectx: property (text), widget (QCheckBox, effectAnimations)
+#: rc.cpp:18 rc.cpp:150
+msgid "Various animations"
+msgstr "تحريكات متنوعة"
+
+#. i18n: file: main.ui:95
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:21 rc.cpp:153
+msgid ""
+"You can find more effects, as well as effect-specific settings, in the \"All "
+"Effects\" tab above."
+msgstr ""
+"يمكنك الحصول على المزيد من التأثير بالإضافة إعدادات خاصة بتأثيرات في لسان"
+"\"كل التأثيرات\" الذي بالأعلى."
+
+#. i18n: file: main.ui:105
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:24 rc.cpp:156
+msgid "Effect for window switching:"
+msgstr "تأثير لتبديل النوافذ:"
+
+#. i18n: file: main.ui:128
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:27 rc.cpp:159
+msgid "Effect for desktop switching:"
+msgstr "تأثير لتبديل سطح المكتب:"
+
+#. i18n: file: main.ui:177
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:30 rc.cpp:162
+msgid "Instant"
+msgstr "لحظي"
+
+#. i18n: file: main.ui:182
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:33 rc.cpp:165
+msgid "Very Fast"
+msgstr "سريع جدا"
+
+#. i18n: file: main.ui:187
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:36 rc.cpp:168
+msgid "Fast"
+msgstr "سريع"
+
+#. i18n: file: main.ui:192
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:39 rc.cpp:171
+msgid "Normal"
+msgstr "عادي"
+
+#. i18n: file: main.ui:197
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:42 rc.cpp:174
+msgid "Slow"
+msgstr "بطيء"
+
+#. i18n: file: main.ui:202
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:45 rc.cpp:177
+msgid "Very Slow"
+msgstr "بطيء جدا"
+
+#. i18n: file: main.ui:207
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
+#: rc.cpp:48 rc.cpp:180
+msgid "Extremely Slow"
+msgstr "بطيء للغاية"
+
+#. i18n: file: main.ui:215
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:51 rc.cpp:183
+msgid "Animation speed:"
+msgstr "سرعة التحريك:"
+
+#. i18n: file: main.ui:231
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:54 rc.cpp:186
+msgid "Compositing State"
+msgstr "حالة التركيب"
+
+#. i18n: file: main.ui:291
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:57 rc.cpp:189
+msgid "All Effects"
+msgstr "كل التأثيرات"
+
+#. i18n: file: main.ui:297
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:60 rc.cpp:192
+msgid ""
+"Hint: To find out or configure how to activate an effect, look at the "
+"effect's settings."
+msgstr ""
+"تلميحة: لإيجاد أو لضبط كيفية تفعيل هذا التأثير ، انظر إلى إعدادات التأثير"
+
+#. i18n: file: main.ui:318
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: rc.cpp:63 rc.cpp:195
+msgid "Advanced"
+msgstr "متقدم"
+
+#. i18n: file: main.ui:330
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:66 rc.cpp:198
+msgid "Compositing type:"
+msgstr "النوع التركيب:"
+
+#. i18n: file: main.ui:350
+#. i18n: ectx: property (text), item, widget (QComboBox, compositingType)
+#: rc.cpp:69 rc.cpp:201
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#. i18n: file: main.ui:355
+#. i18n: ectx: property (text), item, widget (QComboBox, compositingType)
+#: rc.cpp:72 rc.cpp:204
+msgid "XRender"
+msgstr "XRender"
+
+#. i18n: file: main.ui:369
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:75 rc.cpp:207
+msgid "Keep window thumbnails:"
+msgstr "حافظ على مصغرات النافذة:"
+
+#. i18n: file: main.ui:389
+#. i18n: ectx: property (text), item, widget (QComboBox, windowThumbnails)
+#: rc.cpp:78 rc.cpp:210
+msgid "Always (Breaks minimization)"
+msgstr "دائما (يكسر التصغير)"
+
+#. i18n: file: main.ui:394
+#. i18n: ectx: property (text), item, widget (QComboBox, windowThumbnails)
+#: rc.cpp:81 rc.cpp:213
+msgid "Only for Shown Windows"
+msgstr "فقط للنوافذ المعروضة"
+
+#. i18n: file: main.ui:399
+#. i18n: ectx: property (text), item, widget (QComboBox, windowThumbnails)
+#: rc.cpp:84 rc.cpp:216
+msgid "Never"
+msgstr "لا مطلقا"
+
+#. i18n: file: main.ui:408
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, disableChecks)
+#: rc.cpp:87 rc.cpp:219
+msgid ""
+"Enabling this option allows compositing to be activated even if some of the "
+"internal checks fail. Doing so may make the whole desktop unusable and its "
+"use is not recommened. Use only if KWin refuses to activate compositing on a "
+"system that should be capable of compositing.\n"
+msgstr ""
+"تفعيل هذا الخيار يسمح بتفعيل التركيب حتى ولو فشلت بعض الاختبارات الداخلية. "
+"هذا قد يؤدي إلى زعزعة استقرار سطح المكتب ككل ، و لا يوصى باستعمالها. "
+"استخدمها فقط إذا رفض كوين تفعيل التركيب في نظام لديه قدرات التركيب أصلا.\n"
+
+#. i18n: file: main.ui:411
+#. i18n: ectx: property (text), widget (QCheckBox, disableChecks)
+#: rc.cpp:91 rc.cpp:223
+msgid "Disable functionality checks"
+msgstr "عطل اختبارات الوظائف"
+
+#. i18n: file: main.ui:418
+#. i18n: ectx: property (title), widget (QGroupBox, glGroup)
+#: rc.cpp:94 rc.cpp:226
+msgid "OpenGL Options"
+msgstr "خيارات OpenGL "
+
+#. i18n: file: main.ui:430
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:97 rc.cpp:229
+msgid "OpenGL mode:"
+msgstr "نمط OpenGL:"
+
+#. i18n: file: main.ui:450
+#. i18n: ectx: property (text), item, widget (QComboBox, glMode)
+#: rc.cpp:100 rc.cpp:232
+msgid "Texture From Pixmap"
+msgstr "النسيج من صور النقطية"
+
+#. i18n: file: main.ui:455
+#. i18n: ectx: property (text), item, widget (QComboBox, glMode)
+#: rc.cpp:103 rc.cpp:235
+msgid "Shared Memory"
+msgstr "ذاكرة مشتركة"
+
+#. i18n: file: main.ui:460
+#. i18n: ectx: property (text), item, widget (QComboBox, glMode)
+#: rc.cpp:106 rc.cpp:238
+msgid "Fallback"
+msgstr "الإحتياطي"
+
+#. i18n: file: main.ui:474
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: rc.cpp:109 rc.cpp:241
+msgid "Texture filter:"
+msgstr "مرشح النسيج:"
+
+#. i18n: file: main.ui:494
+#. i18n: ectx: property (text), item, widget (QComboBox, glTextureFilter)
+#: rc.cpp:112 rc.cpp:244
+msgid "Nearest (fastest)"
+msgstr "أقرب (الأسرع)"
+
+#. i18n: file: main.ui:499
+#. i18n: ectx: property (text), item, widget (QComboBox, glTextureFilter)
+#: rc.cpp:115 rc.cpp:247
+msgid "Bilinear"
+msgstr "ثنائي خطّي"
+
+#. i18n: file: main.ui:504
+#. i18n: ectx: property (text), item, widget (QComboBox, glTextureFilter)
+#: rc.cpp:118 rc.cpp:250
+msgid "Trilinear (best quality)"
+msgstr "ثلاثي خطي (أفضل جودة)"
+
+#. i18n: file: main.ui:512
+#. i18n: ectx: property (text), widget (QCheckBox, glDirect)
+#: rc.cpp:121 rc.cpp:253
+msgid "Enable direct rendering"
+msgstr "فعل العرض المباشر"
+
+#. i18n: file: main.ui:522
+#. i18n: ectx: property (text), widget (QCheckBox, glVSync)
+#: rc.cpp:124 rc.cpp:256
+msgid "Use VSync"
+msgstr "استخدم VSync"
+
+#. i18n: file: main.ui:535
+#. i18n: ectx: property (title), widget (QGroupBox, xrenderGroup)
+#: rc.cpp:127 rc.cpp:259
+msgid "XRender Options"
+msgstr "خيارات XRender"
+
+#. i18n: file: main.ui:541
+#. i18n: ectx: property (text), widget (QCheckBox, xrenderSmoothScale)
+#: rc.cpp:130 rc.cpp:262
+msgid "Smooth scaling (slower)"
+msgstr "تحجيم ناعم (بطيء)"
+
+#: rc.cpp:131
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "يوسف الشهيبي, زايد السعيدي"
+
+#: rc.cpp:132
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "chahibi@gmail.com,zayed.alsaidi@gmail.com"
+
+#~ msgid "Always"
+#~ msgstr "دائما"
+
+#~ msgid "All Desktops"
+#~ msgstr "كل الأسطح"
+
+#~ msgid "Current Desktop"
+#~ msgstr "سطح المكتب الحالي"
+
+#, fuzzy
+#~| msgid "Bilinear"
+#~ msgid "Cylinder"
+#~ msgstr "ثنائي خطّي"
+
+#~ msgid "Screen Edges"
+#~ msgstr "حواف الشاشة"
+
+#~ msgid ""
+#~ "Active screen edges allow you to activate effects by pushing your mouse "
+#~ "cursor against the edge of the screen. Here you can configure which "
+#~ "effect will get activated on each edge and corner of the screen."
+#~ msgstr ""
+#~ "حواف الشاشة النشطة تسمح لك بتفعيل التأثير بدفع مؤشر الفأرة إلى حافة "
+#~ "الشاشة. هنا يمكنك ضبط أي تأثير تريد أن تفعيله على كل حافة و زاوية من "
+#~ "الشاشة."
+
+#~ msgid ""
+#~ "If you are looking for the setting to enable switching of desktops by "
+#~ "pushing your mouse cursor against the edge of the screen you can find it "
+#~ "in the \"Window Behavior\" advanced tab under the name of \"Active "
+#~ "Desktop Borders\"."
+#~ msgstr ""
+#~ "إذا كنت تبحث عن إعداد لتفعيل تبديل أسطح المكتب بواسطة دفع المؤشر الفأرة "
+#~ "إلى حافة الشاشة ؛ فإن ستجده في اللسان المتقدم \"سلوك النافذة\" تحت اسم "
+#~ "\"حدود سطح المكتب النشطة\"."

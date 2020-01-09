@@ -1,0 +1,412 @@
+# translation of katetabbarextension.po to
+#
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: katetabbarextension\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-02-28 10:14+0100\n"
+"PO-Revision-Date: 2007-10-14 15:58+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: ktinytabbarconfigdialog.cpp:37
+#, fuzzy
+msgid "Configure Tab Bar"
+msgstr "اضبط لسان عمود"
+
+#: ktinytabbarconfigpage.cpp:56
+#, fuzzy
+msgid "minimum size"
+msgstr "الأدنى حجم"
+
+#: ktinytabbarconfigpage.cpp:57
+#, fuzzy
+msgid "maximum size"
+msgstr "الأقصى حجم"
+
+#: ktinytabbutton.cpp:154
+#, fuzzy
+msgid "&Highlight Tab"
+msgstr "إبراز لسان"
+
+#: ktinytabbutton.cpp:155
+#, fuzzy
+msgid "&None"
+msgstr "&بدون"
+
+#: ktinytabbutton.cpp:158
+#, fuzzy
+msgid "&Red"
+msgstr "أ&حمر"
+
+#: ktinytabbutton.cpp:160
+#, fuzzy
+msgid "&Yellow"
+msgstr "أصفر"
+
+#: ktinytabbutton.cpp:162
+#, fuzzy
+msgid "&Green"
+msgstr "أ&خضر"
+
+#: ktinytabbutton.cpp:164
+#, fuzzy
+msgid "&Cyan"
+msgstr "أزرق"
+
+#: ktinytabbutton.cpp:166
+#, fuzzy
+msgid "&Blue"
+msgstr "أ&زرق"
+
+#: ktinytabbutton.cpp:168
+#, fuzzy
+msgid "&Magenta"
+msgstr "أرجواني"
+
+#: ktinytabbutton.cpp:171
+#, fuzzy
+msgid "C&ustom Color..."
+msgstr "مخصص اللون."
+
+#: ktinytabbutton.cpp:174
+#, fuzzy
+msgid "&Close Tab"
+msgstr "أ&غلق اللسان"
+
+#: ktinytabbutton.cpp:175
+#, fuzzy
+msgid "Close &Other Tabs"
+msgstr "أغلق الألسنة الأ&خرى"
+
+#: ktinytabbutton.cpp:176
+#, fuzzy
+msgid "Close &All Tabs"
+msgstr "إغلاق الكل علامات الجدولة"
+
+#: plugin_katetabbarextension.cpp:60
+#, fuzzy
+#| msgid "Tab Bar Extension"
+msgid "TabBarExtension"
+msgstr "تمديدة شريط الألسنة"
+
+#: plugin_katetabbarextension.cpp:60
+#, fuzzy
+#| msgid "Tab Bar Extension"
+msgid "TabBar extension"
+msgstr "تمديدة شريط الألسنة"
+
+#: plugin_katetabbarextension.cpp:341
+msgid "Sorting Behavior"
+msgstr "سلوك الفرز"
+
+#: plugin_katetabbarextension.cpp:345
+msgid "Sort files alphabetically"
+msgstr "إفرز الملفات ألفبائياً"
+
+#. i18n: file: tabbarconfigwidget.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, gbBehaviour)
+#: rc.cpp:3
+#, fuzzy
+#| msgid "Sorting Behavior"
+msgid "Behavior"
+msgstr "سلوك الفرز"
+
+#. i18n: file: tabbarconfigwidget.ui:22
+#. i18n: ectx: property (text), widget (QLabel, lblLocation)
+#: rc.cpp:6
+#, fuzzy
+msgid "Location:"
+msgstr "الموقع"
+
+#. i18n: file: tabbarconfigwidget.ui:33
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbLocation)
+#: rc.cpp:9
+#, fuzzy
+msgid "Top"
+msgstr "أ&على"
+
+#. i18n: file: tabbarconfigwidget.ui:38
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbLocation)
+#: rc.cpp:12
+#, fuzzy
+msgid "Bottom"
+msgstr "أس&فل"
+
+#. i18n: file: tabbarconfigwidget.ui:62
+#. i18n: ectx: property (text), widget (QLabel, lblRows)
+#: rc.cpp:15
+#, fuzzy
+msgid "Rows:"
+msgstr "صفوف"
+
+#. i18n: file: tabbarconfigwidget.ui:72
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbRows)
+#: rc.cpp:18
+#, fuzzy
+msgid "rows"
+msgstr "صف s"
+
+#. i18n: file: tabbarconfigwidget.ui:85
+#. i18n: ectx: property (text), widget (QLabel, lblSorting)
+#: rc.cpp:21
+msgid "Sorting:"
+msgstr ""
+
+#. i18n: file: tabbarconfigwidget.ui:97
+#. i18n: ectx: property (text), widget (QCheckBox, chkFollowActive)
+#: rc.cpp:24
+msgid "Keep activated tab visible"
+msgstr ""
+
+#. i18n: file: tabbarconfigwidget.ui:125
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSorting)
+#: rc.cpp:27
+#, fuzzy
+msgid "Opening Order"
+msgstr "ترتيب"
+
+#. i18n: file: tabbarconfigwidget.ui:130
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSorting)
+#: rc.cpp:30
+#, fuzzy
+msgid "Document Name"
+msgstr "مستند الإسم"
+
+#. i18n: file: tabbarconfigwidget.ui:135
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSorting)
+#: rc.cpp:33
+#, fuzzy
+msgid "Document URL"
+msgstr "مستند &URL"
+
+#. i18n: file: tabbarconfigwidget.ui:140
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSorting)
+#: rc.cpp:36
+#, fuzzy
+msgid "File Extension"
+msgstr "ملفّ إمتداد"
+
+#. i18n: file: tabbarconfigwidget.ui:169
+#. i18n: ectx: property (title), widget (QGroupBox, gbTabs)
+#: rc.cpp:39
+#, fuzzy
+msgid "Tabs"
+msgstr "لسان أحجام"
+
+#. i18n: file: tabbarconfigwidget.ui:175
+#. i18n: ectx: property (text), widget (QLabel, lblMinWidth)
+#: rc.cpp:42
+#, fuzzy
+msgid "Minimum width:"
+msgstr "الأدنى لسان العرض:"
+
+#. i18n: file: tabbarconfigwidget.ui:185
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbMinWidth)
+#. i18n: file: tabbarconfigwidget.ui:224
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbMaxWidth)
+#. i18n: file: tabbarconfigwidget.ui:250
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbHeight)
+#: rc.cpp:45 rc.cpp:54 rc.cpp:63
+#, fuzzy
+msgid "pixels"
+msgstr "بكسلات"
+
+#. i18n: file: tabbarconfigwidget.ui:211
+#. i18n: ectx: property (text), widget (QLabel, lblMaxWidth)
+#: rc.cpp:48
+#, fuzzy
+msgid "Maximum width:"
+msgstr "الأقصى لسان العرض:"
+
+#. i18n: file: tabbarconfigwidget.ui:221
+#. i18n: ectx: property (text), widget (QSpinBox, sbMaxWidth)
+#: rc.cpp:51
+#, fuzzy
+msgid "20pixels"
+msgstr "بكسلات"
+
+#. i18n: file: tabbarconfigwidget.ui:237
+#. i18n: ectx: property (text), widget (QLabel, lblHeight)
+#: rc.cpp:57
+msgid "Height:"
+msgstr ""
+
+#. i18n: file: tabbarconfigwidget.ui:247
+#. i18n: ectx: property (text), widget (QSpinBox, sbHeight)
+#: rc.cpp:60
+#, fuzzy
+msgid "16pixels"
+msgstr "بكسلات"
+
+#. i18n: file: tabbarconfigwidget.ui:263
+#. i18n: ectx: property (text), widget (QLabel, lblStyle)
+#: rc.cpp:66
+#, fuzzy
+msgid "Style:"
+msgstr "&نمط"
+
+#. i18n: file: tabbarconfigwidget.ui:274
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
+#: rc.cpp:69
+#, fuzzy
+msgid "Buttons"
+msgstr "أسلوب الأزرار"
+
+#. i18n: file: tabbarconfigwidget.ui:279
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
+#: rc.cpp:72
+msgid "Flat"
+msgstr ""
+
+#. i18n: file: tabbarconfigwidget.ui:290
+#. i18n: ectx: property (title), widget (QGroupBox, gbHighlighting)
+#: rc.cpp:75
+#, fuzzy
+msgid "Highlighting"
+msgstr "لسان التظليلالإبراز"
+
+#. i18n: file: tabbarconfigwidget.ui:307
+#. i18n: ectx: property (text), widget (QCheckBox, chkModified)
+#: rc.cpp:78
+#, fuzzy
+msgid "Highlight modified tabs"
+msgstr "يميّز معدّل"
+
+#. i18n: file: tabbarconfigwidget.ui:321
+#. i18n: ectx: property (text), widget (QCheckBox, chkActive)
+#: rc.cpp:81
+#, fuzzy
+msgid "Highlight active tab"
+msgstr "يميّز نشط لسان"
+
+#. i18n: file: tabbarconfigwidget.ui:335
+#. i18n: ectx: property (text), widget (QCheckBox, chkPrevious)
+#: rc.cpp:84
+#, fuzzy
+msgid "Highlight previous tab"
+msgstr "يميّز السابق لسان"
+
+#. i18n: file: tabbarconfigwidget.ui:342
+#. i18n: ectx: property (text), widget (QLabel, lblOpacity)
+#: rc.cpp:87
+msgid "Opacity:"
+msgstr ""
+
+#. i18n: file: tabbarconfigwidget.ui:387
+#. i18n: ectx: property (text), widget (QLabel, lblNote)
+#: rc.cpp:90
+#, fuzzy
+msgid "Note: Use the context menu to highlight a tab"
+msgstr "ملاحظة إستعمل سياق قائمة إلى يميّز a لسان."
+
+#. i18n: file: tabbarconfigwidget.ui:407
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnClearCache)
+#: rc.cpp:93
+#, fuzzy
+msgid "Remove all highlight marks in the current session."
+msgstr "احذف الكل يميّز بوصة الحالي جلسة."
+
+#. i18n: file: tabbarconfigwidget.ui:410
+#. i18n: ectx: property (text), widget (QPushButton, btnClearCache)
+#: rc.cpp:96
+#, fuzzy
+msgid "Clear Highlight Cache"
+msgstr "إبراز لسان"
+
+#. i18n: file: tabbarconfigwidget.ui:422
+#. i18n: ectx: property (title), widget (QGroupBox, gbPreview)
+#: rc.cpp:99
+#, fuzzy
+msgid "Preview"
+msgstr "معاينة"
+
+#. i18n: file: ui.rc:4
+#. i18n: ectx: ToolBar (tabbarExtensionToolBar)
+#: rc.cpp:102 plugin_katetabbarextension.h:102
+msgid "Tab Bar Extension"
+msgstr "تمديدة شريط الألسنة"
+
+#: rc.cpp:103
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:104
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: plugin_katetabbarextension.h:103
+#, fuzzy
+#| msgid "Tab Bar Extension"
+msgid "Configure Tab Bar Extension"
+msgstr "اضبط لسان عمود امتداد"
+
+#, fuzzy
+#~ msgid "&Appearance"
+#~ msgstr "ال&مظهر"
+
+#, fuzzy
+#~ msgid "Sort By"
+#~ msgstr "رتّب حسب"
+
+#, fuzzy
+#~ msgid "Number of &rows (1-10):"
+#~ msgstr "الرقم من سطور:"
+
+#, fuzzy
+#~ msgid "&follow current tab"
+#~ msgstr "متابعة الحالي لسان"
+
+#, fuzzy
+#~ msgid "F&ixed tab height:"
+#~ msgstr "ثابت لسان الارتفاع:"
+
+#, fuzzy
+#~ msgid "Frame Colors"
+#~ msgstr "إطار الألوان"
+
+#, fuzzy
+#~ msgid "&default push button"
+#~ msgstr "افتراضي ادفع زر"
+
+#, fuzzy
+#~ msgid "f&lat push button"
+#~ msgstr "مسطح ادفع زر"
+
+#, fuzzy
+#~ msgid "&plain frames"
+#~ msgstr "نص عادي إطارات"
+
+#, fuzzy
+#~ msgid "Acti&vated button"
+#~ msgstr "نشّط زر"
+
+#, fuzzy
+#~ msgid "&Hovered button"
+#~ msgstr "حائم زر"
+
+#, fuzzy
+#~ msgid "P&ressed button"
+#~ msgstr "مضغوط زر"
+
+#, fuzzy
+#~ msgid "&Opacity of highlighted button (100%):"
+#~ msgstr "عتمة من زر:"
+
+#, fuzzy
+#~ msgid "Remove all highlight mar&ks"
+#~ msgstr "احذف الكل يميّز"
+
+#, fuzzy
+#~ msgid "&Opacity of highlighted button (%1%):"
+#~ msgstr "عتمة من زر:"

@@ -1,0 +1,300 @@
+# translation of kurifilter.po to Arabic
+# translation of kurifilter.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Abdulaziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kurifilter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-09-11 01:20+0200\n"
+"PO-Revision-Date: 2009-07-15 15:01+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: ikwsopts.cpp:50
+msgid "Name"
+msgstr "الاسم"
+
+#: ikwsopts.cpp:51
+msgid "Shortcuts"
+msgstr "اختصارات"
+
+#: ikwsopts.cpp:181
+msgid "None"
+msgstr "لاشيء"
+
+#: ikwsopts.cpp:239
+msgid ""
+"<p>In this module you can configure the web shortcuts feature. Web shortcuts "
+"allow you to quickly search or lookup words on the Internet. For example, to "
+"search for information about the KDE project using the Google engine, you "
+"simply type <b>gg:KDE</b> or <b>google:KDE</b>.</p><p>If you select a "
+"default search engine, normal words or phrases will be looked up at the "
+"specified search engine by simply typing them into applications, such as "
+"Konqueror, that have built-in support for such a feature.</p>"
+msgstr ""
+"<p>في هذ الوحدة يمكنك ضبط ميزة اختصارت الويب. اختصارات الويب تسمح لك بالبحث "
+"السريع في الإنترنت . على سبيل المثال لتبحث عن معلومات عن مشروع كدي بواسطة "
+"محرك جوجل ، يمكنك ببساطة كتابة  <b>gg:KDE</b> أو <b>google:KDE</b>.</"
+"p><p>إذا حدتت محرك البحث الافتراضي ، فإن الكلمات و العبارات سيتم البحث عنها "
+"في محرك المحدد بمجرد طباعتها في التطبيقات ، مثل كونكيور ، التي تدعم هذه "
+"الميزة بشكل مسبق.</p>"
+
+#: kurisearchfilter.cpp:85
+msgid "Search F&ilters"
+msgstr "مر&شحات البحث"
+
+#. i18n: file: ikwsopts_ui.ui:19
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbEnableShortcuts)
+#: rc.cpp:3
+msgid ""
+"<qt>\n"
+"Enable shortcuts that allow you to quickly search for information on the "
+"web. For example, entering the shortcut <b>gg:KDE</b> will result in a "
+"search for the word <b>KDE</b> on the Google(TM) search engine.\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"تمكين الاختصارات التي تسمح لك بالبحث السريع على الإنترنت. مثلاً، إدخال "
+"الاختصار <b>gg:KDE</b> سيقوم بالبحث عن كلمة <b>KDE</b> في محرك البحث جوجل"
+"(TM).\n"
+"</qt>"
+
+#. i18n: file: ikwsopts_ui.ui:22
+#. i18n: ectx: property (text), widget (QCheckBox, cbEnableShortcuts)
+#: rc.cpp:8
+msgid "&Enable Web shortcuts"
+msgstr "&مكّن اختصارات الويب"
+
+#. i18n: file: ikwsopts_ui.ui:65
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pbNew)
+#: rc.cpp:11
+msgid "Add a search provider."
+msgstr "أضف مزود بحث."
+
+#. i18n: file: ikwsopts_ui.ui:68
+#. i18n: ectx: property (text), widget (QPushButton, pbNew)
+#: rc.cpp:14
+msgid "&New..."
+msgstr "&جديد..."
+
+#. i18n: file: ikwsopts_ui.ui:78
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pbChange)
+#: rc.cpp:17
+msgid "Modify a search provider."
+msgstr "عدّل مزود بحث."
+
+#. i18n: file: ikwsopts_ui.ui:81
+#. i18n: ectx: property (text), widget (QPushButton, pbChange)
+#: rc.cpp:20
+msgid "Chan&ge..."
+msgstr "غ&يّر..."
+
+#. i18n: file: ikwsopts_ui.ui:91
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pbDelete)
+#: rc.cpp:23
+msgid "Delete the selected search provider."
+msgstr "احذف مزود البحث المنتقى."
+
+#. i18n: file: ikwsopts_ui.ui:94
+#. i18n: ectx: property (text), widget (QPushButton, pbDelete)
+#: rc.cpp:26
+msgid "De&lete"
+msgstr "اح&ذف"
+
+#. i18n: file: ikwsopts_ui.ui:134
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbDefaultEngine)
+#. i18n: file: ikwsopts_ui.ui:164
+#. i18n: ectx: property (whatsThis), widget (KComboBox, cmbDefaultEngine)
+#: rc.cpp:29 rc.cpp:37
+msgid ""
+"<qt>\n"
+"Select the search engine to use for input boxes that provide automatic "
+"lookup services when you type in normal words and phrases instead of a URL. "
+"To disable this feature select <b>None</b> from the list.\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"اختر محرك البحث المراد استخدامه لمربعات الإدخال التي تقدّم خدمات بحث تلقائيّة "
+"عند طباعة كلمات أو جمل عادية بدلاً عن عناوين إنترنت. لتعطيل هذا الخيار  انتق "
+"<b>لا شئ</b> من القائمة.\n"
+"</qt>"
+
+#. i18n: file: ikwsopts_ui.ui:137
+#. i18n: ectx: property (text), widget (QLabel, lbDefaultEngine)
+#: rc.cpp:34
+msgid "Default &search engine:"
+msgstr "محرك ال&بحث المبدئي:"
+
+#. i18n: file: ikwsopts_ui.ui:180
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbDelimiter)
+#. i18n: file: ikwsopts_ui.ui:202
+#. i18n: ectx: property (whatsThis), widget (KComboBox, cmbDelimiter)
+#: rc.cpp:42 rc.cpp:48
+msgid ""
+"Choose the delimiter that separates the keyword from the phrase or word to "
+"be searched."
+msgstr ""
+"اختر الحد الذي يفصل الكلمة المفتاح عن العبارة أو الكلمة التي يراد بحثها."
+
+#. i18n: file: ikwsopts_ui.ui:183
+#. i18n: ectx: property (text), widget (QLabel, lbDelimiter)
+#: rc.cpp:45
+msgid "&Keyword delimiter:"
+msgstr "&فاصلد الكلمة المفتاحية:"
+
+#. i18n: file: ikwsopts_ui.ui:206
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbDelimiter)
+#: rc.cpp:51
+msgid "Colon"
+msgstr "نقطتان"
+
+#. i18n: file: ikwsopts_ui.ui:211
+#. i18n: ectx: property (text), item, widget (KComboBox, cmbDelimiter)
+#: rc.cpp:54
+msgid "Space"
+msgstr "فراغ"
+
+#. i18n: file: searchproviderdlg_ui.ui:20
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbName)
+#. i18n: file: searchproviderdlg_ui.ui:36
+#. i18n: ectx: property (toolTip), widget (KLineEdit, leName)
+#. i18n: file: searchproviderdlg_ui.ui:39
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leName)
+#: rc.cpp:57 rc.cpp:63 rc.cpp:66
+msgid "Enter the human-readable name of the search provider here."
+msgstr "أدخل الاسم المقروء لمزوّد البحث هنا."
+
+#. i18n: file: searchproviderdlg_ui.ui:23
+#. i18n: ectx: property (text), widget (QLabel, lbName)
+#: rc.cpp:60
+msgid "Search &provider name:"
+msgstr "اسم مزود ال&بحث:"
+
+#. i18n: file: searchproviderdlg_ui.ui:49
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbQuery)
+#. i18n: file: searchproviderdlg_ui.ui:68
+#. i18n: ectx: property (toolTip), widget (KLineEdit, leQuery)
+#. i18n: file: searchproviderdlg_ui.ui:74
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leQuery)
+#: rc.cpp:69 rc.cpp:78 rc.cpp:84
+msgid ""
+"<qt>\n"
+"Enter the URI that is used to perform a search on the search engine here.<br/"
+">The whole text to be searched for can be specified as \\{@} or \\{0}.<br/>\n"
+"Recommended is \\{@}, since it removes all query variables (name=value) from "
+"the resulting string, whereas \\{0} will be substituted with the unmodified "
+"query string.<br/>You can use \\{1} ... \\{n} to specify certain words from "
+"the query and \\{name} to specify a value given by 'name=value' in the user "
+"query.<br/>In addition it is possible to specify multiple references (names, "
+"numbers and strings) at once (\\{name1,name2,...,\"string\"}).<br/>The first "
+"matching value (from the left) will be used as the substitution value for "
+"the resulting URI.<br/>A quoted string can be used as the default value if "
+"nothing matches from the left of the reference list.\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"أدخل هنا صيغة ال URI التي تستعمل لإجراء البحث في محرك البحث.</br>لإجراء "
+"البحث على نص بشكل كامل من الممكن أستعمال الرمز \\{@} أو \\{0}.<br/>\n"
+"من المفضل استخدام \\{@}  لأنها تزيل كل متغيرات (name=value) من السلسلة "
+"الناتجة، بينما عند استخدام \\{0} فإنها تستبدل بسلسلة البحث غير المعدّلة.</br> "
+"تستطيع أستعمال  \\{1} ... \\{n} لتحديد كلمات معينة من سلسلة البحث، و "
+"\\{name}  لتحديد قيمة معطى عن طريق 'name=value' في سلسلةالبحث المحددة من  "
+"المستخدم.</br> بالإضافة لذلك تستطيع تحديد أكثر من مرجع  (أسماء، أرقام، "
+"نصوص ) في نفس الوقت (\\{name1,name2,...,\"string\"}).<br/>أول حالة تطابق (من "
+"اليسار) يتم استعمالها لقيمة بديلة داخل صيغة العنوان الناتجة.  <br/>من الممكن "
+"استعمال سلسلة الحروف المحصورة ضمن علامتي اقتباس كقيمة افتراضية في حال عدم "
+"وجود تطابق من أي من المراجع المحددة.\n"
+"</qt>"
+
+#. i18n: file: searchproviderdlg_ui.ui:52
+#. i18n: ectx: property (text), widget (QLabel, lbQuery)
+#: rc.cpp:75
+msgid "Search &URI:"
+msgstr "را&بط البحث:"
+
+#. i18n: file: searchproviderdlg_ui.ui:86
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbShortcut)
+#. i18n: file: searchproviderdlg_ui.ui:104
+#. i18n: ectx: property (toolTip), widget (KLineEdit, leShortcut)
+#. i18n: file: searchproviderdlg_ui.ui:109
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leShortcut)
+#: rc.cpp:90 rc.cpp:98 rc.cpp:103
+msgid ""
+"<qt>\n"
+"The shortcuts entered here can be used as a pseudo-URI scheme in KDE. For "
+"example, the shortcut <b>av</b> can be used as in <b>av</b>:<b>my search</"
+"b>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"الاختصارات التي أدخلتها هنا يمكن استخدامها كمخططات pseudo-URI في الكيدي. "
+"مثلاً الاختصار <b>av</b> يمكن استخدامه في كما في <b>av</b>:<b>بحثي</b>\n"
+"</qt>"
+
+#. i18n: file: searchproviderdlg_ui.ui:89
+#. i18n: ectx: property (text), widget (QLabel, lbShortcut)
+#: rc.cpp:95
+msgid "UR&I shortcuts:"
+msgstr "ا&ختصارات URI :"
+
+#. i18n: file: searchproviderdlg_ui.ui:119
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbCharset)
+#: rc.cpp:108
+msgid "Select the character set that will be used to encode your search query"
+msgstr "اختر لوحة المحارف التي ستستخدم لترميز استعلام بحثك"
+
+#. i18n: file: searchproviderdlg_ui.ui:122
+#. i18n: ectx: property (text), widget (QLabel, lbCharset)
+#: rc.cpp:111
+msgid "&Charset:"
+msgstr "&طقم المحارف:"
+
+#. i18n: file: searchproviderdlg_ui.ui:141
+#. i18n: ectx: property (whatsThis), widget (KComboBox, cbCharset)
+#: rc.cpp:114
+msgid "Select the character set that will be used to encode your search query."
+msgstr "اختر طقم المحارف التي ستستخدمها لترميز بحثك."
+
+#: searchproviderdlg.cpp:46
+msgid "Default"
+msgstr "مبدئي"
+
+#: searchproviderdlg.cpp:50
+msgid "Modify Search Provider"
+msgstr "عدّل مزود البحث"
+
+#: searchproviderdlg.cpp:60
+msgid "New Search Provider"
+msgstr "مزود بحث جديد"
+
+#: searchproviderdlg.cpp:78
+msgid ""
+"The URI does not contain a \\{...} placeholder for the user query.\n"
+"This means that the same page is always going to be visited, regardless of "
+"what the user types."
+msgstr ""
+"الـURI لا يحتوي على متغيّر \\{...} لاستعلام المستخدم.\n"
+"هذا يعني أن الصفحة نفسها سيتم زيارتها بغض النظر عما سيكتبه المستخدم."
+
+#: searchproviderdlg.cpp:81
+msgid "Keep It"
+msgstr "حافظ عليه"
+
+#~ msgid ""
+#~ "List of search providers, their associated shortcuts and whether they "
+#~ "should be listed in menus."
+#~ msgstr ""
+#~ "قائمة مزودي البحث ، و الاختصارات المرتبطة بها ، و هل تريد عرضها في "
+#~ "القائمة."

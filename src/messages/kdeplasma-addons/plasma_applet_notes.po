@@ -1,0 +1,212 @@
+# translation of plasma_applet_notes.po to Arabic
+# translation of plasma_applet_notes.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_notes\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-08-23 01:29+0200\n"
+"PO-Revision-Date: 2009-07-11 12:10+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: notes.cpp:223
+msgid "Unable to open file"
+msgstr "غير قادر على فتح ملف"
+
+#: notes.cpp:285
+msgid "Welcome to the Notes Plasmoid! Type your notes here..."
+msgstr "مرحبا بك في بلازمويد الملاحظات!  اكتب ملاحظاتك هنا..."
+
+#: notes.cpp:306
+msgid "Notes Color"
+msgstr "لون الملاحظات"
+
+#: notes.cpp:308
+msgid "White"
+msgstr "أبيض"
+
+#: notes.cpp:309
+msgid "Black"
+msgstr "أسود"
+
+#: notes.cpp:310
+msgid "Red"
+msgstr "أحمر"
+
+#: notes.cpp:311
+msgid "Orange"
+msgstr "برتقالي"
+
+#: notes.cpp:312
+msgid "Yellow"
+msgstr "أصفر"
+
+#: notes.cpp:313
+msgid "Green"
+msgstr "أخضر"
+
+#: notes.cpp:314
+msgid "Blue"
+msgstr "أزرق"
+
+#: notes.cpp:315
+msgid "Pink"
+msgstr "وردي"
+
+#: notes.cpp:316
+msgid "Translucent"
+msgstr "شفاف"
+
+#: notes.cpp:523
+msgid "General"
+msgstr "عام"
+
+#: notes.cpp:692
+msgid "Formatting"
+msgstr "التنسيق"
+
+#: notes.cpp:694
+msgid "Bold"
+msgstr "عريض"
+
+#: notes.cpp:695
+msgid "Italic"
+msgstr "مائل"
+
+#: notes.cpp:696
+msgid "Underline"
+msgstr "مسطر"
+
+#: notes.cpp:697
+msgid "StrikeOut"
+msgstr "مشطوب"
+
+#: notes.cpp:698
+msgid "Justify center"
+msgstr "حاذ للوسط"
+
+#: notes.cpp:699
+msgid "Justify"
+msgstr "حاذ"
+
+#. i18n: file: config.ui:22
+#. i18n: ectx: property (text), widget (QLabel, fontGroupLabel)
+#: rc.cpp:3
+msgid "Font"
+msgstr "الخط"
+
+#. i18n: file: config.ui:29
+#. i18n: ectx: property (text), widget (QLabel, fontStyleLabel)
+#: rc.cpp:6
+msgid "Style:"
+msgstr "النمط:"
+
+#. i18n: file: config.ui:59
+#. i18n: ectx: property (text), widget (QCheckBox, fontBoldCheckBox)
+#: rc.cpp:9
+msgid "&Bold"
+msgstr "&عريض"
+
+#. i18n: file: config.ui:66
+#. i18n: ectx: property (text), widget (QCheckBox, fontItalicCheckBox)
+#: rc.cpp:12
+msgid "&Italic"
+msgstr "&مائل"
+
+#. i18n: file: config.ui:89
+#. i18n: ectx: property (text), widget (QLabel, fontSizeLabel)
+#: rc.cpp:15
+msgid "Size:"
+msgstr "المقاس:"
+
+#. i18n: file: config.ui:107
+#. i18n: ectx: property (text), widget (QRadioButton, autoFont)
+#: rc.cpp:18
+msgid "Scale font size by:"
+msgstr "كبر الخط بـ :"
+
+#. i18n: file: config.ui:114
+#. i18n: ectx: property (suffix), widget (QSpinBox, autoFontPercent)
+#: rc.cpp:22
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#. i18n: file: config.ui:144
+#. i18n: ectx: property (text), widget (QRadioButton, customFont)
+#: rc.cpp:25
+msgid "Use custom font size:"
+msgstr "استعمل مقاس خط مخصص:"
+
+#. i18n: file: config.ui:185
+#. i18n: ectx: property (text), widget (QLabel, fontColorLabel)
+#: rc.cpp:28
+msgid "Color:"
+msgstr "اللون:"
+
+#. i18n: file: config.ui:201
+#. i18n: ectx: property (text), widget (QRadioButton, useThemeColor)
+#: rc.cpp:31
+msgid "Use theme color"
+msgstr "استخدم لون السمة"
+
+#. i18n: file: config.ui:219
+#. i18n: ectx: property (text), widget (QRadioButton, useCustomColor)
+#. i18n: file: config.ui:298
+#. i18n: ectx: property (text), widget (QRadioButton, useCustomBackgroundColor)
+#: rc.cpp:34 rc.cpp:43
+msgid "Use custom color:"
+msgstr "استخدم لون مخصص:"
+
+#. i18n: file: config.ui:264
+#. i18n: ectx: property (text), widget (QLabel, fontBackgroundColorLabel)
+#: rc.cpp:37
+msgid "Active line highlight color:"
+msgstr "لون إبراز السطر النشط:"
+
+#. i18n: file: config.ui:280
+#. i18n: ectx: property (text), widget (QRadioButton, useNoColor)
+#: rc.cpp:40
+msgid "Use no color"
+msgstr "لا تستخدم ألوان"
+
+#. i18n: file: config.ui:349
+#. i18n: ectx: property (text), widget (QLabel, themeGroupLabel)
+#: rc.cpp:46
+msgid "Theme"
+msgstr "السمة"
+
+#. i18n: file: config.ui:356
+#. i18n: ectx: property (text), widget (QLabel, notesColorLabel)
+#: rc.cpp:49
+msgid "Notes color:"
+msgstr "لون الملاحظات:"
+
+#. i18n: file: config.ui:421
+#. i18n: ectx: property (text), widget (QLabel, spellCheckLabel)
+#: rc.cpp:52
+msgid "Spell Check"
+msgstr "دقق الإملاء"
+
+#. i18n: file: config.ui:428
+#. i18n: ectx: property (text), widget (QLabel, checkSpellingLabel)
+#: rc.cpp:55
+msgid "Enable spell check:"
+msgstr "مكن التدقيق الإملائي:"
+
+#, fuzzy
+#~| msgid "Color:"
+#~ msgid "Text Color"
+#~ msgstr "اللون:"

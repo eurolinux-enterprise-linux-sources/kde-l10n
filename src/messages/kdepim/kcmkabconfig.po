@@ -1,0 +1,279 @@
+# translation of kcmkabconfig.po to
+# Language AR translations for PACKAGE package.
+#
+# Automatically generated, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkabconfig\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-02-14 11:43+0100\n"
+"PO-Revision-Date: 2007-10-14 15:53+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: addhostdialog.cpp:38
+#, fuzzy
+msgid "Add Host"
+msgstr "اضف مضيف"
+
+#: addresseewidget.cpp:61
+#, fuzzy
+msgid "Add..."
+msgstr "أضف..."
+
+#: addresseewidget.cpp:62
+#, fuzzy
+msgid "Edit..."
+msgstr "حرر..."
+
+#: addresseewidget.cpp:64
+#, fuzzy
+msgid "Remove"
+msgstr "احذف"
+
+#: addresseewidget.cpp:94
+#, fuzzy
+msgid "New"
+msgstr "جديد"
+
+#: addresseewidget.cpp:110
+#, fuzzy
+msgid "Edit"
+msgstr "تحرير"
+
+#: addresseewidget.cpp:143
+#, fuzzy
+msgid "Prefixes"
+msgstr "البادئات"
+
+#: addresseewidget.cpp:143
+#, fuzzy
+msgid "Enter prefix:"
+msgstr "إدخال:"
+
+#: addresseewidget.cpp:146
+#, fuzzy
+msgid "Inclusions"
+msgstr "الإدراج"
+
+#: addresseewidget.cpp:146
+#, fuzzy
+msgid "Enter inclusion:"
+msgstr "إدخال:"
+
+#: addresseewidget.cpp:149
+#, fuzzy
+msgid "Suffixes"
+msgstr "لواحق"
+
+#: addresseewidget.cpp:149
+#, fuzzy
+msgid "Enter suffix:"
+msgstr "إدخال لاحقة:"
+
+#: addresseewidget.cpp:152
+#, fuzzy
+msgid "Default formatted name:"
+msgstr "افتراضي منسّق (نص)، مهيأ (ملف، ذاكرة)  الإسم:"
+
+#: addresseewidget.cpp:156
+#, fuzzy
+msgid "Empty"
+msgstr "فارغ"
+
+#: addresseewidget.cpp:157
+#, fuzzy
+msgid "Simple Name"
+msgstr "الاسم البسيط"
+
+#: addresseewidget.cpp:158
+#, fuzzy
+msgid "Full Name"
+msgstr "الاسم الكامل"
+
+#: addresseewidget.cpp:159
+#, fuzzy
+msgid "Reverse Name with Comma"
+msgstr "عكس الاسم مع فاصلة"
+
+#: addresseewidget.cpp:160
+#, fuzzy
+msgid "Reverse Name"
+msgstr "الإسم معكوس"
+
+#: extensionconfigdialog.cpp:38
+#, fuzzy
+msgid "Extension Settings"
+msgstr "امتداد إعدادات"
+
+#: kabconfigwidget.cpp:63 kabconfigwidget.cpp:150
+#, fuzzy
+msgid "General"
+msgstr "عام"
+
+#: kabconfigwidget.cpp:67
+#, fuzzy
+msgid "Honor KDE single click"
+msgstr "احترم نقرة KDE الواحدة"
+
+#: kabconfigwidget.cpp:70
+#, fuzzy
+msgid "Automatic name parsing for new addressees"
+msgstr "جاري تحليل الاسم لعناوين المراسلة الجديدة"
+
+#: kabconfigwidget.cpp:73
+#, fuzzy
+msgid "Limit unfiltered display to 100 contacts"
+msgstr "الحدّ عرض إلى"
+
+#: kabconfigwidget.cpp:80
+#, fuzzy
+msgid "Addressee editor type:"
+msgstr "المستلم محرِّر نوع:"
+
+#: kabconfigwidget.cpp:84
+#, fuzzy
+msgid "Full Editor"
+msgstr "كامل المحرر"
+
+#: kabconfigwidget.cpp:85
+#, fuzzy
+msgid "Simple Editor"
+msgstr "بسيط المحرر"
+
+#: kabconfigwidget.cpp:94
+#, fuzzy
+msgid "Script-Hooks"
+msgstr "مخطوط الخطّافات"
+
+#: kabconfigwidget.cpp:97
+#, fuzzy
+msgid "Phone:"
+msgstr "الهاتف:"
+
+#: kabconfigwidget.cpp:101
+#, fuzzy
+msgid "<ul><li>%N: Phone Number</li></ul>"
+msgstr "<ul><li> N الهاتف الرقم</li></ul>"
+
+#: kabconfigwidget.cpp:104
+#, fuzzy
+msgid "Fax:"
+msgstr "الفاكس:"
+
+#: kabconfigwidget.cpp:108
+#, fuzzy
+msgid "<ul><li>%N: Fax Number</li></ul>"
+msgstr "<ul><li> N فاكس الرقم</li></ul>"
+
+#: kabconfigwidget.cpp:112
+#, fuzzy
+msgid "SMS text:"
+msgstr "SMS نص:"
+
+#: kabconfigwidget.cpp:116
+#, fuzzy
+msgid ""
+"<ul><li>%N: Phone Number</li><li>%F: File containing the text message(s)</"
+"li></ul>"
+msgstr "<ul><li> N الهاتف الرقم</li><li> F ملف نص رسالة s</li></ul>"
+
+#: kabconfigwidget.cpp:124
+#, fuzzy
+msgid "Location Map"
+msgstr "الموقع الخريطة"
+
+#: kabconfigwidget.cpp:133
+#, fuzzy
+msgid ""
+"<ul> <li>%s: Street</li><li>%r: Region</li><li>%l: Location</li><li>%z: Zip "
+"Code</li><li>%c: Country ISO Code</li> </ul>"
+msgstr ""
+"<ul><li> s الشارع</li><li> r منطقة</li><li> l الموقع</li><li> z Zip الرّمز</"
+"li><li> c البلد آيزو الرّمز</li></ul>"
+
+#: kabconfigwidget.cpp:154
+#, fuzzy
+msgid "Contact"
+msgstr "المراسَل"
+
+#: kcmkabconfig.cpp:51
+msgid "kcmkabconfig"
+msgstr ""
+
+#: kcmkabconfig.cpp:52
+#, fuzzy
+msgid "KAddressBook Configure Dialog"
+msgstr "KAddressBook اضبط حوار"
+
+#: kcmkabconfig.cpp:54 kcmkabldapconfig.cpp:56
+#, fuzzy
+msgid "(c), 2003 - 2004 Tobias Koenig"
+msgstr "c كونيج"
+
+#: kcmkabconfig.cpp:56 kcmkabldapconfig.cpp:58
+#, fuzzy
+msgid "Tobias Koenig"
+msgstr "كونيج"
+
+#: kcmkabldapconfig.cpp:53
+msgid "kcmkabldapconfig"
+msgstr ""
+
+#: kcmkabldapconfig.cpp:54
+#, fuzzy
+msgid "KAB LDAP Configure Dialog"
+msgstr "LDAP اضبط حوار"
+
+#: ldapoptionswidget.cpp:138
+#, fuzzy
+msgid "Edit Host"
+msgstr "تحرير مضيف"
+
+#: ldapoptionswidget.cpp:284
+#, fuzzy
+msgid "LDAP Servers"
+msgstr "خوادم LDAP"
+
+#: ldapoptionswidget.cpp:288
+#, fuzzy
+msgid "Check all servers that should be used:"
+msgstr "كِش الكل خوادم مُستخدَم:"
+
+#: ldapoptionswidget.cpp:316
+#, fuzzy
+msgid "&Add Host..."
+msgstr "إضافة مضيف."
+
+#: ldapoptionswidget.cpp:317
+#, fuzzy
+msgid "&Edit Host..."
+msgstr "تحرير مضيف."
+
+#: ldapoptionswidget.cpp:319
+#, fuzzy
+msgid "&Remove Host"
+msgstr "احذف مضيف"
+
+#: rc.cpp:1
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:2
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"
+
+#, fuzzy
+#~ msgid "Trade single name component as family name"
+#~ msgstr "التجارة فريد الإسم مكوّن الإسم"

@@ -1,0 +1,432 @@
+# translation of kwrite.po to Arabic
+# translation of kwrite.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Abdulaziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kwrite\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-07-28 01:21+0200\n"
+"PO-Revision-Date: 2009-07-08 22:45+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+
+#: kwritemain.cpp:71 kwritemain.cpp:486
+msgid ""
+"A KDE text-editor component could not be found.\n"
+"Please check your KDE installation."
+msgstr ""
+"تعذر العثور على مكوّن محرر نصوص كدي ، \n"
+"رجاء تحقق من تثبيت كدي."
+
+#: kwritemain.cpp:150
+msgid "Use this command to close the current document"
+msgstr "استخدم هذا الأمر لإغلاق الوثيقة الحالية"
+
+#: kwritemain.cpp:154
+msgid "Use this command to create a new document"
+msgstr "استخدم هذا الأمر لإنشاء مستند جديد"
+
+#: kwritemain.cpp:156
+msgid "Use this command to open an existing document for editing"
+msgstr "استخدم هذا الأمر لفتح مستند موجود مسبقاً لتحريره"
+
+#: kwritemain.cpp:160
+msgid ""
+"This lists files which you have opened recently, and allows you to easily "
+"open them again."
+msgstr ""
+"يسرد هذا الملفات التي قمت بفتحها مؤخراً، ويسمح لك بفتحها بسهولة مرة أخرى."
+
+#: kwritemain.cpp:164
+msgid "&New Window"
+msgstr "&نافذة جديدة"
+
+#: kwritemain.cpp:166
+msgid "Create another view containing the current document"
+msgstr "أنشئ عرضا أخر يحوي الوثيقة الحالية."
+
+#: kwritemain.cpp:169
+msgid "Close the current document view"
+msgstr "أغلق عرض المستند الحالي"
+
+#: kwritemain.cpp:176
+msgid "Use this command to show or hide the view's statusbar"
+msgstr "استخدم هذا الأمر لإظهار أو إخفاء شريط حالة العرض"
+
+#: kwritemain.cpp:178
+msgid "Sho&w Path"
+msgstr "أظهر ال&مسار"
+
+#: kwritemain.cpp:181
+msgid "Show the complete document path in the window caption"
+msgstr "أظهر مسار المستند بالكامل في واصفة النافذة"
+
+#: kwritemain.cpp:184
+msgid "Configure the application's keyboard shortcut assignments."
+msgstr "اضبط اسناد اختصارات لوحة المفاتيح للتطبيق."
+
+#: kwritemain.cpp:188
+msgid "Configure which items should appear in the toolbar(s)."
+msgstr "اضبط العناصر التي يجب ظهورها في شريط الأدوات."
+
+#: kwritemain.cpp:191
+msgid "&About Editor Component"
+msgstr "&حول مكّون المحرّر"
+
+#: kwritemain.cpp:200 kwritemain.cpp:550
+#, kde-format
+msgctxt "@info:status Statusbar label for cursor line and column position"
+msgid " Line: %1 Col: %2 "
+msgstr "السطر: %1 العمود: %2 "
+
+#: kwritemain.cpp:211
+msgid " INS "
+msgstr "يدرج"
+
+#: kwritemain.cpp:215 kwritemain.cpp:557
+msgctxt "@info:status Statusbar label for line selection mode"
+msgid " LINE "
+msgstr "السطر"
+
+#: kwritemain.cpp:267
+msgid "Open File"
+msgstr "افتح ملف"
+
+#: kwritemain.cpp:282
+msgid ""
+"The file given could not be read; check whether it exists or is readable for "
+"the current user."
+msgstr ""
+"الملف المحدد لم يمكن قراءته، تحقق من أنه موجود أو يمكن قراءته من قبل "
+"المستخدم الحالي."
+
+#: kwritemain.cpp:556
+msgctxt "@info:status Statusbar label for block selection mode"
+msgid " BLOCK "
+msgstr "المنطقة"
+
+#: kwritemain.cpp:601
+msgid "Untitled"
+msgstr "غير معنون"
+
+#: kwritemain.cpp:638
+msgid "KWrite"
+msgstr "ك.رايت"
+
+#: kwritemain.cpp:640
+msgid "KWrite - Text Editor"
+msgstr "ك.رايت - محرِّر نصوص"
+
+#: kwritemain.cpp:641
+msgid "(c) 2000-2005 The Kate Authors"
+msgstr "جميع الحقوق محفوظة، 2000-2001، مؤلفو Kate"
+
+#: kwritemain.cpp:642
+msgid "Christoph Cullmann"
+msgstr "Christoph Cullmann"
+
+#: kwritemain.cpp:642
+msgid "Maintainer"
+msgstr "المشرف"
+
+#: kwritemain.cpp:643
+msgid "Anders Lund"
+msgstr "Anders Lund"
+
+#: kwritemain.cpp:643 kwritemain.cpp:644 kwritemain.cpp:645 kwritemain.cpp:651
+msgid "Core Developer"
+msgstr "المطور الرئيس"
+
+#: kwritemain.cpp:644
+msgid "Joseph Wenninger"
+msgstr "Joseph Wenninger"
+
+#: kwritemain.cpp:645
+msgid "Hamish Rodda"
+msgstr "Hamish Rodda"
+
+#: kwritemain.cpp:646
+msgid "Dominik Haumann"
+msgstr "Dominik Haumann"
+
+#: kwritemain.cpp:646
+msgid "Developer & Highlight wizard"
+msgstr "المطور وصاحب ميزة الإبراز"
+
+#: kwritemain.cpp:647
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: kwritemain.cpp:647
+msgid "The cool buffersystem"
+msgstr "نظام التخزين الرائع"
+
+#: kwritemain.cpp:648
+msgid "Charles Samuels"
+msgstr "Charles Samuels"
+
+#: kwritemain.cpp:648
+msgid "The Editing Commands"
+msgstr "أوامر التحرير"
+
+#: kwritemain.cpp:649
+msgid "Matt Newell"
+msgstr "Matt Newell"
+
+#: kwritemain.cpp:649
+msgctxt ""
+"Credit text for someone that did testing and some other similar things"
+msgid "Testing, ..."
+msgstr "الفحص ، ..."
+
+#: kwritemain.cpp:650
+msgid "Michael Bartl"
+msgstr "Michael Bartl"
+
+#: kwritemain.cpp:650
+msgid "Former Core Developer"
+msgstr "المطوّر الأساسي السابق"
+
+#: kwritemain.cpp:651
+msgid "Michael McCallum"
+msgstr "Michael McCallum"
+
+#: kwritemain.cpp:652
+msgid "Jochen Wilhemly"
+msgstr "Jochen Wilhemly"
+
+#: kwritemain.cpp:652
+msgid "KWrite Author"
+msgstr "مؤلف برنامج ك.رايت"
+
+#: kwritemain.cpp:653
+msgid "Michael Koch"
+msgstr "Michael Koch"
+
+#: kwritemain.cpp:653
+msgid "KWrite port to KParts"
+msgstr "نقل ك.رايت إلى KParts"
+
+#: kwritemain.cpp:654
+msgid "Christian Gebauer"
+msgstr "Christian Gebauer"
+
+#: kwritemain.cpp:655
+msgid "Simon Hausmann"
+msgstr "Simon Hausmann"
+
+#: kwritemain.cpp:656
+msgid "Glen Parker"
+msgstr "Glen Parker"
+
+#: kwritemain.cpp:656
+msgid "KWrite Undo History, Kspell integration"
+msgstr "خط زمني لك.رايت ، عملية التكامل مع Kspell"
+
+#: kwritemain.cpp:657
+msgid "Scott Manson"
+msgstr "Scott Manson"
+
+#: kwritemain.cpp:657
+msgid "KWrite XML Syntax highlighting support"
+msgstr "دعم تمييز الصيغة لتقنية XML في KWrite"
+
+#: kwritemain.cpp:658
+msgid "John Firebaugh"
+msgstr "John Firebaugh"
+
+#: kwritemain.cpp:658
+msgid "Patches and more"
+msgstr "رقعات تصحيح  وأشياء أخرى"
+
+#: kwritemain.cpp:660
+msgid "Matteo Merli"
+msgstr "Matteo Merli"
+
+#: kwritemain.cpp:660
+msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
+msgstr "الإبراز للملفات الخاصة بنظام RPM  و Perl و Diff و  أشياء أخرى"
+
+#: kwritemain.cpp:661
+msgid "Rocky Scaletta"
+msgstr "Rocky Scaletta"
+
+#: kwritemain.cpp:661
+msgid "Highlighting for VHDL"
+msgstr "إبراز لغة VHDL"
+
+#: kwritemain.cpp:662
+msgid "Yury Lebedev"
+msgstr "Yury Lebedev"
+
+#: kwritemain.cpp:662
+msgid "Highlighting for SQL"
+msgstr "إبراز لغة SQL"
+
+#: kwritemain.cpp:663
+msgid "Chris Ross"
+msgstr "Chris Ross"
+
+#: kwritemain.cpp:663
+msgid "Highlighting for Ferite"
+msgstr "إبراز لغة Ferite"
+
+#: kwritemain.cpp:664
+msgid "Nick Roux"
+msgstr "Nick Roux"
+
+#: kwritemain.cpp:664
+msgid "Highlighting for ILERPG"
+msgstr "إبراز لغة ILERPG"
+
+#: kwritemain.cpp:665
+msgid "Carsten Niehaus"
+msgstr "Carsten Niehaus"
+
+#: kwritemain.cpp:665
+msgid "Highlighting for LaTeX"
+msgstr "إبراز LaTeX"
+
+#: kwritemain.cpp:666
+msgid "Per Wigren"
+msgstr "Per Wigren"
+
+#: kwritemain.cpp:666
+msgid "Highlighting for Makefiles, Python"
+msgstr "إبراز Makefiles, Python"
+
+#: kwritemain.cpp:667
+msgid "Jan Fritz"
+msgstr "Jan Fritz"
+
+#: kwritemain.cpp:667
+msgid "Highlighting for Python"
+msgstr "إبراز لغة Python"
+
+#: kwritemain.cpp:668
+msgid "Daniel Naber"
+msgstr "Daniel Naber"
+
+#: kwritemain.cpp:669
+msgid "Roland Pabel"
+msgstr "Roland Pabel"
+
+#: kwritemain.cpp:669
+msgid "Highlighting for Scheme"
+msgstr "إبراز لغة Scheme"
+
+#: kwritemain.cpp:670
+msgid "Cristi Dumitrescu"
+msgstr "Cristi Dumitrescu"
+
+#: kwritemain.cpp:670
+msgid "PHP Keyword/Datatype list"
+msgstr "لائحة أنواع المعلومات والكلمات المميزة في لغة PHP"
+
+#: kwritemain.cpp:671
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: kwritemain.cpp:671
+msgctxt "Credit text for someone that helped a lot"
+msgid "Very nice help"
+msgstr "مساعدة لطيفة جداً"
+
+#: kwritemain.cpp:672
+msgid "All people who have contributed and I have forgotten to mention"
+msgstr "كل الأشخاص الذين ساهموا ونسيت ذكرهم"
+
+#: kwritemain.cpp:679
+msgid "Read the contents of stdin"
+msgstr "اقرأ محتويات stdin."
+
+#: kwritemain.cpp:680
+msgid "Set encoding for the file to open"
+msgstr "عيّن ترميز الملف لفتحه"
+
+#: kwritemain.cpp:681
+msgid "Navigate to this line"
+msgstr "تصفح إلى هذا السطر"
+
+#: kwritemain.cpp:682
+msgid "Navigate to this column"
+msgstr "تصفح إلى هذا العمود"
+
+#: kwritemain.cpp:683
+msgid "Document to open"
+msgstr "المستند لفتحه"
+
+#: kwritemain.cpp:770
+#, kde-format
+msgid ""
+"The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr "الملف '%1' لا يمكن فتحه: ليس ملفاً عادياً, هو مجلد."
+
+#: kwritemain.cpp:789
+msgid "Choose Editor Component"
+msgstr "اختر مكّون المحرر"
+
+#. i18n: file: kwriteui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3
+msgid "&File"
+msgstr "&ملف"
+
+#. i18n: file: kwriteui.rc:27
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6
+msgid "&Edit"
+msgstr "&حرّر"
+
+#. i18n: file: kwriteui.rc:39
+#. i18n: ectx: Menu (view)
+#: rc.cpp:9
+msgid "&View"
+msgstr "ا&عرض"
+
+#. i18n: file: kwriteui.rc:45
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:12
+msgid "&Tools"
+msgstr "أ&دوات"
+
+#. i18n: file: kwriteui.rc:51
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:15
+msgid "&Settings"
+msgstr "إ&عدادات"
+
+#. i18n: file: kwriteui.rc:62
+#. i18n: ectx: Menu (help)
+#: rc.cpp:18
+msgid "&Help"
+msgstr "م&ساعدة"
+
+#. i18n: file: kwriteui.rc:67
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:21
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسية"
+
+#: rc.cpp:22
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "يوسف الشهيبي,عبدالعزيز الشريف,زايد السعيدي"
+
+#: rc.cpp:23
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "chahibi@gmail.com,a.a-a.s@hotmail.com,zayed.alsaidi@gmail.com"

@@ -1,0 +1,135 @@
+# translation of katemailfilesplugin.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: katemailfilesplugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-10-09 09:44+0200\n"
+"PO-Revision-Date: 2007-10-14 15:58+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: katemailfiles.cpp:48
+#, fuzzy
+msgid "Mail Files"
+msgstr "إرسال بابريد الالكتروني"
+
+#: katemailfiles.cpp:48
+msgid "Support mailing files"
+msgstr ""
+
+#: katemailfiles.cpp:65
+#, fuzzy
+msgid "Send one or more of the open documents as email attachments."
+msgstr "أرسل واحداً أو أكثر من المستندات المفتوحة كملحق لرسالة بريدية."
+
+#: katemailfiles.cpp:94
+#, fuzzy
+msgid ""
+"<p>The current document has not been saved, and cannot be attached to an "
+"email message.</p><p>Do you want to save it and proceed?</p>"
+msgstr ""
+"<p> الـ الحالي مستند ليس و مرفق إلى بريد إلكتروني رسالة</p><p> تنفيذ إلى حفظ "
+"الإيطالية و</p>"
+
+#: katemailfiles.cpp:97
+#, fuzzy
+msgid "Cannot Send Unsaved File"
+msgstr "لا يمكن إرسال ملف غير محفوظ"
+
+#: katemailfiles.cpp:105 katemailfiles.cpp:129
+#, fuzzy
+msgid "The file could not be saved. Please check if you have write permission."
+msgstr "لا يمكن حفظ الملف، الرجاء التأكد من انً لديك أذن الكتابة."
+
+#: katemailfiles.cpp:117
+#, fuzzy, kde-format
+msgid ""
+"<p>The current file:<br /><strong>%1</strong><br />has been modified. "
+"Modifications will not be available in the attachment.</p><p>Do you want to "
+"save it before sending it?</p>"
+msgstr ""
+"<p> الـ الحالي ملفّ<br /><strong></strong><br /> معدّل التغييرات ليس متوفّر "
+"بوصة مُرفق</p><p> تنفيذ إلى حفظ الإيطالية قبل الإيطالية</p>"
+
+#: katemailfiles.cpp:120
+#, fuzzy
+msgid "Save Before Sending?"
+msgstr "هل أحفظ الملف قبل إرساله ؟"
+
+#: katemailfiles.cpp:120
+#, fuzzy
+msgid "Do Not Save"
+msgstr "عدم الحفظ"
+
+#: katemailfilesdialog.cpp:54
+#, fuzzy
+msgid "Email Files"
+msgstr "إرسال بابريد الالكتروني"
+
+#: katemailfilesdialog.cpp:56 katemailfilesdialog.cpp:116
+#, fuzzy
+msgid "&Show All Documents >>"
+msgstr "أ&ظهر كل المستندات >>"
+
+#: katemailfilesdialog.cpp:60
+#, fuzzy
+msgid "&Mail..."
+msgstr "أرسل بال&بريد..."
+
+#: katemailfilesdialog.cpp:67
+#, fuzzy
+msgid ""
+"<p>Press <strong>Mail...</strong> to email the current document.</p><p>To "
+"select more documents to send, press <strong>Show All Documents&nbsp;&gt;&gt;"
+"</strong>.</p>"
+msgstr ""
+"<p> ضغط<strong> بريد</strong> إلى بريد إلكتروني الحالي مستند</p><p> إلى "
+"تحديد المزيد مستندات إلى إرسال ضغط<strong> اعرض الكل مستندات&nbsp;&gt;&gt;</"
+"strong></p>"
+
+#: katemailfilesdialog.cpp:72
+#, fuzzy
+msgid "Name"
+msgstr "الاسم"
+
+#: katemailfilesdialog.cpp:73
+#, fuzzy
+msgid "URL"
+msgstr "URL"
+
+#: katemailfilesdialog.cpp:124
+#, fuzzy
+msgid "&Hide Document List <<"
+msgstr "أ&خف لائحة المستندات <<"
+
+#: katemailfilesdialog.cpp:125
+#, fuzzy
+msgid "Press <strong>Mail...</strong> to send selected documents"
+msgstr "إضغط <strong>أرسل بالبريد...</strong> لترسل المستندات المحدّدة"
+
+#. i18n: file: ui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3
+#, fuzzy
+msgid "&File"
+msgstr "&ملف"
+
+#: rc.cpp:4
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:5
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""

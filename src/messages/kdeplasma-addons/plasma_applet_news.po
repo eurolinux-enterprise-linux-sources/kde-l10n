@@ -1,0 +1,101 @@
+# translation of plasma_applet_news.po to Arabic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_news\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-24 11:18+0200\n"
+"PO-Revision-Date: 2009-07-11 12:07+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: news.cpp:224
+msgid "General"
+msgstr "عام"
+
+#: news.cpp:225
+msgid "Feeds"
+msgstr "التغذية"
+
+#: news.cpp:254
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] "دقيقة"
+msgstr[1] "دقيقة واحدة"
+msgstr[2] "دقيقتان"
+msgstr[3] "دقائق"
+msgstr[4] "دقيقة"
+msgstr[5] "دقيقة"
+
+#. i18n: file: config.ui:28
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:3 rc.cpp:33
+msgid "News"
+msgstr "الأخبار"
+
+#. i18n: file: config.ui:53
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:6 rc.cpp:36
+msgid "Update interval:"
+msgstr "فترة التحديث:"
+
+#. i18n: file: config.ui:125
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:9 rc.cpp:39
+msgid "Information"
+msgstr "معلومات"
+
+#. i18n: file: config.ui:132
+#. i18n: ectx: property (text), widget (QCheckBox, timestampCheckBox)
+#: rc.cpp:12 rc.cpp:42
+msgid "Show timestamps"
+msgstr "أظهر ختم الوقت"
+
+#. i18n: file: config.ui:139
+#. i18n: ectx: property (text), widget (QCheckBox, titlesCheckBox)
+#: rc.cpp:15 rc.cpp:45
+msgid "Show titles"
+msgstr "أظهر العناوين"
+
+#. i18n: file: config.ui:146
+#. i18n: ectx: property (text), widget (QCheckBox, descriptionsCheckBox)
+#: rc.cpp:18 rc.cpp:48
+msgid "Show descriptions"
+msgstr "أظهر الأوصاف"
+
+#. i18n: file: config.ui:161
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:21 rc.cpp:51
+msgid ""
+"Note that timestamps, titles and descriptions are available only if they are "
+"provided by feed."
+msgstr ""
+"لاحظ أن ختم الوقت و العناوين و الأوصاف متوفرة فقط إذا كانت مزود من التغذية."
+
+#. i18n: file: feedsConfig.ui:18
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: rc.cpp:24 rc.cpp:54
+msgid "&Add a feed:"
+msgstr "أ&ضف تغذية:"
+
+#. i18n: file: feedsConfig.ui:53
+#. i18n: ectx: property (text), widget (KPushButton, addFeed)
+#: rc.cpp:27 rc.cpp:57
+msgid "Add Feed"
+msgstr "أضف تغذية"
+
+#. i18n: file: feedsConfig.ui:60
+#. i18n: ectx: property (text), widget (KPushButton, removeFeed)
+#: rc.cpp:30 rc.cpp:60
+msgid "Remove Feed"
+msgstr "أزل تغذية"

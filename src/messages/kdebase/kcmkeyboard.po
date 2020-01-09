@@ -1,0 +1,157 @@
+# translation of kcmkeyboard.po to Arabic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Amine <amineroukh@gmail.com>, 2008.
+# Amine Roukh <amineroukh@gmail.com>, 2008.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeyboard\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-10 11:06+0200\n"
+"PO-Revision-Date: 2009-07-06 17:35+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#. i18n: file: kcmmiscwidget.ui:28
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:3 rc.cpp:56
+msgid "Keyboard Repeat"
+msgstr "تكرار لوحة المفاتيح"
+
+#. i18n: file: kcmmiscwidget.ui:34
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, repeatBox)
+#: rc.cpp:6 rc.cpp:59
+msgid ""
+"If you check this option, pressing and holding down a key emits the same "
+"character over and over again. For example, pressing and holding down the "
+"Tab key will have the same effect as that of pressing that key several times "
+"in succession: Tab characters continue to be emitted until you release the "
+"key."
+msgstr ""
+"إذا فعلت هذا الخيار، الضغط باستمرار على المفتاح سيولد نفس المحرف مرارا "
+"وتكرارا. مثلا الضغط باستمرار على الزر Tab سيقوم بنفس عمل الضغط على الزر عدة "
+"مرات متتالية : سيستمر توليد المحرف Tab  حتى تترك المفتاح."
+
+#. i18n: file: kcmmiscwidget.ui:37
+#. i18n: ectx: property (text), widget (QCheckBox, repeatBox)
+#: rc.cpp:9 rc.cpp:62
+msgid "&Enable keyboard repeat"
+msgstr "&فعّل تكرار لوحة المفاتيح"
+
+#. i18n: file: kcmmiscwidget.ui:53
+#. i18n: ectx: property (text), widget (QLabel, lblDelay)
+#: rc.cpp:12 rc.cpp:65
+msgid "&Delay:"
+msgstr "ال&مهلة:"
+
+#. i18n: file: kcmmiscwidget.ui:63
+#. i18n: ectx: property (whatsThis), widget (QSlider, delaySlider)
+#. i18n: file: kcmmiscwidget.ui:91
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, delay)
+#. i18n: file: kcmmiscwidget.ui:63
+#. i18n: ectx: property (whatsThis), widget (QSlider, delaySlider)
+#. i18n: file: kcmmiscwidget.ui:91
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, delay)
+#: rc.cpp:15 rc.cpp:18 rc.cpp:68 rc.cpp:71
+msgid ""
+"If supported, this option allows you to set the delay after which a pressed "
+"key will start generating keycodes. The 'Repeat rate' option controls the "
+"frequency of these keycodes."
+msgstr ""
+"إذا فعل، هذا الخيار سيسمح لك بتحديد مهلة الضغط على المفتاح التي بعدها سيبدأ "
+"توليد رموز المفتاح. وخيار 'معدل التكرار' يتحكم في تواتر رموز المفتاح ."
+
+#. i18n: file: kcmmiscwidget.ui:104
+#. i18n: ectx: property (text), widget (QLabel, lblRate)
+#: rc.cpp:21 rc.cpp:74
+msgid "&Rate:"
+msgstr "الم&عدل:"
+
+#. i18n: file: kcmmiscwidget.ui:114
+#. i18n: ectx: property (whatsThis), widget (QSlider, rateSlider)
+#. i18n: file: kcmmiscwidget.ui:142
+#. i18n: ectx: property (whatsThis), widget (KDoubleNumInput, rate)
+#. i18n: file: kcmmiscwidget.ui:114
+#. i18n: ectx: property (whatsThis), widget (QSlider, rateSlider)
+#. i18n: file: kcmmiscwidget.ui:142
+#. i18n: ectx: property (whatsThis), widget (KDoubleNumInput, rate)
+#: rc.cpp:24 rc.cpp:27 rc.cpp:77 rc.cpp:80
+msgid ""
+"If supported, this option allows you to set the rate at which keycodes are "
+"generated while a key is pressed."
+msgstr ""
+"إذا فعل هذا الخيار يسمح لك بتحديد معدل توليد رموز المفتاح عند الضغط على زر."
+
+#. i18n: file: kcmmiscwidget.ui:152
+#. i18n: ectx: property (whatsThis), widget (KButtonGroup, numlockGroup)
+#: rc.cpp:30 rc.cpp:83
+msgid ""
+"If supported, this option allows you to setup the state of NumLock after KDE "
+"startup.<p>You can configure NumLock to be turned on or off, or configure "
+"KDE not to set NumLock state."
+msgstr ""
+"إذا فعل، هذا الخيار يسمح لك بإعداد حالة NumLock بعد تشغيل كدي.<p>يمكنك تفعيل "
+"أو تعطيل NumLock، أو عدم تحديد الحالة."
+
+#. i18n: file: kcmmiscwidget.ui:155
+#. i18n: ectx: property (title), widget (KButtonGroup, numlockGroup)
+#: rc.cpp:33 rc.cpp:86
+msgid "NumLock on KDE Startup"
+msgstr "NumLock عند بدء تشغيل كدي"
+
+#. i18n: file: kcmmiscwidget.ui:161
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1)
+#: rc.cpp:36 rc.cpp:89
+msgid "T&urn on"
+msgstr "ش&غل"
+
+#. i18n: file: kcmmiscwidget.ui:168
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1_2)
+#: rc.cpp:39 rc.cpp:92
+msgid "Turn o&ff"
+msgstr "ع&طل"
+
+#. i18n: file: kcmmiscwidget.ui:175
+#. i18n: ectx: property (text), widget (QRadioButton, RadioButton1_3)
+#: rc.cpp:42 rc.cpp:95
+msgid "Leave unchan&ged"
+msgstr "لا ت&غير"
+
+#. i18n: file: kcmmiscwidget.ui:185
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel1)
+#. i18n: file: kcmmiscwidget.ui:198
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, click)
+#. i18n: file: kcmmiscwidget.ui:185
+#. i18n: ectx: property (whatsThis), widget (QLabel, TextLabel1)
+#. i18n: file: kcmmiscwidget.ui:198
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, click)
+#: rc.cpp:46 rc.cpp:53 rc.cpp:99 rc.cpp:106
+#, no-c-format
+msgid ""
+"If supported, this option allows you to hear audible clicks from your "
+"computer's speakers when you press the keys on your keyboard. This might be "
+"useful if your keyboard does not have mechanical keys, or if the sound that "
+"the keys make is very soft.<p>You can change the loudness of the key click "
+"feedback by dragging the slider button or by clicking the up/down arrows on "
+"the spin box. Setting the volume to 0% turns off the key click."
+msgstr ""
+"إذا فعل هذا الخيار سيسمح لك بسماع نقراتك على لوحة المفاتيح من خلال سماعات "
+"الحاسوب. هذه الخاصية مفيدة في حالة عدم توفر المفاتيح الميكانيكية في لوحة "
+"مفاتيحك، أو صوت الضغط على المفاتيح جد خافت.<p>يمكنك تغيير حجم الصوت عند "
+"النقر عن طريق شريط التمرير أو بالنقر على زر أعلى/أسفل, جعل الصوت في مستوى 0% "
+"يعطل الخاصية "
+
+#. i18n: file: kcmmiscwidget.ui:188
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:49 rc.cpp:102
+msgid "Key click &volume:"
+msgstr "حجم ص&وت المفاتيح:"

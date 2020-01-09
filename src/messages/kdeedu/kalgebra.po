@@ -1,0 +1,1085 @@
+# translation of kalgebra.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kalgebra\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-07-28 01:27+0200\n"
+"PO-Revision-Date: 2007-10-14 15:39+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: src/console.cpp:59
+#, fuzzy, kde-format
+msgid ""
+"%1\n"
+"Error: %2"
+msgstr "الخطأ: %1"
+
+#: src/console.cpp:141 src/functionsmodel.cpp:74 src/operatorsmodel.cpp:77
+#: src/variablesmodel.cpp:80
+#, fuzzy
+msgctxt "@title:column"
+msgid "Name"
+msgstr "الاسم"
+
+#: src/console.cpp:142 src/variablesmodel.cpp:83
+#, fuzzy
+msgctxt "@title:column"
+msgid "Value"
+msgstr "القيمة"
+
+#: src/consolehtml.cpp:104
+#, kde-format
+msgid "<ul class='error'>Error: %1<li>%2</li></ul>"
+msgstr ""
+
+#: src/dictionary.cpp:47
+#, fuzzy
+msgid "Information"
+msgstr "معلومات"
+
+#: src/dictionary.cpp:73 src/dictionary.cpp:74 src/dictionary.cpp:75
+#: src/dictionary.cpp:76
+#, fuzzy, kde-format
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#: src/dictionary.cpp:77
+#, fuzzy
+msgid "<b>Formula</b>"
+msgstr "<b>%1</b>"
+
+#: src/expressionedit.cpp:316
+#, kde-format
+msgctxt "n-ary function prototype"
+msgid "<em>%1</em>(..., <b>par%2</b>, ...)"
+msgstr ""
+
+#: src/expressionedit.cpp:319 src/expressionedit.cpp:346
+#, kde-format
+msgctxt "Function name in function prototype"
+msgid "<em>%1</em>("
+msgstr ""
+
+#: src/expressionedit.cpp:320
+#, fuzzy, kde-format
+msgctxt "Uncorrect function name in function prototype"
+msgid "<em style='color:red'><b>%1</b></em>("
+msgstr "<b style='color:red'> الخطأ</b>"
+
+#: src/expressionedit.cpp:323
+#, fuzzy, kde-format
+msgctxt "Parameter in function prototype"
+msgid "par%1"
+msgstr "1"
+
+#: src/expressionedit.cpp:326 src/expressionedit.cpp:335
+#: src/expressionedit.cpp:351
+#, fuzzy, kde-format
+msgctxt "Current parameter in function prototype"
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#: src/expressionedit.cpp:329 src/expressionedit.cpp:356
+#, fuzzy
+msgctxt "Function parameter separator"
+msgid ", "
+msgstr "، "
+
+#: src/expressionedit.cpp:333
+msgctxt "Current parameter is the bounding"
+msgid " : bounds"
+msgstr ""
+
+#: src/expressionedit.cpp:347
+#, kde-format
+msgctxt "Uncorrect function name in function prototype"
+msgid "<em style='color:red'>%1</em>("
+msgstr ""
+
+#: src/expressionedit.cpp:453
+#, fuzzy
+msgid "To Expression"
+msgstr "إلى تعبير"
+
+#: src/expressionedit.cpp:455
+#, fuzzy
+msgid "To MathML"
+msgstr "إلى"
+
+#: src/expressionedit.cpp:457
+#, fuzzy
+msgid "Simplify"
+msgstr "بسّط"
+
+#: src/functionedit.cpp:39
+#, fuzzy
+msgid "Add/Edit a function"
+msgstr "إضافة تحرير a الدالة"
+
+#: src/functionedit.cpp:86
+#, fuzzy
+msgid "OK"
+msgstr "موافق"
+
+#: src/functionedit.cpp:88
+#, fuzzy
+msgctxt "@action:button"
+msgid "Clear"
+msgstr "امسح"
+
+#: src/functionedit.cpp:168
+#, kde-format
+msgctxt "Error message"
+msgid "Unknown bounded variable: %1"
+msgstr ""
+
+#: src/functionedit.cpp:193
+msgid "We can only draw Real results."
+msgstr ""
+
+#: src/functionedit.cpp:215
+#, fuzzy, kde-format
+msgid "<b style='color:red'>%1</b>"
+msgstr "<b style='color:red'> الخطأ</b>"
+
+#: src/functionimpl.cpp:116
+msgid "Cannot have downlimit ≥ uplimit"
+msgstr ""
+
+#: src/functionimpl.cpp:255
+msgid "center"
+msgstr ""
+
+#: src/functionsmodel.cpp:77
+#, fuzzy
+msgctxt "@title:column"
+msgid "Function"
+msgstr "الوظيفة"
+
+#: src/functionsmodel.cpp:105
+#, fuzzy, kde-format
+msgid "%1 function added"
+msgstr "الدالة"
+
+#: src/functionsview.cpp:50
+#, kde-format
+msgid "Hide '%1'"
+msgstr ""
+
+#: src/functionsview.cpp:53
+#, kde-format
+msgid "Show '%1'"
+msgstr ""
+
+#: src/functionsview.cpp:58
+#, kde-format
+msgid "Remove '%1'"
+msgstr ""
+
+#: src/graph2d.cpp:403
+msgid "Selected viewport too small"
+msgstr ""
+
+#: src/graph3d.cpp:412 src/graph3d.cpp:438
+#, fuzzy, kde-format
+msgid "Error: %1"
+msgstr "الخطأ: %1"
+
+#: src/graph3d.cpp:426
+#, fuzzy
+msgid "Generating... Please wait"
+msgstr "التوليد رجاء أنتطر"
+
+#: src/graph3d.cpp:431
+#, fuzzy, no-c-format, kde-format
+msgctxt "3D graph done in x miliseconds"
+msgid "Done: %1ms"
+msgstr "تم"
+
+#: src/graph3d.cpp:436
+msgid "Error: We need values to draw a graph"
+msgstr ""
+
+#: src/kalgebra.cpp:69 src/kalgebra.cpp:145
+#, fuzzy
+msgid "Variables"
+msgstr "متغيرات"
+
+#: src/kalgebra.cpp:87
+#, fuzzy
+msgid "&Console"
+msgstr "كونسول"
+
+#: src/kalgebra.cpp:99
+#, fuzzy
+msgid "C&onsole"
+msgstr "&طرفية التحكم"
+
+#: src/kalgebra.cpp:102
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "&Load Script"
+msgstr "تحميل مخطوط"
+
+#: src/kalgebra.cpp:104
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "&Save Script"
+msgstr "احفظ مخطوط"
+
+#: src/kalgebra.cpp:106
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "&Save Log"
+msgstr "احفظ لغ"
+
+#: src/kalgebra.cpp:118
+#, fuzzy
+msgid "Functions"
+msgstr "دالات"
+
+#: src/kalgebra.cpp:130
+#, fuzzy
+msgid "List"
+msgstr "قائمة"
+
+#: src/kalgebra.cpp:135 src/kalgebra.cpp:301
+#, fuzzy
+msgid "&Add"
+msgstr "أ&ضف"
+
+#: src/kalgebra.cpp:152
+#, fuzzy
+msgid "&2D Graph"
+msgstr "رسم بياني"
+
+#: src/kalgebra.cpp:161
+#, fuzzy
+msgid "2&D Graph"
+msgstr "رسم بياني"
+
+#: src/kalgebra.cpp:163
+#, fuzzy
+msgid "&Grid"
+msgstr "الشبكة"
+
+#: src/kalgebra.cpp:164
+msgid "&Keep Aspect Ratio"
+msgstr ""
+
+#: src/kalgebra.cpp:169 src/kalgebra.cpp:213
+#, fuzzy
+msgid "&Reset View"
+msgstr "إعادة تعيين عرض"
+
+#: src/kalgebra.cpp:170
+#, fuzzy
+msgid "Resolution"
+msgstr "الدقة"
+
+#: src/kalgebra.cpp:171
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "Poor"
+msgstr "فقير"
+
+#: src/kalgebra.cpp:172
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "Normal"
+msgstr "عادي"
+
+#: src/kalgebra.cpp:173
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "Fine"
+msgstr "دقيق"
+
+#: src/kalgebra.cpp:174
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "Very Fine"
+msgstr "جدا دقيق"
+
+#: src/kalgebra.cpp:201
+#, fuzzy
+msgid "&3D Graph"
+msgstr "ثلاثي الأبعاد رسم بياني"
+
+#: src/kalgebra.cpp:209
+#, fuzzy
+msgid "3D &Graph"
+msgstr "ثلاثي الأبعاد رسم بياني"
+
+#: src/kalgebra.cpp:211
+#, fuzzy
+msgid "&Transparency"
+msgstr "شفافية"
+
+#: src/kalgebra.cpp:214
+#, fuzzy
+msgid "Type"
+msgstr "النوع"
+
+#: src/kalgebra.cpp:215
+#, fuzzy
+msgid "Dots"
+msgstr "نقاط"
+
+#: src/kalgebra.cpp:216
+#, fuzzy
+msgid "Lines"
+msgstr "خطوط"
+
+#: src/kalgebra.cpp:217
+#, fuzzy
+msgid "Solid"
+msgstr "صلب"
+
+#: src/kalgebra.cpp:234
+msgid "Operations"
+msgstr ""
+
+#: src/kalgebra.cpp:238
+#, fuzzy
+msgid "&Dictionary"
+msgstr "ال&قاموس"
+
+#: src/kalgebra.cpp:249
+msgid "Look for:"
+msgstr ""
+
+#: src/kalgebra.cpp:290
+#, fuzzy
+msgid "&Editing"
+msgstr "يجري التعديل"
+
+#: src/kalgebra.cpp:338 src/kalgebra.cpp:345
+#, fuzzy
+msgid "Script (*.kal)"
+msgstr "مخطوط"
+
+#: src/kalgebra.cpp:338
+#, fuzzy
+msgid "Choose a script"
+msgstr "اختر a برنامج نصي"
+
+#: src/kalgebra.cpp:352
+#, fuzzy
+msgid "Text File (*)"
+msgstr "نص ملف"
+
+#: src/kalgebra.cpp:394
+#, fuzzy
+msgid "*.png|PNG File"
+msgstr "PNG ملف"
+
+#: src/kalgebra.cpp:419
+#, fuzzy
+msgid ""
+"*.png|Image File\n"
+"*.svg|SVG File"
+msgstr "صورة ملف n ملف"
+
+#: src/kalgebra.cpp:455
+#, fuzzy
+msgctxt "@info:status"
+msgid "Ready"
+msgstr "جاهز"
+
+#: src/kalgebra.cpp:479
+#, fuzzy
+msgid "Add variable"
+msgstr "إضافة تحرير a متغير"
+
+#: src/kalgebra.cpp:483
+msgid "Enter a name for the new variable"
+msgstr ""
+
+#: src/main.cpp:26
+#, fuzzy
+msgid "A calculator"
+msgstr "A آلة حاسبة"
+
+#: src/main.cpp:27
+#, fuzzy
+msgid "(C) 2006-2008 Aleix Pol Gonzalez"
+msgstr "C بول"
+
+#: src/main.cpp:28
+#, fuzzy
+msgid "Aleix Pol Gonzalez"
+msgstr "بول"
+
+#: src/operatorsmodel.cpp:80
+#, fuzzy
+msgctxt "@title:column"
+msgid "Description"
+msgstr "الوصف"
+
+#: src/operatorsmodel.cpp:83
+#, fuzzy
+msgctxt "@title:column"
+msgid "Parameters"
+msgstr "معاملات"
+
+#: src/operatorsmodel.cpp:86
+msgctxt "@title:column"
+msgid "Example"
+msgstr ""
+
+#: src/operatorsmodel.cpp:119
+#, fuzzy, kde-format
+msgid "%1("
+msgstr "%1"
+
+#: src/operatorsmodel.cpp:122
+#, fuzzy, kde-format
+msgid "%1... parameters, ...%2)"
+msgstr "البارامترات"
+
+#: src/operatorsmodel.cpp:125
+#, fuzzy, kde-format
+msgid "par%1"
+msgstr "1"
+
+#: src/operatorsmodel.cpp:138
+#, fuzzy
+msgid "Addition"
+msgstr "جمع"
+
+#: src/operatorsmodel.cpp:141
+#, fuzzy
+msgid "Multiplication"
+msgstr "ضرب"
+
+#: src/operatorsmodel.cpp:144
+#, fuzzy
+msgid "Division"
+msgstr "قسمة"
+
+#: src/operatorsmodel.cpp:147
+#, fuzzy
+msgid "Subtraction"
+msgstr "طرح"
+
+#: src/operatorsmodel.cpp:150
+#, fuzzy
+msgid "Power"
+msgstr "الطاقة"
+
+#: src/operatorsmodel.cpp:153
+#, fuzzy
+msgid "Remainder"
+msgstr "البقيّة"
+
+#: src/operatorsmodel.cpp:156
+#, fuzzy
+msgid "Quotient"
+msgstr "خارج القسمة"
+
+#: src/operatorsmodel.cpp:159
+#, fuzzy
+msgid "The factor of"
+msgstr "الـ من"
+
+#: src/operatorsmodel.cpp:162
+#, fuzzy
+msgid "Factorial. factorial(n)=n!"
+msgstr "عاملي n n!"
+
+#: src/operatorsmodel.cpp:165
+#, fuzzy
+msgid "Function to calculate the sine of a given angle"
+msgstr "الوظيفة إلى حساب من a زاوية"
+
+#: src/operatorsmodel.cpp:168
+#, fuzzy
+msgid "Function to calculate the cosine of a given angle"
+msgstr "الوظيفة إلى حساب من a زاوية"
+
+#: src/operatorsmodel.cpp:171
+#, fuzzy
+msgid "Function to calculate the tangent of a given angle"
+msgstr "الوظيفة إلى حساب من a زاوية"
+
+#: src/operatorsmodel.cpp:174
+#, fuzzy
+msgid "Secant"
+msgstr "القاطع"
+
+#: src/operatorsmodel.cpp:177
+#, fuzzy
+msgid "Cosecant"
+msgstr "زاوية التّمام"
+
+#: src/operatorsmodel.cpp:180
+#, fuzzy
+msgid "Cotangent"
+msgstr "ظل التمام"
+
+#: src/operatorsmodel.cpp:183
+#, fuzzy
+msgid "Hyperbolic sine"
+msgstr "الجيب الزائد"
+
+#: src/operatorsmodel.cpp:186
+#, fuzzy
+msgid "Hyperbolic cosine"
+msgstr "جيب التمام الزائد"
+
+#: src/operatorsmodel.cpp:189
+#, fuzzy
+msgid "Hyperbolic tangent"
+msgstr "الظل الزائد"
+
+#: src/operatorsmodel.cpp:192
+#, fuzzy
+msgid "Hyperbolic secant"
+msgstr "إطنابي"
+
+#: src/operatorsmodel.cpp:195
+#, fuzzy
+msgid "Hyperbolic cosecant"
+msgstr "إطنابي"
+
+#: src/operatorsmodel.cpp:198
+#, fuzzy
+msgid "Hyperbolic cotangent"
+msgstr "إطنابي"
+
+#: src/operatorsmodel.cpp:201
+#, fuzzy
+msgid "Arc sine"
+msgstr "قوس الجيب"
+
+#: src/operatorsmodel.cpp:204
+#, fuzzy
+msgid "Arc cosine"
+msgstr "قوس جيب التمام"
+
+#: src/operatorsmodel.cpp:207
+#, fuzzy
+msgid "Arc tangent"
+msgstr "قوس الظل"
+
+#: src/operatorsmodel.cpp:210
+#, fuzzy
+msgid "Arc cotangent"
+msgstr "قوس"
+
+#: src/operatorsmodel.cpp:216
+#, fuzzy
+msgid "Hyperbolic arc tangent"
+msgstr "إطنابي قوس"
+
+#: src/operatorsmodel.cpp:219
+msgid "Summatory"
+msgstr ""
+
+#: src/operatorsmodel.cpp:222
+msgid "Productory"
+msgstr ""
+
+#: src/operatorsmodel.cpp:225
+#, fuzzy
+msgid "Differentiation"
+msgstr "التفاضل"
+
+#: src/operatorsmodel.cpp:228
+#, fuzzy
+msgid "Hyperbolic arc sine"
+msgstr "إطنابي قوس"
+
+#: src/operatorsmodel.cpp:231
+#, fuzzy
+msgid "Hyperbolic arc cosine"
+msgstr "إطنابي قوس"
+
+#: src/operatorsmodel.cpp:234
+#, fuzzy
+msgid "Arc cosecant"
+msgstr "قوس"
+
+#: src/operatorsmodel.cpp:237
+#, fuzzy
+msgid "Hyperbolic arc cosecant"
+msgstr "إطنابي قوس"
+
+#: src/operatorsmodel.cpp:240
+#, fuzzy
+msgid "Arc secant"
+msgstr "قوس"
+
+#: src/operatorsmodel.cpp:243
+#, fuzzy
+msgid "Hyperbolic arc secant"
+msgstr "إطنابي قوس"
+
+#: src/operatorsmodel.cpp:246
+#, fuzzy
+msgid "Exponent (e^x)"
+msgstr "القوَة e x"
+
+#: src/operatorsmodel.cpp:249
+#, fuzzy
+msgid "Base-e logarithm"
+msgstr "الأساس e خوارزمية"
+
+#: src/operatorsmodel.cpp:252
+#, fuzzy
+msgid "Base-10 logarithm"
+msgstr "الأساس خوارزمية"
+
+#: src/operatorsmodel.cpp:255
+#, fuzzy
+msgid "Absolute value. abs(n)=|n|"
+msgstr "مطلق :: حتمي :: خالص :: كامل :: مُطبق قيمة n n"
+
+#: src/operatorsmodel.cpp:270
+#, fuzzy
+msgid "Floor value. floor(n)=⌊n⌋"
+msgstr "الأرضية قيمة n n"
+
+#: src/operatorsmodel.cpp:273
+#, fuzzy
+msgid "Ceil value. ceil(n)=⌈n⌉"
+msgstr "سقّف قيمة n n"
+
+#: src/operatorsmodel.cpp:276
+#, fuzzy
+msgid "Minimum"
+msgstr "الأدنى"
+
+#: src/operatorsmodel.cpp:279
+#, fuzzy
+msgid "Maximum"
+msgstr "الأقصى"
+
+#: src/operatorsmodel.cpp:282
+#, fuzzy
+msgid "Greater than. gt(a,b)=a>b"
+msgstr "مرحب a b a b"
+
+#: src/operatorsmodel.cpp:285
+#, fuzzy
+msgid "Less than. lt(a,b)=a<b"
+msgstr "أقل اللثوانية a b a b"
+
+#: src/operatorsmodel.cpp:288
+#, fuzzy
+msgid "Equal. eq(a,b) = a=b"
+msgstr "يساوي a b a b"
+
+#: src/operatorsmodel.cpp:291
+#, fuzzy
+msgid "Approximation. approx(a)=a±n"
+msgstr "التّقريب a a n"
+
+#: src/operatorsmodel.cpp:294
+#, fuzzy
+msgid "Not equal. neq(a,b)=a≠b"
+msgstr "لا مساو a b a b"
+
+#: src/operatorsmodel.cpp:297
+#, fuzzy
+msgid "Greater or equal. geq(a,b)=a≥b"
+msgstr "مرحب أو مساو a b a b"
+
+#: src/operatorsmodel.cpp:300
+#, fuzzy
+msgid "Less or equal. leq(a,b)=a≤b"
+msgstr "أقل أو مساو a b a b"
+
+#: src/operatorsmodel.cpp:303
+#, fuzzy
+msgid "Boolean and"
+msgstr "منطقي و"
+
+#: src/operatorsmodel.cpp:306
+#, fuzzy
+msgid "Boolean not"
+msgstr "منطقي ليس"
+
+#: src/operatorsmodel.cpp:309
+#, fuzzy
+msgid "Boolean or"
+msgstr "منطقي أو"
+
+#: src/operatorsmodel.cpp:312
+#, fuzzy
+msgid "Boolean xor"
+msgstr "منطقي"
+
+#: src/operatorsmodel.cpp:315
+#, fuzzy
+msgid "Boolean implication"
+msgstr "منطقي"
+
+#: src/operatorsmodel.cpp:318
+#, fuzzy
+msgid "Greatest common divisor"
+msgstr "أعظم شائع"
+
+#: src/operatorsmodel.cpp:321
+#, fuzzy
+msgid "Least common multiple"
+msgstr "أقلّ شائع متعدد"
+
+#: src/operatorsmodel.cpp:324
+#, fuzzy
+msgid "Root"
+msgstr "الجذر"
+
+#: src/operatorsmodel.cpp:327
+msgid "Cardinal"
+msgstr ""
+
+#: src/operatorsmodel.cpp:330
+msgid "Scalar product"
+msgstr ""
+
+#: src/operatorsmodel.cpp:333
+msgid "Select an element from a container"
+msgstr ""
+
+#: src/varedit.cpp:36
+#, fuzzy
+msgid "Add/Edit a variable"
+msgstr "إضافة تحرير a متغير"
+
+#: src/varedit.cpp:57
+#, fuzzy
+msgid "Mode"
+msgstr "الوضع"
+
+#: src/varedit.cpp:59
+#, fuzzy
+msgid "Save the expression"
+msgstr "احفظ تعبير"
+
+#: src/varedit.cpp:60
+#, fuzzy
+msgid "Calculate the expression"
+msgstr "إحسب تعبير"
+
+#: src/varedit.cpp:78
+#, fuzzy, kde-format
+msgid "Edit '%1' value"
+msgstr "تحرير قيمة"
+
+#: src/varedit.cpp:80
+#, fuzzy
+msgid "not available"
+msgstr "إضافة تحرير a متغير"
+
+#: src/varedit.cpp:114
+#, fuzzy, kde-format
+msgid "%1:=%2"
+msgstr "2"
+
+#: src/varedit.cpp:119
+#, fuzzy
+msgid "<b style='color:red'>WRONG</b>"
+msgstr "<b style='color:red'> الخطأ</b>"
+
+#: src/varedit.cpp:123
+#, kde-format
+msgid "<b style='color:#090'>%1 := %2</b>"
+msgstr ""
+
+#: analitza/analitza.cpp:62 analitza/analitza.cpp:72
+msgid "Must specify a correct operation"
+msgstr ""
+
+#: analitza/analitza.cpp:142
+msgid "The first parameter in a function construction should be the name"
+msgstr ""
+
+#: analitza/analitza.cpp:440
+#, kde-format
+msgid "The %1 derivative has not been implemented."
+msgstr ""
+
+#: analitza/analitza.cpp:495
+msgctxt "this is an error message. otherwise is the else in a mathml condition"
+msgid "Too many <em>otherwise</em> parameters"
+msgstr ""
+
+#: analitza/analitza.cpp:504
+msgctxt "Error message, no proper condition found."
+msgid "Could not find a proper choice for a condition statement."
+msgstr ""
+
+#: analitza/analitza.cpp:519
+msgid "Need a var name and a value"
+msgstr ""
+
+#: analitza/analitza.cpp:575 analitza/analitza.cpp:846
+#, kde-format
+msgid "The function <em>%1</em> does not exist"
+msgstr ""
+
+#: analitza/analitza.cpp:577
+#, kde-format
+msgid "The variable <em>%1</em> does not exist"
+msgstr ""
+
+#: analitza/analitza.cpp:595
+#, kde-format
+msgid "Empty container: %1"
+msgstr ""
+
+#: analitza/analitza.cpp:618
+msgid ""
+"Wrong parameter count in a selector, should have 2 parameters, the selected "
+"index and the container."
+msgstr ""
+
+#: analitza/analitza.cpp:651
+#, kde-format
+msgid "<em>%1</em> needs at least 2 parameters"
+msgstr ""
+
+#: analitza/analitza.cpp:653
+#, kde-format
+msgid "<em>%1</em> requires %2 parameters"
+msgstr ""
+
+#: analitza/analitza.cpp:693
+msgid "piece or otherwise in the wrong place"
+msgstr ""
+
+#: analitza/analitza.cpp:707 analitza/analitza.cpp:760
+msgid "No bounding variables for this sum"
+msgstr ""
+
+#: analitza/analitza.cpp:718 analitza/analitza.cpp:771
+msgid "Missing bounding limits on a sum operation"
+msgstr ""
+
+#: analitza/analitza.cpp:732 analitza/analitza.cpp:787
+msgid "Missing or uncorrect uplimit or downlimit."
+msgstr ""
+
+#: analitza/analitza.cpp:814
+msgid "Invalid index for a container"
+msgstr ""
+
+#: analitza/analitza.cpp:821
+msgid "We can only select a container's value with its integer index"
+msgstr ""
+
+#: analitza/analitza.cpp:838
+msgid "Trying to call an empty or invalid function"
+msgstr ""
+
+#: analitza/analitza.cpp:1675
+msgctxt "By a cycle i mean a variable that depends on itself"
+msgid "Defined a variable cycle"
+msgstr ""
+
+#: analitza/explexer.cpp:64
+#, kde-format
+msgctxt "Error message"
+msgid "Did not understand the real value: %1"
+msgstr ""
+
+#: analitza/explexer.cpp:87
+#, kde-format
+msgid "Unknown token %1"
+msgstr ""
+
+#: analitza/expression.cpp:126
+msgctxt "there was a conditional outside a condition structure"
+msgid "We can only have conditionals inside piecewise structures."
+msgstr ""
+
+#: analitza/expression.cpp:141
+#, kde-format
+msgctxt "there was an element that was not a conditional inside a condition"
+msgid "%1 is not a proper condition inside the piecewise"
+msgstr ""
+
+#: analitza/expression.cpp:145
+msgid "We can only declare variables"
+msgstr ""
+
+#: analitza/expression.cpp:151
+msgid "We can only have bounded variables"
+msgstr ""
+
+#: analitza/expression.cpp:166
+#, kde-format
+msgid "Error while parsing: %1"
+msgstr ""
+
+#: analitza/expression.cpp:203
+#, kde-format
+msgctxt "An error message"
+msgid "Container unknown: %1"
+msgstr ""
+
+#: analitza/expression.cpp:210
+#, kde-format
+msgid "Cannot codify the %1 value."
+msgstr ""
+
+#: analitza/expression.cpp:216
+#, kde-format
+msgid "The %1 operator cannot have child contexts."
+msgstr ""
+
+#: analitza/expression.cpp:249
+#, kde-format
+msgctxt "Error message due to an unrecognized input"
+msgid "Not supported/unknown: %1"
+msgstr ""
+
+#: exp.g:364
+#, fuzzy
+msgid ", "
+msgstr "، "
+
+#: exp.g:364
+#, kde-format
+msgctxt "error message"
+msgid "Expected %1 instead of %2"
+msgstr ""
+
+#: exp.g:366
+msgid "Missing right parenthesis"
+msgstr ""
+
+#: exp.g:368
+msgid "Unbalanced right parenthesis"
+msgstr ""
+
+#: exp.g:370
+#, kde-format
+msgid "Unexpected token %1"
+msgstr ""
+
+#: analitza/htmlexpressionwriter.cpp:27 analitza/htmlexpressionwriter.cpp:28
+#, kde-format
+msgctxt "html representation of an operator"
+msgid "<span class='op'>%1</span>"
+msgstr ""
+
+#: analitza/htmlexpressionwriter.cpp:54
+msgctxt ""
+"html representation of a true. please don't translate the true for "
+"consistency"
+msgid "<span class='const'>true</span>"
+msgstr ""
+
+#: analitza/htmlexpressionwriter.cpp:56
+msgctxt ""
+"html representation of a false. please don't translate the false for "
+"consistency"
+msgid "<span class='const'>false</span>"
+msgstr ""
+
+#: analitza/htmlexpressionwriter.cpp:58
+#, kde-format
+msgctxt "html representation of a number"
+msgid "<span class='num'>%1</span>"
+msgstr ""
+
+#: analitza/mathmlpresentationlexer.cpp:88
+#, kde-format
+msgctxt "Error message"
+msgid "Unknown token %1"
+msgstr ""
+
+#: analitza/operations.cpp:59
+#, fuzzy
+msgid "Cannot calculate the remainder on 0."
+msgstr "إحسب تعبير"
+
+#: analitza/operations.cpp:69
+msgid "Cannot calculate the factor on 0."
+msgstr ""
+
+#: analitza/operations.cpp:137
+#, fuzzy
+msgid "Cannot calculate the lcm of 0."
+msgstr "إحسب تعبير"
+
+#: analitza/operations.cpp:277
+#, kde-format
+msgid "Could not calculate a value %1"
+msgstr ""
+
+#: analitza/operations.cpp:341
+msgid "Cannot operate on different sized vectors."
+msgstr ""
+
+#: analitza/operations.cpp:366
+#, kde-format
+msgid "Could not calculate a vector's %1"
+msgstr ""
+
+#, fuzzy
+#~ msgid "From parser:"
+#~ msgstr "من:"
+
+#, fuzzy
+#~ msgid "%1, "
+#~ msgstr "، "
+
+#, fuzzy
+#~ msgid "Hyperbolic arc cotangent"
+#~ msgstr "إطنابي قوس"
+
+#, fuzzy
+#~ msgid "Real"
+#~ msgstr "حقيقي"
+
+#, fuzzy
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Mohamed SAAD محمد سعد"
+
+#, fuzzy
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "metehyi@free.fr"
+
+#, fuzzy
+#~ msgid "Conjugate"
+#~ msgstr "صرفي"
+
+#, fuzzy
+#~ msgid "Imaginary"
+#~ msgstr "خيالي"
+
+#, fuzzy
+#~ msgctxt "@item:inmenu"
+#~ msgid "&New"
+#~ msgstr "&جديد"
+
+#, fuzzy
+#~ msgctxt "@item:inmenu"
+#~ msgid "&Quit"
+#~ msgstr "ا&خرج"
+
+#, fuzzy
+#~ msgid "&Save"
+#~ msgstr "ا&حفظ"
+
+#, fuzzy
+#~ msgctxt "Parameter in function prototype"
+#~ msgid "%1"
+#~ msgstr "%1"

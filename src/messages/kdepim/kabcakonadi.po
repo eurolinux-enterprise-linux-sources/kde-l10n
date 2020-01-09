@@ -1,0 +1,386 @@
+# translation of kabcakonadi.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kabcakonadi\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-06-20 12:17+0200\n"
+"PO-Revision-Date: 2007-10-14 15:52+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: contactgroupbrowser.cpp:49
+#, fuzzy, kde-format
+msgid "Contact Group %1"
+msgstr "المراسَل 1"
+
+#: contactgroupeditor.cpp:116 kabcitemeditor.cpp:107
+msgid "Take over changes"
+msgstr ""
+
+#: contactgroupeditor.cpp:117 kabcitemeditor.cpp:108
+msgid "Ignore and Overwrite changes"
+msgstr ""
+
+#: contactgroupeditor.cpp:148
+msgid "The name of the contact group must not be empty."
+msgstr ""
+
+#: contactgroupeditor.cpp:162
+#, kde-format
+msgid "The contact '%1' is missing a name."
+msgstr ""
+
+#: contactgroupeditor.cpp:166
+#, kde-format
+msgid "The contact '%1' is missing an email address."
+msgstr ""
+
+#: contactgroupeditor.cpp:190
+msgid "Enter member in format: name <email>"
+msgstr ""
+
+#: kabcitembrowser.cpp:49
+#, fuzzy, kde-format
+msgid "Contact %1"
+msgstr "المراسَل 1"
+
+#: kabcitembrowser.cpp:102
+#, fuzzy
+msgctxt "a contact's email address"
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: kabcitembrowser.cpp:118
+#, fuzzy
+msgid "Homepage"
+msgstr "الصفحة الرئيسية"
+
+#: kabcitembrowser.cpp:124
+#, fuzzy
+msgid "Blog Feed"
+msgstr "تغذية المدونة على الشبكة"
+
+#. i18n: file: kabcitemeditor.ui:602
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
+#: kabcitembrowser.cpp:147 rc.cpp:120
+#, fuzzy
+msgid "Notes"
+msgstr "ملاحظات"
+
+#: kabcitembrowser.cpp:153
+#, fuzzy
+msgid "Department"
+msgstr "القسم"
+
+#: kabcitembrowser.cpp:154
+#, fuzzy
+msgid "Profession"
+msgstr "المهنة"
+
+#: kabcitembrowser.cpp:155
+#, fuzzy
+msgid "Assistant's Name"
+msgstr "اسم المساعد"
+
+#: kabcitembrowser.cpp:156
+#, fuzzy
+msgid "Manager's Name"
+msgstr "اسم المدير"
+
+#: kabcitembrowser.cpp:157
+#, fuzzy
+msgctxt "Wife/Husband/..."
+msgid "Partner's Name"
+msgstr "إسم الشريك"
+
+#: kabcitembrowser.cpp:158
+#, fuzzy
+msgid "Office"
+msgstr "مكتب"
+
+#: kabcitembrowser.cpp:159
+#, fuzzy
+msgid "IM Address"
+msgstr "عنوان IM"
+
+#: kabcitembrowser.cpp:160
+#, fuzzy
+msgid "Anniversary"
+msgstr "الذكرى السنويّة"
+
+#: kabcmodel.cpp:174
+#, fuzzy
+msgctxt "@title:column, name of a person"
+msgid "Name"
+msgstr "الاسم"
+
+#. i18n: file: contactgroupeditor.ui:16
+#. i18n: ectx: property (text), widget (QLabel, groupNameLabel)
+#: rc.cpp:3
+#, fuzzy
+msgid "Name:"
+msgstr "الاسم"
+
+#. i18n: file: contactgroupeditor.ui:42
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:6
+msgid "Contact group members:"
+msgstr ""
+
+#. i18n: file: kabcitemeditor.ui:20
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:9
+#, fuzzy
+msgid "Contact"
+msgstr "المراسَل"
+
+#. i18n: file: kabcitemeditor.ui:26
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:12
+#, fuzzy
+msgid "Name"
+msgstr "الاسم"
+
+#. i18n: file: kabcitemeditor.ui:32
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:15
+#, fuzzy
+msgid "First:"
+msgstr "الأول:"
+
+#. i18n: file: kabcitemeditor.ui:48
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:18
+#, fuzzy
+msgid "Last:"
+msgstr "الأخير:"
+
+#. i18n: file: kabcitemeditor.ui:64
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:21
+#, fuzzy
+msgid "Display:"
+msgstr "العرض:"
+
+#. i18n: file: kabcitemeditor.ui:80
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:24
+#, fuzzy
+msgid "Nickname:"
+msgstr "الإسم المستعار:"
+
+#. i18n: file: kabcitemeditor.ui:112
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:27
+#, fuzzy
+msgid "Internet"
+msgstr "إنترنت"
+
+#. i18n: file: kabcitemeditor.ui:118
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:30
+#, fuzzy
+msgid "Email:"
+msgstr "البريد الإلكتروني:"
+
+#. i18n: file: kabcitemeditor.ui:134
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:33
+#, fuzzy
+msgid "Additional email:"
+msgstr "إضافي البريد الإلكتروني:"
+
+#. i18n: file: kabcitemeditor.ui:150
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:36
+#, fuzzy
+msgid "Homepage:"
+msgstr "الصفحة الرئيسية:"
+
+#. i18n: file: kabcitemeditor.ui:182
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:39
+#, fuzzy
+msgid "Phones"
+msgstr "هواتف"
+
+#. i18n: file: kabcitemeditor.ui:188
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:42
+#, fuzzy
+msgid "Work:"
+msgstr "العمل:"
+
+#. i18n: file: kabcitemeditor.ui:204
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:45
+#, fuzzy
+msgid "Home:"
+msgstr "المنزل:"
+
+#. i18n: file: kabcitemeditor.ui:220
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: rc.cpp:48
+#, fuzzy
+msgid "Mobile:"
+msgstr "الهاتف الجوال:"
+
+#. i18n: file: kabcitemeditor.ui:236
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: rc.cpp:51
+#, fuzzy
+msgid "Fax:"
+msgstr "الفاكس:"
+
+#. i18n: file: kabcitemeditor.ui:252
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: rc.cpp:54
+#, fuzzy
+msgid "Pager:"
+msgstr "جهاز النداء:"
+
+#. i18n: file: kabcitemeditor.ui:285
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:57
+#, fuzzy
+msgid "Address"
+msgstr "العنوان"
+
+#. i18n: file: kabcitemeditor.ui:291
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: rc.cpp:60
+#, fuzzy
+msgid "Home"
+msgstr "المنزل"
+
+#. i18n: file: kabcitemeditor.ui:297
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#. i18n: file: kabcitemeditor.ui:447
+#. i18n: ectx: property (text), widget (QLabel, label_21)
+#: rc.cpp:63 rc.cpp:90
+#, fuzzy
+msgid "Street:"
+msgstr "الشارع :"
+
+#. i18n: file: kabcitemeditor.ui:313
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#. i18n: file: kabcitemeditor.ui:463
+#. i18n: ectx: property (text), widget (QLabel, label_22)
+#: rc.cpp:66 rc.cpp:93
+#, fuzzy
+msgid "City:"
+msgstr "المدينة:"
+
+#. i18n: file: kabcitemeditor.ui:329
+#. i18n: ectx: property (text), widget (QLabel, label_15)
+#. i18n: file: kabcitemeditor.ui:479
+#. i18n: ectx: property (text), widget (QLabel, label_23)
+#: rc.cpp:69 rc.cpp:96
+#, fuzzy
+msgid "State/Province:"
+msgstr "الولاية/المحافظة:"
+
+#. i18n: file: kabcitemeditor.ui:345
+#. i18n: ectx: property (text), widget (QLabel, label_16)
+#. i18n: file: kabcitemeditor.ui:495
+#. i18n: ectx: property (text), widget (QLabel, label_25)
+#: rc.cpp:72 rc.cpp:99
+#, fuzzy
+msgid "ZIP/Postal code:"
+msgstr "الرمز البريدي:"
+
+#. i18n: file: kabcitemeditor.ui:361
+#. i18n: ectx: property (text), widget (QLabel, label_17)
+#. i18n: file: kabcitemeditor.ui:511
+#. i18n: ectx: property (text), widget (QLabel, label_24)
+#: rc.cpp:75 rc.cpp:102
+#, fuzzy
+msgid "Country:"
+msgstr "الدولة:"
+
+#. i18n: file: kabcitemeditor.ui:393
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: rc.cpp:78
+#, fuzzy
+msgid "Work"
+msgstr "العمل"
+
+#. i18n: file: kabcitemeditor.ui:399
+#. i18n: ectx: property (text), widget (QLabel, label_18)
+#: rc.cpp:81
+#, fuzzy
+msgid "Title:"
+msgstr "العنوان:"
+
+#. i18n: file: kabcitemeditor.ui:415
+#. i18n: ectx: property (text), widget (QLabel, label_19)
+#: rc.cpp:84
+#, fuzzy
+msgid "Department:"
+msgstr "القسم:"
+
+#. i18n: file: kabcitemeditor.ui:431
+#. i18n: ectx: property (text), widget (QLabel, label_20)
+#: rc.cpp:87
+#, fuzzy
+msgid "Organization:"
+msgstr "المؤسسة:"
+
+#. i18n: file: kabcitemeditor.ui:544
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: rc.cpp:105
+#, fuzzy
+msgid "Other"
+msgstr "أخرى"
+
+#. i18n: file: kabcitemeditor.ui:550
+#. i18n: ectx: property (text), widget (QLabel, label_26)
+#: rc.cpp:108
+#, fuzzy
+msgid "Custom 1:"
+msgstr "مخصص 1:"
+
+#. i18n: file: kabcitemeditor.ui:563
+#. i18n: ectx: property (text), widget (QLabel, label_27)
+#: rc.cpp:111
+#, fuzzy
+msgid "Custom 2:"
+msgstr "مخصص 2:"
+
+#. i18n: file: kabcitemeditor.ui:576
+#. i18n: ectx: property (text), widget (QLabel, label_28)
+#: rc.cpp:114
+#, fuzzy
+msgid "Custom 3:"
+msgstr "مخصص 3:"
+
+#. i18n: file: kabcitemeditor.ui:589
+#. i18n: ectx: property (text), widget (QLabel, label_29)
+#: rc.cpp:117
+#, fuzzy
+msgid "Custom 4:"
+msgstr "مخصص 4:"
+
+#: waitingoverlay.cpp:49
+msgid "<p style=\"color: white;\"><b>Waiting for operation</b><br/></p>"
+msgstr ""
+
+#, fuzzy
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Mohamed SAAD محمد سعد"
+
+#, fuzzy
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "metehyi@free.fr"

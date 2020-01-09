@@ -1,0 +1,430 @@
+# translation of kteatime.po to
+# Copyright (C) 2004, 2006, 2007 Free Software Foundation, Inc.
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Ahmad M. Zawawi <zawawi@arabeyes.org>, 2004.
+# Munzir Taha <munzir@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007, 2009.
+# amorenew <amorenew@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kteatime\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-24 11:15+0200\n"
+"PO-Revision-Date: 2009-07-11 23:51+0200\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team: Arabeyes.org\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Virtaal 0.3.1\n"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Arabeyes.org"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "عناوبن بريدك الإلكترونية"
+
+#. i18n: file: src/timeedit.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, TimeEditWidget)
+#: rc.cpp:5 src/main.cpp:65 src/timeedit.cpp:42 src/timeedit.cpp:106
+#: src/tea.h:38
+msgid "Anonymous Tea"
+msgstr "شاي مجهول"
+
+#. i18n: file: src/timeedit.ui:32
+#. i18n: ectx: property (text), widget (QLabel, minutesLabel_2)
+#: rc.cpp:8
+msgid "Tea time:"
+msgstr "زمن الشاي:"
+
+#. i18n: file: src/timeedit.ui:52
+#. i18n: ectx: property (text), widget (QLabel, minutesLabel)
+#. i18n: file: src/settings.ui:159
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:11 rc.cpp:33
+msgid "min"
+msgstr "دقيقة"
+
+#. i18n: file: src/timeedit.ui:66
+#. i18n: ectx: property (text), widget (QLabel, secondsLabel)
+#. i18n: file: src/settings.ui:176
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:14 rc.cpp:36
+msgid "sec"
+msgstr "ثانية"
+
+#. i18n: file: src/settings.ui:18
+#. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup1)
+#: rc.cpp:17
+msgid "Tea List"
+msgstr "لائحة الشاي"
+
+#. i18n: file: src/settings.ui:122
+#. i18n: ectx: property (title), widget (QGroupBox, teaPropertiesGroup)
+#: rc.cpp:24
+msgid "Tea Properties"
+msgstr "خصائص الشاي"
+
+#. i18n: file: src/settings.ui:128
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:27 src/tealistmodel.cpp:102
+msgid "Name"
+msgstr "الاسم"
+
+#. i18n: file: src/settings.ui:142
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:30 src/tealistmodel.cpp:102
+msgid "Time"
+msgstr "الوقت"
+
+#. i18n: file: src/settings.ui:199
+#. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup2)
+#: rc.cpp:39
+msgid "Action"
+msgstr "الإجراء:"
+
+#. i18n: file: src/settings.ui:207
+#. i18n: ectx: property (text), widget (QCheckBox, notificationCheckBox)
+#: rc.cpp:42
+msgid "Notification"
+msgstr "تنبيه"
+
+#. i18n: file: src/settings.ui:220
+#. i18n: ectx: property (text), widget (KPushButton, notificationButton)
+#: rc.cpp:45
+msgid "Configure &Notifications..."
+msgstr "أعدّ &تبيهات..."
+
+#. i18n: file: src/settings.ui:248
+#. i18n: ectx: property (text), widget (QCheckBox, popupCheckBox)
+#: rc.cpp:48
+msgid "Popup"
+msgstr "منبثق"
+
+#. i18n: file: src/settings.ui:279
+#. i18n: ectx: property (text), widget (QCheckBox, autohideCheckBox)
+#: rc.cpp:51
+msgid "Auto hide popup after"
+msgstr "أخف النافذة المنبثقة تلقائيا بعد"
+
+#. i18n: file: src/settings.ui:328
+#. i18n: ectx: property (text), widget (QCheckBox, reminderCheckBox)
+#: rc.cpp:54
+msgid "Reminder every"
+msgstr "تذكير كل"
+
+#. i18n: file: src/settings.ui:378
+#. i18n: ectx: property (text), widget (QCheckBox, visualizeCheckBox)
+#: rc.cpp:57
+msgid "Visualize progress in icon tray"
+msgstr "اعرض التقدم في درج الأيقونات"
+
+#: src/main.cpp:34
+msgid "KDE utility for making a fine cup of tea."
+msgstr "أداة واجهة كدي لعمل فنجان شاي ممتاز."
+
+#: src/main.cpp:40
+msgid "KTeaTime"
+msgstr "برنامج وقت الشاي KTeaTime"
+
+#: src/main.cpp:41
+msgid ""
+"(c) 1998-1999, Matthias Hoelzer-Kluepfel\n"
+"(c) 2002-2003, Martin Willers\n"
+"(c) 2007, Stefan Böhmann"
+msgstr ""
+"سى 1998-1999,ماتيوس هويلزر كلوبفيل سى 2002-2003,مارتن ويلرزسى 2007,ستيفان "
+"بومان "
+
+#: src/main.cpp:42
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "ماتيوس هوليزر-كلوبفل"
+
+#: src/main.cpp:43
+msgid "Martin Willers"
+msgstr "مارتن ويلرز"
+
+#: src/main.cpp:44
+msgid "Stefan Böhmann"
+msgstr "إستيفان بومان"
+
+#: src/main.cpp:45
+msgid "Daniel Teske"
+msgstr "دانيال تيسكى"
+
+#: src/main.cpp:45
+msgid "Many patches"
+msgstr "تعديلات كثيرة"
+
+#: src/main.cpp:51
+msgid "Start a new tea with this time."
+msgstr "ابدأ عمل شاي جديد مع هذا الوقت."
+
+#: src/main.cpp:53
+#, fuzzy, kde-format
+#| msgid ""
+#| "Use this name instead of \"Anonymous Tea\" for the tea started with %1."
+msgid "Use this name instead of \"Anonymous Tea\" for the tea started with %1."
+msgstr "استعمل الإسم من \"أى شخص شاي\" لـبدأ عمل الشاي عند."
+
+#: src/settings.cpp:39
+msgid "Configure Tea Cooker"
+msgstr "إعداد غلاية الشاي"
+
+#: src/settings.cpp:44
+msgid "Save changes and close dialog."
+msgstr "احفظ التغييرات و أغلق نافذة الحوار."
+
+#: src/settings.cpp:45
+msgid "Close dialog without saving changes."
+msgstr "أغلق نافذة الحوار بدون حفظ التغييرات."
+
+#: src/settings.cpp:46
+msgid "Show help page for this dialog."
+msgstr "اعرض صفحة المساعدة لهذة النافذة."
+
+#: src/settings.cpp:283
+msgctxt "Auto hide popup after"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] "ثانية"
+msgstr[1] "ثانية"
+msgstr[2] "ثانية."
+msgstr[3] "ثانية."
+msgstr[4] "ثانية."
+msgstr[5] "ثانية."
+
+#: src/settings.cpp:284
+msgctxt "Reminder every"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] "ثانية."
+msgstr[1] "ثانية."
+msgstr[2] "ثانية."
+msgstr[3] "ثانية."
+msgstr[4] "ثانية."
+msgstr[5] "ثانية."
+
+#: src/tea.cpp:32
+#, fuzzy, kde-format
+#| msgid "%1 year"
+#| msgid_plural "%1 years"
+msgid "%1 year"
+msgid_plural "%1 years"
+msgstr[0] "السنة"
+msgstr[1] "السنة"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: src/tea.cpp:33
+#, fuzzy, kde-format
+#| msgid "%1 a"
+#| msgid_plural "%1 a"
+msgid "%1 a"
+msgid_plural "%1 a"
+msgstr[0] "ع"
+msgstr[1] "ع"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: src/tea.cpp:38
+#, fuzzy, kde-format
+#| msgid "%1 day"
+#| msgid_plural "%1 days"
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] "يوم"
+msgstr[1] "يوم"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: src/tea.cpp:39
+#, fuzzy, kde-format
+#| msgid "%1 d"
+#| msgid_plural "%1 d"
+msgid "%1 d"
+msgid_plural "%1 d"
+msgstr[0] "ي"
+msgstr[1] "d"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: src/tea.cpp:44
+#, fuzzy, kde-format
+#| msgid "%1 hour"
+#| msgid_plural "%1 hours"
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "ساعة"
+msgstr[1] "ساعة"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: src/tea.cpp:45
+#, fuzzy, kde-format
+#| msgid "%1 h"
+#| msgid_plural "%1 h"
+msgid "%1 h"
+msgid_plural "%1 h"
+msgstr[0] "س"
+msgstr[1] "h"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: src/tea.cpp:50
+#, fuzzy, kde-format
+#| msgid "%1 minute"
+#| msgid_plural "%1 minutes"
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "دقيقة"
+msgstr[1] "دقيقة"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: src/tea.cpp:51
+#, fuzzy, kde-format
+#| msgid "%1 min"
+#| msgid_plural "%1 min"
+msgid "%1 min"
+msgid_plural "%1 min"
+msgstr[0] "%1 دقائق"
+msgstr[1] "%1 دقائق"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: src/tea.cpp:56
+#, fuzzy, kde-format
+#| msgid "%1 second"
+#| msgid_plural "%1 seconds"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "ثانية"
+msgstr[1] "ثانية"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: src/tea.cpp:57
+#, fuzzy, kde-format
+#| msgid "%1 s"
+#| msgid_plural "%1 s"
+msgid "%1 s"
+msgid_plural "%1 s"
+msgstr[0] "%1 ثانية"
+msgstr[1] "%1 ثانية"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: src/tealistmodel.cpp:72
+msgid " ("
+msgstr " ("
+
+#: src/tealistmodel.cpp:74
+msgid ")"
+msgstr ")"
+
+#: src/tealistmodel.cpp:113
+msgid "Unnamed Tea"
+msgstr "شاي غير مسمى"
+
+#: src/timeedit.cpp:44
+msgid "Start a new anonymous tea with the time configured in this dialog."
+msgstr "ابدأ شاي أى شخص جديد مع الوقت المحدد فى نافذة الحوار تلك. "
+
+#: src/timeedit.cpp:45
+msgid "Close this dialog without starting a new tea."
+msgstr "أغلق نافذة الحوار بدون عمل شاي جديد."
+
+#: src/toplevel.cpp:58
+msgid "Unknown Tea"
+msgstr "شاي غير معروف"
+
+#: src/toplevel.cpp:64
+msgid "Black Tea"
+msgstr "شاي أسود"
+
+#: src/toplevel.cpp:65
+msgid "Earl Grey"
+msgstr "ايرل جراي"
+
+#: src/toplevel.cpp:66
+msgid "Fruit Tea"
+msgstr "شاي الفواكه"
+
+#: src/toplevel.cpp:75
+msgid "&Stop"
+msgstr "&توقف"
+
+#: src/toplevel.cpp:80
+msgid "&Configure..."
+msgstr "&أعدّ..."
+
+#: src/toplevel.cpp:83
+msgid "&Anonymous..."
+msgstr "&شخص ما..."
+
+#: src/toplevel.cpp:134 src/toplevel.cpp:135 src/toplevel.cpp:251
+msgid "The Tea Cooker"
+msgstr "غلاية الشاي"
+
+#: src/toplevel.cpp:134
+msgid "No steeping tea."
+msgstr "لا يوجد شاي مُعد."
+
+#: src/toplevel.cpp:179
+#, kde-format
+msgctxt "%1 - name of the tea, %2 - the predefined time for the tea"
+msgid "%1 (%2)"
+msgstr ""
+
+#: src/toplevel.cpp:256
+#, kde-format
+msgid "%1 is now ready!"
+msgstr "%1 جاهز الآن!"
+
+#: src/toplevel.cpp:276
+#, kde-format
+msgid "%1 is ready since %2!"
+msgstr "%1 جاهز منذ %2!"
+
+#: src/toplevel.cpp:289 src/toplevel.cpp:290
+#, kde-format
+msgctxt "%1 is the time, %2 is the name of the tea"
+msgid "%1 left for %2."
+msgstr "يتبقى %1 حتى %2"
+
+#, fuzzy
+#~ msgid "N"
+#~ msgstr "N"
+
+#, fuzzy
+#~ msgid "D"
+#~ msgstr "D"

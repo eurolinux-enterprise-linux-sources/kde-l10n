@@ -1,0 +1,225 @@
+# translation of libksieve.po to
+# Language AR translations for PACKAGE package.
+#
+# Automatically generated, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: libksieve\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-10-11 05:43+0200\n"
+"PO-Revision-Date: 2007-10-14 15:57+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: shared/error.cpp:110
+#, fuzzy
+msgid "Parse error: Carriage Return (CR) without Line Feed (LF)"
+msgstr "يُعرْب :: تُعرب خطأ العربة Return كوستاريكا خط التلقيم"
+
+#: shared/error.cpp:113
+#, fuzzy
+msgid ""
+"Parse error: Unquoted Slash ('/') without Asterisk ('*'). Broken Comment?"
+msgstr "يُعرْب :: تُعرب خطأ غير مُحاط بعلامات الإقتباس شَّرطة نجمة مكسور تعليق?"
+
+#: shared/error.cpp:117
+#, fuzzy
+msgid "Parse error: Illegal Character"
+msgstr "يُعرْب :: تُعرب خطأ غير شرعي حرف"
+
+#: shared/error.cpp:120
+#, fuzzy
+msgid "Parse error: Unexpected Character, probably a missing space?"
+msgstr "يُعرْب :: تُعرب خطأ غير متوقّع حرف a مفقود فراغ?"
+
+#: shared/error.cpp:123
+#, fuzzy
+msgid "Parse error: Tag Name has leading Digits"
+msgstr "يُعرْب :: تُعرب خطأ الشّارة الاسم خانات رقمية"
+
+#: shared/error.cpp:126
+#, fuzzy
+msgid ""
+"Parse error: Only whitespace and #comments may follow \"text:\" on the same "
+"line"
+msgstr "يُعرْب :: تُعرب خطأ فقط فراغ ، فاصل و تعليقات أيار متابعة نص يعمل سطر"
+
+#: shared/error.cpp:130
+#, fuzzy, kde-format
+msgid "Parse error: Number out of Range (must be smaller than %1)"
+msgstr "يُعرْب :: تُعرب خطأ الرقم خارج من مدى"
+
+#: shared/error.cpp:133
+#, fuzzy
+msgid "Parse error: Invalid UTF-8 sequence"
+msgstr "يُعرْب :: تُعرب خطأ غير صحيح الرموز العالميه لتحوير الهيئة متتالية "
+
+#: shared/error.cpp:136
+#, fuzzy
+msgid ""
+"Parse error: Premature end of Multiline String (did you forget the '.'?)"
+msgstr "يُعرْب :: تُعرب خطأ غير ناضج end من سلسلة"
+
+#: shared/error.cpp:139
+#, fuzzy
+msgid "Parse error: Premature end of Quoted String (missing closing '\"')"
+msgstr "يُعرْب :: تُعرب خطأ غير ناضج end من مقتبس سلسلة مفقود"
+
+#: shared/error.cpp:142
+#, fuzzy
+msgid "Parse error: Premature end of String List (missing closing ']')"
+msgstr "يُعرْب :: تُعرب خطأ غير ناضج end من سلسلة قائمة مفقود"
+
+#: shared/error.cpp:145
+#, fuzzy
+msgid "Parse error: Premature end of Test List (missing closing ')')"
+msgstr "يُعرْب :: تُعرب خطأ غير ناضج end من اختبار قائمة مفقود"
+
+#: shared/error.cpp:148
+#, fuzzy
+msgid "Parse error: Premature end of Block (missing closing '}')"
+msgstr "يُعرْب :: تُعرب خطأ غير ناضج end من منع مفقود"
+
+#: shared/error.cpp:151
+#, fuzzy
+msgid "Parse error: Missing Whitespace"
+msgstr "يُعرْب :: تُعرب خطأ مفقود مساحة بيضاء"
+
+#: shared/error.cpp:154
+#, fuzzy
+msgid "Parse error: Missing ';' or Block"
+msgstr "يُعرْب :: تُعرب خطأ مفقود أو منع"
+
+#: shared/error.cpp:157
+#, fuzzy
+msgid "Parse error: Expected ';' or '{', got something else"
+msgstr "يُعرْب :: تُعرب خطأ متوقّع أو شيء مّا"
+
+#: shared/error.cpp:160 shared/error.cpp:175
+#, fuzzy
+msgid "Parse error: Expected Command, got something else"
+msgstr "يُعرْب :: تُعرب خطأ متوقّع الأمر شيء مّا"
+
+#: shared/error.cpp:163
+#, fuzzy
+msgid "Parse error: Trailing, Leading or Duplicate Commas in String List"
+msgstr ""
+"يُعرْب :: تُعرب خطأ التخلّف عن، السّحب موجه أو مضاعفة فواصل بوصة سلسلة قائمة"
+
+#: shared/error.cpp:166
+#, fuzzy
+msgid "Parse error: Trailing, Leading or Duplicate Commas in Test List"
+msgstr ""
+"يُعرْب :: تُعرب خطأ التخلّف عن، السّحب موجه أو مضاعفة فواصل بوصة اختبار قائمة"
+
+#: shared/error.cpp:169
+#, fuzzy
+msgid "Parse error: Missing ',' between Strings in String List"
+msgstr "يُعرْب :: تُعرب خطأ مفقود بين سلاسل نصية بوصة سلسلة قائمة"
+
+#: shared/error.cpp:172
+#, fuzzy
+msgid "Parse error: Missing ',' between Tests in Test List"
+msgstr "يُعرْب :: تُعرب خطأ مفقود بين إختبارات بوصة اختبار قائمة"
+
+#: shared/error.cpp:178
+#, fuzzy
+msgid "Parse error: Only Strings allowed in String Lists"
+msgstr "يُعرْب :: تُعرب خطأ فقط سلاسل نصية المسموح لهم بوصة سلسلة القوائم"
+
+#: shared/error.cpp:181
+#, fuzzy
+msgid "Parse error: Only Tests allowed in Test Lists"
+msgstr "يُعرْب :: تُعرب خطأ فقط إختبارات المسموح لهم بوصة اختبار القوائم"
+
+#: shared/error.cpp:186
+#, fuzzy
+msgid "\"require\" must be first command"
+msgstr "طلب الأوّل أمر"
+
+#: shared/error.cpp:189
+#, fuzzy, kde-format
+msgid "\"require\" missing for command \"%1\""
+msgstr "طلب مفقود لـ أمر"
+
+#: shared/error.cpp:192
+#, fuzzy, kde-format
+msgid "\"require\" missing for test \"%1\""
+msgstr "طلب مفقود لـ إختبار"
+
+#: shared/error.cpp:195
+#, fuzzy, kde-format
+msgid "\"require\" missing for comparator \"%1\""
+msgstr "طلب مفقود لـ"
+
+#: shared/error.cpp:198
+#, fuzzy, kde-format
+msgid "Command \"%1\" not supported"
+msgstr "الأمر ليس مدعوم"
+
+#: shared/error.cpp:201
+#, fuzzy, kde-format
+msgid "Test \"%1\" not supported"
+msgstr "اختبار ليس مدعوم"
+
+#: shared/error.cpp:204
+#, fuzzy, kde-format
+msgid "Comparator \"%1\" not supported"
+msgstr "المقارن ليس مدعوم"
+
+#: shared/error.cpp:207
+#, fuzzy, kde-format
+msgid "Site Policy Limit Violation: Test nesting too deep (max. %1)"
+msgstr "الموقع السياسة الحدّ الإنتهاك اختبار"
+
+#: shared/error.cpp:210
+#, fuzzy, kde-format
+msgid "Site Policy Limit Violation: Block nesting too deep (max. %1)"
+msgstr "الموقع السياسة الحدّ الإنتهاك منع"
+
+#: shared/error.cpp:213
+#, fuzzy, kde-format
+msgid "Invalid Argument \"%1\" to \"%2\""
+msgstr "غير صحيح النّقاش إلى"
+
+#: shared/error.cpp:216
+#, fuzzy, kde-format
+msgid "Conflicting Arguments: \"%1\" and \"%2\""
+msgstr "التضارب المتغيرات و"
+
+#: shared/error.cpp:219
+#, fuzzy, kde-format
+msgid "Argument \"%1\" Repeated"
+msgstr "النّقاش متكرّر"
+
+#: shared/error.cpp:222
+#, fuzzy, kde-format
+msgid "Command \"%1\" violates command ordering constraints"
+msgstr "الأمر أمر"
+
+#: shared/error.cpp:227
+#, fuzzy, kde-format
+msgid "Incompatible Actions \"%1\" and \"%2\" requested"
+msgstr "الغير متوافق إجراءات و"
+
+#: shared/error.cpp:230
+#, fuzzy
+msgid "Mail Loop detected"
+msgstr "بريد تكرار"
+
+#: shared/error.cpp:233
+#, fuzzy, kde-format
+msgid "Site Policy Limit Violation: Too many Actions requested (max. %1)"
+msgstr "الموقع السياسة الحدّ الإنتهاك أيضا إجراءات"
+
+#: shared/error.cpp:236
+#, fuzzy
+msgid "Unknown error"
+msgstr "خطأ مجهول"

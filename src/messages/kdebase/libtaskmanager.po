@@ -1,0 +1,124 @@
+# translation of libtaskmanager.po to Arabic
+# translation of libtaskmanager.po to
+# Copyright (C) 2001,2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Majid Moggamel <Anatolia@linux-team.org>
+#
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: libtaskmanager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-09-08 01:21+0200\n"
+"PO-Revision-Date: 2009-08-12 15:00+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+
+#: taskactions.cpp:112
+msgid "Mi&nimize"
+msgstr "ص&غّر"
+
+#: taskactions.cpp:123
+msgid "Ma&ximize"
+msgstr "ك&بّر"
+
+#: taskactions.cpp:133
+msgid "&Shade"
+msgstr "&ظلّل"
+
+#: taskactions.cpp:144
+msgid "Re&size"
+msgstr "أع&د تحجيم"
+
+#: taskactions.cpp:153
+msgid "&Move"
+msgstr "ح&رّك"
+
+#: taskactions.cpp:162
+msgid "&Close"
+msgstr "أ&غلق"
+
+#: taskactions.cpp:173
+msgid "&To Current Desktop"
+msgstr "إلى سطح المكتب الحال&ي"
+
+#: taskactions.cpp:192
+msgid "&All Desktops"
+msgstr "كلّ أسطح المك&تب"
+
+#: taskactions.cpp:212
+msgid "To &Desktop"
+msgstr "إلى س&طح المكتب"
+
+#: taskactions.cpp:225
+msgid "Keep &Above Others"
+msgstr "ابق فو&ق الآخرين"
+
+#: taskactions.cpp:235
+msgid "Keep &Below Others"
+msgstr "ابق ت&حت الآخرين"
+
+#: taskactions.cpp:245
+msgid "&Fullscreen"
+msgstr "ملء ال&شاشة"
+
+#: taskactions.cpp:255
+msgid "Ad&vanced"
+msgstr "متق&دم"
+
+#: taskactions.cpp:266
+msgid "&Leave Group"
+msgstr "اترك المجم&وعة"
+
+#: taskactions.cpp:281
+msgid "&Edit Group"
+msgstr "حرر &المجموعة"
+
+#: task.cpp:282
+msgctxt "marks that a task has been modified"
+msgid "modified"
+msgstr "معدل"
+
+#: strategies/manualgroupingstrategy.cpp:85
+msgid "Leave Group"
+msgstr "اترك المجموعة"
+
+#: strategies/manualgroupingstrategy.cpp:92
+msgid "Remove Group"
+msgstr "أزِل المجموعة"
+
+#: strategies/programgroupingstrategy.cpp:75
+msgid "Allow This Program to Be Grouped"
+msgstr "اسمح لهذا البرنامج أن يكون ضمن مجموعة"
+
+#: strategies/programgroupingstrategy.cpp:77
+msgid "Do Not Allow This Program to Be Grouped"
+msgstr "لا تسمح لهذا البرنامج أن يكون ضمن مجموعة"
+
+#~ msgid "All &to Current Desktop"
+#~ msgstr "الكلّ إلى &سطح المكتب الحالي"
+
+#~ msgid "Mi&nimize All"
+#~ msgstr "&صغّر الكلّ"
+
+#~ msgid "Ma&ximize All"
+#~ msgstr "&كبّر الكلّ"
+
+#~ msgid "&Restore All"
+#~ msgstr "است&عد الكلّ"
+
+#~ msgid "&Close All"
+#~ msgstr "أغ&لق الكلّ"
+
+#~ msgid "All to &Desktop"
+#~ msgstr "الكلّ إلى سطح ال&مكتب"

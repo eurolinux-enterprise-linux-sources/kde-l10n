@@ -1,0 +1,996 @@
+# translation of khangman.po to
+# Copyright (C) 2002,2003, 2007 Free Software Foundation, Inc.
+#
+# Nuriddin Aminagha <nuriddin@haydarlinux.org>, 2002.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Nuriddin S. Aminagha <nuriddin@haydarlinux.org>, 2003.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: khangman\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-09-25 01:29+0200\n"
+"PO-Revision-Date: 2007-10-14 15:41+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: data.i18n:2
+msgctxt "NOTE_TO_THE_TRANSLATORS"
+msgid ""
+"The translators have the opportunity to translate the\n"
+"words in the game.\n"
+"See the file README.languages in khangman's source directory\n"
+"for more information on how to do that.\n"
+"(translate this message as \"DONE\" when you have translated\n"
+"the words; otherwise leave it untranslated as a reminder)"
+msgstr ""
+
+#: khangmanview.cpp:77
+#, fuzzy
+msgid "G&uess"
+msgstr "تخمين"
+
+#: khangmanview.cpp:81
+#, fuzzy
+msgid "&Play again"
+msgstr "تشغيل مرة ثانية"
+
+#: khangmanview.cpp:322
+#, fuzzy
+msgid "Misses"
+msgstr "الأخطاء"
+
+#: khangmanview.cpp:351
+#, fuzzy
+msgid "Hint"
+msgstr "تلميحةالتلميح"
+
+#: khangmanview.cpp:379
+#, fuzzy, kde-format
+msgid "You lost. The word was \"%1\"."
+msgstr ""
+"<qt> أنت كلمة\n"
+"<b></b></qt>"
+
+#: khangmanview.cpp:379
+#, fuzzy
+msgid "Congratulations! You won!"
+msgstr "تهانينا!"
+
+#: khangmanview.cpp:508
+#, fuzzy
+msgid "This letter has already been guessed."
+msgstr "هذا حرف."
+
+#: khangmanview.cpp:590
+#, fuzzy, kde-format
+#| msgid ""
+#| "File $KDEDIR/share/apps/khangman/data/%1/%2 not found!\n"
+#| "Check your installation, please!"
+msgid ""
+"File $KDEDIR/share/apps/kvtml/%1/%2 not found.\n"
+"Please check your installation."
+msgstr ""
+"الملف $KDEDIR/share/apps/khangman/data/%1/%2 غير موجود!\n"
+"افحص تثبيتك, رجاءً!"
+
+#: khangmanview.cpp:594 khangman.cpp:415
+#, fuzzy
+msgid "Error"
+msgstr "خطأ"
+
+#: khangmanview.cpp:719
+#, fuzzy, kde-format
+msgid "Wins: %1"
+msgstr "الإنتصارات 1"
+
+#: khangmanview.cpp:720 khangman.cpp:533
+#, fuzzy, kde-format
+msgid "Losses: %1"
+msgstr "الخسائر 1"
+
+#: timer.cpp:37 timer.cpp:45
+#, fuzzy, kde-format
+msgid "1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "ثانية واحدة"
+msgstr[1] "ثانية واحدة"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: main.cpp:34
+#, fuzzy
+msgid "Classical hangman game for KDE"
+msgstr "كلاسيكي لعبة لـ كيدي"
+
+#: main.cpp:41
+#, fuzzy
+msgid "KHangMan"
+msgstr "الشنق ك"
+
+#: main.cpp:43
+#, fuzzy
+msgid "(c) 2001-2008, Anne-Marie Mahfouf"
+msgstr "c أن ماري"
+
+#: main.cpp:45
+msgid "Primoz Anzur"
+msgstr ""
+
+#: main.cpp:45
+msgid "Previous maintainer"
+msgstr "المشرف السابق"
+
+#: main.cpp:50
+#, fuzzy
+msgid "Anne-Marie Mahfouf"
+msgstr "أن ماري"
+
+#: main.cpp:50
+#, fuzzy
+msgid "Current maintainer, author"
+msgstr "الحالي المشرف على الصيانة المؤلف"
+
+#: main.cpp:51
+msgid "Stefan Böhmann"
+msgstr ""
+
+#: main.cpp:52 main.cpp:97 main.cpp:99 main.cpp:101
+#, fuzzy
+msgid "Coding help"
+msgstr "تشفير مساعدة"
+
+#: main.cpp:53
+#, fuzzy
+msgid "Stefan Asserhäll"
+msgstr "إستيفان"
+
+#: main.cpp:54
+#, fuzzy
+msgid "Swedish data files, coding help, transparent pictures and i18n fixes"
+msgstr "سويدي البيانات ملفات مساعدة شفّاف صور و"
+
+#: main.cpp:56
+msgid "eXParTaKus"
+msgstr ""
+
+#: main.cpp:57
+msgid "Spanish data files"
+msgstr "ملفات بيانات إسباني"
+
+#: main.cpp:58
+#, fuzzy
+msgid "Erik Kjær Pedersenn"
+msgstr "إريك"
+
+#: main.cpp:59
+#, fuzzy
+msgid "Danish data files"
+msgstr "دانماركي البيانات ملفات"
+
+#: main.cpp:60
+msgid "Niko Lewman"
+msgstr ""
+
+#: main.cpp:61
+#, fuzzy
+msgid "Finnish data files"
+msgstr "الفنلندية البيانات ملفات"
+
+#: main.cpp:62
+msgid "João Sebastião de Oliveira Bueno"
+msgstr ""
+
+#: main.cpp:63
+#, fuzzy
+msgid "Brazilian Portuguese data files"
+msgstr "البرازيلية البرتغالية البيانات ملفات"
+
+#: main.cpp:64
+#, fuzzy
+msgid "Antoni Bella"
+msgstr "بيلا"
+
+#: main.cpp:65
+#, fuzzy
+msgid "Catalan data files"
+msgstr "كاتالوني البيانات ملفات"
+
+#: main.cpp:66
+#, fuzzy
+msgid "Giovanni Venturi"
+msgstr "Giovanni Venturi"
+
+#: main.cpp:67
+#, fuzzy
+msgid "Italian data files"
+msgstr "الإيطالية البيانات ملفات"
+
+#: main.cpp:68
+#, fuzzy
+msgid "Rinse"
+msgstr "التشطيف"
+
+#: main.cpp:69
+#, fuzzy
+msgid "Dutch data files"
+msgstr "الهولندية البيانات ملفات"
+
+#: main.cpp:70
+msgid "Lukáš Tinkl"
+msgstr ""
+
+#: main.cpp:71
+#, fuzzy
+msgid "Czech data files"
+msgstr "التشيكية البيانات ملفات"
+
+#: main.cpp:72
+msgid "Tamas Szanto"
+msgstr ""
+
+#: main.cpp:73
+#, fuzzy
+msgid "Hungarian data files"
+msgstr "الهنغارية البيانات ملفات"
+
+#: main.cpp:74
+msgid "Torger Åge Sinnes"
+msgstr ""
+
+#: main.cpp:75
+#, fuzzy
+msgid "Norwegian (Bokmål) data files"
+msgstr "نرويجية البيانات ملفات"
+
+#: main.cpp:76
+#, fuzzy
+msgid "Roger Kovacs"
+msgstr "روجر كوفاكس"
+
+#: main.cpp:77
+#, fuzzy
+msgid "Tajik data files"
+msgstr "الطاجيكية البيانات ملفات"
+
+#: main.cpp:78
+msgid "Chusslove Illich"
+msgstr ""
+
+#: main.cpp:79
+#, fuzzy
+msgid "Serbian (Cyrillic and Latin) data files"
+msgstr "الصربية سيريالي و لاتيني البيانات ملفات"
+
+#: main.cpp:80
+#, fuzzy
+msgid "Jure Repinc"
+msgstr "Jure Repinc"
+
+#: main.cpp:81
+#, fuzzy
+msgid "Slovenian data files"
+msgstr "سلوفينية البيانات ملفات"
+
+#: main.cpp:82
+#, fuzzy
+msgid "Pedro Morais"
+msgstr "بيدرو"
+
+#: main.cpp:83
+#, fuzzy
+msgid "Portuguese data files"
+msgstr "البرتغالية البيانات ملفات"
+
+#: main.cpp:84
+msgid "Gaute Hvoslef Kvalnes"
+msgstr ""
+
+#: main.cpp:85
+#, fuzzy
+msgid "Norwegian (Nynorsk) data files"
+msgstr "نرويجية البيانات ملفات"
+
+#: main.cpp:86
+msgid "Mehmet Özel"
+msgstr ""
+
+#: main.cpp:87
+#, fuzzy
+msgid "Turkish data files"
+msgstr "تركي البيانات ملفات"
+
+#: main.cpp:88
+msgid "Черепанов Андрей"
+msgstr ""
+
+#: main.cpp:89
+#, fuzzy
+msgid "Russian data files"
+msgstr "الروسية البيانات ملفات"
+
+#: main.cpp:90
+msgid "Radostin Radnev"
+msgstr ""
+
+#: main.cpp:91
+#, fuzzy
+msgid "Bulgarian data files"
+msgstr "بلغاري البيانات ملفات"
+
+#: main.cpp:92
+#, fuzzy
+msgid "Kevin Patrick Scannell"
+msgstr "كيفين باتريك"
+
+#: main.cpp:93
+#, fuzzy
+msgid "Irish (Gaelic) data files"
+msgstr "الإيرلندية اللغة الغيلية البيانات ملفات"
+
+#: main.cpp:94
+#, fuzzy
+msgid "Matt Howe"
+msgstr "مات هو"
+
+#: main.cpp:95
+#, fuzzy
+msgid "Softer Hangman Pictures"
+msgstr "أنعم الجلاد صور"
+
+#: main.cpp:96
+#, fuzzy
+msgid "Benjamin Meyer"
+msgstr "Benjamin Meyer"
+
+#: main.cpp:98
+#, fuzzy
+msgid "Robert Gogolok"
+msgstr "روبرت"
+
+#: main.cpp:100
+msgid "Lubos Lunàk"
+msgstr ""
+
+#: main.cpp:102
+#, fuzzy
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#: main.cpp:103
+#, fuzzy
+msgid "Coding help, fixed a lot of things"
+msgstr "تشفير مساعدة fixed a من"
+
+#: main.cpp:104
+#, fuzzy
+msgid "Peter Hedlund"
+msgstr "بيتر"
+
+#: main.cpp:105
+#, fuzzy
+msgid "Code for generating icons for the characters toolbar"
+msgstr "الرّمز لـ توليد أيقونات لـ محارف شريط الأدوات"
+
+#: main.cpp:106
+#, fuzzy
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#: main.cpp:107
+#, fuzzy
+msgid "Code cleaning"
+msgstr "الرّمز"
+
+#. i18n: file: advanced.ui:36
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox6)
+#. i18n: file: languageui.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: file: advanced.ui:36
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox6)
+#. i18n: file: languageui.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:3 rc.cpp:120
+#, fuzzy
+msgid "Spanish, Portuguese, Catalan"
+msgstr "اسباني البرتغالية كاتالوني"
+
+#. i18n: file: advanced.ui:48
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccentedLetters)
+#: rc.cpp:6
+#, fuzzy
+msgid "Type accented &letters"
+msgstr "النوع"
+
+#. i18n: file: advanced.ui:51
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AccentedLetters)
+#. i18n: file: languageui.ui:25
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AccentedLetters)
+#. i18n: file: advanced.ui:51
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AccentedLetters)
+#. i18n: file: languageui.ui:25
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AccentedLetters)
+#: rc.cpp:9 rc.cpp:123
+#, fuzzy
+msgid ""
+"If this is checked, you have to type accented letters yourself (i.e. they "
+"are differentiated from the corresponding unaccented letter)."
+msgstr "إذا هو مؤكّد إلى نوع i e من حرف."
+
+#. i18n: file: advanced.ui:55
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AccentedLetters)
+#. i18n: file: languageui.ui:29
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AccentedLetters)
+#. i18n: file: advanced.ui:55
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AccentedLetters)
+#. i18n: file: languageui.ui:29
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AccentedLetters)
+#: rc.cpp:12 rc.cpp:126
+#, fuzzy
+msgid ""
+"If this is <b>disabled</b>, the selected language does not support it. If "
+"this is <b>enabled</b> and if you check it, then you should type accented "
+"letters on their own. If it is not checked, accented letters will be "
+"displayed with normal letters (default).<br>\n"
+"For example, in Catalan, if this is unchecked and you type \"o\", the o and "
+"ò will be displayed in the word <b>xenofòbia</b>. If this option is checked, "
+"when you type \"o\", only \"o\" will be displayed and you will have to type "
+"\"ò\" for this letter to be displayed."
+msgstr ""
+"إذا هو<b> معطل</b> مُنتقى لغة ليس دعم الإيطالية إذا هو<b> ممكن</b> و IF تفقّد "
+"الإيطالية نوع يعمل إذا الإيطالية هو ليس مؤكّد مع عادي افتراضي<br> بوصة "
+"كاتالوني IF هو غير محقّق و نوع o o و بوصة كلمة<b></b> إذا خيار هو مؤكّد نوع o "
+"o و إلى نوع لـ حرف إلى."
+
+#. i18n: file: advanced.ui:73
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
+#: rc.cpp:16
+#, fuzzy
+msgid "German"
+msgstr "ألماني"
+
+#. i18n: file: advanced.ui:85
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UpperCase)
+#: rc.cpp:19
+#, fuzzy
+msgid "Play in upper case letters"
+msgstr "تشغيل بوصة حالة"
+
+#. i18n: file: advanced.ui:88
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_UpperCase)
+#: rc.cpp:22
+#, fuzzy
+msgid "If checked, the word will be displayed all in upper case letters"
+msgstr "إذا مؤكّد كلمة الكل بوصة حالة"
+
+#. i18n: file: advanced.ui:92
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UpperCase)
+#: rc.cpp:25
+#, fuzzy
+msgid ""
+"If this is checked, the word will be displayed in upper case letters, even "
+"if you enter them in lower case. If this is unchecked (default), the word "
+"will be in lower case.<br>\n"
+"This setting is currently only available for the German language."
+msgstr ""
+"إذا هو مؤكّد كلمة بوصة حالة IF أدخل بوصة حالة إذا هو غير محقّق افتراضي كلمة "
+"بوصة حالة<br> هو متوفّر لـ ألماني لغة."
+
+#. i18n: file: generalui.ui:13
+#. i18n: ectx: property (toolTip), widget (QWidget, generalui)
+#: rc.cpp:29
+#, fuzzy
+msgid "Here you can choose settings for all languages."
+msgstr "هنا اختيار خصائص لـ الكل."
+
+#. i18n: file: generalui.ui:21
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_OneLetter)
+#. i18n: file: khangman.kcfg:48
+#. i18n: ectx: label, entry (OneLetter), group (General)
+#. i18n: file: generalui.ui:21
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_OneLetter)
+#. i18n: file: khangman.kcfg:48
+#. i18n: ectx: label, entry (OneLetter), group (General)
+#: rc.cpp:32 rc.cpp:72
+#, fuzzy
+msgid ""
+"Check this if you do not want to discover each instance of the same letter."
+msgstr "كِش IF ليس إلى مرة من حرف."
+
+#. i18n: file: generalui.ui:27
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_OneLetter)
+#: rc.cpp:35
+#, fuzzy
+msgid ""
+"If you check this box, only the first letter will be written if the letter "
+"is found in several places in the word. Then you have to rechoose the same "
+"letter, to replace the second instance in the word until there are no more "
+"instances of this letter.\n"
+"For example, the word to guess is \"potato\". If this option is unchecked, "
+"when you try \"o\", the two instances of \"o\" in the word will be "
+"discovered at the same time. If this is checked, you will need to try \"o\" "
+"twice.\n"
+"\n"
+"Default is that for one letter typed, all instances of that letter in the "
+"word are discovered."
+msgstr ""
+"إذا تفقّد مربّع الأوّل حرف IF حرف هو موجود بوصة بوصة كلمة ثمّ إلى حرف إلى "
+"إستبدال ثانية مرة بوصة كلمة حتّى لا المزيد من حرف كلمة إلى تخمين هو potato "
+"إذا خيار هو غير محقّق o إثنان من o بوصة كلمة عند وقت إذا هو مؤكّد إلى o n هو "
+"لـ حرف الكل من حرف بوصة كلمة."
+
+#. i18n: file: generalui.ui:30
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_OneLetter)
+#: rc.cpp:41
+#, fuzzy
+msgid "Require more guesses for duplicate letters"
+msgstr "تطلّب المزيد لـ مكرر :: تكرار"
+
+#. i18n: file: generalui.ui:37
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableAnimations)
+#: rc.cpp:44
+#, fuzzy
+msgid "Enable animations"
+msgstr "تفعيل الأ_صوات"
+
+#. i18n: file: generalui.ui:44
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:47
+#, fuzzy
+msgid "Sounds"
+msgstr "أصوات"
+
+#. i18n: file: generalui.ui:50
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Sound)
+#. i18n: file: khangman.kcfg:59
+#. i18n: ectx: label, entry (Sound), group (General)
+#. i18n: file: generalui.ui:50
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Sound)
+#. i18n: file: khangman.kcfg:59
+#. i18n: ectx: label, entry (Sound), group (General)
+#: rc.cpp:50 rc.cpp:78
+#, fuzzy
+msgid "If checked, sounds will be played for New Game and Win Game"
+msgstr "مكّن أصوات يعمل جديد لعبة و فوز لعبة"
+
+#. i18n: file: generalui.ui:54
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Sound)
+#: rc.cpp:53
+msgid ""
+"If this box is checked, you will have some sounds played for each new game "
+"and when you win a game. If this is not checked, there will be no sound in "
+"KHangMan.\n"
+"Default is no sound."
+msgstr ""
+
+#. i18n: file: generalui.ui:57
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Sound)
+#: rc.cpp:57
+#, fuzzy
+msgid "Enable sounds"
+msgstr "تفعيل الأ_صوات"
+
+#. i18n: file: khangman.kcfg:10
+#. i18n: ectx: label, entry (CurrentLevel), group (Language)
+#: rc.cpp:60
+#, fuzzy
+msgid "Level"
+msgstr "المستوى"
+
+#. i18n: file: khangman.kcfg:17
+#. i18n: ectx: label, entry (ShowCharToolbar), group (Language)
+#: rc.cpp:63
+#, fuzzy
+msgid "Show the characters toolbar"
+msgstr "اعرض محارف شريط الأدوات"
+
+#. i18n: file: khangman.kcfg:21
+#. i18n: ectx: label, entry (SelectedLanguage), group (Language)
+#: rc.cpp:66
+#, fuzzy
+msgid "The language selected by the user"
+msgstr "الـ لغة مُنتقى أداء مستخدم"
+
+#. i18n: file: khangman.kcfg:37
+#. i18n: ectx: label, entry (Mode), group (Look)
+#: rc.cpp:69
+#, fuzzy
+msgid "Background theme"
+msgstr "الخلفية تيمة"
+
+#. i18n: file: khangman.kcfg:52
+#. i18n: ectx: label, entry (EnableAnimations), group (General)
+#: rc.cpp:75
+#, fuzzy
+msgid "Enable Animations"
+msgstr "تفعيل الأ_صوات"
+
+#. i18n: file: khangman.kcfg:63
+#. i18n: ectx: label, entry (MissedTimer), group (General)
+#. i18n: file: timerui.ui:41
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_MissedTimer)
+#. i18n: file: khangman.kcfg:63
+#. i18n: ectx: label, entry (MissedTimer), group (General)
+#. i18n: file: timerui.ui:41
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_MissedTimer)
+#: rc.cpp:81 rc.cpp:142
+msgid "Time during which the \"Already Guessed\" tooltip is displayed."
+msgstr ""
+
+#. i18n: file: khangman.kcfg:70
+#. i18n: ectx: label, entry (AccentedLetters), group (Advanced)
+#: rc.cpp:84
+#, fuzzy
+msgid "Type accented letters separately from normal letters"
+msgstr "النوع من عادي"
+
+#. i18n: file: khangman.kcfg:77
+#. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
+#: rc.cpp:87
+#, fuzzy
+msgid "The Providers path for KHangMan"
+msgstr "الـ المجهزون المسار لـ الشنق ك"
+
+#. i18n: file: khangmanui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:99
+#, fuzzy
+msgid "&Game"
+msgstr "&لعبة"
+
+#. i18n: file: khangmanui.rc:19
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:102
+#, fuzzy
+msgid "&Settings"
+msgstr "إ&عدادات"
+
+#. i18n: file: khangmanui.rc:30
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:105
+msgid "Main"
+msgstr "رئيسي"
+
+#. i18n: file: khangmanui.rc:38
+#. i18n: ectx: ToolBar (specialCharToolBar)
+#: rc.cpp:108
+#, fuzzy
+msgid "Special Characters"
+msgstr "أحرف خاصة"
+
+#. i18n: file: khangmanui.rc:41
+#. i18n: ectx: ToolBar (themeToolBar)
+#: rc.cpp:111
+#, fuzzy
+msgid "Look"
+msgstr "المظهر"
+
+#. i18n: file: khangmanui.rc:45
+#. i18n: ectx: ToolBar (languageToolBar)
+#: rc.cpp:114
+#, fuzzy
+msgid "Language"
+msgstr "اللغة"
+
+#. i18n: file: languageui.ui:13
+#. i18n: ectx: property (toolTip), widget (QWidget, languageui)
+#: rc.cpp:117
+#, fuzzy
+msgid "Here you can choose special settings for some languages."
+msgstr "هنا اختيار خصائص لـ بعض."
+
+#. i18n: file: languageui.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccentedLetters)
+#: rc.cpp:130 khangman.cpp:523
+#, fuzzy
+msgid "Type accented letters"
+msgstr "النوع"
+
+#. i18n: file: timerui.ui:16
+#. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox)
+#: rc.cpp:133
+#, fuzzy
+msgid ""
+"Here you can set the display times for hints and the \"Already Guessed\" "
+"tooltip."
+msgstr "هنا set عرض الوقت لـ و بالفعل محزور التلميحات."
+
+#. i18n: file: timerui.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:136 khangman.cpp:351
+#, fuzzy
+msgid "Timers"
+msgstr "المؤقتات"
+
+#. i18n: file: timerui.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:139
+msgid "Time for displaying the <b>Already Guessed Letter</b> tooltip:"
+msgstr ""
+
+#. i18n: file: timerui.ui:44
+#. i18n: ectx: property (whatsThis), widget (QSlider, kcfg_MissedTimer)
+#: rc.cpp:145
+#, fuzzy
+msgid ""
+"You can set the time for displaying the \"Already Guessed\" tooltip after "
+"you tried a letter that was already guessed. Default is 1 second but younger "
+"children might need longer time to be able to understand they are trying a "
+"letter that was already guessed."
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"> أنت set وقت لـ بالفعل محزور التلميحات بعد a "
+"حرف افتراضي هو ثانية وقت إلى إلى a حرف</p></body></html>"
+
+#: rc.cpp:146
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:147
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"
+
+#: khangman.cpp:91
+#, fuzzy
+msgid "Play with a new word"
+msgstr "تشغيل مع a جديد كلمة"
+
+#: khangman.cpp:94
+msgid "Opens an existing vocabulary document"
+msgstr ""
+
+#: khangman.cpp:97
+#, fuzzy
+msgid "&Show Hint"
+msgstr "اعرض تلميحةالتلميح"
+
+#: khangman.cpp:98
+#, fuzzy
+msgid "Show/Hide the hint to help guessing the word"
+msgstr "اعرض إخفاء تلْميحة إلى مساعدة كلمة"
+
+#: khangman.cpp:106
+#, fuzzy
+msgid "&Get Words in New Language..."
+msgstr "احصل كلمات بوصة جديد اللغة."
+
+#: khangman.cpp:114
+#, fuzzy
+msgid "&Category"
+msgstr "فئة"
+
+#: khangman.cpp:117
+#, fuzzy
+#| msgid "Choose the level"
+msgid "Choose the category"
+msgstr "اختر التصنيف"
+
+#: khangman.cpp:118
+#, fuzzy
+msgid "Choose the category of words"
+msgstr "اختر التصنيف من"
+
+#: khangman.cpp:121
+#, fuzzy
+msgid "&Language"
+msgstr "الل&غة"
+
+#: khangman.cpp:126 khangman.cpp:127
+#, fuzzy
+msgid "Choose the language"
+msgstr "اختر لغة"
+
+#: khangman.cpp:132
+#, fuzzy
+msgid "L&ook"
+msgstr "المظهر"
+
+#: khangman.cpp:137 khangman.cpp:138
+#, fuzzy
+msgid "Choose the look and feel"
+msgstr "اختر و"
+
+#: khangman.cpp:240
+#, fuzzy
+msgid "None"
+msgstr "لا شيء"
+
+#: khangman.cpp:341
+msgid "General"
+msgstr "عام"
+
+#: khangman.cpp:346
+#, fuzzy
+msgid "Languages"
+msgstr "اللغات"
+
+#: khangman.cpp:412
+#, fuzzy, kde-format
+msgid ""
+"File '%1' not found.\n"
+"Please reinstall '%2'. Going back to English."
+msgstr "ملف ليس موجود إعادة تثبيت إلى الخلف إلى إنجليزي."
+
+#: khangman.cpp:539
+msgid "Open Vocabulary Document"
+msgstr ""
+
+#: khangman.cpp:544
+msgid "Local file"
+msgstr ""
+
+#: khmtheme.cpp:49
+#, fuzzy
+msgid "Sea Theme"
+msgstr "البحر سمة"
+
+#: khmtheme.cpp:123
+#, fuzzy
+msgid "Desert Theme"
+msgstr "الصحراء سمة"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\">Time for displaying the <span style=\" font-"
+#~ "weight:600;\">Already Guessed Letter</span> tooltip:</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\"> الوقت لـ<span style=\" font-weight:600;\"> "
+#~ "بالفعل محزور خطاب</span> التلميحات</p></body></html>"
+
+#, fuzzy
+#~ msgid "Theme"
+#~ msgstr "سمة"
+
+#, fuzzy
+#~ msgid "Allow Only One Instance of Each Letter to be replaced in the word"
+#~ msgstr "اسمح فقط واحد مرة من كل خطاب إلى بوصة كلمة"
+
+#, fuzzy
+#~ msgid "Enable Sounds on New Game and Win Game"
+#~ msgstr "مكّن أصوات يعمل جديد لعبة و فوز لعبة"
+
+#, fuzzy
+#~ msgid "the time to display the Missed KPassivePopup, in seconds"
+#~ msgstr "وقت إلى عرض مفتقد بوصة ثوان"
+
+#, fuzzy
+#~ msgid "Renaud Blanchard"
+#~ msgstr "بلانتْشارد"
+
+#~ msgid "Graphics"
+#~ msgstr "رسوميات"
+
+#, fuzzy
+#~ msgid "Joe Bolin"
+#~ msgstr "Joe"
+
+#~ msgid "Nature theme background"
+#~ msgstr "سمة الطبيعة للخلفية"
+
+#, fuzzy
+#~ msgid "Blue theme background, icons"
+#~ msgstr "أزرق تيمة الخلفية أيقونات"
+
+#, fuzzy
+#~ msgid "Danny Allen"
+#~ msgstr "داني آلن (Danny Allen)"
+
+#, fuzzy
+#~ msgid "SVG icon"
+#~ msgstr "سليكونأيقونة"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\">If checked, sounds will be played for New "
+#~ "Game and Win Game</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\"> إذا مؤكّد لـ جديد لعبة و فوز لعبة</p></"
+#~ "body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\">If this box is checked, you will have some "
+#~ "sounds played for each new game and when you win a game. If this is not "
+#~ "checked, there will be no sound in KHangMan.</p><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\">Default is no sound.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\"> إذا مربّع هو مؤكّد بعض لـ جديد لعبة و a لعبة "
+#~ "إذا هو ليس مؤكّد لا صوت بوصة الشنق ك</p><p style=\" margin-top:0px; margin-"
+#~ "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+#~ "indent:0px;\"> افتراضي هو لا صوت</p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\">Time during which the \"Already Guessed\" "
+#~ "tooltip is displayed.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\"> الوقت بالفعل محزور التلميحات هو</p></body></"
+#~ "html>"
+
+#~ msgid "Congratulations! You won! Do you want to play again?"
+#~ msgstr "تهانينا! لقد فزت! هل ترغب في اللعب مجددًا؟"
+
+#, fuzzy
+#~ msgid "Do Not Play"
+#~ msgstr "تنفيذ لا تشغيل"
+
+#, fuzzy
+#~ msgid "You lost. Do you want to play again?"
+#~ msgstr "أنت تنفيذ إلى تشغيل?"
+
+#, fuzzy
+#~ msgid ""
+#~ "If checked, the congratulations dialog is not displayed. After four "
+#~ "seconds, a new game will start automatically."
+#~ msgstr "إذا مؤكّد حوار هو ليس بعد أربعة ثوان a جديد لعبة تشغيل."
+
+#, fuzzy
+#~ msgid ""
+#~ "If this option is not checked, a congratulations dialog will appear when "
+#~ "a game is won. It also asks you if you want to play again.\n"
+#~ "This is the default state.\n"
+#~ "\n"
+#~ "If this option is checked, the dialog will not appear and a new game will "
+#~ "automatically be started after four seconds. A passive popup tells you "
+#~ "that you have won the game. You do not have an intrusive dialog every "
+#~ "time you win a game."
+#~ msgstr ""
+#~ "إذا خيار هو ليس مؤكّد a حوار ظهور a لعبة هو itإيطالياهو IF إلى تشغيل هو "
+#~ "افتراضي حالة n خيار هو مؤكّد حوار ليس ظهور و a جديد لعبة بعد أربعة ثوان A "
+#~ "نافذة منبثقة لعبة أنت ليس حوار كل وقت a لعبة."
+
+#, fuzzy
+#~ msgid "Do not display the congratulations dialog"
+#~ msgstr "تنفيذ ليس عرض حوار"
+
+#, fuzzy
+#~ msgid "Do not display the 'Congratulations You won!' dialog"
+#~ msgstr "تنفيذ ليس عرض تهانينا أنت حوار"

@@ -1,0 +1,1349 @@
+# translation of karm.po to
+# Copyright (C) 2007 Free Software Foundation, Inc.
+#
+# Waseem Bakr <bakr@mit.edu>, 2001.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: karm\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-10-16 01:29+0200\n"
+"PO-Revision-Date: 2007-10-14 15:53+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: csvexportdialog.h:37
+#, fuzzy
+msgctxt "@action:button"
+msgid "&Export"
+msgstr "&صدّر"
+
+#: csvexportdialog.h:38
+#, fuzzy
+msgctxt "@action:button"
+msgid "E&xport to Clipboard"
+msgstr "صدِّر إلى:"
+
+#. i18n: file: csvexportdialog_base.ui:176
+#. i18n: ectx: property (text), item, widget (QComboBox, combodecimalminutes)
+#: csvexportdialog.cpp:95 rc.cpp:99 rc.cpp:208
+#, fuzzy
+msgctxt "format to display times"
+msgid "Decimal"
+msgstr "عشري"
+
+#. i18n: file: csvexportdialog_base.ui:203
+#. i18n: ectx: property (text), item, widget (QComboBox, combosessiontimes)
+#: csvexportdialog.cpp:110 rc.cpp:108 rc.cpp:217
+#, fuzzy
+msgid "Session Times"
+msgstr "الجلسة Times"
+
+#. i18n: file: csvexportdialog_base.ui:220
+#. i18n: ectx: property (text), item, widget (QComboBox, comboalltasks)
+#: csvexportdialog.cpp:111 rc.cpp:111 rc.cpp:220
+#, fuzzy
+msgid "All Tasks"
+msgstr "الكل المهام"
+
+#: edithistorydialog.cpp:81
+#, fuzzy
+msgid "Edit History"
+msgstr "تحرير التاريخ"
+
+#: edithistorydialog.cpp:94 timekard.cpp:67
+#, fuzzy
+msgid "Task"
+msgstr "مهمَّة"
+
+#: edithistorydialog.cpp:94
+#, fuzzy
+#| msgid "Total Time"
+msgid "StartTime"
+msgstr "ابدأ"
+
+#: edithistorydialog.cpp:94
+#, fuzzy
+msgid "EndTime"
+msgstr "EndTime"
+
+#: edithistorydialog.cpp:95
+#, fuzzy
+msgid "Comment"
+msgstr "تعليق"
+
+#: edithistorydialog.cpp:128
+#, fuzzy
+msgid "You can change this task's comment, start time and end time."
+msgstr "أنت تغيير المهمة s تعليق تشغيل وقت و end وقت."
+
+#: edithistorydialog.cpp:186 edithistorydialog.cpp:209
+#, fuzzy
+msgid "This is not a valid Date/Time."
+msgstr "هذا هو ليس a سليم التاريخ الوقت."
+
+#: edittaskdialog.cpp:64
+#, fuzzy
+msgid "Task &name:"
+msgstr "مهمَّة الإسم:"
+
+#: edittaskdialog.cpp:78
+#, fuzzy
+msgid "Edit &absolute"
+msgstr "تحرير مطلق"
+
+#: edittaskdialog.cpp:81
+#, fuzzy
+msgid "&Time:"
+msgstr "الوقت:"
+
+#: edittaskdialog.cpp:84
+#, fuzzy
+msgid "&Session time:"
+msgstr "الجلسة وقت:"
+
+#: edittaskdialog.cpp:89
+#, fuzzy
+msgid "Edit &relative (apply to both time and session time)"
+msgstr "تحرير نسبي تطبيق إلى وقت و جلسة وقت"
+
+#: edittaskdialog.cpp:129
+#, fuzzy
+msgid "A&uto Tracking"
+msgstr "تلقائي التتبع"
+
+#: edittaskdialog.cpp:135
+#, fuzzy
+msgid "In Desktop"
+msgstr "داخل سطح المكتب"
+
+#: edittaskdialog.cpp:187
+msgid "Enter the name of the task here. This name is for your eyes only."
+msgstr "أدخل اسم المهمة هنا. هذا الاسم لا يراه أحد غيرك."
+
+#: edittaskdialog.cpp:190
+#, fuzzy
+msgid ""
+"Use this option to set the time spent on this task to an absolute value.\n"
+"\n"
+"For example, if you have worked exactly four hours on this task during the "
+"current session, you would set the Session time to 4 hr."
+msgstr ""
+"إستعمل خيار إلى set وقت يعمل المهمة إلى مطلق قيمة n IF أربعة ساعات يعمل "
+"المهمة الحالي جلسة set الجلسة وقت إلى."
+
+#: edittaskdialog.cpp:195
+#, fuzzy
+msgid ""
+"Use this option to change the time spent on this task relative to its "
+"current value.\n"
+"\n"
+"For example, if you worked on this task for one hour without the timer "
+"running, you would add 1 hr."
+msgstr ""
+"إستعمل خيار إلى تغيير وقت يعمل المهمة نسبي إلى الحالي قيمة n IF يعمل المهمة "
+"لـ ساعة المؤقِت جاري التنفيذ اضف."
+
+#: edittaskdialog.cpp:200
+#, fuzzy
+msgid "This is the time the task has been running since all times were reset."
+msgstr "هذا هو وقت المهمة جاري التنفيذ منذ الكل الوقت أعد الضبط."
+
+#: edittaskdialog.cpp:203
+msgid "This is the time the task has been running this session."
+msgstr "هذا هو الوقت منذ بدء هذه المهمة في هذه الجلسة."
+
+#: edittaskdialog.cpp:206
+msgid ""
+"Specify how much time to add or subtract to the overall and session time"
+msgstr "حدد الوقت الذي تريد إضافته إلى أو طرحه من الوقت الكلي ووقت الجلسة"
+
+#: edittaskdialog.cpp:209
+#, fuzzy
+msgid ""
+"Use this option to automatically start the timer on this task when you "
+"switch to the specified desktop(s). Select the desktop(s) that will "
+"automatically start the timer on this task."
+msgstr ""
+"إستعمل خيار إلى تشغيل المؤقِت يعمل المهمة تحول إلى سطح المكتب s انتقِ سطح "
+"المكتب s تشغيل المؤقِت يعمل المهمة."
+
+#: idletimedetector.cpp:121
+#, fuzzy, kde-format
+msgid "Continue timing. Timing has started at %1"
+msgstr "استمر توقيت عند 1"
+
+#: idletimedetector.cpp:122
+#, fuzzy, kde-format
+msgid "Stop timing and revert back to the time at %1."
+msgstr "قف و يعكس إلى الخلف إلى وقت عند."
+
+#: idletimedetector.cpp:123
+#, fuzzy
+msgid "Continue timing."
+msgstr "استمر."
+
+#: idletimedetector.cpp:124
+#, fuzzy
+msgid "Revert timing"
+msgstr "ارتداد"
+
+#: karm.cpp:45 karm.cpp:46
+msgid "KArmReminder"
+msgstr ""
+
+#: karm.cpp:47
+#, fuzzy
+msgid "(c) 2006"
+msgstr "c"
+
+#: karm.cpp:52
+#, fuzzy
+msgid "Someone, probably you, has called karm.\n"
+msgstr "شخص ما n"
+
+#: karm.cpp:53
+#, fuzzy
+msgid ""
+"KArm has been renamed to KTimeTracker. This makes it easier to recognize.\n"
+"Compatibility advice: Do not give ktimetracker files to karm users. Using "
+"karm files with ktimetracker is possible.\n"
+msgstr ""
+"KArm إلى هذا الإيطالية إلى تنفيذ ليس إعطاءها ملفات إلى مستخدمون الإستعمال "
+"ملفات مع هو n"
+
+#: karm.cpp:54
+#, fuzzy
+msgid ""
+"Please learn to call ktimetracker as this reminder may be removed in the "
+"future.\n"
+msgstr "رجاء تعلم إلى نداء أيار بوصة n"
+
+#: karm.cpp:55
+#, fuzzy
+msgid ""
+"Someone, probably you, has called karm. KArm has been renamed to "
+"KTimeTracker. This makes it easier to recognize. Compatibility advice: Do "
+"not give ktimetracker files to karm users. Using karm files with "
+"ktimetracker is possible. Please learn to call ktimetracker as this reminder "
+"may be removed in the future."
+msgstr ""
+"شخص ما KArm إلى هذا الإيطالية إلى التوافق تنفيذ ليس إعطاءها ملفات إلى "
+"مستخدمون الإستعمال ملفات مع هو رجاء تعلم إلى نداء أيار بوصة."
+
+#: karm.cpp:55
+#, fuzzy
+msgid "KArm is now ktimetracker"
+msgstr "KArm هو الآن"
+
+#: karmstorage.cpp:183 karmstorage.cpp:270
+#, fuzzy, kde-format
+msgid "Error loading \"%1\": could not find parent (uid=%2)"
+msgstr "خطأ يجري التحميل ليس ابحث أب رمز المستخدم"
+
+#: karmstorage.cpp:447
+#, fuzzy
+msgid "Export Progress"
+msgstr "صدِّر التقدم"
+
+#: karmstorage.cpp:527 karmstorage.cpp:810
+#, fuzzy, kde-format
+msgid "Could not open \"%1\"."
+msgstr "لم أتمكن من فتح \"%1\"."
+
+#: karmstorage.cpp:970 karmstorage.cpp:993 main.cpp:85
+#, fuzzy
+msgid "KTimeTracker"
+msgstr "أداة تسجيل الوقت في KDE."
+
+#: ktimetrackerpart.cpp:73
+#, fuzzy
+msgid "ktimetracker"
+msgstr "أداة تسجيل الوقت في KDE."
+
+#: ktimetrackerpart.cpp:88 mainwindow.cpp:179
+msgid "Configure key bindings"
+msgstr "قم بإعداد مفاتيح الإختصارات"
+
+#: ktimetrackerpart.cpp:89 mainwindow.cpp:180
+#, fuzzy
+#| msgid "This will let you configure keybindings which is specific to karm"
+msgid ""
+"This will let you configure keybindings which are specific to ktimetracker"
+msgstr "هذا أَعِّد إلى"
+
+#: ktimewidget.cpp:105
+msgctxt "abbreviation for hours"
+msgid " hr. "
+msgstr ""
+
+#: ktimewidget.cpp:120
+#, fuzzy
+msgctxt "abbreviation for minutes"
+msgid " min. "
+msgstr "دقيقة "
+
+#: main.cpp:42
+#, fuzzy
+msgid "KDE Time tracker tool"
+msgstr "كيدي الوقت متتبع أداة"
+
+#: main.cpp:46
+#, fuzzy
+msgid "Just caught a software interrupt."
+msgstr "فقط a برمجية انقطاع."
+
+#: main.cpp:87
+#, fuzzy
+msgid "(c) 1997-2009, KDE PIM Developers"
+msgstr "c كيدي مدير المعلومات الشخصي المطوّرون"
+
+#: main.cpp:89
+#, fuzzy
+msgid "Thorsten St&auml;rk"
+msgstr "إختصار لـ مضيق، شارع، ولاية، القدّيس&auml;"
+
+#: main.cpp:89
+msgid "Current Maintainer"
+msgstr "المستخدم الحالي"
+
+#: main.cpp:91
+msgid "Sirtaj Singh Kang"
+msgstr ""
+
+#: main.cpp:91
+msgid "Original Author"
+msgstr "المؤلف الأصلي"
+
+#: main.cpp:93
+#, fuzzy
+msgid "Allen Winter"
+msgstr "ألين شتاء"
+
+#: main.cpp:94
+#, fuzzy
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:95
+#, fuzzy
+msgid "Mathias Soeken"
+msgstr "ماثياس"
+
+#: main.cpp:96
+msgid "Jesper Pedersen"
+msgstr ""
+
+#: main.cpp:97
+msgid "Kalle Dalheimer"
+msgstr ""
+
+#: main.cpp:98
+#, fuzzy
+msgid "Mark Bucciarelli"
+msgstr "علامة"
+
+#: main.cpp:102
+#, fuzzy
+msgid "The iCalendar file to open"
+msgstr "الـ ملفّ إلى فتح"
+
+#: main.cpp:103
+msgid "List all tasks as text output"
+msgstr ""
+
+#: main.cpp:104
+msgid "Add task <taskname>"
+msgstr ""
+
+#: main.cpp:105
+#, fuzzy
+msgid "Delete task <taskid>"
+msgstr "مختار مهمَّة"
+
+#: main.cpp:106
+msgid "Print the task ids for all tasks named <taskname>"
+msgstr ""
+
+#: main.cpp:107
+#, fuzzy
+msgid "Start timer for task <taskid>"
+msgstr "مختار مهمَّة"
+
+#: main.cpp:108
+#, fuzzy
+msgid "Stop timer for task <taskid>"
+msgstr "مختار مهمَّة"
+
+#: main.cpp:109
+msgid "Deliver total minutes for task id"
+msgstr ""
+
+#: main.cpp:110
+msgid "Outputs the version"
+msgstr ""
+
+#: mainwindow.cpp:85
+msgid "Could not find the KTimeTracker part."
+msgstr ""
+
+#: mainwindow.cpp:120
+#, fuzzy
+msgid "Configure KTimeTracker..."
+msgstr "أداة تسجيل الوقت في KDE."
+
+#: mainwindow.cpp:220
+#, fuzzy
+msgid "task_popup"
+msgstr "المهمة نافذة منبثقة"
+
+#. i18n: file: cfgbehavior.ui:16
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enabled)
+#: rc.cpp:3 rc.cpp:280
+#, fuzzy
+msgid "Detect desktop as idle after:"
+msgstr "اكتشاف سطح المكتب عاطل بعد"
+
+#. i18n: file: cfgbehavior.ui:23
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_period)
+#. i18n: file: cfgstorage.ui:35
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_autoSavePeriod)
+#. i18n: file: cfgbehavior.ui:23
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_period)
+#: rc.cpp:6 rc.cpp:63 rc.cpp:172 rc.cpp:283
+#, fuzzy
+msgid " min"
+msgstr " دقيقة"
+
+#. i18n: file: cfgbehavior.ui:36
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:9 rc.cpp:286
+#, fuzzy
+msgid "Minimum desktop active time:"
+msgstr "الأدنى سطح المكتب نشط وقت"
+
+#. i18n: file: cfgbehavior.ui:43
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_minActiveTime)
+#: rc.cpp:12 rc.cpp:289
+#, fuzzy
+msgid " sec"
+msgstr " ثانية"
+
+#. i18n: file: cfgbehavior.ui:56
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_promptDelete)
+#: rc.cpp:15 rc.cpp:292
+#, fuzzy
+msgid "Prompt before deleting tasks"
+msgstr "إعلام قبل"
+
+#. i18n: file: cfgbehavior.ui:63
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_uniTasking)
+#: rc.cpp:18 rc.cpp:295
+#, fuzzy
+msgid ""
+"Unitasking - allow only one task to be timed at a time. Does not stop any "
+"timer."
+msgstr "اسمح المهمة إلى عند a وقت يعمل ليس قف أي منها المؤقِت."
+
+#. i18n: file: cfgbehavior.ui:66
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_uniTasking)
+#: rc.cpp:21 rc.cpp:298
+#, fuzzy
+msgid "Allow only one timer at a time"
+msgstr "اسمح المؤقِت عند a وقت"
+
+#. i18n: file: cfgbehavior.ui:73
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_trayIcon)
+#: rc.cpp:24 rc.cpp:301
+#, fuzzy
+msgid "Place an icon to the system tray"
+msgstr "مكان أيقونة إلى"
+
+#. i18n: file: cfgdisplay.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:27 rc.cpp:247
+#, fuzzy
+msgctxt "title of group box, general options"
+msgid "General"
+msgstr "عام"
+
+#. i18n: file: cfgdisplay.ui:25
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_decimalFormat)
+#: rc.cpp:30 rc.cpp:250
+#, fuzzy
+msgid "Decimal number format"
+msgstr "عشري رقم تنسيق"
+
+#. i18n: file: cfgdisplay.ui:32
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_configPDA)
+#: rc.cpp:33 rc.cpp:253
+msgid ""
+"Choose this if you have a touchscreen and your screen real estate is precious"
+msgstr ""
+
+#. i18n: file: cfgdisplay.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_configPDA)
+#: rc.cpp:36 rc.cpp:256
+#, fuzzy
+msgctxt ""
+"Choose this if you have a touchscreen and your screen real estate is "
+"precious."
+msgid "Configuration for PDA"
+msgstr "التأكيد مطلوب"
+
+#. i18n: file: cfgdisplay.ui:45
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:39 rc.cpp:259
+#, fuzzy
+msgid "Columns Displayed"
+msgstr "الأعمدة"
+
+#. i18n: file: cfgdisplay.ui:51
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displaySessionTime)
+#: rc.cpp:42 rc.cpp:262
+#, fuzzy
+msgid "Session time"
+msgstr "الجلسة وقت"
+
+#. i18n: file: cfgdisplay.ui:58
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTime)
+#: rc.cpp:45 rc.cpp:265
+#, fuzzy
+msgid "Cumulative task time"
+msgstr "متراكم المهمة وقت"
+
+#. i18n: file: cfgdisplay.ui:65
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTotalSessionTime)
+#: rc.cpp:48 rc.cpp:268
+#, fuzzy
+msgid "Total session time"
+msgstr "المجموع جلسة وقت"
+
+#. i18n: file: cfgdisplay.ui:72
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTotalTime)
+#: rc.cpp:51 rc.cpp:271
+#, fuzzy
+msgid "Total task time"
+msgstr "المجموع المهمة وقت"
+
+#. i18n: file: cfgdisplay.ui:79
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayPriority)
+#: rc.cpp:54 rc.cpp:274 taskview.cpp:174
+#, fuzzy
+msgid "Priority"
+msgstr "الأولويّة"
+
+#. i18n: file: cfgdisplay.ui:86
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayPercentComplete)
+#: rc.cpp:57 rc.cpp:277
+#, fuzzy
+msgid "Percent complete"
+msgstr "بالمائة تام"
+
+#. i18n: file: cfgstorage.ui:28
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoSave)
+#: rc.cpp:60 rc.cpp:169
+#, fuzzy
+msgid "Save tasks every:"
+msgstr "احفظ كل"
+
+#. i18n: file: csvexportdialog_base.ui:13
+#. i18n: ectx: property (windowTitle), widget (KDialog, CSVExportDialogBase)
+#: rc.cpp:66 rc.cpp:175
+#, fuzzy
+msgid "CSV Export"
+msgstr "CVS صدِّر"
+
+#. i18n: file: csvexportdialog_base.ui:36
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: rc.cpp:69 rc.cpp:178
+#, fuzzy
+msgid "Export to:"
+msgstr "صدِّر إلى:"
+
+#. i18n: file: csvexportdialog_base.ui:46
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, urlExportTo)
+#: rc.cpp:72 rc.cpp:181
+#, fuzzy
+msgid "The file where Karm will write the data."
+msgstr "الـ ملفّ كتابة البيانات."
+
+#. i18n: file: csvexportdialog_base.ui:64
+#. i18n: ectx: property (text), widget (QLabel, quotesLabel)
+#: rc.cpp:75 rc.cpp:184
+#, fuzzy
+msgid "Quotes:"
+msgstr "علامات التصريح:"
+
+#. i18n: file: csvexportdialog_base.ui:85
+#. i18n: ectx: property (whatsThis), widget (QComboBox, cboQuote)
+#: rc.cpp:78 rc.cpp:187
+#, fuzzy
+msgid "All fields are quoted in the output."
+msgstr "الكل بوصة مخرجات."
+
+#. i18n: file: csvexportdialog_base.ui:89
+#. i18n: ectx: property (text), item, widget (QComboBox, cboQuote)
+#: rc.cpp:81 rc.cpp:190
+#, fuzzy
+msgid "\""
+msgstr "\""
+
+#. i18n: file: csvexportdialog_base.ui:94
+#. i18n: ectx: property (text), item, widget (QComboBox, cboQuote)
+#: rc.cpp:84 rc.cpp:193
+#, fuzzy
+msgid "'"
+msgstr "'"
+
+#. i18n: file: csvexportdialog_base.ui:105
+#. i18n: ectx: property (title), widget (QGroupBox, grpDateRange)
+#: rc.cpp:87 rc.cpp:196
+#, fuzzy
+msgid "Date Range"
+msgstr "في المدى للتاريخ"
+
+#. i18n: file: csvexportdialog_base.ui:108
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, grpDateRange)
+#: rc.cpp:90 rc.cpp:199
+#, fuzzy
+msgid ""
+"<p>An inclusive date range for reporting on time card history.  Not enabled "
+"when reporting on totals.</p>"
+msgstr "<p> أداة تعريف التاريخ المدى لـ يعمل وقت بطاقة تاريخ لا ممكن يعمل</p>"
+
+#. i18n: file: csvexportdialog_base.ui:114
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:93 rc.cpp:202
+#, fuzzy
+msgid "From:"
+msgstr "من:"
+
+#. i18n: file: csvexportdialog_base.ui:139
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:96 rc.cpp:205
+#, fuzzy
+msgid "To:"
+msgstr "إلى:"
+
+#. i18n: file: csvexportdialog_base.ui:181
+#. i18n: ectx: property (text), item, widget (QComboBox, combodecimalminutes)
+#: rc.cpp:102 rc.cpp:211
+#, fuzzy
+msgid "Hours:Minutes"
+msgstr "ساعات دقائق"
+
+#. i18n: file: csvexportdialog_base.ui:198
+#. i18n: ectx: property (text), item, widget (QComboBox, combosessiontimes)
+#: rc.cpp:105 rc.cpp:214
+#, fuzzy
+msgid "All Times"
+msgstr "الكل Times"
+
+#. i18n: file: csvexportdialog_base.ui:225
+#. i18n: ectx: property (text), item, widget (QComboBox, comboalltasks)
+#: rc.cpp:114 rc.cpp:223
+#, fuzzy
+msgid "Only Selected"
+msgstr "فقط مختار"
+
+#. i18n: file: csvexportdialog_base.ui:241
+#. i18n: ectx: property (title), widget (QGroupBox, grpDelimiter)
+#: rc.cpp:117 rc.cpp:226
+#, fuzzy
+msgid "Delimiter"
+msgstr "حد"
+
+#. i18n: file: csvexportdialog_base.ui:244
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, grpDelimiter)
+#: rc.cpp:120 rc.cpp:229
+#, fuzzy
+msgid "The character used to separate one field from another in the output."
+msgstr ""
+"الـ رمز\n"
+"حرف\n"
+"مِحرف مُستخدَم إلى حقل من بوصة مخرجات."
+
+#. i18n: file: csvexportdialog_base.ui:256
+#. i18n: ectx: property (text), widget (QRadioButton, radioTab)
+#: rc.cpp:123 rc.cpp:232
+#, fuzzy
+msgctxt "tabulator delimiter"
+msgid "Tab"
+msgstr "لسان"
+
+#. i18n: file: csvexportdialog_base.ui:263
+#. i18n: ectx: property (text), widget (QRadioButton, radioOther)
+#: rc.cpp:126 rc.cpp:235
+#, fuzzy
+msgctxt "user can set an user defined delimiter"
+msgid "Other:"
+msgstr "الآخر"
+
+#. i18n: file: csvexportdialog_base.ui:270
+#. i18n: ectx: property (text), widget (QRadioButton, radioSpace)
+#: rc.cpp:129 rc.cpp:238
+#, fuzzy
+msgid "Space"
+msgstr "فضائي"
+
+#. i18n: file: csvexportdialog_base.ui:277
+#. i18n: ectx: property (text), widget (QRadioButton, radioComma)
+#: rc.cpp:132 rc.cpp:241
+#, fuzzy
+msgid "Comma"
+msgstr "فاصلة"
+
+#. i18n: file: csvexportdialog_base.ui:314
+#. i18n: ectx: property (text), widget (QRadioButton, radioSemicolon)
+#: rc.cpp:135 rc.cpp:244
+#, fuzzy
+msgid "Semicolon"
+msgstr "فاصلة منقوطة"
+
+#. i18n: file: ktimetrackerui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:143 rc.cpp:304
+#, fuzzy
+msgid "&File"
+msgstr "&ملف"
+
+#. i18n: file: ktimetrackerui.rc:16
+#. i18n: ectx: Menu (import)
+#: rc.cpp:146 rc.cpp:307
+#, fuzzy
+msgid "&Import"
+msgstr "&إستورد"
+
+#. i18n: file: ktimetrackerui.rc:20
+#. i18n: ectx: Menu (export)
+#: rc.cpp:149 rc.cpp:310
+#, fuzzy
+msgid "&Export"
+msgstr "&صدّر"
+
+#. i18n: file: ktimetrackerui.rc:31
+#. i18n: ectx: Menu (clock)
+#: rc.cpp:152 rc.cpp:313
+#, fuzzy
+msgid "&Clock"
+msgstr "ساعة"
+
+#. i18n: file: ktimetrackerui.rc:38
+#. i18n: ectx: Menu (task)
+#: rc.cpp:155 rc.cpp:316
+#, fuzzy
+msgid "&Task"
+msgstr "&مهمة"
+
+#. i18n: file: ktimetrackerui.rc:49
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:158 rc.cpp:319
+#, fuzzy
+msgid "&Settings"
+msgstr "إ&عدادات"
+
+#. i18n: file: ktimetrackerui.rc:56
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:161 rc.cpp:322
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسي"
+
+#. i18n: file: ktimetrackerui.rc:65
+#. i18n: ectx: ToolBar (taskToolBar)
+#: rc.cpp:164 rc.cpp:325
+#, fuzzy
+msgid "Tasks"
+msgstr "المهام"
+
+#: rc.cpp:165
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "فريق تعريب لينكس"
+
+#: rc.cpp:166
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "contact@arabeyes.org"
+
+#: taskview.cpp:172
+msgid "Task Name"
+msgstr "اسم المهمة"
+
+#: taskview.cpp:172
+msgid "Session Time"
+msgstr "وقت المهمة"
+
+#: taskview.cpp:172 timekard.cpp:66
+#, fuzzy
+msgid "Time"
+msgstr "الوقت"
+
+#: taskview.cpp:173
+#, fuzzy
+msgid "Total Session Time"
+msgstr "المجموع الجلسة الوقت"
+
+#: taskview.cpp:173
+msgid "Total Time"
+msgstr "الوقت الكلي"
+
+#: taskview.cpp:174
+#, fuzzy
+msgid "Percent Complete"
+msgstr "بالمائة تام"
+
+#: taskview.cpp:224
+#, fuzzy, kde-format
+msgid "%1 %"
+msgstr "%1 %"
+
+#: taskview.cpp:237
+#, fuzzy
+msgid "unspecified"
+msgstr "غير محددة"
+
+#: taskview.cpp:240
+#, fuzzy
+msgctxt "combox entry for highest priority"
+msgid "1 (highest)"
+msgstr "1 (الأعلى)"
+
+#: taskview.cpp:243
+#, fuzzy
+msgctxt "combox entry for medium priority"
+msgid "5 (medium)"
+msgstr "5 (الوسط)"
+
+#: taskview.cpp:246
+#, fuzzy
+msgctxt "combox entry for lowest priority"
+msgid "9 (lowest)"
+msgstr "9 (الأقل)"
+
+#: taskview.cpp:286 taskview.cpp:838
+#, fuzzy
+msgid ""
+"Error storing new task. Your changes were not saved. Make sure you can edit "
+"your iCalendar file. Also quit all applications using this file and remove "
+"any lock file related to its name from ~/.kde/share/apps/kabc/lock/ "
+msgstr ""
+"خطأ جديد المهمة ملكك ليس Make حرّر ملفّ أيضًا اخرج الكل تطبيقات ملفّ و أزِل أي "
+"منها قفل ملفّ إلى الإسم من مشاركات قفل "
+
+#: taskview.cpp:453
+msgid "Your virtual desktop number is too high, desktop tracking will not work"
+msgstr ""
+
+#: taskview.cpp:667
+msgid "Successfully saved file "
+msgstr ""
+
+#: taskview.cpp:669
+msgid "Could not save. Disk full ?"
+msgstr ""
+
+#: taskview.cpp:670
+#, fuzzy
+msgid "Could not save."
+msgstr "لم أتمكن من فتح \"%1\"."
+
+#: taskview.cpp:811
+msgid "New Task"
+msgstr "مهمة جديدة"
+
+#: taskview.cpp:823 taskview.cpp:898
+msgid "Unnamed Task"
+msgstr "مهمة من دون اسم"
+
+#: taskview.cpp:877
+msgid "New Sub Task"
+msgstr "مهمة فرعية جديدة"
+
+#: taskview.cpp:891
+msgid "Edit Task"
+msgstr "حرر المهمة"
+
+#: taskview.cpp:933 taskview.cpp:971 taskview.cpp:1006
+#, fuzzy
+msgid "No task selected."
+msgstr "لا المهمة مُنتقى."
+
+#: taskview.cpp:979
+#, fuzzy
+msgid ""
+"Are you sure you want to delete the selected task(s) and their entire "
+"history?\n"
+"NOTE: all subtasks and their history will also be deleted."
+msgstr "هل إلى حذف المهمة مسمى n و تاريخ الكل و تاريخ محذوف."
+
+#: taskview.cpp:983
+#, fuzzy
+#| msgid "Deleting Task"
+msgid "Deleting Task(s)"
+msgstr "جاري إلغاء المهمة"
+
+#: timekard.cpp:62
+#, fuzzy
+msgid "Task Totals"
+msgstr "مهمَّة المجاميع"
+
+#: timekard.cpp:97
+#, fuzzy
+#| msgid "Total"
+msgctxt "total time of all tasks"
+msgid "Total"
+msgstr "المجموع"
+
+#: timekard.cpp:100
+#, fuzzy
+msgid "No tasks."
+msgstr "لا."
+
+#: timekard.cpp:160
+#, fuzzy, kde-format
+msgid "Week of %1"
+msgstr "الأسبوع من 1"
+
+#: timetrackerwidget.cpp:103
+#, fuzzy
+msgid "Search or add task"
+msgstr "ابحث أو اضف المهمة"
+
+#: timetrackerwidget.cpp:104
+msgid ""
+"This is a combined field. As long as you do not type ENTER, it acts as a "
+"filter. Then, only tasks that match your input are shown. As soon as you "
+"type ENTER, your input is used as name to create a new task."
+msgstr ""
+
+#: timetrackerwidget.cpp:183
+#, fuzzy
+msgid "Cannot create new file."
+msgstr "لا يستطيع إ_نشيء جديد ملفّ."
+
+#: timetrackerwidget.cpp:196 timetrackerwidget.cpp:442
+#, fuzzy
+msgid "Untitled"
+msgstr "بدون عنوان"
+
+#: timetrackerwidget.cpp:295
+msgid "Start &New Session"
+msgstr ""
+
+#: timetrackerwidget.cpp:296
+msgid "Starts a new session"
+msgstr ""
+
+#: timetrackerwidget.cpp:296
+msgid ""
+"This will reset the session time to 0 for all tasks, to start a new session, "
+"without affecting the totals."
+msgstr ""
+
+#: timetrackerwidget.cpp:299
+#, fuzzy
+msgid "Edit History..."
+msgstr "تحرير التاريخ"
+
+#: timetrackerwidget.cpp:300
+msgid "Edits history of all tasks of the current document"
+msgstr ""
+
+#: timetrackerwidget.cpp:300
+msgid ""
+"A window will be opened where you can change start and stop times of tasks "
+"or add a comment to them."
+msgstr ""
+
+#: timetrackerwidget.cpp:303
+#, fuzzy
+msgid "&Reset All Times"
+msgstr "إعادة تعيين الكل Times"
+
+#: timetrackerwidget.cpp:304
+#, fuzzy
+msgid "Resets all times"
+msgstr "إعادة تعيين الكل Times"
+
+#: timetrackerwidget.cpp:304
+msgid ""
+"This will reset the session and total time to 0 for all tasks, to restart "
+"from scratch."
+msgstr ""
+
+#: timetrackerwidget.cpp:306
+#, fuzzy
+#| msgid "Total Time"
+msgid "&Start"
+msgstr "ابدأ"
+
+#: timetrackerwidget.cpp:307
+msgid "Starts timing for selected task"
+msgstr ""
+
+#: timetrackerwidget.cpp:307
+msgid ""
+"This will start timing for the selected task.\n"
+"It is even possible to time several tasks simultanously.\n"
+"\n"
+"You may also start timing of tasks by double clicking the left mouse button "
+"on a given task. This will, however, stop timing of other tasks."
+msgstr ""
+
+#: timetrackerwidget.cpp:312
+msgid "S&top"
+msgstr ""
+
+#: timetrackerwidget.cpp:313
+msgid "Stops timing of the selected task"
+msgstr ""
+
+#: timetrackerwidget.cpp:314
+msgid "Focus on Searchbar"
+msgstr ""
+
+#: timetrackerwidget.cpp:315
+msgid "Sets the focus on the searchbar"
+msgstr ""
+
+#: timetrackerwidget.cpp:316
+#, fuzzy
+msgid "Stop &All Timers"
+msgstr "الكل Times"
+
+#: timetrackerwidget.cpp:317
+msgid "Stops all of the active timers"
+msgstr ""
+
+#: timetrackerwidget.cpp:318
+msgid "Track Active Applications"
+msgstr ""
+
+#: timetrackerwidget.cpp:319
+msgid ""
+"Auto-creates and updates tasks when the focus of the current window has "
+"changed"
+msgstr ""
+
+#: timetrackerwidget.cpp:320
+msgid ""
+"If the focus of a window changes for the first time when this action is "
+"enabled, a new task will be created with the title of the window as its name "
+"and will be started. If there already exists such an task it will be started."
+msgstr ""
+
+#: timetrackerwidget.cpp:324
+#, fuzzy
+#| msgid "New Task"
+msgid "&New Task..."
+msgstr "مهمة جديدة"
+
+#: timetrackerwidget.cpp:324
+msgid "Creates new top level task"
+msgstr ""
+
+#: timetrackerwidget.cpp:325
+msgid "This will create a new top level task."
+msgstr ""
+
+#: timetrackerwidget.cpp:326
+#, fuzzy
+#| msgid "New Sub Task"
+msgid "New &Subtask..."
+msgstr "مهمة فرعية جديدة"
+
+#: timetrackerwidget.cpp:327
+msgid "Creates a new subtask to the current selected task"
+msgstr ""
+
+#: timetrackerwidget.cpp:328
+msgid "This will create a new subtask to the current selected task."
+msgstr ""
+
+#: timetrackerwidget.cpp:329
+#, fuzzy
+msgid "&Delete"
+msgstr "حد"
+
+#: timetrackerwidget.cpp:329
+#, fuzzy
+msgid "Deletes selected task"
+msgstr "مختار مهمَّة"
+
+#: timetrackerwidget.cpp:330
+msgid "This will delete the selected task(s) and all subtasks."
+msgstr ""
+
+#: timetrackerwidget.cpp:332
+msgid "&Edit..."
+msgstr ""
+
+#: timetrackerwidget.cpp:333
+msgid "Edits name or times for selected task"
+msgstr ""
+
+#: timetrackerwidget.cpp:333
+msgid ""
+"This will bring up a dialog box where you may edit the parameters for the "
+"selected task."
+msgstr ""
+
+#: timetrackerwidget.cpp:335
+#, fuzzy
+msgid "&Mark as Complete"
+msgstr "بالمائة تام"
+
+#: timetrackerwidget.cpp:337
+msgid "&Mark as Incomplete"
+msgstr ""
+
+#: timetrackerwidget.cpp:339
+#, fuzzy
+msgid "&Export Times..."
+msgstr "&صدّر"
+
+#: timetrackerwidget.cpp:341
+#, fuzzy
+msgid "Export &History..."
+msgstr "تحرير التاريخ"
+
+#: timetrackerwidget.cpp:343
+msgid "Import Tasks From &Planner..."
+msgstr ""
+
+#: timetrackerwidget.cpp:345
+msgid "Show Searchbar"
+msgstr ""
+
+#: timetrackerwidget.cpp:441
+#, fuzzy
+msgid "This document has not been saved yet. Do you want to save it?"
+msgstr "هذا مستند ليس تنفيذ إلى حفظ الإيطالية?"
+
+#: timetrackerwidget.cpp:670
+#, fuzzy
+msgid "Settings"
+msgstr "إ&عدادات"
+
+#: timetrackerwidget.cpp:776
+msgctxt "@info in message box"
+msgid ""
+"There is no history yet. Start and stop a task and you will have an entry in "
+"your history."
+msgstr ""
+
+#: timetrackerwidget.cpp:784
+#, fuzzy
+msgid "Do you really want to reset the time to zero for all tasks?"
+msgstr ""
+"تنفيذ إلى أعد الضبط وقت إلى يضع أصفارا\n"
+"صفر لـ الكل?"
+
+#: timetrackerwidget.cpp:785
+#, fuzzy
+msgid "Confirmation Required"
+msgstr "التأكيد مطلوب"
+
+#: timetrackerwidget.cpp:785
+#, fuzzy
+msgid "Reset All Times"
+msgstr "إعادة تعيين الكل Times"
+
+#: timetrackerwidget.cpp:952
+#, fuzzy
+msgid "Save failed, most likely because the file could not be locked."
+msgstr "احفظ failed ملفّ ليس مقفل."
+
+#: timetrackerwidget.cpp:954
+#, fuzzy
+msgid "Could not modify calendar resource."
+msgstr "يمكن أن ليس تغيير رزنامة مورِد."
+
+#: timetrackerwidget.cpp:956
+#, fuzzy
+msgid "Out of memory--could not create object."
+msgstr "خارج من ذاكرة ليس إ_نشيء كائن."
+
+#: timetrackerwidget.cpp:958
+#, fuzzy
+msgid "UID not found."
+msgstr "رمز المستخدم ليس موجود."
+
+#: timetrackerwidget.cpp:960
+#, fuzzy
+msgid "Invalidate date--format is YYYY-MM-DD."
+msgstr "أبطل التاريخ تنسيق هو YYYY MM DD."
+
+#: timetrackerwidget.cpp:962
+#, fuzzy
+msgid "Invalid time--format is YYYY-MM-DDTHH:MM:SS."
+msgstr "غير صحيح وقت تنسيق هو YYYY MM MM ب‌ب."
+
+#: timetrackerwidget.cpp:964
+#, fuzzy
+msgid "Invalid task duration--must be greater than zero."
+msgstr ""
+"غير صحيح المهمة يضع أصفارا\n"
+"صفر."
+
+#: timetrackerwidget.cpp:966
+#, fuzzy, kde-format
+msgid "Invalid error number: %1"
+msgstr "غير صحيح خطأ رقم 1"
+
+#: timetrackerwidget.cpp:1231
+msgid ""
+"This is ktimetracker, KDE's program to help you track your time. Best, start "
+"with creating your first task - enter it into the field where you see "
+"\"search or add task\"."
+msgstr ""
+
+#: timetrackerwidget.cpp:1232
+msgid "You have already created a task. You can now start and stop timing"
+msgstr ""
+
+#: tray.cpp:147
+#, fuzzy
+msgid "No active tasks"
+msgstr "لا نشط"
+
+#: tray.cpp:152
+msgid ", ..."
+msgstr ""
+
+#: tray.cpp:167
+#, fuzzy
+msgid ", "
+msgstr "، "
+
+#: treeviewheadercontextmenu.cpp:47
+#, fuzzy
+msgid "Columns"
+msgstr "الأعمدة"
+
+#: treeviewheadercontextmenu.cpp:140
+#, fuzzy
+msgid "Show"
+msgstr "اعرض"
+
+#: treeviewheadercontextmenu.cpp:140
+#, fuzzy
+msgid "Hide"
+msgstr "إخفاء"
+
+#, fuzzy
+#~ msgid "Behavior"
+#~ msgstr "السلوك"
+
+#, fuzzy
+#~ msgid "Storage"
+#~ msgstr "مخزن"
+
+#, fuzzy
+#~| msgid "Total Time"
+#~ msgid "Start/Stop Timer"
+#~ msgstr "ابدأ"
+
+#, fuzzy
+#~ msgid "Session: %1"
+#~ msgstr "الجلسة 1"
+
+#, fuzzy
+#~ msgctxt "total time of all tasks"
+#~ msgid "Total: %1"
+#~ msgstr "المجموع: %1"
+
+#~ msgid "Session"
+#~ msgstr "الجلسة"
+
+#, fuzzy
+#~ msgid "Alternating row colors"
+#~ msgstr "التّناوب صف ألوان"
+
+#, fuzzy
+#~ msgid "No hours logged."
+#~ msgstr "لا ساعات."
+
+#, fuzzy
+#~ msgid "Task History"
+#~ msgstr "مهمَّة التاريخ"
+
+#, fuzzy
+#~ msgid "From %1 to %2"
+#~ msgstr "من إلى 2"
+
+#, fuzzy
+#~ msgid "Printed on: %1"
+#~ msgstr "مطبوع يعمل 1"
+
+#, fuzzy
+#~ msgid "Selected Task"
+#~ msgstr "مختار مهمَّة"
+
+#, fuzzy
+#~ msgid "Summarize per week"
+#~ msgstr "لخّص أسبوع"
+
+#, fuzzy
+#~ msgid "Totals only"
+#~ msgstr "المجاميع"
+
+#~ msgid "KArm"
+#~ msgstr "KArm"
+
+#, fuzzy
+#~ msgid "Saved successfully"
+#~ msgstr "منقذ"
+
+#, fuzzy
+#~ msgid ""
+#~ "Are you sure you want to delete the task named\n"
+#~ "\"%1\" and its entire history?"
+#~ msgstr "هل إلى حذف المهمة مسمى n و تاريخ?"
+
+#, fuzzy
+#~ msgctxt "settings page for customizing user interface"
+#~ msgid "Display"
+#~ msgstr "العرض"
+
+#, fuzzy
+#~ msgid "Error during saving"
+#~ msgstr "خطأ"
+
+#, fuzzy
+#~ msgid "Task History\n"
+#~ msgstr "مهمَّة التاريخ n"
+
+#, fuzzy
+#~ msgid "Sum"
+#~ msgstr "مجموع"
+
+#, fuzzy
+#~ msgid "Total Sum"
+#~ msgstr "المجموع مجموع"
+
+#, fuzzy
+#~ msgid "Task Hierarchy"
+#~ msgstr "مهمَّة التدرج"
+
+#, fuzzy
+#~ msgid "  No hours logged."
+#~ msgstr "لا ساعات."
+
+#, fuzzy
+#~ msgid "Print Times"
+#~ msgstr "اطبع Times"
+
+#~ msgid "Task Name "
+#~ msgstr "اسم المهمة"
+
+#~ msgid "KArm - %1"
+#~ msgstr "KArm - %1"

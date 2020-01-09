@@ -1,0 +1,116 @@
+# translation of katekonsoleplugin.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: katekonsoleplugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-26 10:49+0100\n"
+"PO-Revision-Date: 2007-10-14 15:58+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: kateconsole.cpp:54
+msgid "Konsole"
+msgstr ""
+
+#: kateconsole.cpp:54
+msgid "Embedded Konsole"
+msgstr ""
+
+#: kateconsole.cpp:61
+#, fuzzy
+msgid "You do not have enough karma to access a shell or terminal emulation"
+msgstr "أنت ليس إلى وصول a صدَفة أو شاشة طرفية محاكاه"
+
+#: kateconsole.cpp:83 kateconsole.cpp:108
+#, fuzzy
+msgid "Terminal"
+msgstr "شاشة طرفية"
+
+#: kateconsole.cpp:89
+#, fuzzy
+msgid "Terminal Settings"
+msgstr "شاشة طرفية خصائص"
+
+#: kateconsole.cpp:136
+#, fuzzy
+msgctxt "@action"
+msgid "&Pipe to Terminal"
+msgstr "انبوب إلى شاشة طرفية"
+
+#: kateconsole.cpp:140
+#, fuzzy
+msgctxt "@action"
+msgid "S&ynchronize Terminal with Current Document"
+msgstr "شاشة طرفية مع الحالي مستند"
+
+#: kateconsole.cpp:145
+#, fuzzy
+msgctxt "@action"
+msgid "&Focus Terminal"
+msgstr "التركيز شاشة طرفية"
+
+#: kateconsole.cpp:230
+#, fuzzy
+msgid ""
+"Do you really want to pipe the text to the console? This will execute any "
+"contained commands with your user rights."
+msgstr "تنفيذ إلى أنبوب نص إلى لوحة تحكم هذا نفِّذ أي منها مع مستخدم."
+
+#: kateconsole.cpp:231
+#, fuzzy
+msgid "Pipe to Terminal?"
+msgstr "انبوب إلى شاشة طرفية?"
+
+#: kateconsole.cpp:232
+#, fuzzy
+msgid "Pipe to Terminal"
+msgstr "انبوب إلى شاشة طرفية"
+
+#: kateconsole.cpp:253
+#, fuzzy, kde-format
+msgid "Sorry, can not cd into '%1'"
+msgstr "عذراً ليس قرص مدمج"
+
+#: kateconsole.cpp:269 kateconsole.cpp:285
+#, fuzzy
+msgid "Defocus Terminal"
+msgstr "أزل التركيز شاشة طرفية"
+
+#: kateconsole.cpp:278
+#, fuzzy
+msgid "Focus Terminal"
+msgstr "التركيز شاشة طرفية"
+
+#: kateconsole.cpp:304
+#, fuzzy
+msgid ""
+"&Automatically synchronize the terminal with the current document when "
+"possible"
+msgstr "تلقائياً شاشة طرفية مع الحالي مستند"
+
+#. i18n: file: ui.rc:4
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:3
+#, fuzzy
+msgid "&Tools"
+msgstr "أ&دوات"
+
+#: rc.cpp:4
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:5
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""

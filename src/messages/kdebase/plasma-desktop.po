@@ -1,0 +1,287 @@
+# translation of plasma.po to Arabic
+# translation of plasma.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007, 2008.
+# Abdulaziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-06-26 07:34+0200\n"
+"PO-Revision-Date: 2009-07-08 15:32+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+
+#: backgrounddialog.cpp:363
+msgid "Desktop Settings"
+msgstr "إعدادت سطح المكتب"
+
+#: backgrounddialog.cpp:376
+msgid ""
+"This picture of a monitor contains a preview of what the current settings "
+"will look like on your desktop."
+msgstr ""
+"هذه الشاشة تعرض معاينة لما سوف يكون عليه سطح مكتبة إذا طبقت الإعدادات الحالية"
+
+#: backgrounddialog.cpp:401
+msgid "Appearance"
+msgstr "المظهر"
+
+#: dashboardview.cpp:62
+msgid "Hide Dashboard"
+msgstr "اخف لوحة الودجات"
+
+#: dashboardview.cpp:96
+msgid "Widget Dashboard"
+msgstr "لوحة الودجات"
+
+#: dashboardview.cpp:143 plasmaapp.cpp:612
+msgid "Add Widgets"
+msgstr "أضف ودجات"
+
+#: desktopcorona.cpp:139
+msgid "Desktop"
+msgstr "سطح المكتب"
+
+#: desktopview.cpp:152
+msgid "Next Activity"
+msgstr "النشاط التالي"
+
+#: desktopview.cpp:156
+msgid "Previous Activity"
+msgstr "النشاط السابق"
+
+#: main.cpp:29
+msgid "The KDE desktop, panels and widgets workspace application."
+msgstr "مكتب سطح كدي ، اللوحات و ودجات تطبيقات مكان العمل."
+
+#: main.cpp:35
+msgid "Plasma Workspace"
+msgstr "مكان عمل بلازما"
+
+#: main.cpp:37
+msgid "Copyright 2006-2009, The KDE Team"
+msgstr "Copyright 2006-2009 ، فريق كدي"
+
+#: main.cpp:38
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:39
+msgid "Author and maintainer"
+msgstr "المؤلف والمشرف"
+
+#: main.cpp:41
+msgid "John Lions"
+msgstr "John Lions"
+
+#: main.cpp:42
+msgid "In memory of his contributions, 1937-1998."
+msgstr "كذكرى لمساهماته ، 1937-1998."
+
+#: panelcontroller.cpp:439
+msgid "Panel Alignment"
+msgstr "محاذة اللوحة"
+
+#: panelcontroller.cpp:442 panelcontroller.cpp:715
+msgid "Left"
+msgstr "اليسار"
+
+#: panelcontroller.cpp:448
+msgid "Center"
+msgstr "وسط"
+
+#: panelcontroller.cpp:453 panelcontroller.cpp:716
+msgid "Right"
+msgstr "يمين"
+
+#: panelcontroller.cpp:464
+msgid "Visibility"
+msgstr "الرؤية"
+
+#: panelcontroller.cpp:467
+msgid "Always visible"
+msgstr "مرئي دائما"
+
+#: panelcontroller.cpp:472
+msgid "Auto-hide"
+msgstr "إخفاء آلي"
+
+#: panelcontroller.cpp:477
+msgid "Windows can cover"
+msgstr "يمكن للنوافذ أن تغطيه"
+
+#: panelcontroller.cpp:482
+msgid "Windows go below"
+msgstr "النوفذ تذهب أسفله"
+
+#: panelcontroller.cpp:488
+msgid "Screen Edge"
+msgstr "حافة الشاشة"
+
+#: panelcontroller.cpp:494 panelcontroller.cpp:712
+msgid "Height"
+msgstr "الإرتفاع"
+
+#: panelcontroller.cpp:504
+msgid "More Settings"
+msgstr "إعدادات أكثر"
+
+#: panelcontroller.cpp:516
+msgid "Maximize Panel"
+msgstr "كبر اللوحة"
+
+#: panelcontroller.cpp:522
+msgid "Close this configuration window"
+msgstr "أغلق نافذة الضبط هذه"
+
+#: panelcontroller.cpp:572
+msgid "Add Spacer"
+msgstr "اضف مباعد"
+
+#: panelcontroller.cpp:699
+msgid "Width"
+msgstr "العرض"
+
+#: panelcontroller.cpp:702
+msgid "Top"
+msgstr "فوق"
+
+#: panelcontroller.cpp:703
+msgid "Bottom"
+msgstr "تحت"
+
+#: plasmaapp.cpp:216
+msgid "Show Dashboard"
+msgstr "أظهر لوحة الودجات"
+
+#: plasmaapp.cpp:553
+msgid "Add Activity"
+msgstr "أضف نشاط"
+
+#: plasmaapp.cpp:562
+msgid "Zoom Out"
+msgstr "صغر"
+
+#: plasmaapp.cpp:954
+msgid "Configure Plasma..."
+msgstr "اضبط بلازما..."
+
+#: plasmaapp.cpp:972
+msgid "Plasma settings"
+msgstr "إعدادات بلازما"
+
+#: positioningruler.cpp:462
+msgid "Move this slider to set the panel position"
+msgstr "حرك هذا المزلاق لتعين موضع اللوحة"
+
+#: positioningruler.cpp:465
+msgid "Move this slider to set the maximum panel size"
+msgstr "حرك هذا المزلاق لتضع أكبر مقاس للوحة"
+
+#: positioningruler.cpp:468
+msgid "Move this slider to set the minimum panel size"
+msgstr "حرك هذا المزلاق لضع أصغر مقاس للوحة"
+
+#. i18n: file: BackgroundDialog.ui:35
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:3 rc.cpp:44
+msgid "Desktop Activity"
+msgstr "نشاط سطح المكتب"
+
+#. i18n: file: BackgroundDialog.ui:42
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: BackgroundDialog.ui:239
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
+#. i18n: file: BackgroundDialog.ui:42
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: file: BackgroundDialog.ui:239
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
+#: rc.cpp:6 rc.cpp:27 rc.cpp:47 rc.cpp:68
+msgid "Type:"
+msgstr "النوع:"
+
+#. i18n: file: BackgroundDialog.ui:93
+#. i18n: ectx: property (text), widget (QLabel, m_monitor)
+#: rc.cpp:9 rc.cpp:50
+msgid "Monitor"
+msgstr "الشاشة"
+
+#. i18n: file: BackgroundDialog.ui:118
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:12 rc.cpp:53
+msgid "Name:"
+msgstr "الاسم:"
+
+#. i18n: file: BackgroundDialog.ui:160
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:15 rc.cpp:56
+msgid "Desktop Theme"
+msgstr "سمة سطح المكتب"
+
+#. i18n: file: BackgroundDialog.ui:173
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:18 rc.cpp:59
+msgid "Theme:"
+msgstr "السمة:"
+
+#. i18n: file: BackgroundDialog.ui:199
+#. i18n: ectx: property (text), widget (QPushButton, m_newThemeButton)
+#: rc.cpp:21 rc.cpp:62
+msgid "New Theme..."
+msgstr "سمة جديدة..."
+
+#. i18n: file: BackgroundDialog.ui:218
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperLabel)
+#: rc.cpp:24 rc.cpp:65
+msgid "Wallpaper"
+msgstr "خلفية الشاشة"
+
+#. i18n: file: globaloptions.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:30 rc.cpp:71
+msgid "Different activity for each desktop"
+msgstr "نشاط مختلف لكل سطح مكتب"
+
+#. i18n: file: globaloptions.ui:31
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:33 rc.cpp:74
+msgid "Use a separate dashboard"
+msgstr "استعمل لوحات ودجات منفصلة"
+
+#: rc.cpp:34
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "يوسف الشهيبي,زايد السعيدي"
+
+#: rc.cpp:35
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "chahibi@gmail.com,zayed.alsaidi@gmail.com"
+
+#. i18n: file: kcfg/plasma-shell-desktop.kcfg:10
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:38
+msgid "The font to use on the desktop"
+msgstr "الخط المستخدم في سطح المكتب"
+
+#. i18n: file: kcfg/plasma-shell-desktop.kcfg:15
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:41
+msgid ""
+"Set to true if each virtual desktop should get its own, unique Plasma view."
+msgstr "ضع صح إذا كان يجب أن يحصل كل سطح مكتب افتراضي عرض بلازما خاص ومتفرد به"
+
+#~ msgid "Starts plasma as an ordinary window rather than as the desktop."
+#~ msgstr "أبدء بلازما كنافذة عادية، بدل استعماله كسطح المكتب."

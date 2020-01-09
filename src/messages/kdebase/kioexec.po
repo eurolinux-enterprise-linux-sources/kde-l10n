@@ -1,0 +1,147 @@
+# translation of kioexec.po to Arabic
+# translation of kioexec.po to
+# Copyright (C) 2004, 2007, 2008 Free Software Foundation, Inc.
+#
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Mohammed Yousif <mhdyousif@gmx.net>, 2004.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kioexec\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-10-14 09:42+0200\n"
+"PO-Revision-Date: 2008-12-06 21:29+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+
+#: main.cpp:46
+msgid "KIO Exec - Opens remote files, watches modifications, asks for upload"
+msgstr ""
+"برنامج KIO Exec - يقوم بفتح الملفات البعيدة ومراقبة أية تعديلات عليها ، ثم "
+"يسألك عن إرسال التعديلات."
+
+#: main.cpp:54
+msgid "'command' expected.\n"
+msgstr "متوقّع 'الأمر'.\n"
+
+#: main.cpp:83
+#, kde-format
+msgid ""
+"The URL %1\n"
+"is malformed"
+msgstr ""
+"العنوان %1\n"
+"مشوّه"
+
+#: main.cpp:85
+#, kde-format
+msgid ""
+"Remote URL %1\n"
+"not allowed with --tempfiles switch"
+msgstr ""
+"العنوان البعيد %1\n"
+"غير مسموح به مع مبدّل --tempfiles"
+
+#: main.cpp:218
+#, kde-format
+msgid ""
+"The supposedly temporary file\n"
+"%1\n"
+"has been modified.\n"
+"Do you still want to delete it?"
+msgstr ""
+"الملف المؤقت المفترض\n"
+"%1\n"
+"تم تعديله\n"
+"هل تريد حذفه؟"
+
+#: main.cpp:219 main.cpp:226
+msgid "File Changed"
+msgstr "لقد تغيَر الملف"
+
+#: main.cpp:219
+msgid "Do Not Delete"
+msgstr "لا تحذف"
+
+#: main.cpp:225
+#, kde-format
+msgid ""
+"The file\n"
+"%1\n"
+"has been modified.\n"
+"Do you want to upload the changes?"
+msgstr ""
+"الملف\n"
+"%1\n"
+"تم تعديله\n"
+"هل تريد إرسال التغييرات؟"
+
+#: main.cpp:226
+msgid "Upload"
+msgstr "ارسل"
+
+#: main.cpp:226
+msgid "Do Not Upload"
+msgstr "لا ترسل"
+
+#: main.cpp:255
+msgid "KIOExec"
+msgstr "برنامج KIOExec "
+
+#: main.cpp:257
+msgid "(c) 1998-2000,2003 The KFM/Konqueror Developers"
+msgstr "(c) 1998-2000,2003 The KFM/Konqueror Developers"
+
+#: main.cpp:258
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:259
+msgid "Stephan Kulow"
+msgstr "Stephan Kulow"
+
+#: main.cpp:260
+msgid "Bernhard Rosenkraenzer"
+msgstr "Bernhard Rosenkraenzer"
+
+#: main.cpp:261
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: main.cpp:262
+msgid "Oswald Buddenhagen"
+msgstr "Oswald Buddenhagen"
+
+#: main.cpp:267
+msgid "Treat URLs as local files and delete them afterwards"
+msgstr "عامل العناوين كملفات محليَة وإحذفهم فيما بعد"
+
+#: main.cpp:268
+msgid "Suggested file name for the downloaded file"
+msgstr "اسم الملف المقترح لملف التنزيل"
+
+#: main.cpp:269
+msgid "Command to execute"
+msgstr "الأمر للتنفيذ"
+
+#: main.cpp:270
+msgid "URL(s) or local file(s) used for 'command'"
+msgstr "العناوين  أو الملفات المحلَية المستخدمة لـِ'الأمر' "
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"

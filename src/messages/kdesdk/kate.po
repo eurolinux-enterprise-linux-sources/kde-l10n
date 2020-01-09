@@ -1,0 +1,1729 @@
+# translation of kate.po to
+# This the Arabic Translation file for the KDE Advances Text Editor.
+# Copyright (C) 2001,2002, 2004, 2006, 2007 Free Software Foundation, Inc.
+#
+# Ammer Alsabbagh <whollyboss@yahoo.com>, 2001.
+# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Ossama Khayat <okhayat@yahoo.com>, 2004.
+# Ossama M. Khayat <okhayat@yahoo.com>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kate\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-09 01:21+0100\n"
+"PO-Revision-Date: 2007-10-14 15:58+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "عصام بايزيدي,وسيم بكر,أسامة محمد خياط,محمد سعد Mohamed SAAD"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "bayazidi@arabeyes.org,bakr@mit.edu,okhayat@yahoo.com,metehyi@free.fr"
+
+#. i18n: file ./plugins/filetemplates/templates/cppgpl.hh.katetemplate line 1
+#: rc.cpp:4
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "C++ Header (GPL)"
+msgstr "C ترويسة GPL"
+
+#. i18n: file ./plugins/filetemplates/templates/cppgpl.hh.katetemplate line 1
+#. i18n: file ./plugins/filetemplates/templates/cppgpl.cpp.katetemplate line 1
+#. i18n: file ./plugins/filetemplates/templates/cpplgpl.cpp.katetemplate line 1
+#. i18n: file ./plugins/filetemplates/templates/cpplgpl.hh.katetemplate line 1
+#. i18n: file ./plugins/filetemplates/templates/cppgpl.hh.katetemplate line 1
+#. i18n: file ./plugins/filetemplates/templates/cppgpl.cpp.katetemplate line 1
+#. i18n: file ./plugins/filetemplates/templates/cpplgpl.cpp.katetemplate line 1
+#. i18n: file ./plugins/filetemplates/templates/cpplgpl.hh.katetemplate line 1
+#: rc.cpp:6 rc.cpp:14 rc.cpp:30 rc.cpp:46
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "Source Code"
+msgstr "نص البرنامج المصدري"
+
+#. i18n: file ./plugins/filetemplates/templates/cppgpl.hh.katetemplate line 2
+#: rc.cpp:8
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "A very simple GPL C++ header file"
+msgstr "A بسيط GPL C عنوان رأسي ملفّ"
+
+#. i18n: file ./plugins/filetemplates/templates/cppgpl.hh.katetemplate line 3
+#. i18n: file ./plugins/filetemplates/templates/cppgpl.cpp.katetemplate line 3
+#. i18n: file ./plugins/filetemplates/templates/html.katetemplate line 4
+#. i18n: file ./plugins/filetemplates/templates/cpplgpl.cpp.katetemplate line 3
+#. i18n: file ./plugins/filetemplates/templates/docbookchapter.xml.katetemplate line 4
+#. i18n: file ./plugins/filetemplates/templates/cpplgpl.hh.katetemplate line 3
+#. i18n: file ./plugins/filetemplates/templates/cppgpl.hh.katetemplate line 3
+#. i18n: file ./plugins/filetemplates/templates/cppgpl.cpp.katetemplate line 3
+#. i18n: file ./plugins/filetemplates/templates/html.katetemplate line 4
+#. i18n: file ./plugins/filetemplates/templates/cpplgpl.cpp.katetemplate line 3
+#. i18n: file ./plugins/filetemplates/templates/docbookchapter.xml.katetemplate line 4
+#. i18n: file ./plugins/filetemplates/templates/cpplgpl.hh.katetemplate line 3
+#: rc.cpp:10 rc.cpp:18 rc.cpp:26 rc.cpp:34 rc.cpp:42 rc.cpp:50
+#, fuzzy
+msgctxt "@info:credit"
+msgid "Anders Lund <anders@alweb.dk>"
+msgstr "أندرس Lund<anders@alweb.dk>"
+
+#. i18n: file ./plugins/filetemplates/templates/cppgpl.cpp.katetemplate line 1
+#: rc.cpp:12
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "C++ Source File (GPL)"
+msgstr "C المصدر ملف GPL"
+
+#. i18n: file ./plugins/filetemplates/templates/cppgpl.cpp.katetemplate line 2
+#: rc.cpp:16
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "A very simple GPL C++ source file"
+msgstr "A بسيط GPL C مصدر ملفّ"
+
+#. i18n: file ./plugins/filetemplates/templates/html.katetemplate line 1
+#: rc.cpp:20
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "HTML 4.01 Strict Document"
+msgstr "HTML صارم مستند"
+
+#. i18n: file ./plugins/filetemplates/templates/html.katetemplate line 2
+#: rc.cpp:22
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "Internet"
+msgstr "إنترنت"
+
+#. i18n: file ./plugins/filetemplates/templates/html.katetemplate line 3
+#: rc.cpp:24
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "This will create a very basic HTML file with the HTML 4.01 strict DTD."
+msgstr "هذا إ_نشيء a HTML ملفّ مع HTML صارم DTD."
+
+#. i18n: file ./plugins/filetemplates/templates/cpplgpl.cpp.katetemplate line 1
+#: rc.cpp:28
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "C++ Source File (LGPL)"
+msgstr "C المصدر ملف LGPL"
+
+#. i18n: file ./plugins/filetemplates/templates/cpplgpl.cpp.katetemplate line 2
+#: rc.cpp:32
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "A very simple LGPL C++ source file"
+msgstr "A بسيط LGPL C مصدر ملفّ"
+
+#. i18n: file ./plugins/filetemplates/templates/docbookchapter.xml.katetemplate line 1
+#: rc.cpp:36
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "Kate Plugin Docbook Chapter"
+msgstr "Kate ملحق الفصل"
+
+#. i18n: file ./plugins/filetemplates/templates/docbookchapter.xml.katetemplate line 2
+#: rc.cpp:38
+#, fuzzy
+#| msgid "Document to open"
+msgctxt "@item:inmenu"
+msgid "Documentation"
+msgstr "التوثيق"
+
+#. i18n: file ./plugins/filetemplates/templates/docbookchapter.xml.katetemplate line 3
+#: rc.cpp:40
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid ""
+"This creates a suitable beginning of a docbook chapter for a Kate plugin."
+msgstr "هذا a من a لـ a Kate ملحق."
+
+#. i18n: file ./plugins/filetemplates/templates/cpplgpl.hh.katetemplate line 1
+#: rc.cpp:44
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "C++ Header (LGPL)"
+msgstr "C ترويسة LGPL"
+
+#. i18n: file ./plugins/filetemplates/templates/cpplgpl.hh.katetemplate line 2
+#: rc.cpp:48
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid "A very simple LGPL C++ header file"
+msgstr "A بسيط LGPL C عنوان رأسي ملفّ"
+
+#. i18n: file ./plugins/filetemplates/templates/language.xml.katetemplate line 1
+#: rc.cpp:52
+#, fuzzy
+msgctxt "@item:inmenu"
+msgid "Kate Highlight Definition"
+msgstr "Kate إبراز تعريف"
+
+#. i18n: file ./plugins/filetemplates/templates/language.xml.katetemplate line 3
+#: rc.cpp:54
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid ""
+"This template will create the basics of a kate highlight definition file."
+msgstr "هذا قالب إ_نشيء من a يميّز تعريف ملفّ."
+
+#. i18n: file ./plugins/filetemplates/templates/language.xml.katetemplate line 2
+#: rc.cpp:56
+msgctxt "@info:credit"
+msgid "Dominik Haumann <dhdev@gmx.de>"
+msgstr ""
+
+#. i18n: file: data/kateui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:59
+#, fuzzy
+msgid "&File"
+msgstr "&ملف"
+
+#. i18n: file: data/kateui.rc:34
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:62
+#, fuzzy
+msgid "&Edit"
+msgstr "&حرّر"
+
+#. i18n: file: data/kateui.rc:45
+#. i18n: ectx: Menu (go)
+#: rc.cpp:65
+msgid "&Go"
+msgstr ""
+
+#. i18n: file: data/kateui.rc:54
+#. i18n: ectx: Menu (view)
+#: rc.cpp:68
+#, fuzzy
+msgid "&View"
+msgstr "ا&عرض"
+
+#. i18n: file: data/kateui.rc:57
+#. i18n: ectx: Menu (view-split)
+#: rc.cpp:71
+#, fuzzy
+msgid "Split View"
+msgstr "تقسيم رأسي"
+
+#. i18n: file: data/kateui.rc:70
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:74
+#, fuzzy
+msgid "&Tools"
+msgstr "أ&دوات"
+
+#. i18n: file: data/kateui.rc:77
+#. i18n: ectx: Menu (sessions)
+#: rc.cpp:77
+msgid "Sess&ions"
+msgstr "&جلسات"
+
+#. i18n: file: data/kateui.rc:89
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:80
+#, fuzzy
+msgid "&Settings"
+msgstr "إ&عدادات"
+
+#. i18n: file: data/kateui.rc:93
+#. i18n: ectx: Menu (help)
+#: rc.cpp:83
+#, fuzzy
+msgid "&Help"
+msgstr "&مساعدة"
+
+#. i18n: file: data/kateui.rc:98
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:86
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسي"
+
+#: tips.cpp:3
+msgid ""
+"<p>Kate comes with a nice set of plugins, providing simple\n"
+"and advanced features of all sorts.</p>\n"
+"<p>You can enable/disable plugins to suit your needs in the configuration "
+"dialog,\n"
+"choose <strong>Settings -&gt;configure</strong> to launch that.</p>\n"
+msgstr ""
+"<p>يحوي كايت مجموعة رائعة من الملحقات، توفر ميزات\n"
+"بسيطة ومتقدمة من كل الأنواع.</p>\n"
+"<p>يمكنك تمكين/تعطيل هذه الملحقات بما يناسب حاجاتك في مربع حوار الإعداد،\n"
+"اختر  <strong>إعدادات -&gt; أعدّ</strong> لتشغل ذلك.</p>\n"
+
+#: tips.cpp:11
+msgid ""
+"<p>You can swap the characters on each side of the cursor just by pressing\n"
+"<strong>Ctrl+T</strong></p>\n"
+msgstr ""
+"<p>يمكن عكس الأحرف في كل جهة من المؤشر بمجرد ضغط\n"
+"<strong>Ctrl+T</strong></p>\n"
+
+#: tips.cpp:17
+msgid ""
+"<p>You can export the current document as a HTML file, including\n"
+"syntax highlighting.</p>\n"
+"<p>Just choose <strong>File -&gt; Export -&gt; HTML...</strong></p>\n"
+msgstr ""
+"<p>يمكنك تصدير المستند الحالي كملف HTML، بالإضافة إلى\n"
+"تمييز الصيغة.</p>\n"
+"<p>فقط اختر <strong>ملف -&gt; صدّر -&gt; HTML...</strong></p>\n"
+
+#: tips.cpp:24
+msgid ""
+"<p>You can split the Kate editor as many times as you like and\n"
+"in either direction. Each frame has its own status bar and\n"
+"can display any open document.</p>\n"
+"<p>Just choose <br><strong>View -&gt; Split [ Horizontal | Vertical ]</"
+"strong></p>\n"
+msgstr ""
+"<p>يمكنك قسم محرر كايت بعدد المرات التي تحلو لك\n"
+"في أي من الاتجاهين. لكل إطار سطر حالة خاص به \n"
+"ويمكنه عرض أي مستند مفتوح.</p>\n"
+"<p>فقط اختر <br><strong>عرض -&gt; اقسم [ أفقياً | عمودياً ]</strong></p>\n"
+
+#: tips.cpp:32
+msgid ""
+"<p>You can drag the Tool views (<em>File List</em> and <em>File Selector</"
+"em>)\n"
+"to any side that you want them in Kate, or stack them, or even tear them off "
+"the\n"
+"main window.</p>\n"
+msgstr ""
+"<p>يمكنك سحب عروض الأداة (<em>لائحة الملفات</em> و <em>منتقي الملفات</em>)\n"
+"لأي جهة تريدها في كيات، أو أن تكدسها، أو حتى تفصلها عن النافذة الرئيسية.</"
+"p>\n"
+
+#: tips.cpp:39
+#, fuzzy
+msgid ""
+"<p>Kate has a built-in terminal emulator, just click on <strong>\"Terminal"
+"\"</strong> at\n"
+"the bottom to show or hide it as you desire.</p>\n"
+msgstr ""
+"<p> Kate a بوصة شاشة طرفية محاكي انقر يعمل<strong> شاشة طرفية</strong> عند "
+"الأسفل إلى إظهار أو إخفاء الإيطالية</p> n"
+
+#: tips.cpp:45
+#, fuzzy
+msgid ""
+"<p>Kate can highlight the current line with a\n"
+"<table bgcolor=\"yellow\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" "
+"width=\"100%\"><tr><td>different\n"
+"background color.<strong>|</strong></td></tr></table></p>\n"
+"<p>You can set the color in the <em>Colors</em> page of the configuration\n"
+"dialog.</p>\n"
+msgstr ""
+"<p> Kate يميّز الحالي سطر مع a\n"
+"<table bgcolor=\"yellow\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" "
+"width=\"100%\"><tr><td> مختلف اللّون<strong></strong></td></tr></table></p>\n"
+"<p> أنت set اللّون بوصة<em> الألوان</em> صفحة من تشكيل</p> n"
+
+#: tips.cpp:54
+#, fuzzy
+msgid ""
+"<p>You can open the currently edited file in any other application from "
+"within\n"
+"Kate.</p>\n"
+"<p>Choose <strong>File -&gt; Open With</strong> for the list of programs\n"
+"configured\n"
+"for the document type. There is also an option <strong>Other...</strong> to\n"
+"choose any application on your system.</p>\n"
+msgstr ""
+"<p> أنت فتح ملفّ بوصة أي منها غير ذلك تطبيق من</p>\n"
+"<p> اختر<strong> ملف&gt; افتح مع</strong> لـ قائمة من مستند نوع هناك هو "
+"خيار<strong> أخرى</strong> إلى أي منها تطبيق يعمل نظام</p> n"
+
+#: tips.cpp:64
+#, fuzzy
+msgid ""
+"<p>You can configure the editor to always display the line numbers and/or\n"
+"bookmark panes when started from the <strong>View Defaults</strong> page of "
+"the\n"
+"configuration dialog.</p>\n"
+msgstr ""
+"<p> أنت أَعِّد محرِّر إلى دائماً عرض سطر و أو من<strong> عرض الإفتراضيّات</strong> "
+"صفحة من حوار</p> n"
+
+#: tips.cpp:71
+#, fuzzy
+msgid ""
+"<p>You can download new or updated <em>Syntax highlight definitions</em> "
+"from\n"
+"the <strong>Highlighting</strong> page in the configuration dialog.</p>\n"
+"<p>Just click the <em>Download...</em> button on the <em>Open/Save -&gt; "
+"Modes & Filetypes</em>\n"
+"tab (You have to be online, of course...).</p>\n"
+msgstr ""
+"<p> أنت تنزيلات جديد أو<em> الإعراب :: تركيب كلمة في جملة :: استعمال كلمة في "
+"جملة :: بناء الجملة يميّز</em> من<strong> التظليلالإبراز</strong> صفحة بوصة "
+"تشكيل حوار</p>\n"
+"<p> فقط انقر<em> نزّل</em> زر يعمل<em> إبراز أنماط</em> أنت إلى متصل\n"
+"على الخط من</p> n"
+
+#: tips.cpp:79
+#, fuzzy
+msgid ""
+"<p>You can cycle through all open documents by pressing <strong>Alt+Left</"
+"strong>\n"
+"or <strong>Alt+Right</strong>. The next/previous document will immediately "
+"be displayed\n"
+"in the active frame.</p>\n"
+msgstr ""
+"<p> أنت دورة الكل فتح مستندات أداء<strong> Alt يسار</strong><strong> Alt "
+"يمين</strong> الـ التالي السابق مستند حالا نشط إطار</p> n"
+
+#: tips.cpp:86
+#, fuzzy
+msgid ""
+"<p>You can do cool sed-like regular expression replacements using "
+"<em>Command Line</em>.</p>\n"
+"<p>For example, press <strong>F7</strong> and enter <code>s /oldtext/newtext/"
+"g</code>\n"
+"to replace &quot;oldtext&quot; with &quot;newtext&quot; throughout the "
+"current\n"
+"line.</p>\n"
+msgstr ""
+"<p> أنت مثل عادي تعبير<em> الأمر خط</em></p>\n"
+"<p> لـ ضغط<strong> F7</strong> و أدخل<code> s g</code> إستبدال&quot;&quot; "
+"مع&quot;&quot; الحالي</p> n"
+
+#: tips.cpp:94
+#, fuzzy
+msgid ""
+"<p>You can repeat your last search by just pressing <strong>F3</strong>, or\n"
+"<strong>Shift+F3</strong> if you want to search backwards.</p>\n"
+msgstr ""
+"<p> أنت تكرار الأخير ابحث أداء<strong> F3</strong> أو\n"
+"<strong> Shift F3</strong> IF إلى ابحث</p> n"
+
+#: tips.cpp:100
+#, fuzzy
+msgid ""
+"<p>You can filter the files displayed in the <em>File Selector</em> tool "
+"view.\n"
+"</p>\n"
+"<p>Simply enter your filter in the filter entry at the bottom, for example:\n"
+"<code>*.html *.php</code> if you only want to see HTML and PHP files in the\n"
+"current folder.</p>\n"
+"<p>The File Selector will even remember your filters for you.</strong></p>\n"
+msgstr ""
+"<p> أنت المرشّح ملفات بوصة<em> ملف منتقيالمختار</em> أداة اعرض\n"
+"</p>\n"
+"<p> ببساطة أدخل المرشّح بوصة المرشّح خانة عند الأسفل لـ\n"
+"<code> HTML PHP</code> IF إلى HTML و PHP ملفات بوصة مجلد</p>\n"
+"<p> الـ ملف منتقيالمختار لـ</strong></p> n"
+
+#: tips.cpp:110
+#, fuzzy
+msgid ""
+"<p>You can have two views - or even more - of the same document in Kate. "
+"Editing\n"
+"in either will be reflected in both.</p>\n"
+"<p>So if you find yourself scrolling up and down to look at text at the "
+"other\n"
+"end of a document, just press <strong>Ctrl+Shift+T</strong> to split\n"
+"horizontally.</p>\n"
+msgstr ""
+"<p> أنت إثنان أو المزيد من مستند بوصة Kate يجري التعديل بوصة</p>\n"
+"<p> لذا IF ابحث أعلى و أسفل إلى عند نص عند غير ذلك من a مستند ضغط<strong> "
+"Ctrl Shift T</strong> إلى انقسام</p> n"
+
+#: tips.cpp:119
+#, fuzzy
+msgid ""
+"<p>Press <strong>F8</strong> or <strong>Shift+F8</strong> to switch to the\n"
+"next/previous frame.</p>\n"
+msgstr ""
+"<p> ضغط<strong> F8</strong> أو<strong> Shift F8</strong> إلى تحول إلى السابق "
+"إطار</p> n"
+
+#: app/kateviewspace.cpp:272 app/kateviewspace.cpp:366
+#, kde-format
+msgid " Line: %1 Col: %2 "
+msgstr "سطر: %1 عمود: %2 "
+
+#: app/kateviewspace.cpp:286
+msgid " INS "
+msgstr " INS "
+
+#: app/kateviewspace.cpp:291 app/kateviewspace.cpp:375
+#, fuzzy
+#| msgid " INS "
+msgid " LINE "
+msgstr "سطر "
+
+#: app/kateviewspace.cpp:375
+#, fuzzy
+#| msgid " BLK "
+msgid " BLOCK "
+msgstr " قسم "
+
+#: app/katemainwindow.cpp:238
+msgid "Use this command to show or hide the view's statusbar"
+msgstr "استخدم هذا الأمر لتظهر أو تخفي شريط حالة العرض"
+
+#: app/katemainwindow.cpp:240
+msgid "Sho&w Path"
+msgstr "أظهر الم&سار"
+
+#: app/katemainwindow.cpp:243
+msgid "Show the complete document path in the window caption"
+msgstr "أظهر مسار المستند الكامل في عنوان النافذة"
+
+#: app/katemainwindow.cpp:256 app/katesavemodifieddialog.cpp:200
+msgid "Documents"
+msgstr "مستندات"
+
+#: app/katemainwindow.cpp:284
+msgid "Filesystem Browser"
+msgstr "متصفح نظم الملفات"
+
+#: app/katemainwindow.cpp:298
+msgid "Create a new document"
+msgstr "انشئ مستنداً جديداً"
+
+#: app/katemainwindow.cpp:300
+msgid "Open an existing document for editing"
+msgstr "افتح مستنداً موجوداً للتحرير"
+
+#: app/katemainwindow.cpp:304
+msgid ""
+"This lists files which you have opened recently, and allows you to easily "
+"open them again."
+msgstr ""
+"يسرد هذا الملفات التي قمت بفتحها مؤخراً، ويسمح لك بفتحها بسهولة مرة أخرى."
+
+#: app/katemainwindow.cpp:308
+msgid "Save A&ll"
+msgstr "احفظ ال&كل"
+
+#: app/katemainwindow.cpp:311
+#, fuzzy
+msgid "Save all open, modified documents to disk."
+msgstr "احفظ الكل فتح معدّل مستندات إلى قرص."
+
+#: app/katemainwindow.cpp:314
+#, fuzzy
+msgid "&Reload All"
+msgstr "أ&عد التحميل"
+
+#: app/katemainwindow.cpp:316
+#, fuzzy
+#| msgid "Close all open documents."
+msgid "Reload all open documents."
+msgstr "أغلق كل المستندات المفتوحة."
+
+#: app/katemainwindow.cpp:319 app/katefilelist.cpp:55
+msgid "Close the current document."
+msgstr "أغلق المستند الحالي."
+
+#: app/katemainwindow.cpp:322 app/katefilelist.cpp:58
+#, fuzzy
+msgid "Close Other"
+msgstr "إغلاق أخرى"
+
+#: app/katemainwindow.cpp:324 app/katefilelist.cpp:60
+#, fuzzy
+msgid "Close other open documents."
+msgstr "إغلاق غير ذلك فتح مستندات."
+
+#: app/katemainwindow.cpp:327
+msgid "Clos&e All"
+msgstr "أ&غلق الكل"
+
+#: app/katemainwindow.cpp:329
+msgid "Close all open documents."
+msgstr "أغلق كل المستندات المفتوحة."
+
+#: app/katemainwindow.cpp:332
+msgid "Close this window"
+msgstr "أغلق هذه النافذة"
+
+#: app/katemainwindow.cpp:336
+#, fuzzy
+msgid "&New Window"
+msgstr "نافذة &جديدة"
+
+#: app/katemainwindow.cpp:338
+msgid "Create a new Kate view (a new window with the same document list)."
+msgstr "أنشئ عرض Kate جديد (نافذة جديدة بنفس لائحة المستندات)."
+
+#: app/katemainwindow.cpp:344
+msgid "Open W&ith"
+msgstr "ا&فتح باستخدام"
+
+#: app/katemainwindow.cpp:346
+msgid ""
+"Open the current document using another application registered for its file "
+"type, or an application of your choice."
+msgstr ""
+"افتح المستند الحالي  باستخدام تطبيق آخر مسجّل لنفس نوعه، أو تطبيق من اختيارك."
+
+#: app/katemainwindow.cpp:351
+msgid "Configure the application's keyboard shortcut assignments."
+msgstr "أعدّ تعيينات اختصارات لوحة مفاتيح التطبيق."
+
+#: app/katemainwindow.cpp:354
+msgid "Configure which items should appear in the toolbar(s)."
+msgstr "أعدّ العناصر التي يجب أن تظهر في شريط الأدوات."
+
+#: app/katemainwindow.cpp:357
+msgid ""
+"Configure various aspects of this application and the editing component."
+msgstr "أعدّ النواحي المتعددة لهذا التطبيق والمكوّن التحريري."
+
+#: app/katemainwindow.cpp:361
+msgid "This shows useful tips on the use of this application."
+msgstr "يظهر هذا تلميحات مفيدة حول استخدام هذا التطبيق."
+
+#: app/katemainwindow.cpp:366
+#, fuzzy
+msgid "&Plugins Handbook"
+msgstr "ملحقات كتيب"
+
+#: app/katemainwindow.cpp:368
+msgid "This shows help files for various available plugins."
+msgstr "يظهر هذا مساعدة للملحقات المتوفرة المتعددة."
+
+#: app/katemainwindow.cpp:372
+#, fuzzy
+msgid "&About Editor Component"
+msgstr "حول مكّون المحرّر&"
+
+#: app/katemainwindow.cpp:386
+msgctxt "Menu entry Session->New"
+msgid "&New"
+msgstr "&جديد"
+
+#: app/katemainwindow.cpp:390
+#, fuzzy
+msgid "&Open..."
+msgstr "ا&فتح ..."
+
+#: app/katemainwindow.cpp:394
+#, fuzzy
+msgid "&Save"
+msgstr "ا&حفظ"
+
+#: app/katemainwindow.cpp:398
+msgid "Save &As..."
+msgstr "احفظ &ك..."
+
+#: app/katemainwindow.cpp:402
+#, fuzzy
+#| msgid "Save &As..."
+msgid "Save as &Default..."
+msgstr "احفظ ك افتراضي."
+
+#: app/katemainwindow.cpp:406
+msgid "&Manage..."
+msgstr "&دبًر..."
+
+#: app/katemainwindow.cpp:410
+msgid "&Quick Open"
+msgstr "فتح &سريع"
+
+#: app/katemainwindow.cpp:451 app/katedocmanager.cpp:493
+msgid "New file opened while trying to close Kate, closing aborted."
+msgstr "فتح ملف حيث كان Kate يحاول الخروج ، الغاء الخروج."
+
+#: app/katemainwindow.cpp:452 app/katedocmanager.cpp:494
+msgid "Closing Aborted"
+msgstr "الغاء الخروج"
+
+#: app/katemainwindow.cpp:631
+#, kde-format
+msgctxt "'document name [*]', [*] means modified"
+msgid "%1 [*]"
+msgstr ""
+
+#: app/katemainwindow.cpp:780
+msgid "&Other..."
+msgstr "&أخرى..."
+
+#: app/katemainwindow.cpp:806
+#, fuzzy, kde-format
+#| msgid "Application '%1' not found!"
+msgid "Application '%1' not found."
+msgstr "لم أجد التطبيق '%1' !"
+
+#: app/katemainwindow.cpp:806
+#, fuzzy
+msgid "Application not found"
+msgstr "تطبيق ليس موجود!"
+
+#: app/katemwmodonhddialog.cpp:65
+msgid "Documents Modified on Disk"
+msgstr "المستندات المعدًلة على القرص"
+
+#: app/katemwmodonhddialog.cpp:67
+msgid "&Ignore"
+msgstr "&تجاهل"
+
+#: app/katemwmodonhddialog.cpp:69
+#, fuzzy
+msgid "&Reload"
+msgstr "أ&عد التحميل"
+
+#: app/katemwmodonhddialog.cpp:76
+#, fuzzy
+msgid ""
+"Removes the modified flag from the selected documents and closes the dialog "
+"if there are no more unhandled documents."
+msgstr "يزيل معدّل شارة من مُنتقى مستندات و حوار IF لا المزيد مستندات."
+
+#: app/katemwmodonhddialog.cpp:79
+#, fuzzy
+msgid ""
+"Overwrite selected documents, discarding the disk changes and closes the "
+"dialog if there are no more unhandled documents."
+msgstr "الكتابة فوقه مُنتقى مستندات قرص و حوار IF لا المزيد مستندات."
+
+#: app/katemwmodonhddialog.cpp:82
+#, fuzzy
+msgid ""
+"Reloads the selected documents from disk and closes the dialog if there are "
+"no more unhandled documents."
+msgstr "يعيد تحميل مُنتقى مستندات من قرص و حوار IF لا المزيد مستندات."
+
+#: app/katemwmodonhddialog.cpp:96
+#, fuzzy
+#| msgid ""
+#| "<qt>The documents listed below has changed on disk.<p>Select one or more "
+#| "at the time and press an action button until the list is empty.</qt>"
+msgid ""
+"<qt>The documents listed below have changed on disk.<p>Select one or more at "
+"once, and press an action button until the list is empty.</p></qt>"
+msgstr ""
+"<qt> الـ مستندات أسفل تغير يعمل قرص<p> انتقِ أو المزيد عند وقت و ضغط الأفعال "
+"زر حتّى قائمة هو فارغ</p></qt>"
+
+#: app/katemwmodonhddialog.cpp:103
+msgid "Filename"
+msgstr "إسم الملف"
+
+#: app/katemwmodonhddialog.cpp:103
+msgid "Status on Disk"
+msgstr "الحالة على القرص"
+
+#: app/katemwmodonhddialog.cpp:109
+msgid "Modified"
+msgstr "معدل"
+
+#: app/katemwmodonhddialog.cpp:109
+msgid "Created"
+msgstr "تمً انشاءه"
+
+#: app/katemwmodonhddialog.cpp:109
+msgid "Deleted"
+msgstr "ممحو"
+
+#: app/katemwmodonhddialog.cpp:124
+msgid "&View Difference"
+msgstr "&عرض الفارق"
+
+#: app/katemwmodonhddialog.cpp:127
+#, fuzzy
+msgid ""
+"Calculates the difference between the editor contents and the disk file for "
+"the selected document, and shows the difference with the default "
+"application. Requires diff(1)."
+msgstr ""
+"يحسب اختلاف بين محرِّر و قرص ملفّ لـ مُنتقى مستند و اختلاف مع افتراضي تطبيق "
+"تتطلّب."
+
+#: app/katemwmodonhddialog.cpp:186
+#, kde-format
+msgid ""
+"Could not save the document \n"
+"'%1'"
+msgstr ""
+"لم استطع حفظ المستند\n"
+"'%1'"
+
+#: app/katemwmodonhddialog.cpp:284
+msgid ""
+"The diff command failed. Please make sure that diff(1) is installed and in "
+"your PATH."
+msgstr ""
+"فشل تنفيذ الأمر diff. الرجاء التحقق من انً diff(1) مثبت و انًه في مسارك PATH."
+
+#: app/katemwmodonhddialog.cpp:286
+msgid "Error Creating Diff"
+msgstr "خطأ إنشاء فارق"
+
+#: app/katemwmodonhddialog.cpp:295
+#, fuzzy
+msgid "Besides white space changes, the files are identical."
+msgstr "ما عدا الفراغات البيضاء، فإن الملفان متشابهان."
+
+#: app/katemwmodonhddialog.cpp:296
+#, fuzzy
+msgid "Diff Output"
+msgstr "مخرجات الاختلافات"
+
+#: app/kateconfigdialog.cpp:59
+#, fuzzy
+msgid "Configure"
+msgstr "اضبط"
+
+#: app/kateconfigdialog.cpp:69
+msgid "Application"
+msgstr "تطبيق"
+
+#: app/kateconfigdialog.cpp:71
+#, fuzzy
+msgid "Application Options"
+msgstr "تطبيق خيارات"
+
+#: app/kateconfigdialog.cpp:75
+msgid "General"
+msgstr "عام"
+
+#: app/kateconfigdialog.cpp:76
+msgid "General Options"
+msgstr "خيارات عامة"
+
+#: app/kateconfigdialog.cpp:84
+msgid "&Behavior"
+msgstr "&سلوك"
+
+#: app/kateconfigdialog.cpp:90
+msgid "Wa&rn about files modified by foreign processes"
+msgstr "ن&بّه عن الملفات المعدّلة من قبل إجرائات خارجية"
+
+#: app/kateconfigdialog.cpp:93
+#, fuzzy
+msgid ""
+"If enabled, when Kate receives focus you will be asked what to do with files "
+"that have been modified on the hard disk. If not enabled, you will be asked "
+"what to do with a file that has been modified on the hard disk only when "
+"that file gains focus inside Kate."
+msgstr ""
+"إذا ممكن Kate إلى مع ملفات معدّل يعمل قرص إذا ليس ممكن إلى مع a ملفّ معدّل يعمل "
+"قرص ملفّ داخل Kate."
+
+#: app/kateconfigdialog.cpp:104
+#, fuzzy
+msgid "Meta-Information"
+msgstr "Meta معلومات"
+
+#: app/kateconfigdialog.cpp:110
+#, fuzzy
+msgid "Keep &meta-information past sessions"
+msgstr "حافظ عليه أعلى معلومات"
+
+#: app/kateconfigdialog.cpp:113
+#, fuzzy
+msgid ""
+"Check this if you want document configuration like for example bookmarks to "
+"be saved past editor sessions. The configuration will be restored if the "
+"document has not changed when reopened."
+msgstr ""
+"كِش IF مستند تشكيل مثل لـ علامة موقع إلى محرِّر الـ تشكيل IF مستند ليس تغير."
+
+#: app/kateconfigdialog.cpp:123
+#, fuzzy
+msgid "&Delete unused meta-information after:"
+msgstr "احذف غير مستخدم أعلى معلومات بعد:"
+
+#: app/kateconfigdialog.cpp:126
+#, fuzzy
+msgid "(never)"
+msgstr "never"
+
+#: app/kateconfigdialog.cpp:147
+msgid "Sessions"
+msgstr "جلسات"
+
+#: app/kateconfigdialog.cpp:148
+msgid "Session Management"
+msgstr "توجيه الجلسة"
+
+#: app/kateconfigdialog.cpp:156
+msgid "Elements of Sessions"
+msgstr "عناصر من الجلسات"
+
+#: app/kateconfigdialog.cpp:162
+msgid "Include &window configuration"
+msgstr "شمل إعدادات ال&نافذة"
+
+#: app/kateconfigdialog.cpp:164
+msgid ""
+"Check this if you want all your views and frames restored each time you open "
+"Kate"
+msgstr ""
+"حدد هذا الخيار إذا كنت تريد استعادة جميع مشاهدك وإطاراتك في كل مرة تشغل فيها "
+"Kate"
+
+#: app/kateconfigdialog.cpp:170
+msgid "Behavior on Application Startup"
+msgstr "السلوك عند إقلاع التطبيق"
+
+#: app/kateconfigdialog.cpp:174
+msgid "&Start new session"
+msgstr "إبدء &جلسة جديدة"
+
+#: app/kateconfigdialog.cpp:175
+msgid "&Load last-used session"
+msgstr "&حمًل الجلسة المستعملة مؤخراً"
+
+#: app/kateconfigdialog.cpp:176
+msgid "&Manually choose a session"
+msgstr "إختر جلسة &يدويا"
+
+#: app/kateconfigdialog.cpp:195
+#, fuzzy
+msgid "Behavior on Application Exit or Session Switch"
+msgstr "السلوك يعمل تطبيق خروج أو الجلسة تحوّل"
+
+#: app/kateconfigdialog.cpp:199
+msgid "&Do not save session"
+msgstr "لا ت&حفظ الجلسة"
+
+#: app/kateconfigdialog.cpp:200
+msgid "&Save session"
+msgstr "إ&حفظ الجلسة"
+
+#: app/kateconfigdialog.cpp:201
+msgid "&Ask user"
+msgstr "إ&سأل المستخدم"
+
+#: app/kateconfigdialog.cpp:225
+msgid "Document List"
+msgstr "لائحة المستندات"
+
+#: app/kateconfigdialog.cpp:226
+msgid "Document List Settings"
+msgstr "تعيينات لائحة المستندات"
+
+#: app/kateconfigdialog.cpp:236
+msgid "Plugins"
+msgstr "الملحقات"
+
+#: app/kateconfigdialog.cpp:237
+msgid "Plugin Manager"
+msgstr "مسير الملحقات"
+
+#: app/kateconfigdialog.cpp:251
+#, fuzzy
+msgid "Editor Component"
+msgstr "المحرر المكوّن"
+
+#: app/kateconfigdialog.cpp:253
+#, fuzzy
+msgid "Editor Component Options"
+msgstr "المحرر المكوّن خيارات"
+
+#: app/kateconfigdialog.cpp:393
+#, fuzzy
+#| msgid " day(s)"
+msgctxt "The suffix of 'Delete unused meta-information after'"
+msgid " day"
+msgid_plural " days"
+msgstr[0] " يوم/أيام"
+msgstr[1] " يوم/أيام"
+msgstr[2] " يوم/أيام"
+msgstr[3] " يوم/أيام"
+msgstr[4] " يوم/أيام"
+msgstr[5] " يوم/أيام"
+
+#: app/katemain.cpp:43
+msgid "Kate"
+msgstr "Kate"
+
+#: app/katemain.cpp:44
+msgid "Kate - Advanced Text Editor"
+msgstr "Kate - محرر النصوص المتقدم"
+
+#: app/katemain.cpp:45
+msgid "(c) 2000-2005 The Kate Authors"
+msgstr "جميع الحقوق محفوظة، 2000-2001، مؤلفو Kate"
+
+#: app/katemain.cpp:47
+#, fuzzy
+msgid "Christoph Cullmann"
+msgstr "Christoph Cullmann"
+
+#: app/katemain.cpp:47
+msgid "Maintainer"
+msgstr "المشرف"
+
+#: app/katemain.cpp:48
+#, fuzzy
+msgid "Anders Lund"
+msgstr "Anders Lund"
+
+#: app/katemain.cpp:48 app/katemain.cpp:49 app/katemain.cpp:50
+#: app/katemain.cpp:56
+msgid "Core Developer"
+msgstr "مطور الأساسي"
+
+#: app/katemain.cpp:49
+#, fuzzy
+msgid "Joseph Wenninger"
+msgstr "Joseph Wenninger"
+
+#: app/katemain.cpp:50
+#, fuzzy
+msgid "Hamish Rodda"
+msgstr "Hamish Rodda"
+
+#: app/katemain.cpp:51
+#, fuzzy
+msgid "Dominik Haumann"
+msgstr "Dominik Haumann"
+
+#: app/katemain.cpp:51
+#, fuzzy
+msgid "Developer & Highlight wizard"
+msgstr "المطور وصاحب بميزة الإبراز"
+
+#: app/katemain.cpp:52
+#, fuzzy
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: app/katemain.cpp:52
+msgid "The cool buffersystem"
+msgstr "نظام التخزين الرائع"
+
+#: app/katemain.cpp:53
+#, fuzzy
+msgid "Charles Samuels"
+msgstr "Charles Samuels"
+
+#: app/katemain.cpp:53
+msgid "The Editing Commands"
+msgstr "أوامر التحرير"
+
+#: app/katemain.cpp:54
+#, fuzzy
+msgid "Matt Newell"
+msgstr "Matt Newell"
+
+#: app/katemain.cpp:54
+msgid "Testing, ..."
+msgstr "الاختبار ، ..."
+
+#: app/katemain.cpp:55
+#, fuzzy
+msgid "Michael Bartl"
+msgstr "Michael Bartl"
+
+#: app/katemain.cpp:55
+msgid "Former Core Developer"
+msgstr "المطوّر الأساسي السابق"
+
+#: app/katemain.cpp:56
+#, fuzzy
+msgid "Michael McCallum"
+msgstr "Michael McCallum"
+
+#: app/katemain.cpp:57
+#, fuzzy
+msgid "Jochen Wilhemly"
+msgstr "Jochen Wilhemly"
+
+#: app/katemain.cpp:57
+msgid "KWrite Author"
+msgstr "مؤلف برنامج KWrite"
+
+#: app/katemain.cpp:58
+#, fuzzy
+msgid "Michael Koch"
+msgstr "Michael Koch"
+
+#: app/katemain.cpp:58
+msgid "KWrite port to KParts"
+msgstr "نقل KWrite إلى KParts"
+
+#: app/katemain.cpp:59
+#, fuzzy
+msgid "Christian Gebauer"
+msgstr "Christian Gebauer"
+
+#: app/katemain.cpp:60
+#, fuzzy
+msgid "Simon Hausmann"
+msgstr "Simon Hausmann"
+
+#: app/katemain.cpp:61
+#, fuzzy
+msgid "Glen Parker"
+msgstr "Glen Parker"
+
+#: app/katemain.cpp:61
+msgid "KWrite Undo History, Kspell integration"
+msgstr "خط زمني ل- KWrite ، عملية التكامل مع Kspell"
+
+#: app/katemain.cpp:62
+#, fuzzy
+msgid "Scott Manson"
+msgstr "Scott Manson"
+
+#: app/katemain.cpp:62
+msgid "KWrite XML Syntax highlighting support"
+msgstr "دعم تمييز الصيغة لتقنية XML في KWrite"
+
+#: app/katemain.cpp:63
+#, fuzzy
+msgid "John Firebaugh"
+msgstr "John Firebaugh"
+
+#: app/katemain.cpp:63
+msgid "Patches and more"
+msgstr "رقعات تصحيح  وأشياء أخرى"
+
+#: app/katemain.cpp:65
+#, fuzzy
+msgid "Matteo Merli"
+msgstr "Matteo Merli"
+
+#: app/katemain.cpp:65
+msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
+msgstr ""
+"التمييز للملفات الخاصة بنظام RPM )إدارة رزم برمجات RedHat( و Perl و Diff و "
+"أشياء أخرى"
+
+#: app/katemain.cpp:66
+#, fuzzy
+msgid "Rocky Scaletta"
+msgstr "Rocky Scaletta"
+
+#: app/katemain.cpp:66
+#, fuzzy
+msgid "Highlighting for VHDL"
+msgstr "تظليل لغة VHDL"
+
+#: app/katemain.cpp:67
+#, fuzzy
+msgid "Yury Lebedev"
+msgstr "Yury Lebedev"
+
+#: app/katemain.cpp:67
+#, fuzzy
+msgid "Highlighting for SQL"
+msgstr "تظليل لغة SQL"
+
+#: app/katemain.cpp:68
+#, fuzzy
+msgid "Chris Ross"
+msgstr "Chris Ross"
+
+#: app/katemain.cpp:68
+#, fuzzy
+msgid "Highlighting for Ferite"
+msgstr "تظليل لغة Ferite"
+
+#: app/katemain.cpp:69
+#, fuzzy
+msgid "Nick Roux"
+msgstr "Nick Roux"
+
+#: app/katemain.cpp:69
+#, fuzzy
+msgid "Highlighting for ILERPG"
+msgstr "تظليل لغة ILERPG"
+
+#: app/katemain.cpp:70
+#, fuzzy
+msgid "Carsten Niehaus"
+msgstr "Carsten Niehaus"
+
+#: app/katemain.cpp:70
+#, fuzzy
+msgid "Highlighting for LaTeX"
+msgstr "تظليل LaTeX"
+
+#: app/katemain.cpp:71
+#, fuzzy
+msgid "Per Wigren"
+msgstr "Per Wigren"
+
+#: app/katemain.cpp:71
+#, fuzzy
+msgid "Highlighting for Makefiles, Python"
+msgstr "تظليل Makefiles, Python"
+
+#: app/katemain.cpp:72
+#, fuzzy
+msgid "Jan Fritz"
+msgstr "Jan Fritz"
+
+#: app/katemain.cpp:72
+#, fuzzy
+msgid "Highlighting for Python"
+msgstr "تظليل لغة Python"
+
+#: app/katemain.cpp:73
+#, fuzzy
+msgid "Daniel Naber"
+msgstr "Daniel Naber"
+
+#: app/katemain.cpp:74
+#, fuzzy
+msgid "Roland Pabel"
+msgstr "Roland Pabel"
+
+#: app/katemain.cpp:74
+#, fuzzy
+msgid "Highlighting for Scheme"
+msgstr "تظليل لغة Scheme"
+
+#: app/katemain.cpp:75
+#, fuzzy
+msgid "Cristi Dumitrescu"
+msgstr "Cristi Dumitrescu"
+
+#: app/katemain.cpp:75
+msgid "PHP Keyword/Datatype list"
+msgstr "لائحة أنواع المعلومات والكلمات المميزة في لغة PHP"
+
+#: app/katemain.cpp:76
+#, fuzzy
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: app/katemain.cpp:76
+msgid "Very nice help"
+msgstr "مساعدة لطيفة جداً"
+
+#: app/katemain.cpp:77
+msgid "All people who have contributed and I have forgotten to mention"
+msgstr "كل الأشخاص الذين ساهموا ونسيت ذكرهم"
+
+#: app/katemain.cpp:84
+msgid "Start Kate with a given session"
+msgstr "ابدء  Kate مع جلسة معطية"
+
+#: app/katemain.cpp:86
+#, fuzzy
+msgid "Use a already running kate instance (if possible)"
+msgstr "إستعمل a جاري التنفيذ مرة IF"
+
+#: app/katemain.cpp:88
+#, fuzzy
+msgid "Only try to reuse kate instance with this pid"
+msgstr "فقط إلى مرة مع"
+
+#: app/katemain.cpp:90
+msgid "Set encoding for the file to open"
+msgstr "حدد الترميز للملف المرغوب بفتحه"
+
+#: app/katemain.cpp:92
+msgid "Navigate to this line"
+msgstr "إنتقل إلى هذا السطر"
+
+#: app/katemain.cpp:94
+msgid "Navigate to this column"
+msgstr "إنتقل إلى هذا العامود"
+
+#: app/katemain.cpp:96
+msgid "Read the contents of stdin"
+msgstr "إقرأ محتويات stdin."
+
+#: app/katemain.cpp:97
+msgid "Document to open"
+msgstr "المستند المرغوب فتحه"
+
+#: app/katedocmanager.cpp:347
+#, fuzzy, kde-format
+msgid ""
+"The supposedly temporary file %1 has been modified. Do you want to delete it "
+"anyway?"
+msgstr "الـ مؤقت ملفّ معدّل تنفيذ إلى حذف الإيطالية?"
+
+#: app/katedocmanager.cpp:349
+#, fuzzy
+msgid "Delete File?"
+msgstr "احذف ملف?"
+
+#: app/katedocmanager.cpp:458
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
+#| "save your changes or discard them?"
+msgid ""
+"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
+"save your changes or discard them?</p>"
+msgstr "<p> الـ مستند معدّل ليس</p><p> تنفيذ إلى حفظ أو تجاهل</p>"
+
+#: app/katedocmanager.cpp:460
+msgid "Close Document"
+msgstr "أغلق المستند"
+
+#: app/katedocmanager.cpp:467
+#, fuzzy
+msgid "Save As"
+msgstr "احفظ كـ"
+
+#: app/katedocmanager.cpp:544
+#, fuzzy
+msgid "Starting Up"
+msgstr "جاري بدء التشغيل"
+
+#: app/katedocmanager.cpp:545
+msgid "Reopening files from the last session..."
+msgstr "جاري إعادة فتح الملفات من الجلسة الأخيرة..."
+
+#: app/katedocmanager.cpp:746
+#, fuzzy
+msgid "Errors/Warnings while opening documents"
+msgstr "الأخطاء تحذيرات بينما مستندات"
+
+#: app/katesession.cpp:397
+msgid "Save Session?"
+msgstr "إحفظ الجلسة ؟"
+
+#: app/katesession.cpp:404
+msgid "Save current session?"
+msgstr "إحفظ الجلسة الحالية ؟"
+
+#: app/katesession.cpp:405
+msgid "Do not ask again"
+msgstr "لا تسأل مرة ثانية"
+
+#: app/katesession.cpp:458
+msgid "Default Session"
+msgstr "الجلسة الافتراضية"
+
+#: app/katesession.cpp:494
+msgid "No session selected to open."
+msgstr "ليس هناك جلسة محددة للفتح."
+
+#: app/katesession.cpp:494 app/katesession.cpp:519
+msgid "No Session Selected"
+msgstr "ليس هناك جلسة محددة"
+
+#: app/katesession.cpp:519
+#, fuzzy
+#| msgid "No session selected to open."
+msgid "No session selected to copy."
+msgstr "لا جلسة مُنتقى إلى نسخ."
+
+#: app/katesession.cpp:605
+msgid "Specify New Name for Current Session"
+msgstr "حدد الاسم الجديد للجلسة الحالية"
+
+#: app/katesession.cpp:606
+#, fuzzy
+msgid ""
+"There is already an existing session with your chosen name.\n"
+"Please choose a different one\n"
+"Session name:"
+msgstr "هناك هو موجود جلسة مع الإسم اختيار a مختلف الإسم:"
+
+#: app/katesession.cpp:606 app/katesession.cpp:931
+msgid "Session name:"
+msgstr "إسم الجلسة:"
+
+#: app/katesession.cpp:613 app/katesession.cpp:938
+msgid "To save a session, you must specify a name."
+msgstr "يجب عليك تحديد إسم لتستطيع حفظ جلسة."
+
+#: app/katesession.cpp:613 app/katesession.cpp:938
+msgid "Missing Session Name"
+msgstr "إسم الجلسة ناقص"
+
+#: app/katesession.cpp:669
+msgid "Session Chooser"
+msgstr "أداة إختيار الجلسة"
+
+#: app/katesession.cpp:672 app/katesession.cpp:782
+msgid "Open Session"
+msgstr "إفتح الجلسة"
+
+#: app/katesession.cpp:673
+msgid "New Session"
+msgstr "جلسة جديدة"
+
+#: app/katesession.cpp:684 app/katesession.cpp:802 app/katesession.cpp:872
+msgid "Session Name"
+msgstr "إسم الجلسة"
+
+#: app/katesession.cpp:685 app/katesession.cpp:803 app/katesession.cpp:873
+#, fuzzy
+msgctxt "The number of open documents"
+msgid "Open Documents"
+msgstr "إفتح مستندات"
+
+#: app/katesession.cpp:697
+#, fuzzy
+msgid "Use selected session as template"
+msgstr "إستعمل مُنتقى جلسة قالب"
+
+#: app/katesession.cpp:713
+msgid "&Always use this choice"
+msgstr "إستعمل هذا الخيار &دائما"
+
+#: app/katesession.cpp:786 app/katesession.cpp:858
+#, fuzzy
+msgid "&Open"
+msgstr "ا&فتح"
+
+#: app/katesession.cpp:855
+msgid "Manage Sessions"
+msgstr "توجيه الجلسات"
+
+#: app/katesession.cpp:890
+msgid "&Rename..."
+msgstr "إ&عادة تسمية..."
+
+#: app/katesession.cpp:931
+msgid "Specify New Name for Session"
+msgstr "حدد الأسم الجديد للجلسة"
+
+#: app/katesession.cpp:949
+#, fuzzy, kde-format
+msgid ""
+"The session could not be renamed to \"%1\", there already exists another "
+"session with the same name"
+msgstr "الـ جلسة ليس إلى موجود جلسة مع الإسم"
+
+#: app/katesession.cpp:949
+#, fuzzy
+msgid "Session Renaming"
+msgstr "الجلسة إعادة التسمية"
+
+#: app/katefilelist.cpp:52
+#, fuzzy
+#| msgid "Clos&e All"
+msgid "Close"
+msgstr "أ&غلق الكل"
+
+#: app/katefilelist.cpp:62
+msgid "Sort &By"
+msgstr "ف&رز حسب"
+
+#: app/katefilelist.cpp:65 app/katefilelist.cpp:245
+msgid "Opening Order"
+msgstr "ترتيب الفتح"
+
+#: app/katefilelist.cpp:65 app/katefilelist.cpp:246
+msgid "Document Name"
+msgstr "إسم المستند"
+
+#: app/katefilelist.cpp:65
+msgid "URL"
+msgstr "URL"
+
+#: app/katefilelist.cpp:65 app/katefilelist.cpp:248
+#, fuzzy
+msgid "Custom"
+msgstr "مخصص"
+
+#: app/katefilelist.cpp:219
+msgid "Background Shading"
+msgstr ""
+
+#: app/katefilelist.cpp:228
+msgid "&Viewed documents' shade:"
+msgstr ""
+
+#: app/katefilelist.cpp:233
+msgid "&Modified documents' shade:"
+msgstr ""
+
+#: app/katefilelist.cpp:240
+#, fuzzy
+#| msgid "Sort &By"
+msgid "&Sort by:"
+msgstr "ف&رز حسب"
+
+#: app/katefilelist.cpp:247
+msgid "Url"
+msgstr ""
+
+#: app/katefilelist.cpp:253
+msgid ""
+"When background shading is enabled, documents that have been viewed or "
+"edited within the current session will have a shaded background. The most "
+"recent documents have the strongest shade."
+msgstr ""
+
+#: app/katefilelist.cpp:257
+msgid "Set the color for shading viewed documents."
+msgstr ""
+
+#: app/katefilelist.cpp:259
+msgid ""
+"Set the color for modified documents. This color is blended into the color "
+"for viewed files. The most recently edited documents get most of this color."
+msgstr ""
+
+#: app/kateviewmanager.cpp:115
+#, fuzzy
+msgid "Split Ve&rtical"
+msgstr "تقسيم رأسي"
+
+#: app/kateviewmanager.cpp:119
+msgid "Split the currently active view vertically into two views."
+msgstr "اقسم العرض النشيط حالياً عمودياً لعرضين."
+
+#: app/kateviewmanager.cpp:123
+msgid "Split &Horizontal"
+msgstr "اقسم &أفقياً"
+
+#: app/kateviewmanager.cpp:127
+msgid "Split the currently active view horizontally into two views."
+msgstr "اقسم العرض النشيط حالياً أفقياً لعرضين."
+
+#: app/kateviewmanager.cpp:131
+msgid "Cl&ose Current View"
+msgstr "أغلق العرض ال&حالي"
+
+#: app/kateviewmanager.cpp:135
+msgid "Close the currently active splitted view"
+msgstr "أغلق العرض المقسّم النشيط حالياً"
+
+#: app/kateviewmanager.cpp:138
+#, fuzzy
+#| msgid "Next View"
+msgid "Next Split View"
+msgstr "العرض التالي"
+
+#: app/kateviewmanager.cpp:142
+msgid "Make the next split view the active one."
+msgstr "اجعل العرض المقسّم التالي هو النّشيط."
+
+#: app/kateviewmanager.cpp:145
+#, fuzzy
+#| msgid "Previous View"
+msgid "Previous Split View"
+msgstr "العرض السابق"
+
+#: app/kateviewmanager.cpp:149
+msgid "Make the previous split view the active one."
+msgstr "اجعل العرض المقسّم السابق هو النّشيط."
+
+#: app/kateviewmanager.cpp:178
+msgid "Open File"
+msgstr "افتح ملف"
+
+#: app/katemdi.cpp:121
+msgid "Tool &Views"
+msgstr "&عرض الأداة"
+
+#: app/katemdi.cpp:123
+msgid "Show Side&bars"
+msgstr "أظهر الش&رائط الجانبية"
+
+#: app/katemdi.cpp:166
+#, kde-format
+msgid "Show %1"
+msgstr "أظهر %1"
+
+#: app/katemdi.cpp:452
+msgid "Behavior"
+msgstr "سلوك"
+
+#: app/katemdi.cpp:455
+#, fuzzy
+msgid "Make Non-Persistent"
+msgstr "Make غير مثابر"
+
+#: app/katemdi.cpp:455
+#, fuzzy
+msgid "Make Persistent"
+msgstr "Make مثابر"
+
+#: app/katemdi.cpp:457
+msgid "Move To"
+msgstr "أنقل الى"
+
+#: app/katemdi.cpp:460
+#, fuzzy
+msgid "Left Sidebar"
+msgstr "يسار شريط جانبي"
+
+#: app/katemdi.cpp:463
+#, fuzzy
+msgid "Right Sidebar"
+msgstr "يمين شريط جانبي"
+
+#: app/katemdi.cpp:466
+#, fuzzy
+msgid "Top Sidebar"
+msgstr "أعلى شريط جانبي"
+
+#: app/katemdi.cpp:469
+#, fuzzy
+msgid "Bottom Sidebar"
+msgstr "أسفل شريط جانبي"
+
+#: app/katemdi.cpp:775
+#, fuzzy
+msgid ""
+"<qt>You are about to hide the sidebars. With hidden sidebars it is not "
+"possible to directly access the tool views with the mouse anymore, so if you "
+"need to access the sidebars again invoke <b>Window &gt; Tool Views &gt; Show "
+"Sidebars</b> in the menu. It is still possible to show/hide the tool views "
+"with the assigned shortcuts.</qt>"
+msgstr ""
+"<qt> أنت حوْل إلى إخفاء مع مخفي الإيطالية هو ليس إلى وصول أداة مع الماوس IF "
+"إلى وصول استدعاء<b> نافذة&gt; الأداة المشاهد&gt; اعرض</b> بوصة قائمة "
+"itإيطالياهو هو إلى إظهار إخفاء أداة مع</qt>"
+
+#: app/kateconfigplugindialogpage.cpp:69
+msgid "Name"
+msgstr "الاسم"
+
+#: app/kateconfigplugindialogpage.cpp:69
+msgid "Comment"
+msgstr "تعليق"
+
+#: app/kateconfigplugindialogpage.cpp:71
+msgid ""
+"Here you can see all available Kate plugins. Those with a check mark are "
+"loaded, and will be loaded again the next time Kate is started."
+msgstr ""
+"يمكنك هنا رؤية كل ملحقات كايت المتوفرة. تلك التي لها علامة صح هي محملة، وسوف "
+"تحمّل عند تشغيل كايت مرة أخرى."
+
+#: app/katesavemodifieddialog.cpp:92
+#, kde-format
+msgid "Save As (%1)"
+msgstr "احفظ ك... ( %1 )"
+
+#: app/katesavemodifieddialog.cpp:164
+msgid "Save Documents"
+msgstr "احفظ المستندات"
+
+#: app/katesavemodifieddialog.cpp:170
+msgid "&Save Selected"
+msgstr "ا&حفظ المحددة:"
+
+#: app/katesavemodifieddialog.cpp:178
+msgid "&Abort Closing"
+msgstr "اجها&ض الغلق"
+
+#: app/katesavemodifieddialog.cpp:183
+msgid ""
+"<qt>The following documents have been modified. Do you want to save them "
+"before closing?</qt>"
+msgstr "<qt>تم تغيير المستندات التالية. هل تريد حفظها قبل الغلق ؟</qt>"
+
+#: app/katesavemodifieddialog.cpp:188
+msgid "Title"
+msgstr "العنوان"
+
+#: app/katesavemodifieddialog.cpp:188
+msgid "Location"
+msgstr "الموقع"
+
+#: app/katesavemodifieddialog.cpp:194
+msgid "Projects"
+msgstr "مشاريع"
+
+#: app/katesavemodifieddialog.cpp:216
+msgid "Se&lect All"
+msgstr "ت&حديد الكل"
+
+#: app/katesavemodifieddialog.cpp:277
+msgid ""
+"Data you requested to be saved could not be written. Please choose how you "
+"want to proceed."
+msgstr "استحالة كتابة البيانات اللتي طلبتها.الرجاء اختيار كيف تريد المتابعة."
+
+#: app/kateapp.cpp:209 app/kateapp.cpp:331
+#, kde-format
+msgid ""
+"The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr "تعذر فتح الملف '%1'، إنه ليس ملف عادياً، إنه مجلد."
+
+#~ msgid "&Document"
+#~ msgstr "&مستند"
+
+#~ msgid "&Window"
+#~ msgstr "&نافذة"
+
+#~ msgid "File Selector"
+#~ msgstr "منتقي الملفات"
+
+#~ msgid "File Selector Settings"
+#~ msgstr "إعدادات منتقي الملفات"
+
+#, fuzzy
+#~ msgid "File"
+#~ msgstr "&ملف"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Function"
+#~ msgstr "الموقع"
+
+#, fuzzy
+#~ msgid "Configure Paths..."
+#~ msgstr "اضبط"
+
+#, fuzzy
+#~| msgid "Open File"
+#~ msgid "Opened file: %1"
+#~ msgstr "افتح ملف"
+
+#, fuzzy
+#~ msgid "Start Kate (no arguments)"
+#~ msgstr "ابدأ Kate لا المعاملات"
+
+#, fuzzy
+#~ msgid "New Kate Session"
+#~ msgstr "جديد Kate الجلسة"
+
+#, fuzzy
+#~ msgid "New Anonymous Session"
+#~ msgstr "جديد مجهول الجلسة"
+
+#, fuzzy
+#~ msgid "Reload Session List"
+#~ msgstr "أعد التحميل الجلسة قائمة"
+
+#, fuzzy
+#~ msgid "Please enter a name for the new session"
+#~ msgstr "رجاء أدخل a الإسم لـ جديد جلسة"
+
+#, fuzzy
+#~ msgid ""
+#~ "An unnamed session will not be saved automatically. Do you want to create "
+#~ "such a session?"
+#~ msgstr "أداة تعريف غير مسمى جلسة ليس تنفيذ إلى إ_نشيء a جلسة?"
+
+#, fuzzy
+#~ msgid "Create anonymous session?"
+#~ msgstr "إنشاء مجهول جلسة?"
+
+#, fuzzy
+#~ msgid ""
+#~ "You already have a session named %1. Do you want to open that session?"
+#~ msgstr "أنت a جلسة مسمى تنفيذ إلى فتح جلسة?"
+
+#, fuzzy
+#~ msgid "Session exists"
+#~ msgstr "الجلسة موجود"
+
+#~ msgid "Hide Path"
+#~ msgstr "إخفاء المسار"
+
+#~ msgid "Hide Side&bars"
+#~ msgstr "إخباء الش&رائط الجانبية"
+
+#~ msgid "Hide %1"
+#~ msgstr "إخباء %1"

@@ -1,0 +1,193 @@
+# translation of phonon-xine.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Abdulaziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: phonon-xine\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-21 01:31+0100\n"
+"PO-Revision-Date: 2009-06-15 15:00+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: backend.cpp:87
+msgid "Phonon Xine Backend"
+msgstr "خلفية Xine  لفونون"
+
+#: backend.cpp:654
+msgid "ALSA default output"
+msgstr "مخرجات ALSA الافتراضية"
+
+#: backend.cpp:655
+msgctxt ""
+"This string is only shown when the KDE runtime is broken. The technical term "
+"'Platform Plugin' might help users to find a solution, so it might make "
+"sense to leave that term untranslated."
+msgid ""
+"<html><p>The Platform Plugin failed. This is a fallback to use the first "
+"ALSA device available.</p></html>"
+msgstr ""
+"<html><p>فشل ملحق المنصة. سيتم الرجوع إلى أول جهاز  ALSA  متاح.</p></html>"
+
+#: backend.cpp:664
+msgid "OSS default output"
+msgstr "مخرجات OSS الافتراضية"
+
+#: backend.cpp:665
+msgctxt ""
+"This string is only shown when the KDE runtime is broken. The technical term "
+"'Platform Plugin' might help users to find a solution, so it might make "
+"sense to leave that term untranslated."
+msgid ""
+"<html><p>The Platform Plugin failed. This is a fallback to use the first OSS "
+"device available.</p></html>"
+msgstr ""
+"<html><p>فشل ملحق المنصة. سيتم الرجوع إلى أول جهاز  OSS  متاح.</p></html>"
+
+#: backend.cpp:675
+msgid "Jack Audio Connection Kit"
+msgstr "عدة الاتصال الصوتي Jack"
+
+#: backend.cpp:676
+msgid ""
+"<html><p>JACK is a low-latency audio server. It can connect a number of "
+"different applications to an audio device, as well as allowing them to share "
+"audio between themselves.</p><p>JACK was designed from the ground up for "
+"professional audio work, and its design focuses on two key areas: "
+"synchronous execution of all clients, and low latency operation.</p></html>"
+msgstr ""
+"<html><p>JACK هو خادم صوتي ذو تأخير صغير. و يقوم بتوصيل عدة تطبيقات  مختلفة "
+"بجهاز الصوت مع السماح لهن بتشارك الصوت فيما بينهن. .</p><p>صمم JACK من "
+"البداية لأعمال الصوت الإحترافية ،  و يركز تصميه على منطقتين مهمتين: تزامن "
+"التنفيذ لكل العملاء ، و تأخير أقل في العمليات.</p></html>"
+
+#: backend.cpp:684
+msgid "aRts"
+msgstr "aRts"
+
+#: backend.cpp:685
+msgid ""
+"<html><p>aRts is the old sound server and media framework that was used in "
+"KDE2 and KDE3. Its use is discouraged.</p></html>"
+msgstr ""
+"<html><p>aRts هو خادم صوت قديم و إطار وسائط استعمل في  KDE2 و KDE3. ولا يشجع "
+"على استخدامه الآن.</p></html>"
+
+#: backend.cpp:689
+msgid "PulseAudio"
+msgstr "PulseAudio"
+
+#: backend.cpp:693
+msgid "Esound (ESD)"
+msgstr "Esound (ESD)"
+
+#: kequalizer_plugin.cpp:183
+msgid ""
+"Equalizes audio using the very good IIR equalizer code by  Anders Johansson "
+"adopted from Audacious project.\n"
+"\n"
+"Parameters:\n"
+"Preamp gain - used to alter up or down all gain values\n"
+"10 Equalizer bands - actual IIR equalizer parameters.\n"
+msgstr ""
+
+#: mediaobject.cpp:356 xinestream.cpp:255
+#, qt-format
+msgid "Cannot open media data at '<i>%1</i>'"
+msgstr "لا يمكن فتح بيانات الوسيط على '<i>%1</i>'"
+
+#: volumefadereffect.cpp:50
+msgid "Volume"
+msgstr "الحجم"
+
+#: volumefadereffect.cpp:51
+msgid "Fade Curve"
+msgstr "منحنى باهت"
+
+#: volumefadereffect.cpp:53
+msgid "Fade To Volume"
+msgstr "باهت إلى الحجم"
+
+#: volumefadereffect.cpp:54
+msgid "Fade Time"
+msgstr "وقت البهوت"
+
+#: volumefadereffect.cpp:56
+msgid "Start Fade"
+msgstr "أبدء البهوت"
+
+#: volumefader_plugin.cpp:246
+msgid ""
+"Normalizes audio by maximizing the volume without distorting the sound.\n"
+"\n"
+"Parameters:\n"
+"  method: 1: use a single sample to smooth the variations via the standard "
+"weighted mean over past samples (default); 2: use several samples to smooth "
+"the variations via the standard weighted mean over past samples.\n"
+msgstr ""
+
+#: xinestream.cpp:269
+#, qt-format
+msgid "Cannot find input plugin for MRL [%1]"
+msgstr "لا يمكن إيجاد محلق الإدخال لـ MRL [%1]"
+
+#: xinestream.cpp:273
+msgid "Cannot find demultiplexer plugin for the given media data"
+msgstr "لا يمكن إيجاد محلق demultiplexer  لبيانات وسيط المعطاة"
+
+#: xinestream.cpp:275
+#, qt-format
+msgid "Cannot find demultiplexer plugin for MRL [%1]"
+msgstr "لا يمكن إيجاد محلق demultiplexer لـ MRL [%1]"
+
+#: xinestream.cpp:1236 xinestream.cpp:1343 xinestream.cpp:1383
+#: xinestream.cpp:1411
+msgid "Xine failed to create a stream."
+msgstr "فشل Xine عن إنشاء دفق."
+
+#: xinestream.cpp:1326
+msgid "Playback failed because no valid audio or video outputs are available"
+msgstr "فشل التشغيل بسبب عدم وجود خرج فيديو أو صوتي صالح."
+
+#, fuzzy
+#~ msgid "fade curve"
+#~ msgstr "تضاؤل منحنى"
+
+#, fuzzy
+#~ msgid "current volume"
+#~ msgstr "الحالي شدة الصوت"
+
+#, fuzzy
+#~ msgid "volume to fade to"
+#~ msgstr "شدة الصوت إلى تضاؤل إلى"
+
+#, fuzzy
+#~ msgid "fade time in milliseconds"
+#~ msgstr "تضاؤل وقت بوصة ملي ثانية"
+
+#, fuzzy
+#~ msgid "Fade in or fade out with different fade curves"
+#~ msgstr "بهتإبهت بوصة أو تضاؤل خارج مع مختلف تضاؤل"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html>This device is currently not available (either it is unplugged or "
+#~ "the driver is not loaded).</html>"
+#~ msgstr ""
+#~ "<html> هذا جهاز هو ليس متوفّر الإيطالية هو أو سوّاق هو ليس تمَ التحميل</html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html>This will try the following devices and use the first that works: "
+#~ "<ol><li>%1</li></ol></html>"
+#~ msgstr "<html> هذا متابعة و استخدام الأوّل<ol><li></li></ol></html>"

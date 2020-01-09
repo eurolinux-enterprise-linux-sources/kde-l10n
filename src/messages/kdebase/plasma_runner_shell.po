@@ -1,0 +1,158 @@
+# translation of krunner_shellrunner.po to Arabic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: krunner_shellrunner\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-07-21 07:12+0200\n"
+"PO-Revision-Date: 2009-07-08 17:13+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#. i18n: file: shellOptions.ui:61
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbUsername)
+#. i18n: file: shellOptions.ui:134
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leUsername)
+#. i18n: file: shellOptions.ui:61
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbUsername)
+#. i18n: file: shellOptions.ui:134
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leUsername)
+#: rc.cpp:3 rc.cpp:24 rc.cpp:33 rc.cpp:54
+msgid "Enter the user you want to run the application as here."
+msgstr "أدخل المستخدم الذي تريد البرنامج أن يشغل بواسطته هنا"
+
+#. i18n: file: shellOptions.ui:64
+#. i18n: ectx: property (text), widget (QLabel, lbUsername)
+#: rc.cpp:6 rc.cpp:36
+msgid "User&name:"
+msgstr "اسم ال&مستخدم:"
+
+#. i18n: file: shellOptions.ui:83
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, lePassword)
+#. i18n: file: shellOptions.ui:102
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbPassword)
+#. i18n: file: shellOptions.ui:83
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, lePassword)
+#. i18n: file: shellOptions.ui:102
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbPassword)
+#: rc.cpp:9 rc.cpp:12 rc.cpp:39 rc.cpp:42
+msgid "Enter the password here for the user you specified above."
+msgstr "أدخل كلمة المرور هنا للمستخدم الذي حددته في أعلى."
+
+#. i18n: file: shellOptions.ui:105
+#. i18n: ectx: property (text), widget (QLabel, lbPassword)
+#: rc.cpp:15 rc.cpp:45
+msgid "Pass&word:"
+msgstr "كلمة ال&سر:"
+
+#. i18n: file: shellOptions.ui:115
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRunInTerminal)
+#: rc.cpp:18 rc.cpp:48
+msgid ""
+"Check this option if the application you want to run is a text mode "
+"application. The application will then be run in a terminal emulator window."
+msgstr ""
+"اختر هذا الخيار في حالة كان البرنامج يعمل بالنظام النصي. البرنامج سيعمل في "
+"نافذة محاكي الطرفيات."
+
+#. i18n: file: shellOptions.ui:118
+#. i18n: ectx: property (text), widget (QCheckBox, cbRunInTerminal)
+#: rc.cpp:21 rc.cpp:51
+msgid "Run in &terminal window"
+msgstr "شغل في ال&طرفية"
+
+#. i18n: file: shellOptions.ui:141
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRunAsOther)
+#: rc.cpp:27 rc.cpp:57
+msgid ""
+"Check this option if you want to run the application with a different user "
+"id. Every process has a user id associated with it. This id code determines "
+"file access and other permissions. The password of the user is required to "
+"do this."
+msgstr ""
+"اختر هاذا الخيار لو أردت أن تشغل البرمج بهوية مستخدم اخر. كل عملية في النظام "
+"لديها رقم هوية مستخدم مرتبطة بها. كود الهوية يحدد صلاحيات الدخول للملف و "
+"صلاحيات أخرى. كلمة مرور المستخدم مطلوبة للقيام بتلك العملية."
+
+#. i18n: file: shellOptions.ui:144
+#. i18n: ectx: property (text), widget (QCheckBox, cbRunAsOther)
+#: rc.cpp:30 rc.cpp:60
+msgid "Run as a different &user"
+msgstr "شغل ب&هوية مستخدم أخر"
+
+#: shellrunner.cpp:51
+msgid "Finds commands that match :q:, using common shell syntax"
+msgstr "تعثر على الأوامر التي تطابق :q: ، باستخدام تركيبة شل العامة"
+
+#: shellrunner.cpp:71
+#, kde-format
+msgid "Run %1"
+msgstr "شغل %1"
+
+#~ msgid ""
+#~ "<qt>Select whether realtime scheduling should be enabled for the "
+#~ "application. The scheduler governs which process will run and which will "
+#~ "have to wait. Two schedulers are available:\n"
+#~ "<ul>\n"
+#~ "<li><em>Normal:</em> This is the standard, timesharing scheduler. It will "
+#~ "divide fairly the available processing time between all processes.</li>\n"
+#~ "<li><em>Realtime:</em>This scheduler will run your application "
+#~ "uninterrupted until it gives up the processor. This can be dangerous. An "
+#~ "application that does not give up the processor might hang the system. "
+#~ "You need root's password to use the scheduler.</li>\n"
+#~ "</ul>\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>اختر ما إذا كانت الجدولة في الوقت الحقيقي سيتم تفعيلها للبرنامج. "
+#~ "المجدول هو الذي يحدد أي عملية ستعمل و أيها ستنتظر. يتوفر مجدولان\n"
+#~ "<ul>\n"
+#~ "<li><em>عادي:</em> هذا مجدول قياسي يعتمد على مشاركة الوقت. سيقسم الوقت "
+#~ "المخصص للمعالجة بالتساوي بين كل العمليات.</li>\n"
+#~ "<li><em>الوقت القياسي:</em>هذا المجدول سيشغل البرنامج بلا مقاطعة حتى "
+#~ "ينتهي. قد يكون هذا خطرا. فالبرنامج الذي لا ينتهي قد يسبب عدم استجابة "
+#~ "النظام. تحتاج إلى كلمة مرور الجذر لاستخدام هذا المجدول.</li>\n"
+#~ "</ul>\n"
+#~ "</qt>"
+
+#~ msgid "Run with realtime &scheduling"
+#~ msgstr "شغل بجدولة الوقت الحقيقي"
+
+#~ msgid ""
+#~ "The priority that the command will be run with can be set here. From left "
+#~ "to right, it goes from low to high. The center position is the default "
+#~ "value. For priorities higher than the default, you will need to provide "
+#~ "the root password."
+#~ msgstr ""
+#~ "الأولوية التي سيعمل بها امر يمكن أن تحددها هنا. من اليسار لليمين، و هي "
+#~ "تبدأ من اصغر للأكبر. القيمة الوسطى هي القيمة المبدئية. و لتعيين أولويات "
+#~ "أعلى من القيمة الافتراضية، يجب عليك أن تدخل كلمة مرور الجذر."
+
+#~ msgid "&Priority:"
+#~ msgstr "أ&ولوية."
+
+#~ msgid ""
+#~ "Check this option if you want to run the application with a different "
+#~ "priority. A higher priority tells the operating system to give more "
+#~ "processing time to your application."
+#~ msgstr ""
+#~ "قم باختيار هذا الخيار إذا أردت أن تشغل البرنامج بأولوية مختلفة. الأولوية "
+#~ "العالية تخبر نظام التشغيل أن يعطي البرنامج وقتا أطول في المعالجة."
+
+#~ msgid "Run with a &different priority"
+#~ msgstr "شغل بأ&ولوية مختلفة"
+
+#~ msgid "Low"
+#~ msgstr "منخفض"
+
+#~ msgid "High"
+#~ msgstr "عالي"

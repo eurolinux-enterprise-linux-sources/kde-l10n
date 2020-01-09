@@ -1,0 +1,322 @@
+# translation of plasmaengineexplorer.po to Arabic
+# translation of plasmaengineexplorer.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Abdulaziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmaengineexplorer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-26 10:54+0200\n"
+"PO-Revision-Date: 2009-07-02 15:06+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: engineexplorer.cpp:57 main.cpp:68
+msgid "Plasma Engine Explorer"
+msgstr "مستكشف محركات البلازما"
+
+#: engineexplorer.cpp:73
+msgid "Search"
+msgstr "ابحث"
+
+#: engineexplorer.cpp:79
+msgid "Collapse All"
+msgstr "اطو الكل"
+
+#: engineexplorer.cpp:80
+msgid "Expand All"
+msgstr "وسع الكل"
+
+#: engineexplorer.cpp:165
+msgid "DataSource"
+msgstr "مصدر البيانات"
+
+#. i18n: file: serviceviewer.ui:67
+#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
+#: engineexplorer.cpp:165 rc.cpp:25 rc.cpp:58 serviceviewer.cpp:140
+msgid "Key"
+msgstr "المفتاح"
+
+#. i18n: file: serviceviewer.ui:72
+#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
+#: engineexplorer.cpp:165 rc.cpp:28 rc.cpp:61 serviceviewer.cpp:140
+msgid "Value"
+msgstr "القيمة"
+
+#: engineexplorer.cpp:165
+msgid "Type"
+msgstr "النوع"
+
+#: engineexplorer.cpp:274
+msgid "Get associated service"
+msgstr "احصل على الخدمة المرتبطة"
+
+#: engineexplorer.cpp:275
+msgid "Update source now"
+msgstr "حدث المصدر الأن"
+
+#: engineexplorer.cpp:276
+msgid "Remove source"
+msgstr "أزل المصدر"
+
+#: engineexplorer.cpp:296
+#, kde-format
+msgid "&lt;1 bit&gt;"
+msgid_plural "&lt;%1 bits&gt;"
+msgstr[0] "&lt;صفر&gt;"
+msgstr[1] "&lt;بت واحد&gt;"
+msgstr[2] "&lt;بتان&gt;"
+msgstr[3] "&lt;%1 بتات&gt;"
+msgstr[4] "&lt;%1 بتا&gt;"
+msgstr[5] "&lt;%1 بت&gt;"
+
+#: engineexplorer.cpp:305
+#, kde-format
+msgid "&lt;1 byte&gt;"
+msgid_plural "&lt;%1 bytes&gt;"
+msgstr[0] "&lt;صفر&gt;"
+msgstr[1] "&lt;واحد بايت&gt;"
+msgstr[2] "&lt;بايتان&gt;"
+msgstr[3] "&lt;%1 بايتات&gt;"
+msgstr[4] "&lt;%1 بايتا&gt;"
+msgstr[5] "&lt;%1 بايت&gt;"
+
+#: engineexplorer.cpp:327
+#, kde-format
+msgid "&lt;1 item&gt;"
+msgid_plural "&lt;%1 items&gt;"
+msgstr[0] "&lt;صفر&gt;"
+msgstr[1] "&lt;عنصر واحد&gt;"
+msgstr[2] "&lt;عنصران&gt;"
+msgstr[3] "&lt;%1 عناصر&gt;"
+msgstr[4] "&lt;%1 عنصرا&gt;"
+msgstr[5] "&lt;%1 عنصر&gt;"
+
+#: engineexplorer.cpp:393
+msgctxt "The user did a query to a dataengine and it returned empty data"
+msgid "<empty>"
+msgstr "<فارغ>"
+
+#: engineexplorer.cpp:400
+msgctxt ""
+"A the dataengine returned something that the humble view on the "
+"engineexplorer can't display, like a picture"
+msgid "<not displayable>"
+msgstr "<غير قابل للعرض>"
+
+#. i18n: file: engineexplorer.ui:19
+#. i18n: ectx: property (text), widget (KTitleWidget, m_title)
+#: engineexplorer.cpp:437 rc.cpp:3 rc.cpp:36
+msgid "Plasma DataEngine Explorer"
+msgstr "مستكشف محركات بيانات البلازما"
+
+#: engineexplorer.cpp:442
+#, kde-format
+msgctxt "The name of the engine followed by the number of data sources"
+msgid "%1 Engine - 1 data source"
+msgid_plural "%1 Engine - %2 data sources"
+msgstr[0] "المحرك %1 - لا يملك مصدر بيانات"
+msgstr[1] "المحرك %1 - مصدر بيانات واحد"
+msgstr[2] "المحرك %1 - مصدرين للبيانات"
+msgstr[3] "المحرك %1 - %2 مصادر للبيانات"
+msgstr[4] "المحرك %1 - %2 مصدرا للبيانات"
+msgstr[5] "المحرك %1 - %2 مصدر للبيانات"
+
+#: ktreeviewsearchline.cpp:419
+msgid "Search Columns"
+msgstr "ابحث في الأعمدة"
+
+#: ktreeviewsearchline.cpp:421
+msgid "All Visible Columns"
+msgstr "جميع الأعمدة الظاهرة"
+
+#: ktreeviewsearchline.cpp:578
+msgid "S&earch:"
+msgstr "ا&بحث:"
+
+#: main.cpp:31
+msgid "Explore the data published by Plasma DataEngines"
+msgstr "إستكشف البيانات المنشورة بواسطة محركات بيانات البلازما"
+
+#: main.cpp:52
+msgid "No description available"
+msgstr "لا يوجد وصف"
+
+#: main.cpp:70
+msgid "(c) 2006, The KDE Team"
+msgstr "(c) 2006, فريق كيدي"
+
+#: main.cpp:71
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:72
+msgid "Author and maintainer"
+msgstr "المؤلف والمشرف"
+
+#: main.cpp:78
+msgid "Displays a list of known engines and their descriptions"
+msgstr "تعرض المحركات المعروفة مع وصفها"
+
+#: main.cpp:79
+msgid "The desired height in pixels"
+msgstr "الإرتفاع المرغوب بالبكسل"
+
+#: main.cpp:80
+msgid "The desired width in pixels"
+msgstr "العرض المطلوب بالبكسل"
+
+#: main.cpp:81
+msgid "The desired x position in pixels"
+msgstr "الموقع سيني المرغوب بالبكسل"
+
+#: main.cpp:82
+msgid "The desired y position in pixels"
+msgstr "الموقع الصادي المرغوب بالبكسل"
+
+#: main.cpp:83
+msgid "The data engine to use"
+msgstr "محرك البيانات المطلوب"
+
+#: main.cpp:84
+msgid "The source to request"
+msgstr "المصدر لطلبه"
+
+#: main.cpp:85
+msgid "Update interval in milliseconds"
+msgstr "فترة التحديث بالميلي ثانية"
+
+#: main.cpp:86
+msgid ""
+"Only show engines associated with the parent application; maps to the X-KDE-"
+"ParentApp entry in the DataEngine's .desktop file."
+msgstr ""
+"فقط تعرض المحركات المتصلة بالتطبيقات الوالدة ، تربط إلى مدخلة  X-KDE-"
+"ParentApp في ملف .desktop لمحرك البيانات."
+
+#. i18n: file: engineexplorer.ui:34
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, m_sourceRequester)
+#: rc.cpp:6 rc.cpp:39
+msgid "Source name"
+msgstr "اسم المصدر"
+
+#. i18n: file: engineexplorer.ui:47
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, m_updateInterval)
+#: rc.cpp:9 rc.cpp:42
+msgid "Update on demand"
+msgstr "حدث عند الطلب"
+
+#. i18n: file: engineexplorer.ui:50
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_updateInterval)
+#: rc.cpp:12 rc.cpp:45
+msgid "ms"
+msgstr "م.ث"
+
+#. i18n: file: engineexplorer.ui:53
+#. i18n: ectx: property (prefix), widget (QSpinBox, m_updateInterval)
+#: rc.cpp:15 rc.cpp:48
+msgid "Update every "
+msgstr "حدّث كل"
+
+#. i18n: file: engineexplorer.ui:75
+#. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
+#: rc.cpp:18 rc.cpp:51
+msgid "Request"
+msgstr "اطلب"
+
+#. i18n: file: serviceviewer.ui:33
+#. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
+#: rc.cpp:22 rc.cpp:55
+msgid "&Operation:"
+msgstr "ال&عمليات:"
+
+#. i18n: file: serviceviewer.ui:80
+#. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
+#: rc.cpp:31 rc.cpp:64
+msgid "Operation count"
+msgstr "عدد العمليات"
+
+#: rc.cpp:32
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "يوسف الشهيبي,زايد السعيدي"
+
+#: rc.cpp:33
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "chahibi@gmail.com,zayed.alsaidi@gmail.com"
+
+#: serviceviewer.cpp:44
+msgid "Start Operation"
+msgstr "ابدأ العملية"
+
+#: serviceviewer.cpp:51
+msgctxt "Plasma engine with unknown name"
+msgid "Unknown"
+msgstr "مجهول"
+
+#: serviceviewer.cpp:52
+msgctxt "Plasma service with unknown name"
+msgid "Unknown"
+msgstr "مجهول"
+
+#: serviceviewer.cpp:66
+#, kde-format
+msgctxt "%1 is a Plasma service name"
+msgid "%1 Service Explorer"
+msgstr "مستكشف خدمة %1"
+
+#: serviceviewer.cpp:68
+#, kde-format
+msgctxt "Source: name of the data, Service: writes data instead of fetching"
+msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service <b>%3</b>"
+msgstr "محرك البيانات: <b>%1</b>، المصدر: <b>%2</b>، الخدمة <b>%3</b>"
+
+#: serviceviewer.cpp:169
+#, kde-format
+msgid "%1 operation with destination %2 failed. The error was:<p><b>%3</b>"
+msgstr "فشلت العملية %1 مع الجهة %2 . كان الخطأ:<p><b>%3</b>"
+
+#: serviceviewer.cpp:172 serviceviewer.cpp:183
+msgid "Operation Result"
+msgstr "نتيجة العملية"
+
+#: serviceviewer.cpp:176
+msgid "No response from job."
+msgstr "لا يوجد استجابة من الوظيفة."
+
+#: serviceviewer.cpp:180
+#, kde-format
+msgid ""
+"%1 operation with destination %2 returned successfully. The result was:<p><b>"
+"%3</b>"
+msgstr "نجحت العملية %1 مع الجهة  %2 . كانت النتيجة هي:<p><b>%3</b>"
+
+#: serviceviewer.cpp:205
+#, kde-format
+msgid "One active operation ..."
+msgid_plural "%1 operations active ..."
+msgstr[0] "لا يوجد عملية..."
+msgstr[1] "عملية نشطة واحدة..."
+msgstr[2] "عمليتان نشيطتان..."
+msgstr[3] "%1 عمليات نشطة..."
+msgstr[4] "%1 عملية نشطة..."
+msgstr[5] "%1 عملية نشطة..."
+
+#: titlecombobox.h:53
+msgid "Data Engines"
+msgstr "محركات البيانات"
+
+#~ msgid "%1 service for %2 DataEngine source %3"
+#~ msgstr "الخدمة %1 لمصدر محرك البيانات %2  %3"

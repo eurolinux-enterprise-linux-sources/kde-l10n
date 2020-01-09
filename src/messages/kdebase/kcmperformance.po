@@ -1,0 +1,220 @@
+# translation of kcmperformance.po to Arabic
+# translation of kcmperformance.po to
+# Copyright (C) 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmperformance\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-22 11:28+0200\n"
+"PO-Revision-Date: 2008-12-23 11:23+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"X-Poedit-Language: Arabic\n"
+
+#: kcmperformance.cpp:48
+msgid ""
+"<h1>KDE Performance</h1> You can configure settings that improve KDE "
+"performance here."
+msgstr "<h1>أداء كيدي</h1> يمكن ضبط الإعدادات لتحسين أداء كيدي من هنا."
+
+#: kcmperformance.cpp:56
+msgid "Konqueror"
+msgstr "كونكيورر"
+
+#: kcmperformance.cpp:60
+msgid "System"
+msgstr "النظام"
+
+#: kcmperformance.cpp:85
+msgid ""
+"<h1>Konqueror Performance</h1> You can configure several settings that "
+"improve Konqueror performance here. These include options for reusing "
+"already running instances and for keeping instances preloaded."
+msgstr ""
+"<h1>أداء كونكيورر</h1> يمكنك ضبط العديد من الإعدادات لتحسين أداء كونكيورر من "
+"هنا. هذا يتضمن خيارات لإعادة استخدام الحالات العاملة مسبقاً و حفظ الحالات "
+"المحمّلة مسبقاً."
+
+#: konqueror.cpp:36
+msgid ""
+"Disables the minimization of memory usage and allows you to make each "
+"browsing activity independent from the others"
+msgstr ""
+"تعطل تقليص كمية الذاكرة المستعملة و تسمح لك بجعل كل نشاط تصفح مستقلاً عن "
+"الآخر."
+
+#: konqueror.cpp:39
+msgid ""
+"<p>With this option activated, only one instance of Konqueror used for file "
+"browsing will exist in the memory of your computer at any moment, no matter "
+"how many file browsing windows you open, thus reducing resource requirements."
+"</p><p>Be aware that this also means that, if something goes wrong, all your "
+"file browsing windows will be closed simultaneously</p>"
+msgstr ""
+"<p>بتفعيل هذا الخيار ، فإن نسخة واحدة من الكونكيور ستستعمل لأجل تصفح "
+"الملفاتفي جهازك في أي وقت مهما كان عدد عدد نوافذ تصفح الملفات التي تفتحها، "
+"مما يؤدي إلى تخفيص الموارد المطلوبة لهذه العلمية.</p><p>لاحظ أنه إذا حدث شيء "
+"خطأ فإن جميع نوافذ تصفح الملفات ستغلق كلها مرة واحدة.</p>"
+
+#: konqueror.cpp:47
+msgid ""
+"<p>With this option activated, only one instance of Konqueror will exist in "
+"the memory of your computer at any moment, no matter how many browsing "
+"windows you open, thus reducing resource requirements.</p><p>Be aware that "
+"this also means that, if something goes wrong, all your browsing windows "
+"will be closed simultaneously.</p>"
+msgstr ""
+"<p>بتفعيل هذا الخيار ، فإن نسخة واحدة من الكونكيور ستستعمل لأجل تصفح الويبفي "
+"جهازك في أي وقت مهما كان عدد عدد نوافذ التصفح التي تفتحها، مما يؤدي إلى "
+"تخفيض الموارد المطلوبة لهذه العلمية.</p><p>لاحظ أنه إذا حدث شيء خطأ فإن جميع "
+"نوافذ التصفح ستغلق كلها مرة واحدة.</p>"
+
+#: konqueror.cpp:59
+msgid ""
+"<p>If non-zero, this option allows keeping Konqueror instances in memory "
+"after all their windows have been closed, up to the number specified in this "
+"option.</p><p>When a new Konqueror instance is needed, one of these "
+"preloaded instances will be reused instead, improving responsiveness at the "
+"expense of the memory required by the preloaded instances.</p>"
+msgstr ""
+"<p>إذا لم يكن هذا الخيار صفرا ، فإن يسمح للكونكيور بالاحتفاظ بعدد من النسخ "
+"في الذاكرةبعد غلق نوافذها ، عدد هذه النسخ يحددها هذا الخيار .</p><p> عند "
+"الحاجة إلى نسخة جديدة من الكونكيور فإن أحد النسخ الباقية في الذاكر سيعاد "
+"استعمالها مما يحسن من سرعة الاستجابة على حساب الذاكرة المطلوبة للتحميل "
+"المسبق للنسخ. </p>"
+
+#: konqueror.cpp:68
+msgid ""
+"<p>If enabled, an instance of Konqueror will be preloaded after the ordinary "
+"KDE startup sequence.</p><p>This will make the first Konqueror window open "
+"faster, but at the expense of longer KDE startup times (but you will be able "
+"to work while it is loading, so you may not even notice that it is taking "
+"longer).</p>"
+msgstr ""
+"<p>إذا فعل هذا الخيار ، فإنه يسمح بتحميل مسبق للكونكيور عند بدءالكيدي.</"
+"p><p>هذا يجعل فتح أول نافذة كونكيور سريع ولكن  على حساب زيادة وقت بدء الكيدي "
+"(لكن ستتمكن من العمل وهي ما تزال تتحمل ، لذا فلن تلاحظ أنها تأخذ وقت أطول).</"
+"p>"
+
+#: konqueror.cpp:74
+msgid ""
+"<p>If enabled, KDE will always try to have one preloaded Konqueror instance "
+"ready; preloading a new instance in the background whenever there is not one "
+"available, so that windows will always open quickly.</p><p><b>Warning:</b> "
+"In some cases, it is actually possible that this will reduce perceived "
+"performance.</p>"
+msgstr ""
+"<p>إذا فعل هذا الخيار ، فإن الكيدي ستعمل على تحميل الكونكيور تحميلا "
+"مسبقابحيث تكون هناك نسخة من الكونكيور دائما في الذاكرة ؛ مما يؤدي إلى فتح "
+"النوافذ بشكل سريع. </p><p><b>تحذير:</b> في بعض الأحيان من الممكن أن يؤدي هذا "
+"إلى تقليل من كفاءة النظام.</p>"
+
+#. i18n: file: konqueror_ui.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, reuse_group)
+#: rc.cpp:3
+msgid "Minimize Memory Usage"
+msgstr "قلّص استعمال الذاكرة"
+
+#. i18n: file: konqueror_ui.ui:22
+#. i18n: ectx: property (text), widget (QRadioButton, rb_never_reuse)
+#: rc.cpp:6
+msgid "&Never"
+msgstr "لا ت&فعل"
+
+#. i18n: file: konqueror_ui.ui:29
+#. i18n: ectx: property (text), widget (QRadioButton, rb_file_browsing_reuse)
+#: rc.cpp:9
+msgid "For &file browsing only (recommended)"
+msgstr "ل&تصفح الملفات فقط (موصّى به)"
+
+#. i18n: file: konqueror_ui.ui:36
+#. i18n: ectx: property (text), widget (QRadioButton, rb_always_reuse)
+#: rc.cpp:12
+msgid "Alwa&ys (use with care)"
+msgstr "دائ&ماً ( استخدم بحذر )"
+
+#. i18n: file: konqueror_ui.ui:46
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:15
+msgid "Preloading"
+msgstr "التحميل التمهيدي"
+
+#. i18n: file: konqueror_ui.ui:57
+#. i18n: ectx: property (text), widget (QLabel, lb_preload_count)
+#: rc.cpp:18
+msgid "Maximum number of instances kept &preloaded:"
+msgstr "العدد الأقصى للحالات الم&حملة مسبقاُ:"
+
+#. i18n: file: konqueror_ui.ui:91
+#. i18n: ectx: property (text), widget (QCheckBox, cb_preload_on_startup)
+#: rc.cpp:21
+msgid "Preload an instance after KDE startup"
+msgstr "حمّل حالة واحدة بعد بدء تشغيل كيدي"
+
+#. i18n: file: konqueror_ui.ui:98
+#. i18n: ectx: property (text), widget (QCheckBox, cb_always_have_preloaded)
+#: rc.cpp:24
+msgid "Always try to have at least one preloaded instance"
+msgstr "حاول دائماً أن تكون هناك حالة واحدة محملة مسبقاً"
+
+#. i18n: file: system_ui.ui:8
+#. i18n: ectx: property (title), widget (QGroupBox, gb_)
+#: rc.cpp:27
+msgid "System Configuration"
+msgstr "تشكيل النظام"
+
+#. i18n: file: system_ui.ui:14
+#. i18n: ectx: property (text), widget (QCheckBox, cb_disable_kbuildsycoca)
+#: rc.cpp:30
+msgid "Disable &system configuration startup check"
+msgstr "عطّل ف&حص تشكيل النظام عند بدء التشغيل"
+
+#. i18n: file: system_ui.ui:21
+#. i18n: ectx: property (text), widget (QLabel, label_kbuildsycoca)
+#: rc.cpp:33
+msgid ""
+"This option may in rare cases lead to various problems. Consult the What's "
+"This (Shift+F1) help for details."
+msgstr ""
+"يمكن لهذا الخيار أن يقود إلى مشاكل متنوعة. استشر المساعدة ما هذا ؟ (Shift"
+"+F1) للتفاصيل."
+
+#: system.cpp:34
+msgid ""
+"<p>During startup KDE needs to perform a check of its system configuration "
+"(mimetypes, installed applications, etc.), and in case the configuration has "
+"changed since the last time, the system configuration cache (KSyCoCa) needs "
+"to be updated.</p><p>This option delays the check, which avoid scanning all "
+"directories containing files describing the system during KDE startup, thus "
+"making KDE startup faster. However, in the rare case the system "
+"configuration has changed since the last time, and the change is needed "
+"before this delayed check takes place, this option may lead to various "
+"problems (missing applications in the K Menu, reports from applications "
+"about missing required mimetypes, etc.).</p><p>Changes of system "
+"configuration mostly happen by (un)installing applications. It is therefore "
+"recommended to turn this option temporarily off while (un)installing "
+"applications.</p>"
+msgstr ""
+"<p>عندما تبدأ الكيدي فإنها تكون بحاجة إلى التأكد من ضبط النظام(أنساق الملفات "
+"، التطبيقات المثبة ، و غيرها.) ، فإذا وجدت أن الضبط قد تغيرمنذ أخر مرة فإنا "
+"ستحدث التخزين المؤقت لضبط النظام (KSyCoCa)  .</p><p>هذا الخيار سيؤخر هذا "
+"الفحص ، مما يمنع مسح جميع الأدلة التي تحوي على ملفات ضبط للنظام عند اقلاع "
+"الكيديمما يؤدي إلى تسريع بدء الكيدي . على كل حال في بعض الحالات النادرة قد "
+"يكون الضبط قد تغير منذ أخر مرة أقلعت فيها الكيدي ، فإذا أخر التأكد من ضبط "
+"النظام (عن طريق هذا الخيار) فإنه قد يؤدي إلى عدة مشاكل ( مثل فقدان بعض "
+"مدخلات قائمة البدء ، و  تلبيغات من التطبيقات بأنها فقدت أنواع ملفات تحتاجها "
+"، إلخ ).</p><p> يحدث تغير في ضبط النظام عادة عند إلغاء تثبيت البرامج ، فلذا "
+"فإنه من الموصى تعطيل هذا الخيار عندما تزيل تطبيقات من النظام.</p>"

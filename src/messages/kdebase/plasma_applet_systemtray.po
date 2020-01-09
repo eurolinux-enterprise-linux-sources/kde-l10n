@@ -1,0 +1,308 @@
+# translation of plasma_applet_systemtray.po to Arabic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# zayed <zayed.alsaidi@gmail.com>, 2008, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_systemtray\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-01 01:20+0100\n"
+"PO-Revision-Date: 2009-08-13 10:26+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: notificationitemwatcher/notificationitemwatcher.cpp:36
+msgid "notificationitemwatcher"
+msgstr "notificationitemwatcher"
+
+#: core/extendertask.cpp:156
+#, kde-format
+msgid "%1 Recently Completed Job:"
+msgid_plural "%1 Recently Completed Jobs:"
+msgstr[0] "%1 المهام المكملة حديثا:"
+msgstr[1] "مهمة واحدة مكملة حديثا:"
+msgstr[2] "مهمتان مكملتان حديثا:"
+msgstr[3] "%1 مهمات مكملة حديثا:"
+msgstr[4] "%1 مهمة مكملة حديثا:"
+msgstr[5] "%1 مهمة مكملة حديثا:"
+
+#: core/extendertask.cpp:179
+#, kde-format
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 تعمل"
+msgstr[1] "وظيفة واحدة تعمل"
+msgstr[2] "وظيفتان تعملان"
+msgstr[3] "%1 وظائف تعمل"
+msgstr[4] "%1 وظيفة تعمل"
+msgstr[5] "%1 وظيفة تعمل"
+
+#: core/extendertask.cpp:183
+#, kde-format
+msgid "%1 suspended job"
+msgid_plural "%1 suspended jobs"
+msgstr[0] "وظيفة معلقة"
+msgstr[1] "وظيفة واحدة معلقة"
+msgstr[2] "وظيفتان معلقتان"
+msgstr[3] "%1 وظائف معلقة"
+msgstr[4] "%1 وظيفة معلقة"
+msgstr[5] "%1 وظيفة معلقة"
+
+#: core/extendertask.cpp:187
+#, kde-format
+msgid "%1 notification"
+msgid_plural "%1 notifications"
+msgstr[0] "لا يوجد إشعار"
+msgstr[1] "إشعار واحد"
+msgstr[2] "إشعاران"
+msgstr[3] "%1 إشعارات"
+msgstr[4] "%1 إشعارا"
+msgstr[5] "%1 إشعار"
+
+#: core/extendertask.cpp:192
+msgid "No active jobs or notifications"
+msgstr "لا يوجد وظائف أو إشعارات نشطة"
+
+#: core/extendertask.cpp:195
+msgid "Notifications and jobs"
+msgstr "الوظائف و الإشعات"
+
+#: core/extendertask.cpp:248
+msgid "Show or hide notifications and jobs"
+msgstr "أظهر أو اخف الإشعارات و الوظائف"
+
+#: core/job.cpp:174
+#, kde-format
+msgid "%1 file, to: %2"
+msgid_plural "%1 files, to: %2"
+msgstr[0] "%1 ملف  إلى: %2"
+msgstr[1] "ملف واحد إلى: %2"
+msgstr[2] "ملفان  إلى: %2"
+msgstr[3] "%1 ملفات إلى: %2"
+msgstr[4] "%1 ملفا  إلى: %2"
+msgstr[5] "%1 ملف  إلى: %2"
+
+#: core/manager.cpp:215
+#, kde-format
+msgid "1 running job (%2 remaining)"
+msgid_plural "%1 running jobs (%2 remaining)"
+msgstr[0] "لا توجد وظيفة تعمل (الباقي %2)"
+msgstr[1] "وظيفة واحدة تعمل (الباقي %2)"
+msgstr[2] "وظيفتان تعملان (الباقي %2)"
+msgstr[3] "%1 وظائف تعمل (الباقي %2)"
+msgstr[4] "%1 وظيفة تعمل (الباقي %2)"
+msgstr[5] "%1 وظيفة تعمل (الباقي %2)"
+
+#: core/manager.cpp:220
+msgid "no running jobs"
+msgstr "لا توجد وظائف تعمل"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"
+
+#. i18n: file: ui/autohide.ui:23
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:5
+msgid "Jobs & Notifications"
+msgstr "الوظائف و الإشعارات"
+
+#. i18n: file: ui/autohide.ui:30
+#. i18n: ectx: property (text), widget (QCheckBox, autoHide)
+#: rc.cpp:8
+msgid "Automatically hide new notifications and jobs after a short delay"
+msgstr "اخف تلقائيا الإشعارات و الوظائف الجديدة بعد تأخير قليل"
+
+#. i18n: file: ui/autohide.ui:59
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:11
+msgid "System Tray Icons"
+msgstr "أيقونات صينية النظام"
+
+#. i18n: file: ui/protocols.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:14
+msgid "Pop Up Notices"
+msgstr "ملاحظات منبثقة"
+
+#. i18n: file: ui/protocols.ui:33
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:17
+msgid "Application notifications"
+msgstr "إشعارت التطبيق"
+
+#. i18n: file: ui/protocols.ui:50
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:20
+msgid "File transfers and other jobs"
+msgstr "نقل الملفات و وظائف أخرى"
+
+#. i18n: file: ui/protocols.ui:73
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:23
+msgid "Icons"
+msgstr "أيقونات"
+
+#. i18n: file: ui/protocols.ui:80
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:26
+msgid "Application status"
+msgstr "حالة التطبيق"
+
+#. i18n: file: ui/protocols.ui:97
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:29
+msgid "Communications"
+msgstr "الإتصالات"
+
+#. i18n: file: ui/protocols.ui:114
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:32
+msgid "System services"
+msgstr "خدمات النظام"
+
+#. i18n: file: ui/protocols.ui:131
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: rc.cpp:35
+msgid "Hardware control"
+msgstr "التحكم بالعتاد"
+
+#: ui/applet.cpp:195
+msgid "No notifications and no jobs"
+msgstr "لا إشعارات و لا وظائف"
+
+#: ui/applet.cpp:483
+msgid "Information"
+msgstr "معلومات"
+
+#: ui/applet.cpp:485
+msgid "Choose which information to show"
+msgstr "اختر أي المعلومات لتعرض"
+
+#: ui/applet.cpp:486
+msgid "Auto Hide"
+msgstr "إخفاء تلقائي"
+
+#: ui/applet.cpp:706
+#, kde-format
+msgid "%1 [Finished]"
+msgstr "%1 [منتهي]"
+
+#: ui/applet.cpp:740
+msgid "Recently Completed Jobs"
+msgstr "الوظائف المكتملة حديثا"
+
+#: ui/jobwidget.cpp:99 ui/jobwidget.cpp:330
+msgid "More"
+msgstr "أكثر"
+
+#: ui/jobwidget.cpp:112
+msgid "Pause job"
+msgstr "أوقف الوظيفة مؤقتا"
+
+#: ui/jobwidget.cpp:122
+msgid "Resume job"
+msgstr "استأنف الوظيفة"
+
+#: ui/jobwidget.cpp:132
+msgid "Cancel job"
+msgstr "ألغ الوظيفة"
+
+#: ui/jobwidget.cpp:183 ui/jobwidget.cpp:214
+#, kde-format
+msgid "%1 (%2 remaining)"
+msgstr "%1 (المتبقي %2 )"
+
+#: ui/jobwidget.cpp:191
+#, kde-format
+msgctxt ""
+"%1 is the name of the job, can be things like Copying, deleting, moving"
+msgid "%1 [Paused]"
+msgstr "%1 [متوقف]"
+
+#: ui/jobwidget.cpp:192
+msgid "Paused"
+msgstr "متوقف مؤقتا"
+
+#: ui/jobwidget.cpp:196
+#, kde-format
+msgctxt ""
+"%1 is the name of the job, can be things like Copying, deleting, moving"
+msgid "%1 [Finished]"
+msgstr "%1 [منتهي]"
+
+#: ui/jobwidget.cpp:259
+#, kde-format
+msgid "%2 / 1 folder"
+msgid_plural "%2 / %1 folders"
+msgstr[0] "%2 / مجلد"
+msgstr[1] "%2 / مجلد واحد"
+msgstr[2] "%2 / مجلدين"
+msgstr[3] "%2 /  %1 مجلدات"
+msgstr[4] "%2 /  %1 مجلدا"
+msgstr[5] "%2 /  %1 مجلد"
+
+#: ui/jobwidget.cpp:264
+#, kde-format
+msgid "%2 / 1 file"
+msgid_plural "%2 / %1 files"
+msgstr[0] "%2 / ملف"
+msgstr[1] "%2 / ملف واحد"
+msgstr[2] "%2 / ملفين"
+msgstr[3] "%2 /  %1 ملفات"
+msgstr[4] "%2 /  %1 ملفا"
+msgstr[5] "%2 /  %1 ملف"
+
+#: ui/jobwidget.cpp:321
+#, fuzzy
+#| msgid "less"
+msgid "Less"
+msgstr "أقل"
+
+#: ui/notificationwidget.cpp:161
+#, kde-format
+msgid "Notification from %1"
+msgstr "إشعار من %1"
+
+#~ msgid "more"
+#~ msgstr "أكثر"
+
+#~ msgid "Visible icons:"
+#~ msgstr "الأيقونات الظاهرة:"
+
+#~ msgid "Hidden icons:"
+#~ msgstr "الأيقونات المخفية:"
+
+#~ msgctxt ""
+#~ "%1 is the name of the job, can be things like Copying, deleting, moving"
+#~ msgid "(paused) %1"
+#~ msgstr "(متوقف مؤقتا) %1"
+
+#~ msgctxt ""
+#~ "%1 is the name of the job, can be things like Copying, deleting, moving"
+#~ msgid "(finished) %1"
+#~ msgstr "(منتهي) %1"
+
+#, fuzzy
+#~| msgid "Notification from %1"
+#~ msgid "Notifications"
+#~ msgstr "إشعار من %1"
+
+#, fuzzy
+#~| msgid "toggle visibility of notifications and jobs"
+#~ msgid "Toggle visibility of notifications and jobs"
+#~ msgstr "بدل الرؤية للإشعارات و الأعمال"

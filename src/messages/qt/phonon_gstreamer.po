@@ -1,0 +1,87 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: phonon_gstreamer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-21 01:31+0100\n"
+"PO-Revision-Date: 2009-06-15 15:04+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: mediaobject.cpp:94
+msgid ""
+"Cannot start playback. \n"
+"\n"
+"Check your Gstreamer installation and make sure you \n"
+"have libgstreamer-plugins-base installed."
+msgstr ""
+"لا يمكن بدء العرض. \n"
+"\n"
+"تأكد من تثبيت GStreamer و تأكد أيضا \n"
+"من تثبيت libgstreamer-plugins-base ."
+
+#: mediaobject.cpp:223
+msgid "Missing codec helper script assistant."
+msgstr ""
+
+#: mediaobject.cpp:225
+#, qt-format
+msgid "Plugin codec installation failed for codec: %0"
+msgstr ""
+
+#: mediaobject.cpp:236
+#, qt-format
+msgid ""
+"A required codec is missing. You need to install the following codec(s) to "
+"play this content: %0"
+msgstr ""
+"لا يمكن إيجاد كودك مطلوب. أنت بحاجة إلى تثبيت هذه الكودكلتشغيل هذا المحتوى: %"
+"0"
+
+#: mediaobject.cpp:955 mediaobject.cpp:963 mediaobject.cpp:978
+#: mediaobject.cpp:1004 mediaobject.cpp:1010 mediaobject.cpp:1029
+#: mediaobject.cpp:1460 mediaobject.cpp:1484
+msgid "Could not open media source."
+msgstr "لا يمكن فتح مصدر الوسيط"
+
+#: mediaobject.cpp:968
+msgid "Invalid source type."
+msgstr "نوع المصدر غير صالح."
+
+#: mediaobject.cpp:1458
+msgid "Could not locate media source."
+msgstr "لا يمكن تحديد مصدر الوسيط."
+
+#: mediaobject.cpp:1468
+msgid "Could not open audio device. The device is already in use."
+msgstr "لا يمكن فتح جهاز الصوت. الجهاز مستخدم بالفعل."
+
+#: mediaobject.cpp:1481
+msgid "Could not decode media source."
+msgstr "لا يمكن فك تشفير مصدر الوسيط."
+
+#: backend.cpp:182
+msgid ""
+"Warning: You do not seem to have the package gstreamer0.10-plugins-good "
+"installed.\n"
+"          Some video features have been disabled."
+msgstr ""
+"تحذير: يبدو أنك لم تثبت حزمة gstreamer0.10-plugins-good .\n"
+"          بعض مزايا الفيديو عطلت."
+
+#: backend.cpp:187
+msgid ""
+"Warning: You do not seem to have the base GStreamer plugins installed.\n"
+"          All audio and video support has been disabled"
+msgstr ""
+"تحذير: يبدو أنك لم تثبت ملحقات GStreamer  الأساسية.\n"
+"          تم تعطيل دعم الصوت و الفيديو."

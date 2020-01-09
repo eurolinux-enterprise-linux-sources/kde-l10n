@@ -1,0 +1,2468 @@
+# translation of libkcal.po to
+# Copyright (C) 2004, 2007 Free Software Foundation, Inc.
+#
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkcal\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-09-17 01:26+0200\n"
+"PO-Revision-Date: 2007-10-14 15:58+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: attendee.cpp:136
+#, fuzzy
+msgctxt "@item event, to-do or journal needs action"
+msgid "Needs Action"
+msgstr "يتطلّب إجراء"
+
+#: attendee.cpp:139
+#, fuzzy
+msgctxt "@item event, to-do or journal accepted"
+msgid "Accepted"
+msgstr "مقبول"
+
+#: attendee.cpp:142
+#, fuzzy
+msgctxt "@item event, to-do or journal declined"
+msgid "Declined"
+msgstr "مرفوض"
+
+#: attendee.cpp:145
+#, fuzzy
+msgctxt "@item event or to-do tentatively accepted"
+msgid "Tentative"
+msgstr "مبدئي"
+
+#: attendee.cpp:148
+#, fuzzy
+msgctxt "@item event or to-do delegated"
+msgid "Delegated"
+msgstr "مفوّض"
+
+#: attendee.cpp:151
+#, fuzzy
+msgctxt "@item to-do completed"
+msgid "Completed"
+msgstr "اكتمل"
+
+#: attendee.cpp:154
+#, fuzzy
+msgctxt "@item to-do in process of being completed"
+msgid "In Process"
+msgstr "قيد العمل"
+
+#: attendee.cpp:157
+#, fuzzy
+msgctxt "@item event or to-do status unknown"
+msgid "Unknown"
+msgstr "مجهول"
+
+#: attendee.cpp:205
+#, fuzzy
+msgctxt "@item chairperson"
+msgid "Chair"
+msgstr "الكرسي"
+
+#: attendee.cpp:209
+#, fuzzy
+msgctxt "@item participation is required"
+msgid "Participant"
+msgstr "المشارك"
+
+#: attendee.cpp:212
+#, fuzzy
+msgctxt "@item participation is optional"
+msgid "Optional Participant"
+msgstr "مشارك إختياري"
+
+#: attendee.cpp:215
+#, fuzzy
+msgctxt "@item non-participant copied for information"
+msgid "Observer"
+msgstr "المراقب"
+
+#: calendar.cpp:71
+#, fuzzy
+msgid "Unknown Name"
+msgstr "اسم مجهول"
+
+#: calendar.cpp:72
+msgid "unknown@nowhere"
+msgstr ""
+
+#: confirmsavedialog.cpp:51
+#, fuzzy
+msgid "Confirm Save"
+msgstr "تأكيد الحفظ"
+
+#: confirmsavedialog.cpp:62
+#, fuzzy, kde-format
+msgid "You have requested to save the following objects to '%1':"
+msgstr "أنت إلى حفظ متابعة إلى:"
+
+#: confirmsavedialog.cpp:67
+#, fuzzy
+msgid "Operation"
+msgstr "العملية"
+
+#: confirmsavedialog.cpp:68
+#, fuzzy
+msgid "Type"
+msgstr "النوع"
+
+#: confirmsavedialog.cpp:69
+#, fuzzy
+msgid "Summary"
+msgstr "الملخّص"
+
+#: confirmsavedialog.cpp:70
+#, fuzzy
+msgid "UID"
+msgstr "رمز المستخدم"
+
+#: exceptions.cpp:55
+#, fuzzy, kde-format
+msgid "%1 Error"
+msgstr "خطأ"
+
+#: exceptions.cpp:90
+#, fuzzy
+msgid "Load Error"
+msgstr "خطأ تحميل"
+
+#: exceptions.cpp:93
+#, fuzzy
+msgid "Save Error"
+msgstr "خطأ في الحفظ"
+
+#: exceptions.cpp:96
+#, fuzzy
+msgid "Parse Error in libical"
+msgstr "يُعرْب :: تُعرب خطأ بوصة"
+
+#: exceptions.cpp:99
+#, fuzzy
+msgid "Parse Error in libkcal"
+msgstr "يُعرْب :: تُعرب خطأ بوصة"
+
+#: exceptions.cpp:102
+#, fuzzy
+msgid "No calendar component found."
+msgstr "لا رزنامة مكوّن موجود."
+
+#: exceptions.cpp:105
+#, fuzzy
+msgid "vCalendar Version 1.0 detected."
+msgstr "الإصدار."
+
+#: exceptions.cpp:108
+#, fuzzy
+msgid "iCalendar Version 2.0 detected."
+msgstr "الإصدار."
+
+#: exceptions.cpp:111
+#, fuzzy
+msgid "Unknown calendar format detected."
+msgstr "مجهول رزنامة تنسيق."
+
+#: exceptions.cpp:114
+#, fuzzy
+msgid "Restriction violation"
+msgstr "الأقتصار"
+
+#: htmlexport.cpp:184
+#, fuzzy, kde-format
+msgctxt "@title month and year"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: htmlexport.cpp:263
+#, fuzzy
+msgctxt "@title:column event start time"
+msgid "Start Time"
+msgstr "وقت البداية"
+
+#: htmlexport.cpp:265
+#, fuzzy
+msgctxt "@title:column event end time"
+msgid "End Time"
+msgstr "وقت النهاية"
+
+#: htmlexport.cpp:267
+#, fuzzy
+msgctxt "@title:column event description"
+msgid "Event"
+msgstr "حدث"
+
+#: htmlexport.cpp:270
+#, fuzzy
+msgctxt "@title:column event locatin"
+msgid "Location"
+msgstr "الموقع"
+
+#: htmlexport.cpp:275
+#, fuzzy
+msgctxt "@title:column event categories"
+msgid "Categories"
+msgstr "الفئات"
+
+#: htmlexport.cpp:280
+#, fuzzy
+msgctxt "@title:column event attendees"
+msgid "Attendees"
+msgstr "الحضور"
+
+#: htmlexport.cpp:401
+#, fuzzy
+msgctxt "@title:column"
+msgid "To-do"
+msgstr "إلىإلى عمل"
+
+#: htmlexport.cpp:402
+#, fuzzy
+msgctxt "@title:column to-do priority"
+msgid "Priority"
+msgstr "الأولويّة"
+
+#: htmlexport.cpp:403
+#, fuzzy
+msgctxt "@title:column to-do percent completed"
+msgid "Completed"
+msgstr "اكتمل"
+
+#: htmlexport.cpp:405
+#, fuzzy
+msgctxt "@title:column to-do due date"
+msgid "Due Date"
+msgstr "تاريخ الفرض"
+
+#: htmlexport.cpp:409
+#, fuzzy
+msgctxt "@title:column to-do location"
+msgid "Location"
+msgstr "الموقع"
+
+#: htmlexport.cpp:413
+#, fuzzy
+msgctxt "@title:column to-do categories"
+msgid "Categories"
+msgstr "الفئات"
+
+#: htmlexport.cpp:417
+#, fuzzy
+msgctxt "@title:column to-do attendees"
+msgid "Attendees"
+msgstr "الحضور"
+
+#: htmlexport.cpp:439
+#, fuzzy
+msgctxt "@title:column sub-to-dos of the parent to-do"
+msgid "Sub-To-dos of: "
+msgstr "فرعي إلى من "
+
+#: htmlexport.cpp:494
+#, fuzzy
+msgctxt "@title:column sub-to-dos of the parent to-do"
+msgid "Sub-To-dos"
+msgstr "فرعي إلى"
+
+#: htmlexport.cpp:512
+#, fuzzy, kde-format
+msgctxt "@info/plain to-do percent complete"
+msgid "%1 %"
+msgstr "%1 %"
+
+#: htmlexport.cpp:676
+#, fuzzy
+msgctxt "@info/plain"
+msgid "This page was created "
+msgstr "هذا صفحة "
+
+#: htmlexport.cpp:685
+#, fuzzy, kde-format
+msgctxt "@info/plain page creator email link with name"
+msgid "by <link url='mailto:%1'>%2</link>"
+msgstr "أداء<link url='mailto:%1'></link>"
+
+#: htmlexport.cpp:689
+#, fuzzy, kde-format
+msgctxt "@info/plain page creator email link"
+msgid "by <link url='mailto:%1'>%2</link>"
+msgstr "أداء<link url='mailto:%1'></link>"
+
+#: htmlexport.cpp:695
+#, fuzzy, kde-format
+msgctxt "@info/plain page creator name only"
+msgid "by %1 "
+msgstr "أداء 1 "
+
+#: htmlexport.cpp:701
+#, fuzzy, kde-format
+msgctxt "@info/plain page credit with name and link"
+msgid "with <link url='%1'>%2</link>"
+msgstr "مع<link url='%1'></link>"
+
+#: htmlexport.cpp:705
+#, fuzzy, kde-format
+msgctxt "@info/plain page credit name only"
+msgid "with %1"
+msgstr "مع 1"
+
+#: htmlexport.cpp:772
+#, fuzzy, kde-format
+msgctxt "@info/plain holiday by date and name"
+msgid "%1, %2"
+msgstr "%1، %2"
+
+#: icalformat.cpp:128
+#, fuzzy, kde-format
+msgid "Error saving to '%1'."
+msgstr "خطأ إلى."
+
+#: icalformat.cpp:139
+#, fuzzy, kde-format
+msgid "Could not save '%1'"
+msgstr "يمكن أن ليس حفظ"
+
+#: icalformat.cpp:284
+#, fuzzy
+msgid "libical error"
+msgstr "خطأ"
+
+#: icalformat_p.cpp:2410
+#, fuzzy
+msgid "Expected iCalendar format"
+msgstr "متوقّع تنسيق"
+
+#: incidence.cpp:805
+#, fuzzy
+msgctxt "@item event is tentative"
+msgid "Tentative"
+msgstr "مبدئي"
+
+#: incidence.cpp:807
+#, fuzzy
+msgctxt "@item event is definite"
+msgid "Confirmed"
+msgstr "مؤكّد"
+
+#: incidence.cpp:809
+#, fuzzy
+msgctxt "@item to-do is complete"
+msgid "Completed"
+msgstr "اكتمل"
+
+#: incidence.cpp:811
+#, fuzzy
+msgctxt "@item to-do needs action"
+msgid "Needs-Action"
+msgstr "الحاجات إجراء"
+
+#: incidence.cpp:813
+#, fuzzy
+msgctxt "@item event orto-do is canceled; journal is removed"
+msgid "Canceled"
+msgstr "أُلغِيَ"
+
+#: incidence.cpp:815
+#, fuzzy
+msgctxt "@item to-do is in process"
+msgid "In-Process"
+msgstr "داخل عمليّة"
+
+#: incidence.cpp:817
+#, fuzzy
+msgctxt "@item journal is in draft form"
+msgid "Draft"
+msgstr "مسوّدة"
+
+#: incidence.cpp:819
+#, fuzzy
+msgctxt "@item journal is in final form"
+msgid "Final"
+msgstr "نهائي"
+
+#: incidence.cpp:851
+#, fuzzy
+msgctxt "@item incidence access if for everyone"
+msgid "Public"
+msgstr "عام"
+
+#: incidence.cpp:853
+#, fuzzy
+msgctxt "@item incidence access is by owner only"
+msgid "Private"
+msgstr "خاص"
+
+#: incidence.cpp:855
+#, fuzzy
+msgctxt "@item incidence access is by owner and a controlled group"
+msgid "Confidential"
+msgstr "سرّي"
+
+#: incidenceformatter.cpp:110
+#, fuzzy
+msgid "Category"
+msgstr "فئة"
+
+#: incidenceformatter.cpp:112
+#, fuzzy
+msgid "Categories"
+msgstr "الفئات"
+
+#: incidenceformatter.cpp:177
+#, fuzzy
+msgid "Organizer"
+msgstr "المنظم"
+
+#: incidenceformatter.cpp:184
+#, fuzzy
+msgid "Attendees"
+msgstr "الحضور"
+
+#: incidenceformatter.cpp:191
+#, fuzzy, kde-format
+msgid " (delegated by %1)"
+msgstr "أداء"
+
+#: incidenceformatter.cpp:194
+#, fuzzy, kde-format
+msgid " (delegated to %1)"
+msgstr "إلى"
+
+#: incidenceformatter.cpp:322
+#, fuzzy
+msgid "Location"
+msgstr "الموقع"
+
+#: incidenceformatter.cpp:330 incidenceformatter.cpp:345
+#: incidenceformatter.cpp:352
+#, fuzzy
+msgid "Time"
+msgstr "الوقت"
+
+#: incidenceformatter.cpp:332 incidenceformatter.cpp:347
+#: incidenceformatter.cpp:355
+#, fuzzy, kde-format
+msgctxt "<beginTime> - <endTime>"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: incidenceformatter.cpp:337 incidenceformatter.cpp:365
+#, fuzzy
+msgid "Date"
+msgstr "التاريخ"
+
+#: incidenceformatter.cpp:339 incidenceformatter.cpp:367
+#, fuzzy, kde-format
+msgctxt "date as string"
+msgid "%1"
+msgstr "%1"
+
+#: incidenceformatter.cpp:376
+#, fuzzy
+msgid "Birthday"
+msgstr "عيد الميلاد"
+
+#: incidenceformatter.cpp:393
+#, fuzzy, kde-format
+msgid "1&nbsp;category"
+msgid_plural "%1&nbsp;categories"
+msgstr[0] "التصنيف"
+msgstr[1] "التصنيف"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: incidenceformatter.cpp:402
+#, fuzzy
+msgid "Next Occurrence"
+msgstr "التالي التواجد"
+
+#: incidenceformatter.cpp:406
+#, fuzzy
+msgctxt "no date"
+msgid "none"
+msgstr "لا شيء"
+
+#: incidenceformatter.cpp:419
+#, fuzzy, kde-format
+msgid "1&nbsp;attachment"
+msgid_plural "%1&nbsp;attachments"
+msgstr[0] "مرفق واحد"
+msgstr[1] "مرفق واحد"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: incidenceformatter.cpp:426 incidenceformatter.cpp:476
+#, fuzzy, kde-format
+msgid "Creation date: %1"
+msgstr "إنشاء التاريخ 1"
+
+#: incidenceformatter.cpp:441
+#, fuzzy, kde-format
+msgid " Location: %1"
+msgstr "الموقع 1"
+
+#: incidenceformatter.cpp:446
+#, fuzzy, kde-format
+msgid "<b>Due on:</b> %1"
+msgstr "<b> مُستحق  يعمل</b> 1"
+
+#: incidenceformatter.cpp:459 incidenceformatter.cpp:461
+#, fuzzy, kde-format
+msgid "<p><b>Priority:</b> %1</p>"
+msgstr "<p><b> الأولويّة</b></p>"
+
+#: incidenceformatter.cpp:461 incidenceformatter.cpp:679
+#, fuzzy
+msgid "Unspecified"
+msgstr "غير محدد"
+
+#: incidenceformatter.cpp:464
+#, fuzzy, kde-format
+msgid "<p><i>%1 % completed</i></p>"
+msgstr "<p><i> مكتمل</i></p>"
+
+#: incidenceformatter.cpp:469
+#, fuzzy, kde-format
+msgid "This is a recurring to-do. The next occurrence will be on %1."
+msgstr "هذا هو a إلى الـ التالي الحدوث يعمل."
+
+#: incidenceformatter.cpp:490
+#, fuzzy, kde-format
+msgid "Journal for %1"
+msgstr "سّجل يومي لـ 1"
+
+#: incidenceformatter.cpp:508 incidenceformatter.cpp:1824
+#, fuzzy, kde-format
+msgid "Free/Busy information for %1"
+msgstr "متفرّغ مشغول معلومات لـ 1"
+
+#: incidenceformatter.cpp:510
+#, fuzzy, kde-format
+msgid "Busy times in date range %1 - %2:"
+msgstr "مشغول الوقت بوصة التاريخ المدى:"
+
+#: incidenceformatter.cpp:518
+#, fuzzy
+msgctxt "tag for busy periods list"
+msgid "Busy:"
+msgstr "مشغول:"
+
+#: incidenceformatter.cpp:527 incidenceformatter.cpp:924
+#, fuzzy, kde-format
+msgctxt "hours part of duration"
+msgid "1 hour "
+msgid_plural "%1 hours "
+msgstr[0] "ساعة "
+msgstr[1] "ساعة "
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: incidenceformatter.cpp:531
+#, fuzzy, kde-format
+msgctxt "minutes part duration"
+msgid "1 minute "
+msgid_plural "%1 minutes "
+msgstr[0] "دقيقة "
+msgstr[1] "دقيقة "
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: incidenceformatter.cpp:535 incidenceformatter.cpp:932
+#, fuzzy, kde-format
+msgctxt "seconds part of duration"
+msgid "1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "ثانية واحدة"
+msgstr[1] "ثانية واحدة"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: incidenceformatter.cpp:537 incidenceformatter.cpp:935
+#, fuzzy, kde-format
+msgctxt "startDate for duration"
+msgid "%1 for %2"
+msgstr "لـ 2"
+
+#: incidenceformatter.cpp:543 incidenceformatter.cpp:941
+#, fuzzy, kde-format
+msgctxt "date, fromTime - toTime "
+msgid "%1, %2 - %3"
+msgstr "3"
+
+#: incidenceformatter.cpp:548 incidenceformatter.cpp:946
+#, fuzzy, kde-format
+msgctxt "fromDateTime - toDateTime"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: incidenceformatter.cpp:650
+#, fuzzy, kde-format
+msgctxt "%1: Start Date, %2: Start Time"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: incidenceformatter.cpp:656
+#, kde-format
+msgctxt "%1: Start Date"
+msgid "%1 (all day)"
+msgstr ""
+
+#: incidenceformatter.cpp:668
+#, fuzzy, kde-format
+msgctxt "%1: End Date, %2: End Time"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: incidenceformatter.cpp:674
+#, kde-format
+msgctxt "%1: End Date"
+msgid "%1 (all day)"
+msgstr ""
+
+#: incidenceformatter.cpp:736 incidenceformatter.cpp:858
+#: incidenceformatter.cpp:891
+#, fuzzy
+msgid "Description:"
+msgstr "الوصف:"
+
+#: incidenceformatter.cpp:746
+#, fuzzy
+msgid "Comments:"
+msgstr "الملاحظات:"
+
+#: incidenceformatter.cpp:771 incidenceformatter.cpp:841
+#: incidenceformatter.cpp:871
+#, fuzzy
+msgid "Summary unspecified"
+msgstr "الملخّص غير محددة"
+
+#: incidenceformatter.cpp:783
+#, fuzzy
+msgid "Location unspecified"
+msgstr "الموقع غير محددة"
+
+#: incidenceformatter.cpp:799
+#, fuzzy
+msgid "What:"
+msgstr "ماذا:"
+
+#: incidenceformatter.cpp:800
+#, fuzzy
+msgid "Where:"
+msgstr "أين:"
+
+#: incidenceformatter.cpp:803
+#, fuzzy
+msgid "Start Time:"
+msgstr "ابدأ الوقت:"
+
+#: incidenceformatter.cpp:806
+#, fuzzy
+msgid "End Time:"
+msgstr "نهاية الوقت:"
+
+#: incidenceformatter.cpp:815
+#, fuzzy, kde-format
+msgid "1 hour "
+msgid_plural "%1 hours "
+msgstr[0] "ساعة "
+msgstr[1] "ساعة "
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: incidenceformatter.cpp:818
+#, fuzzy, kde-format
+msgid "1 minute "
+msgid_plural "%1 minutes "
+msgstr[0] "دقيقة "
+msgstr[1] "دقيقة "
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: incidenceformatter.cpp:821
+#, fuzzy
+msgid "Duration:"
+msgstr "المدة:"
+
+#: incidenceformatter.cpp:825
+#, fuzzy
+msgid "Recurrence:"
+msgstr "التالي التواجد"
+
+#: incidenceformatter.cpp:842 incidenceformatter.cpp:872
+#, fuzzy
+msgid "Description unspecified"
+msgstr "الوصف غير محددة"
+
+#: incidenceformatter.cpp:857 incidenceformatter.cpp:887
+#, fuzzy
+msgid "Summary:"
+msgstr "ملخّص:"
+
+#: incidenceformatter.cpp:888
+#, fuzzy
+msgid "Date:"
+msgstr "التاريخ:"
+
+#: incidenceformatter.cpp:906
+#, fuzzy
+msgid "Person:"
+msgstr "الشخص:"
+
+#: incidenceformatter.cpp:907
+#, fuzzy
+msgid "Start date:"
+msgstr "تاريخ البداية:"
+
+#: incidenceformatter.cpp:911
+#, fuzzy
+msgid "End date:"
+msgstr "تاريخ النهاية:"
+
+#: incidenceformatter.cpp:928
+#, fuzzy, kde-format
+msgctxt "minutes part of duration"
+msgid "1 minute"
+msgid_plural "%1 minutes "
+msgstr[0] "دقيقة واحدة"
+msgstr[1] "دقيقة واحدة"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: incidenceformatter.cpp:969
+#, fuzzy
+msgid "This event has been published"
+msgstr "هذا الحدث نُشِر"
+
+#: incidenceformatter.cpp:973
+#, fuzzy
+msgid "<h3>This meeting has been updated</h3>"
+msgstr "<h2> هذا</h2>"
+
+#: incidenceformatter.cpp:975
+#, fuzzy
+msgid "You have been invited to this meeting"
+msgstr "أنت إلى"
+
+#: incidenceformatter.cpp:978
+#, fuzzy
+msgid "This invitation was refreshed"
+msgstr "هذا"
+
+#: incidenceformatter.cpp:980
+#, fuzzy
+msgid "This meeting has been canceled"
+msgstr "هذا ملغي"
+
+#: incidenceformatter.cpp:982
+#, fuzzy
+msgid "Addition to the meeting invitation"
+msgstr "جمع إلى"
+
+#: incidenceformatter.cpp:1000
+#, fuzzy
+msgid "Sender"
+msgstr "المرسل"
+
+#: incidenceformatter.cpp:1011
+#, fuzzy, kde-format
+msgid "%1 indicates this invitation still needs some action"
+msgstr "بعض الأفعال"
+
+#: incidenceformatter.cpp:1014
+#, kde-format
+msgid "%1 accepts this meeting invitation"
+msgstr ""
+
+#: incidenceformatter.cpp:1016
+#, fuzzy, kde-format
+msgid "%1 accepts this meeting invitation on behalf of %2"
+msgstr "يعمل من 2"
+
+#: incidenceformatter.cpp:1020
+#, kde-format
+msgid "%1 tentatively accepts this meeting invitation"
+msgstr ""
+
+#: incidenceformatter.cpp:1022
+#, fuzzy, kde-format
+msgid "%1 tentatively accepts this meeting invitation on behalf of %2"
+msgstr "يعمل من 2"
+
+#: incidenceformatter.cpp:1026
+#, kde-format
+msgid "%1 declines this meeting invitation"
+msgstr ""
+
+#: incidenceformatter.cpp:1028
+#, fuzzy, kde-format
+msgid "%1 declines this meeting invitation on behalf of %2"
+msgstr "يعمل من 2"
+
+#: incidenceformatter.cpp:1038
+#, fuzzy, kde-format
+msgid "%1 has delegated this meeting invitation to %2"
+msgstr "إلى 2"
+
+#: incidenceformatter.cpp:1040
+#, kde-format
+msgid "%1 has delegated this meeting invitation"
+msgstr ""
+
+#: incidenceformatter.cpp:1043
+#, fuzzy
+msgid "This meeting invitation is now completed"
+msgstr "هذا هو الآن مكتمل"
+
+#: incidenceformatter.cpp:1045
+#, fuzzy, kde-format
+msgid "%1 is still processing the invitation"
+msgstr "هو جاري التطبيق ، جاري المعاملة ، جاري التنفيذ"
+
+#: incidenceformatter.cpp:1047
+#, fuzzy
+msgid "Unknown response to this meeting invitation"
+msgstr "مجهول إجابة إلى"
+
+#: incidenceformatter.cpp:1052 incidenceformatter.cpp:1125
+#: incidenceformatter.cpp:1187
+#, fuzzy
+msgid "Sender makes this counter proposal"
+msgstr "المرسل"
+
+#: incidenceformatter.cpp:1054 incidenceformatter.cpp:1127
+#: incidenceformatter.cpp:1189
+#, fuzzy
+msgid "Sender declines the counter proposal"
+msgstr "المرسل"
+
+#: incidenceformatter.cpp:1056 incidenceformatter.cpp:1129
+#: incidenceformatter.cpp:1191
+#, fuzzy, kde-format
+msgid "Error: iMIP message with unknown method: '%1'"
+msgstr "خطأ رسالة مع مجهول طريقة"
+
+#: incidenceformatter.cpp:1069
+#, fuzzy
+msgid "This to-do has been published"
+msgstr "هذا إلى نُشِر"
+
+#: incidenceformatter.cpp:1072
+#, fuzzy
+msgid "This to-do has been updated"
+msgstr "هذا إلى"
+
+#: incidenceformatter.cpp:1074
+#, fuzzy
+msgid "You have been assigned this to-do"
+msgstr "أنت إلى"
+
+#: incidenceformatter.cpp:1077
+#, fuzzy
+msgid "This to-do was refreshed"
+msgstr "هذا إلى"
+
+#: incidenceformatter.cpp:1079
+#, fuzzy
+msgid "This to-do was canceled"
+msgstr "هذا إلى ملغي"
+
+#: incidenceformatter.cpp:1081
+#, fuzzy
+msgid "Addition to the to-do"
+msgstr "جمع إلى إلى"
+
+#: incidenceformatter.cpp:1096
+#, fuzzy
+msgid "Sender indicates this to-do assignment still needs some action"
+msgstr "المرسل إلى تعيين بعض الأفعال"
+
+#: incidenceformatter.cpp:1098
+#, fuzzy
+msgid "Sender accepts this to-do"
+msgstr "المرسل إلى"
+
+#: incidenceformatter.cpp:1100
+#, fuzzy
+msgid "Sender tentatively accepts this to-do"
+msgstr "المرسل إلى"
+
+#: incidenceformatter.cpp:1102
+#, fuzzy
+msgid "Sender declines this to-do"
+msgstr "المرسل إلى"
+
+#: incidenceformatter.cpp:1111
+#, fuzzy, kde-format
+msgid "Sender has delegated this request for the to-do to %1"
+msgstr "المرسل طلب لـ إلى إلى 1"
+
+#: incidenceformatter.cpp:1113
+#, fuzzy
+msgid "Sender has delegated this request for the to-do "
+msgstr "المرسل طلب لـ إلى "
+
+#: incidenceformatter.cpp:1116
+#, fuzzy
+msgid "The request for this to-do is now completed"
+msgstr "الـ طلب لـ إلى هو الآن مكتمل"
+
+#: incidenceformatter.cpp:1118 incidenceformatter.cpp:1180
+#, fuzzy
+msgid "Sender is still processing the invitation"
+msgstr "المرسل هو جاري التطبيق ، جاري المعاملة ، جاري التنفيذ"
+
+#: incidenceformatter.cpp:1120
+#, fuzzy
+msgid "Unknown response to this to-do"
+msgstr "مجهول إجابة إلى إلى"
+
+#: incidenceformatter.cpp:1143
+#, fuzzy
+msgid "This journal has been published"
+msgstr "هذا اليومية نُشِر"
+
+#: incidenceformatter.cpp:1145
+#, fuzzy
+msgid "You have been assigned this journal"
+msgstr "أنت اليومية"
+
+#: incidenceformatter.cpp:1147
+#, fuzzy
+msgid "This journal was refreshed"
+msgstr "هذا اليومية"
+
+#: incidenceformatter.cpp:1149
+#, fuzzy
+msgid "This journal was canceled"
+msgstr "هذا اليومية ملغي"
+
+#: incidenceformatter.cpp:1151
+#, fuzzy
+msgid "Addition to the journal"
+msgstr "جمع إلى اليومية"
+
+#: incidenceformatter.cpp:1168
+#, fuzzy
+msgid "Sender indicates this journal assignment still needs some action"
+msgstr "المرسل اليومية تعيين بعض الأفعال"
+
+#: incidenceformatter.cpp:1170
+#, fuzzy
+msgid "Sender accepts this journal"
+msgstr "المرسل اليومية"
+
+#: incidenceformatter.cpp:1172
+#, fuzzy
+msgid "Sender tentatively accepts this journal"
+msgstr "المرسل اليومية"
+
+#: incidenceformatter.cpp:1174
+#, fuzzy
+msgid "Sender declines this journal"
+msgstr "المرسل اليومية"
+
+#: incidenceformatter.cpp:1176
+#, fuzzy
+msgid "Sender has delegated this request for the journal"
+msgstr "المرسل طلب لـ اليومية"
+
+#: incidenceformatter.cpp:1178
+#, fuzzy
+msgid "The request for this journal is now completed"
+msgstr "الـ طلب لـ اليومية هو الآن مكتمل"
+
+#: incidenceformatter.cpp:1182
+#, fuzzy
+msgid "Unknown response to this journal"
+msgstr "مجهول إجابة إلى اليومية"
+
+#: incidenceformatter.cpp:1204
+#, fuzzy
+msgid "This free/busy list has been published"
+msgstr "هذا حرّة قائمة نُشِر"
+
+#: incidenceformatter.cpp:1206
+#, fuzzy
+msgid "The free/busy list has been requested"
+msgstr "الـ حرّة قائمة"
+
+#: incidenceformatter.cpp:1208
+#, fuzzy
+msgid "This free/busy list was refreshed"
+msgstr "هذا حرّة قائمة"
+
+#: incidenceformatter.cpp:1210
+#, fuzzy
+msgid "This free/busy list was canceled"
+msgstr "هذا حرّة قائمة ملغي"
+
+#: incidenceformatter.cpp:1212
+#, fuzzy
+msgid "Addition to the free/busy list"
+msgstr "جمع إلى حرّة قائمة"
+
+#: incidenceformatter.cpp:1215
+#, fuzzy, kde-format
+msgid "Error: Free/Busy iMIP message with unknown method: '%1'"
+msgstr "خطأ متفرّغ مشغول رسالة مع مجهول طريقة"
+
+#: incidenceformatter.cpp:1364
+#, fuzzy, kde-format
+msgid "The begin of the meeting has been changed from %1 to %2"
+msgstr "هذا ملغي"
+
+#: incidenceformatter.cpp:1369
+#, fuzzy, kde-format
+msgid "The end of the meeting has been changed from %1 to %2"
+msgstr "هذا ملغي"
+
+#: incidenceformatter.cpp:1381
+#, kde-format
+msgid "The summary has been changed to: \"%1\""
+msgstr ""
+
+#: incidenceformatter.cpp:1386
+#, fuzzy, kde-format
+msgid "The location has been changed to: \"%1\""
+msgstr "هذا ملغي"
+
+#: incidenceformatter.cpp:1391
+#, fuzzy, kde-format
+msgid "The description has been changed to: \"%1\""
+msgstr "هذا ملغي"
+
+#: incidenceformatter.cpp:1401
+#, kde-format
+msgid "Attendee %1 has been added"
+msgstr ""
+
+#: incidenceformatter.cpp:1404
+#, kde-format
+msgid "The status of attendee %1 has been changed to: %2"
+msgstr ""
+
+#: incidenceformatter.cpp:1414
+#, kde-format
+msgid "Attendee %1 has been removed"
+msgstr ""
+
+#: incidenceformatter.cpp:1521
+msgid ""
+"<p align=\"left\">The following changes have been made by the organizer:</p>"
+msgstr ""
+
+#: incidenceformatter.cpp:1547 incidenceformatter.cpp:1620
+#, fuzzy
+msgid "[Enter this into my to-do list]"
+msgstr "إدخال إلى قائمة"
+
+#: incidenceformatter.cpp:1549 incidenceformatter.cpp:1622
+#, fuzzy
+msgid "[Enter this into my calendar]"
+msgstr "إدخال رزنامة"
+
+#: incidenceformatter.cpp:1559
+#, fuzzy
+msgctxt "accept to-do request"
+msgid "[Accept]"
+msgstr "قبول"
+
+#: incidenceformatter.cpp:1566
+#, fuzzy
+msgctxt "Accept conditionally"
+msgid "[Accept cond.]"
+msgstr "قبول"
+
+#: incidenceformatter.cpp:1572
+msgid "[Counter proposal]"
+msgstr ""
+
+#: incidenceformatter.cpp:1578
+#, fuzzy
+msgctxt "decline to-do request"
+msgid "[Decline]"
+msgstr "رفض"
+
+#: incidenceformatter.cpp:1584
+#, fuzzy
+msgctxt "delegate to-do to another"
+msgid "[Delegate]"
+msgstr "المندوب"
+
+#: incidenceformatter.cpp:1590
+#, fuzzy
+msgctxt "forward request to another"
+msgid "[Forward]"
+msgstr "مرر"
+
+#: incidenceformatter.cpp:1598 incidenceformatter.cpp:1642
+#, fuzzy
+msgid "[Check my calendar]"
+msgstr "كِش رزنامة"
+
+#: incidenceformatter.cpp:1609
+#, fuzzy
+msgid "[Remove this from my calendar]"
+msgstr "احذف من رزنامة"
+
+#: incidenceformatter.cpp:1631
+#, fuzzy
+msgid "[Accept]"
+msgstr "قبول"
+
+#: incidenceformatter.cpp:1636
+#, fuzzy
+msgid "[Decline]"
+msgstr "رفض"
+
+#: incidenceformatter.cpp:1721
+#, fuzzy, kde-format
+msgctxt "Event start"
+msgid "<i>From:</i> %1"
+msgstr "<i> من</i>&nbsp; 1"
+
+#: incidenceformatter.cpp:1724
+#, fuzzy, kde-format
+msgctxt "Event end"
+msgid "<i>To:</i> %1"
+msgstr "<i> إلى</i>&nbsp; 1"
+
+#: incidenceformatter.cpp:1729 incidenceformatter.cpp:1784
+#, fuzzy, kde-format
+msgid "<i>Date:</i> %1"
+msgstr "<i> التاريخ</i>&nbsp; 1"
+
+#: incidenceformatter.cpp:1736
+#, fuzzy, kde-format
+msgctxt "time for event"
+msgid "<i>Time:</i> %1"
+msgstr "<i> الوقت</i>&nbsp; 1"
+
+#: incidenceformatter.cpp:1741
+#, fuzzy, kde-format
+msgctxt "time range for event"
+msgid "<i>Time:</i> %1 - %2"
+msgstr "<i> الوقت</i>&nbsp; 1"
+
+#: incidenceformatter.cpp:1758
+#, fuzzy, kde-format
+msgid "<i>Start:</i> %1"
+msgstr "<i> ابدأ</i>&nbsp; 1"
+
+#: incidenceformatter.cpp:1762
+#, fuzzy, kde-format
+msgid "<i>Due:</i> %1"
+msgstr "<i> مُستحق </i>&nbsp; 1"
+
+#: incidenceformatter.cpp:1769
+#, fuzzy, kde-format
+msgid "<i>Completed:</i> %1"
+msgstr "<i> اكتمل</i>&nbsp; 1"
+
+#: incidenceformatter.cpp:1772
+#, fuzzy, kde-format
+msgctxt "percent complete"
+msgid "%1 % completed"
+msgstr "مكتمل"
+
+#: incidenceformatter.cpp:1795 incidenceformatter.cpp:1798
+#, fuzzy, kde-format
+msgid "<i>Period start:</i> %1"
+msgstr "<i> الفترة تشغيل</i>&nbsp; 1"
+
+#: incidenceformatter.cpp:1845
+#, fuzzy, kde-format
+msgid "<i>Location:</i>&nbsp;%1"
+msgstr "<i> الموقع</i>&nbsp; 1"
+
+#: incidenceformatter.cpp:1858
+#, fuzzy
+msgid "<i>Description:</i>"
+msgstr "<i> الوصف</i>"
+
+#: incidenceformatter.cpp:1891
+#, fuzzy, kde-format
+msgid "Summary: %1\n"
+msgstr "الملخّص n"
+
+#: incidenceformatter.cpp:1894
+#, fuzzy, kde-format
+msgid "Organizer: %1\n"
+msgstr "المنظم n"
+
+#: incidenceformatter.cpp:1897
+#, fuzzy, kde-format
+msgid "Location: %1\n"
+msgstr "الموقع n"
+
+#: incidenceformatter.cpp:1928
+#, fuzzy
+msgid "This is a Free Busy Object"
+msgstr "هذا هو a متفرّغ مشغول كائن"
+
+#: incidenceformatter.cpp:1939
+#, fuzzy
+msgctxt "no recurrence"
+msgid "None"
+msgstr "لا شيء"
+
+#: incidenceformatter.cpp:1940
+#, fuzzy
+msgctxt "event recurs by minutes"
+msgid "Minutely"
+msgstr "بدقة"
+
+#: incidenceformatter.cpp:1941
+#, fuzzy
+msgctxt "event recurs by hours"
+msgid "Hourly"
+msgstr "كل ساعة"
+
+#: incidenceformatter.cpp:1942
+#, fuzzy
+msgctxt "event recurs by days"
+msgid "Daily"
+msgstr "يومياً"
+
+#: incidenceformatter.cpp:1943
+#, fuzzy
+msgctxt "event recurs by weeks"
+msgid "Weekly"
+msgstr "أسبوعي"
+
+#: incidenceformatter.cpp:1944
+#, fuzzy
+msgctxt "event recurs same position (e.g. first monday) each month"
+msgid "Monthly Same Position"
+msgstr "شهري سايم الموضع"
+
+#: incidenceformatter.cpp:1945
+#, fuzzy
+msgctxt "event recurs same day each month"
+msgid "Monthly Same Day"
+msgstr "شهري سايم اليوم"
+
+#: incidenceformatter.cpp:1946
+#, fuzzy
+msgctxt "event recurs same month each year"
+msgid "Yearly Same Month"
+msgstr "سنويًّا سايم الشهر"
+
+#: incidenceformatter.cpp:1947
+#, fuzzy
+msgctxt "event recurs same day each year"
+msgid "Yearly Same Day"
+msgstr "سنويًّا سايم اليوم"
+
+#: incidenceformatter.cpp:1948
+#, fuzzy
+msgctxt "event recurs same position (e.g. first monday) each year"
+msgid "Yearly Same Position"
+msgstr "سنويًّا سايم الموضع"
+
+#: incidenceformatter.cpp:1952 incidenceformatter.cpp:2003
+#, fuzzy, kde-format
+msgid "Start Date: %1\n"
+msgstr "ابدأ التاريخ n"
+
+#: incidenceformatter.cpp:1955 incidenceformatter.cpp:2006
+#, fuzzy, kde-format
+msgid "Start Time: %1\n"
+msgstr "ابدأ الوقت n"
+
+#: incidenceformatter.cpp:1959
+#, fuzzy, kde-format
+msgid "End Date: %1\n"
+msgstr "نهاية التاريخ n"
+
+#: incidenceformatter.cpp:1963
+#, fuzzy, kde-format
+msgid "End Time: %1\n"
+msgstr "نهاية الوقت n"
+
+#: incidenceformatter.cpp:1969
+#, fuzzy, kde-format
+msgid "Recurs: %1\n"
+msgstr "يتكرر n"
+
+#: incidenceformatter.cpp:1970
+#, fuzzy, kde-format
+msgid "Frequency: %1\n"
+msgstr "الذبذبة n"
+
+#: incidenceformatter.cpp:1973
+#, fuzzy, kde-format
+msgid "Repeats once"
+msgid_plural "Repeats %1 times"
+msgstr[0] "الإعادة"
+msgstr[1] "الإعادة"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: incidenceformatter.cpp:1984
+#, fuzzy, kde-format
+msgid "Repeat until: %1\n"
+msgstr "تكرار حتّى n"
+
+#: incidenceformatter.cpp:1986
+#, fuzzy
+msgid "Repeats forever\n"
+msgstr "الإعادة إلى الأبد n"
+
+#: incidenceformatter.cpp:1993 incidenceformatter.cpp:2020
+#, fuzzy, kde-format
+msgid ""
+"Details:\n"
+"%1\n"
+msgstr "تفاصيل n n"
+
+#: incidenceformatter.cpp:2011
+#, fuzzy, kde-format
+msgid "Due Date: %1\n"
+msgstr "مُستحق  التاريخ n"
+
+#: incidenceformatter.cpp:2014
+#, fuzzy, kde-format
+msgid "Due Time: %1\n"
+msgstr "مُستحق  الوقت n"
+
+#: incidenceformatter.cpp:2028
+#, fuzzy, kde-format
+msgid "Date: %1\n"
+msgstr "التاريخ n"
+
+#: incidenceformatter.cpp:2032
+#, fuzzy, kde-format
+msgid "Time: %1\n"
+msgstr "الوقت n"
+
+#: incidenceformatter.cpp:2037
+#, fuzzy, kde-format
+msgid ""
+"Text of the journal:\n"
+"%1\n"
+msgstr "نص من اليومية n n"
+
+#: incidenceformatter.cpp:2078 incidenceformatter.cpp:2151
+#, fuzzy
+msgid "No recurrence"
+msgstr "التالي التواجد"
+
+#: incidenceformatter.cpp:2081
+msgid "31st Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2082
+msgid "30th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2083
+msgid "29th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2084
+msgid "28th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2085
+msgid "27th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2086
+msgid "26th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2087
+msgid "25th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2088
+msgid "24th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2089
+msgid "23rd Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2090
+msgid "22nd Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2091
+msgid "21st Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2092
+msgid "20th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2093
+msgid "19th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2094
+msgid "18th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2095
+msgid "17th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2096
+msgid "16th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2097
+msgid "15th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2098
+msgid "14th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2099
+msgid "13th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2100
+msgid "12th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2101
+msgid "11th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2102
+msgid "10th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2103
+msgid "9th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2104
+msgid "8th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2105
+msgid "7th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2106
+msgid "6th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2107
+msgid "5th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2108
+msgid "4th Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2109
+msgid "3rd Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2110
+msgid "2nd Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2111
+msgctxt "last day of the month"
+msgid "Last"
+msgstr ""
+
+#: incidenceformatter.cpp:2112
+#, fuzzy
+msgctxt "unknown day of the month"
+msgid "unknown"
+msgstr "مجهول"
+
+#: incidenceformatter.cpp:2113
+msgid "1st"
+msgstr ""
+
+#: incidenceformatter.cpp:2114
+msgid "2nd"
+msgstr ""
+
+#: incidenceformatter.cpp:2115
+msgid "3rd"
+msgstr ""
+
+#: incidenceformatter.cpp:2116
+msgid "4th"
+msgstr ""
+
+#: incidenceformatter.cpp:2117
+msgid "5th"
+msgstr ""
+
+#: incidenceformatter.cpp:2118
+msgid "6th"
+msgstr ""
+
+#: incidenceformatter.cpp:2119
+msgid "7th"
+msgstr ""
+
+#: incidenceformatter.cpp:2120
+msgid "8th"
+msgstr ""
+
+#: incidenceformatter.cpp:2121
+msgid "9th"
+msgstr ""
+
+#: incidenceformatter.cpp:2122
+msgid "10th"
+msgstr ""
+
+#: incidenceformatter.cpp:2123
+msgid "11th"
+msgstr ""
+
+#: incidenceformatter.cpp:2124
+msgid "12th"
+msgstr ""
+
+#: incidenceformatter.cpp:2125
+msgid "13th"
+msgstr ""
+
+#: incidenceformatter.cpp:2126
+msgid "14th"
+msgstr ""
+
+#: incidenceformatter.cpp:2127
+msgid "15th"
+msgstr ""
+
+#: incidenceformatter.cpp:2128
+msgid "16th"
+msgstr ""
+
+#: incidenceformatter.cpp:2129
+msgid "17th"
+msgstr ""
+
+#: incidenceformatter.cpp:2130
+msgid "18th"
+msgstr ""
+
+#: incidenceformatter.cpp:2131
+msgid "19th"
+msgstr ""
+
+#: incidenceformatter.cpp:2132
+msgid "20th"
+msgstr ""
+
+#: incidenceformatter.cpp:2133
+msgid "21st"
+msgstr ""
+
+#: incidenceformatter.cpp:2134
+msgid "22nd"
+msgstr ""
+
+#: incidenceformatter.cpp:2135
+msgid "23rd"
+msgstr ""
+
+#: incidenceformatter.cpp:2136
+msgid "24th"
+msgstr ""
+
+#: incidenceformatter.cpp:2137
+msgid "25th"
+msgstr ""
+
+#: incidenceformatter.cpp:2138
+msgid "26th"
+msgstr ""
+
+#: incidenceformatter.cpp:2139
+msgid "27th"
+msgstr ""
+
+#: incidenceformatter.cpp:2140
+msgid "28th"
+msgstr ""
+
+#: incidenceformatter.cpp:2141
+msgid "29th"
+msgstr ""
+
+#: incidenceformatter.cpp:2142
+msgid "30th"
+msgstr ""
+
+#: incidenceformatter.cpp:2143
+msgid "31st"
+msgstr ""
+
+#: incidenceformatter.cpp:2154
+#, fuzzy, kde-format
+msgid "Recurs every minute until %2"
+msgid_plural "Recurs every %1 minutes until %2"
+msgstr[0] "تكرار حتّى n"
+msgstr[1] "تكرار حتّى n"
+msgstr[2] "تكرار حتّى n"
+msgstr[3] "تكرار حتّى n"
+msgstr[4] "تكرار حتّى n"
+msgstr[5] "تكرار حتّى n"
+
+#: incidenceformatter.cpp:2159 incidenceformatter.cpp:2173
+#: incidenceformatter.cpp:2186 incidenceformatter.cpp:2215
+#: incidenceformatter.cpp:2239 incidenceformatter.cpp:2263
+#: incidenceformatter.cpp:2288 incidenceformatter.cpp:2329
+#: incidenceformatter.cpp:2355
+#, kde-format
+msgctxt "number of occurrences"
+msgid " (<numid>%1</numid> occurrences)"
+msgstr ""
+
+#: incidenceformatter.cpp:2164
+#, kde-format
+msgid "Recurs every minute"
+msgid_plural "Recurs every %1 minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: incidenceformatter.cpp:2168
+#, fuzzy, kde-format
+msgid "Recurs hourly until %2"
+msgid_plural "Recurs every %1 hours until %2"
+msgstr[0] "تكرار حتّى n"
+msgstr[1] "تكرار حتّى n"
+msgstr[2] "تكرار حتّى n"
+msgstr[3] "تكرار حتّى n"
+msgstr[4] "تكرار حتّى n"
+msgstr[5] "تكرار حتّى n"
+
+#: incidenceformatter.cpp:2178
+#, kde-format
+msgid "Recurs hourly"
+msgid_plural "Recurs every %1 hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: incidenceformatter.cpp:2181
+#, fuzzy, kde-format
+msgid "Recurs daily until %2"
+msgid_plural "Recurs every %1 days until %2"
+msgstr[0] "تكرار حتّى n"
+msgstr[1] "تكرار حتّى n"
+msgstr[2] "تكرار حتّى n"
+msgstr[3] "تكرار حتّى n"
+msgstr[4] "تكرار حتّى n"
+msgstr[5] "تكرار حتّى n"
+
+#: incidenceformatter.cpp:2191
+#, fuzzy, kde-format
+msgid "Recurs daily"
+msgid_plural "Recurs every %1 days"
+msgstr[0] "يتكرر n"
+msgstr[1] "يتكرر n"
+msgstr[2] "يتكرر n"
+msgstr[3] "يتكرر n"
+msgstr[4] "يتكرر n"
+msgstr[5] "يتكرر n"
+
+#: incidenceformatter.cpp:2198
+msgctxt "separator for list of days"
+msgid ", "
+msgstr ""
+
+#: incidenceformatter.cpp:2206
+msgctxt "Recurs weekly on no days"
+msgid "no days"
+msgstr ""
+
+#: incidenceformatter.cpp:2210
+#, fuzzy, kde-format
+msgctxt "Recurs weekly on [list of days] until end-date"
+msgid "Recurs weekly on %2 until %3"
+msgid_plural "Recurs every <numid>%1</numid> weeks on %2 until %3"
+msgstr[0] "تكرار حتّى n"
+msgstr[1] "تكرار حتّى n"
+msgstr[2] "تكرار حتّى n"
+msgstr[3] "تكرار حتّى n"
+msgstr[4] "تكرار حتّى n"
+msgstr[5] "تكرار حتّى n"
+
+#: incidenceformatter.cpp:2221
+#, fuzzy, kde-format
+msgctxt "Recurs weekly on [list of days]"
+msgid "Recurs weekly on %2"
+msgid_plural "Recurs every <numid>%1</numid> weeks on %2"
+msgstr[0] "تكرار حتّى n"
+msgstr[1] "تكرار حتّى n"
+msgstr[2] "تكرار حتّى n"
+msgstr[3] "تكرار حتّى n"
+msgstr[4] "تكرار حتّى n"
+msgstr[5] "تكرار حتّى n"
+
+#: incidenceformatter.cpp:2231
+#, fuzzy, kde-format
+msgctxt "Recurs every N months on the [2nd|3rd|...] weekdayname until end-date"
+msgid "Recurs every month on the %2 %3 until %4"
+msgid_plural "Recurs every <numid>%1</numid> months on the %2 %3 until %4"
+msgstr[0] "تكرار حتّى n"
+msgstr[1] "تكرار حتّى n"
+msgstr[2] "تكرار حتّى n"
+msgstr[3] "تكرار حتّى n"
+msgstr[4] "تكرار حتّى n"
+msgstr[5] "تكرار حتّى n"
+
+#: incidenceformatter.cpp:2245
+#, fuzzy, kde-format
+msgctxt "Recurs every N months on the [2nd|3rd|...] weekdayname"
+msgid "Recurs every month on the %2 %3"
+msgid_plural "Recurs every %1 months on the %2 %3"
+msgstr[0] "تكرار حتّى n"
+msgstr[1] "تكرار حتّى n"
+msgstr[2] "تكرار حتّى n"
+msgstr[3] "تكرار حتّى n"
+msgstr[4] "تكرار حتّى n"
+msgstr[5] "تكرار حتّى n"
+
+#: incidenceformatter.cpp:2256
+#, fuzzy, kde-format
+msgctxt "Recurs monthly on the [1st|2nd|...] day until end-date"
+msgid "Recurs monthly on the %2 day until %3"
+msgid_plural "Recurs every %1 months on the %2 day until %3"
+msgstr[0] "تكرار حتّى n"
+msgstr[1] "تكرار حتّى n"
+msgstr[2] "تكرار حتّى n"
+msgstr[3] "تكرار حتّى n"
+msgstr[4] "تكرار حتّى n"
+msgstr[5] "تكرار حتّى n"
+
+#: incidenceformatter.cpp:2269
+#, fuzzy, kde-format
+msgctxt "Recurs monthly on the [1st|2nd|...] day"
+msgid "Recurs monthly on the %2 day"
+msgid_plural "Recurs every <numid>%1</numid> month on the %2 day"
+msgstr[0] "تكرار حتّى n"
+msgstr[1] "تكرار حتّى n"
+msgstr[2] "تكرار حتّى n"
+msgstr[3] "تكرار حتّى n"
+msgstr[4] "تكرار حتّى n"
+msgstr[5] "تكرار حتّى n"
+
+#: incidenceformatter.cpp:2280
+#, fuzzy, kde-format
+msgctxt "Recurs Every N years on month-name [1st|2nd|...] until end-date"
+msgid "Recurs yearly on %2 %3 until %4"
+msgid_plural "Recurs every %1 years on %2 %3 until %4"
+msgstr[0] "تكرار حتّى n"
+msgstr[1] "تكرار حتّى n"
+msgstr[2] "تكرار حتّى n"
+msgstr[3] "تكرار حتّى n"
+msgstr[4] "تكرار حتّى n"
+msgstr[5] "تكرار حتّى n"
+
+#: incidenceformatter.cpp:2296
+#, fuzzy, kde-format
+msgctxt "Recurs Every N years on month-name [1st|2nd|...]"
+msgid "Recurs yearly on %2 %3"
+msgid_plural "Recurs every %1 years on %2 %3"
+msgstr[0] "تكرار حتّى n"
+msgstr[1] "تكرار حتّى n"
+msgstr[2] "تكرار حتّى n"
+msgstr[3] "تكرار حتّى n"
+msgstr[4] "تكرار حتّى n"
+msgstr[5] "تكرار حتّى n"
+
+#: incidenceformatter.cpp:2305 incidenceformatter.cpp:2311
+#, fuzzy, kde-format
+msgctxt "Recurs Every year on month-name [1st|2nd|...]"
+msgid "Recurs yearly on %1 %2"
+msgstr "تكرار حتّى n"
+
+#: incidenceformatter.cpp:2321
+#, fuzzy, kde-format
+msgctxt "Recurs every N years on day N until end-date"
+msgid "Recurs every year on day <numid>%2</numid> until %3"
+msgid_plural ""
+"Recurs every <numid>%1</numid> years on day <numid>%2</numid> until %3"
+msgstr[0] "تكرار حتّى n"
+msgstr[1] "تكرار حتّى n"
+msgstr[2] "تكرار حتّى n"
+msgstr[3] "تكرار حتّى n"
+msgstr[4] "تكرار حتّى n"
+msgstr[5] "تكرار حتّى n"
+
+#: incidenceformatter.cpp:2335
+#, kde-format
+msgctxt "Recurs every N YEAR[S] on day N"
+msgid "Recurs every year on day <numid>%2</numid>"
+msgid_plural "Recurs every <numid>%1</numid> years on day <numid>%2</numid>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: incidenceformatter.cpp:2345
+#, kde-format
+msgctxt ""
+"Every N years on the [2nd|3rd|...] weekdayname of monthname until end-date"
+msgid "Every year on the %2 %3 of %4 until %5"
+msgid_plural "Every <numid>%1</numid> years on the %2 %3 of %4 until %5"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: incidenceformatter.cpp:2362
+#, kde-format
+msgctxt "Every N years on the [2nd|3rd|...] weekdayname of monthname"
+msgid "Every year on the %2 %3 of %4"
+msgid_plural "Every <numid>%1</numid> years on the %2 %3 of %4"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: incidenceformatter.cpp:2370
+msgid "Incidence recurs"
+msgstr ""
+
+#: kresult.cpp:144
+#, fuzzy
+msgid "Ok"
+msgstr "موافق"
+
+#: kresult.cpp:146
+#, fuzzy
+msgid "In progress"
+msgstr "داخل progress"
+
+#: kresult.cpp:150
+#, fuzzy
+msgid "Not an error"
+msgstr "لا خطأ"
+
+#: kresult.cpp:152
+#, fuzzy
+msgid "Error"
+msgstr "خطأ"
+
+#: kresult.cpp:154
+#, fuzzy
+msgid "Invalid URL"
+msgstr "عنوان غير صالح"
+
+#: kresult.cpp:156
+#, fuzzy
+msgid "Connection failed"
+msgstr "فشل الاتصال"
+
+#: kresult.cpp:158
+#, fuzzy
+msgid "Write error"
+msgstr "خطأ في الكتابة"
+
+#: kresult.cpp:160
+#, fuzzy
+msgid "Read error"
+msgstr "خطأ في القراءة"
+
+#: kresult.cpp:162
+#, fuzzy
+msgid "Wrong Parameter"
+msgstr "الخطأ ضابطة"
+
+#: kresult.cpp:164
+#, fuzzy
+msgid "Parse Error"
+msgstr "خطأ إعرابخطأ تحليلأعرب خطأ"
+
+#: kresult.cpp:166
+#, fuzzy
+msgid "Wrong revision of schema"
+msgstr "الخطأ مراجعة من سمة"
+
+#: qtopiaformat.cpp:327
+#, fuzzy, kde-format
+msgid "Could not open file '%1'"
+msgstr "'لا يمكن فتح %1'"
+
+#. i18n: file: htmlexportsettings.kcfg:13
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:3
+#, fuzzy
+msgid "Full name of the calendar owner"
+msgstr "كامل الإسم من رزنامة مالك"
+
+#. i18n: file: htmlexportsettings.kcfg:14
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:6
+#, fuzzy
+msgid "WhatsThis text for FullName setting"
+msgstr "نص لـ"
+
+#. i18n: file: htmlexportsettings.kcfg:17
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:9
+#, fuzzy
+msgid "Email of the calendar owner"
+msgstr "البريد الإلكتروني من رزنامة مالك"
+
+#. i18n: file: htmlexportsettings.kcfg:18
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:12
+#, fuzzy
+msgid "WhatsThis text for Email setting"
+msgstr "نص لـ البريد الإلكتروني"
+
+#. i18n: file: htmlexportsettings.kcfg:21
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:15
+#, fuzzy
+msgid "Creator application"
+msgstr "المنشئ تطبيق"
+
+#. i18n: file: htmlexportsettings.kcfg:22
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:18
+#, fuzzy
+msgid "Creator application of the calendar"
+msgstr "المنشئ تطبيق من رزنامة"
+
+#. i18n: file: htmlexportsettings.kcfg:25
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:21
+#, fuzzy
+msgid "Creator URL"
+msgstr "المنشئ URL"
+
+#. i18n: file: htmlexportsettings.kcfg:26
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:24
+#, fuzzy
+msgid "URL of the creator application of the calendar."
+msgstr "URL من تطبيق من رزنامة."
+
+#. i18n: file: htmlexportsettings.kcfg:30
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:27
+#, fuzzy
+msgid "Page Title"
+msgstr "عنوان صفحة"
+
+#. i18n: file: htmlexportsettings.kcfg:35
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:30
+#, fuzzy
+msgid "Date start"
+msgstr "التاريخ تشغيل"
+
+#. i18n: file: htmlexportsettings.kcfg:36
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:33
+#, fuzzy
+msgid "First day of the range that shall be exported to HTML."
+msgstr "الأول اليوم من المدى إلى HTML."
+
+#. i18n: file: htmlexportsettings.kcfg:39
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:36
+#, fuzzy
+msgid "Date end"
+msgstr "التاريخ end"
+
+#. i18n: file: htmlexportsettings.kcfg:40
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:39
+#, fuzzy
+msgid "Last day of the range that shall be exported to HTML."
+msgstr "الأخير اليوم من المدى إلى HTML."
+
+#. i18n: file: htmlexportsettings.kcfg:44
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:42
+#, fuzzy
+msgid "Output filename"
+msgstr "مخرجات اسم الملف"
+
+#. i18n: file: htmlexportsettings.kcfg:45
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:45
+#, fuzzy
+msgid "The output file name for the HTML export."
+msgstr "الـ مخرجات ملفّ الإسم لـ HTML تصدير."
+
+#. i18n: file: htmlexportsettings.kcfg:49
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:48
+#, fuzzy
+msgid "Style sheet"
+msgstr "الأسلوب الورقة"
+
+#. i18n: file: htmlexportsettings.kcfg:50
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: rc.cpp:51
+#, fuzzy
+msgid ""
+"CSS style sheet to be used by the final HTML page. This string contains the "
+"actual contents of the CSS, not a path to the style sheet."
+msgstr ""
+"CSS أسلوب الورقة إلى مُستخدَم أداء HTML صفحة هذا سلسلة نص يحتوي من CSS ليس a "
+"المسار إلى أسلوب الورقة."
+
+#. i18n: file: htmlexportsettings.kcfg:54
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:54
+#, fuzzy
+msgid "Exclude private incidences from the export"
+msgstr "إستثنِ خاص من تصدير"
+
+#. i18n: file: htmlexportsettings.kcfg:58
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: rc.cpp:57
+#, fuzzy
+msgid "Exclude confidential incidences from the export"
+msgstr "إستثنِ من تصدير"
+
+#. i18n: file: htmlexportsettings.kcfg:66
+#. i18n: ectx: label, entry, group ($(application)-Events)
+#: rc.cpp:60
+#, fuzzy
+msgid "Export events as list"
+msgstr "صدِّر قائمة"
+
+#. i18n: file: htmlexportsettings.kcfg:70
+#. i18n: ectx: label, entry, group ($(application)-Events)
+#: rc.cpp:63
+#, fuzzy
+msgid "Export in month view"
+msgstr "صدِّر بوصة شهر اعرض"
+
+#. i18n: file: htmlexportsettings.kcfg:74
+#. i18n: ectx: label, entry, group ($(application)-Events)
+#: rc.cpp:66
+#, fuzzy
+msgid "Export in week view"
+msgstr "صدِّر بوصة أسبوع اعرض"
+
+#. i18n: file: htmlexportsettings.kcfg:78
+#. i18n: ectx: label, entry (EventTitle), group ($(application)-Events)
+#: rc.cpp:69
+#, fuzzy
+msgid "Title of the calendar"
+msgstr "العنوان من رزنامة"
+
+#. i18n: file: htmlexportsettings.kcfg:83
+#. i18n: ectx: label, entry (EventLocation), group ($(application)-Events)
+#: rc.cpp:72
+#, fuzzy
+msgid "Export location of the events"
+msgstr "صدِّر موقع من"
+
+#. i18n: file: htmlexportsettings.kcfg:87
+#. i18n: ectx: label, entry (EventCategories), group ($(application)-Events)
+#: rc.cpp:75
+#, fuzzy
+msgid "Export categories of the events"
+msgstr "صدِّر فئات من"
+
+#. i18n: file: htmlexportsettings.kcfg:91
+#. i18n: ectx: label, entry (EventAttendees), group ($(application)-Events)
+#: rc.cpp:78
+#, fuzzy
+msgid "Export attendees of the events"
+msgstr "صدِّر من"
+
+#. i18n: file: htmlexportsettings.kcfg:99
+#. i18n: ectx: label, entry, group ($(application)-Todos)
+#: rc.cpp:81
+#, fuzzy
+msgid "Export to-do list"
+msgstr "صدِّر إلى قائمة"
+
+#. i18n: file: htmlexportsettings.kcfg:103
+#. i18n: ectx: label, entry, group ($(application)-Todos)
+#: rc.cpp:84
+#, fuzzy
+msgid "Title of the to-do list"
+msgstr "العنوان من إلى قائمة"
+
+#. i18n: file: htmlexportsettings.kcfg:108
+#. i18n: ectx: label, entry (TaskDueDate), group ($(application)-Todos)
+#: rc.cpp:87
+#, fuzzy
+msgid "Export due dates of the to-dos"
+msgstr "صدِّر من إلى"
+
+#. i18n: file: htmlexportsettings.kcfg:112
+#. i18n: ectx: label, entry (TaskLocation), group ($(application)-Todos)
+#: rc.cpp:90
+#, fuzzy
+msgid "Export location of the to-dos"
+msgstr "صدِّر موقع من إلى"
+
+#. i18n: file: htmlexportsettings.kcfg:116
+#. i18n: ectx: label, entry (TaskCategories), group ($(application)-Todos)
+#: rc.cpp:93
+#, fuzzy
+msgid "Export categories of the to-dos"
+msgstr "صدِّر فئات من إلى"
+
+#. i18n: file: htmlexportsettings.kcfg:120
+#. i18n: ectx: label, entry (TaskAttendees), group ($(application)-Todos)
+#: rc.cpp:96
+#, fuzzy
+msgid "Export attendees of the to-dos"
+msgstr "صدِّر من إلى"
+
+#. i18n: file: htmlexportsettings.kcfg:128
+#. i18n: ectx: label, entry, group ($(application)-Journals)
+#. i18n: file: htmlexportsettings.kcfg:139
+#. i18n: ectx: label, entry, group ($(application)-FreeBusy)
+#: rc.cpp:99 rc.cpp:105
+#, fuzzy
+msgid "Export journals"
+msgstr "صدِّر"
+
+#. i18n: file: htmlexportsettings.kcfg:132
+#. i18n: ectx: label, entry, group ($(application)-Journals)
+#: rc.cpp:102
+#, fuzzy
+msgid "Title of the journal list"
+msgstr "العنوان من اليومية قائمة"
+
+#. i18n: file: htmlexportsettings.kcfg:143
+#. i18n: ectx: label, entry (FreeBusyTitle), group ($(application)-FreeBusy)
+#: rc.cpp:108
+#, fuzzy
+msgid "Title of the free/busy list"
+msgstr "العنوان من حرّة قائمة"
+
+#: rc.cpp:109
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:110
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"
+
+#: resourcecachedconfig.cpp:69
+#, fuzzy
+msgctxt "@title:group"
+msgid "Automatic Reload"
+msgstr "تلقائي أعد التحميل"
+
+#: resourcecachedconfig.cpp:73
+#, fuzzy
+msgctxt "@option:radio never reload the cache"
+msgid "Never"
+msgstr "أبداً"
+
+#: resourcecachedconfig.cpp:76
+#, fuzzy
+msgctxt "@option:radio reload the cache on startup"
+msgid "On startup"
+msgstr "تشغيل البدأ"
+
+#: resourcecachedconfig.cpp:80
+#, fuzzy
+msgctxt "@option:radio reload the cache at regular intervals"
+msgid "Regular interval"
+msgstr "عادي"
+
+#: resourcecachedconfig.cpp:90 resourcecachedconfig.cpp:158
+#, fuzzy
+msgctxt "@label:spinbox"
+msgid "Interval in minutes:"
+msgstr "الفترة بوصة دقائق"
+
+#: resourcecachedconfig.cpp:135
+#, fuzzy
+msgctxt "@title:group"
+msgid "Automatic Save"
+msgstr "تلقائي احفظ"
+
+#: resourcecachedconfig.cpp:140
+#, fuzzy
+msgctxt "@option:radio never save the cache automatically"
+msgid "Never"
+msgstr "أبداً"
+
+#: resourcecachedconfig.cpp:143
+#, fuzzy
+msgctxt "@option:radio save the cache on exit"
+msgid "On exit"
+msgstr "تشغيل خروج"
+
+#: resourcecachedconfig.cpp:147
+#, fuzzy
+msgctxt "@option:radio save the cache at regular intervals"
+msgid "Regular interval"
+msgstr "عادي"
+
+#: resourcecachedconfig.cpp:166
+#, fuzzy
+msgctxt "@option:radio save the cache after some delay"
+msgid "Delayed after changes"
+msgstr "متأخر بعد"
+
+#: resourcecachedconfig.cpp:170
+#, fuzzy
+msgctxt "@option:radio save the cache after every modification"
+msgid "On every change"
+msgstr "تشغيل كل تغيير"
+
+#: resourcecached.cpp:860
+#, fuzzy, kde-format
+msgid "Last loaded: %1"
+msgstr "الأخير تمَ التحميل 1"
+
+#: resourcecached.cpp:865
+#, fuzzy, kde-format
+msgid "Last saved: %1"
+msgstr "الأخير 1"
+
+#: resourcecalendar.cpp:89
+#, fuzzy, kde-format
+msgid "Type: %1"
+msgstr "النوع: %1"
+
+#: resourcecalendar.cpp:196
+#, fuzzy, kde-format
+msgid "Error while loading %1.\n"
+msgstr "خطأ بينما يجري التحميل n"
+
+#: resourcecalendar.cpp:264
+#, fuzzy, kde-format
+msgid "Error while saving %1.\n"
+msgstr "خطأ بينما n"
+
+#: resourcelocalconfig.cpp:67 resourcelocaldirconfig.cpp:61
+#, fuzzy
+msgid "Location:"
+msgstr "الموقع:"
+
+#: resourcelocalconfig.cpp:69
+msgid "*.ics *.vcs|Calendar Files"
+msgstr ""
+
+#: resourcelocalconfig.cpp:73
+#, fuzzy
+msgid "Calendar Format"
+msgstr "التقويم تنسيق"
+
+#: resourcelocalconfig.cpp:75
+msgid "iCalendar"
+msgstr ""
+
+#: resourcelocalconfig.cpp:76
+msgid "vCalendar"
+msgstr ""
+
+#: resourcelocalconfig.cpp:126
+#, fuzzy, kde-format
+msgid ""
+"You did not specify a URL for this resource. Therefore, the resource will be "
+"saved in %1. It is still possible to change this location by editing the "
+"resource properties."
+msgstr ""
+"أنت ليس تحديد a URL لـ مورِد لذا مورِد بوصة itإيطالياهو هو إلى تغيير موقع أداء "
+"مورِد خصائِص."
+
+#: scheduler.cpp:85
+#, fuzzy
+msgctxt "@item new message posting"
+msgid "New Message Publish"
+msgstr "جديد رسالة انشر"
+
+#: scheduler.cpp:87
+#, fuzzy
+msgctxt "@item updated message"
+msgid "Updated Message Published"
+msgstr "حُدّث رسالة منشور"
+
+#: scheduler.cpp:89
+#, fuzzy
+msgctxt "@item obsolete status"
+msgid "Obsolete"
+msgstr "مهململغي"
+
+#: scheduler.cpp:91
+#, fuzzy
+msgctxt "@item request new message posting"
+msgid "Request New Message"
+msgstr "الطلب جديد رسالة"
+
+#: scheduler.cpp:93
+#, fuzzy
+msgctxt "@item request updated posting"
+msgid "Request Updated Message"
+msgstr "الطلب حُدّث رسالة"
+
+#: scheduler.cpp:95
+#, fuzzy, kde-format
+msgctxt "@item unknown status"
+msgid "Unknown Status: %1"
+msgstr "مجهول الحالة 1"
+
+#: scheduler.cpp:195
+#, fuzzy
+msgctxt "@item event, to-do, journal or freebusy posting"
+msgid "Publish"
+msgstr "انشر"
+
+#: scheduler.cpp:197
+#, fuzzy
+msgctxt "@item event, to-do or freebusy scheduling requests"
+msgid "Request"
+msgstr "الطلب"
+
+#: scheduler.cpp:199
+#, fuzzy
+msgctxt "@item event, to-do or freebusy reply to request"
+msgid "Reply"
+msgstr "رد"
+
+#: scheduler.cpp:202
+#, fuzzy
+msgctxt "@item event, to-do or journal additional property request"
+msgid "Add"
+msgstr "إضافة"
+
+#: scheduler.cpp:204
+#, fuzzy
+msgctxt "@item event, to-do or journal cancellation notice"
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: scheduler.cpp:206
+#, fuzzy
+msgctxt "@item event or to-do description update request"
+msgid "Refresh"
+msgstr "تحديث"
+
+#: scheduler.cpp:208
+#, fuzzy
+msgctxt "@item event or to-do submit counter proposal"
+msgid "Counter"
+msgstr "العدّاد"
+
+#: scheduler.cpp:210
+#, fuzzy
+msgctxt "@item event or to-do decline a counter proposal"
+msgid "Decline Counter"
+msgstr "رفض العدّاد"
+
+#: scheduler.cpp:212
+#, fuzzy
+msgctxt "@item no method"
+msgid "Unknown"
+msgstr "مجهول"
+
+#: scheduler.cpp:394
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "%1 wants to attend %2 but was not invited."
+msgstr "إلى ليس."
+
+#: scheduler.cpp:398
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "%1 wants to attend %2 on behalf of %3."
+msgstr "إلى يعمل من."
+
+#: scheduler.cpp:403
+#, fuzzy
+msgctxt "@title"
+msgid "Uninvited attendee"
+msgstr "متطفّل"
+
+#: scheduler.cpp:404
+#, fuzzy
+msgctxt "@option"
+msgid "Accept Attendance"
+msgstr "قبول الحاضرون"
+
+#: scheduler.cpp:405
+#, fuzzy
+msgctxt "@option"
+msgid "Reject Attendance"
+msgstr "ارفض الحاضرون"
+
+#: scheduler.cpp:410
+#, fuzzy
+msgctxt "@info"
+msgid "The organizer rejected your attendance at this meeting."
+msgstr "الـ عند."
+
+#, fuzzy
+#~ msgctxt "@info page creator email link"
+#~ msgid "by <link url='mailto:%1'>%2</link>"
+#~ msgstr "أداء<link url='mailto:%1'></link>"
+
+#, fuzzy
+#~ msgctxt "%1: Start Date"
+#~ msgid "%1 (time unspecified)"
+#~ msgstr "وقت غير محددة"
+
+#, fuzzy
+#~ msgctxt "%1: End Date"
+#~ msgid "%1 (time unspecified)"
+#~ msgstr "وقت غير محددة"
+
+#, fuzzy
+#~ msgctxt "time range for event, &nbsp; to prevent ugly line breaks"
+#~ msgid "<i>Time:</i>&nbsp;%1&nbsp;-&nbsp;%2"
+#~ msgstr "<i> الوقت</i>&nbsp;&nbsp;&nbsp; 2"

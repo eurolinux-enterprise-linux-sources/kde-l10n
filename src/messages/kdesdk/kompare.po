@@ -1,0 +1,1250 @@
+# translation of kompare.po to
+# Copyright (C) 2003, 2004, 2007 Free Software Foundation, Inc.
+#
+# Nuriddin S. Aminagha <nuriddin@haydarlinux.org>, 2003.
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kompare\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-08-29 01:25+0200\n"
+"PO-Revision-Date: 2007-10-14 15:59+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: komparepart/kompareprefdlg.cpp:35
+msgid "Preferences"
+msgstr "خصائص"
+
+#: komparepart/kompareprefdlg.cpp:45
+#, fuzzy
+msgid "View"
+msgstr "عرض"
+
+#: komparepart/kompareprefdlg.cpp:47
+msgid "View Settings"
+msgstr "عرض الإعدادات"
+
+#: komparepart/kompareprefdlg.cpp:51 libdialogpages/diffpage.cpp:220
+#: kompareurldialog.cpp:52
+msgid "Diff"
+msgstr "الاختلافات"
+
+#: komparepart/kompareprefdlg.cpp:53
+msgid "Diff Settings"
+msgstr "إعدادات الاختلافات"
+
+#: komparepart/kompare_part.cpp:176
+msgid "Save &All"
+msgstr "حفظ ال&كل"
+
+#: komparepart/kompare_part.cpp:178
+#, fuzzy
+msgid "Save &Diff..."
+msgstr "احفظ."
+
+#: komparepart/kompare_part.cpp:180
+msgid "Swap Source with Destination"
+msgstr "تبديل المصدر مع الهدف"
+
+#: komparepart/kompare_part.cpp:182
+msgid "Show Statistics"
+msgstr "عرض الإحصائيات"
+
+#: komparepart/kompare_part.cpp:185
+msgid "Refresh Diff"
+msgstr ""
+
+#: komparepart/kompare_part.cpp:294 komparepart/kompare_part.cpp:305
+#, fuzzy, kde-format
+msgid "<qt>The URL <b>%1</b> cannot be downloaded.</qt>"
+msgstr "<qt> الـ URL<b></b></qt>"
+
+#: komparepart/kompare_part.cpp:343
+#, fuzzy, kde-format
+msgid "<qt>The URL <b>%1</b> does not exist on your system.</qt>"
+msgstr "<qt> الـ URL<b></b> ليس يعمل نظام</qt>"
+
+#: komparepart/kompare_part.cpp:535
+msgid "Diff Options"
+msgstr "خيارات الاختلافات"
+
+#: komparepart/kompare_part.cpp:553
+#, fuzzy
+msgid "*.diff *.dif *.patch|Patch Files"
+msgstr "patch الرقعة ملفات"
+
+#: komparepart/kompare_part.cpp:553
+msgid "Save .diff"
+msgstr "حفظ الإختلافات"
+
+#: komparepart/kompare_part.cpp:556
+#, fuzzy
+msgid "The file exists or is write-protected; do you want to overwrite it?"
+msgstr "الـ ملفّ موجود أو هو كتابة محمي إلى كتابة فوقية :: كتابة على الإيطالية?"
+
+#: komparepart/kompare_part.cpp:556
+#, fuzzy
+msgid "File Exists"
+msgstr "الملف موجود"
+
+#: komparepart/kompare_part.cpp:556
+#, fuzzy
+msgid "Overwrite"
+msgstr "الكتابة فوقه"
+
+#: komparepart/kompare_part.cpp:556
+#, fuzzy
+msgid "Do Not Overwrite"
+msgstr "عدم الكتابة فوقه"
+
+#: komparepart/kompare_part.cpp:636
+msgid "KomparePart"
+msgstr "برنامج KomparePart"
+
+#: komparepart/kompare_part.cpp:637 main.cpp:62
+#: komparenavtreepart/komparenavtreepart.cpp:789
+#, fuzzy
+msgid "John Firebaugh"
+msgstr "John Firebaugh"
+
+#: komparepart/kompare_part.cpp:637 komparepart/kompare_part.cpp:638
+#: komparepart/kompare_part.cpp:639 main.cpp:62 main.cpp:63
+#: komparenavtreepart/komparenavtreepart.cpp:789
+#: komparenavtreepart/komparenavtreepart.cpp:790
+msgid "Author"
+msgstr "المؤلف"
+
+#: komparepart/kompare_part.cpp:638 main.cpp:63
+#: komparenavtreepart/komparenavtreepart.cpp:790
+#, fuzzy
+msgid "Otto Bruggeman"
+msgstr "Otto Bruggeman"
+
+#: komparepart/kompare_part.cpp:639 main.cpp:65
+msgid "Kevin Kofler"
+msgstr ""
+
+#: komparepart/kompare_part.cpp:649
+msgid "Running diff..."
+msgstr "جاري البحث عن الإختلافات..."
+
+#: komparepart/kompare_part.cpp:652
+msgid "Parsing diff output..."
+msgstr "جاري إعراب مخرجات الإختلافات..."
+
+#: komparepart/kompare_part.cpp:701
+#, kde-format
+msgid "Comparing file %1 with file %2"
+msgstr "جاري مقارنة الملف %1 مع الملف %2"
+
+#: komparepart/kompare_part.cpp:706
+#, kde-format
+msgid "Comparing files in %1 with files in %2"
+msgstr "جاري مقارنة الملفات في %1 مع الملفات في %2"
+
+#: komparepart/kompare_part.cpp:711
+#, kde-format
+msgid "Viewing diff output from %1"
+msgstr "جاري عرض مخرجات الإختلافات من %1"
+
+#: komparepart/kompare_part.cpp:714
+#, kde-format
+msgid "Blending diff output from %1 into file %2"
+msgstr "جاري مزج مخرجات الإختلافات من %1 إلى الملف %2"
+
+#: komparepart/kompare_part.cpp:719
+#, kde-format
+msgid "Blending diff output from %1 into folder %2"
+msgstr "جاري مزج مخرجات الإختلافات من %1 إلى المجلَد %2"
+
+#: komparepart/kompare_part.cpp:770 komparepart/kompare_part.cpp:801
+#: komparepart/kompare_part.cpp:916
+#, fuzzy
+msgid ""
+"You have made changes to the destination file(s).\n"
+"Would you like to save them?"
+msgstr "أنت إلى مقصد ملفّ s مثل إلى حفظ?"
+
+#: komparepart/kompare_part.cpp:772 komparepart/kompare_part.cpp:803
+#: komparepart/kompare_part.cpp:918
+msgid "Save Changes?"
+msgstr "حفظ التغييرات؟"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:235
+#. i18n: ectx: property (text), widget (QRadioButton, m_UnifiedRB)
+#: komparepart/kompare_part.cpp:841 libdialogpages/diffpage.cpp:245 rc.cpp:77
+msgid "Unified"
+msgstr "موحّد"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:207
+#. i18n: ectx: property (text), widget (QRadioButton, m_ContextRB)
+#: komparepart/kompare_part.cpp:844 libdialogpages/diffpage.cpp:239 rc.cpp:65
+msgid "Context"
+msgstr "سياق"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:228
+#. i18n: ectx: property (text), widget (QRadioButton, m_RCSRB)
+#: komparepart/kompare_part.cpp:847 rc.cpp:74
+msgid "RCS"
+msgstr "RCS"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:214
+#. i18n: ectx: property (text), widget (QRadioButton, m_EdRB)
+#: komparepart/kompare_part.cpp:850 rc.cpp:68
+msgid "Ed"
+msgstr "Ed"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:221
+#. i18n: ectx: property (text), widget (QRadioButton, m_NormalRB)
+#: komparepart/kompare_part.cpp:853 libdialogpages/diffpage.cpp:242 rc.cpp:71
+msgid "Normal"
+msgstr "عادي"
+
+#: komparepart/kompare_part.cpp:857
+#: komparenavtreepart/komparenavtreepart.cpp:624
+msgid "Unknown"
+msgstr "مجهزل"
+
+#: komparepart/kompare_part.cpp:873
+msgid ""
+"No diff file, or no 2 files have been diffed. Therefore no stats are "
+"available."
+msgstr ""
+"لا تتوفر أي إحصاءات إما لعدم وجود ملف الإختلافات، أو لعدم مقارنة أي ملفين."
+
+#: komparepart/kompare_part.cpp:875 komparepart/kompare_part.cpp:889
+#: komparepart/kompare_part.cpp:905
+msgid "Diff Statistics"
+msgstr "إحصائيات الاختلافات"
+
+#: komparepart/kompare_part.cpp:879
+#, kde-format
+msgid ""
+"Statistics:\n"
+"\n"
+"Old file: %1\n"
+"New file: %2\n"
+"\n"
+"Format: %3\n"
+"Number of hunks: %4\n"
+"Number of differences: %5"
+msgstr ""
+"إحصائيات:\n"
+"\n"
+"ملف قديم: %1\n"
+"ملف جديد: %2\n"
+"\n"
+"هيئة: %3\n"
+"عدد الكتل: %4\n"
+"عدد الإختلافات: %5"
+
+#: komparepart/kompare_part.cpp:892
+#, kde-format
+msgid ""
+"Statistics:\n"
+"\n"
+"Number of files in diff file: %1\n"
+"Format: %2\n"
+"\n"
+"Current old file: %3\n"
+"Current new file: %4\n"
+"\n"
+"Number of hunks: %5\n"
+"Number of differences: %6"
+msgstr ""
+"إحصائيات:\n"
+"\n"
+"عدد الملفات في ملف الإختلافات: %1\n"
+"هيئة: %2\n"
+"\n"
+"الملف القديم الحالي: %3\n"
+"الملف الجديد الحالي: %4\n"
+"\n"
+"عدد الكتل: %5\n"
+"عدد الإختلافات: %6"
+
+#: libdialogpages/viewpage.cpp:58
+msgid "Colors"
+msgstr "الألوان"
+
+#: libdialogpages/viewpage.cpp:64
+msgid "Removed color:"
+msgstr "اللون المزال:"
+
+#: libdialogpages/viewpage.cpp:71
+msgid "Changed color:"
+msgstr "اللون المغيّر:"
+
+#: libdialogpages/viewpage.cpp:78
+msgid "Added color:"
+msgstr "اللون المضاف:"
+
+#: libdialogpages/viewpage.cpp:85
+msgid "Applied color:"
+msgstr "اللون المطبّق:"
+
+#: libdialogpages/viewpage.cpp:93
+msgid "Mouse Wheel"
+msgstr "عجلة الفأرة"
+
+#: libdialogpages/viewpage.cpp:97
+msgid "Number of lines:"
+msgstr "عدد الأسطر:"
+
+#: libdialogpages/viewpage.cpp:104
+msgid "Tabs to Spaces"
+msgstr "علامة جدولة إلى الفراغات"
+
+#: libdialogpages/viewpage.cpp:108
+msgid "Number of spaces to convert a tab character to:"
+msgstr "عدد الفراغات في حرف علامة الجدولة:"
+
+#: libdialogpages/viewpage.cpp:115 kompareurldialog.cpp:60
+#, fuzzy
+#| msgid "A&ppearance"
+msgid "Appearance"
+msgstr "المظهر"
+
+#: libdialogpages/viewpage.cpp:123
+#, fuzzy
+msgid "Text Font"
+msgstr "نص الخط"
+
+#: libdialogpages/viewpage.cpp:127
+#, fuzzy
+msgid "Font:"
+msgstr "الخط:"
+
+#: libdialogpages/viewpage.cpp:132
+#, fuzzy
+msgid "Size:"
+msgstr "الحجم:"
+
+#: libdialogpages/viewpage.cpp:139
+#, fuzzy
+msgid "Fonts"
+msgstr "&خطوط"
+
+#: libdialogpages/diffpage.cpp:209
+msgid "Diff Program"
+msgstr "برنامج الاختلافات"
+
+#: libdialogpages/diffpage.cpp:214
+#, fuzzy
+msgid ""
+"You can select a different diff program here. On Solaris the standard diff "
+"program does not support all the options that the GNU version does. This way "
+"you can select that version."
+msgstr ""
+"أنت تحديد a مختلف برنامج تشغيل Solaris قياسي برنامج ليس دعم الكل خيارات جينو "
+"النسخة هذا تحديد النسخة."
+
+#: libdialogpages/diffpage.cpp:233
+#, fuzzy
+msgid ""
+"Select the format of the output generated by diff. Unified is the one that "
+"is used most frequently because it is very readable. The KDE developers like "
+"this format the best so use it for sending patches."
+msgstr ""
+"انتقِ تنسيق من مخرجات أداء موحّد هو هو مُستخدَم الإيطالية هو مقروء الـ كيدي مثل "
+"تنسيق استخدام الإيطالية لـ."
+
+#: libdialogpages/diffpage.cpp:236
+msgid "Output Format"
+msgstr "هيئة المخرجات"
+
+#: libdialogpages/diffpage.cpp:252
+msgid "Lines of Context"
+msgstr "خطوط السَياق"
+
+#: libdialogpages/diffpage.cpp:253 libdialogpages/diffpage.cpp:257
+#: libdialogpages/diffpage.cpp:259
+#, fuzzy
+msgid ""
+"The number of context lines is normally 2 or 3. This makes the diff readable "
+"and applicable in most cases. More than 3 lines will only bloat the diff "
+"unnecessarily."
+msgstr "الـ رقم من سياق سطور هو أو هذا مقروء و بوصة المزيد سطور."
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:263
+#. i18n: ectx: property (text), widget (QLabel, m_ContextLinesLabel)
+#: libdialogpages/diffpage.cpp:256 rc.cpp:83
+msgid "Number of context lines:"
+msgstr "عدد سطور السَياق:"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:195
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, m_FormatBG)
+#: libdialogpages/diffpage.cpp:265 rc.cpp:62
+msgid "Format"
+msgstr "هيئة"
+
+#: libdialogpages/diffpage.cpp:279
+msgid "General"
+msgstr "عام"
+
+#: libdialogpages/diffpage.cpp:282
+#, fuzzy
+#| msgid "Treat new files as empty"
+msgid "&Treat new files as empty"
+msgstr "معاملة الملفات الجديدة كفارغة"
+
+#: libdialogpages/diffpage.cpp:283
+#, fuzzy
+msgid "This option corresponds to the -N diff option."
+msgstr "هذا خيار إلى I خيار."
+
+#: libdialogpages/diffpage.cpp:284
+msgid ""
+"With this option enabled diff will treat a file that only exists in one of "
+"the directories as empty in the other directory. This means that the file is "
+"compared with an empty file and because of this will appear as one big "
+"insertion or deletion."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:287
+msgid "&Look for smaller changes"
+msgstr "انظر إلى تغيّرات أصغر"
+
+#: libdialogpages/diffpage.cpp:288
+#, fuzzy
+msgid "This corresponds to the -d diff option."
+msgstr "هذا إلى d خيار."
+
+#: libdialogpages/diffpage.cpp:289
+msgid ""
+"With this option enabled diff will try a little harder (at the cost of more "
+"memory) to find fewer changes."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:291
+msgid "O&ptimize for large files"
+msgstr "إجر ال&تحسينات المثلى للملفات الكبيرة"
+
+#: libdialogpages/diffpage.cpp:292
+#, fuzzy
+msgid "This corresponds to the -H diff option."
+msgstr "هذا إلى H خيار."
+
+#: libdialogpages/diffpage.cpp:293
+msgid ""
+"This option lets diff makes better diffs when using large files. The "
+"definition of large is nowhere to be found though."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:295
+msgid "&Ignore changes in case"
+msgstr "تجاهل التغيرات في حالة"
+
+#: libdialogpages/diffpage.cpp:296
+#, fuzzy
+msgid "This corresponds to the -i diff option."
+msgstr "هذا إلى i خيار."
+
+#: libdialogpages/diffpage.cpp:297
+msgid ""
+"With this option to ignore changes in case enabled, diff will not indicate a "
+"difference when something in one file is changed into SoMEthing in the other "
+"file."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:305
+msgid "Ignore regexp:"
+msgstr "تجاهل الشكل:"
+
+#: libdialogpages/diffpage.cpp:306
+#, fuzzy
+msgid "This option corresponds to the -I diff option."
+msgstr "هذا خيار إلى I خيار."
+
+#: libdialogpages/diffpage.cpp:307
+msgid ""
+"When this checkbox is enabled, an option to diff is given that will make "
+"diff ignore lines that match the regular expression."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:311
+#, fuzzy
+msgid ""
+"Add the regular expression here that you want to use\n"
+"to ignore lines that match it."
+msgstr "إضافة عادي تعبير إلى استخدام تجاهل سطور طابق الإيطالية."
+
+#: libdialogpages/diffpage.cpp:317
+msgid "&Edit..."
+msgstr "&حرر..."
+
+#: libdialogpages/diffpage.cpp:318
+#, fuzzy
+msgid ""
+"Clicking this will open a regular expression dialog where\n"
+"you can graphically create regular expressions."
+msgstr "النقر فتح a عادي تعبير حوار إ_نشيء عادي."
+
+#: libdialogpages/diffpage.cpp:326
+msgid "Whitespace"
+msgstr "مساحة بيضاء"
+
+#: libdialogpages/diffpage.cpp:329
+#, fuzzy
+msgid "E&xpand tabs to spaces in output"
+msgstr "توسيع إلى فراغات بوصة مخرجات"
+
+#: libdialogpages/diffpage.cpp:330
+#, fuzzy
+msgid "This option corresponds to the -t diff option."
+msgstr "هذا خيار إلى t خيار."
+
+#: libdialogpages/diffpage.cpp:331
+msgid ""
+"This option does not always produce the right result. Due to this expansion "
+"Kompare may have problems applying the change to the destination file."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:333
+msgid "I&gnore added or removed empty lines"
+msgstr "تجاهل الأسطر الفارغة المضافة أو المزالة"
+
+#: libdialogpages/diffpage.cpp:334
+#, fuzzy
+msgid "This option corresponds to the -B diff option."
+msgstr "هذا خيار إلى B خيار."
+
+#: libdialogpages/diffpage.cpp:335
+msgid ""
+"This can be very useful in situations where code has been reorganized and "
+"empty lines have been added or removed to improve legibility."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:337
+msgid "Ig&nore changes in the amount of whitespace"
+msgstr "تجاهل التغيرات في حدود المساحة البيضاء"
+
+#: libdialogpages/diffpage.cpp:338
+#, fuzzy
+msgid "This option corresponds to the -b diff option."
+msgstr "هذا خيار إلى b خيار."
+
+#: libdialogpages/diffpage.cpp:339
+msgid ""
+"If you are uninterested in differences arising due to, for example, changes "
+"in indentation, then use this option."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:341
+#, fuzzy
+msgid "Ign&ore all whitespace"
+msgstr "تجاهل الكل فراغ ، فاصل"
+
+#: libdialogpages/diffpage.cpp:342
+#, fuzzy
+msgid "This option corresponds to the -w diff option."
+msgstr "هذا خيار إلى w خيار."
+
+#: libdialogpages/diffpage.cpp:343
+msgid ""
+"This is useful for seeing the significant changes without being overwhelmed "
+"by all the white space changes."
+msgstr ""
+
+#: libdialogpages/diffpage.cpp:345
+#, fuzzy
+msgid "Igno&re changes due to tab expansion"
+msgstr "تجاهل إلى لسان توسيع"
+
+#: libdialogpages/diffpage.cpp:346
+#, fuzzy
+msgid "This option corresponds to the -E diff option."
+msgstr "هذا خيار إلى E خيار."
+
+#: libdialogpages/diffpage.cpp:347
+msgid ""
+"If there is a change because tabs have been expanded into spaces in the "
+"other file, then this option will make sure that these do not show up. "
+"Kompare currently has some problems applying such changes so be careful when "
+"you use this option."
+msgstr ""
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:99
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, m_OptionsGB)
+#: libdialogpages/diffpage.cpp:353 rc.cpp:32
+#, fuzzy
+msgid "Options"
+msgstr "خيارات"
+
+#: libdialogpages/diffpage.cpp:364
+#, fuzzy
+msgid "File Pattern to Exclude"
+msgstr "ملف نمط إلى إستثنِ"
+
+#: libdialogpages/diffpage.cpp:366
+#, fuzzy
+msgid ""
+"If this is checked you can enter a shell pattern in the text box on the "
+"right or select entries from the list."
+msgstr ""
+"إذا هو مؤكّد أدخل a صدَفة التشكيلة بوصة نص مربّع يعمل يمين أو تحديد خانات من "
+"قائمة."
+
+#: libdialogpages/diffpage.cpp:371
+#, fuzzy
+msgid ""
+"Here you can enter or remove a shell pattern or select one or more entries "
+"from the list."
+msgstr "هنا أدخل أو أزِل a صدَفة التشكيلة أو تحديد أو المزيد خانات من قائمة."
+
+#: libdialogpages/diffpage.cpp:378
+#, fuzzy
+msgid "File with Filenames to Exclude"
+msgstr "ملف مع أسماء الملفات إلى إستثنِ"
+
+#: libdialogpages/diffpage.cpp:380
+#, fuzzy
+msgid ""
+"If this is checked you can enter a filename in the combo box on the right."
+msgstr "إذا هو مؤكّد أدخل a اسم الملف بوصة مربّع يعمل يمين."
+
+#: libdialogpages/diffpage.cpp:383
+#, fuzzy
+msgid ""
+"Here you can enter the URL of a file with shell patterns to ignore during "
+"the comparison of the folders."
+msgstr "هنا أدخل URL من a ملفّ مع صدَفة إلى تجاهل من."
+
+#: libdialogpages/diffpage.cpp:386
+#, fuzzy
+msgid ""
+"Any file you select in the dialog that pops up when you click it will be put "
+"in the dialog to the left of this button."
+msgstr ""
+"أيّ ملفّ تحديد بوصة حوار أعلى انقر الإيطالية put بوصة حوار إلى يسار من زر."
+
+#: libdialogpages/diffpage.cpp:394
+#, fuzzy
+msgid "Exclude"
+msgstr "إستثنِ"
+
+#: libdialogpages/filespage.cpp:60
+#, fuzzy
+msgid "Encoding"
+msgstr "الترميز"
+
+#: main.cpp:43
+#, fuzzy
+msgid ""
+"A program to view the differences between files and optionally generate a "
+"diff"
+msgstr "A برنامج إلى اعرض بين ملفات و توليد a"
+
+#: main.cpp:59
+msgid "Kompare"
+msgstr "Kompare"
+
+#: main.cpp:61
+#, fuzzy
+msgid ""
+"(c) 2001-2004 John Firebaugh, (c) 2001-2005,2009 Otto Bruggeman, (c) 2004-"
+"2005 Jeff Snyder, (c) 2007-2008 Kevin Kofler"
+msgstr "c جون و العطر"
+
+#: main.cpp:64
+msgid "Jeff Snyder"
+msgstr ""
+
+#: main.cpp:64
+msgid "Developer"
+msgstr ""
+
+#: main.cpp:65
+msgid "Maintainer"
+msgstr ""
+
+#: main.cpp:66
+#, fuzzy
+msgid "Chris Luetchford"
+msgstr "كريس"
+
+#: main.cpp:66
+#, fuzzy
+msgid "Kompare icon artist"
+msgstr "Kompare أيقونة"
+
+#: main.cpp:67
+#, fuzzy
+msgid "Malte Starostik"
+msgstr "Malte Starostik"
+
+#: main.cpp:67
+msgid "A lot of good advice"
+msgstr "كثيراَ من النصيحة الجيَدة"
+
+#: main.cpp:68
+msgid "Bernd Gehrmann"
+msgstr ""
+
+#: main.cpp:68
+msgid "Cervisia diff viewer"
+msgstr "عارض الإختلافات Cervisia"
+
+#: main.cpp:73
+#, fuzzy
+msgid "This will compare URL1 with URL2"
+msgstr "هذا مقارنة مع"
+
+#: main.cpp:74
+#, fuzzy
+msgid ""
+"This will open URL1 and expect it to be diff output. URL1 can also be a '-' "
+"and then it will read from standard input. Can be used for instance for cvs "
+"diff | kompare -o -. Kompare will do a check to see if it can find the "
+"original file(s) and then blend the original file(s) into the diffoutput and "
+"show that in the viewer. -n disables the check."
+msgstr ""
+"هذا فتح و الإيطالية إلى مخرجات a و الإيطالية قراءة من قياسي دَخْل يمكن أن "
+"مُستخدَم لـ مرة لـ o Kompare a تفقّد إلى IF الإيطالية ابحث أصلي ملفّ s و أصلي "
+"ملفّ s و إظهار بوصة مُظهر n تفقّد."
+
+#: main.cpp:75
+#, fuzzy
+msgid ""
+"This will blend URL2 into URL1, URL2 is expected to be diff output and URL1 "
+"the file or folder that the diffoutput needs to be blended into. "
+msgstr "هذا هو إلى مخرجات و ملفّ أو مجلد إلى "
+
+#: main.cpp:76
+#, fuzzy
+msgid ""
+"Disables the check for automatically finding the original file(s) when using "
+"'-' as URL with the -o option."
+msgstr "يعطّل تفقّد لـ أصلي ملفّ s URL مع o خيار."
+
+#: main.cpp:77
+#, fuzzy
+msgid ""
+"Use this to specify the encoding when calling it from the command line. It "
+"will default to the local encoding if not specified."
+msgstr ""
+"إستعمل إلى تحديد ترميز الإيطالية من أمر سطر itإيطالياهو افتراضي إلى محليّ "
+"ترميز IF ليس."
+
+#: main.cpp:201 kompare_shell.cpp:415
+msgid "Compare Files or Folders"
+msgstr "مقارنة ملفات أو مجلدات"
+
+#: main.cpp:202 kompare_shell.cpp:416
+msgid "Source"
+msgstr "المصدر"
+
+#: main.cpp:203 kompare_shell.cpp:417
+msgid "Destination"
+msgstr "الهدف"
+
+#: main.cpp:205 kompare_shell.cpp:419
+msgid "Compare"
+msgstr "قارن"
+
+#: main.cpp:205
+msgid "Compare these files or folder"
+msgstr "مقارنة هذه الملفَات أو المجلَد"
+
+#: main.cpp:205 kompare_shell.cpp:419
+#, fuzzy
+msgid ""
+"If you have entered 2 filenames or 2 folders in the fields in this dialog "
+"then this button will be enabled and pressing it will start a comparison of "
+"the entered files or folders. "
+msgstr "إذا أو بوصة بوصة حوار زر ممكن و الإيطالية تشغيل a من ملفات أو "
+
+#: kompareurldialog.cpp:44
+#, fuzzy
+msgid "Files"
+msgstr "&ملف"
+
+#: kompareurldialog.cpp:46
+msgid "Here you can enter the files you want to compare."
+msgstr ""
+
+#: kompareurldialog.cpp:54
+msgid "Here you can change the options for comparing the files."
+msgstr ""
+
+#: kompareurldialog.cpp:62
+msgid "Here you can change the options for the view."
+msgstr ""
+
+#: kompareurldialog.cpp:105
+msgid ""
+"File used for excluding files cannot be found, please specify another file."
+msgstr ""
+
+#: komparenavtreepart/komparenavtreepart.cpp:62
+msgid "Source Folder"
+msgstr "المجلد المصدر"
+
+#: komparenavtreepart/komparenavtreepart.cpp:67
+msgid "Destination Folder"
+msgstr "المجلد الهدف "
+
+#: komparenavtreepart/komparenavtreepart.cpp:72
+msgid "Source File"
+msgstr "الملف المصدر"
+
+#: komparenavtreepart/komparenavtreepart.cpp:73
+msgid "Destination File"
+msgstr "ملف الهدف"
+
+#: komparenavtreepart/komparenavtreepart.cpp:79
+msgid "Source Line"
+msgstr "سطر المصدر"
+
+#: komparenavtreepart/komparenavtreepart.cpp:80
+msgid "Destination Line"
+msgstr "سطر الهدف"
+
+#: komparenavtreepart/komparenavtreepart.cpp:81
+msgid "Difference"
+msgstr "إختلاف"
+
+#: komparenavtreepart/komparenavtreepart.cpp:441
+#, fuzzy, kde-format
+msgid "Applied: Changes made to %1 line undone"
+msgid_plural "Applied: Changes made to  %1 lines undone"
+msgstr[0] "انطبق التغييرات إلى سطر"
+msgstr[1] "انطبق التغييرات إلى سطر"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: komparenavtreepart/komparenavtreepart.cpp:444
+#, fuzzy, kde-format
+msgid "Changed %1 line"
+msgid_plural "Changed %1 lines"
+msgstr[0] "غُيِّر سطر"
+msgstr[1] "غُيِّر سطر"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: komparenavtreepart/komparenavtreepart.cpp:449
+#, fuzzy, kde-format
+msgid "Applied: Insertion of %1 line undone"
+msgid_plural "Applied: Insertion of %1 lines undone"
+msgstr[0] "انطبق إدراج من سطر"
+msgstr[1] "انطبق إدراج من سطر"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: komparenavtreepart/komparenavtreepart.cpp:452
+#, fuzzy, kde-format
+msgid "Inserted %1 line"
+msgid_plural "Inserted %1 lines"
+msgstr[0] "مدخل سطر"
+msgstr[1] "مدخل سطر"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: komparenavtreepart/komparenavtreepart.cpp:457
+#, fuzzy, kde-format
+msgid "Applied: Deletion of %1 line undone"
+msgid_plural "Applied: Deletion of %1 lines undone"
+msgstr[0] "انطبق حذف من سطر"
+msgstr[1] "انطبق حذف من سطر"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: komparenavtreepart/komparenavtreepart.cpp:460
+#, fuzzy, kde-format
+msgid "Deleted %1 line"
+msgid_plural "Deleted %1 lines"
+msgstr[0] "محذوف سطر"
+msgstr[1] "محذوف سطر"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: komparenavtreepart/komparenavtreepart.cpp:788
+msgid "KompareNavTreePart"
+msgstr ""
+
+#. i18n: file: kompareui.rc:4
+#. i18n: ectx: Menu (file)
+#. i18n: file: komparepart/komparepartui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3 rc.cpp:14
+#, fuzzy
+msgid "&File"
+msgstr "&ملف"
+
+#. i18n: file: kompareui.rc:14
+#. i18n: ectx: Menu (settings)
+#. i18n: file: komparepart/komparepartui.rc:29
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:6 rc.cpp:20
+#, fuzzy
+msgid "&Settings"
+msgstr "إ&عدادات"
+
+#. i18n: file: kompareui.rc:27
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:9
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسي"
+
+#: rc.cpp:10
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Isam Bayazidi, Nuriddin Aminagha,أحمد محمد زواوي"
+
+#: rc.cpp:11
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"bayazidi@arabeyes.org, nuriddin@haydarlinux.org,azawawi@emirates.net.ae"
+
+#. i18n: file: komparepart/komparepartui.rc:17
+#. i18n: ectx: Menu (difference)
+#: rc.cpp:17
+msgid "&Difference"
+msgstr "اختلاف"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:33
+#. i18n: ectx: property (title), widget (Q3GroupBox, GroupBox2)
+#: rc.cpp:23
+msgid "Run Diff In"
+msgstr "تشغيل الاختلافات داخل"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:71
+#. i18n: ectx: property (title), widget (Q3GroupBox, m_CommandLineGB)
+#: rc.cpp:26
+msgid "Command Line"
+msgstr "سطر الأوامر"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:86
+#. i18n: ectx: property (text), widget (QLabel, m_CommandLineLabel)
+#: rc.cpp:29
+#, fuzzy
+msgid "cd dir && diff -udHprNa -- source destination"
+msgstr "قرص مدمج dir مصدر مقصد"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:111
+#. i18n: ectx: property (text), widget (QCheckBox, m_SmallerChangesCB)
+#: rc.cpp:35
+msgid "Look for smaller changes"
+msgstr "ابحث على تغيرات أصغر"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:121
+#. i18n: ectx: property (text), widget (QCheckBox, m_LargeFilesCB)
+#: rc.cpp:38
+msgid "Optimize for large files"
+msgstr "إجر التحسينات المثلى للملفات الكبيرة"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:131
+#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreCaseCB)
+#: rc.cpp:41
+msgid "Ignore changes in case"
+msgstr "تجاهل الاختلاف في حالة"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:138
+#. i18n: ectx: property (text), widget (QCheckBox, m_ExpandTabsCB)
+#: rc.cpp:44
+msgid "Expand tabs to spaces"
+msgstr "توسيع علامات الجدولة إلى فراغات"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:145
+#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreEmptyLinesCB)
+#: rc.cpp:47
+msgid "Ignore added or removed empty lines"
+msgstr "تجاهل الأسطر الفارغة المضافة أو المزالة"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:152
+#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreWhiteSpaceCB)
+#: rc.cpp:50
+msgid "Ignore changes in whitespace"
+msgstr "تجاهل التغييرات في المسافة البيضاء"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:159
+#. i18n: ectx: property (text), widget (QCheckBox, m_FunctionNamesCB)
+#: rc.cpp:53
+msgid "Show function names"
+msgstr "اظهر أسماء الدوال"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:169
+#. i18n: ectx: property (text), widget (QCheckBox, m_RecursiveCB)
+#: rc.cpp:56
+msgid "Compare folders recursively"
+msgstr "مقارنة المجلدات بشكل متكرر"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:179
+#. i18n: ectx: property (text), widget (QCheckBox, m_NewFilesCB)
+#: rc.cpp:59
+msgid "Treat new files as empty"
+msgstr "معاملة الملفات الجديدة كفارغة"
+
+#. i18n: file: komparepart/komparesaveoptionsbase.ui:245
+#. i18n: ectx: property (text), widget (QRadioButton, m_SideBySideRB)
+#: rc.cpp:80
+msgid "Side-by-side"
+msgstr "جنبًا إلى جنبًا"
+
+#: kompare_shell.cpp:81
+#, fuzzy
+msgid "Could not find our KompareViewPart."
+msgstr "يمكن أن ليس ابحث."
+
+#: kompare_shell.cpp:113
+#, fuzzy
+msgid "Could not load our KompareViewPart."
+msgstr "يمكن أن ليس التحميل."
+
+#: kompare_shell.cpp:121
+#, fuzzy
+msgid "Could not find our KompareNavigationPart."
+msgstr "يمكن أن ليس ابحث."
+
+#: kompare_shell.cpp:130
+#, fuzzy
+msgid "Navigation"
+msgstr "الملاحة"
+
+#: kompare_shell.cpp:148
+#, fuzzy
+msgid "Could not load our KompareNavigationPart."
+msgstr "يمكن أن ليس التحميل."
+
+#: kompare_shell.cpp:249
+msgid "&Open Diff..."
+msgstr "فتح الا&ختلافات."
+
+#: kompare_shell.cpp:252
+msgid "&Compare Files..."
+msgstr "&مقارنة ملفات ..."
+
+#: kompare_shell.cpp:255
+msgid "&Blend URL with Diff..."
+msgstr "إ&خلط عنوان الموقع مع الاختلافات."
+
+#: kompare_shell.cpp:261
+msgid "Show T&ext View"
+msgstr "إظهار عارض ال&نص "
+
+#: kompare_shell.cpp:274
+msgid " 0 of 0 differences "
+msgstr "0 من 0 إختلاف"
+
+#: kompare_shell.cpp:275
+msgid " 0 of 0 files "
+msgstr "0 من 0 ملف"
+
+#: kompare_shell.cpp:290
+#, fuzzy, kde-format
+msgid " %2 of %1 file "
+msgid_plural " %2 of %1 files "
+msgstr[0] "من ملفّ "
+msgstr[1] "من ملفّ "
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: kompare_shell.cpp:292
+#, fuzzy, kde-format
+msgid " %1 file "
+msgid_plural " %1 files "
+msgstr[0] "ملفّ "
+msgstr[1] "ملفّ "
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: kompare_shell.cpp:295
+#, fuzzy, kde-format
+msgid " %2 of %1 difference, %3 applied "
+msgid_plural " %2 of %1 differences, %3 applied "
+msgstr[0] "من اختلاف "
+msgstr[1] "من اختلاف "
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: kompare_shell.cpp:298
+#, fuzzy, kde-format
+msgid " %1 difference "
+msgid_plural " %1 differences "
+msgstr[0] "اختلاف "
+msgstr[1] "اختلاف "
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: kompare_shell.cpp:386
+#, fuzzy
+msgid "Blend File/Folder with diff Output"
+msgstr "الخليط ملف مجلّد مع مخرجات"
+
+#: kompare_shell.cpp:387
+msgid "File/Folder"
+msgstr "ملف أو المجلد"
+
+#: kompare_shell.cpp:388
+msgid "Diff Output"
+msgstr "مخرجات الاختلافات"
+
+#: kompare_shell.cpp:390
+msgid "Blend"
+msgstr "الخليط"
+
+#: kompare_shell.cpp:390
+msgid "Blend this file or folder with the diff output"
+msgstr "إخلط هذا الملف أو المجلَد مع مخرجات الإختلافات"
+
+#: kompare_shell.cpp:390
+#, fuzzy
+msgid ""
+"If you have entered a file or folder name and a file that contains diff "
+"output in the fields in this dialog then this button will be enabled and "
+"pressing it will open kompare's main view where the output of the entered "
+"file or files from the folder are mixed with the diff output so you can then "
+"apply the difference(s) to a file or to the files. "
+msgstr ""
+"إذا a ملفّ أو مجلد الإسم و a ملفّ يحتوي مخرجات بوصة بوصة حوار زر ممكن و "
+"الإيطالية فتح s رئيسي اعرض مخرجات من ملفّ أو ملفات من مجلد مع مخرجات تطبيق "
+"اختلاف s إلى a ملفّ أو إلى ملفات "
+
+#: kompare_shell.cpp:419
+msgid "Compare these files or folders"
+msgstr "قارن هذه الملفَات أو المجلَدات"
+
+#: kompare_shell.cpp:455
+msgid "Text View"
+msgstr "مشهد النص"
+
+#: libdiff2/komparemodellist.cpp:65
+msgid "&Apply Difference"
+msgstr "تطبيق الاختلاف"
+
+#: libdiff2/komparemodellist.cpp:69
+msgid "Un&apply Difference"
+msgstr "إلغاء تطبيق الاختلاف"
+
+#: libdiff2/komparemodellist.cpp:73
+msgid "App&ly All"
+msgstr "تطبيق الكل"
+
+#: libdiff2/komparemodellist.cpp:77
+msgid "&Unapply All"
+msgstr "إ&لغ كل التطبيقات"
+
+#: libdiff2/komparemodellist.cpp:81
+msgid "P&revious File"
+msgstr "الملف السابق"
+
+#: libdiff2/komparemodellist.cpp:85
+msgid "N&ext File"
+msgstr "الملف التالي"
+
+#: libdiff2/komparemodellist.cpp:89
+msgid "&Previous Difference"
+msgstr "التغيّر السابق"
+
+#: libdiff2/komparemodellist.cpp:93
+msgid "&Next Difference"
+msgstr "التغيّّر التالي"
+
+#: libdiff2/komparemodellist.cpp:219 libdiff2/komparemodellist.cpp:242
+#, fuzzy, kde-format
+msgid ""
+"<qt>No models or no differences, this file: <b>%1</b>, is not a valid diff "
+"file.</qt>"
+msgstr "<qt> لا أو لا ملفّ<b></b> هو ليس a سليم ملفّ</qt>"
+
+#: libdiff2/komparemodellist.cpp:226
+#, fuzzy, kde-format
+msgid ""
+"<qt>There were problems applying the diff <b>%1</b> to the file <b>%2</b>.</"
+"qt>"
+msgstr "<qt> هناك<b></b> إلى ملفّ<b></b></qt>"
+
+#: libdiff2/komparemodellist.cpp:251
+#, fuzzy, kde-format
+msgid ""
+"<qt>There were problems applying the diff <b>%1</b> to the folder <b>%2</b>."
+"</qt>"
+msgstr "<qt> هناك<b></b> إلى مجلد<b></b></qt>"
+
+#: libdiff2/komparemodellist.cpp:284 libdiff2/komparemodellist.cpp:592
+msgid "Could not open a temporary file."
+msgstr "فشل فتح ملف مؤقَت."
+
+#: libdiff2/komparemodellist.cpp:334
+#, fuzzy, kde-format
+msgid "<qt>Could not write to the temporary file <b>%1</b>, deleting it.</qt>"
+msgstr "<qt> يمكن أن ليس كتابة إلى مؤقت ملفّ<b></b> الإيطالية</qt>"
+
+#: libdiff2/komparemodellist.cpp:362
+#, fuzzy, kde-format
+msgid ""
+"<qt>Could not create destination directory <b>%1</b>.\n"
+"The file has not been saved.</qt>"
+msgstr "<qt> يمكن أن ليس إ_نشيء مقصد دليل<b></b> ملفّ ليس</qt>"
+
+#: libdiff2/komparemodellist.cpp:379
+#, fuzzy, kde-format
+msgid ""
+"<qt>Could not upload the temporary file to the destination location <b>%1</"
+"b>. The temporary file is still available under: <b>%2</b>. You can manually "
+"copy it to the right place.</qt>"
+msgstr ""
+"<qt> يمكن أن ليس ارفع مؤقت ملفّ إلى مقصد موقع<b></b> الـ مؤقت ملفّ هو "
+"متوفّر<b></b> أنت يدويّاً نسخ الإيطالية إلى يمين</qt>"
+
+#: libdiff2/komparemodellist.cpp:444 libdiff2/komparemodellist.cpp:557
+msgid "Could not parse diff output."
+msgstr "فشل إعراب مخرجات الإختلافات."
+
+#: libdiff2/komparemodellist.cpp:460
+msgid "The files are identical."
+msgstr "هذه الملفات متطابقة."
+
+#: libdiff2/komparemodellist.cpp:624
+msgid "Could not write to the temporary file."
+msgstr "فشل الكتابة إلى الملف المؤقَت."
+
+#~ msgid "A&ppearance"
+#~ msgstr "المظهر"
+
+#~ msgid "&Diff"
+#~ msgstr "ال&اختلافات"
+
+#~ msgid "&Format"
+#~ msgstr "هيئة"
+
+#~ msgid "O&ptions"
+#~ msgstr "خيارات"
+
+#, fuzzy
+#~ msgid "My Second Test Page"
+#~ msgstr "خاصتي الثّانية اختبار صفحة"
+
+#, fuzzy
+#~ msgid "Hide T&ext View"
+#~ msgstr "إخفاء نص عرض"

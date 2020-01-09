@@ -1,0 +1,600 @@
+# translation of kfindpart.po to Arabic
+# translation of kfindpart.po to
+# Copyright (C) 2001,2002, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Mohammed Ibrahim Halabi <mih_flyer@hotmail.com>, 2001.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Munzir Taha <munzir@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kfindpart\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-10-11 01:20+0200\n"
+"PO-Revision-Date: 2009-07-08 17:08+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"\n"
+"X-Poedit-Language: Arabic\n"
+
+#: kfinddlg.cpp:50
+msgid "Find Files/Folders"
+msgstr "اعثر على ملفات/مجلدات"
+
+#: kfinddlg.cpp:71 kfinddlg.cpp:198
+msgctxt "the application is currently idle, there is no active search"
+msgid "Idle."
+msgstr "خامل."
+
+#: kfinddlg.cpp:133 kfinddlg.cpp:237 kfinddlg.cpp:266
+#, kde-format
+msgid "one file found"
+msgid_plural "%1 files found"
+msgstr[0] "لم يعثر على شيء"
+msgstr[1] "عثر على ملف واحد"
+msgstr[2] "عثر على ملفين"
+msgstr[3] "عثر على %1 ملفات"
+msgstr[4] "عثر على %1 ملفا"
+msgstr[5] "عثر على %1 ملف"
+
+#: kfinddlg.cpp:173
+msgid "Searching..."
+msgstr "يبحث..."
+
+#: kfinddlg.cpp:200
+msgid "Aborted."
+msgstr "أجهض"
+
+#: kfinddlg.cpp:203 kfinddlg.cpp:208 kfinddlg.cpp:214
+msgid "Error."
+msgstr "خطأ"
+
+#: kfinddlg.cpp:204
+msgid "Please specify an absolute path in the \"Look in\" box."
+msgstr "من فضلك أدخل المسار بالكامل في مربع \"ابحث في\"."
+
+#: kfinddlg.cpp:209
+msgid "Could not find the specified folder."
+msgstr "لا يمكن إيجاد المجلد المحدّد."
+
+#: kfindpart.cpp:81
+msgctxt "Name of the component that finds things"
+msgid "Find Component"
+msgstr "اعثر على مكوّن"
+
+#: kfindtreeview.cpp:49
+msgid "Read-write"
+msgstr "للقراءة و الكتابة"
+
+#: kfindtreeview.cpp:50
+msgid "Read-only"
+msgstr "للقراءة فقط"
+
+#: kfindtreeview.cpp:51
+msgid "Write-only"
+msgstr "للكتابة فقط"
+
+#: kfindtreeview.cpp:52
+msgid "Inaccessible"
+msgstr "غير قابل للنفاذ"
+
+#: kfindtreeview.cpp:71
+msgctxt "file name column"
+msgid "Name"
+msgstr "الاسم"
+
+#: kfindtreeview.cpp:73
+msgctxt "name of the containing folder"
+msgid "In Subfolder"
+msgstr "في المجلد الفرعي"
+
+#: kfindtreeview.cpp:75
+msgctxt "file size column"
+msgid "Size"
+msgstr "الحجم"
+
+#: kfindtreeview.cpp:77
+msgctxt "modified date column"
+msgid "Modified"
+msgstr "معدل"
+
+#: kfindtreeview.cpp:79
+msgctxt "file permissions column"
+msgid "Permissions"
+msgstr "الأذون"
+
+#: kfindtreeview.cpp:81
+msgctxt "first matching line of the query string in this file"
+msgid "First Matching Line"
+msgstr "أول سطر مطابق"
+
+#: kfindtreeview.cpp:348
+msgid "&Open containing folder(s)"
+msgstr "ا&فتح المجلد(ات) الحاوي(ة)"
+
+#: kfindtreeview.cpp:352
+msgid "&Delete"
+msgstr "ا&حذف"
+
+#: kfindtreeview.cpp:357
+msgid "&Move to Trash"
+msgstr "ا&نقل إلى سلّة المهملات"
+
+#: kfindtreeview.cpp:440
+msgid "Save Results As"
+msgstr "احفظ النتائج كــ"
+
+#: kfindtreeview.cpp:441
+msgid "HTML page"
+msgstr "صفحة HTML"
+
+#: kfindtreeview.cpp:441
+msgid "Text file"
+msgstr "ملف نصي"
+
+#: kfindtreeview.cpp:461
+msgid "Unable to save results."
+msgstr "غير قادر على حفظ النتائج."
+
+#: kfindtreeview.cpp:477
+msgid "KFind Results File"
+msgstr "ملف نتائج KFind"
+
+#: kfindtreeview.cpp:498
+msgid "Results were saved to file\n"
+msgstr "تم حفظ النتائج إلى الملف\n"
+
+#: kftabdlg.cpp:73
+msgctxt "this is the label for the name textfield"
+msgid "&Named:"
+msgstr "ال&مسمى:"
+
+#: kftabdlg.cpp:76
+msgid "You can use wildcard matching and \";\" for separating multiple names"
+msgstr "يمكنك استخدام مُبدِل مواءمة و \";\" لفصل الأسماء المتعددة"
+
+#: kftabdlg.cpp:80
+msgid "Look &in:"
+msgstr "ابح&ث في:"
+
+#: kftabdlg.cpp:83
+msgid "Include &subfolders"
+msgstr "ضمن المجلدات ال&فرعية"
+
+#: kftabdlg.cpp:84
+msgid "Case s&ensitive search"
+msgstr "بحث مميِّز ل&حالة الأحرف"
+
+#: kftabdlg.cpp:85
+msgid "&Browse..."
+msgstr "اس&تعرض..."
+
+#: kftabdlg.cpp:86
+msgid "&Use files index"
+msgstr "&استخدم فهرس الملفات"
+
+#: kftabdlg.cpp:87
+msgid "Show &hidden files"
+msgstr "أظهر ال&ملفات المخفية"
+
+#: kftabdlg.cpp:105
+msgid ""
+"<qt>Enter the filename you are looking for. <br />Alternatives may be "
+"separated by a semicolon \";\".<br /><br />The filename may contain the "
+"following special characters:<ul><li><b>?</b> matches any single character</"
+"li><li><b>*</b> matches zero or more of any characters</li><li><b>[...]</b> "
+"matches any of the characters between the braces</li></ul><br />Example "
+"searches:<ul><li><b>*.kwd;*.txt</b> finds all files ending with .kwd or ."
+"txt</li><li><b>go[dt]</b> finds god and got</li><li><b>Hel?o</b> finds all "
+"files that start with \"Hel\" and end with \"o\", having one character in "
+"between</li><li><b>My Document.kwd</b> finds a file of exactly that name</"
+"li></ul></qt>"
+msgstr ""
+"<qt>أدخل اسم الملف الذي تبحث عنه. <br />ويمكنك وضع بدائل لإسم الملف مفصولة "
+"بفاصلة منقوطة \";\".<br /><br />ويمكن لإسم الملف أن يحوي على هذه المحارف "
+"الخاصة:<ul><li><b>?</b>تطابق أي حرف</li><li><b>*</b> تطابق صفر أو أكثر من أي "
+"حرف</li><li><b>[...]</b> تطابق أي حرف بين القوسين</li></ul><br />أمثلة على "
+"مدخلات البحث:<ul><li><b>*.kwd;*.txt</b> تعثر على كل الملفات التي تنتهي بـ ."
+"kwd أو .txt</li><li><b>go[dt]</b> تعثر على god و got</li><li><b>Hel?o</b> "
+"تعثر على كل الملفات التي تبدأ بـ \"Hel\" و تنتهي بـ  with \"o\" و تملك حرف "
+"واحد بينهما. </li><li><b>My Document.kwd</b> تعثر على الملف الذي بهذا الاسم "
+"بالضبط</li></ul></qt>"
+
+#: kftabdlg.cpp:126
+msgid ""
+"<qt>This lets you use the files' index created by the <i>slocate</i> package "
+"to speed-up the search; remember to update the index from time to time "
+"(using <i>updatedb</i>).</qt>"
+msgstr ""
+"<qt>يتيح لك هذا استخدام فهرس الملفات المنشئ بواسطة حزمة <i>slocate</i>  "
+"لتسريع البحث; لا تنسى أن تحدث الفهرس من وقت إلى آخر (استخدم <i>updatedb</i>)."
+"</qt>"
+
+#: kftabdlg.cpp:172
+msgid "Find all files created or &modified:"
+msgstr "ابحث عن جميع الملفات التي تم إنشائها أو تعديل&ها:"
+
+#: kftabdlg.cpp:174
+msgid "&between"
+msgstr "ب&ين"
+
+#: kftabdlg.cpp:175
+msgid "&during the previous"
+msgstr "خلال السا&بق"
+
+#: kftabdlg.cpp:176
+msgid "and"
+msgstr "و"
+
+#: kftabdlg.cpp:181
+msgid "minute(s)"
+msgstr "دقيقة/دقائق"
+
+#: kftabdlg.cpp:182
+msgid "hour(s)"
+msgstr "ساعة/ساعات"
+
+#: kftabdlg.cpp:183
+msgctxt "use date ranges to search files by modified time"
+msgid "day(s)"
+msgstr "يوم/أيام"
+
+#: kftabdlg.cpp:184
+msgid "month(s)"
+msgstr "شهر/شهور"
+
+#: kftabdlg.cpp:185
+msgid "year(s)"
+msgstr "سنة/سنين"
+
+#: kftabdlg.cpp:203
+msgid "File &size is:"
+msgstr "ح&جم الملف:"
+
+#: kftabdlg.cpp:217
+msgid "Files owned by &user:"
+msgstr "الملفات ملك المست&خدم:"
+
+#: kftabdlg.cpp:222
+msgid "Owned by &group:"
+msgstr "ملك الم&جموعة:"
+
+#: kftabdlg.cpp:225
+msgctxt "file size isn't considered in the search"
+msgid "(none)"
+msgstr "(لا شيء)"
+
+#: kftabdlg.cpp:226
+msgid "At Least"
+msgstr "على الأقل"
+
+#: kftabdlg.cpp:227
+msgid "At Most"
+msgstr "على الأكثر"
+
+#: kftabdlg.cpp:228
+msgid "Equal To"
+msgstr "يساوي"
+
+#: kftabdlg.cpp:230
+msgid "Bytes"
+msgstr "بايت"
+
+#: kftabdlg.cpp:231
+msgid "KiB"
+msgstr "ك.بايت"
+
+#: kftabdlg.cpp:232
+msgid "MiB"
+msgstr "م.بايت"
+
+#: kftabdlg.cpp:233
+msgid "GiB"
+msgstr "ج.بايت"
+
+#: kftabdlg.cpp:298
+msgctxt "label for the file type combobox"
+msgid "File &type:"
+msgstr "&نوع الملف:"
+
+#: kftabdlg.cpp:303
+msgid "C&ontaining text:"
+msgstr "يحتوى على الن&ص:"
+
+#: kftabdlg.cpp:309
+msgid ""
+"<qt>If specified, only files that contain this text are found. Note that not "
+"all file types from the list above are supported. Please refer to the "
+"documentation for a list of supported file types.</qt>"
+msgstr ""
+"<qt>الملفات التي تحتوي على هذا النص فقط سوف توجد إذا حدّد. لاحظ أنه ليست كلّ "
+"أنواع الملفات المذكورة في القائمة مدعومة. من فضلك ارجع إلى التوثيق لقائمة "
+"بأنواع الملفات المدعومة. </qt>"
+
+#: kftabdlg.cpp:317
+msgid "Case s&ensitive"
+msgstr "&حسّاس لحالة الأحرف"
+
+#: kftabdlg.cpp:318
+msgid "Include &binary files"
+msgstr "ضمن الملفات ال&ثنائية"
+
+#: kftabdlg.cpp:319
+msgid "Regular e&xpression"
+msgstr "تع&بير نمطي"
+
+#: kftabdlg.cpp:322
+msgid ""
+"<qt>This lets you search in any type of file, even those that usually do not "
+"contain text (for example program files and images).</qt>"
+msgstr ""
+"<qt>يتيح لك البحث في أي نوع ملفات حتى التي لا تحتوي عادة على نص (مثلاً ملفات "
+"البرامج والصور).</qt>"
+
+#: kftabdlg.cpp:330
+msgid "&Edit..."
+msgstr "&حرّر..."
+
+#: kftabdlg.cpp:336
+msgid "fo&r:"
+msgstr "&لـ:"
+
+#: kftabdlg.cpp:338
+msgid "Search &metainfo sections:"
+msgstr "ا&بحث أقسام metainfo:"
+
+#: kftabdlg.cpp:342
+msgid "All Files & Folders"
+msgstr "كلّ الملفات والمجلدات"
+
+#: kftabdlg.cpp:343
+msgid "Files"
+msgstr "الملفات"
+
+#: kftabdlg.cpp:344
+msgid "Folders"
+msgstr "المجلدات"
+
+#: kftabdlg.cpp:345
+msgid "Symbolic Links"
+msgstr "الوصلات الرمزية"
+
+#: kftabdlg.cpp:346
+msgid "Special Files (Sockets, Device Files, ...)"
+msgstr "ملفات خاصة (مقابس, ملفات أجهزة...)"
+
+#: kftabdlg.cpp:347
+msgid "Executable Files"
+msgstr "ملفات تنفيذية"
+
+#: kftabdlg.cpp:348
+msgid "SUID Executable Files"
+msgstr "ملفات SUID تنفيذية"
+
+#: kftabdlg.cpp:349
+msgid "All Images"
+msgstr "كلّ الصور"
+
+#: kftabdlg.cpp:350
+msgid "All Video"
+msgstr "كلّ  الفيديو"
+
+#: kftabdlg.cpp:351
+msgid "All Sounds"
+msgstr "كلّ الأصوات"
+
+#: kftabdlg.cpp:402
+msgid "Name/&Location"
+msgstr "الاسم/المو&قع"
+
+#: kftabdlg.cpp:403
+msgctxt "tab name: search by contents"
+msgid "C&ontents"
+msgstr "ال&محتويات"
+
+#: kftabdlg.cpp:404
+msgid "&Properties"
+msgstr "&خصائص"
+
+#: kftabdlg.cpp:409
+msgid ""
+"<qt>Search within files' specific comments/metainfo<br />These are some "
+"examples:<br /><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a "
+"title, an album</li><li><b>Images (png...)</b> Search images with a special "
+"resolution, comment...</li></ul></qt>"
+msgstr ""
+"<qt>ابحث في الملفات عن تعليقات أو بيانت وصفية محددة<br />هناك عدة أمثلة:<br /"
+"><ul><li><b>ملفات الصوتية(mp3...)</b> ابحث في وسم id3 عن العنوان ، أو "
+"الألبوم</li><li><b>الصور (png...)</b> ابحث في الصور بواسطة دقة معينة ، أو "
+"تعليق...</li></ul></qt>"
+
+#: kftabdlg.cpp:417
+msgid ""
+"<qt>If specified, search only in this field<br /><ul><li><b>Audio files "
+"(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
+"Search only in Resolution, Bitdepth...</li></ul></qt>"
+msgstr ""
+"<qt>إذا حدد سيكون البحث في هذا الحقل<br /><ul><li><b>الملفات الصوتية(mp3...)"
+"</b> يمكن أن يكون العنوان ،و الألبوم...</li><li><b>الصور (png...)</b> ابحث "
+"فقط في الدقة وعمق البت...</li></ul></qt>"
+
+#: kftabdlg.cpp:610
+msgid "Unable to search within a period which is less than a minute."
+msgstr "لا يمكن البحث في مدة أقل من دقيقة"
+
+#: kftabdlg.cpp:621
+msgid "The date is not valid."
+msgstr "التاريخ غير صالح"
+
+#: kftabdlg.cpp:623
+msgid "Invalid date range."
+msgstr "مدى التاريخ غير صالح."
+
+#: kftabdlg.cpp:625
+msgid "Unable to search dates in the future."
+msgstr "تعذر البحث في التواريخ المستقبلية."
+
+#: kftabdlg.cpp:687
+msgid "Size is too big. Set maximum size value?"
+msgstr "الحجم كبير جداً. هل تريد تعيين أقصى قيمة للحجم؟"
+
+#: kftabdlg.cpp:687
+msgid "Error"
+msgstr "خطأ"
+
+#: kftabdlg.cpp:687
+msgid "Set"
+msgstr "ضع"
+
+#: kftabdlg.cpp:687
+msgid "Do Not Set"
+msgstr "لا تضع"
+
+#: kquery.cpp:552
+msgid "Error while using locate"
+msgstr "خطأ أثناء استخدام locate"
+
+#: main.cpp:30
+msgid "KDE file find utility"
+msgstr "أداة كدي للبحث عن الملفات"
+
+#: main.cpp:34
+msgid "KFind"
+msgstr "KFind"
+
+#: main.cpp:36
+msgid "(c) 1998-2003, The KDE Developers"
+msgstr "(c) 1998-2002, مطوري كدي"
+
+#: main.cpp:38
+msgid "Eric Coquelle"
+msgstr "Eric Coquelle"
+
+#: main.cpp:38
+msgid "Current Maintainer"
+msgstr "المشرف الحالي على المشروع"
+
+#: main.cpp:39
+msgid "Mark W. Webb"
+msgstr "Mark W. Webb"
+
+#: main.cpp:39
+msgid "Developer"
+msgstr "المطور"
+
+#: main.cpp:40
+msgid "Beppe Grimaldi"
+msgstr "Beppe Grimaldi"
+
+#: main.cpp:40
+msgid "UI Design & more search options"
+msgstr "تصميم الواجهة و خيارات بحث أكثر"
+
+#: main.cpp:41
+msgid "Martin Hartig"
+msgstr "Martin Hartig"
+
+#: main.cpp:42
+msgid "Stephan Kulow"
+msgstr "Stephan Kulow"
+
+#: main.cpp:43
+msgid "Mario Weilguni"
+msgstr "Mario Weilguni"
+
+#: main.cpp:44
+msgid "Alex Zepeda"
+msgstr "Alex Zepeda"
+
+#: main.cpp:45
+msgid "Miroslav Flídr"
+msgstr "Miroslav Flídr"
+
+#: main.cpp:46
+msgid "Harri Porten"
+msgstr "Harri Porten"
+
+#: main.cpp:47
+msgid "Dima Rogozin"
+msgstr "Dima Rogozin"
+
+#: main.cpp:48
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: main.cpp:49
+msgid "Hans Petter Bieker"
+msgstr "Hans Petter Bieker"
+
+#: main.cpp:50
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: main.cpp:50
+msgid "UI Design"
+msgstr "تصميم الواجهة"
+
+#: main.cpp:51
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#: main.cpp:52
+msgid "Clarence Dang"
+msgstr "Clarence Dang"
+
+#: main.cpp:57
+msgid "Path(s) to search"
+msgstr "مسار(ات) البحث"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد,زايد السعيدي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr,zayed.alsaidi@gmail.com"
+
+#~ msgid "Ready."
+#~ msgstr "جاهز."
+
+#~ msgid "Do you really want to delete the selected file?"
+#~ msgid_plural "Do you really want to delete the %1 selected files?"
+#~ msgstr[0] "أمتأكد أنك تريد حذف الملف المنتقى؟"
+#~ msgstr[1] "أمتأكد أنك تريد حذف الملف المنتقى؟"
+#~ msgstr[2] "أمتأكد أنك تريد حذف الملفين المنتقيين؟"
+#~ msgstr[3] "أمتأكد أنك تريد حذف %1 ملفات المنتقاة؟"
+#~ msgstr[4] "أمتأكد أنك تريد حذف %1 ملفا منتقا؟"
+#~ msgstr[5] "أمتأكد أنك تريد حذف %1 ملف منتقى؟"
+
+#~ msgctxt "Menu item"
+#~ msgid "Open"
+#~ msgstr "افتح"
+
+#~ msgid "Open Folder"
+#~ msgstr "افتح  مجلد"
+
+#~ msgid "Copy"
+#~ msgstr "انسخ"
+
+#~ msgid "Open With..."
+#~ msgstr "افتح بواسطة..."
+
+#~ msgid "Properties"
+#~ msgstr "خصائص"
+
+#~ msgid "Selected Files"
+#~ msgstr "الملفات المنتقاة"

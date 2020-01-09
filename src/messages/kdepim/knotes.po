@@ -1,0 +1,674 @@
+# translation of knotes.po to
+# Hicham Amaoui <amaoui@altern.org>, 2001.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# knotes.po - Arabic Translation.
+# Copyright (C) 2001, 2007 Free Software Foundation, Inc.
+msgid ""
+msgstr ""
+"Project-Id-Version: knotes\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-11 12:54+0200\n"
+"PO-Revision-Date: 2007-10-14 15:55+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: knotealarmdlg.cpp:60
+#, fuzzy
+msgid "Scheduled Alarm"
+msgstr "المجدول الفزعانذار"
+
+#: knotealarmdlg.cpp:62
+#, fuzzy
+msgid "&No alarm"
+msgstr "لا تنبيه"
+
+#: knotealarmdlg.cpp:69
+#, fuzzy
+msgid "Alarm &at:"
+msgstr "الفزعانذار عند:"
+
+#: knotealarmdlg.cpp:77
+#, fuzzy
+msgid "Alarm &in:"
+msgstr "الفزعانذار بوصة:"
+
+#: knoteconfigdlg.cpp:66
+msgid "Display"
+msgstr "عرض"
+
+#: knoteconfigdlg.cpp:67
+msgid "Display Settings"
+msgstr "إعدادات العرض"
+
+#: knoteconfigdlg.cpp:68
+msgid "Editor"
+msgstr "المحرر"
+
+#: knoteconfigdlg.cpp:69
+msgid "Editor Settings"
+msgstr "إعدادات المحرر"
+
+#: knoteconfigdlg.cpp:175
+#, fuzzy
+msgid "&Text color:"
+msgstr "لون ال&نص:"
+
+#: knoteconfigdlg.cpp:184
+#, fuzzy
+msgid "&Background color:"
+msgstr "&لون الخلفية:"
+
+#: knoteconfigdlg.cpp:195
+#, fuzzy
+msgid "&Show note in taskbar"
+msgstr "اعرض ملاحظة بوصة"
+
+#: knoteconfigdlg.cpp:199
+#, fuzzy
+msgid "&Remember desktop"
+msgstr "تذكّر سطح المكتب"
+
+#: knoteconfigdlg.cpp:203
+#, fuzzy
+msgid "Default &width:"
+msgstr "افتراضي العرض:"
+
+#: knoteconfigdlg.cpp:215
+#, fuzzy
+msgid "Default &height:"
+msgstr "افتراضي الارتفاع:"
+
+#: knoteconfigdlg.cpp:266
+#, fuzzy
+msgid "&Tab size:"
+msgstr "لسان حجم:"
+
+#: knoteconfigdlg.cpp:277
+#, fuzzy
+msgid "Auto &indent"
+msgstr "تلقائي يغيّر المسافة البادئة"
+
+#: knoteconfigdlg.cpp:282
+#, fuzzy
+msgid "&Rich text"
+msgstr "غني نص"
+
+#: knoteconfigdlg.cpp:286
+#, fuzzy
+msgid "Text font:"
+msgstr "نص الخط:"
+
+#: knoteconfigdlg.cpp:296
+#, fuzzy
+msgid "Title font:"
+msgstr "خط العنوان:"
+
+#: knoteconfigdlg.cpp:338
+#, fuzzy
+msgid "&Mail action:"
+msgstr "بريد الأفعال:"
+
+#: knoteconfigdlg.cpp:370
+#, fuzzy
+msgid "Incoming Notes"
+msgstr "القادمة ملاحظات"
+
+#: knoteconfigdlg.cpp:373
+#, fuzzy
+msgid "Accept incoming notes"
+msgstr "قبول وارد"
+
+#: knoteconfigdlg.cpp:379
+#, fuzzy
+msgid "Outgoing Notes"
+msgstr "الخارجة ملاحظات"
+
+#: knoteconfigdlg.cpp:382
+#, fuzzy
+msgid "&Sender ID:"
+msgstr "المرسل الهوية:"
+
+#: knoteconfigdlg.cpp:394
+#, fuzzy
+msgid "&Port:"
+msgstr "ال&منفذ:"
+
+#: knoteconfigdlg.cpp:430
+#, fuzzy
+msgid "&Style:"
+msgstr "الأسلوب:"
+
+#: knoteconfigdlg.cpp:437
+msgid "Plain"
+msgstr ""
+
+#: knote.cpp:135
+#, fuzzy, kde-format
+msgid "<qt>Do you really want to delete note <b>%1</b>?</qt>"
+msgstr "<qt> تنفيذ إلى حذف ملاحظة<b></b></qt>"
+
+#: knote.cpp:137
+#, fuzzy
+msgid "Confirm Delete"
+msgstr "تأكيد الحذف"
+
+#: knote.cpp:138
+#, fuzzy
+msgid "&Delete"
+msgstr "ا&حذف"
+
+#: knote.cpp:301
+#, fuzzy
+msgid "Please enter the new name:"
+msgstr "رجاء أدخل جديد الإسم:"
+
+#: knote.cpp:407
+#, fuzzy, kde-format
+msgid "Send \"%1\""
+msgstr "أرسِل"
+
+#: knote.cpp:421
+#, fuzzy
+msgid "The host cannot be empty."
+msgstr "الـ مضيف فارغ."
+
+#: knote.cpp:451
+#, fuzzy
+msgid "Unable to start the mail process."
+msgstr "عاجز إلى تشغيل بريد إجراء."
+
+#: knote.cpp:476
+#, fuzzy
+msgid "Save note as plain text"
+msgstr "احفظ ملاحظة نص عادي نص"
+
+#: knote.cpp:482
+#, fuzzy
+msgid "Save As"
+msgstr "احفظ كـ"
+
+#: knote.cpp:495
+#, fuzzy, kde-format
+msgid ""
+"<qt>A file named <b>%1</b> already exists.<br />Are you sure you want to "
+"overwrite it?</qt>"
+msgstr ""
+"<qt> A ملفّ مسمى<b></b> موجود<br /> هل إلى كتابة فوقية :: كتابة على "
+"الإيطالية</qt>"
+
+#: knote.cpp:597
+#, fuzzy
+msgid "&All Desktops"
+msgstr "كل أ&سطح المكتب"
+
+#: knote.cpp:642
+msgid "New"
+msgstr "جديد"
+
+#: knote.cpp:646
+#, fuzzy
+msgid "Rename..."
+msgstr "إعادة التسمية..."
+
+#: knote.cpp:651
+#, fuzzy
+msgid "Lock"
+msgstr "أقفل"
+
+#: knote.cpp:655
+#, fuzzy
+msgid "Unlock"
+msgstr "فك القفل"
+
+#: knote.cpp:657
+#, fuzzy
+msgid "Hide"
+msgstr "إخفاء"
+
+#: knote.cpp:662
+#, fuzzy
+msgid "Delete"
+msgstr "احذف"
+
+#: knote.cpp:666
+msgid "Insert Date"
+msgstr "إدراج التاريخ"
+
+#: knote.cpp:670
+#, fuzzy
+msgid "Set Alarm..."
+msgstr "ضبط الفزعانذار."
+
+#: knote.cpp:675
+#, fuzzy
+msgid "Send..."
+msgstr "أرسِل."
+
+#: knote.cpp:679
+#, fuzzy
+msgid "Mail..."
+msgstr "بريد."
+
+#: knote.cpp:683
+#, fuzzy
+msgid "Save As..."
+msgstr "احفظ كـ..."
+
+#: knote.cpp:690
+#, fuzzy
+msgid "Preferences..."
+msgstr "تفضيلات..."
+
+#: knote.cpp:696
+#, fuzzy
+msgid "Keep Above Others"
+msgstr "ضعه فوق الآخرين"
+
+#: knote.cpp:702
+#, fuzzy
+msgid "Keep Below Others"
+msgstr "ضعه تحت الآخرين"
+
+#: knote.cpp:708
+msgid "To Desktop"
+msgstr "إلى سطح المكتب"
+
+#: knote.cpp:717
+#, fuzzy
+msgid "Walk Through Notes"
+msgstr "المشي عَبْر ملاحظات"
+
+#: knoteedit.cpp:54
+#, fuzzy
+msgid "Bold"
+msgstr "عريض"
+
+#: knoteedit.cpp:59
+#, fuzzy
+msgid "Italic"
+msgstr "مائل"
+
+#: knoteedit.cpp:63
+#, fuzzy
+msgid "Underline"
+msgstr "تسطير"
+
+#: knoteedit.cpp:67
+#, fuzzy
+msgid "Strike Out"
+msgstr "ارسم خط عمودي"
+
+#: knoteedit.cpp:80
+#, fuzzy
+msgid "Align Left"
+msgstr "محاذاة إلى اليسار"
+
+#: knoteedit.cpp:87
+#, fuzzy
+msgid "Align Center"
+msgstr "صف مركز"
+
+#: knoteedit.cpp:93
+#, fuzzy
+msgid "Align Right"
+msgstr "محاذاة إلى اليمين"
+
+#: knoteedit.cpp:99
+#, fuzzy
+msgid "Align Block"
+msgstr "حاذي منع"
+
+#: knoteedit.cpp:111
+#, fuzzy
+msgid "List"
+msgstr "قائمة"
+
+#: knoteedit.cpp:116
+#, fuzzy
+msgid "Superscript"
+msgstr "مرتفع"
+
+#: knoteedit.cpp:120
+#, fuzzy
+msgid "Subscript"
+msgstr "منخفض"
+
+#: knoteedit.cpp:127
+#, fuzzy
+msgid "Increase Indent"
+msgstr "زيادة الإزاحة"
+
+#: knoteedit.cpp:135
+#, fuzzy
+msgid "Decrease Indent"
+msgstr "اخفض المحاذاة"
+
+#: knoteedit.cpp:148
+#, fuzzy
+msgid "Text Color..."
+msgstr "لون النصً..."
+
+#: knoteedit.cpp:153
+#, fuzzy
+msgid "Text Background Color..."
+msgstr "لون النصً..."
+
+#: knoteedit.cpp:157
+#, fuzzy
+msgid "Text Font"
+msgstr "نص الخط"
+
+#: knoteedit.cpp:162
+#, fuzzy
+msgid "Text Size"
+msgstr "نص الحجم"
+
+#: knotehostdlg.cpp:60
+msgid "Select recipient:"
+msgstr ""
+
+#: knotehostdlg.cpp:76
+#, fuzzy
+msgid "Hostname or IP address:"
+msgstr "اسم المضيف أو IP عنوان:"
+
+#: knoteprinter.cpp:79
+#, fuzzy, kde-format
+msgid "Print %1"
+msgstr "إطبع %1"
+
+#: knoteprinter.cpp:111 knoteprinter.cpp:140
+#, fuzzy, kde-format
+msgid "Print Note"
+msgid_plural "Print %1 notes"
+msgstr[0] "اطبع ملاحظة"
+msgstr[1] "اطبع ملاحظة"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: knotesalarm.cpp:81
+#, fuzzy
+msgid "The following notes triggered alarms:"
+msgstr "الـ متابعة:"
+
+#: knotesalarm.cpp:84
+#, fuzzy
+msgid "Alarm"
+msgstr "الفزعانذار"
+
+#: knotesapp.cpp:69
+#, fuzzy
+msgid "Configure Shortcuts"
+msgstr "تعريف الاختصارات"
+
+#: knotesapp.cpp:80
+#, fuzzy
+msgid "Note Actions"
+msgstr "ملاحظة إجراءات"
+
+#: knotesapp.cpp:111
+#, fuzzy
+msgid "KNotes: Sticky notes for KDE"
+msgstr "ملاحظات KDE لاصق لـ كيدي"
+
+#: knotesapp.cpp:124
+msgid "New Note"
+msgstr "ملاحظة جديدة"
+
+#: knotesapp.cpp:132
+#, fuzzy
+msgid "New Note From Clipboard"
+msgstr "جديد ملاحظة من حافظة"
+
+#: knotesapp.cpp:138
+#, fuzzy
+msgid "Show All Notes"
+msgstr "اعرض الكل ملاحظات"
+
+#: knotesapp.cpp:145
+#, fuzzy
+msgid "Hide All Notes"
+msgstr "إخفاء الكل ملاحظات"
+
+#: knotesapp.cpp:486
+#, fuzzy
+msgid "Settings"
+msgstr "إعدادات"
+
+#: knotesapp.cpp:686
+#, fuzzy
+msgid "No Notes"
+msgstr "لا ملاحظات"
+
+#: knotesnetsend.cpp:92
+#, fuzzy, kde-format
+msgid "Communication error: %1"
+msgstr "التواصل خطأ 1"
+
+#. i18n: file: knotesappui.rc:5
+#. i18n: ectx: Menu (knotes_context)
+#. i18n: file: knotesappui.rc:6
+#. i18n: ectx: Menu (knotes_context)
+#: main.cpp:45 rc.cpp:3 rc.cpp:6
+msgid "KNotes"
+msgstr "ملاحظات KDE"
+
+#: main.cpp:47
+msgid "KDE Notes"
+msgstr "ملاحظات KDE"
+
+#: main.cpp:49
+#, fuzzy
+msgid "(c) 1997-2009, The KNotes Developers"
+msgstr "c الـ ملاحظات KDE المطوّرون"
+
+#: main.cpp:108
+#, fuzzy
+msgid "Suppress creation of a new note on a non-unique instance."
+msgstr "إقمع إنشاء من a جديد ملاحظة يعمل a فريد مرة."
+
+#: main.cpp:116
+#, fuzzy
+msgid "Guillermo Antonio Amaral Bastidas"
+msgstr "أنطونيو"
+
+#: main.cpp:117
+msgid "Maintainer"
+msgstr "المشرف"
+
+#: main.cpp:119
+#, fuzzy
+msgid "Michael Brade"
+msgstr "مايكل"
+
+#: main.cpp:120
+#, fuzzy
+#| msgid "Maintainer"
+msgid "Previous Maintainer"
+msgstr "المشرف السابق"
+
+#: main.cpp:122
+#, fuzzy
+msgid "Bernd Johannes Wuebben"
+msgstr "Bernd Johannes Wuebben"
+
+#: main.cpp:123
+msgid "Original KNotes Author"
+msgstr "مؤلف ملاحظات KDE الأصلي"
+
+#: main.cpp:125
+#, fuzzy
+msgid "Wynn Wilkes"
+msgstr "وين وايلكس"
+
+#: main.cpp:126
+msgid "Ported KNotes to KDE 2"
+msgstr "نقل ملاحظات KDE الى  KDE 2"
+
+#: main.cpp:128
+#, fuzzy
+msgid "Daniel Martin"
+msgstr "دانيال مارتن"
+
+#: main.cpp:129
+#, fuzzy
+msgid "Network Interface"
+msgstr "واجهة الشبكة"
+
+#: main.cpp:131
+#, fuzzy
+msgid "Bo Thorsen"
+msgstr "Bo"
+
+#: main.cpp:132
+#, fuzzy
+msgid "Started KDE Resource Framework Integration"
+msgstr "بادئ كيدي مورد بنية التكامل"
+
+#: main.cpp:135
+msgid "Bera Debajyoti"
+msgstr ""
+
+#: main.cpp:136
+#, fuzzy
+msgid "Idea and initial code for the new look & feel"
+msgstr ""
+"فكرة و إبتدائي\n"
+"بدائي رمز لـ جديد"
+
+#: main.cpp:138
+#, fuzzy
+msgid "Matthias Ettrich"
+msgstr "Matthias Ettrich"
+
+#: main.cpp:141
+#, fuzzy
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:144
+#, fuzzy
+msgid "Matthias Kiefer"
+msgstr "Matthias Kiefer"
+
+#: main.cpp:147
+#, fuzzy
+msgid "Luboš Luňák"
+msgstr "Luboš Luňák"
+
+#: main.cpp:150
+#, fuzzy
+msgid "Laurent Montel"
+msgstr "لوران مونتال (Laurent Montel)"
+
+#: main.cpp:153
+#, fuzzy
+msgid "Dirk A. Mueller"
+msgstr "ديرك A مويلير"
+
+#: main.cpp:156
+#, fuzzy
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: main.cpp:159
+#, fuzzy
+msgid "Harri Porten"
+msgstr "Harri Porten"
+
+#: main.cpp:162
+#, fuzzy
+msgid "Espen Sand"
+msgstr "Espen Sand"
+
+#. i18n: file: knotesappui.rc:18
+#. i18n: ectx: Menu (help)
+#: rc.cpp:9
+#, fuzzy
+msgid "&Help"
+msgstr "&مساعدة"
+
+#. i18n: file: knotesappui.rc:30
+#. i18n: ectx: Menu (notes_menu)
+#. i18n: file: knotesappui.rc:31
+#. i18n: ectx: Menu (notes_menu)
+#: rc.cpp:12 rc.cpp:15
+msgid "Notes"
+msgstr "ملاحظات"
+
+#. i18n: file: knotesglobalconfig.kcfg:26
+#. i18n: ectx: label, entry (Port), group (Network)
+#: rc.cpp:18
+#, fuzzy
+msgid "The port KNotes will listen on and send notes to."
+msgstr "الـ منفذ ملاحظات KDE يعمل و إرسال إلى."
+
+#: rc.cpp:19
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "فريق تعريب لينكس"
+
+#: rc.cpp:20
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "contact@arabeyes.org"
+
+#: resourcelocalconfig.cpp:39
+#, fuzzy
+msgid "Location:"
+msgstr "الموقع:"
+
+#: resourcelocal.cpp:96
+#, fuzzy, kde-format
+msgid ""
+"<qt>Unable to save the notes to <b>%1</b>. Check that there is sufficient "
+"disk space.<br />There should be a backup in the same directory though.</qt>"
+msgstr ""
+"<qt> عاجز إلى حفظ إلى<b></b> كِش هو كافي قرص فراغ<br /> هناك a احتياطي بوصة "
+"دليل</qt>"
+
+#, fuzzy
+#~ msgid "Defaults"
+#~ msgstr "الإفتراضيّات"
+
+#, fuzzy
+#~ msgid "Default Settings for New Notes"
+#~ msgstr "افتراضي إعدادات لـ جديد ملاحظات"
+
+#~ msgid "Actions"
+#~ msgstr "أعمال"
+
+#~ msgid "Action Settings"
+#~ msgstr "إعدادات الإجراء"
+
+#, fuzzy
+#~ msgid "Network"
+#~ msgstr "الشبكة"
+
+#, fuzzy
+#~ msgid "Network Settings"
+#~ msgstr "تعيينات الشّبكة"
+
+#, fuzzy
+#~ msgid "Style"
+#~ msgstr "الأسلوب"
+
+#, fuzzy
+#~ msgid "Style Settings"
+#~ msgstr "الأسلوب إعدادات"
+
+#, fuzzy
+#~ msgid "Displa&y"
+#~ msgstr "العرض"
+
+#, fuzzy
+#~ msgid "&Editor"
+#~ msgstr "المحرر"

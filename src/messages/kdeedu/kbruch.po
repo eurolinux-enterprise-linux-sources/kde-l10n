@@ -1,0 +1,1292 @@
+# translation of kbruch.po to
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kbruch\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-21 11:33+0200\n"
+"PO-Revision-Date: 2007-10-14 15:40+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: AppMenuWidget.cpp:115
+#, fuzzy
+#| msgid "KBruch"
+msgid "KBruch modes:"
+msgstr "برنامج KBruch"
+
+#: AppMenuWidget.cpp:122
+msgid "Open standard KBruch"
+msgstr ""
+
+#: AppMenuWidget.cpp:128
+msgid "Freestyle"
+msgstr ""
+
+#: AppMenuWidget.cpp:137
+msgid "Open learning KBruch"
+msgstr ""
+
+#: AppMenuWidget.cpp:143
+msgid "Learning"
+msgstr ""
+
+#: exercisecompare.cpp:99
+msgid ">"
+msgstr ""
+
+#: exercisecompare.cpp:103
+#, fuzzy
+msgid "Click on this button to select the 'greater than' sign."
+msgstr ""
+"نقر يعمل زر إلى تغيير يوقّع\n"
+"رمز\n"
+"إشارة."
+
+#: exercisecompare.cpp:108
+msgid "<"
+msgstr ""
+
+#: exercisecompare.cpp:112
+#, fuzzy
+msgid "Click on this button to select the 'less than' sign."
+msgstr "نقر يعمل زر إلى get إلى التالي المهمة."
+
+#: exercisecompare.cpp:117
+msgid "="
+msgstr ""
+
+#: exercisecompare.cpp:121
+#, fuzzy
+msgid "Click on this button to select the 'equals' sign."
+msgstr "نقر يعمل زر إلى get إلى التالي المهمة."
+
+#: exercisecompare.cpp:133 exercisecompare.cpp:300 exerciseconvert.cpp:151
+#: exercisefactorize.cpp:181 exercisepercentage.cpp:133 taskview.cpp:170
+msgid "&Skip"
+msgstr ""
+
+#: exercisecompare.cpp:134 exerciseconvert.cpp:152 exercisefactorize.cpp:182
+#: exercisepercentage.cpp:134
+#, fuzzy
+msgid "Click on this button to skip this question."
+msgstr "نقر يعمل زر إلى تفقّد نتيجو."
+
+#: exercisecompare.cpp:149
+#, fuzzy
+msgid "In this exercise you have to compare two given fractions."
+msgstr "داخل إلى مقارنة."
+
+#: exercisecompare.cpp:150
+#, fuzzy
+msgid ""
+"In this exercise you have to compare two given fractions and choose the "
+"correct comparison sign."
+msgstr "داخل إلى مقارنة."
+
+#: exercisecompare.cpp:265 exercisecompare.cpp:266 exercisecompare.cpp:267
+#, fuzzy
+msgid "Click on this button to check your result."
+msgstr "نقر يعمل زر إلى تفقّد نتيجو."
+
+#: exercisecompare.cpp:315 exercisecompare.cpp:329 exercisecompare.cpp:343
+#, fuzzy
+msgid "&Next"
+msgstr "&جديد"
+
+#: exerciseconvert.cpp:105 taskview.cpp:124
+msgid "Enter the numerator of your result"
+msgstr "أدخل بسط الكسر لنتيجتك"
+
+#: exerciseconvert.cpp:123 taskview.cpp:142
+msgid "Enter the denominator of your result"
+msgstr "أدخل مقام الكسر لنتيجتك"
+
+#: exerciseconvert.cpp:141 exerciseconvert.cpp:191 exerciseconvert.cpp:432
+#: exercisefactorize.cpp:190 exercisefactorize.cpp:296
+#: exercisefactorize.cpp:517 exercisepercentage.cpp:123
+#: exercisepercentage.cpp:177 exercisepercentage.cpp:407 taskview.cpp:160
+#: taskview.cpp:268 taskview.cpp:482
+#, fuzzy
+#| msgid "&Check Task"
+msgid "&Check"
+msgstr "&تحقَق من المهمة"
+
+#: exerciseconvert.cpp:143 exerciseconvert.cpp:393 exercisefactorize.cpp:191
+#: exercisefactorize.cpp:419 exercisepercentage.cpp:125
+#: exercisepercentage.cpp:370
+#, fuzzy
+msgid ""
+"Click on this button to check your result. The button will not work if you "
+"have not entered a result yet."
+msgstr "نقر يعمل زر إلى تفقّد نتيجو الـ زر ليس IF ليس a نتيجو."
+
+#: exerciseconvert.cpp:162
+#, fuzzy
+msgid "In this exercise you have to convert a number into a fraction."
+msgstr "داخل إلى تحويل a رقم a."
+
+#: exerciseconvert.cpp:163
+#, fuzzy
+msgid ""
+"In this exercise you have to convert a given number into a fraction by "
+"entering a numerator and denominator. Do not forget to reduce the result."
+msgstr "داخل إلى تحويل a رقم a أداء و تنفيذ ليس إلى نقص نتيجو."
+
+#: exerciseconvert.cpp:329 exercisefactorize.cpp:365
+#: exercisepercentage.cpp:336
+#, fuzzy
+msgid "Click on this button to get to the next question."
+msgstr "نقر يعمل زر إلى get إلى التالي المهمة."
+
+#: exerciseconvert.cpp:376
+#, fuzzy
+msgid ""
+"You entered a 0 as the denominator. This means division by zero, which is "
+"not allowed. This question will be counted as not correctly solved."
+msgstr ""
+"أنت a هذا قسمة أداء يضع أصفارا\n"
+"صفر هو ليس المسموح لهم هذا المهمة ليس."
+
+#: exerciseconvert.cpp:382
+#, fuzzy
+#| msgid ""
+#| "You entered the correct result, but not reduced.\n"
+#| "Always enter your results as reduced. This task will be counted as not "
+#| "correctly solved."
+msgid ""
+"You entered the correct result, but not reduced.\n"
+"Always enter your results as reduced. This question will be counted as not "
+"correctly solved."
+msgstr ""
+"لقد أدخلت نتيجة صحيحة لكنها ليست مخفضة.\n"
+"قم دائما بإدخال نتائجك كمخفَضة. سيتم عدَ هذه المهمة كحلّ خاطئ."
+
+#: exerciseconvert.cpp:428 exercisefactorize.cpp:513
+#: exercisepercentage.cpp:403 taskview.cpp:478
+#, fuzzy
+#| msgid "N&ext Task"
+msgid "N&ext"
+msgstr "المهمّة ال&تالية"
+
+#: exercisefactorize.cpp:174
+msgid "Backspace"
+msgstr ""
+
+#: exercisefactorize.cpp:218
+#, fuzzy
+msgid "2"
+msgstr "2"
+
+#: exercisefactorize.cpp:219
+#, fuzzy
+msgid "3"
+msgstr "3"
+
+#: exercisefactorize.cpp:220
+#, fuzzy
+msgid "5"
+msgstr "5"
+
+#: exercisefactorize.cpp:221
+#, fuzzy
+msgid "7"
+msgstr "7"
+
+#: exercisefactorize.cpp:222
+#, fuzzy
+msgid "11"
+msgstr "١١"
+
+#: exercisefactorize.cpp:223
+msgid "13"
+msgstr ""
+
+#: exercisefactorize.cpp:224
+msgid "17"
+msgstr ""
+
+#: exercisefactorize.cpp:225
+msgid "19"
+msgstr ""
+
+#: exercisefactorize.cpp:236
+#, fuzzy
+msgid "Add prime factor 2."
+msgstr "إضافة."
+
+#: exercisefactorize.cpp:237
+#, fuzzy
+msgid "Add prime factor 3."
+msgstr "إضافة."
+
+#: exercisefactorize.cpp:238
+#, fuzzy
+msgid "Add prime factor 5."
+msgstr "إضافة."
+
+#: exercisefactorize.cpp:239
+#, fuzzy
+msgid "Add prime factor 7."
+msgstr "إضافة."
+
+#: exercisefactorize.cpp:240
+#, fuzzy
+msgid "Add prime factor 11."
+msgstr "إضافة."
+
+#: exercisefactorize.cpp:241
+#, fuzzy
+msgid "Add prime factor 13."
+msgstr "إضافة."
+
+#: exercisefactorize.cpp:242
+#, fuzzy
+msgid "Add prime factor 17."
+msgstr "إضافة."
+
+#: exercisefactorize.cpp:243
+#, fuzzy
+msgid "Add prime factor 19."
+msgstr "إضافة."
+
+#: exercisefactorize.cpp:248
+#, fuzzy
+msgid "Removes the last entered prime factor."
+msgstr "يزيل الأخير."
+
+#: exercisefactorize.cpp:265
+#, fuzzy
+msgid "In this exercise you have to factorize a given number."
+msgstr "داخل إلى a رقم."
+
+#: exercisefactorize.cpp:266
+#, fuzzy
+msgid ""
+"In this exercise you have to factorize a given number. You have to enter all "
+"prime factors of the number. You can add a prime factor by clicking on the "
+"corresponding button. The chosen prime factors will be shown in the input "
+"field. Do not forget to enter all prime factors, even when a prime factor "
+"repeats several times. Click the 'Backspace' button to remove the last "
+"entered prime factor."
+msgstr ""
+"داخل إلى a رقم أنت إلى أدخل الكل من رقم أنت اضف a أداء يعمل زر الـ بوصة دَخْل "
+"حقل تنفيذ ليس إلى أدخل الكل a الوقت."
+
+#: exercisepercentage.cpp:99 exercisepercentage.cpp:387
+#, kde-format
+msgctxt "%1 percentage of %2"
+msgid "%1% of %2 = "
+msgstr ""
+
+#: exercisepercentage.cpp:106
+msgid "Enter the result of percentage question"
+msgstr ""
+
+#: exercisepercentage.cpp:148
+#, fuzzy
+msgid "In this exercise you have to work with percentage questions."
+msgstr "داخل إلى a المهمة مع."
+
+#: FractionRingWidget.cpp:122 FractionRingWidget.cpp:127
+msgid "Multiply"
+msgstr ""
+
+#: FractionRingWidget.cpp:153 mainqtwidget.cpp:503
+#, fuzzy
+msgid "New"
+msgstr "&جديد"
+
+#: FractionRingWidget.cpp:206 mainqtwidget.cpp:535
+#, fuzzy
+msgctxt "@action opens a new question"
+msgid "&New"
+msgstr "&جديد"
+
+#: FractionRingWidget.cpp:212 mainqtwidget.cpp:550
+msgctxt "@action go to the main screen"
+msgid "Back"
+msgstr ""
+
+#: FractionRingWidget.cpp:217
+msgctxt "@action opens hint"
+msgid "Hint"
+msgstr ""
+
+#. i18n: file: taskcolorsbase.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: FractionRingWidget.cpp:245 mainqtwidget.cpp:804 rc.cpp:132
+#, fuzzy
+msgid "Colors"
+msgstr "الألوان"
+
+#: FractionRingWidget.cpp:373 FractionRingWidget.cpp:405
+msgid ""
+"Now the parts of the inside ring and outside ring have the same size, and we "
+"can add the fractions!\n"
+"\n"
+"This is called finding the main denominator. The main denominator divides "
+"the rings into equal parts."
+msgstr ""
+
+#: FractionRingWidget.cpp:380 FractionRingWidget.cpp:412
+msgid "There is a smaller main denominator. Can you find it?"
+msgstr ""
+
+#: FractionRingWidget.cpp:387
+#, kde-format
+msgid ""
+"You have just multiplied the first fraction by %1. Our main goal is to make "
+"all parts be the same size. Try multiplying the first fraction by %2 and the "
+"second fraction by %3."
+msgstr ""
+
+#: FractionRingWidget.cpp:419
+#, kde-format
+msgid ""
+"You have just multiplied the second fraction by %1. Our main goal is to make "
+"all parts be the same size. Try multiplying the first fraction by %2 and the "
+"second fraction by %3."
+msgstr ""
+
+#: FractionRingWidget.cpp:458
+#, kde-format
+msgctxt "Inserted as %1 in the message below."
+msgid "%2 of 1 painted part."
+msgid_plural "%2 of %1 painted parts."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: FractionRingWidget.cpp:461
+#, kde-format
+msgctxt "Inserted as %2 in the message below."
+msgid "%2 of 1 painted part."
+msgid_plural "%2 of %1 painted parts."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: FractionRingWidget.cpp:464
+#, kde-format
+msgctxt "%1 and %2 are the two messages translated above."
+msgid ""
+"The outside ring represents the left fraction. %1\n"
+"\n"
+"The inside ring represents the right fraction. %2\n"
+"\n"
+"The 'Multiply' spinboxes multiplies each fraction. Try to change one of the "
+"spinbox values!"
+msgstr ""
+
+#: kbruch.cpp:45
+#, fuzzy
+msgid "Learn calculating with fractions"
+msgstr "تعلّم حساب مع"
+
+#: kbruch.cpp:47
+#, fuzzy
+msgid "(c) 2002-2004, Sebastian Stein"
+msgstr "c سيباستيان شتاين"
+
+#: kbruch.cpp:48
+#, fuzzy
+msgid "Sebastian Stein"
+msgstr "سيباستيان شتاين"
+
+#: kbruch.cpp:48
+msgid "Original Author"
+msgstr ""
+
+#: kbruch.cpp:49
+msgid "Paulo Cattai"
+msgstr ""
+
+#: kbruch.cpp:49 kbruch.cpp:50 kbruch.cpp:51 kbruch.cpp:52 kbruch.cpp:53
+msgid "New interface design and usability improvements"
+msgstr ""
+
+#: kbruch.cpp:50
+msgid "Danilo Balzaque"
+msgstr ""
+
+#: kbruch.cpp:51
+msgid "Roberto Cunha"
+msgstr ""
+
+#: kbruch.cpp:52
+msgid "Tadeu Araujo"
+msgstr ""
+
+#: kbruch.cpp:53
+msgid "Tiago Porangaba"
+msgstr ""
+
+#: mainqtwidget.cpp:131
+#, fuzzy
+#| msgid "Operations:"
+msgid "Question:"
+msgstr "العمليات:"
+
+#: mainqtwidget.cpp:132
+msgid "Answer:"
+msgstr ""
+
+#: mainqtwidget.cpp:133 resultwidget.cpp:101
+msgid "Solution:"
+msgstr ""
+
+#: mainqtwidget.cpp:134
+msgid "Operations:"
+msgstr "العمليات:"
+
+#: mainqtwidget.cpp:140 mainqtwidget.cpp:906
+msgid "Arithmetic"
+msgstr ""
+
+#: mainqtwidget.cpp:178
+#, fuzzy
+#| msgid "Operations:"
+msgid "Options:"
+msgstr "العمليات:"
+
+#: mainqtwidget.cpp:179
+#, fuzzy
+msgid "Set the options to solve the exercises."
+msgstr "ينقذ نشط s نوع."
+
+#: mainqtwidget.cpp:180
+msgid ""
+"This part of the window shows the options to solve the exercises. Use the "
+"handle between the options and main window to change the size of this window "
+"part or to hide it by moving the handle to the left border of the main "
+"window."
+msgstr ""
+
+#: mainqtwidget.cpp:184 mainqtwidget.cpp:195 mainqtwidget.cpp:206
+msgid "Mixed number:"
+msgstr ""
+
+#: mainqtwidget.cpp:185
+msgid ""
+"Set if the fractions will appear as mixed numbers or not in the question "
+"expression (mixed number example: 1 4/5 = 9/5 )."
+msgstr ""
+
+#: mainqtwidget.cpp:196
+msgid ""
+"Set if the fractions will appear as mixed numbers or not in the answer "
+"(mixed number example: 1 4/5 = 9/5 )."
+msgstr ""
+
+#: mainqtwidget.cpp:207
+msgid ""
+"Set if the fractions will appear as mixed numbers or not in the solution "
+"(mixed number example: 1 4/5 = 9/5 )."
+msgstr ""
+
+#: mainqtwidget.cpp:217
+msgid "Addition:"
+msgstr ""
+
+#: mainqtwidget.cpp:218
+msgid "Check this to use addition operator."
+msgstr ""
+
+#: mainqtwidget.cpp:227
+#, fuzzy
+#| msgid "Addition/Subtraction"
+msgid "Subtraction:"
+msgstr "الإضافة و الطرح"
+
+#: mainqtwidget.cpp:228
+msgid "Check this to use subtraction operator."
+msgstr ""
+
+#: mainqtwidget.cpp:237
+#, fuzzy
+#| msgid "Multiplication/Division"
+msgid "Multiplication:"
+msgstr "الضرب و القسمة"
+
+#: mainqtwidget.cpp:238
+msgid "Check this to use multiplication operator."
+msgstr ""
+
+#: mainqtwidget.cpp:247
+msgid "Division:"
+msgstr ""
+
+#: mainqtwidget.cpp:248
+msgid "Check this to use division operator."
+msgstr ""
+
+#: mainqtwidget.cpp:257
+msgid "Reduced form:"
+msgstr ""
+
+#: mainqtwidget.cpp:258
+msgid "Check this to force the use of the reduced form."
+msgstr ""
+
+#: mainqtwidget.cpp:268
+#, fuzzy
+#| msgid "Number of Terms"
+msgid "Number of terms:"
+msgstr "عدد المصطلحات"
+
+#: mainqtwidget.cpp:269 mainqtwidget.cpp:279
+#, fuzzy
+msgid ""
+"The number of \n"
+"terms you want"
+msgstr "الـ رقم من"
+
+#: mainqtwidget.cpp:280
+#, fuzzy
+msgid ""
+"Choose the number of terms (2, 3, 4 or 5) you \n"
+"want for calculating fractions."
+msgstr "اختر رقم من أو لـ حساب."
+
+#: mainqtwidget.cpp:283
+#, fuzzy
+#| msgid "Max. main denominator:"
+msgid "Maximum denominator:"
+msgstr "الحد الأقصى للمقام:"
+
+#: mainqtwidget.cpp:293
+#, fuzzy
+msgid "The maximum number you can have as main denominator"
+msgstr "الـ الأقصى رقم رئيسي"
+
+#: mainqtwidget.cpp:294
+#, fuzzy
+msgid ""
+"Choose the number which will be the maximum for the main denominator: 10, "
+"20, 30, 40 or 50."
+msgstr "اختر رقم الأقصى لـ رئيسي أو."
+
+#: mainqtwidget.cpp:505
+msgid "Reset statistics and set a new task."
+msgstr ""
+
+#: mainqtwidget.cpp:510
+msgid "Back"
+msgstr ""
+
+#: mainqtwidget.cpp:512
+msgid "Go back to Modes screen."
+msgstr ""
+
+#: mainqtwidget.cpp:517
+msgid ""
+"\n"
+"\n"
+"Arithmetic"
+msgstr ""
+
+#: mainqtwidget.cpp:521
+#, fuzzy
+msgid ""
+"\n"
+"\n"
+"Comparison"
+msgstr "المقارنة"
+
+#: mainqtwidget.cpp:525
+#, fuzzy
+msgid ""
+"\n"
+"\n"
+"Conversion"
+msgstr "تحويل"
+
+#: mainqtwidget.cpp:529
+#, fuzzy
+msgid ""
+"\n"
+"\n"
+"Factorization"
+msgstr "التحليل للعوامل"
+
+#: mainqtwidget.cpp:533
+msgid ""
+"\n"
+"\n"
+"Percentage"
+msgstr ""
+
+#: mainqtwidget.cpp:540
+#, fuzzy
+msgctxt "@action opens a new question"
+msgid "New"
+msgstr "&جديد"
+
+#: mainqtwidget.cpp:545
+#, fuzzy
+#| msgid "&Task"
+msgctxt "@action go to the main screen"
+msgid "&Back"
+msgstr "&مهمة"
+
+#: mainqtwidget.cpp:555
+msgctxt "Arithmetic Exercise"
+msgid "Arithmetic"
+msgstr ""
+
+#: mainqtwidget.cpp:560
+#, fuzzy
+msgctxt "Comparison Exercise"
+msgid "Comparison"
+msgstr "المقارنة"
+
+#: mainqtwidget.cpp:565
+#, fuzzy
+msgctxt "Conversion Exercise"
+msgid "Conversion"
+msgstr "تحويل"
+
+#: mainqtwidget.cpp:570
+#, fuzzy
+msgctxt "Factorization Exercise"
+msgid "Factorization"
+msgstr "التحليل للعوامل"
+
+#: mainqtwidget.cpp:575
+msgctxt "Percentage Exercise"
+msgid "Percentage"
+msgstr ""
+
+#: mainqtwidget.cpp:807
+msgid "Fonts"
+msgstr ""
+
+#: mainqtwidget.cpp:891
+msgid "Percentage"
+msgstr ""
+
+#: mainqtwidget.cpp:921
+#, fuzzy
+msgid "Comparison"
+msgstr "المقارنة"
+
+#: mainqtwidget.cpp:936
+#, fuzzy
+msgid "Conversion"
+msgstr "تحويل"
+
+#: mainqtwidget.cpp:951
+#, fuzzy
+msgid "Factorization"
+msgstr "التحليل للعوامل"
+
+#. i18n: file: AppMenuWidgetui.rc:5
+#. i18n: ectx: Menu (file)
+#. i18n: file: FractionRingWidgetui.rc:5
+#. i18n: ectx: Menu (file)
+#. i18n: file: kbruchui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3 rc.cpp:6 rc.cpp:129
+msgid "&File"
+msgstr ""
+
+#. i18n: file: kbruch.kcfg:11
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:9
+#, fuzzy
+msgid "Active exercise."
+msgstr "نشط."
+
+#. i18n: file: kbruch.kcfg:12
+#. i18n: ectx: whatsthis, entry, group (General)
+#: rc.cpp:12
+#, fuzzy
+msgid "Saves the active exercise's type."
+msgstr "ينقذ نشط s نوع."
+
+#. i18n: file: kbruch.kcfg:19
+#. i18n: ectx: label, entry, group (Task)
+#: rc.cpp:15
+#, fuzzy
+msgid "Enable Addition"
+msgstr "مكّن جمع طرح"
+
+#. i18n: file: kbruch.kcfg:20
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: rc.cpp:18
+#, fuzzy
+msgid "Enable Addition for task generation."
+msgstr "مكّن جمع طرح لـ المهمة توليد، جيل."
+
+#. i18n: file: kbruch.kcfg:24
+#. i18n: ectx: label, entry, group (Task)
+#: rc.cpp:21
+#, fuzzy
+msgid "Enable Subtraction"
+msgstr "مكّن جمع طرح"
+
+#. i18n: file: kbruch.kcfg:25
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: rc.cpp:24
+#, fuzzy
+msgid "Enable Addition/Subtraction for task generation."
+msgstr "مكّن جمع طرح لـ المهمة توليد، جيل."
+
+#. i18n: file: kbruch.kcfg:29
+#. i18n: ectx: label, entry, group (Task)
+#: rc.cpp:27
+#, fuzzy
+msgid "Enable Division"
+msgstr "مكّن ضرب قسمة"
+
+#. i18n: file: kbruch.kcfg:30
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: rc.cpp:30
+#, fuzzy
+msgid "Enable Division for task generation."
+msgstr "مكّن ضرب قسمة لـ المهمة توليد، جيل."
+
+#. i18n: file: kbruch.kcfg:34
+#. i18n: ectx: label, entry, group (Task)
+#: rc.cpp:33
+#, fuzzy
+msgid "Enable Multiplication"
+msgstr "مكّن ضرب قسمة"
+
+#. i18n: file: kbruch.kcfg:35
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: rc.cpp:36
+#, fuzzy
+msgid "Enable Multiplication for task generation."
+msgstr "مكّن ضرب قسمة لـ المهمة توليد، جيل."
+
+#. i18n: file: kbruch.kcfg:39
+#. i18n: ectx: label, entry, group (Task)
+#: rc.cpp:39
+#, fuzzy
+msgid "Enable Multiplication/Division"
+msgstr "مكّن ضرب قسمة"
+
+#. i18n: file: kbruch.kcfg:40
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: rc.cpp:42
+#, fuzzy
+msgid "Enable Multiplication/Division for task generation."
+msgstr "مكّن ضرب قسمة لـ المهمة توليد، جيل."
+
+#. i18n: file: kbruch.kcfg:44
+#. i18n: ectx: label, entry, group (Task)
+#: rc.cpp:45
+#, fuzzy
+msgid "Number of fractions"
+msgstr "الرقم من"
+
+#. i18n: file: kbruch.kcfg:45
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: rc.cpp:48
+#, fuzzy
+msgid "Set the number of fractions for task generation."
+msgstr "ضبط رقم من لـ المهمة توليد، جيل."
+
+#. i18n: file: kbruch.kcfg:49
+#. i18n: ectx: label, entry, group (Task)
+#: rc.cpp:51
+#, fuzzy
+msgid "Max. main denominator"
+msgstr "الحد الأقصى رئيسي"
+
+#. i18n: file: kbruch.kcfg:50
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: rc.cpp:54
+#, fuzzy
+msgid "Set the maximum value of the main denominator."
+msgstr "ضبط الأقصى قيمة من رئيسي."
+
+#. i18n: file: kbruch.kcfg:54
+#. i18n: ectx: label, entry, group (Task)
+#: rc.cpp:57
+#, fuzzy
+msgid "Answer reduced fractions"
+msgstr "الرقم من"
+
+#. i18n: file: kbruch.kcfg:55
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: rc.cpp:60
+msgid "Set if the fractions need to be reduced."
+msgstr ""
+
+#. i18n: file: kbruch.kcfg:59
+#. i18n: ectx: label, entry, group (Task)
+#. i18n: file: kbruch.kcfg:64
+#. i18n: ectx: label, entry, group (Task)
+#. i18n: file: kbruch.kcfg:69
+#. i18n: ectx: label, entry, group (Task)
+#: rc.cpp:63 rc.cpp:69 rc.cpp:75
+msgid "Mixed number"
+msgstr ""
+
+#. i18n: file: kbruch.kcfg:60
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: rc.cpp:66
+msgid "Set if the fractions will appear in mixed form or not on solution."
+msgstr ""
+
+#. i18n: file: kbruch.kcfg:65
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: rc.cpp:72
+msgid ""
+"Set if the fractions will need answers in mixed form or not on solution."
+msgstr ""
+
+#. i18n: file: kbruch.kcfg:70
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: rc.cpp:78
+msgid "Set if the fractions will appear in mixed form or not in questions."
+msgstr ""
+
+#. i18n: file: kbruch.kcfg:77
+#. i18n: ectx: label, entry, group (Statistics)
+#. i18n: file: kbruch.kcfg:78
+#. i18n: ectx: whatsthis, entry, group (Statistics)
+#: rc.cpp:81 rc.cpp:84
+#, fuzzy
+msgid "Number of correctly solved tasks"
+msgstr "الرقم من"
+
+#. i18n: file: kbruch.kcfg:82
+#. i18n: ectx: label, entry, group (Statistics)
+#: rc.cpp:87
+#, fuzzy
+msgid "Number of solved tasks"
+msgstr "الرقم من"
+
+#. i18n: file: kbruch.kcfg:83
+#. i18n: ectx: whatsthis, entry, group (Statistics)
+#: rc.cpp:90
+#, fuzzy
+msgid "Total number of solved tasks"
+msgstr "المجموع رقم من"
+
+#. i18n: file: kbruch.kcfg:87
+#. i18n: ectx: label, entry, group (Statistics)
+#. i18n: file: kbruch.kcfg:88
+#. i18n: ectx: whatsthis, entry, group (Statistics)
+#: rc.cpp:93 rc.cpp:96
+#, fuzzy
+msgid "Number of skipped tasks"
+msgstr "الرقم من"
+
+#. i18n: file: kbruch.kcfg:95
+#. i18n: ectx: label, entry (numberColor), group (TaskViewer)
+#. i18n: file: kbruch.kcfg:96
+#. i18n: ectx: whatsthis, entry (numberColor), group (TaskViewer)
+#: rc.cpp:99 rc.cpp:102
+#, fuzzy
+msgid "Color of the numbers in the task view"
+msgstr "اللون من بوصة المهمة اعرض"
+
+#. i18n: file: kbruch.kcfg:100
+#. i18n: ectx: label, entry (operationColor), group (TaskViewer)
+#. i18n: file: kbruch.kcfg:101
+#. i18n: ectx: whatsthis, entry (operationColor), group (TaskViewer)
+#: rc.cpp:105 rc.cpp:108
+#, fuzzy
+msgid "Color of the operation signs in the task view"
+msgstr "اللون من عملية بوصة المهمة اعرض"
+
+#. i18n: file: kbruch.kcfg:105
+#. i18n: ectx: label, entry (fractionBarColor), group (TaskViewer)
+#. i18n: file: kbruch.kcfg:106
+#. i18n: ectx: whatsthis, entry (fractionBarColor), group (TaskViewer)
+#: rc.cpp:111 rc.cpp:114
+#, fuzzy
+msgid "Color of the fraction bars in the task view"
+msgstr "اللون من بوصة المهمة اعرض"
+
+#. i18n: file: kbruch.kcfg:110
+#. i18n: ectx: label, entry, group (TaskViewer)
+#. i18n: file: kbruch.kcfg:111
+#. i18n: ectx: whatsthis, entry, group (TaskViewer)
+#: rc.cpp:117 rc.cpp:120
+#, fuzzy
+msgid "Font used for the task view"
+msgstr "الخط مُستخدَم لـ المهمة اعرض"
+
+#. i18n: file: kbruch.kcfg:115
+#. i18n: ectx: label, entry, group (TaskViewer)
+#: rc.cpp:123
+#, fuzzy
+msgid "Enable showing the result also as a mixed number"
+msgstr "مكّن نتيجو a رقم"
+
+#. i18n: file: kbruch.kcfg:116
+#. i18n: ectx: whatsthis, entry, group (TaskViewer)
+#: rc.cpp:126
+#, fuzzy
+msgid ""
+"Enables/disables showing the result also in the special mixed-number "
+"notation."
+msgstr "يمكّن نتيجو بوصة رقم تدوين."
+
+#. i18n: file: taskcolorsbase.ui:28
+#. i18n: ectx: property (text), widget (QLabel, numberLabel)
+#: rc.cpp:135
+#, fuzzy
+msgid "&Number:"
+msgstr "ال&رقم:"
+
+#. i18n: file: taskcolorsbase.ui:38
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_numberColor)
+#: rc.cpp:138
+#, fuzzy
+msgid "Change the color of the numbers"
+msgstr "غيّر اللّون من"
+
+#. i18n: file: taskcolorsbase.ui:54
+#. i18n: ectx: property (text), widget (QLabel, operationLabel)
+#: rc.cpp:141
+#, fuzzy
+msgid "&Operation sign:"
+msgstr ""
+"العملية يوقّع\n"
+"رمز\n"
+"إشارة:"
+
+#. i18n: file: taskcolorsbase.ui:70
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_operationColor)
+#: rc.cpp:144
+#, fuzzy
+msgid "Change the color of the operation signs"
+msgstr "غيّر اللّون من عملية"
+
+#. i18n: file: taskcolorsbase.ui:86
+#. i18n: ectx: property (text), widget (QLabel, fractionBarLabel)
+#: rc.cpp:147
+#, fuzzy
+msgid "&Fraction bar:"
+msgstr "جزء شريط:"
+
+#. i18n: file: taskcolorsbase.ui:96
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_fractionBarColor)
+#: rc.cpp:150
+#, fuzzy
+msgid "Change the color of the fraction bar"
+msgstr "غيّر اللّون من شريط"
+
+#. i18n: file: taskfontsbase.ui:16
+#. i18n: ectx: property (toolTip), widget (KFontChooser, kcfg_taskFont)
+#: rc.cpp:153
+#, fuzzy
+msgid "Change the font of the numbers"
+msgstr "غيّر الخط من"
+
+#: rc.cpp:154
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "أحمد محمد زواوي"
+
+#: rc.cpp:155
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "azawawi@emirates.net.ae"
+
+#: resultwidget.cpp:140
+#, fuzzy
+#| msgid "Correct:"
+msgid "Correct!"
+msgstr "صحيح:"
+
+#: resultwidget.cpp:147 resultwidget.cpp:154
+#, fuzzy
+#| msgid "Incorrect:"
+msgid "Incorrect!"
+msgstr "خاطئ:"
+
+#: resultwidget.cpp:244
+msgid " or "
+msgstr ""
+
+#: statisticsview.cpp:74
+msgid "This is the current total number of solved tasks."
+msgstr "هذا هو العدد الكلي الحالي من المهام المحلولة."
+
+#: statisticsview.cpp:80
+#, fuzzy
+#| msgid "Operations:"
+msgid "Questions:"
+msgstr "العمليات:"
+
+#: statisticsview.cpp:86
+#, fuzzy
+#| msgid "Correct:"
+msgctxt "@info:status the number of correct answers"
+msgid "Correct:"
+msgstr "صحيح:"
+
+#: statisticsview.cpp:92
+#, fuzzy
+#| msgid "Incorrect:"
+msgctxt "@info:status the number of incorrect answers"
+msgid "Incorrect:"
+msgstr "خاطئ:"
+
+#: statisticsview.cpp:98
+msgctxt "@info:status the number of skipped answers"
+msgid "Skipped:"
+msgstr ""
+
+#: statisticsview.cpp:109
+msgid "This is the current total number of correctly solved tasks."
+msgstr "هذا العدد الكلي الحالي من المهام المحلولة الصحيحة."
+
+#: statisticsview.cpp:115
+msgid "This is the current total number of unsolved tasks."
+msgstr "هذا العدد الكلي الحالي من المهام غير المحلولة."
+
+#: statisticsview.cpp:121
+#, fuzzy
+#| msgid "This is the current total number of solved tasks."
+msgid "This is the current total number of skipped tasks."
+msgstr "هذا هو العدد الكلي الحالي من المهام المحلولة."
+
+#: statisticsview.cpp:124
+#, fuzzy
+msgid "This part of the window shows the statistics."
+msgstr "هذا جزء من نافذة إحصائيات."
+
+#: statisticsview.cpp:125
+#, fuzzy
+msgid ""
+"This part of the window shows the statistics.  Each exercise you do is "
+"counted. You can reset the statistics by clicking on the 'New' button in the "
+"toolbar or by selecting 'New' from the 'File' menu"
+msgstr ""
+"هذا جزء من نافذة إحصائيات كل هو أنت أعد الضبط إحصائيات أداء يعمل زر أسفل "
+"أيضًا IF ليس إلى إحصائيات استخدام عمودي شريط يعمل يسار إلى نقص حجم من نافذة "
+"جزء."
+
+#: taskview.cpp:111
+#, fuzzy
+msgid "Enter the integer part of the fraction"
+msgstr "غيّر اللّون من شريط"
+
+#: taskview.cpp:162 taskview.cpp:422
+#, fuzzy
+msgid ""
+"Click this button to check your result. The button will not work if you have "
+"not entered a result yet."
+msgstr "نقر يعمل زر إلى تفقّد نتيجو الـ زر ليس IF ليس a نتيجو."
+
+#: taskview.cpp:171
+#, fuzzy
+msgid "Click this button to skip this question."
+msgstr "نقر يعمل زر إلى تفقّد نتيجو."
+
+#: taskview.cpp:184
+#, fuzzy
+msgid "In this exercise you have to solve a given question with fractions."
+msgstr "داخل إلى a المهمة مع."
+
+#: taskview.cpp:185
+#, fuzzy
+msgid ""
+"In this exercise you have to solve the generated question. You have to enter "
+"the integer part of the fraction and the numerator and the denominator. You "
+"can adjust the difficulty of the question in the options window part. Do not "
+"forget to reduce the result, if the use of the reduced form is forced."
+msgstr ""
+"داخل إلى المهمة أنت إلى أدخل و أنت تسوية من المهمة مع بوصة شريط الأدوات "
+"تنفيذ ليس إلى نقص نتيجو."
+
+#: taskview.cpp:302
+#, fuzzy
+msgid "Click this button to get the next question."
+msgstr "نقر يعمل زر إلى get إلى التالي المهمة."
+
+#: taskview.cpp:395
+#, fuzzy
+msgid ""
+"You entered 0 as the denominator. This means division by zero, which is not "
+"allowed. This question will be counted as not correctly solved."
+msgstr ""
+"أنت a هذا قسمة أداء يضع أصفارا\n"
+"صفر هو ليس المسموح لهم هذا المهمة ليس."
+
+#: taskview.cpp:402
+#, fuzzy
+#| msgid ""
+#| "You entered the correct result, but not reduced.\n"
+#| "Always enter your results as reduced. This task will be counted as not "
+#| "correctly solved."
+msgid ""
+"You entered the correct result, but not reduced. This question will be "
+"counted as not correctly solved."
+msgstr ""
+"لقد أدخلت نتيجة صحيحة لكنها ليست مخفضة.\n"
+"قم دائما بإدخال نتائجك كمخفَضة. سيتم عدَ هذه المهمة كحلّ خاطئ."
+
+#: taskview.cpp:405
+#, fuzzy
+#| msgid ""
+#| "You entered the correct result, but not reduced.\n"
+#| "Always enter your results as reduced. This task will be counted as not "
+#| "correctly solved."
+msgid ""
+"You entered the correct result, but not in the mixed number notation. This "
+"question will be counted as not correctly solved."
+msgstr ""
+"لقد أدخلت نتيجة صحيحة لكنها ليست مخفضة.\n"
+"قم دائما بإدخال نتائجك كمخفَضة. سيتم عدَ هذه المهمة كحلّ خاطئ."
+
+#: taskwidget.cpp:119
+#, fuzzy
+msgctxt "division symbol"
+msgid "/"
+msgstr "/"
+
+#: kbruch.h:34
+msgid "KBruch"
+msgstr "برنامج KBruch"
+
+#, fuzzy
+#~| msgid ""
+#~| "You entered the correct result, but not reduced.\n"
+#~| "Always enter your results as reduced. This task will be counted as not "
+#~| "correctly solved."
+#~ msgid ""
+#~ "You entered the correct result, but not reduced.\n"
+#~ "Enter your results as reduced, if the use of this form is forced in the "
+#~ "options. This question will be counted as not correctly solved."
+#~ msgstr ""
+#~ "لقد أدخلت نتيجة صحيحة لكنها ليست مخفضة.\n"
+#~ "قم دائما بإدخال نتائجك كمخفَضة. سيتم عدَ هذه المهمة كحلّ خاطئ."
+
+#, fuzzy
+#~ msgid "Click on this button to select the minor sign."
+#~ msgstr ""
+#~ "نقر يعمل زر إلى تغيير يوقّع\n"
+#~ "رمز\n"
+#~ "إشارة."
+
+#, fuzzy
+#~ msgid ""
+#~ "In this exercise you have to compare 2 given fractions by choosing the "
+#~ "correct comparison sign. You can change the comparison sign by just "
+#~ "clicking on the button showing the sign."
+#~ msgstr ""
+#~ "داخل إلى مقارنة أداء صح يوقّع\n"
+#~ "رمز\n"
+#~ "إشارة أنت تغيير يوقّع\n"
+#~ "رمز\n"
+#~ "إشارة أداء يعمل زر يوقّع\n"
+#~ "رمز\n"
+#~ "إشارة."
+
+#, fuzzy
+#~| msgid "CORRECT"
+#~ msgctxt "@info:status the given answer was correct"
+#~ msgid "CORRECT"
+#~ msgstr "صحيح"
+
+#, fuzzy
+#~| msgid "WRONG"
+#~ msgctxt "@info:status the given answer was incorrect"
+#~ msgid "WRONG"
+#~ msgstr "الخطأ"
+
+#, fuzzy
+#~| msgid "CORRECT"
+#~ msgctxt "@info:status the answer given was correct"
+#~ msgid "CORRECT"
+#~ msgstr "صحيح"
+
+#, fuzzy
+#~| msgid "WRONG"
+#~ msgctxt "@info:status the answer given was incorrect"
+#~ msgid "WRONG"
+#~ msgstr "الخطأ"
+
+#, fuzzy
+#~ msgid "&Remove Last Factor"
+#~ msgstr "احذف الأخير العامل"
+
+#, fuzzy
+#~ msgid "Choose another exercise by clicking on an icon."
+#~ msgstr "اختر أداء يعمل أيقونة."
+
+#, fuzzy
+#~ msgid ""
+#~ "Click on the different icons to choose another exercise. The exercises "
+#~ "help you to practice different aspects of calculating with fractions."
+#~ msgstr "نقر يعمل مختلف أيقونات إلى اختيار الـ مساعدة إلى مختلف من حساب مع."
+
+#, fuzzy
+#~ msgid "Fraction Task"
+#~ msgstr "جزء مهمَّة"
+
+#~ msgid "Terms:"
+#~ msgstr "مصطلحات:"
+
+#~ msgid "Maximal Main Denominator"
+#~ msgstr "أعلى حد لمقام الكسر"
+
+#~ msgid "All Operations Mixed"
+#~ msgstr "كل العمليات المختلطة"
+
+#, fuzzy
+#~ msgid "The operations you want"
+#~ msgstr "الـ عمليات"
+
+#, fuzzy
+#~ msgid ""
+#~ "Choose the type of operations you want for calculating fractions: "
+#~ "Addition/Substraction, Multiplication/Division or All Operations Mixed. "
+#~ "If you choose All Operations Mixed, the program will randomly choose "
+#~ "addition, substraction, multiplication and/or division."
+#~ msgstr ""
+#~ "اختر نوع من عمليات لـ حساب جمع الطّرح ضرب قسمة أو الكل عمليات مختلط إذا "
+#~ "اختيار الكل عمليات مختلط برنامج اختيار و أو قسمة."
+
+#, fuzzy
+#~ msgid "General"
+#~ msgstr "عام"
+
+#, fuzzy
+#~ msgid "Main Toolbar"
+#~ msgstr "شريط الأدوات الرئيسي"
+
+#, fuzzy
+#~ msgid ""
+#~ "Here you can enable/disable showing the result in mixed-number notation."
+#~ msgstr "هنا تمكين تعطيل نتيجو بوصة رقم تدوين."
+
+#, fuzzy
+#~ msgid "&Show result also as a mixed number, like 1 2/3."
+#~ msgstr "اعرض نتيجو a رقم مثل."
+
+#~ msgid "Tasks so far:"
+#~ msgstr "المهمات لحد الآن:"
+
+#~ msgid "&Reset"
+#~ msgstr "إ&عادة تعيين"
+
+#~ msgid "Press the button to reset the statistics."
+#~ msgstr "اضغط على الزر لإعادة تعيين الإحصائيات."
+
+#, fuzzy
+#~ msgid "Task Viewer"
+#~ msgstr "مهمَّة المستعرض"

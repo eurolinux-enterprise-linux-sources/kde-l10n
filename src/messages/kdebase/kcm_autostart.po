@@ -1,0 +1,150 @@
+# translation of kcm_autostart.po to Arabic
+# translation of kcm_autostart.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# محمد ابراهيم الحرقان <malham1@hotmail.com>, 2008.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_autostart\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-09-16 15:27+0200\n"
+"PO-Revision-Date: 2008-12-20 20:57+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: addscriptdialog.cpp:36
+msgid "Shell script:"
+msgstr "برنامج نصي:"
+
+#: addscriptdialog.cpp:40
+msgid "Create as symlink"
+msgstr "أنشء كارتباط  رمزي "
+
+#: advanceddialog.cpp:32
+msgid "Autostart only in KDE"
+msgstr "شغله تلقائياً في الكيدي فقط"
+
+#: autostart.cpp:61
+msgid "Name"
+msgstr "الاسم"
+
+#: autostart.cpp:61
+msgid "Command"
+msgstr "الأمر "
+
+#: autostart.cpp:61
+msgid "Status"
+msgstr "الحالة"
+
+#: autostart.cpp:61
+msgctxt ""
+"@title:column The name of the column that decides if the program is run on "
+"kde startup, on kde shutdown, etc"
+msgid "Run On"
+msgstr "شغل عند"
+
+#: autostart.cpp:76
+msgid "KDE Autostart Manager"
+msgstr "مدير كدي للتشغيل التلقائي"
+
+#: autostart.cpp:77
+msgid "KDE Autostart Manager Control Panel Module"
+msgstr "وحدة مدير التشغيل التلقائي في الكيدي"
+
+#: autostart.cpp:79
+msgid "(c) 2006-2007-2008 Autostart Manager team"
+msgstr "(c) 2006-2007-2008 فريق مدير بدء التشغيل التلقائي"
+
+#: autostart.cpp:80
+msgid "Stephen Leaf"
+msgstr "Stephen Leaf"
+
+#: autostart.cpp:81
+msgid "Montel Laurent"
+msgstr "Montel Laurent"
+
+#: autostart.cpp:81
+msgid "Maintainer"
+msgstr "المشرف على المشروع"
+
+#: autostart.cpp:111 autostart.cpp:125
+msgctxt "The program won't be run"
+msgid "Disabled"
+msgstr "عطل"
+
+#: autostart.cpp:113 autostart.cpp:125 autostartitem.cpp:72
+msgctxt "The program will be run"
+msgid "Enabled"
+msgstr "مكّن"
+
+#: autostart.cpp:150
+msgid "Startup"
+msgstr "بدء التشغيل"
+
+#: autostart.cpp:151
+msgid "Shutdown"
+msgstr "أطفء"
+
+#: autostart.cpp:152
+msgid "Pre-KDE startup"
+msgstr "تشغيل قبل الكيدي"
+
+#: autostart.cpp:157
+msgid "Desktop File"
+msgstr "ملف سطح المكتب"
+
+#: autostart.cpp:164
+msgid "Script File"
+msgstr "ملف سكربت"
+
+#: autostart.cpp:382
+msgid "KDE only reads files with sh extensions for setting up the environment."
+msgstr "كدي تقرأ فقط الملفات ذات الامتداد sh لإعداد بيئة كدي"
+
+#. i18n: file: autostartconfig.ui:26
+#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
+#: rc.cpp:3 rc.cpp:20
+msgid "Add Program..."
+msgstr "اضف برنامج..."
+
+#. i18n: file: autostartconfig.ui:33
+#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
+#: rc.cpp:6 rc.cpp:23
+msgid "Add Script..."
+msgstr "اضف سكربت..."
+
+#. i18n: file: autostartconfig.ui:40
+#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
+#: rc.cpp:9 rc.cpp:26
+msgid "&Remove"
+msgstr "أز&ل"
+
+#. i18n: file: autostartconfig.ui:47
+#. i18n: ectx: property (text), widget (QPushButton, btnProperties)
+#: rc.cpp:12 rc.cpp:29
+msgid "&Properties"
+msgstr "&خصائص"
+
+#. i18n: file: autostartconfig.ui:74
+#. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
+#: rc.cpp:15 rc.cpp:32
+msgid "Advanced"
+msgstr "متقدم"
+
+#: rc.cpp:16
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#: rc.cpp:17
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"

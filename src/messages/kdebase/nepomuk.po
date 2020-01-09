@@ -1,0 +1,471 @@
+# translation of nepomuk.po to Arabic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# zayed <zayed.alsaidi@gmail.com>, 2008, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: nepomuk\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-10-22 01:22+0200\n"
+"PO-Revision-Date: 2009-07-08 14:29+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: kcm/folderselectionmodel.cpp:108
+#, kde-format
+msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+msgid "<filename>%1</filename><nl/>(will be indexed for desktop search)"
+msgstr "<filename>%1</filename><nl/>(سيتم فهرسته للبحث من سطح المكتب)"
+
+#: kcm/folderselectionmodel.cpp:112
+#, kde-format
+msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+msgid ""
+"<filename>%1</filename><nl/> (will <emphasis>not</emphasis> be indexed for "
+"desktop search)"
+msgstr ""
+"<filename>%1</filename><nl/> (<emphasis> لن</emphasis>يتم أرشفته للبحث من  "
+"سطح المكتب)"
+
+#: kcm/nepomukserverkcm.cpp:88
+msgid "Nepomuk Configuration Module"
+msgstr "وحدة ضبط نبومك"
+
+#: kcm/nepomukserverkcm.cpp:90
+msgid "Copyright 2007 Sebastian Trüg"
+msgstr "Copyright 2007 Sebastian Trüg"
+
+#: kcm/nepomukserverkcm.cpp:91 server/main.cpp:96 servicestub/main.cpp:74
+msgid "Sebastian Trüg"
+msgstr "Sebastian Trüg"
+
+#: kcm/nepomukserverkcm.cpp:139
+msgid "No Soprano Database backend available. Please check your installation."
+msgstr "لا توجد قاعدة بيانات سوبرانو خلفية. رجاء تحقق من حالة التثبيت "
+
+#: kcm/nepomukserverkcm.cpp:140
+msgid "Nepomuk cannot be started"
+msgstr "تعذر بدء نبومك"
+
+#: kcm/nepomukserverkcm.cpp:148
+msgid ""
+"The Nepomuk Server is not running. The settings will be used the next time "
+"the server is started."
+msgstr ""
+"خادم نبومك لا يعمل. الإعدادات سيتم استخدامها المرة القادمة يبدأ فيها الخادم."
+
+#: kcm/nepomukserverkcm.cpp:150 kcm/nepomukserverkcm.cpp:219
+msgid "Nepomuk server not running"
+msgstr "خادم نبومك لا يعمل"
+
+#: kcm/nepomukserverkcm.cpp:217
+msgid ""
+"The Nepomuk Server is not running. The settings have been saved and will be "
+"used the next time the server is started."
+msgstr "خادم نبومك لا يعمل. الإعدادات المحفوظة سيتم استخدامها المرة القادمة"
+
+#: kcm/nepomukserverkcm.cpp:246
+#, kde-format
+msgctxt "@info:status %1 is an error message returned by a dbus interface."
+msgid "Failed to contact Strigi indexer (%1)"
+msgstr "تعذر الاتصال بمفهرس سراتجي (%1)"
+
+#: kcm/nepomukserverkcm.cpp:256
+#, fuzzy
+#| msgctxt "@info_status"
+#| msgid ""
+#| "Strigi service failed to initialize, most likely due to an installation "
+#| "problem."
+msgctxt "@info:status"
+msgid ""
+"Strigi service failed to initialize, most likely due to an installation "
+"problem."
+msgstr "فشلت خدمة سراتجي في البدء ، أغلب الظن وجود مشكلة في التثبيت."
+
+#: kcm/nepomukserverkcm.cpp:260
+#, fuzzy
+#| msgctxt "@info_status"
+#| msgid "Strigi service not running."
+msgctxt "@info:status"
+msgid "Strigi service not running."
+msgstr "خدمة سراتجي لا تعمل"
+
+#: libnepomukquery/queryparser.cpp:145
+msgctxt ""
+"Boolean AND keyword in desktop search strings. You can add several variants "
+"separated by spaces, e.g. retain the English one alongside the translation; "
+"keywords are not case sensitive. Make sure there is no conflict with the OR "
+"keyword."
+msgid "and"
+msgstr "و"
+
+#: libnepomukquery/queryparser.cpp:149
+msgctxt ""
+"Boolean OR keyword in desktop search strings. You can add several variants "
+"separated by spaces, e.g. retain the English one alongside the translation; "
+"keywords are not case sensitive. Make sure there is no conflict with the AND "
+"keyword."
+msgid "or"
+msgstr "أو"
+
+#: kioslaves/search/kio_nepomuksearch.cpp:76
+msgid "All Music Files"
+msgstr "كل ملفات الموسيقى"
+
+#: kioslaves/search/kio_nepomuksearch.cpp:79
+msgid "Recent Files"
+msgstr "الملفات الأخيرة"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:13
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:5
+msgid "Basic Settings"
+msgstr "الإعدادات الأولية"
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:8
+msgid "Nepomuk Semantic Desktop"
+msgstr "سطح مكتب نبومك الإجتماعي"
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:25
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:11
+msgid ""
+"Nepomuk Semantic Desktop enables tagging and rating of files integrated with "
+"the Desktop Search."
+msgstr ""
+"يمكنك سطح مكتب نبومك الإجتماعي أن تنشئ الوسوم و التقيمات للملفات التي تبحث "
+"عنها عن طريق سطح المكتب."
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableNepomuk)
+#: rc.cpp:14
+msgid "Enable Nepomuk Semantic Desktop"
+msgstr "فعل سطح مكتب نبومك الإجتماعي"
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:45
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:17
+msgid "Strigi Desktop File Indexer"
+msgstr "سراتجي مفهرس ملفات سطح المكتب"
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:51
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:20
+msgid ""
+"Strigi desktop search allows searching for files by content instead of just "
+"by name."
+msgstr ""
+"بحث سراتجي لسطح المكتب يمكنك من البحث عن الملفات طبقا لمحتوياتها بدلا من "
+"البحث بالاسم فقط."
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:61
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableStrigi)
+#: rc.cpp:23
+msgid "Enable Strigi Desktop File Indexer"
+msgstr "فعل سراتجي مفهرس ملفات سطح المكتب"
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:125
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:27
+msgid "Advanced Settings"
+msgstr "إعدادات متقدمة"
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:131
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:30
+msgid "Strigi Index Folders"
+msgstr "مجلدات فهارس سراتجي"
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:137
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:33
+msgid ""
+"Select the local folders that contain files to be indexed for fast desktop "
+"searches"
+msgstr ""
+"اختر المجلدات المحلية التي تحوي الملفات المراد فهرستها للبحث السريع لسطح "
+"المكتب"
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:150
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkShowHiddenFolders)
+#: rc.cpp:36
+msgid "Check to be able to select hidden folders"
+msgstr "اختر لتتمكن من اختيار المجلدات المخفية"
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:153
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkShowHiddenFolders)
+#: rc.cpp:39
+msgid "Show hidden folders"
+msgstr "أظهر المجلدات المخفية"
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:163
+#. i18n: ectx: property (toolTip), widget (KEditListBox, m_editStrigiExcludeFilters)
+#: rc.cpp:42
+msgid "Filters which define the files that Strigi should ignore"
+msgstr "مرشحات تحدد أي من الملفات التي يجب على سراتجي تجاهلها"
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:169
+#. i18n: ectx: property (title), widget (KEditListBox, m_editStrigiExcludeFilters)
+#: rc.cpp:45
+msgid "Strigi Index Exclude Filters"
+msgstr "مرشحات استثناء فهرسة سراتجي"
+
+#. i18n: file: services/strigi/statuswidget.ui:9
+#. i18n: ectx: property (text), widget (KTitleWidget, m_title)
+#: rc.cpp:48
+msgid "Nepomuk Strigi File Indexing"
+msgstr "مفهرس سراتجي لملفات نبومك"
+
+#. i18n: file: services/strigi/statuswidget.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:51
+msgid "Strigi Indexing State"
+msgstr "حالة فهرسة سراتجي"
+
+#. i18n: file: services/strigi/statuswidget.ui:28
+#. i18n: ectx: property (text), widget (KSqueezedTextLabel, m_labelStrigiState)
+#: rc.cpp:54
+msgid "KSqueezedTextLabel"
+msgstr "KSqueezedTextLabel"
+
+#. i18n: file: services/strigi/statuswidget.ui:38
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:57
+msgid "Nepomuk Storage State"
+msgstr "حالة تخزين نبومك"
+
+#. i18n: file: services/strigi/statuswidget.ui:44
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:60
+msgid "Indexed files:"
+msgstr "الملفات المفهرسة:"
+
+#. i18n: file: services/strigi/statuswidget.ui:57
+#. i18n: ectx: property (text), widget (QLabel, m_labelFileCount)
+#. i18n: file: services/strigi/statuswidget.ui:77
+#. i18n: ectx: property (text), widget (QLabel, m_labelStoreSize)
+#: rc.cpp:63 rc.cpp:69
+msgid "Calculating..."
+msgstr "يحسب..."
+
+#. i18n: file: services/strigi/statuswidget.ui:64
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:66
+msgid "Nepomuk store size:"
+msgstr "حجم نبومك التخزيني:"
+
+#: server/main.cpp:89
+msgid "Nepomuk Server"
+msgstr "خادم نبومك"
+
+#: server/main.cpp:91
+msgid "Nepomuk Server - Manages Nepomuk storage and services"
+msgstr "خادم نبومك - يقوم بإدارة التخزين ملفات نبومك و الخدمات"
+
+#: server/main.cpp:93 servicestub/main.cpp:71
+msgid "(c) 2008, Sebastian Trüg"
+msgstr "(c) 2008, Sebastian Trüg"
+
+#: server/main.cpp:96 servicestub/main.cpp:74
+msgid "Maintainer"
+msgstr "المشرف"
+
+#: services/storage/repository.cpp:274
+msgctxt "@info - notification message"
+msgid "Converting Nepomuk data to a new backend. This might take a while."
+msgstr "يقوم بتحويل بيانات نبومك إلى خلفية جديدة. قد يستغرق ذلك بعض الوقت."
+
+#: services/storage/repository.cpp:285
+msgctxt "@info - notification message"
+msgid "Rebuilding Nepomuk full text search index for new features done."
+msgstr "تمت إعادة بناء فهرس البحث الكامل بالخصائص الجديدة."
+
+#: services/storage/repository.cpp:304
+msgctxt "@info - notification message"
+msgid ""
+"Converting Nepomuk data to the new backend failed. Data may still be "
+"recovered manually though."
+msgstr ""
+"لقد فشل تحويل بيانات نبومك إلى الخلفية الجديدة. البيانات يمكن استعادتها يدويا"
+
+#: services/storage/repository.cpp:312
+msgctxt "@info - notification message"
+msgid "Successfully converted Nepomuk data to the new backend."
+msgstr "تم تحويل بيانات نبومك إلى الخلفية الجديدة بنجاح."
+
+#: services/storage/repository.cpp:365
+msgctxt "@info - notification message"
+msgid ""
+"Rebuilding Nepomuk full text search index for new features. This will only "
+"be done once and might take a while."
+msgstr ""
+" إعادة بناء فهرس البحث الكامل من أجل الخصائص الجديدة. سيتم هذا مرة واحدة فقط "
+"و قد يأخذ بعض الوقت."
+
+#: services/storage/modelcopyjob.cpp:43
+msgid "Converting Nepomuk database"
+msgstr "تحويل بيانات نبومك"
+
+#: services/storage/modelcopyjob.cpp:78
+msgid "Some data was lost in the conversion."
+msgstr "بعض البيانات قد ضاعت أثناء التحويل."
+
+#: services/ontologyloader/ontologyloader.cpp:116
+#, kde-format
+msgid "Parsing of file %1 failed (%2)"
+msgstr "فشل (%2) في قراءه الملف %1 "
+
+#: services/strigi/strigiservice.cpp:161
+msgctxt "@info:status"
+msgid "File indexer is suspended"
+msgstr "عُلق مفهرس الملفات"
+
+#: services/strigi/strigiservice.cpp:163
+#, kde-format
+msgctxt "@info:status"
+msgid "Strigi is currently indexing files in folder %1"
+msgstr "تقوم سراتجي بفهرسة الملفات الموجودة في مجلد %1"
+
+#: services/strigi/strigiservice.cpp:165
+msgctxt "@info:status"
+msgid "Checking file system for new files"
+msgstr "يبحث في نظام الملفات عن ملفات جديدة"
+
+#: services/strigi/strigiservice.cpp:167
+msgctxt "@info:status"
+msgid "File indexer is idle"
+msgstr "مفهرس الملفات ساكن"
+
+#: services/strigi/systray.cpp:42
+msgid "Strigi File Indexing"
+msgstr "سراتجي لفهرسة الملفات"
+
+#: services/strigi/systray.cpp:44 services/strigi/systray.cpp:45
+msgid "Suspend Strigi Indexing"
+msgstr "علق فهرسة سراتجي"
+
+#: services/strigi/systray.cpp:46
+msgid "Suspend or resume the Strigi file indexer manually"
+msgstr "علق أو تابع مفهرس سراتجي للملفات يدويا"
+
+#: services/strigi/systray.cpp:51
+msgid "Configure Strigi"
+msgstr "اضبط سراتجي"
+
+#: services/strigi/systray.cpp:75
+msgid "Nepomuk"
+msgstr "نبومك"
+
+#: services/strigi/statuswidget.cpp:52
+msgid "Configure"
+msgstr "اضبط"
+
+#: services/strigi/statuswidget.cpp:143
+msgid "Calculation failed"
+msgstr "فشلت الحسابات"
+
+#: services/strigi/statuswidget.cpp:155
+#, kde-format
+msgid "1 file in index"
+msgid_plural "%1 files in index"
+msgstr[0] "لا يوجد ملف في الفهرس"
+msgstr[1] "ملف واحد في الفهرس"
+msgstr[2] "ملفان في الفهرس"
+msgstr[3] "%1 ملفات في الفهرس"
+msgstr[4] "%1 ملفًا في الفهرس"
+msgstr[5] "%1 ملف في الفهرس"
+
+#: services/strigi/eventmonitor.cpp:70
+msgid ""
+"Strigi file indexing started. Indexing all files for fast desktop searches "
+"may take a while."
+msgstr ""
+"لقد بدأ سراتجي مفهرس الملفات في العمل. عملية فهرسة كل الملفات للبحث السريع "
+"عبر سطح المكتب قد تأخذ بعض الوقت."
+
+#: services/strigi/eventmonitor.cpp:99
+msgid "Resuming indexing of files for fast searching."
+msgstr ""
+
+#: services/strigi/eventmonitor.cpp:107
+#, fuzzy
+#| msgid "Suspending Strigi file indexing to preserve resources."
+msgid "Suspending the indexing of files to preserve resources."
+msgstr "جاري إيقاف خدمة فهرسة سراتجي للملفات للحفاظ على الموارد."
+
+#: services/strigi/eventmonitor.cpp:122
+#, kde-format
+msgid ""
+"Local disk space is running low (%1 left). Suspending Strigi file indexing."
+msgstr ""
+"مساحة القرص الصلب المحلي آخذه في النقصان (باقي %1) . جاري ايقاف فهرسة ملفات "
+"سراتجي مؤقتا."
+
+#: services/strigi/eventmonitor.cpp:131
+msgid "Resuming Strigi file indexing."
+msgstr "جاري متابعة فهرسة ملفات سراتجي."
+
+#: services/strigi/eventmonitor.cpp:148
+#, kde-format
+msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+msgid "Initial Desktop Search file indexing finished in %1"
+msgstr "تمت الفهرسة المبدئية لملفات سطح المكتب في %1"
+
+#: servicestub/main.cpp:67 servicestub/main.cpp:69
+msgid "Nepomuk Service Stub"
+msgstr "عتبة خدمة نبومك"
+
+#: servicestub/main.cpp:77
+msgctxt "@info:shell"
+msgid "Service to start"
+msgstr "الخدمة لتبدأ"
+
+#: servicestub/main.cpp:93
+msgid "No service name specified"
+msgstr "لم يتم تحديد اسم للخدمة"
+
+#: servicestub/main.cpp:117
+msgid "Unknown service name:"
+msgstr "اسم الخدمة غير معروف:"
+
+#~ msgid "Today's Files"
+#~ msgstr "ملفات اليوم"
+
+#~ msgid "Yesterday's Files"
+#~ msgstr "ملفات الأمس"
+
+#~ msgctxt "@info_status"
+#~ msgid "File indexer is suspended"
+#~ msgstr "مفهرس الملفات معلق"
+
+#~ msgctxt "@info_status"
+#~ msgid "Strigi is currently indexing files in folder %1"
+#~ msgstr "سراتجي يقوم حاليا بفهرسة الملفات في المجلد %1"
+
+#~ msgctxt "@info_status"
+#~ msgid "File indexer is idle"
+#~ msgstr "مفهرس الملفات ساكن"
+
+#~ msgid "Resume Strigi Indexing"
+#~ msgstr "تابع فهرسة سراتجي"

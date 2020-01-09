@@ -1,0 +1,260 @@
+# translation of katefindinfilesplugin.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: katefindinfilesplugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-07-09 07:40+0200\n"
+"PO-Revision-Date: 2007-10-14 15:58+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: katefinddialog.cpp:50 kateresultview.cpp:51
+#, fuzzy
+msgid "Find in Files"
+msgstr "بحث في الملفات"
+
+#: katefinddialog.cpp:80
+#, fuzzy
+msgid ""
+"<p>Enter the expression you want to search for here.</p><p>If 'regular "
+"expression' is unchecked, any non-space letters in your expression will be "
+"escaped with a backslash character.</p><p>Possible meta characters are:<br /"
+"><b>.</b> - Matches any character<br /><b>^</b> - Matches the beginning of a "
+"line<br /><b>$</b> - Matches the end of a line<br /><b>\\&lt;</b> - Matches "
+"the beginning of a word<br /><b>\\&gt;</b> - Matches the end of a word</"
+"p><p>The following repetition operators exist:<br /><b>?</b> - The preceding "
+"item is matched at most once<br /><b>*</b> - The preceding item is matched "
+"zero or more times<br /><b>+</b> - The preceding item is matched one or more "
+"times<br /><b>{<i>n</i>}</b> - The preceding item is matched exactly <i>n</"
+"i> times<br /><b>{<i>n</i>,}</b> - The preceding item is matched <i>n</i> or "
+"more times<br /><b>{,<i>n</i>}</b> - The preceding item is matched at most "
+"<i>n</i> times<br /><b>{<i>n</i>,<i>m</i>}</b> - The preceding item is "
+"matched at least <i>n</i>, but at most <i>m</i> times.</p><p>Furthermore, "
+"backreferences to bracketed subexpressions are available via the notation "
+"<code>\\#</code>.</p><p>See the grep(1) documentation for the full "
+"documentation.</p>"
+msgstr ""
+"<p> إدخال تعبير إلى ابحث لـ</p><p> إذا عادي تعبير هو غير محقّق أي منها فراغ "
+"بوصة تعبير مع a شَّرطة معكوسة رمز\n"
+"حرف\n"
+"مِحرف</p><p> محتمل أعلى محارف<br /><b></b> مطابقات أي منها رمز\n"
+"حرف\n"
+"مِحرف<br /><b></b> مطابقات من a سطر<br /><b></b> مطابقات end من a سطر<br /"
+"><b>&lt;</b> مطابقات من a كلمة<br /><b>&gt;</b> مطابقات end من a كلمة</p><p> "
+"الـ متابعة<br /><b></b> الـ سابق عنصر هو عند<br /><b></b> الـ سابق عنصر هو "
+"يضع أصفارا\n"
+"صفر أو المزيد الوقت<br /><b></b> الـ سابق عنصر هو أو المزيد الوقت<br /"
+"><b><i> n</i></b> الـ سابق عنصر هو<i> n</i> الوقت<br /><b><i> n</i></b> الـ "
+"سابق عنصر هو<i> n</i> أو المزيد الوقت<br /><b><i> n</i></b> الـ سابق عنصر هو "
+"عند<i> n</i> الوقت<br /><b><i> n</i><i> m</i></b> الـ سابق عنصر هو عند<i> n</"
+"i> عند<i> m</i> الوقت</p><p> علاوة على ذلك إلى متوفّر تدوين<code></code></"
+"p><p> انظر توثيق لـ توثيق</p>"
+
+#: katefinddialog.cpp:102
+#, fuzzy
+msgid ""
+"Enter the file name pattern of the files to search here.\n"
+"You may give several patterns separated by commas."
+msgstr "إدخال ملفّ الإسم التشكيلة من ملفات إلى ابحث أيار إعطاءها أداء."
+
+#: katefinddialog.cpp:104
+#, fuzzy
+msgid "Enter the folder which contains the files in which you want to search."
+msgstr "أدخل اسم المجلد الذي يحتوي الملفات التي تنوي البحث عنها."
+
+#: katefinddialog.cpp:105
+#, fuzzy
+msgid "Check this box to search in all subfolders."
+msgstr "اختر هذه العلبة للبحث في كل المجلدات الفرعية."
+
+#: katefinddialog.cpp:106
+#, fuzzy
+msgid ""
+"If this option is enabled (the default), the search will be case sensitive."
+msgstr ""
+"ان كان هذا الخيار محدداً (ألأفتراضي ) ، سيتم البحث مع حالة الاحرف الحساسة."
+
+#: katefinddialog.cpp:107
+msgid ""
+"If this option is enabled, the search will follow symlinks to directories. "
+"This can lead to infinite recursion if cyclical symlinks exist."
+msgstr ""
+
+#: katefinddialog.cpp:144
+#, fuzzy
+msgid "You must enter an existing local folder in the 'Folder' entry."
+msgstr "يجب عليك ادخال مجلًد محلًي موجود في خانة  'المجلًد'."
+
+#: katefinddialog.cpp:145
+#, fuzzy
+msgid "Invalid Folder"
+msgstr "مجلًد غير صالح"
+
+#: katefindinfiles.cpp:43
+#, fuzzy
+msgid "Find In Files"
+msgstr "بحث في الملفات"
+
+#: katefindinfiles.cpp:43
+msgid "search through files in the filesystem"
+msgstr ""
+
+#: katefindinfiles.cpp:127
+#, fuzzy
+msgid "&Find in Files..."
+msgstr "بحث في الملفات"
+
+#: kateresultview.cpp:53
+#, fuzzy, kde-format
+msgid "Find in Files %1"
+msgstr "بحث في الملفات"
+
+#. i18n: file: resultwidget.ui:110
+#. i18n: ectx: property (text), widget (KPushButton, btnRefine)
+#: kateresultview.cpp:66 rc.cpp:45
+msgid "Refine Search..."
+msgstr ""
+
+#: kateresultview.cpp:72
+#, fuzzy
+msgid ""
+"The results of the grep run are listed here. Select a\n"
+"filename/line number combination and press Enter or doubleclick\n"
+"on the item to show the respective line in the editor."
+msgstr ""
+"نتائج أمر grep معطاة هنا. اختر تشكيلة اسم ملف/رقم سطر\n"
+"و ضغط Enter أو النقر المزدوج على المادة المطلوبة و اظهار السطر\n"
+"المقابل في المحرر."
+
+#. i18n: file: findwidget.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, gbFind)
+#: rc.cpp:3
+msgid "Find"
+msgstr ""
+
+#. i18n: file: findwidget.ui:23
+#. i18n: ectx: property (text), widget (QLabel, lblPattern)
+#: rc.cpp:6
+#, fuzzy
+msgid "Pattern:"
+msgstr "نمط:"
+
+#. i18n: file: findwidget.ui:49
+#. i18n: ectx: property (text), widget (QLabel, lblFolder)
+#: rc.cpp:9
+#, fuzzy
+msgid "Folder:"
+msgstr "المجلد:"
+
+#. i18n: file: findwidget.ui:80
+#. i18n: ectx: property (toolTip), widget (QToolButton, btnSync)
+#: rc.cpp:12
+#, fuzzy
+msgid "Use the current document's path."
+msgstr "إستعمل الحالي مستند s المسار."
+
+#. i18n: file: findwidget.ui:92
+#. i18n: ectx: property (text), widget (QLabel, lblFiles)
+#: rc.cpp:15
+#, fuzzy
+msgid "Filter:"
+msgstr "الملفات:"
+
+#. i18n: file: findwidget.ui:121
+#. i18n: ectx: property (title), widget (QGroupBox, gbOptions)
+#: rc.cpp:18
+msgid "Options"
+msgstr ""
+
+#. i18n: file: findwidget.ui:127
+#. i18n: ectx: property (text), widget (QCheckBox, chkCaseSensitive)
+#: rc.cpp:21
+#, fuzzy
+msgid "Case sensitive"
+msgstr "حسّاس لحالة الأحرف"
+
+#. i18n: file: findwidget.ui:134
+#. i18n: ectx: property (text), widget (QCheckBox, chkRecursive)
+#: rc.cpp:24
+#, fuzzy
+msgid "Recursive search"
+msgstr "مكرر"
+
+#. i18n: file: findwidget.ui:141
+#. i18n: ectx: property (text), widget (QCheckBox, chkRegExp)
+#: rc.cpp:27
+msgid "Regular expression"
+msgstr ""
+
+#. i18n: file: findwidget.ui:148
+#. i18n: ectx: property (text), widget (QCheckBox, chkFollowSymlinks)
+#: rc.cpp:30
+msgid "Follow directory symlinks"
+msgstr ""
+
+#. i18n: file: resultwidget.ui:41
+#. i18n: ectx: property (text), widget (QTreeWidget, twResults)
+#: rc.cpp:33
+#, fuzzy
+msgid "File"
+msgstr "ملف"
+
+#. i18n: file: resultwidget.ui:46
+#. i18n: ectx: property (text), widget (QTreeWidget, twResults)
+#: rc.cpp:36
+#, fuzzy
+msgid "Line"
+msgstr "خط"
+
+#. i18n: file: resultwidget.ui:51
+#. i18n: ectx: property (text), widget (QTreeWidget, twResults)
+#: rc.cpp:39
+#, fuzzy
+msgid "Text"
+msgstr "نص"
+
+#. i18n: file: resultwidget.ui:87
+#. i18n: ectx: property (text), widget (QLabel, lblStatus)
+#: rc.cpp:42
+msgid "Searching for files..."
+msgstr ""
+
+#. i18n: file: resultwidget.ui:117
+#. i18n: ectx: property (text), widget (KPushButton, btnRemove)
+#: rc.cpp:48
+msgid "Remove"
+msgstr ""
+
+#. i18n: file: ui.rc:4
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:51
+msgid "&Edit"
+msgstr ""
+
+#: rc.cpp:52
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:53
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Click to close the current search results."
+#~ msgstr "نقر إلى اغلق الحالي ابحث النتائج."
+
+#, fuzzy
+#~ msgid "You do not have enough karma to access a shell or terminal emulation"
+#~ msgstr "أنت ليس إلى وصول a صدَفة أو شاشة طرفية محاكاه"

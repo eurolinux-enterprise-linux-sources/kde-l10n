@@ -1,0 +1,3577 @@
+# translation of kget.po to Arabic
+# translation of kget.po to
+# Copyright (C) 2003, 2004, 2007, 2009 Free Software Foundation, Inc.
+#
+# Nuriddin Aminagha <nuriddin@haydarlinux.org>, 2002,2003.
+# Nuriddin Aminagha <nuriddin@eminaga.de>, 2003.
+# Mohamed Assar (محمد عَصَر) <aser@arabeyes.org>, 2003.
+# Ammar Tabbaa <atabba@kacst.edu.sa>, 2004.
+# Munzir Taha <munzir@kacst.edu.sa>, 2004.
+# Mohamed SAAD محمد سعد <metehyi@free.fr>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2009.
+# Osama Khalid <osamak.wfm@gmail.com>, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kget\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-08 01:23+0100\n"
+"PO-Revision-Date: 2009-10-20 13:25+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: SAUDI ARABIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: conf/pluginselector.cpp:26 conf/preferencesdialog.cpp:72
+msgid "Plugins"
+msgstr "الملحقات"
+
+#: conf/transfersgroupwidget.cpp:81
+msgid ""
+"Another group with this name already exists. Please select a different name."
+msgstr "توجد بالفعل مجموعة أخرى بهذا الاسم. من فضلك اختر اسمًا آخرًا."
+
+#: conf/transfersgroupwidget.cpp:81
+msgid "Group Name Already in Use"
+msgstr "اسم المجموعة مستخدم بالفعل"
+
+#: conf/transfersgroupwidget.cpp:99 conf/transfersgroupwidget.cpp:104
+msgid "New Group"
+msgstr "مجموعة جديدة"
+
+#: conf/transfersgroupwidget.cpp:126
+#, kde-format
+msgid "Are you sure that you want to remove the group named %1?"
+msgstr "أمتأكد أنك تريد إزالة المجموعة المسماة %1؟ "
+
+#: conf/transfersgroupwidget.cpp:126
+msgid "Are you sure that you want to remove all selected groups?"
+msgstr "أمتأكد أنك تريد إزالة كل المجموعات المحددة؟"
+
+#: conf/transfersgroupwidget.cpp:127
+msgid "Remove Group"
+msgid_plural "Remove groups"
+msgstr[0] "أزل المجموعة"
+msgstr[1] "أزل المجموعة"
+msgstr[2] "أزل المجموعتين"
+msgstr[3] "أزل المجموعات"
+msgstr[4] "أزل المجموعات"
+msgstr[5] "أزل المجموعات"
+
+#: conf/transfersgroupwidget.cpp:166
+msgid "Use default directories for groups as suggestion"
+msgstr "استخدم الأدلة المبدئية المقترحة للمجموعات"
+
+#: conf/transfersgroupwidget.cpp:171
+msgid "Add"
+msgstr "أضف"
+
+#: conf/transfersgroupwidget.cpp:173
+msgid "Delete"
+msgstr "احذف"
+
+#: conf/transfersgroupwidget.cpp:176
+msgid "Rename"
+msgstr "أعِد التسمية"
+
+#: conf/transfersgroupwidget.cpp:182
+msgid "Select Icon..."
+msgstr "اختر أيقونة..."
+
+#: conf/transfersgroupwidget.cpp:184
+msgid "Configure..."
+msgstr "اضبط..."
+
+#: conf/preferencesdialog.cpp:46
+msgid "Xml"
+msgstr "Xml"
+
+#: conf/preferencesdialog.cpp:48
+msgid "Sqlite"
+msgstr "Sqlite"
+
+#: conf/preferencesdialog.cpp:52
+msgid "Turn Off Computer"
+msgstr "أوقف تشغيل الحاسوب"
+
+#: conf/preferencesdialog.cpp:67
+msgid "Appearance"
+msgstr "المظهر"
+
+#: conf/preferencesdialog.cpp:67
+msgid "Change appearance settings"
+msgstr "غيّر إعدادات المظهر"
+
+#: conf/preferencesdialog.cpp:68
+msgid "Groups"
+msgstr "المجموعات"
+
+#: conf/preferencesdialog.cpp:68
+msgid "Manage the groups"
+msgstr "أدِر المجموعات"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, networkGroupBox)
+#: conf/preferencesdialog.cpp:69 rc.cpp:209
+msgid "Network"
+msgstr "الشبكة"
+
+#: conf/preferencesdialog.cpp:69
+msgid "Network and Downloads"
+msgstr "الشبكة والتنزيلات"
+
+#: conf/preferencesdialog.cpp:70
+msgid "Web Interface"
+msgstr "واجهة الوب"
+
+#: conf/preferencesdialog.cpp:70
+msgid "Control KGet over a Network or the Internet"
+msgstr "تحكم بكجت من خلال الشبكة أو الإنترنت."
+
+#: conf/preferencesdialog.cpp:71
+msgctxt "Advanced Options"
+msgid "Advanced"
+msgstr "متقدم"
+
+#: conf/preferencesdialog.cpp:71
+msgid "Advanced Options"
+msgstr "خيارات متقدمة"
+
+#: conf/preferencesdialog.cpp:72
+msgid "Transfer Plugins"
+msgstr "ملحقات النقل"
+
+#: core/transfertreemodel.cpp:293
+msgctxt "name of download"
+msgid "Name"
+msgstr "الاسم"
+
+#: core/transfertreemodel.cpp:295
+msgctxt "status of download"
+msgid "Status"
+msgstr "الحالة"
+
+#: core/transfertreemodel.cpp:297
+msgctxt "size of download"
+msgid "Size"
+msgstr "الحجم"
+
+#: core/transfertreemodel.cpp:299
+msgctxt "progress of download"
+msgid "Progress"
+msgstr "التقدم"
+
+#: core/transfertreemodel.cpp:301
+msgctxt "speed of download"
+msgid "Speed"
+msgstr "السرعة"
+
+#: core/transfertreemodel.cpp:303
+msgctxt "remaining time of download"
+msgid "Remaining Time"
+msgstr "الوقت المتبقي"
+
+#: core/transfertreemodel.cpp:572
+msgid "Name"
+msgstr "الاسم"
+
+#: core/transfertreemodel.cpp:574
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:127
+#: ui/history/transferhistory.cpp:247
+msgid "Status"
+msgstr "الحالة"
+
+#. i18n: file: ui/history/transferhistory.ui:120
+#. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
+#: core/transfertreemodel.cpp:576
+#: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:377
+#: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:70
+#: rc.cpp:557
+msgid "Size"
+msgstr "الحجم"
+
+#: core/transfertreemodel.cpp:578
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:211
+msgid "Progress"
+msgstr "التقدم"
+
+#: core/transfertreemodel.cpp:580
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:125
+msgid "Speed"
+msgstr "السرعة"
+
+#: core/transfertreemodel.cpp:582
+msgid "Remaining Time"
+msgstr "الوقت المتبقي"
+
+#: core/transferhandler.cpp:143
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:27
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:28
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:29
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:30
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:31
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:32
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:33
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:34
+#: ui/transfersviewdelegate.cpp:353
+msgctxt "not available"
+msgid "n/a"
+msgstr "غير متوفر"
+
+#: core/transferhandler.cpp:151
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1489
+#: ui/transferdetails.cpp:89
+msgid "Stalled"
+msgstr "متوقف"
+
+#: core/transferhandler.cpp:156 core/transfergrouphandler.cpp:130
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:263
+#: ui/transferdetails.cpp:94
+#, kde-format
+msgid "%1/s"
+msgstr "%1/ث"
+
+#. i18n: file: conf/dlgadvanced.ui:40
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_AfterFinishAction)
+#: core/transferhandler.cpp:397 core/transferhandler.cpp:407
+#: ui/droptarget.cpp:93 rc.cpp:65
+msgid "Quit KGet"
+msgstr "أنه كجت"
+
+#: core/transferhandler.cpp:398
+msgid "KGet is now closing, as all downloads have completed."
+msgstr "سيتم الآن إغلاق كجت لأن جميع التنزيلات اكتملت."
+
+#: core/transferhandler.cpp:408
+msgid "The computer will now turn off, as all downloads have completed."
+msgstr "سيتم الآن إيقاف تشغيل الحاسوب لأن جميع التنزيلات اكتملت."
+
+#: core/transfergrouphandler.cpp:114
+#, kde-format
+msgid "1 Item"
+msgid_plural "%1 Items"
+msgstr[0] "لا عناصر"
+msgstr[1] "عنصر واحد"
+msgstr[2] "عنصرين"
+msgstr[3] "%1 عناصر"
+msgstr[4] "%1 عنصرًا"
+msgstr[5] "%1 عنصر"
+
+#: core/transfergrouphandler.cpp:312
+msgctxt "start transfergroup downloads"
+msgid "Start"
+msgstr "ابدأ"
+
+#: core/transfergrouphandler.cpp:318
+msgctxt "stop transfergroup downloads"
+msgid "Stop"
+msgstr "أوقف"
+
+#: core/transfer.cpp:50 core/transfer.cpp:145 core/transfer.cpp:213
+#: transfer-plugins/kio/transferKio.cpp:58
+#: transfer-plugins/mms/mmsTransfer.cpp:52
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:64
+#: transfer-plugins/metalink/metalink.cpp:59
+#: transfer-plugins/bittorrent/bttransfer.cpp:231
+#: transfer-plugins/contentfetch/contentfetch.cpp:64
+msgctxt "transfer state: stopped"
+msgid "Stopped"
+msgstr "متوقف"
+
+#: core/transfer.cpp:138
+msgctxt "transfer state: delayed"
+msgid "Delayed"
+msgstr "مؤجل"
+
+#: core/transfer.cpp:209 transfer-plugins/kio/transferKio.cpp:119
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:209
+#: transfer-plugins/metalink/metalink.cpp:110
+#: transfer-plugins/bittorrent/bttransfer.cpp:228
+msgctxt "transfer state: finished"
+msgid "Finished"
+msgstr "منتهي"
+
+#: core/linkimporter.cpp:90
+#, kde-format
+msgid "Error trying to get %1"
+msgstr "خطأ عند محاولة الحصول على %1"
+
+#: core/kget.cpp:241
+msgid "Rename transfer"
+msgstr "أعد تسمية النقل"
+
+#: core/kget.cpp:502
+#, kde-format
+msgid ""
+"The file %1 already exists.\n"
+"Overwrite?"
+msgstr ""
+"الملف %1 موجود مسبقًا.\n"
+"أأكتب فوقه؟"
+
+#: core/kget.cpp:503
+msgid "Overwrite existing file?"
+msgstr "أأكتب فوق الملف الموجود؟"
+
+#: core/kget.cpp:516
+#, kde-format
+msgid "Unable to save to: %1"
+msgstr "تعذّر الحفظ الحفظ إلى: %1"
+
+#: core/kget.cpp:517 core/kget.cpp:898 core/kget.cpp:906
+#: transfer-plugins/bittorrent/bttransfer.cpp:333
+#: transfer-plugins/bittorrent/bttransfer.cpp:344
+msgid "Error"
+msgstr "خطأ"
+
+#: core/kget.cpp:726 ui/contextmenu.cpp:139
+msgid "My Downloads"
+msgstr "تنزيلاتي"
+
+#. i18n: file: ui/newtransferwidget.ui:25
+#. i18n: ectx: property (text), widget (KTitleWidget, titleWidget)
+#: core/kget.cpp:838 ui/newtransferdialog.cpp:238 rc.cpp:472
+msgid "New Download"
+msgstr "تنزيل جديد"
+
+#: core/kget.cpp:838
+msgid "Enter URL:"
+msgstr "أدخل المسار:"
+
+#: core/kget.cpp:871
+msgid "Save As"
+msgstr "احفظ باسم"
+
+#: core/kget.cpp:897
+#, kde-format
+msgid ""
+"Malformed URL:\n"
+"%1"
+msgstr ""
+"عنوان المسار خاطئ التكوين:\n"
+"%1"
+
+#: core/kget.cpp:905
+#, kde-format
+msgid ""
+"Malformed URL, protocol missing:\n"
+"%1"
+msgstr ""
+"عنوان المسار خاطئ التكوين، البروتوكول مفقود:\n"
+"%1"
+
+#: core/kget.cpp:918
+#, kde-format
+msgid ""
+"URL already saved:\n"
+"%1\n"
+"Download again?"
+msgstr ""
+"المسار محفوظ مسبقاً:\n"
+"%1\n"
+"أأنزله مرة أخرى؟"
+
+#: core/kget.cpp:919
+msgid "Download URL again?"
+msgstr "أأنزّل المسار مرة أخرى؟"
+
+#: core/kget.cpp:947 core/kget.cpp:954
+msgid "Directory is not writable"
+msgstr "المجلد غير قابل للكتابة"
+
+#: core/kget.cpp:964
+#, kde-format
+msgid ""
+"Destination file \n"
+"%1\n"
+"already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"الملف الهدف \n"
+"%1\n"
+"موجود مسبقًا.\n"
+"أتريد الكتابة فوقه؟"
+
+#: core/kget.cpp:965
+msgid "Overwrite destination"
+msgstr "مكان الكتابة"
+
+#: core/kget.cpp:1093
+#, kde-format
+msgid ""
+"<html><p>Plugin loader could not load the plugin:<br/><i>%1</i></p></html>"
+msgstr ""
+"<html><p>لم يتمكن محمل الملحقات من تحميل الملحق:<br/><i>%1</i></p></html>"
+
+#: core/kget.cpp:1111
+#, kde-format
+msgid ""
+"Not deleting\n"
+"%1\n"
+"as it is a directory."
+msgstr ""
+"لن يحذف\n"
+"%1\n"
+"لأنه دليل."
+
+#: core/kget.cpp:1121
+#, kde-format
+msgid ""
+"Not deleting\n"
+"%1\n"
+"as it is not a local file."
+msgstr ""
+"لن يحذف\n"
+"%1\n"
+"لأنه ليس ملفًا محليًا."
+
+#: transfer-plugins/kio/transferKio.cpp:40
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:46
+#: transfer-plugins/metalink/metalink.cpp:43
+msgctxt "transfer state: connecting"
+msgid "Connecting...."
+msgstr "يجري الاتصال..."
+
+#: transfer-plugins/kio/transferKio.cpp:130
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:220
+msgid "Aborted"
+msgstr "ملغي"
+
+#: transfer-plugins/kio/transferKio.cpp:180
+#: transfer-plugins/kio/transferKio.cpp:194
+#: transfer-plugins/kio/transferKio.cpp:209
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:251
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:268
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:285
+msgid "Downloading...."
+msgstr "يجري التنزيل..."
+
+#: transfer-plugins/mms/mmsTransfer.cpp:36
+msgctxt "transfer state: running"
+msgid "Running...."
+msgstr "يجري التشغيل..."
+
+#: transfer-plugins/metalink/metalink.cpp:119
+msgctxt "transfer state: aborted"
+msgid "Aborted"
+msgstr "ملغي"
+
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.cpp:23
+msgid "Insert Engine"
+msgstr "محرك الإدخال"
+
+#. i18n: file: transfer-plugins/mirrorsearch/dlgengineediting.ui:16
+#. i18n: ectx: property (text), widget (QLabel, engineNameLabel)
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.cpp:28 rc.cpp:158
+msgid "Engine name:"
+msgstr "اسم المحرك:"
+
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.cpp:29
+msgid "Url:"
+msgstr "المسار:"
+
+#: transfer-plugins/bittorrent/scandlg.cpp:81
+#, kde-format
+msgid "Error scanning data: %1"
+msgstr "خطأ في مسح البيانات: %1"
+
+#: transfer-plugins/bittorrent/scandlg.cpp:87
+#, kde-format
+msgid "Scanning data of <b>%1</b> :"
+msgstr "يجري مسح بيانات <b>%1</b> :"
+
+#: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:376
+#: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:69
+msgid "File"
+msgstr "ملف"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:66
+msgctxt "Open file"
+msgid "Open"
+msgstr "افتح"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:68
+msgid "Download first"
+msgstr "نزّل أولاً"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:69
+msgid "Download normally"
+msgstr "نزّل بشكل عادي"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:70
+msgid "Download last"
+msgstr "نزّل أخيرًا"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:72
+msgid "Do Not Download"
+msgstr "لا تنزّل"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:73
+msgid "Delete File(s)"
+msgstr "احذف الملف(ات)"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:75
+msgid "Move File"
+msgstr "انقل الملف"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:77
+msgid "Collapse Folder Tree"
+msgstr "اطوِ شجرة المجلد"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:78
+msgid "Expand Folder Tree"
+msgstr "وسّع شجرة المجلد"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:266
+msgid "You will lose all data in this file, are you sure you want to do this?"
+msgstr "ستفقد جميع البيانات في هذا الملف، أمتأكد أنك تريد القيام بذلك؟"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:267
+msgid ""
+"You will lose all data in these files, are you sure you want to do this?"
+msgstr "ستفقد جميع البيانات في هذه الملفات، أمتأكد أنك تريد القيام بذلك؟"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:281
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:302
+msgid "Select a directory to move the data to."
+msgstr "اختر المجلد الذي تريد نقل الملفات إليه."
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:152
+msgctxt "Choked"
+msgid "Yes"
+msgstr "نعم"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:152
+msgctxt "Not choked"
+msgid "No"
+msgstr "لا"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:153
+msgctxt "Snubbed"
+msgid "Yes"
+msgstr "نعم"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:153
+msgctxt "Not snubbed"
+msgid "No"
+msgstr "لا"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:161
+msgctxt "Interested"
+msgid "Yes"
+msgstr "نعم"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:161
+msgctxt "Not Interested"
+msgid "No"
+msgstr "لا"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:162
+msgctxt "Interesting"
+msgid "Yes"
+msgstr "نعم"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:162
+msgctxt "Not Interesting"
+msgid "No"
+msgstr "لا"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:307
+msgid "IP Address"
+msgstr "عنوان IP"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:308
+msgid "Client"
+msgstr "عميل"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:309
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:213
+msgid "Down Speed"
+msgstr "سرعة التنزيل"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:310
+msgid "Up Speed"
+msgstr "سرعة الرفع"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:311
+msgid "Choked"
+msgstr "مختنق"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:312
+msgid "Snubbed"
+msgstr "توقف مفاجئ"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:313
+msgid "Availability"
+msgstr "توفر"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:314
+#: transfer-plugins/bittorrent/libbtcore/util/logsystemmanager.cpp:36
+msgid "DHT"
+msgstr "DHT"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:315
+msgid "Score"
+msgstr "المُحرَز"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:316
+msgid "Upload Slot"
+msgstr "شَق الرفع"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:317
+msgid "Requests"
+msgstr "الطلبات"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:318
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:126
+msgid "Downloaded"
+msgstr "المُنزّل"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:319
+msgid "Uploaded"
+msgstr "المرفوع"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:320
+msgid "Interested"
+msgstr "مهتم"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:321
+msgid "Interesting"
+msgstr "الاهتمام"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:329
+msgid "IP address of the peer"
+msgstr "عنوان آيبي النظير"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:330
+msgid "Which client the peer is using"
+msgstr "العميل الذي يستخدمه النظير"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:331
+msgid "Download speed"
+msgstr "سرعة التنزيل"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:332
+msgid "Upload speed"
+msgstr "سرعة الرفع"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:333
+msgid ""
+"Whether or not the peer has choked us.  If we are choked, the peer will not "
+"send us any data."
+msgstr "فيما إذا كان النظير خنقنا. إذن خُنقنا، فلن يرسل لنا النظير أي بيانات."
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:334
+msgid "Snubbed means the peer has not sent us any data in the last 2 minutes"
+msgstr "المصدود يعني أن النظير لم يرسل لنا أي بيانات خلال الدقيقتين الماضيتين"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:335
+msgid "How much of the torrent's data the peer has"
+msgstr "مقدار ما يملكه النظير من بيانات"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:336
+msgid "Whether or not the peer has DHT enabled"
+msgstr "فيما إذا كان النظير مُفعلًا DHT"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:337
+msgid ""
+"The score of the peer. KTorrent uses this to determine who to upload to."
+msgstr "درجة النظير. يستخدم KTorrent هذه الدرجة لتحديد من يرفع له."
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:338
+msgid "Only peers which have an upload slot will get data from us"
+msgstr "النظراء الذين لديهم شَق رفع وحدهم سيحصلون على بيانات منا"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:339
+msgid "The number of download and upload requests"
+msgstr "عدد طلبات الرفع والتنزيل"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:340
+msgid "How much data we have downloaded from this peer"
+msgstr "مقدار البيانات التي نزّلناها من هذا النظير"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:341
+msgid "How much data we have uploaded to this peer"
+msgstr "مقدار البيانات التي رفعناها إلى هذا النظير."
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:342
+msgid "Whether the peer is interested in downloading data from us"
+msgstr "فيما إذا كان النظير مهتمًا بتلقي البيانات منا"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:343
+msgid "Whether we are interested in downloading from this peer"
+msgstr "فيما إذا كنا مهتمين بالتنزيل من هذا النظير"
+
+#. i18n: file: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:32
+#. i18n: ectx: property (text), widget (QTreeWidget, enginesTreeWidget)
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:124
+#: rc.cpp:170
+msgid "URL"
+msgstr "مسار"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:54
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:58
+#, kde-format
+msgid "Advanced Details for %1"
+msgstr "تفاصيل %1 المتقدمة"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:66
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:214
+msgid "Files"
+msgstr "الملفات"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:74
+msgid "Trackers"
+msgstr "المتتبعون:"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:77
+msgid "Webseeds"
+msgstr "بذور الوب"
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.cpp:92
+#, kde-format
+msgid "Cannot add the webseed %1, it is already part of the list of webseeds."
+msgstr "تعذّر إضافة بذرة الوب %1, فهي أصلًا موجودة في قائمة بذور الةب."
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.cpp:109
+#, kde-format
+msgid "Cannot remove webseed %1, it is part of the torrent."
+msgstr "تعذّرت إزالة بذرة الوب %1، فهي جزء من التورنت."
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:87
+#: transfer-plugins/bittorrent/bttransfer.cpp:189
+msgid "Cannot add a tracker to a private torrent."
+msgstr "لا يمكن إضافة متتبع إلى تورنت خاص."
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:94
+#: transfer-plugins/bittorrent/bttransfer.cpp:195
+msgid "Malformed URL."
+msgstr "مسار مُكوّن خطأً."
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:101
+#, kde-format
+msgid "There already is a tracker named <b>%1</b>."
+msgstr "يوجد بالفعل متتبع بالاسم <b>%1</b>."
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:119
+msgid "Cannot remove torrent default tracker."
+msgstr "لا يمكن إزالة متتبع التورنت المبدئي."
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:231
+msgid "You cannot add trackers to a private torrent"
+msgstr "لا يمكنك إضافة متتبع إلى تورنت خاص."
+
+#: transfer-plugins/bittorrent/advanceddetails/peerview.cpp:52
+msgid "Kick Peer"
+msgstr "اطرد النظير"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerview.cpp:53
+msgid "Ban Peer"
+msgstr "احظر النظير"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:66
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:70
+msgid "Priority"
+msgstr "الأولوية"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:67
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:71
+msgid "Preview"
+msgstr "معاينة"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:69
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:73
+#, no-c-format
+msgctxt "Percent of File Downloaded"
+msgid "% Complete"
+msgstr "% اكتمل"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:78
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:82
+msgctxt "Download first"
+msgid "First"
+msgstr "أولًا"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:79
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:83
+msgctxt "Download last"
+msgid "Last"
+msgstr "أخيرًا"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:84
+msgctxt "Download Normal (not as first or last)"
+msgid "Normal"
+msgstr "عادي"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:135
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:158
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:163
+msgctxt "Preview available"
+msgid "Available"
+msgstr "متوفر"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:137
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:160
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:142
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:165
+msgctxt "Preview pending"
+msgid "Pending"
+msgstr "معلق"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:140
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:163
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:145
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:168
+msgctxt "No preview available"
+msgid "No"
+msgstr "لا"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:144
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:167
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:150
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:170
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:176
+#, kde-format
+msgid "%1 %"
+msgstr "%1 %"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:210
+msgid "Chunk"
+msgstr "كتلة"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:212
+msgid "Peer"
+msgstr "نظير"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:222
+msgid "Number of the chunk"
+msgstr "رقم الكتلة"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:223
+msgid "Download progress of the chunk"
+msgstr "تقدم تنزيل الكتلة"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:224
+msgid "Which peer we are downloading it from"
+msgstr "النظير الذي نزلناه منه"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:225
+msgid "Download speed of the chunk"
+msgstr "سرعة تنزيل الكتلة"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:226
+msgid "Which files the chunk is located in"
+msgstr "الملف الذي تقع فيه هذه الكتلة"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:88
+msgctxt "Download normally(not as first or last)"
+msgid "Normal"
+msgstr "عادي"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:140
+msgctxt "preview available"
+msgid "Available"
+msgstr "متوفر"
+
+#: transfer-plugins/bittorrent/bttransferfactory.cpp:73
+msgid "&Advanced Details"
+msgstr "التفاصيل المتقد&مة"
+
+#: transfer-plugins/bittorrent/bttransferfactory.cpp:79
+msgid "&Scan Files"
+msgstr "م&سح الملفات"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:77
+msgid "Downloading Torrent File...."
+msgstr "تنزيل ملف التورنت....."
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:213
+msgctxt "transfer state: downloading"
+msgid "Downloading...."
+msgstr "يجري التنزيل..."
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:283
+msgid "Analyzing torrent...."
+msgstr "يجري تحليل التورنت..."
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:332
+#: transfer-plugins/bittorrent/bttransfer.cpp:343
+msgid "An error occurred...."
+msgstr "حدث خطأ...."
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:353
+msgctxt "Transfer status: seeding"
+msgid "Seeding...."
+msgstr "توزيع..."
+
+#: transfer-plugins/bittorrent/btsettingswidget.cpp:36
+msgid "Select a default torrent folder"
+msgstr "اختر مجلد التورنت المبدئي"
+
+#: transfer-plugins/bittorrent/btsettingswidget.cpp:38
+msgid "Select a default temporary folder"
+msgstr "إختر المجلد المؤقت المبدئي"
+
+#: transfer-plugins/bittorrent/libbtcore/peer/peerid.cpp:203
+msgid "Unknown client"
+msgstr "عميل غير معروف"
+
+#: transfer-plugins/bittorrent/libbtcore/util/functions.cpp:274
+#, kde-format
+msgid "1 day "
+msgid_plural "%1 days "
+msgstr[0] "يومًا"
+msgstr[1] "يوم واحد"
+msgstr[2] "يومين"
+msgstr[3] "%1 أيام"
+msgstr[4] "%1 يومًا"
+msgstr[5] "%1 يوم"
+
+#: transfer-plugins/bittorrent/libbtcore/util/log.cpp:112
+#, kde-format
+msgid "Cannot open log file %1 : %2"
+msgstr "تعذر فتح ملف السجل %1: %2"
+
+#: transfer-plugins/bittorrent/libbtcore/util/file.cpp:83
+#, kde-format
+msgid "Cannot write to %1 : %2"
+msgstr "تعذّرت الكتابة إلى %1: %2"
+
+#: transfer-plugins/bittorrent/libbtcore/util/file.cpp:97
+#, kde-format
+msgid "Cannot read from %1"
+msgstr "تعذّرت القراءة من %1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:88
+#, kde-format
+msgid "Cannot create directory %1"
+msgstr "تعذّر إنشاء المجلد %1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:129
+#, kde-format
+msgid "Cannot symlink %1 to %2: %3"
+msgstr "تعذّر ربط %1 ب %2: %3"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:146
+#, kde-format
+msgid "Cannot move %1 to %2: %3"
+msgstr "تغذّر نقل %1 إلى %2: %3"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:162
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:178
+#, kde-format
+msgid "Cannot copy %1 to %2: %3"
+msgstr "تعذّر نسخ %1 إلى %2: %3"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:239
+#, kde-format
+msgid "Cannot delete %1: %2"
+msgstr "تعذّر حذف %1: %2"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:256
+#, kde-format
+msgid "Cannot create %1: %2"
+msgstr "تعذّر إنشاء %1: %2"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:274
+#, kde-format
+msgid "Cannot calculate the filesize of %1: %2"
+msgstr "تعذّر حساب حجم الملف %1: %2"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:290
+#, kde-format
+msgid "Cannot calculate the filesize : %1"
+msgstr "تعذّر حساب حجم الملف: %1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:318
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:347
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:406
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:94
+#, kde-format
+msgid "Cannot open %1 : %2"
+msgstr "تعذّر فتح %1: %2"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:368
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:374
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:377
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:392
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:394
+#, kde-format
+msgid "Cannot expand file: %1"
+msgstr "تعذّر تمديد الملف: %1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/fileops.cpp:427
+#, kde-format
+msgid "Cannot seek in file : %1"
+msgstr "تعذّر البحث في الملف: %1"
+
+#: transfer-plugins/bittorrent/libbtcore/util/logsystemmanager.cpp:33
+msgid "General"
+msgstr "عام"
+
+#: transfer-plugins/bittorrent/libbtcore/util/logsystemmanager.cpp:34
+msgid "Connections"
+msgstr "الاتصالات"
+
+#: transfer-plugins/bittorrent/libbtcore/util/logsystemmanager.cpp:35
+msgid "Tracker"
+msgstr "الممتبعون"
+
+#: transfer-plugins/bittorrent/libbtcore/util/logsystemmanager.cpp:37
+msgid "Disk Input/Output"
+msgstr "الادخال والأخراج للقرص"
+
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:49
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:92
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:37
+msgid "Not connected"
+msgstr "غير متصل"
+
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:298
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:503
+msgid "Not in use"
+msgstr "غير مستخدم"
+
+#: transfer-plugins/bittorrent/libbtcore/download/webseed.cpp:316
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:125
+msgid "Connection closed"
+msgstr "أُعلق الاتصال"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:103
+#, kde-format
+msgid "Resolving proxy %1:%2"
+msgstr "تحليل الوسيط %1:%2"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:112
+#, kde-format
+msgid "Resolving hostname %1"
+msgstr "تحليل اسم المضيف %1"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:132
+#, kde-format
+msgid "Error: request failed: %1"
+msgstr "خطأ: فشل الطلب: %1"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:149
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:213
+msgid "Connected"
+msgstr "متصل"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:155
+msgid "Error: Failed to connect to webseed"
+msgstr "خطأ : فشل في الاتصال ببذرة الوب"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:220
+msgid "Connecting"
+msgstr "جاري الاتصال..."
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:231
+msgid "Failed to connect to webseed"
+msgstr "فشل في الاتصال ببذرة الوب"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:238
+msgid "Failed to resolve hostname of webseed"
+msgstr "فشل في تحليل اسم المضيف لبذرة وب"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:318
+msgid "Error: failed to connect, server not responding"
+msgstr "خطأ: فشل في الاتصال، الخادم لا يستجيب"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:327
+msgid "Error: request timed out"
+msgstr "خطأ: أنتهى الوقت المقدر للطلب"
+
+#: transfer-plugins/bittorrent/libbtcore/download/httpconnection.cpp:391
+#, fuzzy
+#| msgid "Redirected without a new location !"
+msgid "Redirected without a new location !"
+msgstr "حُوّل بدون موقع جديد!"
+
+#: transfer-plugins/bittorrent/libbtcore/download/chunkdownload.cpp:379
+#, kde-format
+msgid "1 peer"
+msgid_plural "%1 peers"
+msgstr[0] "لا نظراء"
+msgstr[1] "نظير واحد"
+msgstr[2] "نظيران"
+msgstr[3] "%1 نظراء"
+msgstr[4] "%1 نظيرًا"
+msgstr[5] "%1 نظير"
+
+#: transfer-plugins/bittorrent/libbtcore/migrate/migrate.cpp:45
+#, kde-format
+msgid "The directory %1 does not exist"
+msgstr "المجلد %1 غير موجود"
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:61
+#, kde-format
+msgid "Illegal token: %1"
+msgstr "علامة غير نظامية: %1"
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:82
+msgid "Decode error"
+msgstr "خطأ فك ترميز"
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:143
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:188
+msgid "Unexpected end of input"
+msgstr "نهاية غير متوقعة للإدخال"
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:163
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:197
+#, kde-format
+msgid "Cannot convert %1 to an int"
+msgstr "لا يمكن تحويل %1 إلى عدد"
+
+#: transfer-plugins/bittorrent/libbtcore/bcodec/bdecoder.cpp:202
+#, fuzzy
+#| msgid "Torrent is incomplete!"
+msgid "Torrent is incomplete!"
+msgstr "التورنت غير مكتمل"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:71
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:106
+#, kde-format
+msgid "Failed to open %1 : %2"
+msgstr "فشل فتح %1 : %2"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/singlefilecache.cpp:82
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:133
+#, kde-format
+msgid "Failed to create %1 : %2"
+msgstr "فشل إنشاء %1 : %2"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/chunkmanager.cpp:209
+#: transfer-plugins/bittorrent/libbtcore/diskio/chunkmanager.cpp:324
+#, kde-format
+msgid "Cannot open index file %1 : %2"
+msgstr "تعذر فتح ملف الفهرس %1 : %2"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:89
+#, kde-format
+msgid "Cannot create file %1 : %2"
+msgstr "تعذر إنشاء الملف %1 : %2"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:137
+#, kde-format
+msgid "Failed to write first chunk to DND file : %1"
+msgstr "فشل في كتابة أول كتلة إلى ملف DND: %1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/dndfile.cpp:155
+#, kde-format
+msgid "Failed to write last chunk to DND file : %1"
+msgstr "فشل في كتابة آخر كتلة إلى ملف DND: %1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:120
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:243
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:429
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:496
+#, kde-format
+msgid "Cannot open %1 for writing : readonly filesystem"
+msgstr "لا يمكن فتح %1 للكتابة: نظام ملفات للقراءة فقط"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:253
+#, kde-format
+msgid "Cannot expand file %1 : %2"
+msgstr "تعذر تمديد الملف %1 : %2"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:395
+#, kde-format
+msgid "Error : Reading past the end of the file %1"
+msgstr "خطأ: قراءة ما قبل نهاية الملف %1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:400
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:446
+#, kde-format
+msgid "Failed to seek file %1 : %2"
+msgstr "فشل في البحث عن الملف %1: %2"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:408
+#, kde-format
+msgid "Error reading from %1"
+msgstr "خطأ في القراءة من %1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:450
+#, kde-format
+msgid "Failed to write to file %1 : %2"
+msgstr "فشل في الكتابة إلى الملف %1: %2"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/cachefile.cpp:523
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:840
+#, kde-format
+msgid "Cannot preallocate diskspace : %1"
+msgstr "تعذر حجز مساحة مسبقة على القرص: %1"
+
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:776
+#: transfer-plugins/bittorrent/libbtcore/diskio/multifilecache.cpp:856
+#, kde-format
+msgid "Cannot open file %1 : %2"
+msgstr "تعذر فتح الملف %1: %2"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:83
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:145
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:168
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:176
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:183
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:187
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:195
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:211
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:215
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:229
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:238
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:252
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:259
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:265
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:272
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:278
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:310
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:358
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:364
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:367
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:370
+#, fuzzy
+#| msgid "Corrupted torrent!"
+msgid "Corrupted torrent!"
+msgstr "تورنت معطوب"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:136
+#, kde-format
+msgid " Unable to open torrent file %1 : %2"
+msgstr "غير قادر على فتح ملف التورنت %1: %2"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:335
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrent.cpp:341
+msgid "Parse Error"
+msgstr "خطأ لغوي"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:533
+#, kde-format
+msgid ""
+"An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/>The "
+"torrent is probably corrupt or is not a valid torrent file."
+msgstr ""
+"حدث خطأ أثناء محاولة فتح التورنت <b>%1</b>:<br/><b>%2</b><br/> من المحتمل أن "
+"يكون معطوب أو أنه ليس ملف تورنت."
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:563
+#, kde-format
+msgid ""
+"An error occurred while loading the torrent:<br/><b>%1</b><br/>The torrent "
+"is probably corrupt or is not a valid torrent file."
+msgstr ""
+"حدث خطأ أثناء محاولة فتح التورنت:<br/><b>%1</b><br/> من المحتمل أن يكون "
+"معطوب أو أنه ليس ملف تورنت "
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:573
+#, kde-format
+msgid "Unable to create %1 : %2"
+msgstr "غير قادر على إنشاء %1 : %2"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:588
+#, kde-format
+msgid ""
+"You are already downloading this torrent %1, the list of trackers of both "
+"torrents has been merged."
+msgstr ""
+"هذا  التورنت يتم تنزيله الآن بالفعل %1، تم دمج قائمة المتتبعين لكلا الملفين."
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:592
+#, kde-format
+msgid "You are already downloading the torrent %1"
+msgstr "أنت أصلا تقوم بتنزيل هذا التورنت %1"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:691
+#, kde-format
+msgid "Cannot migrate %1 : %2"
+msgstr "لا يمكن نقل %1 : %2"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1387
+#, kde-format
+msgid ""
+"The torrent %1 was started with a previous version of KTorrent. To make sure "
+"this torrent still works with this version of KTorrent, we will migrate this "
+"torrent. You will be asked for a location to save the torrent to. If you "
+"press cancel, we will select your home directory."
+msgstr ""
+"بدأ التورنت %1 مع إصدار سابقة من KTorrent. للتأكد من أن هذا التورنت لا يزال "
+"يعمل مع هذا الإصدار من KTorrent ، سوف ننقل هذا التورنت. سيتم سؤالك عن مكان "
+"حفظ التورنت. إذا قمت بالضغط على ألغِ ، سيتم اختيار مجلد منزلك."
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1392
+msgid "Select Folder to Save To"
+msgstr "إختر المجلد المراد الحفظ فيه"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1479
+msgid "Not started"
+msgstr "لم يبدأ"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1481
+msgid "Download completed"
+msgstr "اكتمل التنزيل"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1483
+msgid "Seeding completed"
+msgstr "اكتمل التوزيع"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1485
+#, fuzzy
+#| msgid "Seeding"
+msgid "Seeding"
+msgstr "يجري التوزيع"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1487
+msgid "Downloading"
+msgstr "يجري التنزيل"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1491
+#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:162
+msgid "Stopped"
+msgstr "متوقف"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1493
+#, fuzzy
+#| msgid "Error: "
+msgid "Error: "
+msgstr "خطأ:"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1495
+msgid "Allocating diskspace"
+msgstr "تخصيص مساحة على القرص"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1497
+msgid "Queued"
+msgstr "رصف في طابور"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1499
+msgid "Checking data"
+msgstr "فحص البيانات"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcontrol.cpp:1501
+msgid "Stopped. No space left on device."
+msgstr "متوقف . لا توجد مساحة كافية على القرص"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:546
+msgid "OK"
+msgstr "موافق"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/peersourcemanager.cpp:553
+msgid "Announcing"
+msgstr "إعلان"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:124
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:259
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:297
+#, kde-format
+msgid "Cannot open file %1: %2"
+msgstr "لا يمكن فتح الملف %1: %2"
+
+#: transfer-plugins/bittorrent/libbtcore/torrent/torrentcreator.cpp:359
+#, kde-format
+msgid "Cannot create index file: %1"
+msgstr "لايمكن انشاء ملف الفهرس: %1"
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/udptracker.cpp:307
+#, kde-format
+msgid "Unable to resolve hostname %1"
+msgstr "غير قادر على تحليل اسم المضيف %1"
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/udptrackersocket.cpp:66
+#, kde-format
+msgid "Cannot bind to udp port %1 or the 10 following ports."
+msgstr "لا يمكن ربط منفذ udp %1 أو المنافذة العشرة التالية."
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:273
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:293
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:333
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:443
+msgid "Invalid response from tracker"
+msgstr "استجابة غير صحيحة من المتتبع"
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:286
+msgid "Invalid data from tracker"
+msgstr "بيانات صحيحة من المتتبع"
+
+#: transfer-plugins/bittorrent/libbtcore/tracker/httptracker.cpp:459
+msgid "Invalid tracker URL"
+msgstr "مسار المتتبع غير صحيح"
+
+#: transfer-plugins/bittorrent/libbtcore/datachecker/singledatachecker.cpp:49
+#, kde-format
+msgid "Cannot open file : %1 : %2"
+msgstr "تعذّر فتح الملف : %1 : %2"
+
+#: transfer-plugins/contentfetch/contentfetch.cpp:47
+msgctxt "Transfer state: processing script"
+msgid "Processing script...."
+msgstr "تنفيذ السكربت..."
+
+#: transfer-plugins/contentfetch/contentfetch.cpp:78
+msgctxt "Transfer State: Finished"
+msgid "Finished"
+msgstr "منتهي"
+
+#: transfer-plugins/contentfetch/contentfetch.cpp:87
+msgctxt "Transfer State: Aborted"
+msgid "Aborted"
+msgstr "مُجهض"
+
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.cpp:116
+msgctxt "Configure script"
+msgid "Configure script"
+msgstr "اضبط السكربت"
+
+#: transfer-plugins/contentfetch/dlgscriptediting.cpp:25
+msgid "Add New Script"
+msgstr "أضف سكربتًا جديدًا"
+
+#: transfer-plugins/contentfetch/dlgscriptediting.cpp:37
+msgid "Edit Script"
+msgstr "حرّر السكربت"
+
+#: transfer-plugins/contentfetch/dlgscriptediting.cpp:48
+msgid "Set Script File"
+msgstr "اضبط ملف السكربت"
+
+#: ui/tray.cpp:60
+msgid "KGet - Download Manager"
+msgstr "كجت - مدير التنزيل"
+
+#: ui/groupsettingsdialog.cpp:24
+#, kde-format
+msgid "Group Settings for %1"
+msgstr "إعدادات المجموعة %1"
+
+#: ui/groupsettingsdialog.cpp:66
+msgid "Tag Settings for the groups"
+msgstr "إعدادات وسم المجموعات"
+
+#: ui/groupsettingsdialog.cpp:79 ui/nepomukwidget.cpp:60
+msgid "Remove Tag"
+msgstr "أزل الوسم"
+
+#: ui/groupsettingsdialog.cpp:81 ui/nepomukwidget.cpp:66
+msgid "Add Tag"
+msgstr "أضف وسمًا"
+
+#: ui/contextmenu.cpp:74
+msgid "Semantic Desktop"
+msgstr "سطح المكتب الدلالي"
+
+#: ui/contextmenu.cpp:148 mainwindow.cpp:182
+msgid "Delete Group"
+msgid_plural "Delete Groups"
+msgstr[0] "احذف المجموعة"
+msgstr[1] "احذف  المجموعة"
+msgstr[2] "احذف المجموعتين"
+msgstr[3] "احذف المجموعات"
+msgstr[4] "احذف المجموعات"
+msgstr[5] "احذف المجموعات"
+
+#: ui/contextmenu.cpp:152 mainwindow.cpp:187
+msgid "Rename Group..."
+msgid_plural "Rename Groups..."
+msgstr[0] "أعد تسمية المجموعة..."
+msgstr[1] "أعد تسمية المجموعة..."
+msgstr[2] "أعد تسمية المجموعتين..."
+msgstr[3] "أعد تسمية المجموعات..."
+msgstr[4] "أعد تسمية المجموعات..."
+msgstr[5] "أعد تسمية المجموعات..."
+
+#: ui/transfersviewdelegate.cpp:496
+msgid "Transfer Details"
+msgstr "تفاصيل عملية النقل"
+
+#: ui/transfersview.cpp:152
+msgid "Select columns"
+msgstr "اختر الأعمدة"
+
+#: ui/tray_newproto.cpp:45 main.cpp:133 mainwindow.cpp:85 mainwindow.cpp:441
+msgid "KGet"
+msgstr "كجت"
+
+#: ui/tray_newproto.cpp:49 extensions/konqueror/kget_plug_in.cpp:43
+msgid "Download Manager"
+msgstr "مدير التنزيل"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:45
+#: ui/history/transferhistory.cpp:268
+msgid "Today"
+msgstr "اليوم"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:49
+#: ui/history/transferhistory.cpp:269
+msgid "Last week"
+msgstr "الأسبوع الماضي"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:53
+msgid "Last Month"
+msgstr "الشهر الماضي"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:57
+#: ui/history/transferhistory.cpp:271
+msgid "A long time ago"
+msgstr "منذ فترة طويلة مضت"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:77
+msgid "Under 10MiB"
+msgstr "تحت 10 مب"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:80
+msgid "Between 10MiB and 50MiB"
+msgstr "بين 10 مب و 50 مب"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:84
+msgid "Between 50MiB and 100MiB"
+msgstr "بين 50 مب و 100 مب"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:89
+msgid "More than 100MiB"
+msgstr "أكثر من 100 مب"
+
+#: ui/history/transferhistory.cpp:48
+msgid "Transfer History"
+msgstr "تاريخ النقل"
+
+#: ui/history/transferhistory.cpp:81
+msgid "&Open File"
+msgstr "ا&فتح ملفًا"
+
+#: ui/history/transferhistory.cpp:210
+msgctxt "The transfer is running"
+msgid "Running"
+msgstr "قيد التشغيل"
+
+#: ui/history/transferhistory.cpp:212
+msgctxt "The transfer is delayed"
+msgid "Delayed"
+msgstr "مؤجل"
+
+#: ui/history/transferhistory.cpp:214
+msgctxt "The transfer is stopped"
+msgid "Stopped"
+msgstr "موقف"
+
+#: ui/history/transferhistory.cpp:216
+msgctxt "The transfer is aborted"
+msgid "Aborted"
+msgstr "مُجعض"
+
+#: ui/history/transferhistory.cpp:218
+msgctxt "The transfer is finished"
+msgid "Finished"
+msgstr "منتهي"
+
+#: ui/history/transferhistory.cpp:247
+msgid "Source File"
+msgstr "الملف المصدر"
+
+#: ui/history/transferhistory.cpp:247
+msgid "Destination"
+msgstr "المقصد"
+
+#: ui/history/transferhistory.cpp:247
+msgid "Time"
+msgstr "الوقت"
+
+#: ui/history/transferhistory.cpp:247
+msgid "File Size"
+msgstr "حجم الملف"
+
+#: ui/history/transferhistory.cpp:257
+msgid "Less than 1MiB"
+msgstr "أقل من ميجابايت"
+
+#: ui/history/transferhistory.cpp:259
+msgid "Between 1MiB-10MiB"
+msgstr "بين 1 مب و10 مب"
+
+#: ui/history/transferhistory.cpp:261
+msgid "Between 10MiB-100MiB"
+msgstr "بين 10 مب و 100 مب"
+
+#: ui/history/transferhistory.cpp:263
+msgid "Between 100MiB-1GiB"
+msgstr "بين 100 مب-1 جب"
+
+#: ui/history/transferhistory.cpp:265
+msgid "More than 1GiB"
+msgstr "أكثر من 1جيجابايت"
+
+#: ui/history/transferhistory.cpp:270
+msgid "Last month"
+msgstr "آخر شهر"
+
+#: ui/history/transferhistory.cpp:291
+msgctxt "the transfer has been finished"
+msgid "Finished"
+msgstr "منتهي"
+
+#: ui/history/transferhistoryitemdelegate.cpp:41
+msgid "Download again"
+msgstr "نزل مرة أخرى"
+
+#: ui/history/transferhistoryitemdelegate.cpp:46
+msgctxt "Delete selected history-item"
+msgid "Delete selected"
+msgstr "احذف المحدد"
+
+#: ui/history/transferhistoryitemdelegate.cpp:51
+msgid "Open file"
+msgstr "افتح ملفًا"
+
+#: ui/transfersettingsdialog.cpp:18
+#, kde-format
+msgid "Transfer Settings for %1"
+msgstr "إعدادات نقل %1"
+
+#: ui/transferdetails.cpp:37
+msgctxt "@label transfer source"
+msgid "Source:"
+msgstr "المصدر:"
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:247
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: ui/transferdetailsfrm.ui:43
+#. i18n: ectx: property (text), widget (QLabel, destLabel)
+#: ui/transferdetails.cpp:38 rc.cpp:379 rc.cpp:484
+msgid "Saving to:"
+msgstr "يحفظ إلى:"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:55
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: ui/transferdetailsfrm.ui:113
+#. i18n: ectx: property (text), widget (QLabel, statusLabel)
+#: ui/transferdetails.cpp:39 rc.cpp:286 rc.cpp:491
+msgid "Status:"
+msgstr "الحالة:"
+
+#: ui/transferdetails.cpp:74
+#, kde-format
+msgid "%1 of %2"
+msgstr "%1 من %2"
+
+#: ui/droptarget.cpp:86
+msgctxt "fix position for droptarget"
+msgid "Sticky"
+msgstr "ثبات المفتاح"
+
+#: ui/droptarget.cpp:214 mainwindow.cpp:907
+msgid "The dropped file is a KGet Transfer List"
+msgstr "الملف المُسقط هو قائمة عمليات نقل لكجت"
+
+#: ui/droptarget.cpp:215 mainwindow.cpp:908
+msgid "&Download"
+msgstr "ن&زّل"
+
+#: ui/droptarget.cpp:216 mainwindow.cpp:909
+msgid "&Load transfer list"
+msgstr "&حمّل قائمة عمليات النقل"
+
+#: ui/droptarget.cpp:272
+msgid "Show Main Window"
+msgstr "اعرض النافذة الرئيسية"
+
+#: ui/droptarget.cpp:273
+msgid "Hide Main Window"
+msgstr "أخفِ النافذة الرئيسية"
+
+#. i18n: file: conf/dlgappearance.ui:35
+#. i18n: ectx: property (title), widget (QGroupBox, dropTargetGroup)
+#: ui/droptarget.cpp:350 rc.cpp:110
+msgid "Drop Target"
+msgstr "سلة الإسقاط"
+
+#: ui/droptarget.cpp:351
+msgid "You can drag download links into the drop target."
+msgstr "تستطيع سحب وإسقاط روابط التنزيل على هدف  الإسقاط"
+
+#: ui/droptarget.cpp:398
+#, kde-format
+msgctxt ""
+"%1 filename, %2 percent complete, %3 downloaded out of %4 total size, %5 "
+"status"
+msgid "%1(%2% %3/%4) %5"
+msgstr "%1(%2% %3/%4) %5"
+
+#: ui/droptarget.cpp:406
+#, kde-format
+msgctxt "%1 filename, %2 total size, %3 status"
+msgid "%1(%2) %3"
+msgstr "%1(%2) %3"
+
+#: ui/droptarget.cpp:412
+#, kde-format
+msgctxt "%1 filename, %2 percent complete, %3 downloaded out of %4 total size"
+msgid "%1(%2% %3/%4) Speed:%5/s"
+msgstr "%1(%2% %3/%4) السرعة:%5/ث"
+
+#: ui/droptarget.cpp:426
+msgid "Ready"
+msgstr "جاهز"
+
+#: ui/droptarget.cpp:436
+msgid ""
+"Drop target has been hidden. If you want to show it again, go to Settings-"
+">Configure KGet->Look & Feel."
+msgstr ""
+"تم إخفاء هدف الإسقاط. إذا أردت إظهاره مرة أخرى فاذهب إلى إعدادات --> ضبط كجت "
+"--> المظهر"
+
+#: ui/droptarget.cpp:438
+msgid "Hiding drop target"
+msgstr "إخفاء هدف الإسقاط"
+
+#: ui/viewscontainer.cpp:44
+#, kde-format
+msgid "Details for: %1"
+msgstr "تفاصيل: %1"
+
+#: ui/viewscontainer.cpp:49
+msgid "All downloads"
+msgstr "جميع التنزيلات"
+
+#: ui/viewscontainer.cpp:54
+msgid "Finished downloads"
+msgstr "التنزيلات المنتهية"
+
+#: ui/viewscontainer.cpp:83
+msgid "Transfers:"
+msgstr "عمليات النقل:"
+
+#: ui/viewscontainer.cpp:186
+msgid "Downloads"
+msgstr "التنزيلات"
+
+#: ui/viewscontainer.cpp:199
+msgid "Transfer details:"
+msgstr "تفاصيل النقل:"
+
+#: ui/linkview/kget_linkview.cpp:36
+msgid "Import Links"
+msgstr "استورد روابطًا"
+
+#: ui/linkview/kget_linkview.cpp:82
+msgctxt "Download the items which have been selected"
+msgid "&Download Checked"
+msgstr "&نزّل المحدد"
+
+#: ui/linkview/kget_linkview.cpp:124
+msgid "Auxiliary header"
+msgstr "ترويسة إضافية"
+
+#: ui/linkview/kget_linkview.cpp:125
+msgid "File Name"
+msgstr "اسم الملف"
+
+#. i18n: file: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:37
+#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
+#: ui/linkview/kget_linkview.cpp:126 rc.cpp:439
+msgid "Description"
+msgstr "الوصف"
+
+#: ui/linkview/kget_linkview.cpp:127
+msgctxt "list header: type of file"
+msgid "File Type"
+msgstr "نوع الملف"
+
+#: ui/linkview/kget_linkview.cpp:128
+msgid "Location (URL)"
+msgstr "الموقع (المسار)"
+
+#: ui/linkview/kget_linkview.cpp:196
+#, kde-format
+msgid "Links in: %1 - KGet"
+msgstr "الروابط في: %1 - كجت"
+
+#: ui/linkview/kget_linkview.cpp:264
+msgid "&Select All Filtered"
+msgstr "ح&دّد كل المُرَشّح"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:227
+#. i18n: ectx: property (text), widget (KPushButton, selectAll)
+#: ui/linkview/kget_linkview.cpp:264 rc.cpp:619
+msgid "&Select All"
+msgstr "ح&دّد الكل"
+
+#: ui/linkview/kget_linkview.cpp:265
+msgid "D&eselect All Filtered"
+msgstr "ألغِ تحديد المُرَشح"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:217
+#. i18n: ectx: property (text), widget (KPushButton, deselectAll)
+#: ui/linkview/kget_linkview.cpp:265 rc.cpp:616
+msgid "D&eselect All"
+msgstr "أل&غِ تحديد الكل"
+
+#: extensions/konqueror/kget_plug_in.cpp:50 mainwindow.cpp:298
+msgid "Show Drop Target"
+msgstr "أظهر هدف الإسقاط"
+
+#: extensions/konqueror/kget_plug_in.cpp:57
+msgid "List All Links"
+msgstr "اسرد جميع الروابط"
+
+#: extensions/konqueror/kget_plug_in.cpp:62
+msgid "List Selected Links"
+msgstr "اسرد الروابط المحددة"
+
+#: extensions/konqueror/kget_plug_in.cpp:216
+msgid "There are no links in the active frame of the current HTML page."
+msgstr "لا توجد روابط في الإطار النشط في صفحة HTML الحالية"
+
+#: extensions/konqueror/kget_plug_in.cpp:217
+msgid "No Links"
+msgstr "لا توجد روابط"
+
+#: extensions/webinterface/httpserver.cpp:35
+#, kde-format
+msgctxt "@info"
+msgid "Unable to start the server: %1."
+msgstr "غير قادر على بدء الخادم: %1."
+
+#: extensions/webinterface/httpserver.cpp:87
+#, kde-format
+msgctxt "@item speed of transfer per seconds"
+msgid "%1/s"
+msgstr "%1/ث"
+
+#: extensions/webinterface/httpserver.cpp:157
+msgctxt "@label"
+msgid "KGet Web Interface"
+msgstr "واجهة وب كجت"
+
+#: extensions/webinterface/httpserver.cpp:158
+msgctxt "@label number"
+msgid "Nr"
+msgstr "رقم"
+
+#: extensions/webinterface/httpserver.cpp:159
+msgctxt "@label"
+msgid "File name"
+msgstr "اسم الملف"
+
+#: extensions/webinterface/httpserver.cpp:160
+msgctxt "@label Progress of transfer"
+msgid "Finished"
+msgstr "منتهي"
+
+#: extensions/webinterface/httpserver.cpp:161
+msgctxt "@label Speed of transfer"
+msgid "Speed"
+msgstr "السرعة"
+
+#: extensions/webinterface/httpserver.cpp:162
+msgctxt "@label Status of transfer"
+msgid "Status"
+msgstr "الحالة"
+
+#: extensions/webinterface/httpserver.cpp:163
+msgctxt "@action:button start a transfer"
+msgid "Start"
+msgstr "أبدء"
+
+#: extensions/webinterface/httpserver.cpp:164
+msgctxt "@action:button"
+msgid "Stop"
+msgstr "أوقف"
+
+#: extensions/webinterface/httpserver.cpp:165
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "أزل"
+
+#: extensions/webinterface/httpserver.cpp:166
+msgctxt "@label Download from"
+msgid "Source:"
+msgstr "المصدر:"
+
+#: extensions/webinterface/httpserver.cpp:167
+msgctxt "@label Save download to"
+msgid "Saving to:"
+msgstr "جاري الحفظ إلى:"
+
+#: extensions/webinterface/httpserver.cpp:168
+msgctxt "@label Title in header"
+msgid "Web Interface"
+msgstr "واجهة الوب"
+
+#: extensions/webinterface/httpserver.cpp:169
+msgctxt "@action"
+msgid "Settings"
+msgstr "إعدادات"
+
+#: extensions/webinterface/httpserver.cpp:170
+msgctxt "@action"
+msgid "Refresh"
+msgstr "أنعش"
+
+#: extensions/webinterface/httpserver.cpp:171
+msgctxt "@action"
+msgid "Enter URL: "
+msgstr "أدخل المسار:"
+
+#: extensions/webinterface/httpserver.cpp:172
+msgctxt "@action:button"
+msgid "OK"
+msgstr "موافق"
+
+#: extensions/webinterface/httpserver.cpp:174
+msgctxt "@action Refresh download list every x (seconds)"
+msgid "Refresh download list every"
+msgstr "أنعش قائمة التنزيل كل"
+
+#: extensions/webinterface/httpserver.cpp:175
+msgctxt "@action (Refresh very x )seconds"
+msgid "seconds"
+msgstr "ثوانٍ"
+
+#: extensions/webinterface/httpserver.cpp:176
+msgctxt "@action:button"
+msgid "Save Settings"
+msgstr "احفظ الإعدادات"
+
+#: extensions/webinterface/httpserver.cpp:177
+msgctxt "@title"
+msgid "Downloads"
+msgstr "التنزيلات"
+
+#: extensions/webinterface/httpserver.cpp:179
+msgctxt "@label text in footer"
+msgid "KGet Web Interface | Valid XHTML 1.0 Strict &amp; CSS"
+msgstr " واجهة وب كجت | Valid XHTML 1.0 Strict &amp; CSS"
+
+#: main.cpp:135
+msgid "An advanced download manager for KDE"
+msgstr "مدير تنزيل متقدم لكدي"
+
+#: main.cpp:137
+msgid ""
+"(C) 2005 - 2009, The KGet developers\n"
+"(C) 2001 - 2002, Patrick Charbonnier\n"
+"(C) 2002, Carsten Pfeiffer\n"
+"(C) 1998 - 2000, Matej Koss"
+msgstr ""
+"(C) 2005 - 2009, مطورو كجت\n"
+"(C) 2001 - 2002, Patrick Charbonnier\n"
+"(C) 2002, Carsten Pfeiffer\n"
+"(C) 1998 - 2000, Matej Koss"
+
+#: main.cpp:141
+msgid "<a href=\"mailto:kget@kde.org\">kget@kde.org</a>"
+msgstr "<a href=\"mailto:kget@kde.org\">kget@kde.org</a>"
+
+#: main.cpp:143
+msgid "Dario Massarin"
+msgstr "Dario Massarin"
+
+#: main.cpp:143
+msgid "Maintainer, Core Developer"
+msgstr "مشرف ومطور أساسي"
+
+#: main.cpp:144
+msgid "Urs Wolfer"
+msgstr "Urs Wolfer"
+
+#: main.cpp:144
+msgid "Core Developer"
+msgstr "مطور أساسي"
+
+#: main.cpp:145
+msgid "Manolo Valdes"
+msgstr "Manolo Valdes"
+
+#: main.cpp:145
+msgid "Core Developer, Multithreaded Plugin Author"
+msgstr "مطور أساسي، وكاتب ملحق مسارات المعالجة المتعددة"
+
+#: main.cpp:146
+msgid "Javier Goday"
+msgstr "Javier Goday"
+
+#: main.cpp:146
+msgid "Developer"
+msgstr "مطور"
+
+#: main.cpp:147
+msgid "Lukas Appelhans"
+msgstr "Lukas Appelhans"
+
+#: main.cpp:147
+msgid "Developer, Torrent Plugin Author"
+msgstr "مطور  كاتب ملحق تورنت"
+
+#: main.cpp:148
+msgid "Patrick Charbonnier"
+msgstr "Patrick Charbonnier"
+
+#: main.cpp:148 main.cpp:149 main.cpp:150
+msgid "Former Developer"
+msgstr "مطور سابق"
+
+#: main.cpp:149
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: main.cpp:150
+msgid "Matej Koss"
+msgstr "Matej Koss"
+
+#: main.cpp:151
+msgid "Joris Guisson"
+msgstr "Joris Guisson"
+
+#: main.cpp:151
+msgid "BTCore (KTorrent) Developer"
+msgstr "مطور BTCore (KTorrent)"
+
+#: main.cpp:152
+msgid "Mensur Zahirovic (Nookie)"
+msgstr "Mensur Zahirovic (Nookie)"
+
+#: main.cpp:152
+msgid "Design of Web Interface"
+msgstr "تصميم واجهة الوب"
+
+#: main.cpp:157
+msgid "Start KGet with drop target"
+msgstr "ابدأ كجت مع هدف الإسقاط"
+
+#: main.cpp:158
+msgid "Start KGet with hidden main window"
+msgstr "ابدأ كجت مع إخفاء النافذة الرئيسية"
+
+#: main.cpp:159
+msgid "Start KGet without drop target animation"
+msgstr "أبدأ كجت بدون تحريكات هدف الإسقاط"
+
+#: main.cpp:160
+msgid "URL(s) to download"
+msgstr "المسارات المطلوب تنزيلها"
+
+#: mainwindow.cpp:141
+msgid "KGet Transfer List"
+msgstr "قائمة عمليات نقل كجت"
+
+#: mainwindow.cpp:148
+msgid "Export Transfers"
+msgstr "صدّر عمليات النقل"
+
+#: mainwindow.cpp:158
+msgid "&New Download..."
+msgstr "تنزيل &جديد..."
+
+#: mainwindow.cpp:164
+msgid "&Import Transfers..."
+msgstr "اس&تورد عمليات النقل..."
+
+#: mainwindow.cpp:170
+msgid "&Export Transfers List..."
+msgstr "صدِّر &قائمة عمليات النقل..."
+
+#: mainwindow.cpp:176
+msgid "&Export Transfers as Plain Text..."
+msgstr "صدِّر عمليات النقل &كنص مجرد..."
+
+#: mainwindow.cpp:192
+msgid "Set Icon..."
+msgstr "اضبط الأيقونة..."
+
+#: mainwindow.cpp:197
+msgid "Auto-Paste Mode"
+msgstr "وضع اللصق التلقائي"
+
+#: mainwindow.cpp:200
+msgid ""
+"<b>Auto paste</b> button toggles the auto-paste mode on and off.\n"
+"When set, KGet will periodically scan the clipboard for URLs and paste them "
+"automatically."
+msgstr ""
+"يشغل زر <b> لصق تلقائي</b> ويعطل وضع اللصق التلقائي.\n"
+"عند تشغيله ، سيقوم كجت بمسح للحافظة بشكل دوري لأي مسارات وسيقوم بلصقها "
+"تلقائياً إن وجدها."
+
+#: mainwindow.cpp:206
+msgid "Use KGet as Konqueror Download Manager"
+msgstr "استخدم كجت كمدير التنزيل لكنرر"
+
+#: mainwindow.cpp:224
+msgctxt "delete selected transfer item"
+msgid "Delete Selected"
+msgstr "احذف النقل المحدد"
+
+#: mainwindow.cpp:230
+msgctxt "delete all finished transfers"
+msgid "Delete All Finished"
+msgstr "احذف كل التنقلات المنهية"
+
+#: mainwindow.cpp:235
+msgctxt "redownload selected transfer item"
+msgid "Redownload Selected"
+msgstr "أعد تنزيل النقل المحدد"
+
+#: mainwindow.cpp:240
+msgid "Start / Resume All"
+msgstr "أبدأ/استأنف الكل"
+
+#: mainwindow.cpp:246
+msgid "Start / Resume Selected"
+msgstr "أبدأ/استأنف المحدد"
+
+#: mainwindow.cpp:251
+msgid "Stop All"
+msgstr "أوقف الكل"
+
+#: mainwindow.cpp:257
+msgid "Stop Selected"
+msgstr "أوقف المحدد"
+
+#: mainwindow.cpp:261
+msgid "Start / Resume"
+msgstr "ابدأ/استأنف"
+
+#: mainwindow.cpp:269
+msgid "Stop"
+msgstr "أوقف"
+
+#: mainwindow.cpp:278
+msgid "Open Destination"
+msgstr "افتح المقصد"
+
+#: mainwindow.cpp:283 mainwindow.cpp:423
+msgid "Open File"
+msgstr "افتح الملف"
+
+#: mainwindow.cpp:288
+msgid "Show Details"
+msgstr "أظهر التفاصيل"
+
+#: mainwindow.cpp:293
+msgid "Copy URL to Clipboard"
+msgstr "انسخ المسار إلى الحافظة"
+
+#: mainwindow.cpp:304
+msgid "&Transfer History"
+msgstr "تاريخ ال&نقل"
+
+#: mainwindow.cpp:310
+msgid "&Group Settings"
+msgstr "إعدادات الم&جموعات"
+
+#: mainwindow.cpp:316
+msgid "&Transfer Settings"
+msgstr "إعدادات الن&قل"
+
+#: mainwindow.cpp:322
+msgid "Import &Links..."
+msgstr "استورد ر&وابطًا..."
+
+#: mainwindow.cpp:363
+msgid ""
+"This is the first time you have run KGet.\n"
+"Would you like to enable KGet as the download manager for Konqueror?"
+msgstr ""
+"هذه هي المرة الأولى التي تشغل فيها كجت.\n"
+"أتريد تفعيل كجت كمدير التحميل كنكرر ؟"
+
+#: mainwindow.cpp:365
+msgid "Konqueror Integration"
+msgstr "التكامل مع كنكرر"
+
+#: mainwindow.cpp:365
+msgid "Enable"
+msgstr "مكّن"
+
+#: mainwindow.cpp:366
+msgid "Do Not Enable"
+msgstr "لا تمكّن"
+
+#: mainwindow.cpp:422
+msgid "All Openable Files"
+msgstr "كل الملفات القابلة للفتح"
+
+#: mainwindow.cpp:439
+#, kde-format
+msgctxt "window title including overall download progress in percent"
+msgid "KGet - %1%"
+msgstr "كجت - %1%"
+
+#: mainwindow.cpp:449
+msgid ""
+"Some transfers are still running.\n"
+"Are you sure you want to close KGet?"
+msgstr ""
+"بعض عمليات النقل لا زالت قيد التشغيل.\n"
+"أمتأكد من أنك تريد إنهاء كجت؟"
+
+#: mainwindow.cpp:451
+msgid "Confirm Quit"
+msgstr "تأكيد الإنهاء"
+
+#: mainwindow.cpp:506
+msgid "Enter Group Name"
+msgstr "أدخل اسم المجموعة"
+
+#: mainwindow.cpp:507
+msgid "Group name:"
+msgstr "اسم المجموعة:"
+
+#: mainwindow.cpp:575
+msgid "Are you sure you want to delete the selected transfer?"
+msgid_plural "Are you sure you want to delete the selected transfers?"
+msgstr[0] "أمتأكد أنك تريد حذف عملية النقل المحددة؟"
+msgstr[1] "أمتأكد أنك تريد حذف عملية النقل المحددة؟"
+msgstr[2] "أمتأكد أنك تريد حذف عمليتا النقل المحددتان؟"
+msgstr[3] "أمتأكد أنك تريد حذف عمليات النقل المحددة؟"
+msgstr[4] "أمتأكد أنك تريد حذف عمليات النقل المحددة؟"
+msgstr[5] "أمتأكد أنك تريد حذف عمليات النقل المحددة؟"
+
+#: mainwindow.cpp:577
+msgid "Confirm transfer delete"
+msgstr "أكّد حذف النقل"
+
+#: mainwindow.cpp:777
+msgid ""
+"KGet has been temporarily disabled as download manager for Konqueror. If you "
+"want to disable it forever, go to Settings->Advanced and disable \"Use as "
+"download manager for Konqueror\"."
+msgstr ""
+"كجت معطل مؤقتًا كمدير تنزيل لكنكرر. إذا أردت تعطيله إلى الأبد، اذهب إلى "
+"إعدادات -> متقدمة وعطل \"استعمل كمدير التنزيل لكنكرر\""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Majed Ali,زايد السعيدي,أسامة خالد"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "GMajedli@gmail.com,zayed.alsaidi@gmail.com,osamak.wfm@gmail.com"
+
+#. i18n: file: conf/dlgnetwork.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_LimitDownloads)
+#: rc.cpp:5
+msgid "Limit Maximum Downloads Per Group"
+msgstr "حدّ التنزيلات القصوى لكل مجموعة"
+
+#. i18n: file: conf/dlgnetwork.ui:28
+#. i18n: ectx: property (text), widget (QLabel, lbl_maxnum)
+#: rc.cpp:8
+msgid "Number of downloads:"
+msgstr "عدد التنزيلات:"
+
+#. i18n: file: conf/dlgnetwork.ui:45
+#. i18n: ectx: property (text), widget (QLabel, lbl_maxnum_2)
+#: rc.cpp:11
+msgid "Downloads from the same server:"
+msgstr "التنزيلات من نفس الخادوم:"
+
+#. i18n: file: conf/dlgnetwork.ui:62
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_SpeedLimit)
+#: rc.cpp:14
+msgid "Speed Limit"
+msgstr "حد السرعة"
+
+#. i18n: file: conf/dlgnetwork.ui:71
+#. i18n: ectx: property (text), widget (QLabel, dllimitlb)
+#: rc.cpp:17
+msgid "Global download limit:"
+msgstr "حد التنزيل العام:"
+
+#. i18n: file: conf/dlgnetwork.ui:78
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GlobalDownloadLimit)
+#. i18n: file: conf/dlgnetwork.ui:101
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GlobalUploadLimit)
+#. i18n: file: conf/dlgnetwork.ui:124
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_TransferSpeedLimit)
+#: rc.cpp:20 rc.cpp:26 rc.cpp:32
+msgid "KiB/s"
+msgstr "ك.ب/ثانية"
+
+#. i18n: file: conf/dlgnetwork.ui:94
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:23
+msgid "Global upload limit:"
+msgstr "حد الرفع العام:"
+
+#. i18n: file: conf/dlgnetwork.ui:117
+#. i18n: ectx: property (text), widget (QLabel, lb_per_transfer)
+#: rc.cpp:29
+msgid "Per transfer:"
+msgstr "لكل نقل:"
+
+#. i18n: file: conf/dlgnetwork.ui:140
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_ReconnectOnBroken)
+#: rc.cpp:35
+msgid "Reconnect on Error or Broken Connection"
+msgstr "أعد الإتصال عند حدوث خطأ أو انقطاع الاتصال"
+
+#. i18n: file: conf/dlgnetwork.ui:149
+#. i18n: ectx: property (text), widget (QLabel, lb_retries_2)
+#: rc.cpp:38
+msgid "Number of retries:"
+msgstr "عدد المحاولات:"
+
+#. i18n: file: conf/dlgnetwork.ui:163
+#. i18n: ectx: property (text), widget (QLabel, lb_after_2)
+#: rc.cpp:41
+msgid "Retry after:"
+msgstr "أعِد المحاولة بعد:"
+
+#. i18n: file: conf/dlgnetwork.ui:170
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ReconnectDelay)
+#: rc.cpp:44
+msgid "sec"
+msgstr "ث"
+
+#. i18n: file: conf/dlgnetwork.ui:189
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxCompleted)
+#: rc.cpp:47
+msgid "After Completing Downloads"
+msgstr "بعد اكتمال التنزيلات"
+
+#. i18n: file: conf/dlgnetwork.ui:195
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoShutdown)
+#: rc.cpp:50
+msgid "Auto shutdown"
+msgstr "إغلاق الحاسوب تلقائيًا"
+
+#. i18n: file: conf/dlgnetwork.ui:202
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoDisconnect)
+#: rc.cpp:53
+msgid "Auto disconnect"
+msgstr "قطع الاتصال تلقائيًا"
+
+#. i18n: file: conf/dlgadvanced.ui:16
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ExpertMode)
+#: rc.cpp:56
+msgid "Disable confirmation dialogs (less verbosity)"
+msgstr "عطل مربع حوار التأكيد (أقل اسهابًا)"
+
+#. i18n: file: conf/dlgadvanced.ui:23
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableSystemTray)
+#: rc.cpp:59
+msgid "Enable system tray icon"
+msgstr "مكّن أيقونة صينية النظام"
+
+#. i18n: file: conf/dlgadvanced.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AfterFinishActionEnabled)
+#: rc.cpp:62
+msgid "Execute action after all downloads have been finished:"
+msgstr "نفذ أمرًا معينًا بعد انتهاء جميع التنزيلات:"
+
+#. i18n: file: conf/dlgadvanced.ui:48
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:68
+msgid "At startup:"
+msgstr "عند بدء التشغيل:"
+
+#. i18n: file: conf/dlgadvanced.ui:56
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartupAction)
+#: rc.cpp:71
+msgid "Restore Download State"
+msgstr "استعد حالة التنزيل"
+
+#. i18n: file: conf/dlgadvanced.ui:61
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartupAction)
+#: rc.cpp:74
+msgid "Start All Downloads"
+msgstr "ابدء جميع التنزيلات"
+
+#. i18n: file: conf/dlgadvanced.ui:66
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartupAction)
+#: rc.cpp:77
+msgid "Stop All Downloads"
+msgstr "أوقف جميع التنزيلات"
+
+#. i18n: file: conf/dlgadvanced.ui:76
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:80
+msgid "History"
+msgstr "التاريخ"
+
+#. i18n: file: conf/dlgadvanced.ui:82
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:83
+msgid "History backend:"
+msgstr "النهاية الخلفية للتاريخ"
+
+#. i18n: file: conf/dlgadvanced.ui:95
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
+#: rc.cpp:86
+msgid "Integration"
+msgstr "التكامل"
+
+#. i18n: file: conf/dlgadvanced.ui:101
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KonquerorIntegration)
+#: rc.cpp:89
+msgid "Use as download manager for Konqueror"
+msgstr "استعمل كمدير التنزيل لكنكرر"
+
+#. i18n: file: conf/dlgadvanced.ui:108
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoPaste)
+#: rc.cpp:92
+msgid "Monitor clipboard for files to download"
+msgstr "راقب الحافظة لتنزيل أي ملفات"
+
+#. i18n: file: conf/dlgadvanced.ui:118
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_EnableKUIServerIntegration)
+#: rc.cpp:95
+msgid "Enable KDE global progress tracking"
+msgstr "فعّل تتبع تقدم كدي العام"
+
+#. i18n: file: conf/dlgadvanced.ui:130
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExportSingleTransfer)
+#: rc.cpp:98
+msgid "Show every single download "
+msgstr "أظهر كل عملية تنزيل"
+
+#. i18n: file: conf/dlgadvanced.ui:137
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExportGlobalJob)
+#: rc.cpp:101
+msgid "Show overall progress"
+msgstr "أظهر التقدم الإجمالي"
+
+#. i18n: file: conf/dlgappearance.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, startupGroup)
+#: rc.cpp:104
+msgid "Startup"
+msgstr "بدء التشغيل"
+
+#. i18n: file: conf/dlgappearance.ui:25
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSplashscreen)
+#: rc.cpp:107
+msgid "Show splashscreen"
+msgstr "أظهر شاشة البدء"
+
+#. i18n: file: conf/dlgappearance.ui:41
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowDropTarget)
+#: rc.cpp:113
+msgid "Show drop target"
+msgstr "أظهر هدف الإسقاط"
+
+#. i18n: file: conf/dlgappearance.ui:48
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AnimateDropTarget)
+#: rc.cpp:116
+msgid "Enable animations"
+msgstr "فعّل التحريكات"
+
+#. i18n: file: conf/dlgappearance.ui:58
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:119
+msgid "Transfer List"
+msgstr "قائمة النقل"
+
+#. i18n: file: conf/dlgappearance.ui:64
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowExpandableTransferDetails)
+#: rc.cpp:122
+msgid "Expandable transfer details instead of separate tabs"
+msgstr "تفاصيل نقل قابلة للتمدد بدلاً من ألسنة منفصلة"
+
+#. i18n: file: conf/dlgwebinterface.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_WebinterfaceEnabled)
+#: rc.cpp:125
+msgid "Enable Web Interface"
+msgstr "فعّل واجهة الوب"
+
+#. i18n: file: conf/dlgwebinterface.ui:31
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:31
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: rc.cpp:128 rc.cpp:212
+msgid "Port:"
+msgstr "منفذ:"
+
+#. i18n: file: conf/dlgwebinterface.ui:45
+#. i18n: ectx: property (text), widget (QLabel, userLabel)
+#: rc.cpp:131
+msgid "User:"
+msgstr "المستخدم:"
+
+#. i18n: file: conf/dlgwebinterface.ui:59
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:87
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: rc.cpp:134 rc.cpp:409
+msgid "Password:"
+msgstr "كلمة المرور:"
+
+#. i18n: file: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:16
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: rc.cpp:137
+msgid "Threads"
+msgstr "مسارات المعالجة"
+
+#. i18n: file: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:25
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:140
+msgid "Number of threads:"
+msgstr "عدد مسارات المعالجة:"
+
+#. i18n: file: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:45
+#. i18n: ectx: property (text), widget (QLabel, segmentSizeLabel)
+#: rc.cpp:143
+msgid "Minimal segment size:"
+msgstr "حجم القطعة الأدنى:"
+
+#. i18n: file: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:52
+#. i18n: ectx: property (suffix), widget (QSpinBox, minSegSizeSpinBox)
+#. i18n: file: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:81
+#. i18n: ectx: property (suffix), widget (QSpinBox, saveDataSizeSpinBox)
+#: rc.cpp:146 rc.cpp:152
+msgid "kBi"
+msgstr "ك.ب"
+
+#. i18n: file: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:74
+#. i18n: ectx: property (text), widget (QLabel, saveDataLabel)
+#: rc.cpp:149
+msgid "Save data every:"
+msgstr "احفظ البيانات كل:"
+
+#. i18n: file: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:102
+#. i18n: ectx: property (text), widget (QCheckBox, enginesCheckBox)
+#: rc.cpp:155
+msgid "Use search engines"
+msgstr "استخدم محركات البحث"
+
+#. i18n: file: transfer-plugins/mirrorsearch/dlgengineediting.ui:30
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: ui/newtransferwidget.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:161 rc.cpp:283 rc.cpp:475
+msgid "URL:"
+msgstr "المسار:"
+
+#. i18n: file: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:16
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: rc.cpp:164
+msgid "Search Engines"
+msgstr "محركات البحث"
+
+#. i18n: file: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:27
+#. i18n: ectx: property (text), widget (QTreeWidget, enginesTreeWidget)
+#: rc.cpp:167
+msgid "Engine Name"
+msgstr "اسم المحرك"
+
+#. i18n: file: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:55
+#. i18n: ectx: property (text), widget (QPushButton, newEngineBt)
+#: rc.cpp:173
+msgid "New Engine..."
+msgstr "محرك جديد..."
+
+#. i18n: file: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:62
+#. i18n: ectx: property (text), widget (QPushButton, removeEngineBt)
+#. i18n: file: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:67
+#. i18n: ectx: property (text), widget (QPushButton, removeScriptButton)
+#: rc.cpp:176 rc.cpp:445
+msgid "Remove"
+msgstr "أزل"
+
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:16
+#. i18n: ectx: property (text), widget (QLabel, torrent_label)
+#: rc.cpp:179
+msgid "Scanning data of torrent:"
+msgstr "مسح بيانات التورنت:"
+
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:30
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:182
+msgid "Number of chunks found:"
+msgstr "عدد الكتل التي عُثر عليها:"
+
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:40
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:185
+msgid "Number of chunks failed:"
+msgstr "عدد الكتل التي فشلت:"
+
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:50
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:188
+msgid "Number of chunks not downloaded:"
+msgstr "عدد الكتل التي لم تُنزّل:"
+
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:57
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:191
+msgid "Number of chunks downloaded:"
+msgstr "عدد الكتل التي نُزّلت:"
+
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:77
+#. i18n: ectx: property (text), widget (QLabel, chunks_found)
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:102
+#. i18n: ectx: property (text), widget (QLabel, chunks_failed)
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:124
+#. i18n: ectx: property (text), widget (QLabel, chunks_not_downloaded)
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:137
+#. i18n: ectx: property (text), widget (QLabel, chunks_downloaded)
+#: rc.cpp:194 rc.cpp:197 rc.cpp:200 rc.cpp:203
+msgid "0"
+msgstr "0"
+
+#. i18n: file: transfer-plugins/bittorrent/scandlg.ui:183
+#. i18n: ectx: property (text), widget (KPushButton, cancel)
+#: rc.cpp:206
+msgid "Cancel"
+msgstr "ألغِ"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:48
+#. i18n: ectx: property (text), widget (QLabel, uploadLimitLabel)
+#: rc.cpp:215
+msgid "Upload limit per transfer:"
+msgstr "حد الرفع لعملية النقل الواحدة:"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:55
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, uploadBox)
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:75
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, downloadBox)
+#: rc.cpp:218 rc.cpp:227
+msgid "No Limit"
+msgstr "بدون حد"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:58
+#. i18n: ectx: property (suffix), widget (QSpinBox, uploadBox)
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:78
+#. i18n: ectx: property (suffix), widget (QSpinBox, downloadBox)
+#. i18n: file: ui/transfersettingsdialog.ui:41
+#. i18n: ectx: property (suffix), widget (QSpinBox, uploadSpin)
+#. i18n: file: ui/transfersettingsdialog.ui:61
+#. i18n: ectx: property (suffix), widget (QSpinBox, downloadSpin)
+#. i18n: file: ui/groupsettingsdialog.ui:91
+#. i18n: ectx: property (suffix), widget (QSpinBox, downloadBox)
+#. i18n: file: ui/groupsettingsdialog.ui:117
+#. i18n: ectx: property (suffix), widget (QSpinBox, uploadBox)
+#: rc.cpp:221 rc.cpp:230 rc.cpp:460 rc.cpp:466 rc.cpp:518 rc.cpp:524
+msgid "KiB"
+msgstr "ك.ب"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:68
+#. i18n: ectx: property (text), widget (QLabel, downloadLabel)
+#: rc.cpp:224
+msgid "Download limit per transfer:"
+msgstr "حد التنزيل لعملية النقل الواحدة:"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:97
+#. i18n: ectx: property (title), widget (QGroupBox, folderGroupBox)
+#: rc.cpp:233
+msgid "Folders"
+msgstr "المجلدات"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:109
+#. i18n: ectx: property (text), widget (QLabel, torrentFolderLabel)
+#: rc.cpp:236
+msgid "Default torrent folder:"
+msgstr "مجلد التورنت المبدئي:"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:129
+#. i18n: ectx: property (text), widget (QLabel, tempFolderLabel)
+#: rc.cpp:239
+msgid "Default temporary folder"
+msgstr "المجلد المؤفت المبدئي:"
+
+#. i18n: file: transfer-plugins/bittorrent/btsettingswidget.ui:146
+#. i18n: ectx: property (text), widget (QCheckBox, preallocBox)
+#: rc.cpp:242
+msgid "Pre-allocate disk space"
+msgstr "مساحة القرص المسبقة"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/webseedstab.ui:21
+#. i18n: ectx: property (toolTip), widget (KLineEdit, m_webseed)
+#: rc.cpp:245
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Webseed to add to the "
+"torrent.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Note: </span>Only http webseeds are supported.</p></body></"
+"html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">بذرة وب لإضافتها للتورنت</"
+"p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">ملاحظة: </span>موزع ويب http فقط مدعوم</p></body></html>"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/webseedstab.ui:28
+#. i18n: ectx: property (text), widget (QPushButton, m_add)
+#: rc.cpp:253
+msgid "Add Webseed"
+msgstr "أضف بذرة وب"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/webseedstab.ui:50
+#. i18n: ectx: property (text), widget (QPushButton, m_remove)
+#: rc.cpp:256
+msgid "Remove Webseed"
+msgstr "أزل بذرة وب"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ChunkDownloadView)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:154
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:259 rc.cpp:349
+msgid "Chunks"
+msgstr "الكتل"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:23
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:262
+msgid "Total:"
+msgstr "الإجمالي:"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:59
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:265
+msgid "Currently downloading:"
+msgstr "ما يجري تحميله حالياً:"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:95
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:163
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:268 rc.cpp:352
+msgid "Downloaded:"
+msgstr "المُنزّل:"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:131
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:205
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:271 rc.cpp:370
+msgid "Excluded:"
+msgstr "المستبعد:"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:167
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
+#: rc.cpp:274
+msgid "Left:"
+msgstr "المتبقي:"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:203
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_8)
+#: rc.cpp:277
+msgid "Size:"
+msgstr "الحجم:"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:26
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:280
+msgid "Current Tracker"
+msgstr "المتتبع الحالي:"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:78
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:47
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:289 rc.cpp:325
+msgid "Seeders:"
+msgstr "الموزعون:"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:102
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:99
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:292 rc.cpp:337
+msgid "Leechers:"
+msgstr "العلق:"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:126
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:295
+msgid "Times downloaded:"
+msgstr "عدد مرات التنزيل:"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:150
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:298
+msgid "Next update in:"
+msgstr "التحديث التالي عند:"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:189
+#. i18n: ectx: property (text), widget (KPushButton, m_announce)
+#: rc.cpp:301
+msgid "Manual Announce"
+msgstr "إعلان يدوي"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:196
+#. i18n: ectx: property (text), widget (QPushButton, m_scrape)
+#: rc.cpp:304
+msgid "Scrape"
+msgstr "المُحرَز"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:219
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:307
+msgid "Available Trackers"
+msgstr "المتتبعون المتوفرون"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:232
+#. i18n: ectx: property (text), widget (KPushButton, m_add_tracker)
+#: rc.cpp:310
+msgid "Add Tracker"
+msgstr "أضف متتبعًا"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:244
+#. i18n: ectx: property (text), widget (KPushButton, m_remove_tracker)
+#: rc.cpp:313
+msgid "Remove Tracker"
+msgstr "أزل متتبعًا"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:251
+#. i18n: ectx: property (text), widget (KPushButton, m_change_tracker)
+#: rc.cpp:316
+msgid "Change Tracker"
+msgstr "غيّر متتبعًا"
+
+#. i18n: file: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:271
+#. i18n: ectx: property (text), widget (KPushButton, m_restore_defaults)
+#: rc.cpp:319
+msgid "Restore Defaults"
+msgstr "استعد المبدئيات"
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:29
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:322
+msgid "Stats"
+msgstr "الحالة"
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:60
+#. i18n: ectx: property (text), widget (QLabel, seederLabel)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:86
+#. i18n: ectx: property (text), widget (QLabel, dlSpeedLabel)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:112
+#. i18n: ectx: property (text), widget (QLabel, leecherLabel)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:138
+#. i18n: ectx: property (text), widget (QLabel, ulSpeedLabel)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:170
+#. i18n: ectx: property (text), widget (QLabel, chunksDownloadedLabel)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:184
+#. i18n: ectx: property (text), widget (QLabel, chunksLeftLabel)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:198
+#. i18n: ectx: property (text), widget (QLabel, chunksAllLabel)
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:212
+#. i18n: ectx: property (text), widget (QLabel, chunksExcludedLabel)
+#: rc.cpp:328 rc.cpp:334 rc.cpp:340 rc.cpp:346 rc.cpp:355 rc.cpp:361
+#: rc.cpp:367 rc.cpp:373
+msgid "<n>"
+msgstr "<n>"
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:73
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:331
+msgid "Download speed:"
+msgstr "سرعة التنزيل:"
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:125
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: rc.cpp:343
+msgid "Upload speed:"
+msgstr "سرعة الرفع:"
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:177
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:358
+msgctxt "chunks left"
+msgid "Left:"
+msgstr "المتبقي:"
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:191
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:364
+msgctxt "all chunks"
+msgid "All:"
+msgstr "الكل:"
+
+#. i18n: file: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:240
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#. i18n: file: ui/transferdetailsfrm.ui:50
+#. i18n: ectx: property (text), widget (QLabel, sourceLabel)
+#: rc.cpp:376 rc.cpp:487
+msgctxt "source-file"
+msgid "Source:"
+msgstr "المصدر:"
+
+#. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, fileSettingGroupBox)
+#: rc.cpp:382
+msgid "File Settings"
+msgstr "إعدادات الملفات"
+
+#. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:25
+#. i18n: ectx: property (text), widget (QLabel, fileNameLabel)
+#: rc.cpp:385
+msgid "Filename:"
+msgstr "اسم الملف:"
+
+#. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:33
+#. i18n: ectx: property (text), item, widget (QComboBox, fileNameComboBox)
+#: rc.cpp:388
+msgid "Use Normalized Name"
+msgstr "استخدم اسم الملف  معدلًا"
+
+#. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:38
+#. i18n: ectx: property (text), item, widget (QComboBox, fileNameComboBox)
+#: rc.cpp:391
+msgid "Use Literal Name"
+msgstr "استخدم اسمًا حرفيًا"
+
+#. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:46
+#. i18n: ectx: property (text), widget (QLabel, qualityLabel)
+#: rc.cpp:394
+msgid "Quality:"
+msgstr "الجودة:"
+
+#. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:54
+#. i18n: ectx: property (text), item, widget (QComboBox, qualityComboBox)
+#: rc.cpp:397
+msgid "Best Quality (.mp4)"
+msgstr "أفضل جودة  (.mp4)"
+
+#. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:59
+#. i18n: ectx: property (text), item, widget (QComboBox, qualityComboBox)
+#: rc.cpp:400
+msgid "Normal Quality (.flv)"
+msgstr "جودة عادية (.flv)"
+
+#. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:70
+#. i18n: ectx: property (toolTip), widget (QGroupBox, loginGroupBox)
+#: rc.cpp:403
+msgid ""
+"Provide login info of your YouTube account in order to access restricted "
+"media."
+msgstr "أعطِ معلومات الدخول لحسابك على يوتيوب لكي تصل إلى الوسائط المُقيّدة"
+
+#. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:73
+#. i18n: ectx: property (title), widget (QGroupBox, loginGroupBox)
+#: rc.cpp:406
+msgid "Login Info"
+msgstr "معلومات الدخول"
+
+#. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:101
+#. i18n: ectx: property (text), widget (QLabel, usernameLabel)
+#: rc.cpp:412
+msgid "Username:"
+msgstr "اسم المستخدم:"
+
+#. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:113
+#. i18n: ectx: property (toolTip), widget (QCheckBox, useNetrcCheck)
+#: rc.cpp:415
+msgid ".netrc must have a hostname called 'youtube'."
+msgstr "يجب أن يكون في .netrc اسم مضيف يدعى 'youtube'."
+
+#. i18n: file: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:116
+#. i18n: ectx: property (text), widget (QCheckBox, useNetrcCheck)
+#: rc.cpp:418
+msgid "User .netrc file"
+msgstr "ملف المستخدم .netrc"
+
+#. i18n: file: transfer-plugins/contentfetch/dlgscriptediting.ui:29
+#. i18n: ectx: property (text), widget (QLabel, scriptUrlRegexpLabel)
+#: rc.cpp:421
+msgid "Regexp:"
+msgstr "العبارة المنطقية:"
+
+#. i18n: file: transfer-plugins/contentfetch/dlgscriptediting.ui:36
+#. i18n: ectx: property (text), widget (QLabel, scriptPathLabel)
+#: rc.cpp:424
+msgid "Path:"
+msgstr "المسار:"
+
+#. i18n: file: transfer-plugins/contentfetch/dlgscriptediting.ui:43
+#. i18n: ectx: property (text), widget (QLabel, scriptDescriptionLabel)
+#: rc.cpp:427
+msgid "Description:"
+msgstr "الوصف:"
+
+#. i18n: file: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:16
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: rc.cpp:430
+msgid "User Scripts"
+msgstr "سكربتات المستخدم"
+
+#. i18n: file: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:27
+#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
+#: rc.cpp:433
+msgid "Path"
+msgstr "المسار"
+
+#. i18n: file: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:32
+#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
+#: rc.cpp:436
+msgid "RegExp"
+msgstr "العبارة المنطقية"
+
+#. i18n: file: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:60
+#. i18n: ectx: property (text), widget (QPushButton, newScriptButton)
+#: rc.cpp:442
+msgid "New Script...."
+msgstr "سكربت جديد..."
+
+#. i18n: file: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:74
+#. i18n: ectx: property (text), widget (QPushButton, editScriptButton)
+#: rc.cpp:448
+msgid "Edit...."
+msgstr "حرّر..."
+
+#. i18n: file: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:81
+#. i18n: ectx: property (text), widget (QPushButton, configureScriptButton)
+#: rc.cpp:451
+msgid "Configure...."
+msgstr "اضبط..."
+
+#. i18n: file: ui/transfersettingsdialog.ui:22
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: rc.cpp:454
+msgid "Transfer Settings"
+msgstr "إعدادات النقل"
+
+#. i18n: file: ui/transfersettingsdialog.ui:31
+#. i18n: ectx: property (text), widget (QCheckBox, uploadCheck)
+#: rc.cpp:457
+msgid "Upload limit:"
+msgstr "حد الرفع:"
+
+#. i18n: file: ui/transfersettingsdialog.ui:51
+#. i18n: ectx: property (text), widget (QCheckBox, downloadCheck)
+#: rc.cpp:463
+msgid "Download limit:"
+msgstr "حد التنزيل:"
+
+#. i18n: file: ui/transfersettingsdialog.ui:71
+#. i18n: ectx: property (text), widget (QCheckBox, ratioCheck)
+#: rc.cpp:469
+msgid "Maximum share ratio:"
+msgstr "نسبة المشاركة العليا:"
+
+#. i18n: file: ui/newtransferwidget.ui:44
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:478
+msgid "Destination:"
+msgstr "المقصد:"
+
+#. i18n: file: ui/newtransferwidget.ui:54
+#. i18n: ectx: property (text), widget (QLabel, groupLabel)
+#: rc.cpp:481
+msgid "Transfer group:"
+msgstr "مجموعة النقل:"
+
+#. i18n: file: ui/transferdetailsfrm.ui:164
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:497
+msgid "Remaining time:"
+msgstr "الوقت المتبقي:"
+
+#. i18n: file: ui/groupsettingsdialog.ui:32
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: rc.cpp:500
+msgid "Group Settings"
+msgstr "إعدادات المجموعة"
+
+#. i18n: file: ui/groupsettingsdialog.ui:44
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:503
+msgid "Default folder:"
+msgstr "المجلد المبدئي:"
+
+#. i18n: file: ui/groupsettingsdialog.ui:58
+#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
+#: rc.cpp:506
+msgid "Moves all transfers with the regular expression to this group"
+msgstr "ينقل كل عمليات النقل ذات العبارة المنطقية إلى هذه المجموعة"
+
+#. i18n: file: ui/groupsettingsdialog.ui:61
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:509
+msgid "Regular expression:"
+msgstr "العبارة المنطقية:"
+
+#. i18n: file: ui/groupsettingsdialog.ui:68
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, regExpEdit)
+#: rc.cpp:512
+msgid "*movies*"
+msgstr "*أفلام*"
+
+#. i18n: file: ui/groupsettingsdialog.ui:75
+#. i18n: ectx: property (text), widget (QCheckBox, downloadCheck)
+#: rc.cpp:515
+msgid "Maximum download speed:"
+msgstr "سرعة التنزيل القصوى:"
+
+#. i18n: file: ui/groupsettingsdialog.ui:101
+#. i18n: ectx: property (text), widget (QCheckBox, uploadCheck)
+#: rc.cpp:521
+msgid "Maximum upload speed:"
+msgstr "سرعة الرفع القصوى:"
+
+#. i18n: file: ui/groupsettingsdialog.ui:141
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: ui/grouptagssettingsdialog.ui:42
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:527 rc.cpp:539
+msgid "Used tags:"
+msgstr "الأوسمة المستخدمة:"
+
+#. i18n: file: ui/groupsettingsdialog.ui:166
+#. i18n: ectx: property (text), widget (QPushButton, tagButton)
+#: rc.cpp:530
+msgid "Modify Tags..."
+msgstr "عدّل الأوسمة..."
+
+#. i18n: file: ui/grouptagssettingsdialog.ui:25
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: rc.cpp:533
+msgid "Tag Settings"
+msgstr "إعدادات الوسم"
+
+#. i18n: file: ui/grouptagssettingsdialog.ui:32
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:536
+msgid "Available tags:"
+msgstr "الأوسمة المتوفرة"
+
+#. i18n: file: ui/grouptagssettingsdialog.ui:64
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, newTagsEdit)
+#: rc.cpp:542
+msgid "Enter a new Tag"
+msgstr "أدخل وسمًا جديدًأ"
+
+#. i18n: file: ui/history/transferhistory.ui:26
+#. i18n: ectx: property (text), widget (QPushButton, clearButton)
+#: rc.cpp:545
+msgid "Clear History"
+msgstr "امسح التاريخ"
+
+#. i18n: file: ui/history/transferhistory.ui:46
+#. i18n: ectx: property (title), widget (KButtonGroup, viewmodesgroup)
+#: rc.cpp:548
+msgctxt "View modes"
+msgid "View Modes"
+msgstr "أوضاع العرض"
+
+#. i18n: file: ui/history/transferhistory.ui:99
+#. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup_2)
+#: rc.cpp:551
+msgid "Select Ranges"
+msgstr "اختر المدى"
+
+#. i18n: file: ui/history/transferhistory.ui:115
+#. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
+#: rc.cpp:554
+msgid "Date"
+msgstr "التاريخ"
+
+#. i18n: file: ui/history/transferhistory.ui:125
+#. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
+#: rc.cpp:560
+msgid "Host"
+msgstr "المضيف"
+
+#. i18n: file: ui/history/transferhistory.ui:136
+#. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup_3)
+#: rc.cpp:563
+msgid "Filter History"
+msgstr "ترشيح التاريخ"
+
+#. i18n: file: ui/history/transferhistory.ui:165
+#. i18n: ectx: property (text), widget (KLineEdit, searchBar)
+#: rc.cpp:566
+msgctxt "delete selected transfer"
+msgid "Delete Selected"
+msgstr "امسح المحدد"
+
+#. i18n: file: ui/history/transferhistory.ui:170
+#. i18n: ectx: property (text), widget (KLineEdit, searchBar)
+#: rc.cpp:569
+msgid "Download"
+msgstr "تنزيل"
+
+#. i18n: file: ui/nepomukwidget.ui:32
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, lineEdit)
+#: rc.cpp:572
+msgid "Enter a new tag"
+msgstr "أدخل وسمًا جديدًا"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:19
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:575
+msgid "&File with links to import:"
+msgstr "&ملف بروابط لاستيرادها:"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:35
+#. i18n: ectx: property (text), widget (KPushButton, importLinks)
+#: rc.cpp:578
+msgid "&Import Links"
+msgstr "اس&تورد روابطًا"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:49
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:581
+msgid "Show:"
+msgstr "أظهر:"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:56
+#. i18n: ectx: property (text), widget (KPushButton, showAll)
+#: rc.cpp:584
+msgctxt "filter: show all file types"
+msgid "&All"
+msgstr "ال&كل"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:75
+#. i18n: ectx: property (text), widget (KPushButton, showVideos)
+#: rc.cpp:588
+msgid "&Videos"
+msgstr "&فيديو"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:91
+#. i18n: ectx: property (text), widget (KPushButton, showImages)
+#: rc.cpp:592
+msgid "Ima&ges"
+msgstr "*صور"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:107
+#. i18n: ectx: property (text), widget (KPushButton, showAudio)
+#: rc.cpp:596
+msgid "A&udio"
+msgstr "ص&وت"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:123
+#. i18n: ectx: property (text), widget (KPushButton, showArchives)
+#: rc.cpp:600
+msgid "A&rchives"
+msgstr "أر&شيفات"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:145
+#. i18n: ectx: property (toolTip), widget (KLineEdit, textFilter)
+#: rc.cpp:604
+msgid "You can use wildcards for filtering."
+msgstr "تستطيع استخدام الفارغات للترشيح."
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:148
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, textFilter)
+#: rc.cpp:607
+msgid "Filter files here...."
+msgstr "رشّح الملفات هنا..."
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:159
+#. i18n: ectx: property (text), item, widget (KComboBox, filterMode)
+#: rc.cpp:610
+msgid "Contains"
+msgstr "تحتوي"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:164
+#. i18n: ectx: property (text), item, widget (KComboBox, filterMode)
+#: rc.cpp:613
+msgid "Does Not Contain"
+msgstr "لا تحتوي"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:237
+#. i18n: ectx: property (text), widget (KPushButton, invertSelection)
+#: rc.cpp:622
+msgid "Inver&t Selection"
+msgstr "اع&كس التحديد"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:247
+#. i18n: ectx: property (text), widget (KPushButton, checkSelected)
+#: rc.cpp:625
+msgctxt "Check as in mark, not as in verify"
+msgid "Chec&k Selected"
+msgstr "علّم المحدد&"
+
+#. i18n: file: ui/linkview/importlinkdialog.ui:254
+#. i18n: ectx: property (text), widget (QCheckBox, showWebContent)
+#: rc.cpp:628
+msgid "Show &web content"
+msgstr "أظهر محتوي الوب"
+
+#. i18n: file: ui/kgetui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:631
+msgid "&File"
+msgstr "&ملف"
+
+#. i18n: file: ui/kgetui.rc:16
+#. i18n: ectx: Menu (Downloads)
+#: rc.cpp:634
+msgid "&Downloads"
+msgstr "التن&زيلات"
+
+#. i18n: file: ui/kgetui.rc:26
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:637
+msgid "&Settings"
+msgstr "إ&عدادات"
+
+#. i18n: file: ui/kgetui.rc:30
+#. i18n: ectx: Menu (help)
+#: rc.cpp:640
+msgid "&Help"
+msgstr "&مساعدة"
+
+#. i18n: file: ui/kgetui.rc:33
+#. i18n: ectx: ToolBar (kget_toolbar)
+#: rc.cpp:643
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسي"
+
+#. i18n: file: extensions/konqueror/kget_plug_in.rc:4
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:646
+msgid "&Tools"
+msgstr "أ&دوات"
+
+#. i18n: file: conf/kget.kcfg:28
+#. i18n: ectx: label, entry (ShowSplashscreen), group (Appearance)
+#: rc.cpp:649
+msgid "Sets to show the splashscreen while KGet is loading"
+msgstr "يعرض شاشة البدء أثناء تحميل كجت"
+
+#. i18n: file: conf/kget.kcfg:164
+#. i18n: ectx: label, entry (ColumnWidths), group (Geometry)
+#: rc.cpp:652
+msgid "The width of the columns in the main view"
+msgstr "عرض الأعمدة في العرض الرئيسي"
+
+#. i18n: file: conf/kget.kcfg:167
+#. i18n: ectx: label, entry (HistoryColumnWidths), group (Geometry)
+#: rc.cpp:655
+msgid "The width of the columns in the history view"
+msgstr "عرض الأعمدة في عرض التاريخ"
+
+#. i18n: file: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.kcfg:10
+#. i18n: ectx: label, entry (SearchEnginesNameList), group (SearchEngines)
+#: rc.cpp:658
+msgid "List of the available search engines"
+msgstr "قائمة بمحركات البحث المتوفرة"
+
+#. i18n: file: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.kcfg:14
+#. i18n: ectx: label, entry (SearchEnginesUrlList), group (SearchEngines)
+#. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:11
+#. i18n: ectx: label, entry (PathList), group (UserScripts)
+#: rc.cpp:661 rc.cpp:667
+msgid "Urls list of the available search engines"
+msgstr "قائمة مسارات البحث المتوفرة"
+
+#. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:7
+#. i18n: ectx: label, entry (UrlRegexpList), group (UserScripts)
+#: rc.cpp:664
+msgid "List of the Regexp to match input Url"
+msgstr "قائمة العبارات المنطقية التي تطابق المسار المدخل"
+
+#. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:19
+#. i18n: ectx: label, entry (DescriptionList), group (UserScripts)
+#: rc.cpp:670
+msgid "List of descriptions for user scripts"
+msgstr "قائمة أوصاف سكربتات المستخدم"
+
+#. i18n: file: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:23
+#. i18n: ectx: label, entry (EnableList), group (UserScripts)
+#: rc.cpp:673
+msgid "List of whether the script is enabled"
+msgstr "قائمة السكربتات المفعلة"
+
+#, fuzzy
+#~| msgid "Currently downloading:"
+#~ msgid "Queued for downloading"
+#~ msgstr "ما يجري تحميله حالياً:"
+
+#, fuzzy
+#~| msgid "Redirected without a new location !"
+#~ msgid "Redirect without a redirect location"
+#~ msgstr "حُوّل بدون موقع جديد!"
+
+#~ msgid "Cannot expand file : %1"
+#~ msgstr "تعذّر تمديد الملف: %1"
+
+#~ msgid "filterButtonGroup"
+#~ msgstr "filterButtonGroup"
+
+#~ msgid "Peers"
+#~ msgstr "النظراء"
+
+#~ msgid "Torrent has no announce or nodes field"
+#~ msgstr "لا يحتوي التورنت على حقل إعلان أو عُقد"
+
+#, fuzzy
+#~| msgid ""
+#~| "An error occurred while loading the torrent.<br/>The torrent is probably "
+#~| "corrupt or is not a torrent file."
+#~ msgid ""
+#~ "An error occurred while loading the torrent.\n"
+#~ "The torrent is probably corrupt or is not a torrent file."
+#~ msgstr ""
+#~ "حدث خطأ أثناء محاولة فتح التورنت .<br/> من المحتمل أن يكون معطوب أو أنه "
+#~ "ليس ملف تورنت "
+
+#, fuzzy
+#~| msgid "Select all"
+#~ msgid "&Select all"
+#~ msgstr "انتق الكل"
+
+#, fuzzy
+#~| msgid "Deselect all"
+#~ msgid "D&eselect all"
+#~ msgstr "ألغ أختيار الكل"
+
+#~ msgid "&Transfer History..."
+#~ msgstr "محفوظات الن&قل..."
+
+#~ msgid "&Group Settings..."
+#~ msgstr "إعدادات المجمو&عة..."
+
+#~ msgid "&Transfer Settings..."
+#~ msgstr "إعدادات النق&ل..."
+
+#, fuzzy
+#~| msgid "Download-Speed:"
+#~ msgid "Download Speed:"
+#~ msgstr "سرعة التنزيل:"
+
+#, fuzzy
+#~| msgid "Upload-Speed:"
+#~ msgid "Upload Speed:"
+#~ msgstr "سرعة الرفع:"
+
+#, fuzzy
+#~| msgid "Import links"
+#~ msgid "&Import links"
+#~ msgstr "استورد روابط"
+
+#~ msgid "The group name is empty"
+#~ msgstr "اسم المجموعة فارغ"
+
+#, fuzzy
+#~| msgid ""
+#~| "A group can not have an empty name\n"
+#~| "Please select a new one"
+#~ msgid ""
+#~ "A group can not have an empty name.\n"
+#~ "Please select a new one."
+#~ msgstr ""
+#~ "لا يمكن أن تحتوي المجموعة على اسم فارغ\n"
+#~ "الرجاء اختيار اسم جديد"
+
+#, fuzzy
+#~| msgid "You can not delete this group!"
+#~ msgid "You can not delete this group."
+#~ msgstr "لا تستطيع حذف هذه المجموعة"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "&Delete"
+#~ msgstr "احذف"
+
+#, fuzzy
+#~| msgid "Cancel"
+#~ msgid "&Cancel"
+#~ msgstr "ألغ"
+
+#~ msgid "Default Download Folders"
+#~ msgstr "مجلدات التنزيل الافتراضية"
+
+#~ msgid "Folder and extension can not be empty."
+#~ msgstr "المجلد والامتداد لا يمكن أن تكون فارغة ."
+
+#~ msgid "Ask save location for every new download"
+#~ msgstr "اسأل عن مكان الحفظ لكل عملية تنزيل جديدة"
+
+#~ msgid "Place new downloads inside default folder:"
+#~ msgstr "ضع التنزيلات الجديدة داخل المجلد الإفتراضي:"
+
+#~ msgid "Except for specific file types"
+#~ msgstr "باستثناء أنواع ملفات محددة"
+
+#~ msgid "Specify extension and target folder:"
+#~ msgstr "حدد الامتداد والمجلد الهدف:"
+
+#, fuzzy
+#~| msgid "File-Extension"
+#~ msgid "File Extension"
+#~ msgstr "امتداد الملف"
+
+#~ msgid "Default Folder"
+#~ msgstr "المجلد الافتراضي"
+
+#~ msgid "Edit"
+#~ msgstr "حرر"
+
+#~ msgid ""
+#~ "Use a regular expression for the extension. \n"
+#~ "Examples: *.tar.gz or *movies*.zip"
+#~ msgstr ""
+#~ "استخدم التعابير الشرطة للامتداد.\n"
+#~ "على سبيل المثال: *.tar.gz أو *فيديو*.zip"
+
+#~ msgid "Set as default folder"
+#~ msgstr "ضبط كمجلد افتراضي"
+
+#, fuzzy
+#~| msgid "Set as default folder"
+#~ msgid "extRegExp, defaultFolder"
+#~ msgstr "ضبط كمجلد افتراضي"
+
+#~ msgid "Downloading.."
+#~ msgstr "جاري التنزيل"
+
+#~ msgid "Advanced-Details for %1"
+#~ msgstr "التفاصيل المتقدمة لـ %1"
+
+#~ msgctxt "transfer state: downloading"
+#~ msgid "Downloading.."
+#~ msgstr "جاري التنزيل"
+
+#~ msgctxt "@label Title in header"
+#~ msgid "Webinterface"
+#~ msgstr "واجهة ويب"
+
+#~ msgid "Downloads number:"
+#~ msgstr "عدد التنزيلات:"
+
+#~ msgid "Assigned Peers"
+#~ msgstr "النظراء المعينين"
+
+#~ msgid "%1 GB"
+#~ msgstr "%1 جيجابايت"
+
+#~ msgid "%1 MB"
+#~ msgstr "%1 ميجابايت"
+
+#~ msgid "%1 KB"
+#~ msgstr "%1 ك.بايت"
+
+#~ msgid "%1 B"
+#~ msgstr "%1 بايت"
+
+#~ msgid "%1 KB/s"
+#~ msgstr "%1 ك.بايت/ثانية"
+
+#~ msgid "Update Tracker"
+#~ msgstr "تحديث المتتبع"

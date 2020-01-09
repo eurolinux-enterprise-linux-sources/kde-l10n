@@ -1,0 +1,178 @@
+# translation of kcmsmserver.po to Arabic
+# translation of kcmsmserver.po to
+# Copyright (C) 2001,2002, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Mohammed Gamal <f2c2001@yahoo.com>, 2001.
+# Hicham Amaoui <amaoui@altern.org>, 2002.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Munzir Taha <munzir@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmsmserver\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-10 11:07+0200\n"
+"PO-Revision-Date: 2009-07-07 13:33+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"X-Poedit-Language: Arabic\n"
+
+#: kcmsmserver.cpp:52
+msgid ""
+"<h1>Session Manager</h1> You can configure the session manager here. This "
+"includes options such as whether or not the session exit (logout) should be "
+"confirmed, whether the session should be restored again when logging in and "
+"whether the computer should be automatically shut down after session exit by "
+"default."
+msgstr ""
+"<h1>مدير الجلسة</h1>  يمكنك ضبط مدير الجلسة هنا. هذا يتضمن خيارات مثل ضرورة "
+"أو عدم ضرورة التأكيد على تسجيل الخروج و إذا كان واجباً استعادة الجلسة عند "
+"الدخول أو إيقاف تشغيل الحاسوب تلقائياً عند الخروج من الجلسة."
+
+#. i18n: file: smserverconfigdlg.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, SMServerConfigDlg)
+#: rc.cpp:3 rc.cpp:58
+msgid "Session Manager"
+msgstr "مدير الجلسة"
+
+#. i18n: file: smserverconfigdlg.ui:36
+#. i18n: ectx: property (title), widget (QGroupBox, topBox)
+#: rc.cpp:6 rc.cpp:61
+msgid "General"
+msgstr "عام"
+
+#. i18n: file: smserverconfigdlg.ui:44
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, confirmLogoutCheck)
+#: rc.cpp:9 rc.cpp:64
+msgid ""
+"Check this option if you want the session manager to display a logout "
+"confirmation dialog box."
+msgstr ""
+"اختر هذا الخيار إذا كنت ترغب في أن يظهر لك مدير الجلسة مربع حوار لتأكيد "
+"الخروج."
+
+#. i18n: file: smserverconfigdlg.ui:47
+#. i18n: ectx: property (text), widget (QCheckBox, confirmLogoutCheck)
+#: rc.cpp:12 rc.cpp:67
+msgid "Conf&irm logout"
+msgstr "أكد ال&خروج "
+
+#. i18n: file: smserverconfigdlg.ui:54
+#. i18n: ectx: property (text), widget (QCheckBox, offerShutdownCheck)
+#: rc.cpp:15 rc.cpp:70
+msgid "O&ffer shutdown options"
+msgstr "اع&رض خيارات إيقاف التشغيل"
+
+#. i18n: file: smserverconfigdlg.ui:79
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, sdGroup)
+#: rc.cpp:18 rc.cpp:73
+msgid ""
+"Here you can choose what should happen by default when you log out. This "
+"only has meaning, if you logged in through KDM."
+msgstr ""
+"هنا يمكنك اختيار ما سيقع افتراضياً عند تسجيل خروجك. هذا فقط له معنى إذا دخلت "
+"من خلال  KDM."
+
+#. i18n: file: smserverconfigdlg.ui:82
+#. i18n: ectx: property (title), widget (QGroupBox, sdGroup)
+#: rc.cpp:21 rc.cpp:76
+msgid "Default Leave Option"
+msgstr "خيار إيقاف الترك الافتراضي"
+
+#. i18n: file: smserverconfigdlg.ui:88
+#. i18n: ectx: property (text), widget (QRadioButton, logoutRadio)
+#: rc.cpp:24 rc.cpp:79
+msgid "&End current session"
+msgstr "أ&نهِ الجلسة الحالية"
+
+#. i18n: file: smserverconfigdlg.ui:95
+#. i18n: ectx: property (text), widget (QRadioButton, haltRadio)
+#: rc.cpp:27 rc.cpp:82
+msgid "&Turn off computer"
+msgstr "ا&طفئ الحاسوب"
+
+#. i18n: file: smserverconfigdlg.ui:102
+#. i18n: ectx: property (text), widget (QRadioButton, rebootRadio)
+#: rc.cpp:30 rc.cpp:85
+msgid "&Restart computer"
+msgstr "أ&عد تشغيل الحاسوب"
+
+#. i18n: file: smserverconfigdlg.ui:120
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, loginGroup)
+#: rc.cpp:33 rc.cpp:88
+msgid ""
+"<ul>\n"
+"<li><b>Restore previous session:</b> Will save all applications running on "
+"exit and restore them when they next start up</li>\n"
+"<li><b>Restore manually saved session: </b> Allows the session to be saved "
+"at any time via \"Save Session\" in the K-Menu. This means the currently "
+"started applications will reappear when they next start up.</li>\n"
+"<li><b>Start with an empty session:</b> Do not save anything. Will come up "
+"with an empty desktop on next start.</li>\n"
+"</ul>"
+msgstr ""
+"<ul>\n"
+"<li><b>استعد الجلسة السابقة:</b> سيتم حفظ جميع التطبيقات العاملة عند الخروج "
+"ثم سيتم استعادتها عند الدخول في المرة المقبلة</li>\n"
+"<li><b>استعد الجلسة المحفوظة يدوياً: </b> يسمح لك بحفظ الجلسة في أي وقت عن "
+"طريق زر \"احفظ الجلسة\" في قائمة K. هذا يعني أن التطبيقات العاملة حالياً "
+"ستظهر مجدداً في المرة القادمة.</li>\n"
+"<li><b>ابدأ بجلسة فارغة:</b> لا تحفظ شيئاً. سيتم البدء بسطح مكتب فارغ في "
+"المرة القادمة.</li>\n"
+"</ul>"
+
+#. i18n: file: smserverconfigdlg.ui:123
+#. i18n: ectx: property (title), widget (QGroupBox, loginGroup)
+#: rc.cpp:40 rc.cpp:95
+msgid "On Login"
+msgstr "عند الولوج"
+
+#. i18n: file: smserverconfigdlg.ui:131
+#. i18n: ectx: property (text), widget (QRadioButton, previousSessionRadio)
+#: rc.cpp:43 rc.cpp:98
+msgid "Restore &previous session"
+msgstr "استعد ال&جلسة السابقة"
+
+#. i18n: file: smserverconfigdlg.ui:138
+#. i18n: ectx: property (text), widget (QRadioButton, savedSessionRadio)
+#: rc.cpp:46 rc.cpp:101
+msgid "Restore &manually saved session"
+msgstr "استعد الجلسة الم&حفوظة يدوياً"
+
+#. i18n: file: smserverconfigdlg.ui:145
+#. i18n: ectx: property (text), widget (QRadioButton, emptySessionRadio)
+#: rc.cpp:49 rc.cpp:104
+msgid "Start with an empty &session"
+msgstr "ابدأ بجلسة &فارغة"
+
+#. i18n: file: smserverconfigdlg.ui:152
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:52 rc.cpp:107
+msgid "Applications to be e&xcluded from sessions:"
+msgstr "التطبيقات الم&ستثناة من الجلسات:"
+
+#. i18n: file: smserverconfigdlg.ui:165
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, excludeLineedit)
+#: rc.cpp:55 rc.cpp:110
+msgid ""
+"Here you can enter a colon or comma separated list of applications that "
+"should not be saved in sessions, and therefore will not be started when "
+"restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
+msgstr ""
+"بإمكانك هنا إدخال قائمة من التطبيقات التي لا يجب أن تحفظ في الجلسات مفصولة "
+"بفاصلة (,) أو نقطتين (:) ، ومن ثم لن تبدأ عند استعادة الجلسة. مثلاً 'xterm "
+"أوxconsole' أو 'xterm:konsole' ."
+
+#~ msgid "Advanced"
+#~ msgstr "متقدم"

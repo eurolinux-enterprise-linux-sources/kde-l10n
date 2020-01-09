@@ -1,0 +1,322 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_solid_actions\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-10-11 01:22+0200\n"
+"PO-Revision-Date: 2009-07-08 17:12+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#. i18n: file: solid-action-add.ui:19
+#. i18n: ectx: property (text), widget (QLabel, LblActionName)
+#: rc.cpp:3 rc.cpp:101
+msgid "Action name:"
+msgstr "اسم الإجراء:"
+
+#. i18n: file: solid-action-add.ui:26
+#. i18n: ectx: property (toolTip), widget (KLineEdit, LeActionName)
+#: rc.cpp:6 rc.cpp:104
+msgid "Enter the name for your new action"
+msgstr "أدخل اسم لإجراءك الجديد:"
+
+#. i18n: file: solid-action-edit-predicate.ui:26
+#. i18n: ectx: property (text), item, widget (KComboBox, CbRequirementType)
+#: rc.cpp:9 rc.cpp:107
+msgid "Contains Other Requirements"
+msgstr "يحوي المتطلبات الأخرى"
+
+#. i18n: file: solid-action-edit-predicate.ui:31
+#. i18n: ectx: property (text), item, widget (KComboBox, CbRequirementType)
+#: rc.cpp:12 rc.cpp:110
+msgid "Is A Requirement"
+msgstr "متطلب"
+
+#. i18n: file: solid-action-edit-predicate.ui:57
+#. i18n: ectx: property (text), widget (QLabel, LblRequirementType)
+#: rc.cpp:15 rc.cpp:113
+msgid "Requirement type:"
+msgstr "نوع المتطلب:"
+
+#. i18n: file: solid-action-edit-predicate.ui:94
+#. i18n: ectx: property (text), widget (QLabel, LblContainerLogic)
+#: rc.cpp:18 rc.cpp:116
+msgid "Logic type:"
+msgstr "النوع المنطقي:"
+
+#. i18n: file: solid-action-edit-predicate.ui:102
+#. i18n: ectx: property (text), item, widget (KComboBox, CbContainerLogic)
+#: rc.cpp:21 rc.cpp:119
+msgid "All Contained Requirements Must Match"
+msgstr "كل المتطلبات المضمنة يجب أن تتطابق"
+
+#. i18n: file: solid-action-edit-predicate.ui:107
+#. i18n: ectx: property (text), item, widget (KComboBox, CbContainerLogic)
+#: rc.cpp:24 rc.cpp:122
+msgid "Any Contained Required Must Match"
+msgstr "أي طلب مضمن يجب أن يطابق"
+
+#. i18n: file: solid-action-edit-predicate.ui:147
+#. i18n: ectx: property (text), widget (QLabel, LblRestrictionType)
+#: rc.cpp:27 rc.cpp:125
+msgid "Restriction type:"
+msgstr "نوع التقييد:"
+
+#. i18n: file: solid-action-edit-predicate.ui:161
+#. i18n: ectx: property (text), item, widget (KComboBox, CbRestrictionType)
+#: rc.cpp:30 rc.cpp:128
+msgid "Is Value Type"
+msgstr "نوع قيمة"
+
+#. i18n: file: solid-action-edit-predicate.ui:166
+#. i18n: ectx: property (text), item, widget (KComboBox, CbRestrictionType)
+#: rc.cpp:33 rc.cpp:131
+msgid "Compare Value To"
+msgstr "قارن القيمة مع"
+
+#. i18n: file: solid-action-edit-predicate.ui:196
+#. i18n: ectx: property (text), widget (QLabel, LblRestrictionDeviceType)
+#: rc.cpp:36 rc.cpp:134
+msgid "Device type:"
+msgstr "نوع الجهاز:"
+
+#. i18n: file: solid-action-edit-predicate.ui:236
+#. i18n: ectx: property (text), item, widget (KComboBox, CbRestrictionRequirement)
+#: rc.cpp:39 rc.cpp:137
+msgid "Equals"
+msgstr "يساوي"
+
+#. i18n: file: solid-action-edit-predicate.ui:241
+#. i18n: ectx: property (text), item, widget (KComboBox, CbRestrictionRequirement)
+#: rc.cpp:42 rc.cpp:140
+msgid "Does Not Equal"
+msgstr "لا يساوي"
+
+#. i18n: file: solid-action-edit-predicate.ui:274
+#. i18n: ectx: property (text), widget (QLabel, LblRestrictionDeviceValue)
+#: rc.cpp:45 rc.cpp:143
+msgid "Value name:"
+msgstr "اسم القيمة:"
+
+#. i18n: file: solid-action-edit.ui:37
+#. i18n: ectx: property (toolTip), widget (KIconButton, IbActionIcon)
+#: rc.cpp:48 rc.cpp:146
+msgid "Action icon, click to change it"
+msgstr "أيقونة الإجراء ، انقر لتغيرها"
+
+#. i18n: file: solid-action-edit.ui:44
+#. i18n: ectx: property (toolTip), widget (KLineEdit, LeActionFriendlyName)
+#: rc.cpp:51 rc.cpp:149
+msgid "Action name"
+msgstr "اسم الإجراء"
+
+#. i18n: file: solid-action-edit.ui:61
+#. i18n: ectx: property (text), widget (QLabel, TlActionCommand)
+#: rc.cpp:54 rc.cpp:152
+msgid "Command: "
+msgstr "الأمر:"
+
+#. i18n: file: solid-action-edit.ui:73
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, LeActionCommand)
+#: rc.cpp:58 rc.cpp:156
+#, no-c-format
+msgid ""
+"Command that will trigger the action\n"
+"This can include any or all of the following case insensitive expands:\n"
+"\n"
+"%f: The mountpoint for the device - Storage Access devices only\n"
+"%d: Path to the device node - Block devices only\n"
+"%i: The identifier of the device"
+msgstr ""
+"الأمر الذي سيطلق الإجراء\n"
+"يحوي هذا أي أو كل توسع غير حساس التالية:\n"
+"\n"
+"%f: نقطة ضم الجهاز - فقط أجهزة الوصول إلى التخزين.\n"
+"%d: مسار عقدة الجهاز - فقط أجهزة المناطق\n"
+"%i: معرف الجهاز"
+
+#. i18n: file: solid-action-edit.ui:90
+#. i18n: ectx: property (text), widget (QLabel, TlSolidPredicate)
+#: rc.cpp:66 rc.cpp:164
+msgid "Devices must match the following parameters for this action:"
+msgstr "يجب أن تطابق الأجهزة المعاملات التالية لهذا الإجراء:"
+
+#. i18n: file: solid-action-edit.ui:98
+#. i18n: ectx: property (text), widget (QTreeWidget, TwSolidRequirements)
+#: rc.cpp:69 rc.cpp:167
+msgid "1"
+msgstr "1"
+
+#. i18n: file: solid-action-edit.ui:106
+#. i18n: ectx: property (toolTip), widget (KPushButton, PbAddRequirement)
+#: rc.cpp:72 rc.cpp:170
+msgid "Add a new requirement"
+msgstr "أضف متطلب جديد"
+
+#. i18n: file: solid-action-edit.ui:109
+#. i18n: ectx: property (text), widget (KPushButton, PbAddRequirement)
+#. i18n: file: solid-actions.ui:22
+#. i18n: ectx: property (text), widget (KPushButton, PbAddAction)
+#. i18n: file: solid-action-edit.ui:109
+#. i18n: ectx: property (text), widget (KPushButton, PbAddRequirement)
+#. i18n: file: solid-actions.ui:22
+#. i18n: ectx: property (text), widget (KPushButton, PbAddAction)
+#: rc.cpp:75 rc.cpp:90 rc.cpp:173 rc.cpp:188
+msgid "Add..."
+msgstr "أضف..."
+
+#. i18n: file: solid-action-edit.ui:116
+#. i18n: ectx: property (toolTip), widget (KPushButton, PbEditRequirement)
+#: rc.cpp:78 rc.cpp:176
+msgid "Edit current requirement"
+msgstr "حرر المتطلب الحالي"
+
+#. i18n: file: solid-action-edit.ui:119
+#. i18n: ectx: property (text), widget (KPushButton, PbEditRequirement)
+#. i18n: file: solid-actions.ui:29
+#. i18n: ectx: property (text), widget (KPushButton, PbEditAction)
+#. i18n: file: solid-action-edit.ui:119
+#. i18n: ectx: property (text), widget (KPushButton, PbEditRequirement)
+#. i18n: file: solid-actions.ui:29
+#. i18n: ectx: property (text), widget (KPushButton, PbEditAction)
+#: rc.cpp:81 rc.cpp:93 rc.cpp:179 rc.cpp:191
+msgid "Edit..."
+msgstr "حرر..."
+
+#. i18n: file: solid-action-edit.ui:126
+#. i18n: ectx: property (toolTip), widget (KPushButton, PbRemoveRequirement)
+#: rc.cpp:84 rc.cpp:182
+msgid "Remove current requirement"
+msgstr "أزل المتطلب الحالي"
+
+#. i18n: file: solid-action-edit.ui:129
+#. i18n: ectx: property (text), widget (KPushButton, PbRemoveRequirement)
+#. i18n: file: solid-actions.ui:36
+#. i18n: ectx: property (text), widget (KPushButton, PbDeleteAction)
+#. i18n: file: solid-action-edit.ui:129
+#. i18n: ectx: property (text), widget (KPushButton, PbRemoveRequirement)
+#. i18n: file: solid-actions.ui:36
+#. i18n: ectx: property (text), widget (KPushButton, PbDeleteAction)
+#: rc.cpp:87 rc.cpp:96 rc.cpp:185 rc.cpp:194
+msgid "Remove"
+msgstr "أزل"
+
+#: rc.cpp:97
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#: rc.cpp:98
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"
+
+#: solid-action-desktop-gen.cpp:36
+msgid "Solid Action Desktop File Generator"
+msgstr "مولد ملف سطح المكتب لإجراءات سولد"
+
+#: solid-action-desktop-gen.cpp:36
+msgid ""
+"Tool to automatically generate Desktop Files from Solid DeviceInterface "
+"classes for translation"
+msgstr "أداة لتوليد ملفات سطح المكتب من أصناف واجهات أجهزة سولد للترجمة"
+
+#: solid-action-desktop-gen.cpp:37
+msgid "(c) 2009, Ben Cooksley"
+msgstr "(c) 2009, Ben Cooksley"
+
+#: solid-action-desktop-gen.cpp:38 solid-actions.cpp:51
+msgid "Ben Cooksley"
+msgstr "Ben Cooksley"
+
+#: solid-action-desktop-gen.cpp:38 solid-actions.cpp:51
+msgid "Maintainer"
+msgstr "مشرف المشروع"
+
+#: solid-action-edit.cpp:80
+msgid ""
+"It appears that the device conditions for this action are not valid. \n"
+"If you previously used this utility to make changes, please revert them and "
+"file a bug"
+msgstr ""
+"يبدو أن شروط الجهاز لهذا الإجراء غير صحيحة. \n"
+"إذا كنت استخدمت هذه الأداة من قبل لصنع تغيرات ، فالرجاء استرجعها و بلغ عن علة"
+
+#: solid-action-edit.cpp:80
+msgid "Error parsing device conditions"
+msgstr "خطأ في قراءة شروط الجهاز"
+
+#: solid-action-edit.cpp:215
+msgid "Any of the contained conditions must match"
+msgstr "أي شرط محتوى يجب أن يتطابق"
+
+#: solid-action-edit.cpp:217
+msgid "All of the contained conditions must match"
+msgstr "كل الشروط المحتواة يجب أن تتطابق"
+
+#: solid-action-edit.cpp:221
+#, kde-format
+msgid "The device must be of the type %1"
+msgstr "يبج أن يكون الجهاز من نوع %1"
+
+#: solid-action-edit.cpp:223
+#, fuzzy, kde-format
+#| msgid "The devices property %1 must equal %2"
+msgid "The device's property %1 must equal %2"
+msgstr "خاصية الأجهزة %1 يجب أن تساوي %2"
+
+#: solid-action-edit.cpp:225
+#, fuzzy, kde-format
+#| msgid "The devices property %1 must not equal %2"
+msgid "The device's property %1 must not equal %2"
+msgstr "خاصية الأجهزة %1 يجب أن لا تساوي %2"
+
+#: solid-action-edit-predicate.cpp:35
+msgid "Editing Requirement"
+msgstr "تحرير المتطلب"
+
+#: solid-actions.cpp:47
+msgid "Solid Device Actions Editor"
+msgstr "محرر إجراءات جهاز سولد"
+
+#: solid-actions.cpp:48
+msgid "Solid Device Actions Control Panel Module"
+msgstr "مكون لوحة تحكم إجراءات جهاز سولد"
+
+#: solid-actions.cpp:50
+msgid "(c) 2009 Solid Device Actions team"
+msgstr "(c) 2009 فريق إجراءات جهاز سولد"
+
+#: solid-actions.cpp:155
+#, kde-format
+msgid "Editing Action %1"
+msgstr "تحرير الإجراء %1"
+
+#: solid-actions.cpp:219
+msgid ""
+"It appears that the action name, command, icon or condition are not valid.\n"
+"Therefore, changes will not be applied."
+msgstr ""
+"يبدو أن اسم الإجراء أو الأمر أو الأيقونة أو الشرط غير صحيح.\n"
+"لذا فإن التغيرات لن تطبق."
+
+#: solid-actions.cpp:219
+msgid "Invalid action"
+msgstr "إجراء غير صحيح"
+
+#: solid-actions.cpp:246
+msgid "No Action Selected"
+msgstr "لم يختر أي إجراء"
+
+#: solid-actions.cpp:256
+msgid "Cannot be deleted"
+msgstr "لا يمكن حذفه"

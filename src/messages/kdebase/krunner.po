@@ -1,0 +1,403 @@
+# translation of krunner.po to Arabic
+# translation of krunner.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: krunner\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-07-23 01:24+0200\n"
+"PO-Revision-Date: 2009-07-08 14:28+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"X-Poedit-Language: Arabic\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: interfaces/default/interface.cpp:80 interfaces/default/interface.cpp:81
+#: interfaces/quicksand/qs_dialog.cpp:52 interfaces/quicksand/qs_dialog.cpp:53
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: interfaces/default/interface.cpp:100 interfaces/default/interface.cpp:101
+#: krunnerapp.cpp:149
+msgid "Show System Activity"
+msgstr "أظهر نشاط النظام"
+
+#: interfaces/default/interface.cpp:109
+msgid "Help"
+msgstr "مساعدة"
+
+#: interfaces/default/interface.cpp:110
+msgid "Information on using this application"
+msgstr "معلومات حول كيفية استخدام هذا التطبيق"
+
+#: interfaces/default/interface.cpp:406
+#, kde-format
+msgid "(From %1, %2)"
+msgstr "(من %1 ، %2)"
+
+#: interfaces/quicksand/qs_dialog.cpp:82
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: interfaces/quicksand/qs_dialog.cpp:83
+msgid "actions"
+msgstr "إجراءات"
+
+#: interfaces/quicksand/qs_matchview.cpp:123
+msgid "items"
+msgstr "العناصر"
+
+#: interfaces/quicksand/qs_matchview.cpp:177
+msgid "Type to search."
+msgstr "اكتب لتبحث"
+
+#: interfaces/quicksand/qs_matchview.cpp:261
+#, kde-format
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: interfaces/quicksand/qs_matchview.cpp:344
+msgid "Loading..."
+msgstr "يحمل..."
+
+#: interfaces/quicksand/qs_matchview.cpp:428
+msgid "No results found."
+msgstr "لا توجد نتيجة"
+
+#: lock/autologout.cc:38
+msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
+msgstr "<qt><nobr><b>خروج تلقائي</b></nobr></qt>"
+
+#: lock/autologout.cc:39
+msgid ""
+"<qt>To prevent being logged out, resume using this session by moving the "
+"mouse or pressing a key.</qt>"
+msgstr ""
+"<qt>لتجنب الخروج ، استأنف باستخدام هذه الجلسة بتحريك الفأرة أو ضغط مفتاح.</"
+"qt>"
+
+#: lock/autologout.cc:44
+msgid "Time Remaining:"
+msgstr "الوقت المتبقي:"
+
+#: lock/autologout.cc:77
+#, kde-format
+msgid "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
+msgid_plural ""
+"<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
+msgstr[0] "<qt><nobr>ستخرج في ثانية</nobr></qt>"
+msgstr[1] "<qt><nobr>ستخرج في ثانية</nobr></qt>"
+msgstr[2] "<qt><nobr>ستخرج في ثانيتين</nobr></qt>"
+msgstr[3] "<qt><nobr>ستخرج في %1 ثوان</nobr></qt>"
+msgstr[4] "<qt><nobr>ستخرج في %1 ثانية</nobr></qt>"
+msgstr[5] "<qt><nobr>ستخرج في %1 ثانية</nobr></qt>"
+
+#: lock/main.cc:61
+msgid "KDE Screen Locker"
+msgstr "قافل شاشة كدي"
+
+#: lock/main.cc:62
+msgid "Session Locker for KDE Workspace"
+msgstr "قافل الجلسة لمكان عمل كدي"
+
+#: lock/main.cc:65
+msgid "Force session locking"
+msgstr "اقفل الجلسة إجبارياً"
+
+#: lock/main.cc:66
+msgid "Only start screen saver"
+msgstr "فقط ابدأ حافظة الشاشة"
+
+#: lock/main.cc:67
+msgid "Only use the blank screen saver"
+msgstr "فقط استخدم حافظة شاشة فارغة"
+
+#: lock/main.cc:68
+msgid "start with plasma unlocked for configuring"
+msgstr "ابدأ البلازما بدون قفل لضبطها"
+
+#: lock/lockprocess.cc:797
+msgid "Will not lock the session, as unlocking would be impossible:\n"
+msgstr "لن يتم إقفال الجلسة ،لأن الفتح سيكون مستحيلاً:\n"
+
+#: lock/lockprocess.cc:801
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr "لا يمكن بدأ <i>kcheckpass</i>."
+
+#: lock/lockprocess.cc:802
+msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
+msgstr "<i>kcheckpass</i>غير قادر على العمل. ربما ليس له صلاحية SetUID root."
+
+#: lock/lockprocess.cc:864
+msgid "No appropriate greeter plugin configured."
+msgstr "لم يضبط محلق ترحيب مناسب."
+
+#: lock/lockdlg.cc:97
+msgid "<nobr><b>The session is locked</b></nobr><br />"
+msgstr "<nobr><b> الجلسة مقفلة</b></nobr><br />"
+
+#: lock/lockdlg.cc:98
+#, kde-format
+msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
+msgstr "<nobr><b> الجلسة مقفلة بواسطة %1</b></nobr><br />"
+
+#: lock/lockdlg.cc:111
+msgid "Unl&ock"
+msgstr "أل&غ القفل"
+
+#: lock/lockdlg.cc:113
+msgid "Sw&itch User..."
+msgstr "بدّ&ل المستخدم..."
+
+#: lock/lockdlg.cc:181
+msgid "<b>Unlocking failed</b>"
+msgstr "<b>فشل إلغاء القفل</b>"
+
+#: lock/lockdlg.cc:189
+msgid "<b>Warning: Caps Lock on</b>"
+msgstr "<b>انذار: زر مفاتيح العالي مضغوط</b>"
+
+#: lock/lockdlg.cc:421
+#, kde-format
+msgid ""
+"Cannot unlock the session because the authentication system failed to work;\n"
+"you must kill kscreenlocker (pid %1) manually."
+msgstr ""
+"لا يمكن إلغاء قفل الجلسة بسبب فشل تشغيل نظام الاستيثاق ،\n"
+"يجب عليك قتل kscreenlocker (pid %1) يدوياً."
+
+#: lock/lockdlg.cc:510
+msgid "&Start New Session"
+msgstr "&ابدأ جلسة جديدة"
+
+#: lock/lockdlg.cc:518
+#, kde-format
+msgid ""
+"You have chosen to open another desktop session instead of resuming the "
+"current one.\n"
+"The current session will be hidden and a new login screen will be "
+"displayed.\n"
+"An F-key is assigned to each session; F%1 is usually assigned to the first "
+"session, F%2 to the second session and so on. You can switch between "
+"sessions by pressing Ctrl, Alt and the appropriate F-key at the same time. "
+"Additionally, the KDE Panel and Desktop menus have actions for switching "
+"between sessions."
+msgstr ""
+"لقد اخترت فتح جلسة أخرى بدلا عن استعمل الجلسة الحالية.\n"
+"ستخفى الجلسة الحالية وسيعرض شاشة الولوج جديدة.\n"
+"وسيسند لكل جلسة أحد مفاتيح F  ،  عادة سيكون المفتاح F%1 مسنود إلى الجلسة "
+"الأولى ، و  F%2   للجلسة الثانية. يمكنك التبديل بين الجلسات بواسطة الضغط على "
+"زر Ctrl و مفتاح F المناسب في وقت واحد. بالإضافة إلى أن لوحة كدي و قوائم سطح "
+"المكتب تحوي على إجراءات للتنقل بين الجلسات."
+
+#: lock/lockdlg.cc:531
+msgid "&Do not ask again"
+msgstr "&لا تسأل مرة ثانية"
+
+#: lock/lockdlg.cc:587
+msgid "Session"
+msgstr "الجلسة"
+
+#: lock/lockdlg.cc:587
+msgid "Location"
+msgstr "الموقع"
+
+#: lock/lockdlg.cc:615
+msgctxt "session"
+msgid "&Activate"
+msgstr "ن&شّط"
+
+#: lock/lockdlg.cc:624
+msgid "Start &New Session"
+msgstr "ابدأ جل&سة جديدة"
+
+#: krunnerdialog.cpp:58 krunnerapp.cpp:138
+msgid "Run Command"
+msgstr "نفّذ الأمر"
+
+#: main.cpp:38
+msgid "KDE run command interface"
+msgstr "واجهة أمر التشغيل لـكدي"
+
+#: main.cpp:50
+msgid "Run Command Interface"
+msgstr "واجهة أمر التشغيل"
+
+#: main.cpp:52
+msgid "(c) 2006, Aaron Seigo"
+msgstr "(c) 2006, Aaron Seigo"
+
+#: main.cpp:53
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:54
+msgid "Author and maintainer"
+msgstr "المؤلف والمشرف على المشروع"
+
+#: configdialog.cpp:53
+msgid "Plugins"
+msgstr "الملحقات"
+
+#: configdialog.cpp:60
+msgid "Command oriented"
+msgstr "أمر موجه"
+
+#: configdialog.cpp:61
+msgid "Task oriented"
+msgstr "مهمة موجهة"
+
+#: configdialog.cpp:75
+msgid "Preview"
+msgstr "معاينة"
+
+#: configdialog.cpp:83
+msgid "User Interface"
+msgstr "واجهة المستخدم"
+
+#: configdialog.cpp:86
+msgid "KRunner Settings"
+msgstr "إعدادات KRunner"
+
+#: configdialog.cpp:93
+msgid "Available Features"
+msgstr "المميزات الموجودة"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد,زايد السعيدي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr,zayed.alsaidi@gmail.com"
+
+#. i18n: file: kcfg/krunner.kcfg:13
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:5
+msgid "The interface style to use in KRunner"
+msgstr "أسلوب الواجهة المستخدم في KRunner"
+
+#. i18n: file: kcfg/krunner.kcfg:22
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:8
+msgid "Completion mode used for the query text."
+msgstr "نمط الإكمال المستخدم في نص الاستعلام."
+
+#. i18n: file: kcfg/krunner.kcfg:27
+#. i18n: ectx: label, entry (PastQueries), group (General)
+#: rc.cpp:11
+msgid "History if past queries successfully completed"
+msgstr "التاريخ إذا أتمت الاستعلامات السابقة بنجاح"
+
+#. i18n: file: kcfg/krunner.kcfg:36
+#. i18n: ectx: label, entry (KeepTaskDialogAbove), group (TaskDialog)
+#: rc.cpp:15
+msgid "Whether to keep the tasks dialog above other windows when shown."
+msgstr "إذا ما تريد أن تضع حوار المهام فوق النوافذ الآخرى عندما يظهر."
+
+#. i18n: file: kcfg/kscreensaversettings.kcfg:11
+#. i18n: ectx: label, entry (ScreenSaverEnabled), group (ScreenSaver)
+#: rc.cpp:20
+msgid "Enable screen saver"
+msgstr "مكن حافظة الشاشة"
+
+#. i18n: file: kcfg/kscreensaversettings.kcfg:12
+#. i18n: ectx: whatsthis, entry (ScreenSaverEnabled), group (ScreenSaver)
+#: rc.cpp:23
+msgid "Enables the screen saver."
+msgstr "يمكن حافظة شاشة."
+
+#. i18n: file: kcfg/kscreensaversettings.kcfg:16
+#. i18n: ectx: label, entry, group (ScreenSaver)
+#: rc.cpp:26
+msgid "Screen saver timeout"
+msgstr "مهلة حافظة الشاشة"
+
+#. i18n: file: kcfg/kscreensaversettings.kcfg:17
+#. i18n: ectx: whatsthis, entry, group (ScreenSaver)
+#: rc.cpp:29
+msgid "Sets the seconds after which the screen saver is started."
+msgstr "تضع عدد الثواني التي بعدها ستبدأ حافظة الشاشة."
+
+#. i18n: file: kcfg/kscreensaversettings.kcfg:21
+#. i18n: ectx: label, entry (SuspendWhenInvisible), group (ScreenSaver)
+#: rc.cpp:32
+msgid "Suspend screen saver when DPMS kicks in"
+msgstr "علق حافظة الشاشة عندما تأتي إشارة حفظ الطاقة للشاشة"
+
+#. i18n: file: kcfg/kscreensaversettings.kcfg:24
+#. i18n: ectx: whatsthis, entry (SuspendWhenInvisible), group (ScreenSaver)
+#: rc.cpp:35
+msgid ""
+"Usually the screen saver is suspended when display power saving kicks in,\n"
+"       as nothing can be seen on the screen anyway, obviously. However, some "
+"screen savers\n"
+"       actually perform useful computations, so it is not desirable to "
+"suspend them."
+msgstr ""
+"عادة ما تعلق حافظة الشاشة عندما يشغل حفظ الطاقة لشاشة ، \n"
+"لأنه ببساطة لا يمكن أن ترى شيء على الشاشة ، ولكن يوجد بعض\n"
+"حوافظ الشاشة تقوم بعمل حسابات مفيدة ؛ لذلك لا يفضل تعليقها."
+
+#: krunnerapp.cpp:143
+msgid "Run Command on clipboard contents"
+msgstr "شغل الامر على محتويات الحافظة"
+
+#: krunnerapp.cpp:161
+msgid "Switch User"
+msgstr "بدّل المستخدم"
+
+#: krunnerapp.cpp:168
+msgid "Lock Session"
+msgstr "اقفل الجلسة"
+
+#: krunnerapp.cpp:176
+msgid "Log Out"
+msgstr "سجّل الخروج"
+
+#: krunnerapp.cpp:181
+msgid "Log Out Without Confirmation"
+msgstr "سجّل الخروج بدون تأكيد"
+
+#: krunnerapp.cpp:186
+msgid "Halt Without Confirmation"
+msgstr "اطفئ بدون تأكيد"
+
+#: krunnerapp.cpp:191
+msgid "Reboot Without Confirmation"
+msgstr "أعد الإقلاع بدون تأكيد"
+
+#: krunnerapp.cpp:237
+msgid "System Activity"
+msgstr "نشاط النظام"
+
+#: krunnerapp.cpp:347
+msgid ""
+"Could not log out properly.\n"
+"The session manager cannot be contacted. You can try to force a shutdown by "
+"pressing Ctrl+Alt+Backspace; note, however, that your current session will "
+"not be saved with a forced shutdown."
+msgstr ""
+"لم استطع تسجيل الخروج بشكل صحيح.\n"
+"لا يمكن الاتصال بمدير الجلسة. يمكنك محاولة إيقاف التشغيل إجبارياً عن طريق ضغط "
+"Ctrl+Alt+Backspace ؛ ملاحظة, على أية حال، جلستك الحالية لن يتم حفظها مع "
+"الإيقاف الإجباري."
+
+#~ msgid "%1: %2"
+#~ msgstr "%1: %2"
+
+#~ msgid "KRunner Locker"
+#~ msgstr "قافل KRunner "

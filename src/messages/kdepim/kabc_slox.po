@@ -1,0 +1,237 @@
+# translation of kabc_slox.po to
+# Language AR translations for PACKAGE package.
+#
+# Automatically generated, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kabc_slox\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-11 12:54+0200\n"
+"PO-Revision-Date: 2007-10-14 15:52+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: kabcresourcesloxconfig.cpp:52
+#, fuzzy
+msgid "URL:"
+msgstr "العنوان:"
+
+#: kabcresourcesloxconfig.cpp:58 kcalresourcesloxconfig.cpp:61
+#, fuzzy
+msgid "User:"
+msgstr "المستخدم:"
+
+#: kabcresourcesloxconfig.cpp:64 kcalresourcesloxconfig.cpp:67
+#, fuzzy
+msgid "Password:"
+msgstr "كلمة المرور:"
+
+#. i18n: file: kresources_kabc_slox.kcfg:19
+#. i18n: ectx: label, entry (UseLastSync), group (General)
+#. i18n: file: kresources_kcal_slox.kcfg:25
+#. i18n: ectx: label, entry (UseLastSync), group (General)
+#: kabcresourcesloxconfig.cpp:71 kcalresourcesloxconfig.cpp:74 rc.cpp:12
+#: rc.cpp:36
+#, fuzzy
+msgid "Only load data since last sync"
+msgstr "فقط التحميل البيانات منذ الأخير مزامنة"
+
+#: kabcresourcesloxconfig.cpp:75
+#, fuzzy
+msgid "Select Folder..."
+msgstr "اختر مجلد..."
+
+#: kabcresourceslox.cpp:219
+#, fuzzy
+msgid "Downloading contacts"
+msgstr "يجري التنزيل"
+
+#: kabcresourceslox.cpp:528
+#, fuzzy
+msgid "Uploading contacts"
+msgstr "الإرسال"
+
+#: kcalresourcesloxconfig.cpp:54
+#, fuzzy
+msgid "Download from:"
+msgstr "نزّل من:"
+
+#: kcalresourcesloxconfig.cpp:78
+#, fuzzy
+msgid "Calendar Folder..."
+msgstr "التقويم مجلّد."
+
+#: kcalresourcesloxconfig.cpp:82
+#, fuzzy
+msgid "Task Folder..."
+msgstr "مهمَّة مجلّد."
+
+#: kcalresourceslox.cpp:178
+#, fuzzy, kde-format
+msgid "Non-http protocol: '%1'"
+msgstr ""
+"غير مراسم\n"
+"ميفاق"
+
+#: kcalresourceslox.cpp:233
+#, fuzzy
+msgid "Downloading events"
+msgstr "يجري التنزيل"
+
+#: kcalresourceslox.cpp:278
+#, fuzzy
+msgid "Downloading to-dos"
+msgstr "يجري التنزيل إلى"
+
+#: kcalresourceslox.cpp:387
+#, fuzzy
+msgid "Uploading incidence"
+msgstr "الإرسال"
+
+#: kcalresourceslox.cpp:1227
+#, fuzzy
+msgid "Added"
+msgstr "المضاف"
+
+#: kcalresourceslox.cpp:1228
+#, fuzzy
+msgid "Changed"
+msgstr "غُيِّر"
+
+#: kcalresourceslox.cpp:1229
+#, fuzzy
+msgid "Deleted"
+msgstr "محذوف"
+
+#. i18n: file: kresources_kabc_slox.kcfg:10
+#. i18n: ectx: label, entry (Url), group (General)
+#. i18n: file: kresources_kcal_slox.kcfg:10
+#. i18n: ectx: label, entry (Url), group (General)
+#: rc.cpp:3 rc.cpp:21
+#, fuzzy
+msgid "Base Url"
+msgstr "الأساس عنوان"
+
+#. i18n: file: kresources_kabc_slox.kcfg:13
+#. i18n: ectx: label, entry (User), group (General)
+#. i18n: file: kresources_kcal_slox.kcfg:13
+#. i18n: ectx: label, entry (User), group (General)
+#: rc.cpp:6 rc.cpp:24
+#, fuzzy
+msgid "User Name"
+msgstr "إسم المستخدم"
+
+#. i18n: file: kresources_kabc_slox.kcfg:16
+#. i18n: ectx: label, entry (Password), group (General)
+#. i18n: file: kresources_kcal_slox.kcfg:16
+#. i18n: ectx: label, entry (Password), group (General)
+#: rc.cpp:9 rc.cpp:27
+#, fuzzy
+msgid "Password"
+msgstr "كلمة المرور"
+
+#. i18n: file: kresources_kabc_slox.kcfg:23
+#. i18n: ectx: label, entry (FolderId), group (General)
+#: rc.cpp:15 sloxfolderdialog.cpp:43
+#, fuzzy
+msgid "Folder ID"
+msgstr "مجلّد الهوية"
+
+#. i18n: file: kresources_kabc_slox.kcfg:27
+#. i18n: ectx: label, entry (LastSync), group (General)
+#: rc.cpp:18
+#, fuzzy
+msgid "Last Sync"
+msgstr "الأخير المصاحبة"
+
+#. i18n: file: kresources_kcal_slox.kcfg:19
+#. i18n: ectx: label, entry (LastEventSync), group (General)
+#: rc.cpp:30
+#, fuzzy
+msgid "Last Event Sync"
+msgstr "الأخير حدث المصاحبة"
+
+#. i18n: file: kresources_kcal_slox.kcfg:22
+#. i18n: ectx: label, entry (LastTodoSync), group (General)
+#: rc.cpp:33
+#, fuzzy
+msgid "Last To-do Sync"
+msgstr "الأخير إلى المصاحبة"
+
+#. i18n: file: kresources_kcal_slox.kcfg:29
+#. i18n: ectx: label, entry (CalendarFolderId), group (General)
+#: rc.cpp:39
+#, fuzzy
+msgid "Calendar Folder"
+msgstr "التقويم مجلّد"
+
+#. i18n: file: kresources_kcal_slox.kcfg:33
+#. i18n: ectx: label, entry (TaskFolderId), group (General)
+#: rc.cpp:42
+#, fuzzy
+msgid "Task Folder"
+msgstr "مهمَّة مجلّد"
+
+#: rc.cpp:43
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:44
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"
+
+#: sloxfolder.cpp:45
+#, fuzzy
+msgid "Global Address Book"
+msgstr "شامل دفتر العناوين"
+
+#: sloxfolder.cpp:47
+#, fuzzy
+msgid "Internal Address Book"
+msgstr "داخلي دفتر العناوين"
+
+#: sloxfolderdialog.cpp:35
+#, fuzzy
+msgid "Select Folder"
+msgstr "انتقي مجلّداً"
+
+#: sloxfolderdialog.cpp:38
+#, fuzzy
+msgid "Reload"
+msgstr "أعد التحميل"
+
+#: sloxfolderdialog.cpp:42
+#, fuzzy
+msgid "Folder"
+msgstr "مجلّد"
+
+#: sloxfoldermanager.cpp:163
+#, fuzzy
+msgid "Private Folder"
+msgstr "خاص مجلّد"
+
+#: sloxfoldermanager.cpp:165
+#, fuzzy
+msgid "Public Folder"
+msgstr "مجلّد عام"
+
+#: sloxfoldermanager.cpp:167
+#, fuzzy
+msgid "Shared Folder"
+msgstr "مشترك مجلّد"
+
+#: sloxfoldermanager.cpp:169
+#, fuzzy
+msgid "System Folder"
+msgstr "النظام مجلّد"

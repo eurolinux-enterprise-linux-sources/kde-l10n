@@ -1,0 +1,902 @@
+# translation of ksquares.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksquares\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-15 12:01+0200\n"
+"PO-Revision-Date: 2007-10-14 15:45+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ksquaresdemowindow.cpp:42 ksquareswindow.cpp:76
+#, fuzzy
+msgid "Current Player"
+msgstr "الحالي اللاعب"
+
+#: ksquaresdemowindow.cpp:70
+#, fuzzy, kde-format
+msgid "Player %1"
+msgstr "اللاعب %1"
+
+#. i18n: file: prefs_ai.ui:54
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Difficulty)
+#: ksquareswindow.cpp:90 ksquareswindow.cpp:282 ksquareswindow.cpp:287
+#: rc.cpp:143 rc.cpp:199
+#, fuzzy
+msgid "Easy"
+msgstr "سهل"
+
+#. i18n: file: prefs_ai.ui:59
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Difficulty)
+#: ksquareswindow.cpp:91 ksquareswindow.cpp:283 ksquareswindow.cpp:286
+#: rc.cpp:146 rc.cpp:202
+#, fuzzy
+msgid "Medium"
+msgstr "متوسط"
+
+#. i18n: file: scoreswidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ScoresWidget)
+#: ksquareswindow.cpp:251 rc.cpp:182 rc.cpp:307
+#, fuzzy
+msgid "Scores"
+msgstr "النتائج"
+
+#: ksquareswindow.cpp:256
+#, fuzzy
+msgid "Player Name"
+msgstr "اسم اللاعب"
+
+#: ksquareswindow.cpp:257
+#, fuzzy
+msgid "Completed Squares"
+msgstr "اكتمل مربعات"
+
+#: ksquareswindow.cpp:334
+msgid "Online rankings"
+msgstr ""
+
+#: ksquareswindow.cpp:338
+msgid "List of seats"
+msgstr ""
+
+#: ksquareswindow.cpp:344
+#, fuzzy
+msgid "Start a new game with the current settings"
+msgstr "ابدأ a جديد لعبة مع الحالي خصائص"
+
+#: ksquareswindow.cpp:353
+#, fuzzy
+msgid "Request to start a new game with the current settings"
+msgstr "ابدأ a جديد لعبة مع الحالي خصائص"
+
+#: ksquareswindow.cpp:373
+#, fuzzy
+msgid "Display"
+msgstr "العرض"
+
+#: ksquareswindow.cpp:377
+#, fuzzy
+msgid "Computer Player"
+msgstr "لاعب الجهاز"
+
+#: ksquareswindow.cpp:439
+msgid "The game has finished"
+msgstr ""
+
+#: ksquareswindow.cpp:443
+msgid "It's your turn"
+msgstr ""
+
+#: ksquareswindow.cpp:465
+msgid "Waiting for opponent..."
+msgstr ""
+
+#: ksquareswindow.cpp:507
+msgid "Waiting for move result..."
+msgstr ""
+
+#: main.cpp:23
+#, fuzzy
+msgid ""
+"Take it in turns to draw lines.\n"
+"If you complete a squares, you get another go."
+msgstr "الوارد الإيطالية بوصة إلى رسم سطور كامل a get اذهب."
+
+#: main.cpp:29
+msgid "KSquares"
+msgstr ""
+
+#: main.cpp:30
+#, fuzzy
+msgid "(C) 2006-2007 Matt Williams"
+msgstr "C مات وليامز"
+
+#: main.cpp:32
+#, fuzzy
+msgid "Matt Williams"
+msgstr "مات وليامز"
+
+#: main.cpp:32
+#, fuzzy
+msgid "Original creator and maintainer"
+msgstr "الأصلي و المشرف على الصيانة"
+
+#: main.cpp:33
+msgid "Fela Winkelmolen"
+msgstr ""
+
+#: main.cpp:33
+#, fuzzy
+msgid "Many patches and bugfixes"
+msgstr "عديد و"
+
+#: main.cpp:38
+#, fuzzy
+msgid "Run game in demo (autoplay) mode"
+msgstr "شغل اللعبة في نمط الإستعراضي (تشغيل تلقائي)"
+
+#: main.cpp:50
+#, fuzzy
+msgctxt "default name of second player"
+msgid "Player 2"
+msgstr "اللاعب2"
+
+#: main.cpp:51
+#, fuzzy
+msgctxt "default name of third player"
+msgid "Player 3"
+msgstr "اللاعب 3"
+
+#: main.cpp:52
+#, fuzzy
+msgctxt "default name of fourth player"
+msgid "Player 4"
+msgstr "اللاعب 4"
+
+#. i18n: file: newgamewidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, NewGameWidget)
+#: newgamedialog.cpp:20 rc.cpp:44 rc.cpp:211
+#, fuzzy
+msgid "New Game"
+msgstr "لعبة جديدة"
+
+#. i18n: file: ksquares.kcfg:10
+#. i18n: ectx: label, entry (NumOfPlayers), group (Game Settings)
+#: rc.cpp:3
+#, fuzzy
+msgid "Number of Players"
+msgstr "الرقم من اللاعبون"
+
+#. i18n: file: ksquares.kcfg:14
+#. i18n: ectx: label, entry (PlayerNames), group (Game Settings)
+#: rc.cpp:6
+#, fuzzy
+msgid "Player Names"
+msgstr "اسماء اللاعبين"
+
+#. i18n: file: ksquares.kcfg:17
+#. i18n: ectx: label, entry (HumanList), group (Game Settings)
+#: rc.cpp:9
+#, fuzzy
+msgid "Human or AI"
+msgstr "انس أو الذّكاء الاصطناعيّ :: منظّمة العفو الدّوليّة"
+
+#. i18n: file: ksquares.kcfg:21
+#. i18n: ectx: label, entry (BoardWidth), group (Game Settings)
+#: rc.cpp:12
+#, fuzzy
+msgid "Width of board"
+msgstr "العرض من لوحة"
+
+#. i18n: file: ksquares.kcfg:25
+#. i18n: ectx: label, entry (BoardHeight), group (Game Settings)
+#: rc.cpp:15
+#, fuzzy
+msgid "Height of board"
+msgstr "الارتفاع من لوحة"
+
+#. i18n: file: ksquares.kcfg:29
+#. i18n: ectx: label, entry (QuickStart), group (Game Settings)
+#: rc.cpp:18
+#, fuzzy
+msgid "Quick start the game"
+msgstr "بسرعة تشغيل لعبة"
+
+#. i18n: file: ksquares.kcfg:35
+#. i18n: ectx: label, entry (Difficulty), group (AI)
+#: rc.cpp:21
+#, fuzzy
+msgid "Difficulty"
+msgstr "الصعوبة"
+
+#. i18n: file: ksquares.kcfg:36
+#. i18n: ectx: whatsthis, entry (Difficulty), group (AI)
+#: rc.cpp:24
+#, fuzzy
+msgid "How difficult the AI should be"
+msgstr "كيف الذّكاء الاصطناعيّ :: منظّمة العفو الدّوليّة"
+
+#. i18n: file: ksquares.kcfg:42
+#. i18n: ectx: label, entry (LineColor), group (Display)
+#: rc.cpp:27
+#, fuzzy
+msgid "Line Color"
+msgstr "لون الخط"
+
+#. i18n: file: ksquares.kcfg:47
+#. i18n: ectx: label, entry (IndicatorLineColor), group (Display)
+#: rc.cpp:31
+#, fuzzy
+msgid "Indicator Line Color"
+msgstr "المؤشر خط اللون"
+
+#. i18n: file: ksquares.kcfg:52
+#. i18n: ectx: label, entry (HighlightColor), group (Display)
+#: rc.cpp:35
+#, fuzzy
+msgid "Highlight Color"
+msgstr "الارتفاع من لوحة"
+
+#. i18n: file: ksquaresui.rc:11
+#. i18n: ectx: Menu (onlinegame)
+#: rc.cpp:38 rc.cpp:190
+msgid "Online game"
+msgstr ""
+
+#. i18n: file: ksquaresui.rc:18
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:41 rc.cpp:193
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسي"
+
+#. i18n: file: newgamewidget.ui:37
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
+#: rc.cpp:47 rc.cpp:214
+msgid "Settings for the players in the game"
+msgstr ""
+
+#. i18n: file: newgamewidget.ui:40
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:50 rc.cpp:217
+#, fuzzy
+msgid "Players"
+msgstr "اللاعبون"
+
+#. i18n: file: newgamewidget.ui:64
+#. i18n: ectx: property (whatsThis), widget (QLabel, labelPlayer4Name)
+#: rc.cpp:53 rc.cpp:220
+msgid "The name of the fourth player"
+msgstr ""
+
+#. i18n: file: newgamewidget.ui:67
+#. i18n: ectx: property (text), widget (QLabel, labelPlayer4Name)
+#: rc.cpp:56 rc.cpp:223
+#, fuzzy
+msgid "Player 4:"
+msgstr "اللاعب:"
+
+#. i18n: file: newgamewidget.ui:80
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, playerFourHuman)
+#. i18n: file: newgamewidget.ui:96
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, playerThreeHuman)
+#. i18n: file: newgamewidget.ui:166
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, playerOneHuman)
+#. i18n: file: newgamewidget.ui:214
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, playerTwoHuman)
+#. i18n: file: newgamewidget.ui:80
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, playerFourHuman)
+#. i18n: file: newgamewidget.ui:96
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, playerThreeHuman)
+#. i18n: file: newgamewidget.ui:166
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, playerOneHuman)
+#. i18n: file: newgamewidget.ui:214
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, playerTwoHuman)
+#: rc.cpp:59 rc.cpp:65 rc.cpp:83 rc.cpp:104 rc.cpp:226 rc.cpp:232 rc.cpp:250
+#: rc.cpp:271
+msgid "Should this player be controlled by a human"
+msgstr ""
+
+#. i18n: file: newgamewidget.ui:83
+#. i18n: ectx: property (text), widget (QCheckBox, playerFourHuman)
+#: rc.cpp:62 rc.cpp:229
+#, fuzzy
+msgid "Hum&an?"
+msgstr "انس?"
+
+#. i18n: file: newgamewidget.ui:99
+#. i18n: ectx: property (text), widget (QCheckBox, playerThreeHuman)
+#: rc.cpp:68 rc.cpp:235
+#, fuzzy
+msgid "Hu&man?"
+msgstr "انس?"
+
+#. i18n: file: newgamewidget.ui:109
+#. i18n: ectx: property (whatsThis), widget (QLabel, labelPlayer3Name)
+#: rc.cpp:71 rc.cpp:238
+msgid "The name of the third player"
+msgstr ""
+
+#. i18n: file: newgamewidget.ui:112
+#. i18n: ectx: property (text), widget (QLabel, labelPlayer3Name)
+#: rc.cpp:74 rc.cpp:241
+#, fuzzy
+msgid "Player 3:"
+msgstr "اللاعب:"
+
+#. i18n: file: newgamewidget.ui:131
+#. i18n: ectx: property (whatsThis), widget (QLabel, labelPlayer2Name)
+#: rc.cpp:77 rc.cpp:244
+msgid "The name of the second player"
+msgstr ""
+
+#. i18n: file: newgamewidget.ui:134
+#. i18n: ectx: property (text), widget (QLabel, labelPlayer2Name)
+#: rc.cpp:80 rc.cpp:247
+#, fuzzy
+msgid "Player 2:"
+msgstr "اللاعب2:"
+
+#. i18n: file: newgamewidget.ui:169
+#. i18n: ectx: property (text), widget (QCheckBox, playerOneHuman)
+#: rc.cpp:86 rc.cpp:253
+#, fuzzy
+msgid "&Human?"
+msgstr "انس?"
+
+#. i18n: file: newgamewidget.ui:182
+#. i18n: ectx: property (whatsThis), widget (QLabel, numOfPlayersLabel)
+#: rc.cpp:89 rc.cpp:256
+#, fuzzy
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">How many players will be "
+"in the game</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\"> أبيض فراغ\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"> كيف بوصة لعبة</p></body></"
+"html>"
+
+#. i18n: file: newgamewidget.ui:185
+#. i18n: ectx: property (text), widget (QLabel, numOfPlayersLabel)
+#: rc.cpp:95 rc.cpp:262
+#, fuzzy
+msgid "Number of players:"
+msgstr "الرقم من:"
+
+#. i18n: file: newgamewidget.ui:198
+#. i18n: ectx: property (whatsThis), widget (QLabel, labelPlayer1Name)
+#: rc.cpp:98 rc.cpp:265
+msgid "The name of the first player"
+msgstr ""
+
+#. i18n: file: newgamewidget.ui:201
+#. i18n: ectx: property (text), widget (QLabel, labelPlayer1Name)
+#: rc.cpp:101 rc.cpp:268
+#, fuzzy
+msgid "Player 1:"
+msgstr "اللاعب1:"
+
+#. i18n: file: newgamewidget.ui:217
+#. i18n: ectx: property (text), widget (QCheckBox, playerTwoHuman)
+#: rc.cpp:107 rc.cpp:274
+#, fuzzy
+msgid "H&uman?"
+msgstr "انس?"
+
+#. i18n: file: newgamewidget.ui:230
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox_2)
+#: rc.cpp:110 rc.cpp:277
+msgid "Settings for the game board"
+msgstr ""
+
+#. i18n: file: newgamewidget.ui:233
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:113 rc.cpp:280
+#, fuzzy
+msgid "Game Board"
+msgstr "لعبة لوح"
+
+#. i18n: file: newgamewidget.ui:257
+#. i18n: ectx: property (whatsThis), widget (QLabel, labelWidth)
+#: rc.cpp:116 rc.cpp:283
+msgid "The number of squares the area is wide"
+msgstr ""
+
+#. i18n: file: newgamewidget.ui:260
+#. i18n: ectx: property (text), widget (QLabel, labelWidth)
+#: rc.cpp:119 rc.cpp:286
+#, fuzzy
+msgid "Width:"
+msgstr "العرض:"
+
+#. i18n: file: newgamewidget.ui:289
+#. i18n: ectx: property (whatsThis), widget (QLabel, labelHeight)
+#: rc.cpp:122 rc.cpp:289
+msgid "The number of squares the area is high"
+msgstr ""
+
+#. i18n: file: newgamewidget.ui:292
+#. i18n: ectx: property (text), widget (QLabel, labelHeight)
+#: rc.cpp:125 rc.cpp:292
+#, fuzzy
+msgid "Height:"
+msgstr "الارتفاع:"
+
+#. i18n: file: newgamewidget.ui:324
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox_3)
+#: rc.cpp:128 rc.cpp:295
+msgid "Settings for the game"
+msgstr ""
+
+#. i18n: file: newgamewidget.ui:327
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:131 rc.cpp:298
+#, fuzzy
+msgid "Game Settings"
+msgstr "إعدادات اللعبة"
+
+#. i18n: file: newgamewidget.ui:351
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, quickStartCheck)
+#: rc.cpp:134 rc.cpp:301
+msgid "Partially fill in the board automatically before the game starts"
+msgstr ""
+
+#. i18n: file: newgamewidget.ui:354
+#. i18n: ectx: property (text), widget (QCheckBox, quickStartCheck)
+#: rc.cpp:137 rc.cpp:304
+#, fuzzy
+msgid "Quick start"
+msgstr "بسرعة تشغيل"
+
+#. i18n: file: prefs_ai.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefs_ai)
+#: rc.cpp:140 rc.cpp:196
+#, fuzzy
+msgid "AI Settings"
+msgstr "الذّكاء الاصطناعيّ :: منظّمة العفو الدّوليّة إعدادات"
+
+#. i18n: file: prefs_ai.ui:70
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_difficulty)
+#: rc.cpp:149 rc.cpp:205
+msgid "How difficult it will be to beat the computer"
+msgstr ""
+
+#. i18n: file: prefs_ai.ui:73
+#. i18n: ectx: property (text), widget (QLabel, label_difficulty)
+#: rc.cpp:152 rc.cpp:208
+#, fuzzy
+msgid "AI difficulty:"
+msgstr "الذّكاء الاصطناعيّ :: منظّمة العفو الدّوليّة:"
+
+#. i18n: file: prefs_display.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, prefs_display)
+#: rc.cpp:155 rc.cpp:313
+#, fuzzy
+msgid "Display Settings"
+msgstr "إعدادات العرض"
+
+#. i18n: file: prefs_display.ui:19
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox_2)
+#: rc.cpp:158 rc.cpp:316
+msgid "Settings for colors"
+msgstr ""
+
+#. i18n: file: prefs_display.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:161 rc.cpp:319
+#, fuzzy
+msgid "Colors"
+msgstr "الألوان"
+
+#. i18n: file: prefs_display.ui:28
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: rc.cpp:164 rc.cpp:322
+msgid "Color of the drawn lines"
+msgstr ""
+
+#. i18n: file: prefs_display.ui:31
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:167 rc.cpp:325
+#, fuzzy
+msgid "Standard line color:"
+msgstr "قياسي سطر اللّون:"
+
+#. i18n: file: prefs_display.ui:44
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#. i18n: file: prefs_display.ui:60
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
+#. i18n: file: prefs_display.ui:44
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#. i18n: file: prefs_display.ui:60
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
+#: rc.cpp:170 rc.cpp:176 rc.cpp:328 rc.cpp:334
+msgid "Color of the indicator lines"
+msgstr ""
+
+#. i18n: file: prefs_display.ui:47
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:173 rc.cpp:331
+#, fuzzy
+msgid "Indicator line color:"
+msgstr "المؤشر سطر اللّون:"
+
+#. i18n: file: prefs_display.ui:63
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:179 rc.cpp:337
+msgid "Highlight color:"
+msgstr ""
+
+#. i18n: file: scoreswidget.ui:19
+#. i18n: ectx: property (whatsThis), widget (QTableView, scoreTable)
+#: rc.cpp:185 rc.cpp:310
+#, fuzzy
+msgid "Scoreboard"
+msgstr "النتائج"
+
+#: rc.cpp:186
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:187
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"
+
+#, fuzzy
+#~ msgctxt "default name of first player"
+#~ msgid "Player 1"
+#~ msgstr "اللاعب1"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Settings for the "
+#~ "players in the game</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> إعدادات لـ بوصة لعبة</"
+#~ "p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans';\">The "
+#~ "name of the fourth player</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans';\"> "
+#~ "الـ الإسم من الرّابع</p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Should this player be "
+#~ "controlled by a human</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> يجب أن أداء a</p></"
+#~ "body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">The name of the third "
+#~ "player</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> الـ الإسم من الثّالث</"
+#~ "p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-family:Sans;\">The "
+#~ "name of the second player</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-family:Sans;\"> الـ "
+#~ "الإسم من ثانية</p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">The name of the first "
+#~ "player</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> الـ الإسم من الأوّل</"
+#~ "p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Settings for the game "
+#~ "board</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> إعدادات لـ لعبة لوحة</"
+#~ "p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-family:Sans;\">The "
+#~ "number of squares the area is wide</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-family:Sans;\"> الـ "
+#~ "رقم من منطقة هو</p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-family:Sans;\">The "
+#~ "number of squares the area is high</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-family:Sans;\"> الـ "
+#~ "رقم من منطقة هو مرتفع</p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Settings for the game</"
+#~ "p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> إعدادات لـ لعبة</p></"
+#~ "body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Partially fill in the "
+#~ "board automatically before the game starts</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> جزئيا ملء بوصة لوحة "
+#~ "قبل لعبة</p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "     </property>\n"
+#~ "     <property name=\"whatsThis\" >\n"
+#~ "      <string><html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+#~ "type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">How difficult it will "
+#~ "be to beat the computer</p></body></html>"
+#~ msgstr ""
+#~ "\n"
+#~ "</property>\n"
+#~ "<property name=\"whatsThis\" >\n"
+#~ "<string><html><head><meta name=\"qrichtext\" content=\"1\" /><style type="
+#~ "\"text/css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> كيف الإيطالية إلى "
+#~ "حاسوب</p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">How difficult it will "
+#~ "be to beat the computer</p></body></html></string>\n"
+#~ "     </property>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> كيف الإيطالية إلى "
+#~ "حاسوب</p></body></html></string>\n"
+#~ "</property>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Settings for colors</"
+#~ "p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> إعدادات لـ ألوان</p></"
+#~ "body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Color of the indicator "
+#~ "lines</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> اللون من سطور</p></"
+#~ "body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Color of the drawn "
+#~ "lines</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> اللون من سطور</p></"
+#~ "body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Scoreboard</p></body></"
+#~ "html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> لوحة النتائج</p></"
+#~ "body></html>"

@@ -1,0 +1,160 @@
+# translation of plasmapkg.po to Arabic
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Abdulaziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmapkg\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-07-27 01:21+0200\n"
+"PO-Revision-Date: 2009-07-02 15:10+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: main.cpp:42
+msgid "Install, list, remove Plasma packages"
+msgstr "ثبت ، اعرض ، احذف حزم البلازما"
+
+#: main.cpp:79
+msgid "Plasma Package Manager"
+msgstr "مدير حزم البلازما"
+
+#: main.cpp:81
+msgid "(C) 2008, Aaron Seigo"
+msgstr "(C) 2008, Aaron Seigo"
+
+#: main.cpp:82
+msgid "Aaron Seigo"
+msgstr "Aaron Seigo"
+
+#: main.cpp:83
+msgid "Original author"
+msgstr "المؤلف الأصلي"
+
+#: main.cpp:92
+msgid "For install or remove, operates on packages installed for all users."
+msgstr "لعمليات تثبيت وحذف الحزم لجميع المستخدمين"
+
+#: main.cpp:98
+msgctxt ""
+"theme, wallpaper, etc. are keywords, but they may be translated, as both "
+"versions are recognized by the application (if translated, should be same as "
+"messages with 'package type' context below)"
+msgid ""
+"The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
+"etc."
+msgstr ""
+"نوع الحزمة ، على سبيل المثال سمة ، خلفية شاشة ، بلازمويد ، محرك بيانات ، "
+"مشغل ، إلخ."
+
+#: main.cpp:102
+msgctxt "Do not translate <path>"
+msgid "Install the package at <path>"
+msgstr "ثبت الحزم في <path>"
+
+#: main.cpp:104
+msgctxt "Do not translate <path>"
+msgid "Upgrade the package at <path>"
+msgstr "حدث الحزم في <path>"
+
+#: main.cpp:106
+msgid "List installed packages"
+msgstr "اسرد الحزم المثبتة"
+
+#: main.cpp:108
+msgctxt "Do not translate <name>"
+msgid "Remove the package named <name>"
+msgstr "احذف الحزمة المسماة <name>"
+
+#: main.cpp:110
+msgid ""
+"Absolute path to the package root. If not supplied, then the standard data "
+"directories for this KDE session will be searched instead."
+msgstr ""
+"مسار الجذري للحزمة ، إذا لم يعطى سوف تبحث عن أدلة البيانات القياسية التي "
+"توجد في هذه الجلسة."
+
+#: main.cpp:122
+msgctxt "package type"
+msgid "plasmoid"
+msgstr "بلازمود"
+
+#: main.cpp:127
+msgctxt "package type"
+msgid "theme"
+msgstr "سمة"
+
+#: main.cpp:129
+msgctxt "package type"
+msgid "wallpaper"
+msgstr "خلفية شاشة"
+
+#: main.cpp:131
+msgctxt "package type"
+msgid "dataengine"
+msgstr "محرك البيانات"
+
+#: main.cpp:135
+msgctxt "package type"
+msgid "runner"
+msgstr "مشغل"
+
+#: main.cpp:143
+#, kde-format
+msgid "Could not find a suitable installer for package of type %1"
+msgstr "لا يوجد مثبت مستقر لهذا النوع من الحزم نوع %1"
+
+#: main.cpp:152
+#, kde-format
+msgid "Could not load installer for package of type %1. Error reported was: %2"
+msgstr "لا يوجد مثبت مستقر لهذا النوع من الحزم نوع %1. خطأ رقم %2"
+
+#: main.cpp:208
+#, kde-format
+msgid "Successfully removed %1"
+msgstr "%1 حذف بنجاح"
+
+#: main.cpp:210
+#, kde-format
+msgid "Removal of %1 failed."
+msgstr "فشل حذف %1"
+
+#: main.cpp:215
+#, kde-format
+msgid "Plugin %1 is not installed."
+msgstr "لم يثبت المحلق %1"
+
+#: main.cpp:220
+#, kde-format
+msgid "Successfully installed %1"
+msgstr "تم تثبيت بنجاح %1"
+
+#: main.cpp:222
+#, kde-format
+msgid "Installation of %1 failed."
+msgstr "فشل تثبيت %1"
+
+#: main.cpp:228
+msgctxt ""
+"No option was given, this is the error message telling the user he needs at "
+"least one, do not translate install, remove, upgrade nor list"
+msgid "One of install, remove, upgrade or list is required."
+msgstr "يجب اختيار  install أو  remove أو upgrade أو list  "
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "محمد ابراهيم الحرقان ، زايد السعيدي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "imksa@hotmail.com;zayed.alsaidi@gmail.com"

@@ -1,0 +1,76 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# ahmed <kebomix@gmail.com>, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_ical_resource\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-07-19 07:11+0200\n"
+"PO-Revision-Date: 2009-07-14 11:40+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: icalresource.cpp:77 icalresource.cpp:135 icalresource.cpp:157
+#: icalresource.cpp:193
+msgid "Calendar not loaded."
+msgstr "لم يحمل التقويم."
+
+#: icalresource.cpp:84
+#, kde-format
+msgid "Incidence with uid '%1' not found."
+msgstr "الحادثة ذات uid '%1' غير موجودة."
+
+#: icalresource.cpp:115
+msgctxt "Filedialog filter for *.ics *.ical"
+msgid "iCal Calendar File"
+msgstr "ملف تقويم iCal"
+
+#: icalresource.cpp:116
+msgid "Select Calendar"
+msgstr "اختر التقويم"
+
+#: icalresource.cpp:140
+#, kde-format
+msgid "Unable to retrieve added item %1."
+msgstr "لايمكن استرجاع العنصر المضاف %1."
+
+#: icalresource.cpp:162
+#, kde-format
+msgid "Unable to retrieve modified item %1."
+msgstr "لايمكن إسترجاع العنصر المعدل %1."
+
+#: icalresource.cpp:229
+#, kde-format
+msgid "Failed to save calendar file to %1"
+msgstr "فشل فى حفظ ملف التقويم إلى %1"
+
+#. i18n: file: icalresource.kcfg:9
+#. i18n: ectx: label, entry (Path), group (General)
+#: rc.cpp:3
+msgid "Path to iCal file."
+msgstr "العنوان إلى ملف iCal ."
+
+#. i18n: file: icalresource.kcfg:13
+#. i18n: ectx: label, entry (ReadOnly), group (General)
+#: rc.cpp:6
+msgid "Do not change the actual backend data."
+msgstr "لا تغير بيانات الخلفية الفعلية"
+
+#. i18n: file: icalresource.kcfg:17
+#. i18n: ectx: label, entry (AutosaveInterval), group (General)
+#: rc.cpp:9
+msgid "Autosave interval time (in minutes)."
+msgstr "فترة الحفظ التلقائي (بالدقائق)."
+
+#. i18n: file: icalresource.kcfg:21
+#. i18n: ectx: label, entry (MonitorFile), group (General)
+#: rc.cpp:12
+msgid "Monitor file for changes."
+msgstr "راقب الملف للتغيرات."

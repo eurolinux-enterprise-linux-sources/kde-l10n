@@ -1,0 +1,772 @@
+# translation of krfb.po to Arabic
+# translation of krfb.po to
+# Copyright (C) 2003, 2004, 2006, 2007, 2009 Free Software Foundation, Inc.
+#
+# Nuriddin Aminagha <nuriddin@haydarlinux.org>, 2002.
+# Nuriddin S. Aminagha <nuriddin@haydarlinux.org>, 2003.
+# Mohamed Assar (محمد عَصَر) <aser@arabeyes.org>, 2003.
+# Munzir Taha <munzir@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: krfb\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-09-12 01:26+0200\n"
+"PO-Revision-Date: 2009-01-11 13:06+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: connectioncontroller.cpp:110
+#, fuzzy, kde-format
+#| msgid "Accepted uninvited connection from %1"
+msgid "Refused uninvited connection attempt from %1"
+msgstr "اتصال مقبول غير مدعو من %1"
+
+#: connectioncontroller.cpp:117
+#, kde-format
+msgid "Accepted uninvited connection from %1"
+msgstr "اتصال مقبول غير مدعو من %1"
+
+#: connectioncontroller.cpp:125
+#, kde-format
+msgid "Received connection from %1, on hold (waiting for confirmation)"
+msgstr "وصول اتصال من %1 ، معلق (في انتظار التأكيد)"
+
+#: connectioncontroller.cpp:170 connectioncontroller.cpp:174
+#, kde-format
+msgid "Failed login attempt from %1: wrong password"
+msgstr "فشل محاولة تسجيل الدخول من %1: كلمة المرور خطأ"
+
+#: connectiondialog.cpp:32
+msgid "New Connection"
+msgstr "اتصال جديد"
+
+#: connectiondialog.cpp:45
+msgid "Accept Connection"
+msgstr "&وافق على الاتصال"
+
+#: connectiondialog.cpp:49
+msgid "Refuse Connection"
+msgstr "أ&رفض الاتصال"
+
+#: invitedialog.cpp:34 manageinvitationsdialog.cpp:56
+msgid "Invitation"
+msgstr "الدعوة"
+
+#. i18n: file: invitewidget.ui:125
+#. i18n: ectx: property (text), widget (QPushButton, btnManageInvite)
+#: invitedialog.cpp:72 rc.cpp:61
+#, no-c-format, kde-format
+msgid "&Manage Invitations (%1)..."
+msgstr "إ&دارة الدعوات (%1)..."
+
+#: invitedialog.cpp:78
+msgid ""
+"An invitation creates a one-time password that allows the receiver to "
+"connect to your desktop.\n"
+"It is valid for only one successful connection and will expire after an hour "
+"if it has not been used. \n"
+"When somebody connects to your computer a dialog will appear and ask you for "
+"permission.\n"
+" The connection will not be established before you accept it. In this dialog "
+"you can also\n"
+" restrict the other person to view your desktop only, without the ability to "
+"move your\n"
+" mouse pointer or press keys.\n"
+"If you want to create a permanent password for Desktop Sharing, allow "
+"'Uninvited Connections' \n"
+"in the configuration."
+msgstr ""
+"تنشئ الدعوة كلمة مرور لمرة واحدة تسمح للمستقبل أن يتصل بسطح مكتبك.\n"
+"وهي صالحة لاتصال واحد ناجح ، وستنتهي بعد ساعة إذا لم تستخدم.\n"
+"عندما يتصل شخص بحاسوبك فإن مربع حوار سيظهر و يسألك عن الصلاحيات.\n"
+"لن ينشئ الاتصال قبل أن توافق عليه ، وفي هذا المربع أيضا يمكنك حد\n"
+"الشخص الآخر لكي يرى سطح مكتبك فقط بدون القدرة على تحريك\n"
+"مؤشر الفأرة أو الضغط على المفاتيح.\n"
+"إذا كنت تريد إنشاء كلمة سر دائمة لمشاركة سطح المكتب ، اسمح لل 'اتصالات غير "
+"مدعوة' \n"
+" في الضبط."
+
+#: krfbserver.cpp:193 krfbserver.cpp:213
+#, kde-format
+msgid "%1@%2 (shared desktop)"
+msgstr "%1@%2 (سطح مكتب مشارك)"
+
+#: krfbserver.cpp:206
+msgid "Address already in use"
+msgstr "العنوان مستخدم بالفعل"
+
+#: krfbserver.cpp:299
+msgid ""
+"Your X11 Server does not support the required XTest extension version 2.2. "
+"Sharing your desktop is not possible."
+msgstr ""
+"إنّ خادمك X11 لا يدعم التمديدXTest  الإصدار 2.2 المطلوب. مشاركة سطح مكتبك غير "
+"ممكنة."
+
+#: krfbserver.cpp:300
+msgid "Desktop Sharing Error"
+msgstr "خطأ مشاركة سطح المكتب"
+
+#: main.cpp:40
+msgid "VNC-compatible server to share KDE desktops"
+msgstr "خادم VNC يطابق مشاركة أسطح المكتب KDE"
+
+#: main.cpp:46 trayicon.cpp:78 trayicon.cpp:92
+msgid "Desktop Sharing"
+msgstr "مشاركة سطح المكتب"
+
+#: main.cpp:48
+msgid ""
+"(c) 2007, Alessandro Praduroux\n"
+"(c) 2001-2003, Tim Jansen\n"
+"(c) 2001, Johannes E. Schindelin\n"
+"(c) 2000, heXoNet Support GmbH, D-66424 Homburg\n"
+"(c) 2000-2001, Const Kaplinsky\n"
+"(c) 2000, Tridia Corporation\n"
+"(c) 1999, AT&T Laboratories Boston\n"
+msgstr ""
+"(c) 2007, Alessandro Praduroux\n"
+"(c) 2001-2003, Tim Jansen\n"
+"(c) 2001, Johannes E. Schindelin\n"
+"(c) 2000, heXoNet Support GmbH, D-66424 Homburg\n"
+"(c) 2000-2001, Const Kaplinsky\n"
+"(c) 2000, Tridia Corporation\n"
+"(c) 1999, AT&T Laboratories Boston\n"
+
+#: main.cpp:55
+msgid "Alessandro Praduroux"
+msgstr "Alessandro Praduroux"
+
+#: main.cpp:55
+msgid "KDE4 porting"
+msgstr "النقل إلى كيدي4"
+
+#: main.cpp:56
+msgid "Tim Jansen"
+msgstr "Tim Jansen"
+
+#: main.cpp:57
+msgid "Ian Reinhart Geiser"
+msgstr "Ian Reinhart Geiser"
+
+#: main.cpp:57
+msgid "DCOP interface"
+msgstr "واجهة DCOP"
+
+#: main.cpp:58
+msgid "Johannes E. Schindelin"
+msgstr "Johannes E. Schindelin"
+
+#: main.cpp:59
+msgid "libvncserver"
+msgstr "libvncserver"
+
+#: main.cpp:60
+msgid "Const Kaplinsky"
+msgstr "Const Kaplinsky"
+
+#: main.cpp:61
+msgid "TightVNC encoder"
+msgstr "مرمز TightVNC"
+
+#: main.cpp:62
+msgid "Tridia Corporation"
+msgstr "Tridia Corporation"
+
+#: main.cpp:63
+msgid "ZLib encoder"
+msgstr "مرمز ZLib"
+
+#: main.cpp:64
+msgid "AT&T Laboratories Boston"
+msgstr "AT&T Laboratories Boston"
+
+#: main.cpp:65
+msgid "original VNC encoders and protocol design"
+msgstr "مرمز VNC الأصلي وتصميم الميفاق"
+
+#: main.cpp:67
+msgid "Jens Wagner (heXoNet Support GmbH)"
+msgstr "Jens Wagner (heXoNet Support GmbH)"
+
+#: main.cpp:68
+msgid "X11 update scanner, original code base"
+msgstr "ماسح التحديث X11 ، قاعدة الرموز الأصلية"
+
+#: main.cpp:70
+msgid "Jason Spisak"
+msgstr "Jason Spisak"
+
+#: main.cpp:71
+msgid "Connection side image"
+msgstr "الصورة من جانب الاتصال"
+
+#: main.cpp:73
+msgid "Karl Vogel"
+msgstr "Karl Vogel"
+
+#: main.cpp:74
+msgid "KDesktop background deactivation"
+msgstr "إلغاء تنشيط خلفية KDesktop"
+
+#: main.cpp:78
+msgid "Do not show the invitations management dialog at startup"
+msgstr ""
+
+#: manageinvitationsdialog.cpp:94
+msgid ""
+"An invitation creates a one-time password that allows the receiver to "
+"connect to your desktop.\n"
+"It is valid for only one successful connection and will expire after an hour "
+"if it has not been used. \n"
+"When somebody connects to your computer a dialog will appear and ask you for "
+"permission.\n"
+"The connection will not be established before you accept it. In this dialog "
+"you can also\n"
+"restrict the other person to view your desktop only, without the ability to "
+"move your\n"
+"mouse pointer or press keys.\n"
+"If you want to create a permanent password for Desktop Sharing, allow "
+"'Uninvited Connections' \n"
+"in the configuration."
+msgstr ""
+"تنشئ الدعوة كلمة مرورة لمرة واحدة تسمح للمستقبل أن يتصل بسطح مكتبك.\n"
+"وهي صالحة لاتصال واحد ناجح ، وستنتهي بعد ساعة إذا لم تستخدم.\n"
+"عندما يتصل شخص بحاسوبك فإن مربع حوار سيظهر و يسألك عن الصلاحيات.\n"
+"لن ينشئ الاتصال قبل أن توافق عليه ، وفي هذا المربع أيضا يمكنك حد\n"
+"الشخص الآخر لكي يرى سطح مكتبك فقط بدون القدرة على تحريك\n"
+"مؤشر الفأرة أو الضغط على المفاتيح.\n"
+"إذا كنت تريد إنشاء كلمة سر دائمة لمشاركة سطح المكتب ، اسمح لل 'اتصالات غير "
+"مدعوة' \n"
+" في الضبط."
+
+#: manageinvitationsdialog.cpp:116
+msgid ""
+"When sending an invitation by email, note that everybody who reads this "
+"email will be able to connect to your computer for one hour, or until the "
+"first successful connection took place, whichever comes first. \n"
+"You should either encrypt the email or at least send it only in a secure "
+"network, but not over the Internet."
+msgstr ""
+"عند إرسال دعوة عبر البريد الإلكتروني ، لاحظ أنّ أي شخص يقوم بقراءة هذه "
+"الرسالة سيتمكن من الاتصال بحاسوبك في خلال ساعة واحدة ، أو حتى يأخذ الاتصال "
+"الأول مكانه ، أيهما يأتي أولاً.\n"
+"عليك إما تشفير الرسالة أو على الأقل إرسالها عبر شبكة آمنة ، و لكن ليس عبر "
+"الإنترنت."
+
+#: manageinvitationsdialog.cpp:121
+msgid "Send Invitation via Email"
+msgstr "أرسل دعوة عبر البريد الإلكتروني"
+
+#: manageinvitationsdialog.cpp:142
+msgid "Desktop Sharing (VNC) invitation"
+msgstr "دعوة مشاركة سطح المكتب (VNC)"
+
+#: manageinvitationsdialog.cpp:143
+#, kde-format
+msgid ""
+"You have been invited to a VNC session. If you have the KDE Remote Desktop "
+"Connection installed, just click on the link below.\n"
+"\n"
+"%1\n"
+"\n"
+"Otherwise you can use any VNC client with the following parameters:\n"
+"\n"
+"Host: %2:%3\n"
+"Password: %4\n"
+"\n"
+"For security reasons this invitation will expire at %5."
+msgstr ""
+"لقد دعيت إلى جلسة VNC ، إذا كان لديك برنامج الكيدي للأسطح البعيدةما عليك إلا "
+"أن تنقر على الرابط الذي بالأسفل.\n"
+"\n"
+"%1\n"
+"\n"
+"عدا ذلك فيمكنك استخدام أي عميل VNC بالمعطيات التالية:\n"
+"\n"
+"المضيف: %2:%3\n"
+"كلمة السر: %4\n"
+"\n"
+"لدواعي أمنية فإن هذه الدعوة ستنتهي في %5."
+
+#: manageinvitationsdialog.cpp:180
+msgid "Network"
+msgstr "الشبكة"
+
+#: manageinvitationsdialog.cpp:181
+msgid "Security"
+msgstr "الأمن"
+
+#: manageinvitationsdialog.cpp:190
+msgid "<qt>Are you sure you want to delete all invitations?</qt>"
+msgstr "<qt> هل أنت متأكد أنك تريد حذف جميع الدعوات؟</qt>"
+
+#: manageinvitationsdialog.cpp:191 manageinvitationsdialog.cpp:207
+msgid "Confirm delete Invitations"
+msgstr "أكد حذف الدعوات"
+
+#: manageinvitationsdialog.cpp:206
+msgid "<qt>Are you sure you want to delete this invitation?</qt>"
+msgstr "<qt> هل أنت متأكد أنك تريد حذف هذه الدعوة ؟</qt>"
+
+#: personalinvitedialog.cpp:35
+msgid "Personal Invitation"
+msgstr "الدعوة الشخصية"
+
+#: personalinvitedialog.cpp:87
+msgid ""
+"Desktop Sharing uses the VNC protocol. You can use any VNC client to "
+"connect. \n"
+"In KDE the client is called 'Remote Desktop Connection'. Enter the host "
+"information\n"
+"into the client and it will connect.."
+msgstr ""
+"مشاركة سطح المكتب باستخدام برتوكول VNC . يمكنك استعمال أي عميل VNC للاتصال.\n"
+"في الكيدي يسمى العميل بـ  'اتصال بسطح مكتب بعيد' . ادخل معلومات المضيف\n"
+"في العميل و هو سيقوم بالاتصال.."
+
+#: personalinvitedialog.cpp:92
+msgid ""
+"This field contains the address of your computer and the display number, "
+"separated by a colon.\n"
+"The address is just a hint - you can use any address that can reach your "
+"computer. \n"
+"Desktop Sharing tries to guess your address from your network configuration, "
+"but does\n"
+"not always succeed in doing so. If your computer is behind a firewall it may "
+"have a\n"
+"different address or be unreachable for other computers."
+msgstr ""
+"هذا الحقل يحوي عنوان حاسوبك و الرقم العرض ، مفصولة بفاصلة .\n"
+"العنوان مجرد تلميحة - يمكنك أن تستخدم أي عنوان يمكن أن يصل لحاسوبك.\n"
+"برنامج مشاركة سطح المكتب يحاول تخمين عنوانك عن طريقك ضبط شبكتك ، ولكن \n"
+"لا ينجح دائما . إذا كان حاسوبك خلف جدار ناري فقد يكون لديخ عنوان مختلف\n"
+"أو لا يمكن الوصول إليه عن طريق الحواسيب الأخرى."
+
+#. i18n: file: configsecurity.ui:16
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowUninvitedConnections)
+#: rc.cpp:3
+msgid "Allow uninvited connections"
+msgstr "اسمح بالاتصالات غير المدعوة"
+
+#. i18n: file: configsecurity.ui:23
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowDesktopControl)
+#: rc.cpp:6
+msgid "Allow remote connections to control your desktop"
+msgstr "اسمح للاتصالات البعيدة  بتحكم بسطح مكتبك"
+
+#. i18n: file: configsecurity.ui:36
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_askOnConnect)
+#: rc.cpp:9
+msgid "Ask before accepting an uninvited connection"
+msgstr "اسأل قبل قبول الاتصال غير المدعو"
+
+#. i18n: file: configsecurity.ui:49
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:12
+msgid "Uninvited connections password:"
+msgstr " كلمة مرو الاتصالات غير مدعوة:"
+
+#. i18n: file: configtcp.ui:22
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_publishService)
+#. i18n: file: krfb.kcfg:16
+#. i18n: ectx: label, entry (publishService), group (TCP)
+#: rc.cpp:15 rc.cpp:70
+msgid "Announce the service on the local network"
+msgstr "أعلن الخدمة  على الشبكة المحلية"
+
+#. i18n: file: configtcp.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useDefaultPort)
+#: rc.cpp:18
+msgid "Use default port"
+msgstr "استعمل منفذ المبدئي"
+
+#. i18n: file: configtcp.ui:50
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:21
+msgid "Listening port:"
+msgstr "منفذ الاستماع:"
+
+#. i18n: file: connectionwidget.ui:47
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: rc.cpp:24
+msgid "Attention"
+msgstr "انتباه"
+
+#. i18n: file: connectionwidget.ui:72
+#. i18n: ectx: property (text), widget (QLabel, mainTextLabel)
+#: rc.cpp:27
+msgid ""
+"Somebody is requesting a connection to your computer. Granting this will "
+"allow the remote user to watch your desktop. "
+msgstr ""
+"شخص ما يطلب الاتصال بحاسوبك. الموافقة على هذا الطلب سيسمح للمستخدم البعيد "
+"بمشاهدة سطح مكتبك. "
+
+#. i18n: file: connectionwidget.ui:102
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:30
+msgid "Remote system:"
+msgstr "النظام البعيد:"
+
+#. i18n: file: connectionwidget.ui:118
+#. i18n: ectx: property (text), widget (QLabel, remoteHost)
+#: rc.cpp:33
+msgid "123.234.123.234"
+msgstr "123.234.123.234"
+
+#. i18n: file: connectionwidget.ui:136
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAllowRemoteControl)
+#: rc.cpp:36
+msgid ""
+"If you turn this option on, the remote user can enter keystrokes and use "
+"your mouse pointer. This gives them full control over your computer, so be "
+"careful. When the option is disabled the remote user can only watch your "
+"screen."
+msgstr ""
+"إذا مكّنت هذا الخيار ، سيكون باستطاعة المستخدم البعيد أن يضغط على أزرار لوحة "
+"المفاتيح و استعمال مؤشر الفأرة. بما أنّ ذلك يعطيه إمكانية التحكم الكامل "
+"بحاسوبك إذاً عليك أنّ تكون حذراً. إذا كان الخيار معطّل فلن يستطيع المستخدم "
+"البعيد غير مراقبة شاشتك."
+
+#. i18n: file: connectionwidget.ui:139
+#. i18n: ectx: property (text), widget (QCheckBox, cbAllowRemoteControl)
+#: rc.cpp:39
+msgid "Allow remote user to &control keyboard and mouse"
+msgstr "اسمح للمستخدم البعيد بالت&حكم بالفأرة ولوحة المفاتيح"
+
+#. i18n: file: invitewidget.ui:40
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#. i18n: file: manageinvitations.ui:28
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: rc.cpp:42 rc.cpp:88
+msgid "Welcome to KDE Desktop Sharing"
+msgstr "مرحباً بك في مشاركة سطح المكتب KDE ."
+
+#. i18n: file: invitewidget.ui:50
+#. i18n: ectx: property (text), widget (QLabel, helpLabel)
+#: rc.cpp:45
+msgid ""
+"KDE Desktop Sharing allows you to invite somebody at a remote location to "
+"watch and possibly control your desktop. <a href=\"whatsthis\">More about "
+"invitations...</a>"
+msgstr ""
+"تشارك سطح المكتب للكيدي يسمح لك بدعوة شخص بعيد لمشاهدةأو التحكم بسطح مكتبك . "
+"<a href=\"whatsthis\">المزيد عند  الدعوات...</a>"
+
+#. i18n: file: invitewidget.ui:105
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnCreateInvite)
+#: rc.cpp:48
+msgid ""
+"Create a new invitation and display the connection data. Use this option if "
+"you want to invite somebody personally, for example, to give the connection "
+"data over the phone."
+msgstr ""
+"أنشئ دعوة جديدة وأعرض بيانات الاتصال. استعمل هذا الخيار إذا أردت دعوة أحدهم "
+"شخصيًا. مثلاً لإعطاء بيانات الاتصال عبر الهاتف."
+
+#. i18n: file: invitewidget.ui:108
+#. i18n: ectx: property (text), widget (QPushButton, btnCreateInvite)
+#: rc.cpp:51
+msgid "Create &Personal Invitation..."
+msgstr "أنشء دعوة &شخصية..."
+
+#. i18n: file: invitewidget.ui:115
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnEmailInvite)
+#: rc.cpp:54
+msgid ""
+"This button will start your email application with a pre-configured text "
+"that explains to the recipient how to connect to your computer. "
+msgstr ""
+"هذا الزر سيبدأ برنامجك لللبريد الإلكتروني مع نص مهيئ تمهيدي لشرح كيفية "
+"الاتصال للشخص المدعو إلى حاسوبك."
+
+#. i18n: file: invitewidget.ui:118
+#. i18n: ectx: property (text), widget (QPushButton, btnEmailInvite)
+#: rc.cpp:57
+msgid "Invite via &Email..."
+msgstr "دعوة عبر ال&بريد الإلكتروني..."
+
+#. i18n: file: krfb.kcfg:8
+#. i18n: ectx: label, entry (useDefaultPort), group (TCP)
+#: rc.cpp:64
+msgid "Use the default port for VNC (5900)"
+msgstr "استعمل المنفذ المبدئي لـ VNC وهو (5900)"
+
+#. i18n: file: krfb.kcfg:12
+#. i18n: ectx: label, entry (port), group (TCP)
+#: rc.cpp:67
+msgid "This is the port on which krfb will listen."
+msgstr "هذا هو منفذ الذي سيستمع إليه krfb."
+
+#. i18n: file: krfb.kcfg:22
+#. i18n: ectx: label, entry (allowDesktopControl), group (Security)
+#: rc.cpp:73
+msgid "Allow remote connections to manage the desktop."
+msgstr "اسمح للاتصالات البعيدة بإدارة سطح المكتب."
+
+#. i18n: file: krfb.kcfg:26
+#. i18n: ectx: label, entry (askOnConnect), group (Security)
+#: rc.cpp:76
+msgid "Ask before allowing a remote connection."
+msgstr "اسأل قبل السماح للاتصال البعيد."
+
+#. i18n: file: krfb.kcfg:30
+#. i18n: ectx: label, entry (allowUninvitedConnections), group (Security)
+#: rc.cpp:79
+msgid "Allow connections without an invitation."
+msgstr "اسمح للاتصالات البعيدة بدون دعوة."
+
+#. i18n: file: krfb.kcfg:34
+#. i18n: ectx: label, entry (uninvitedConnectionPassword), group (Security)
+#: rc.cpp:82
+msgid "Password for uninvited connections."
+msgstr "كلمة السر للاتصالات غير المدعوة."
+
+#. i18n: file: manageinvitations.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ManageInvitationsDialog)
+#: rc.cpp:85
+msgid "Manage Invitations - Desktop Sharing"
+msgstr "إدارة الدعوات - مشاركة سطح المكتب"
+
+#. i18n: file: manageinvitations.ui:41
+#. i18n: ectx: property (text), widget (QLabel, helpLabel)
+#: rc.cpp:91
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">KDE Desktop Sharing allows "
+"you to invite somebody at a remote location to watch and possibly control "
+"your desktop. <a href=\"whatsthis\">More about invitations...</a></p></"
+"body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">يسمح عميل مشاركة سطح "
+"المكتب للكيديبدعوة شخص في مكان بعيد لمشاهدة سطح مكتب و بالإمكان التحكم به . "
+"<a href=\"whatsthis\">المزيد عن الدعوات...</a></p></body></html>"
+
+#. i18n: file: manageinvitations.ui:98
+#. i18n: ectx: property (text), widget (QTreeWidget, invitationWidget)
+#: rc.cpp:97
+msgid "Creation Time"
+msgstr "وقت الإنشاء"
+
+#. i18n: file: manageinvitations.ui:103
+#. i18n: ectx: property (text), widget (QTreeWidget, invitationWidget)
+#: rc.cpp:100
+msgid "Expire Time"
+msgstr "وقت الانتهاء"
+
+#. i18n: file: manageinvitations.ui:127
+#. i18n: ectx: property (toolTip), widget (QPushButton, newPersonalInvitationButton)
+#: rc.cpp:103
+msgid "Create a new personal invitation..."
+msgstr "أنشء دعوة شخصية جديدة..."
+
+#. i18n: file: manageinvitations.ui:130
+#. i18n: ectx: property (whatsThis), widget (QPushButton, newPersonalInvitationButton)
+#: rc.cpp:106
+msgid "Click this button to create a new personal invitation."
+msgstr "أنقر على هذا الزر لإنشاء دعوة شخصية جديدة."
+
+#. i18n: file: manageinvitations.ui:133
+#. i18n: ectx: property (text), widget (QPushButton, newPersonalInvitationButton)
+#: rc.cpp:109
+msgid "New &Personal Invitation..."
+msgstr "دعوة &شخص جديدة..."
+
+#. i18n: file: manageinvitations.ui:140
+#. i18n: ectx: property (toolTip), widget (QPushButton, newEmailInvitationButton)
+#: rc.cpp:112
+msgid "Send a new invitation via email..."
+msgstr "أرسل دعوة جديدة عبر البريد الإلكتروني..."
+
+#. i18n: file: manageinvitations.ui:143
+#. i18n: ectx: property (whatsThis), widget (QPushButton, newEmailInvitationButton)
+#: rc.cpp:115
+msgid "Click this button to send a new invitation via email."
+msgstr "أنقر على هذا الزر لإرسال دعوة جديدة عبر البريد الإلكتروني."
+
+#. i18n: file: manageinvitations.ui:146
+#. i18n: ectx: property (text), widget (QPushButton, newEmailInvitationButton)
+#: rc.cpp:118
+msgid "&New Email Invitation..."
+msgstr "دعوة &جديدة عبر البريد الإكتروني..."
+
+#. i18n: file: manageinvitations.ui:156
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteAllButton)
+#: rc.cpp:121
+msgid "Delete all invitations"
+msgstr "أمح كلّ الدعوات"
+
+#. i18n: file: manageinvitations.ui:159
+#. i18n: ectx: property (whatsThis), widget (QPushButton, deleteAllButton)
+#: rc.cpp:124
+msgid "Deletes all open invitations."
+msgstr "يمحي كلّ الدعوات المفتوحة."
+
+#. i18n: file: manageinvitations.ui:162
+#. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
+#: rc.cpp:127
+msgid "Delete All"
+msgstr "احذف الكل"
+
+#. i18n: file: manageinvitations.ui:172
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteOneButton)
+#: rc.cpp:130
+msgid "Delete the selected invitation"
+msgstr "أحذف الدعوة المحددة"
+
+#. i18n: file: manageinvitations.ui:175
+#. i18n: ectx: property (whatsThis), widget (QPushButton, deleteOneButton)
+#: rc.cpp:133
+msgid ""
+"Delete the selected invitation. The invited person will not be able to "
+"connect using this invitation anymore."
+msgstr ""
+"أحذف الدعوة المحددة. الشخص المدعو لن يتمكن من الاتصال باستعمال هذه الدعوة "
+"بعد الآن."
+
+#. i18n: file: manageinvitations.ui:178
+#. i18n: ectx: property (text), widget (QPushButton, deleteOneButton)
+#: rc.cpp:136
+msgid "&Delete"
+msgstr "ا&حذف"
+
+#. i18n: file: personalinvitewidget.ui:47
+#. i18n: ectx: property (text), widget (QLabel, mainTextLabel)
+#: rc.cpp:139
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Personal Invitation</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Give the information below "
+"to the person that you want to invite (<a href=\"htc\">how to connect</a>). "
+"Note that everybody who gets the password can connect, so be careful.</p></"
+"body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">دعوة شخصية</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">أعطي المعلومات التي "
+"بالأسفلللشخص الذي تريد دعوته (<a href=\"htc\">كيف تتصل</a>). لاحظ أن كل شخص "
+"يحصل على كلمة المرور يستطيع الاتصال ؛ فلذا كن حذرا.</p></body></html>"
+
+#. i18n: file: personalinvitewidget.ui:81
+#. i18n: ectx: property (text), widget (QLabel, kActiveLabel5)
+#: rc.cpp:146
+msgid "<b>Host:</b>"
+msgstr "<b>المضيف:</b>"
+
+#. i18n: file: personalinvitewidget.ui:116
+#. i18n: ectx: property (text), widget (QLabel, hostHelpLabel)
+#: rc.cpp:149
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"help\">Help</a></"
+"p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"help\">مساعدة</"
+"a></p></body></html>"
+
+#. i18n: file: personalinvitewidget.ui:129
+#. i18n: ectx: property (text), widget (QLabel, kActiveLabel6)
+#: rc.cpp:155
+msgid "<b>Password:</b>"
+msgstr "<b>كلمة المرور:</b>"
+
+#. i18n: file: personalinvitewidget.ui:161
+#. i18n: ectx: property (text), widget (QLabel, kActiveLabel7)
+#: rc.cpp:158
+msgid "<b>Expiration time:</b>"
+msgstr "<b>الأجلّ الأقصى:</b>"
+
+#: rc.cpp:159
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "نورالدين أمين آغا,محمد عَصَر,Mohamed SAAD محمد سعد,زايد السعيدي"
+
+#: rc.cpp:160
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"nuriddin@hotmail.com , aser@arabeyes.org,metehyi@free.fr,zayed.alsaidi@gmail."
+"com"
+
+#: trayicon.cpp:38 trayicon.cpp:90
+msgid "Desktop Sharing - disconnected"
+msgstr "مشاركة سطح المكتب - غير متصل"
+
+#: trayicon.cpp:47
+msgid "Enable Remote Control"
+msgstr "مكّن التحكم عن بعد"
+
+#: trayicon.cpp:48
+msgid "Disable Remote Control"
+msgstr "عطّل التحكم عن بعد"
+
+#: trayicon.cpp:79
+msgid "The remote user has been authenticated and is now connected."
+msgstr "تمّ التأكد من هوية المستخدم البعيد وهو الآن متصل."
+
+#: trayicon.cpp:82
+#, kde-format
+msgid "Desktop Sharing - connected with %1"
+msgstr "مشاركة سطح المكتب - متصل مع %1"
+
+#: trayicon.cpp:93
+msgid "The remote user has closed the connection."
+msgstr "المستخدم البعيد أغلق الاتصال."
+
+#~ msgid "Attepted uninvited connection from %1: connection refused"
+#~ msgstr "اتصال مقبول غير مدعو من %1: رفض الاتصال"

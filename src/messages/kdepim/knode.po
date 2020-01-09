@@ -1,0 +1,4603 @@
+# translation of knode.po to
+# Language AR translations for PACKAGE package.
+#
+# Automatically generated, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: knode\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-29 11:23+0200\n"
+"PO-Revision-Date: 2007-10-14 15:55+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: aboutdata.cpp:30
+#, fuzzy
+msgid "Maintainer"
+msgstr "المشرف"
+
+#: aboutdata.cpp:31 aboutdata.cpp:32
+#, fuzzy
+msgid "Former maintainer"
+msgstr "المشرف السابق"
+
+#: aboutdata.cpp:46 knjobdata.cpp:155
+#, fuzzy
+msgid "KNode"
+msgstr "قارئ الأخبار"
+
+#: aboutdata.cpp:48
+#, fuzzy
+msgid "A newsreader for KDE"
+msgstr "A لـ كيدي"
+
+#: aboutdata.cpp:50
+#, fuzzy
+msgid "Copyright (c) 1999-2009 the KNode authors"
+msgstr "حقوق النسخ c قارئ الأخبار"
+
+#: aboutdata.cpp:59
+msgid "Jakob Schroeter"
+msgstr ""
+
+#: articlewidget.cpp:152
+#, fuzzy
+msgid "F&ind in Article..."
+msgstr "ابحث بوصة مقالة."
+
+#: articlewidget.cpp:154
+#, fuzzy
+msgid "&View Source"
+msgstr "&إعرض المصدر"
+
+#: articlewidget.cpp:159
+#, fuzzy
+msgid "&Followup to Newsgroup..."
+msgstr "يتابع إلى مجموعة أخبار."
+
+#: articlewidget.cpp:164
+#, fuzzy
+msgid "Reply by E&mail..."
+msgstr "رد أداء البريد الإلكتروني."
+
+#: articlewidget.cpp:169
+#, fuzzy
+msgid "Forw&ard by Email..."
+msgstr "مرر أداء البريد الإلكتروني."
+
+#: articlewidget.cpp:173
+#, fuzzy
+msgctxt "article"
+msgid "&Cancel Article"
+msgstr "إلغاء مقالة"
+
+#: articlewidget.cpp:176
+#, fuzzy
+msgid "S&upersede Article"
+msgstr "ألغ مقالة"
+
+#: articlewidget.cpp:179
+#, fuzzy
+msgid "U&se Fixed Font"
+msgstr "إستعمل ثابت الخط"
+
+#: articlewidget.cpp:183
+#, fuzzy
+msgid "Fancy Formatting"
+msgstr "الهوى"
+
+#: articlewidget.cpp:188
+#, fuzzy
+msgid "&Unscramble (Rot 13)"
+msgstr "حلّ التعفن"
+
+#: articlewidget.cpp:195
+#, fuzzy
+msgid "&Headers"
+msgstr "ت&رويسات"
+
+#: articlewidget.cpp:197
+#, fuzzy
+msgid "&Fancy Headers"
+msgstr "الهوى ترويسات"
+
+#: articlewidget.cpp:202
+#, fuzzy
+msgid "&Standard Headers"
+msgstr "قياسي ترويسات"
+
+#: articlewidget.cpp:207
+#, fuzzy
+msgid "&All Headers"
+msgstr "الكل ترويسات"
+
+#: articlewidget.cpp:214
+#, fuzzy
+msgid "&Attachments"
+msgstr "م&رفقات"
+
+#: articlewidget.cpp:216
+#, fuzzy
+msgid "&As Icon"
+msgstr "ك أيقونة"
+
+#: articlewidget.cpp:221
+#, fuzzy
+msgid "&Inline"
+msgstr "&ضمن السّياق"
+
+#: articlewidget.cpp:226
+#, fuzzy
+msgid "&Hide"
+msgstr "إ&خفاء"
+
+#: articlewidget.cpp:232
+#, fuzzy
+msgid "Chars&et"
+msgstr "محارف"
+
+#: articlewidget.cpp:235 articlewidget.cpp:1409
+#, fuzzy
+msgid "Automatic"
+msgstr "تلقائي"
+
+#. i18n: file: knode.kcfg:237
+#. i18n: ectx: label, entry (Charset), group (POSTNEWS)
+#: articlewidget.cpp:240 rc.cpp:195
+#, fuzzy
+msgid "Charset"
+msgstr "محارف"
+
+#: articlewidget.cpp:246
+#, fuzzy
+msgid "&Open URL"
+msgstr "إ&فتح ال URL"
+
+#: articlewidget.cpp:250
+#, fuzzy
+msgid "&Copy Link Address"
+msgstr "نسخ وصلة العنوان"
+
+#: articlewidget.cpp:254
+#, fuzzy
+msgid "&Bookmark This Link"
+msgstr "ض&ع علامة مرجعية لهذا الرابط"
+
+#: articlewidget.cpp:257
+#, fuzzy
+msgid "&Add to Address Book"
+msgstr "إضافة إلى العنوان كتاب"
+
+#: articlewidget.cpp:260
+#, fuzzy
+msgid "&Open in Address Book"
+msgstr "افتح بوصة العنوان كتاب"
+
+#: articlewidget.cpp:264
+#, fuzzy
+msgid "&Open Attachment"
+msgstr "افتح مُرفق"
+
+#: articlewidget.cpp:268
+#, fuzzy
+msgid "&Save Attachment As..."
+msgstr "&حفظ الملحق كــ ..."
+
+#: articlewidget.cpp:393
+#, fuzzy
+msgid "Unable to load the article."
+msgstr "عاجز إلى التحميل مقالة."
+
+#: articlewidget.cpp:425
+#, fuzzy
+msgid "The article contains no data."
+msgstr "الـ مقالة يحتوي لا البيانات."
+
+#: articlewidget.cpp:461
+#, fuzzy
+msgid "Unknown charset. Default charset is used instead."
+msgstr "مجهول طقم محارف افتراضي طقم محارف هو مُستخدَم."
+
+#: articlewidget.cpp:521
+#, fuzzy
+msgid ""
+"<br /><b>This article has the MIME type &quot;message/partial&quot;, which "
+"KNode cannot handle yet.<br />Meanwhile you can save the article as a text "
+"file and reassemble it by hand.</b>"
+msgstr ""
+"<br /><b> هذا مقالة نوع&quot; رسالة&quot; قارئ الأخبار مؤشر<br /> في هذه "
+"الأثناء حفظ مقالة a نص ملفّ و الإيطالية أداء</b>"
+
+#: articlewidget.cpp:537
+#, fuzzy
+msgid ""
+"<b>Note:</b> This is an HTML message. For security reasons, only the raw "
+"HTML code is shown. If you trust the sender of this message then you can "
+"activate formatted HTML display for this message <a href=\"knode:showHTML"
+"\">by clicking here</a>."
+msgstr ""
+"<b> ملاحظة</b> هذا هو HTML رسالة لـ أمن خام HTML رمز هو إذا المُرسِل من رسالة "
+"نشّط منسّق (نص)، مهيأ (ملف، ذاكرة)  HTML عرض لـ رسالة<a href=\"knode:showHTML"
+"\"> أداء</a>."
+
+#: articlewidget.cpp:582
+#, fuzzy
+msgid "An error occurred."
+msgstr "أداة تعريف خطأ."
+
+#: articlewidget.cpp:701
+#, fuzzy
+msgid "References:"
+msgstr "المراجع:"
+
+#: articlewidget.cpp:784
+#, fuzzy, kde-format
+msgid "Message was signed with unknown key 0x%1."
+msgstr "رسالة مع مجهول مفتاح."
+
+#: articlewidget.cpp:787
+#, fuzzy
+msgid "The validity of the signature cannot be verified."
+msgstr "لا يمكن التحقق من صلاحية التوقيع."
+
+#: articlewidget.cpp:805
+#, fuzzy, kde-format
+msgid "Message was signed by %1 (Key ID: 0x%2)."
+msgstr "رسالة أداء مفتاح الهوية."
+
+#: articlewidget.cpp:809
+#, fuzzy, kde-format
+msgid "Message was signed by %1."
+msgstr "الرسالة وقعت من قبل %1."
+
+#: articlewidget.cpp:819
+#, fuzzy
+msgid "The signature is valid, but the key's validity is unknown."
+msgstr "التوقيع صحيح ولكن صلاحية المفتاح غير معروفة."
+
+#: articlewidget.cpp:823
+#, fuzzy
+msgid "The signature is valid and the key is marginally trusted."
+msgstr "التوقيع صحيح والمفتاح موثوق به بشكل هامشي."
+
+#: articlewidget.cpp:827
+#, fuzzy
+msgid "The signature is valid and the key is fully trusted."
+msgstr "التوقيع صحيح والمفتاح موثوق به كاملاً."
+
+#: articlewidget.cpp:831
+#, fuzzy
+msgid "The signature is valid and the key is ultimately trusted."
+msgstr "التوقيع صحيح والمفتاح موثوق به نهائياً."
+
+#: articlewidget.cpp:835
+#, fuzzy
+msgid "The signature is valid, but the key is untrusted."
+msgstr "التوقيع صحيح ، ولكن المفتاح غير موثوق به."
+
+#: articlewidget.cpp:839
+#, fuzzy
+msgid "Warning: The signature is bad."
+msgstr "تحذير: التوقيع سيئ."
+
+#: articlewidget.cpp:856
+#, fuzzy
+msgid "End of signed message"
+msgstr "نهاية الرسالة الموقعة"
+
+#: articlewidget.cpp:872
+#, fuzzy
+msgid "unnamed"
+msgstr "غير مسمى"
+
+#: articlewidget.cpp:1071
+#, fuzzy, kde-format
+msgid ""
+"An error occurred while downloading the article source:\n"
+"%1"
+msgstr "أداة تعريف خطأ بينما مقالة مصدر n 1"
+
+#: articlewidget.cpp:1427 kncomposer.cpp:1284
+#, fuzzy
+msgid "Select Charset"
+msgstr "انتقِ محارف"
+
+#: headerview.cpp:48 knarticlefactory.cpp:321 knfilterconfigwidget.cpp:36
+#, fuzzy
+msgid "Subject"
+msgstr "الموضوع"
+
+#: headerview.cpp:49 headerview.cpp:435 knarticlefactory.cpp:322
+#: knfilterconfigwidget.cpp:38
+#, fuzzy
+msgid "From"
+msgstr "من"
+
+#: headerview.cpp:50 headerview.cpp:80 knfilterconfigwidget.cpp:63
+#, fuzzy
+msgid "Score"
+msgstr "النتيجة"
+
+#: headerview.cpp:51 knfilterconfigwidget.cpp:67
+#, fuzzy
+msgid "Lines"
+msgstr "خطوط"
+
+#: headerview.cpp:52 headerview.cpp:225 knarticlefactory.cpp:323
+#, fuzzy
+msgid "Date"
+msgstr "التاريخ"
+
+#: headerview.cpp:77
+#, fuzzy
+msgid "View Columns"
+msgstr "عرض أعمدة"
+
+#: headerview.cpp:79
+#, fuzzy
+msgid "Line Count"
+msgstr "عدد السطور"
+
+#: headerview.cpp:223
+#, fuzzy
+msgid "Date (thread changed)"
+msgstr "التاريخ عملية جزئية تغير"
+
+#: headerview.cpp:443
+#, fuzzy
+msgid "Newsgroups / To"
+msgstr "مجموعات أخبار إلى"
+
+#: knaccountmanager.cpp:128
+#, fuzzy
+msgid "Cannot create a folder for this account."
+msgstr "لا يستطيع إ_نشيء a مجلد لـ الحساب."
+
+#: knaccountmanager.cpp:143
+#, fuzzy
+msgid ""
+"This account cannot be deleted since there are some unsent messages for it."
+msgstr "هذا الحساب محذوف منذ بعض رسائل لـ الإيطالية."
+
+#: knaccountmanager.cpp:146
+#, fuzzy
+msgid "Do you really want to delete this account?"
+msgstr "تنفيذ إلى حذف الحساب?"
+
+#. i18n: file: nntpaccountlistwidget_base.ui:69
+#. i18n: ectx: property (text), widget (QPushButton, mDeleteButton)
+#: knaccountmanager.cpp:146 knarticlemanager.cpp:586 knconfigwidgets.cpp:904
+#: knconfigwidgets.cpp:996 knconfigwidgets.cpp:1258 knfiltermanager.cpp:261
+#: knmainwidget.cpp:1627 knmainwidget.cpp:1678 rc.cpp:384
+#, fuzzy
+msgid "&Delete"
+msgstr "ا&حذف"
+
+#: knaccountmanager.cpp:151
+#, fuzzy
+msgid ""
+"At least one group of this account is currently in use.\n"
+"The account cannot be deleted at the moment."
+msgstr "عند المجموعة من الحساب هو بوصة استخدام الحساب محذوف عند."
+
+#: knarticlecollection.cpp:53
+#, fuzzy
+msgid ""
+"Memory allocation failed.\n"
+"You should close this application now\n"
+"to avoid data loss."
+msgstr "الذاكرة failed اغلق تطبيق الآن البيانات."
+
+#: knarticlefactory.cpp:153
+#, fuzzy
+msgid ""
+"The author has requested a reply by email instead\n"
+"of a followup to the newsgroup. (Followup-To: poster)\n"
+"Do you want to reply in public anyway?"
+msgstr ""
+"الـ المؤلف a رد أداء بريد إلكتروني a إلى مجموعة الأخبار يتابع إلى إلى رد "
+"بوصة عام?"
+
+#: knarticlefactory.cpp:153
+#, fuzzy
+msgid "Reply Public"
+msgstr "رد عام"
+
+#: knarticlefactory.cpp:153
+#, fuzzy
+msgid "Reply by Email"
+msgstr "رد أداء البريد الإلكتروني"
+
+#: knarticlefactory.cpp:201
+#, fuzzy
+msgid "The author requested a mail copy of your reply. (Mail-Copies-To header)"
+msgstr "الـ المؤلف a بريد نسخ من رد بريد نُسخ إلى عنوان رأسي"
+
+#: knarticlefactory.cpp:292
+#, fuzzy
+msgid ""
+"This article contains attachments. Do you want them to be forwarded as well?"
+msgstr "هذا مقالة يحتوي تنفيذ إلى forwarded?"
+
+#: knarticlefactory.cpp:292
+#, fuzzy
+msgid "Forward"
+msgstr "مرر"
+
+#: knarticlefactory.cpp:292
+#, fuzzy
+msgid "Do Not Forward"
+msgstr "لا تمرر"
+
+#: knarticlefactory.cpp:319
+#, fuzzy
+msgid "Forwarded message (begin)"
+msgstr "حوّلت الى رسالة بداية، بدء"
+
+#: knarticlefactory.cpp:324
+#, fuzzy
+msgid "Newsgroup"
+msgstr "مجموعة أخبار"
+
+#: knarticlefactory.cpp:330
+#, fuzzy
+msgid "Forwarded message (end)"
+msgstr "حوّلت الى رسالة end"
+
+#: knarticlefactory.cpp:366
+#, fuzzy
+msgid "Do you really want to cancel this article?"
+msgstr "تنفيذ إلى إلغاء مقالة?"
+
+#: knarticlefactory.cpp:366
+#, fuzzy
+msgid "Cancel Article"
+msgstr "إلغاء مقالة"
+
+#: knarticlefactory.cpp:370
+#, fuzzy
+msgid ""
+"Do you want to send the cancel\n"
+"message now or later?"
+msgstr "تنفيذ إلى إرسال إلغاء الآن أو?"
+
+#: knarticlefactory.cpp:370
+#, fuzzy
+msgid "Question"
+msgstr "سؤال"
+
+#: knarticlefactory.cpp:370
+#, fuzzy
+msgid "&Now"
+msgstr "الآن"
+
+#: knarticlefactory.cpp:370
+#, fuzzy
+msgid "&Later"
+msgstr "لاحقاً"
+
+#: knarticlefactory.cpp:385 knarticlefactory.cpp:463 kncomposer.cpp:1517
+#, fuzzy
+msgid "You have no valid news accounts configured."
+msgstr "أنت لا سليم أخبار الحسابات مُهيّء."
+
+#: knarticlefactory.cpp:447
+#, fuzzy
+msgid "Do you really want to supersede this article?"
+msgstr "تنفيذ إلى مقالة?"
+
+#: knarticlefactory.cpp:447
+#, fuzzy
+msgid "Supersede"
+msgstr "ألغ"
+
+#: knarticlefactory.cpp:582
+#, fuzzy
+msgid "This article cannot be edited."
+msgstr "هذا مقالة."
+
+#: knarticlefactory.cpp:611 knarticlefactory.cpp:911
+#, fuzzy, kde-format
+msgid ""
+"<qt>The signature generator program produced the following output:<br /><br /"
+">%1</qt>"
+msgstr "<qt> الـ إمضاء مولِّد برنامج متابعة مخرجات<br /><br /></qt>"
+
+#: knarticlefactory.cpp:637
+#, fuzzy
+msgid "Article has already been sent."
+msgstr "مقالة."
+
+#: knarticlefactory.cpp:654
+#, fuzzy
+msgid "Unable to load article."
+msgstr "عاجز إلى التحميل مقالة."
+
+#: knarticlefactory.cpp:679
+#, fuzzy
+msgid "Unable to load the outbox-folder."
+msgstr "عاجز إلى التحميل الصادر مجلد."
+
+#: knarticlefactory.cpp:742
+#, fuzzy
+msgid ""
+"You have aborted the posting of articles. The unsent articles are stored in "
+"the \"Outbox\" folder."
+msgstr "أنت من الـ بوصة صندوق الخارج مجلد."
+
+#: knarticlefactory.cpp:789
+#, fuzzy
+msgid ""
+"Please set a hostname for the generation\n"
+"of the message-id or disable it."
+msgstr "رجاء set a اسم مضيف لـ توليد، جيل رسالة هوية أو تعطيل الإيطالية."
+
+#: knarticlefactory.cpp:833
+#, fuzzy
+msgid ""
+"Please enter a valid email address at the identity tab of the account "
+"configuration dialog."
+msgstr ""
+"رجاء أدخل a سليم بريد إلكتروني عنوان عند الهوية لسان من الحساب تشكيل حوار."
+
+#: knarticlefactory.cpp:836
+#, fuzzy
+msgid ""
+"Please enter a valid email address at the identity section of the "
+"configuration dialog."
+msgstr "رجاء أدخل a سليم بريد إلكتروني عنوان عند الهوية فصل من تشكيل حوار."
+
+#: knarticlefactory.cpp:931
+#, fuzzy
+msgid "Emails cannot be canceled or superseded."
+msgstr "بريد إلكتروني ملغي أو."
+
+#: knarticlefactory.cpp:937
+#, fuzzy
+msgid "Cancel messages cannot be canceled or superseded."
+msgstr "إلغاء رسائل ملغي أو."
+
+#: knarticlefactory.cpp:942
+#, fuzzy
+msgid "Only sent articles can be canceled or superseded."
+msgstr "فقط ملغي أو."
+
+#: knarticlefactory.cpp:947
+#, fuzzy
+msgid "This article has already been canceled or superseded."
+msgstr "هذا مقالة ملغي أو."
+
+#: knarticlefactory.cpp:954
+#, fuzzy
+msgid ""
+"This article cannot be canceled or superseded,\n"
+"because its message-id has not been created by KNode.\n"
+"But you can look for your article in the newsgroup\n"
+"and cancel (or supersede) it there."
+msgstr ""
+"هذا مقالة ملغي أو رسالة هوية ليس أداء قارئ الأخبار لـ مقالة بوصة مجموعة "
+"الأخبار إلغاء أو الإيطالية."
+
+#: knarticlefactory.cpp:988
+#, fuzzy
+msgid ""
+"This article does not appear to be from you.\n"
+"You can only cancel or supersede your own articles."
+msgstr "هذا مقالة ليس ظهور إلى من إلغاء أو."
+
+#: knarticlefactory.cpp:993
+#, fuzzy
+msgid ""
+"You have to download the article body\n"
+"before you can cancel or supersede the article."
+msgstr "أنت إلى تنزيلات مقالة المتن إلغاء أو مقالة."
+
+#: knarticlefactory.cpp:1087
+#, fuzzy
+msgid "Errors While Sending"
+msgstr "الأخطاء بينما يجري الإرسال"
+
+#: knarticlefactory.cpp:1093
+#, fuzzy
+msgid "Errors occurred while sending these articles:"
+msgstr "الأخطاء بينما:"
+
+#: knarticlefactory.cpp:1094
+#, fuzzy
+msgid "The unsent articles are stored in the \"Outbox\" folder."
+msgstr "الـ بوصة صندوق الخارج مجلد."
+
+#: knarticlefactory.cpp:1124
+#, fuzzy
+msgid "<b>Error message:</b><br />"
+msgstr "<b> خطأ رسالة</b><br />"
+
+#: knarticlefilter.cpp:34
+#, fuzzy
+msgctxt "default filter name"
+msgid "all"
+msgstr "الكل"
+
+#: knarticlefilter.cpp:35
+#, fuzzy
+msgctxt "default filter name"
+msgid "unread"
+msgstr " غير مقروء"
+
+#: knarticlefilter.cpp:36
+#, fuzzy
+msgctxt "default filter name"
+msgid "new"
+msgstr "جديد"
+
+#: knarticlefilter.cpp:37
+msgctxt "default filter name"
+msgid "watched"
+msgstr ""
+
+#: knarticlefilter.cpp:38
+#, fuzzy
+msgctxt "default filter name"
+msgid "threads with unread"
+msgstr "مع  غير مقروء"
+
+#: knarticlefilter.cpp:39
+#, fuzzy
+msgctxt "default filter name"
+msgid "threads with new"
+msgstr "مع جديد"
+
+#: knarticlefilter.cpp:40
+msgctxt "default filter name"
+msgid "own articles"
+msgstr ""
+
+#: knarticlefilter.cpp:41
+#, fuzzy
+msgctxt "default filter name"
+msgid "threads with own articles"
+msgstr "مع"
+
+#: knarticlemanager.cpp:83
+#, fuzzy
+msgid "Save Attachment"
+msgstr "احفظ الملف المرفق"
+
+#: knarticlemanager.cpp:107
+#, fuzzy
+msgid "Save Article"
+msgstr "احفظ مقالة"
+
+#: knarticlemanager.cpp:190
+#, fuzzy
+msgid " Creating list..."
+msgstr "جاري الإنشاء قائمة."
+
+#: knarticlemanager.cpp:580 kngroup.cpp:478
+#, fuzzy
+msgid "no subject"
+msgstr "لا موضوع"
+
+#: knarticlemanager.cpp:585
+#, fuzzy
+msgid "Do you really want to delete these articles?"
+msgstr "تنفيذ إلى حذف?"
+
+#: knarticlemanager.cpp:586
+#, fuzzy
+msgid "Delete Articles"
+msgstr "احذف المقالات"
+
+#: knarticlemanager.cpp:923
+#, fuzzy, kde-format
+msgid ""
+"The article you requested is not available on your news server.<br />You "
+"could try to get it from <a href=\"http://groups.google.com/groups?selm=%1"
+"\">groups.google.com</a>."
+msgstr ""
+"الـ مقالة هو ليس متوفّر يعمل أخبار خادم<br /> أنت إلى get الإيطالية من<a href="
+"\"http://groups.google.com/groups?selm=%1\"></a>."
+
+#: knarticlemanager.cpp:1011 kngroupbrowser.cpp:425 kngroupbrowser.cpp:438
+#: knmainwidget.cpp:333
+#, fuzzy
+msgid " (moderated)"
+msgstr "مشرف عليها"
+
+#: knarticlemanager.cpp:1013
+#, fuzzy, kde-format
+msgid " %1: %2 new , %3 displayed"
+msgstr "جديد"
+
+#: knarticlemanager.cpp:1017
+#, fuzzy, kde-format
+msgid " Filter: %1"
+msgstr "تصفية 1"
+
+#: knarticlemanager.cpp:1026
+#, kde-format
+msgid " %1: %2 displayed"
+msgstr ""
+
+#: kncleanup.cpp:62
+#, fuzzy, kde-format
+msgid "Deleting expired articles in <b>%1</b>"
+msgstr "جاري الحذف بوصة<b></b>"
+
+#: kncleanup.cpp:68
+#, fuzzy, kde-format
+msgid "Compacting folder <b>%1</b>"
+msgstr "الضغط مجلد<b></b>"
+
+#: kncleanup.cpp:190
+#, fuzzy, kde-format
+msgid "<b>%1</b><br />expired: %2<br />left: %3"
+msgstr "<b></b><br /><br /> يسار 3"
+
+#: kncleanup.cpp:257
+#, fuzzy
+msgid "Cleaning Up"
+msgstr "التنظيف أعلى"
+
+#: kncleanup.cpp:267
+#, fuzzy
+msgid "Cleaning up. Please wait..."
+msgstr "التنظيف أعلى رجاء أنتطر."
+
+#: kncollectionview.cpp:87 knconfigwidgets.cpp:1099 kngroupbrowser.cpp:93
+#, fuzzy
+msgid "Name"
+msgstr "الاسم"
+
+#: kncollectionview.cpp:88
+#, fuzzy
+msgid "Unread"
+msgstr "غير مقروء"
+
+#: kncollectionview.cpp:89
+#, fuzzy
+msgid "Total"
+msgstr "المجموع"
+
+#: kncomposer.cpp:87
+#, fuzzy
+msgid "Edit Recent Addresses..."
+msgstr "حرر العناوين الحديثة..."
+
+#: kncomposer.cpp:218
+#, fuzzy
+msgid "&Send Now"
+msgstr "أ&رسل الآن"
+
+#: kncomposer.cpp:224
+#, fuzzy
+msgid "Send &Later"
+msgstr "إرسال &فيما بعد"
+
+#: kncomposer.cpp:229
+#, fuzzy
+msgid "Save as &Draft"
+msgstr "احفظ مسوّدة"
+
+#: kncomposer.cpp:234
+#, fuzzy
+msgid "D&elete"
+msgstr "&حذف"
+
+#: kncomposer.cpp:251
+#, fuzzy
+msgid "Paste as &Quotation"
+msgstr "لصق اقتباس"
+
+#: kncomposer.cpp:263
+#, fuzzy
+msgid "Append &Signature"
+msgstr "إلحاقالحاقأضف التوقيع"
+
+#: kncomposer.cpp:267
+#, fuzzy
+msgid "&Insert File..."
+msgstr "أدر&ج ملف..."
+
+#: kncomposer.cpp:271
+#, fuzzy
+msgid "Insert File (in a &box)..."
+msgstr "إدراج ملف بوصة a مربّع."
+
+#: kncomposer.cpp:276
+#, fuzzy
+msgid "Attach &File..."
+msgstr "إرفاق ملف."
+
+#: kncomposer.cpp:280
+#, fuzzy
+msgid "Sign Article with &PGP"
+msgstr "توقيع مقالة مع &PGP"
+
+#: kncomposer.cpp:284 kncomposerview.cpp:229
+#, fuzzy
+msgid "&Remove"
+msgstr "أ&زل"
+
+#: kncomposer.cpp:288 kncomposerview.cpp:234
+#, fuzzy
+msgid "&Properties"
+msgstr "&خصائص"
+
+#: kncomposer.cpp:295
+#, fuzzy
+msgid "Send &News Article"
+msgstr "أرسِل أخبار مقالة"
+
+#: kncomposer.cpp:300
+#, fuzzy
+msgid "Send E&mail"
+msgstr "أرسِل البريد الإلكتروني"
+
+#: kncomposer.cpp:305
+#, fuzzy
+msgid "Set &Charset"
+msgstr "ضبط محارف"
+
+#: kncomposer.cpp:312
+#, fuzzy
+msgid "Set Charset"
+msgstr "ضبط محارف"
+
+#: kncomposer.cpp:318
+#, fuzzy
+msgid "&Word Wrap"
+msgstr "كلمة التواء"
+
+#: kncomposer.cpp:321
+msgid "&Automatic Spellchecking"
+msgstr ""
+
+#: kncomposer.cpp:334
+#, fuzzy
+msgid "Add &Quote Characters"
+msgstr "أضِف &علامات الرد"
+
+#: kncomposer.cpp:338
+#, fuzzy
+msgid "&Remove Quote Characters"
+msgstr "احذف اقتباس الأحرف"
+
+#: kncomposer.cpp:342
+#, fuzzy
+msgid "Add &Box"
+msgstr "إضافة صندوق"
+
+#: kncomposer.cpp:346
+#, fuzzy
+msgid "Re&move Box"
+msgstr "احذف صندوق"
+
+#: kncomposer.cpp:350
+#, fuzzy
+msgid "Get &Original Text (not re-wrapped)"
+msgstr "احصل الأصلي نص ليس NULL"
+
+#: kncomposer.cpp:356
+#, fuzzy
+msgid "S&cramble (Rot 13)"
+msgstr "الصراع التعفن"
+
+#: kncomposer.cpp:363
+#, fuzzy
+msgid "Start &External Editor"
+msgstr "ابدأ خارجي المحرر"
+
+#: kncomposer.cpp:596 kncomposer.cpp:603 kncomposer.cpp:1240
+msgid "<posted & mailed>"
+msgstr ""
+
+#: kncomposer.cpp:599 kncomposer.cpp:1241
+#, fuzzy
+msgid ""
+"<posted & mailed>\n"
+"\n"
+msgstr "<posted & mailed> n n"
+
+#: kncomposer.cpp:622
+#, fuzzy
+msgid "Please enter a subject."
+msgstr "رجاء أدخل a الموضوع."
+
+#: kncomposer.cpp:630
+#, fuzzy
+msgid "Please enter a newsgroup."
+msgstr "رجاء أدخل a مجموعة الأخبار."
+
+#: kncomposer.cpp:639
+#, fuzzy
+msgid ""
+"You are crossposting to more than 12 newsgroups.\n"
+"Please remove all newsgroups in which your article is off-topic."
+msgstr "أنت إلى المزيد أزِل الكل بوصة مقالة هو موقف موضوع."
+
+#: kncomposer.cpp:644
+#, fuzzy
+msgid ""
+"You are crossposting to more than five newsgroups.\n"
+"Please reconsider whether this is really useful\n"
+"and remove groups in which your article is off-topic.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr ""
+"أنت إلى المزيد خمسة هو أزِل بوصة مقالة هو موقف موضوع إلى NULL حرّر مقالة أو "
+"إرسال الإيطالية?"
+
+#: kncomposer.cpp:645 kncomposer.cpp:654 kncomposer.cpp:666 kncomposer.cpp:736
+#: kncomposer.cpp:750 kncomposer.cpp:756
+#, fuzzy
+msgid "&Send"
+msgstr "أ&رسل"
+
+#: kncomposer.cpp:645 kncomposer.cpp:654 kncomposer.cpp:666 kncomposer.cpp:736
+#: kncomposer.cpp:751 kncomposer.cpp:756
+#, fuzzy
+msgctxt "edit article"
+msgid "&Edit"
+msgstr "&حرّر"
+
+#: kncomposer.cpp:650
+#, fuzzy
+msgid ""
+"You are crossposting to more than two newsgroups.\n"
+"Please use the \"Followup-To\" header to direct the replies to your article "
+"into one group.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr ""
+"أنت إلى المزيد إثنان استخدام يتابع إلى عنوان رأسي إلى إلى مقالة المجموعة إلى "
+"NULL حرّر مقالة أو إرسال الإيطالية?"
+
+#: kncomposer.cpp:660
+#, fuzzy
+msgid ""
+"You are directing replies to more than 12 newsgroups.\n"
+"Please remove some newsgroups from the \"Followup-To\" header."
+msgstr "أنت إلى المزيد أزِل بعض من يتابع إلى عنوان رأسي."
+
+#: kncomposer.cpp:665
+#, fuzzy
+msgid ""
+"You are directing replies to more than five newsgroups.\n"
+"Please reconsider whether this is really useful.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr "أنت إلى المزيد خمسة هو إلى NULL حرّر مقالة أو إرسال الإيطالية?"
+
+#: kncomposer.cpp:672
+#, fuzzy
+msgid "Please enter the email address."
+msgstr "رجاء أدخل بريد إلكتروني عنوان."
+
+#: kncomposer.cpp:724
+#, fuzzy
+msgid ""
+"Your message contains characters which are not included\n"
+"in the \"us-ascii\" character set; please choose\n"
+"a suitable character set from the \"Options\" menu."
+msgstr ""
+"ملكك رسالة يحتوي محارف ليس مُدْرج الأميركية اسكى رمز\n"
+"حرف\n"
+"مِحرف set اختيار رمز\n"
+"حرف\n"
+"مِحرف set من خيارات قائمة."
+
+#: kncomposer.cpp:729
+#, fuzzy
+msgid "You cannot post an empty message."
+msgstr "أنت أرسِل فارغ رسالة."
+
+#: kncomposer.cpp:735
+#, fuzzy
+msgid ""
+"Your article seems to consist entirely of quoted text;\n"
+"do you want to re-edit the article or send it anyway?"
+msgstr "ملكك مقالة إلى من نص إلى NULL حرّر مقالة أو إرسال الإيطالية?"
+
+#: kncomposer.cpp:740
+#, fuzzy
+msgid ""
+"You cannot post an article consisting\n"
+"entirely of quoted text."
+msgstr "أنت أرسِل مقالة من نص."
+
+#: kncomposer.cpp:748
+#, fuzzy
+msgid ""
+"Your article contains lines longer than 80 characters.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr "ملكك مقالة يحتوي سطور محارف إلى NULL حرّر مقالة أو إرسال الإيطالية?"
+
+#: kncomposer.cpp:755
+#, fuzzy
+msgid ""
+"Your signature is more than 8 lines long.\n"
+"You should shorten it to match the widely accepted limit of 4 lines.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr ""
+"ملكك إمضاء هو المزيد سطور الإيطالية إلى طابق من سطور إلى NULL حرّر مقالة أو "
+"إرسال الإيطالية?"
+
+#: kncomposer.cpp:760
+#, fuzzy
+msgid ""
+"Your signature exceeds the widely-accepted limit of 4 lines:\n"
+"please consider shortening your signature;\n"
+"otherwise, you will probably annoy your readers."
+msgstr "ملكك إمضاء من سطور إمضاء."
+
+#: kncomposer.cpp:782
+#, fuzzy
+msgid ""
+"You have not configured your preferred signing key yet;\n"
+"please specify it in the global identity configuration,\n"
+"in the account properties or in the group properties.\n"
+"The article will be sent unsigned."
+msgstr ""
+"أنت ليس مُهيّء مفضًل مفتاح تحديد الإيطالية بوصة عمومي الهوية تشكيل الحساب خصائِص "
+"أو بوصة المجموعة خصائِص مقالة."
+
+#: kncomposer.cpp:789
+#, fuzzy
+msgid "Send Unsigned"
+msgstr "أرسِل غير موقّع"
+
+#: kncomposer.cpp:948
+#, fuzzy
+msgid "Do you want to save this article in the draft folder?"
+msgstr "تنفيذ إلى حفظ مقالة بوصة مسودة مجلد?"
+
+#: kncomposer.cpp:1075
+#, fuzzy
+msgid "Insert File"
+msgstr "إدراج ملف"
+
+#: kncomposer.cpp:1153
+#, fuzzy
+msgid "Attach File"
+msgstr "أضف ملفّ ملحق"
+
+#: kncomposer.cpp:1229
+#, fuzzy
+msgid ""
+"The poster does not want a mail copy of your reply (Mail-Copies-To: "
+"nobody);\n"
+"please respect their request."
+msgstr "الـ ليس a بريد نسخ من رد بريد نُسخ إلى طلب."
+
+#: kncomposer.cpp:1230
+#, fuzzy
+msgid "&Send Copy"
+msgstr "أرسِل نسخ"
+
+#: kncomposer.cpp:1308
+#, fuzzy
+msgid "This will replace all text you have written."
+msgstr "هذا إستبدال الكل نص."
+
+#: kncomposer.cpp:1322
+#, fuzzy
+msgid ""
+"No editor configured.\n"
+"Please do this in the settings dialog."
+msgstr "لا محرِّر مُهيّء بوصة خصائص حوار."
+
+#: kncomposer.cpp:1372
+#, fuzzy
+msgid ""
+"Unable to start external editor.\n"
+"Please check your configuration in the settings dialog."
+msgstr "عاجز إلى تشغيل خارجي محرِّر تفقّد تشكيل بوصة خصائص حوار."
+
+#: kncomposer.cpp:1389
+#, fuzzy
+msgid "News Article"
+msgstr "أخبار مقالة"
+
+#: kncomposer.cpp:1391
+#, fuzzy
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: kncomposer.cpp:1393
+#, fuzzy
+msgid "News Article & Email"
+msgstr "أخبار مقالة البريد الإلكتروني"
+
+#: kncomposer.cpp:1397
+#, fuzzy
+msgid " OVR "
+msgstr " فوق "
+
+#: kncomposer.cpp:1399
+#, fuzzy
+msgid " INS "
+msgstr " INS "
+
+#: kncomposer.cpp:1401
+#, fuzzy, kde-format
+msgid " Type: %1 "
+msgstr "النوع 1 "
+
+#: kncomposer.cpp:1402
+#, fuzzy, kde-format
+msgid " Charset: %1 "
+msgstr "محارف 1 "
+
+#: kncomposer.cpp:1404 kncomposer.cpp:1411
+#, fuzzy, kde-format
+msgid " Column: %1 "
+msgstr " العامود: %1 "
+
+#: kncomposer.cpp:1405 kncomposer.cpp:1412
+#, fuzzy, kde-format
+msgid " Line: %1 "
+msgstr " السطر: %1 "
+
+#: kncomposer.cpp:1455
+#, fuzzy
+msgid "No Subject"
+msgstr "بلا موضوع"
+
+#: kncomposer.cpp:1670
+#, fuzzy
+msgid ""
+"ISpell could not be started.\n"
+"Please make sure you have ISpell properly configured and in your PATH."
+msgstr ""
+"تعذّر بدء ISpell.\n"
+"فضلاً تأكد من أن ISpell مهيأ بشكل صحيح و موجود في معامل PATH الخاص بك."
+
+#: kncomposer.cpp:1675
+#, fuzzy
+msgid "ISpell seems to have crashed."
+msgstr "يبدو أن ISpell قد إنهار."
+
+#: kncomposer.cpp:1682
+#, fuzzy
+msgid "No misspellings encountered."
+msgstr "لم يلاقي كلمات خاطئة."
+
+#: kncomposer.cpp:1745 kncomposer.cpp:1808
+#, fuzzy
+msgid "File"
+msgstr "ملف"
+
+#: kncomposer.cpp:1746
+#, fuzzy
+msgid "Type"
+msgstr "النوع"
+
+#: kncomposer.cpp:1747
+#, fuzzy
+msgid "Size"
+msgstr "الحجم"
+
+#: kncomposer.cpp:1748 kngroupbrowser.cpp:94 kngrouppropdlg.cpp:85
+#, fuzzy
+msgid "Description"
+msgstr "الوصف"
+
+#: kncomposer.cpp:1749
+#, fuzzy
+msgid "Encoding"
+msgstr "الترميز"
+
+#: kncomposer.cpp:1801
+#, fuzzy
+msgid "Attachment Properties"
+msgstr "خصائص المُرفق"
+
+#. i18n: file: nntpaccountdialog_base.ui:196
+#. i18n: ectx: property (text), widget (QLabel, mNameLabel)
+#: kncomposer.cpp:1814 kngrouppropdlg.cpp:93 rc.cpp:369
+#, fuzzy
+msgid "Name:"
+msgstr "الاسم:"
+
+#: kncomposer.cpp:1816
+#, fuzzy
+msgid "Size:"
+msgstr "الحجم:"
+
+#: kncomposer.cpp:1823
+#, fuzzy
+msgid "Mime"
+msgstr "التمثيلية الصامتة"
+
+#: kncomposer.cpp:1832
+#, fuzzy
+msgid "&Mime-Type:"
+msgstr "التمثيلية الصامتة النوع:"
+
+#: kncomposer.cpp:1839
+#, fuzzy
+msgid "&Description:"
+msgstr "ال&وصف:"
+
+#: kncomposer.cpp:1856
+#, fuzzy
+msgid "&Encoding:"
+msgstr "ال&ترميز:"
+
+#: kncomposer.cpp:1891
+#, fuzzy
+msgid ""
+"You have set an invalid mime-type.\n"
+"Please change it."
+msgstr "أنت set غير صالح نوع تغيير الإيطالية."
+
+#: kncomposer.cpp:1896
+#, fuzzy
+msgid ""
+"You have changed the mime-type of this non-textual attachment\n"
+"to text. This might cause an error while loading or encoding the file.\n"
+"Proceed?"
+msgstr "أنت تغير نوع من مُرفق نص هذا خطأ بينما يجري التحميل أو ترميز ملفّ?"
+
+#: kncomposerview.cpp:51
+#, fuzzy
+msgid "T&o:"
+msgstr "إلى:"
+
+#: kncomposerview.cpp:53
+#, fuzzy
+msgid "&Browse..."
+msgstr "ت&صفح..."
+
+#: kncomposerview.cpp:63
+#, fuzzy
+msgid "&Groups:"
+msgstr "ال&مجموعات:"
+
+#: kncomposerview.cpp:65
+#, fuzzy
+msgid "B&rowse..."
+msgstr "ت&صفّح..."
+
+#: kncomposerview.cpp:75
+#, fuzzy
+msgid "Follo&wup-To:"
+msgstr "يتابع إلى:"
+
+#: kncomposerview.cpp:84
+#, fuzzy
+msgid "S&ubject:"
+msgstr "الم&وضوع:"
+
+#: kncomposerview.cpp:100
+#, fuzzy
+msgid ""
+"You are currently editing the article body\n"
+"in an external editor. To continue, you have\n"
+"to close the external editor."
+msgstr "أنت مقالة المتن خارجي محرِّر إلى متابعة اغلق خارجي محرِّر."
+
+#: kncomposerview.cpp:101
+#, fuzzy
+msgid "&Kill External Editor"
+msgstr "اقتل خارجي المحرر"
+
+#: kncomposerview.cpp:225
+#, fuzzy
+msgid "A&dd..."
+msgstr "أ&ضف..."
+
+#: knconfig.cpp:134
+#, fuzzy
+msgid "Cannot open the signature file."
+msgstr "لا يستطيع فتح إمضاء ملفّ."
+
+#: knconfig.cpp:152
+#, fuzzy
+msgid "Cannot run the signature generator."
+msgstr "لا يستطيع تنفيذ إمضاء مولِّد."
+
+#: knconfigpages.cpp:103
+#, fuzzy
+msgid "Newsgroup Servers"
+msgstr "مجموعة أخبار الخوادم"
+
+#: knconfigpages.cpp:105
+#, fuzzy
+msgid "Mail Server (SMTP)"
+msgstr "خادم البريد (SMTP)"
+
+#. i18n: file: postnewscomposerwidget_base.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. i18n: file: postnewstechnicalwidget_base.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: knconfigpages.cpp:139 rc.cpp:390 rc.cpp:431
+#, fuzzy
+msgid "General"
+msgstr "عام"
+
+#: knconfigpages.cpp:140
+#, fuzzy
+msgid "Navigation"
+msgstr "الملاحة"
+
+#: knconfigpages.cpp:141
+#, fuzzy
+msgid "Scoring"
+msgstr "الإحراز"
+
+#: knconfigpages.cpp:142
+#, fuzzy
+msgid "Filters"
+msgstr "المرشحات"
+
+#: knconfigpages.cpp:143
+#, fuzzy
+msgid "Headers"
+msgstr "ترويسات"
+
+#: knconfigpages.cpp:144
+#, fuzzy
+msgid "Viewer"
+msgstr "المستعرض"
+
+#: knconfigpages.cpp:164
+#, fuzzy
+msgid "Technical"
+msgstr "تقني"
+
+#. i18n: file: knode.kcfg:359
+#. i18n: ectx: label, entry (composerFont), group (VISUAL_APPEARANCE)
+#: knconfigpages.cpp:165 rc.cpp:279
+#, fuzzy
+msgid "Composer"
+msgstr "الملحن"
+
+#: knconfigpages.cpp:166
+#, fuzzy
+msgid "Spelling"
+msgstr "الإملاء"
+
+#: knconfigwidgets.cpp:73
+#, fuzzy
+msgid "&Name:"
+msgstr "الإ&سم:"
+
+#: knconfigwidgets.cpp:77
+#, fuzzy
+msgid ""
+"<qt><p>Your name as it will appear to others reading your articles.</"
+"p><p>Ex: <b>John Stuart Masterson III</b>.</p></qt>"
+msgstr ""
+"<qt><p> ملكك الإسم الإيطالية ظهور إلى القراءة</p><p> سابق<b> جون ستيوارت "
+"III</b></p></qt>"
+
+#: knconfigwidgets.cpp:84
+#, fuzzy
+msgid "Organi&zation:"
+msgstr "المن&ظمة:"
+
+#: knconfigwidgets.cpp:88
+#, fuzzy
+msgid ""
+"<qt><p>The name of the organization you work for.</p><p>Ex: <b>KNode, Inc</"
+"b>.</p></qt>"
+msgstr ""
+"<qt><p> الـ الإسم من لـ</p><p> سابق<b> قارئ الأخبار المحدودة</b></p></qt>"
+
+#: knconfigwidgets.cpp:95
+#, fuzzy
+msgid "Email a&ddress:"
+msgstr "البريد الإلكتروني عنوان:"
+
+#: knconfigwidgets.cpp:99
+#, fuzzy
+msgid ""
+"<qt><p>Your email address as it will appear to others reading your articles</"
+"p><p>Ex: <b>nospam@please.com</b>.</p></qt>"
+msgstr ""
+"<qt><p> ملكك بريد إلكتروني عنوان الإيطالية ظهور إلى القراءة</p><p> "
+"سابق<b>nospam@please.com</b></p></qt>"
+
+#: knconfigwidgets.cpp:106
+#, fuzzy
+msgid "&Reply-to address:"
+msgstr "رد إلى عنوان:"
+
+#: knconfigwidgets.cpp:110
+#, fuzzy
+msgid ""
+"<qt><p>When someone reply to your article by email, this is the address the "
+"message will be sent. If you fill in this field, please do it with a real "
+"email address.</p><p>Ex: <b>john@example.com</b>.</p></qt>"
+msgstr ""
+"<qt><p> متى رد إلى مقالة أداء بريد إلكتروني هو عنوان رسالة إذا ملء بوصة حقل "
+"الإيطالية مع a حقيقي بريد إلكتروني عنوان</p><p> سابق<b>john@example.com</b></"
+"p></qt>"
+
+#: knconfigwidgets.cpp:118
+#, fuzzy
+msgid "&Mail-copies-to:"
+msgstr "بريد إلى:"
+
+#: knconfigwidgets.cpp:125
+#, fuzzy
+msgid "Chan&ge..."
+msgstr "&غيير..."
+
+#: knconfigwidgets.cpp:126
+#, fuzzy
+msgid "Your OpenPGP Key"
+msgstr "ملكك OpenPGP مفتاح"
+
+#: knconfigwidgets.cpp:127
+#, fuzzy
+msgid "Select the OpenPGP key which should be used for signing articles."
+msgstr "انتقِ OpenPGP مفتاح مُستخدَم لـ."
+
+#: knconfigwidgets.cpp:129
+#, fuzzy
+msgid "Signing ke&y:"
+msgstr "التّوقيع مفتاح:"
+
+#: knconfigwidgets.cpp:133
+#, fuzzy
+msgid ""
+"<qt><p>The OpenPGP key you choose here will be used to sign your articles.</"
+"p></qt>"
+msgstr ""
+"<qt><p> الـ OpenPGP مفتاح اختيار مُستخدَم إلى يوقّع\n"
+"رمز\n"
+"إشارة</p></qt>"
+
+#: knconfigwidgets.cpp:144
+#, fuzzy
+msgid "&Use a signature from file"
+msgstr "إستعمل a إمضاء من ملفّ"
+
+#: knconfigwidgets.cpp:148
+#, fuzzy
+msgid "<qt><p>Mark this to let KNode read the signature from a file.</p></qt>"
+msgstr "<qt><p> علامة إلى قارئ الأخبار قراءة إمضاء من a ملفّ</p></qt>"
+
+#: knconfigwidgets.cpp:151
+#, fuzzy
+msgid "Signature &file:"
+msgstr "التوقيع ملفّ:"
+
+#: knconfigwidgets.cpp:157
+#, fuzzy
+msgid ""
+"<qt><p>The file from which the signature will be read.</p><p>Ex: <b>/home/"
+"robt/.sig</b>.</p></qt>"
+msgstr "<qt><p> الـ ملفّ من إمضاء قراءة</p><p> سابق<b> home</b></p></qt>"
+
+#: knconfigwidgets.cpp:162
+#, fuzzy
+msgid "Choo&se..."
+msgstr "إخت&ر..."
+
+#: knconfigwidgets.cpp:166
+#, fuzzy
+msgid "&Edit File"
+msgstr "تحرير ملف"
+
+#: knconfigwidgets.cpp:171
+#, fuzzy
+msgid "&The file is a program"
+msgstr "الـ ملفّ هو a برنامج"
+
+#: knconfigwidgets.cpp:173
+#, fuzzy
+msgid ""
+"<qt><p>Mark this option if the signature will be generated by a program</"
+"p><p>Ex: <b>/home/robt/gensig.sh</b>.</p></qt>"
+msgstr ""
+"<qt><p> علامة خيار IF إمضاء أداء a برنامج</p><p> سابق<b> home sh</b></p></qt>"
+
+#: knconfigwidgets.cpp:178
+#, fuzzy
+msgid "Specify signature &below"
+msgstr "حدّد إمضاء أسفل"
+
+#: knconfigwidgets.cpp:261
+#, fuzzy
+msgid "Choose Signature"
+msgstr "اختر التوقيع"
+
+#: knconfigwidgets.cpp:272
+#, fuzzy
+msgid "You must specify a filename."
+msgstr "أنت تحديد a اسم الملف."
+
+#: knconfigwidgets.cpp:278
+#, fuzzy
+msgid "You have specified a folder."
+msgstr "لقد حددت مجلداً."
+
+#: knconfigwidgets.cpp:383
+#, fuzzy, kde-format
+msgid "Server: %1"
+msgstr "الخادم: %1"
+
+#: knconfigwidgets.cpp:384
+#, fuzzy, kde-format
+msgid "Port: %1"
+msgstr "منفذ 1"
+
+#: knconfigwidgets.cpp:386
+#, fuzzy
+msgid "Server: "
+msgstr "النّادل:"
+
+#: knconfigwidgets.cpp:387
+#, fuzzy
+msgid "Port: "
+msgstr "المنفذ: المنفد:"
+
+#: knconfigwidgets.cpp:443 knfilterdialog.cpp:41 kngrouppropdlg.cpp:41
+#, fuzzy, kde-format
+msgid "Properties of %1"
+msgstr "خصائص %1"
+
+#: knconfigwidgets.cpp:445
+#, fuzzy
+msgid "New Account"
+msgstr "حساب جديد"
+
+#: knconfigwidgets.cpp:452
+#, fuzzy
+msgid "Ser&ver"
+msgstr "خا&دم"
+
+#: knconfigwidgets.cpp:496 kngrouppropdlg.cpp:163
+#, fuzzy
+msgid "&Identity"
+msgstr "ال&هوية"
+
+#: knconfigwidgets.cpp:500 kngrouppropdlg.cpp:167
+#, fuzzy
+msgid "&Cleanup"
+msgstr "تنظيف"
+
+#: knconfigwidgets.cpp:534
+#, fuzzy
+msgid ""
+"Please enter an arbitrary name for the account and the\n"
+"hostname of the news server."
+msgstr "رجاء أدخل كيفي الإسم لـ الحساب و من أخبار خادم."
+
+#: knconfigwidgets.cpp:635
+#, fuzzy
+msgid "&Use custom colors"
+msgstr "&إستعمل الالوان المعتادة"
+
+#: knconfigwidgets.cpp:640
+#, fuzzy
+msgid "Cha&nge..."
+msgstr "ت&غيير..."
+
+#: knconfigwidgets.cpp:650
+#, fuzzy
+msgid "Use custom &fonts"
+msgstr "استخدم &خطوط مخصصة"
+
+#: knconfigwidgets.cpp:655
+#, fuzzy
+msgid "Chang&e..."
+msgstr "تغ&يير..."
+
+#. i18n: file: nntpaccountlistwidget_base.ui:55
+#. i18n: ectx: property (text), widget (QPushButton, mAddButton)
+#. i18n: file: postnewstechnicalwidget_base.ui:134
+#. i18n: ectx: property (text), widget (QPushButton, mAddButton)
+#: knconfigwidgets.cpp:900 knconfigwidgets.cpp:1246 rc.cpp:378 rc.cpp:461
+#, fuzzy
+msgid "&Add..."
+msgstr "أ&ضف..."
+
+#: knconfigwidgets.cpp:908 knconfigwidgets.cpp:1250
+#, fuzzy
+msgctxt "modify something"
+msgid "&Edit..."
+msgstr "&حرر..."
+
+#: knconfigwidgets.cpp:912 knconfigwidgets.cpp:1272
+#, fuzzy
+msgid "&Up"
+msgstr "أ&على"
+
+#: knconfigwidgets.cpp:916 knconfigwidgets.cpp:1276
+#, fuzzy
+msgid "Do&wn"
+msgstr "إلى أس&فل"
+
+#: knconfigwidgets.cpp:996
+#, fuzzy
+msgid "Really delete this header?"
+msgstr "حقا حذف عنوان رأسي?"
+
+#: knconfigwidgets.cpp:1067
+#, fuzzy
+msgid "Header Properties"
+msgstr "خواصّ الصّديرة"
+
+#: knconfigwidgets.cpp:1083
+#, fuzzy
+msgid "H&eader:"
+msgstr "ترويسة:"
+
+#: knconfigwidgets.cpp:1091
+#, fuzzy
+msgid "Displayed na&me:"
+msgstr "معروض الإسم:"
+
+#: knconfigwidgets.cpp:1106
+#, fuzzy
+msgid "&Large"
+msgstr "&كبير"
+
+#: knconfigwidgets.cpp:1107
+#, fuzzy
+msgid "&Bold"
+msgstr "&عريض"
+
+#: knconfigwidgets.cpp:1108
+#, fuzzy
+msgid "&Italic"
+msgstr "&مائل"
+
+#: knconfigwidgets.cpp:1109
+#, fuzzy
+msgid "&Underlined"
+msgstr "مسطَّر"
+
+#: knconfigwidgets.cpp:1115
+#, fuzzy
+msgid "Value"
+msgstr "القيمة"
+
+#: knconfigwidgets.cpp:1122
+#, fuzzy
+msgid "L&arge"
+msgstr "كبير"
+
+#: knconfigwidgets.cpp:1123
+#, fuzzy
+msgid "Bol&d"
+msgstr "عريض"
+
+#: knconfigwidgets.cpp:1124
+#, fuzzy
+msgid "I&talic"
+msgstr "مائل"
+
+#: knconfigwidgets.cpp:1125
+#, fuzzy
+msgid "U&nderlined"
+msgstr "مسطَّر"
+
+#: knconfigwidgets.cpp:1205
+#, fuzzy
+msgid "Default score for &ignored threads:"
+msgstr "افتراضي لـ تجاهل:"
+
+#: knconfigwidgets.cpp:1212
+#, fuzzy
+msgid "Default score for &watched threads:"
+msgstr "افتراضي لـ:"
+
+#: knconfigwidgets.cpp:1238
+#, fuzzy
+msgid "&Filters:"
+msgstr "المرشحات:"
+
+#: knconfigwidgets.cpp:1254
+#, fuzzy
+msgid "Co&py..."
+msgstr "نسخ."
+
+#: knconfigwidgets.cpp:1265
+#, fuzzy
+msgid "&Menu:"
+msgstr "قائمة:"
+
+#: knconfigwidgets.cpp:1280
+#, fuzzy
+msgid ""
+"Add\n"
+"&Separator"
+msgstr "إضافة"
+
+#: knconfigwidgets.cpp:1284
+#, fuzzy
+msgid ""
+"&Remove\n"
+"Separator"
+msgstr "احذف"
+
+#: knconfigwidgets.cpp:1506
+#, fuzzy
+msgid "Allow 8-bit"
+msgstr "اسمح ب 8-بت"
+
+#: knconfigwidgets.cpp:1507
+#, fuzzy
+msgid "7-bit (Quoted-Printable)"
+msgstr ""
+"بِت\n"
+"ثنائية مقتبس صالح للطبع"
+
+#: knconfigwidgets.cpp:1606
+#, fuzzy
+msgid "Additional Header"
+msgstr "إضافي ترويسة"
+
+#: knconfigwidgets.cpp:1727
+#, fuzzy
+msgid "&Use global cleanup configuration"
+msgstr "إستعمل عمومي تشكيل"
+
+#: knconfigwidgets.cpp:1732
+#, fuzzy
+msgid "Newsgroup Cleanup Settings"
+msgstr "مجموعة أخبار تنظيف إعدادات"
+
+#: knconfigwidgets.cpp:1740
+#, fuzzy
+msgid "&Expire old articles automatically"
+msgstr "انهِ صلاحيّته"
+
+#: knconfigwidgets.cpp:1745
+#, fuzzy
+msgid "&Purge groups every:"
+msgstr "أفرغ كل:"
+
+#: knconfigwidgets.cpp:1755
+#, fuzzy
+msgid "&Keep read articles:"
+msgstr "حافظ عليه قراءة:"
+
+#: knconfigwidgets.cpp:1763
+#, fuzzy
+msgid "Keep u&nread articles:"
+msgstr "حافظ عليه  غير مقروء:"
+
+#: knconfigwidgets.cpp:1770
+#, fuzzy
+msgid "&Remove articles that are not available on the server"
+msgstr "احذف ليس متوفّر يعمل خادم"
+
+#: knconfigwidgets.cpp:1774
+#, fuzzy
+msgid "Preser&ve threads"
+msgstr "إبقاء"
+
+#: knconfigwidgets.cpp:1819 knconfigwidgets.cpp:1824 knconfigwidgets.cpp:1829
+#: knconfigwidgets.cpp:1908
+#, fuzzy
+msgid " day"
+msgid_plural " days"
+msgstr[0] "اليوم"
+msgstr[1] "اليوم"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: knconfigwidgets.cpp:1846
+#, fuzzy
+msgid "Folders"
+msgstr "المجلّدات"
+
+#: knconfigwidgets.cpp:1854
+#, fuzzy
+msgid "Co&mpact folders automatically"
+msgstr "الميثاق"
+
+#: knconfigwidgets.cpp:1859
+#, fuzzy
+msgid "P&urge folders every:"
+msgstr "أفرغ كل:"
+
+#: knconvert.cpp:54
+#, fuzzy
+msgid "Conversion"
+msgstr "تحويل"
+
+#: knconvert.cpp:65
+#, fuzzy
+msgid "Start Conversion..."
+msgstr "ابدأ تحويل."
+
+#: knconvert.cpp:82
+#, fuzzy, kde-format
+msgid ""
+"<b>Congratulations, you have upgraded to KNode version %1.</b><br /"
+">Unfortunately this version uses a different format for some data-files, so "
+"in order to keep your existing data it is necessary to convert it first. "
+"This is now done automatically by KNode. If you want to, a backup of your "
+"existing data will be created before the conversion starts."
+msgstr ""
+"<b> تهانينا مُرقّى إلى قارئ الأخبار النسخة</b><br /> لسوء الحظ النسخة a مختلف "
+"تنسيق لـ بعض البيانات ملفات بوصة ترتيب إلى إبقاء موجود البيانات الإيطالية هو "
+"إلى تحويل الإيطالية الأوّل هذا هو الآن done أداء قارئ الأخبار إذا إلى a "
+"احتياطي من موجود البيانات قبل تحويل."
+
+#: knconvert.cpp:89
+#, fuzzy
+msgid "Create backup of old data"
+msgstr "إنشاء احتياطي من البيانات"
+
+#: knconvert.cpp:93
+#, fuzzy
+msgid "Save backup in:"
+msgstr "احفظ احتياطي بوصة:"
+
+#: knconvert.cpp:99
+#, fuzzy
+msgid "Browse..."
+msgstr "استعراض..."
+
+#: knconvert.cpp:108
+#, fuzzy
+msgid "<b>Converting, please wait...</b>"
+msgstr "<b> تحويل أنتطر</b>"
+
+#: knconvert.cpp:120
+#, fuzzy
+msgid "Processed tasks:"
+msgstr "مصنّع:"
+
+#: knconvert.cpp:147
+#, fuzzy
+msgid ""
+"<b>Some errors occurred during the conversion.</b><br />You should now "
+"examine the log to find out what went wrong."
+msgstr "<b> بعض تحويل</b><br /> أنت الآن سجل إلى ابحث خارج خطأ."
+
+#: knconvert.cpp:151
+#, fuzzy
+msgid ""
+"<b>The conversion was successful.</b><br />Have a lot of fun with this new "
+"version of KNode. ;-)"
+msgstr "<b> الـ تحويل</b><br /> له a من مع جديد النسخة من قارئ الأخبار"
+
+#: knconvert.cpp:154
+#, fuzzy
+msgid "Start KNode"
+msgstr "ابدأ قارئ الأخبار"
+
+#: knconvert.cpp:183
+#, fuzzy
+msgid "Please select a valid backup path."
+msgstr "رجاء تحديد a سليم احتياطي المسار."
+
+#: knconvert.cpp:226
+#, fuzzy
+msgid "<b>The backup failed</b>; do you want to continue anyway?"
+msgstr "<b> الـ احتياطي failed</b> إلى متابعة?"
+
+#: knconvert.cpp:238
+#, fuzzy, kde-format
+msgid "created backup of the old data-files in %1"
+msgstr "احتياطي من البيانات ملفات بوصة 1"
+
+#: knconvert.cpp:240
+#, fuzzy
+msgid "backup failed."
+msgstr "احتياطي failed."
+
+#: knconvert.cpp:263
+#, fuzzy
+msgid "conversion of folder \"Drafts\" to version 0.4 failed."
+msgstr "تحويل من مجلد مسوّدات إلى النسخة failed."
+
+#: knconvert.cpp:266
+#, fuzzy
+msgid "converted folder \"Drafts\" to version 0.4"
+msgstr "مجلد مسوّدات إلى النسخة 4"
+
+#: knconvert.cpp:270
+#, fuzzy
+msgid "nothing to be done for folder \"Drafts\""
+msgstr "لا شئ إلى done لـ مجلد مسوّدات"
+
+#: knconvert.cpp:277
+#, fuzzy
+msgid "conversion of folder \"Outbox\" to version 0.4 failed."
+msgstr "تحويل من مجلد صندوق الخارج إلى النسخة failed."
+
+#: knconvert.cpp:280
+#, fuzzy
+msgid "converted folder \"Outbox\" to version 0.4"
+msgstr "مجلد صندوق الخارج إلى النسخة 4"
+
+#: knconvert.cpp:284
+#, fuzzy
+msgid "nothing to be done for folder \"Outbox\""
+msgstr "لا شئ إلى done لـ مجلد صندوق الخارج"
+
+#: knconvert.cpp:291
+#, fuzzy
+msgid "conversion of folder \"Sent\" to version 0.4 failed."
+msgstr "تحويل من مجلد أَرسِل إلى النسخة failed."
+
+#: knconvert.cpp:294
+#, fuzzy
+msgid "converted folder \"Sent\" to version 0.4"
+msgstr "مجلد أَرسِل إلى النسخة 4"
+
+#: knconvert.cpp:298
+#, fuzzy
+msgid "nothing to be done for folder \"Sent\""
+msgstr "لا شئ إلى done لـ مجلد أَرسِل"
+
+#: kndisplayedheader.cpp:28
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Approved"
+msgstr "مصادق عليه"
+
+#: kndisplayedheader.cpp:29
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Content-Transfer-Encoding"
+msgstr "المحتوى _حوّل المكالمة الترميز"
+
+#: kndisplayedheader.cpp:30
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Content-Type"
+msgstr "نوع المُحْتَوَى"
+
+#: kndisplayedheader.cpp:31
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Control"
+msgstr "عنصر تحكم"
+
+#: kndisplayedheader.cpp:32
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Date"
+msgstr "التاريخ"
+
+#: kndisplayedheader.cpp:33
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Distribution"
+msgstr "توزيعة"
+
+#: kndisplayedheader.cpp:34
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Expires"
+msgstr "تنتهي صلاحيتها"
+
+#: kndisplayedheader.cpp:35
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Followup-To"
+msgstr "تابع إلى"
+
+#: kndisplayedheader.cpp:36
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "From"
+msgstr "من"
+
+#: kndisplayedheader.cpp:37
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Lines"
+msgstr "خطوط"
+
+#: kndisplayedheader.cpp:38
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Mail-Copies-To"
+msgstr "ينسخ البريد إلى"
+
+#: kndisplayedheader.cpp:39
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Message-ID"
+msgstr "هوية الرسالة"
+
+#: kndisplayedheader.cpp:40
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Mime-Version"
+msgstr "التمثيلية الصامتة الإصدار"
+
+#: kndisplayedheader.cpp:41
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "NNTP-Posting-Host"
+msgstr "الإرسال مضيف"
+
+#: kndisplayedheader.cpp:42
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Newsgroups"
+msgstr "مجموعات أخبار"
+
+#: kndisplayedheader.cpp:43
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Organization"
+msgstr "المنظّمة"
+
+#: kndisplayedheader.cpp:44
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Path"
+msgstr "المسار"
+
+#: kndisplayedheader.cpp:45
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "References"
+msgstr "المراجع"
+
+#: kndisplayedheader.cpp:46
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Reply-To"
+msgstr "رُد إلى"
+
+#: kndisplayedheader.cpp:47
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Sender"
+msgstr "المرسل"
+
+#: kndisplayedheader.cpp:48
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Subject"
+msgstr "الموضوع"
+
+#: kndisplayedheader.cpp:49
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Supersedes"
+msgstr "يلغي"
+
+#: kndisplayedheader.cpp:50
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "To"
+msgstr "إلى"
+
+#: kndisplayedheader.cpp:51
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "User-Agent"
+msgstr "عميل المستخدم"
+
+#: kndisplayedheader.cpp:52
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "X-Mailer"
+msgstr "س المبرِد"
+
+#: kndisplayedheader.cpp:53
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "X-Newsreader"
+msgstr "س"
+
+#: kndisplayedheader.cpp:54
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "X-No-Archive"
+msgstr "س لا الأرشيف"
+
+#: kndisplayedheader.cpp:55
+msgctxt "collection of article headers"
+msgid "XRef"
+msgstr ""
+
+#: kndisplayedheader.cpp:57
+#, fuzzy
+msgctxt "collection of article headers"
+msgid "Groups"
+msgstr "المجموعات"
+
+#: knfilterconfigwidget.cpp:40
+#, fuzzy
+msgid ""
+"The following placeholders are supported:\n"
+"%MYNAME=own name, %MYEMAIL=own email address"
+msgstr "الـ متابعة مدعوم n الإسم بريد إلكتروني عنوان"
+
+#: knfilterconfigwidget.cpp:43
+#, fuzzy
+msgid "Subject && &From"
+msgstr "الموضوع من"
+
+#: knfilterconfigwidget.cpp:49
+#, fuzzy
+msgid "Message-ID"
+msgstr "هوية الرسالة"
+
+#: knfilterconfigwidget.cpp:51
+#, fuzzy
+msgid "References"
+msgstr "المراجع"
+
+#: knfilterconfigwidget.cpp:54
+#, fuzzy
+msgid "M&essage-IDs"
+msgstr "رسالة"
+
+#: knfilterconfigwidget.cpp:57
+#, fuzzy
+msgid "&Status"
+msgstr "ال&حالة"
+
+#: knfilterconfigwidget.cpp:65
+#, fuzzy
+msgid "Age"
+msgstr "العمر"
+
+#: knfilterconfigwidget.cpp:65
+#, fuzzy
+msgid " days"
+msgstr " أيام"
+
+#: knfilterconfigwidget.cpp:70
+#, fuzzy
+msgid "&Additional"
+msgstr "إضافي"
+
+#: knfilterdialog.cpp:39
+#, fuzzy
+msgid "New Filter"
+msgstr "مرشّح جديد"
+
+#: knfilterdialog.cpp:50
+#, fuzzy
+msgid "Na&me:"
+msgstr "الإ&سم:"
+
+#: knfilterdialog.cpp:53
+#, fuzzy
+msgid "Single Articles"
+msgstr "مفرد المقالات"
+
+#: knfilterdialog.cpp:54
+#, fuzzy
+msgid "Whole Threads"
+msgstr "كلّ الخيوط"
+
+#: knfilterdialog.cpp:55
+#, fuzzy
+msgid "Apply o&n:"
+msgstr "تطبيق يعمل:"
+
+#: knfilterdialog.cpp:57
+#, fuzzy
+msgid "Sho&w in menu"
+msgstr "اعرض بوصة قائمة"
+
+#: knfilterdialog.cpp:115
+#, fuzzy
+msgid "Please provide a name for this filter."
+msgstr "رجاء توفير a الإسم لـ المرشّح."
+
+#: knfilterdialog.cpp:118
+#, fuzzy
+msgid ""
+"A filter with this name exists already.\n"
+"Please choose a different name."
+msgstr "A المرشّح مع الإسم موجود اختيار a مختلف الإسم."
+
+#: knfiltermanager.cpp:261
+#, fuzzy
+msgid "Do you really want to delete this filter?"
+msgstr "تنفيذ إلى حذف المرشّح?"
+
+#: knfiltermanager.cpp:344
+#, fuzzy
+msgid "ERROR: no such filter."
+msgstr "خطأ لا المرشّح."
+
+#: knfiltermanager.cpp:368
+#, fuzzy
+msgid "Select Filter"
+msgstr "تحديد المصفاة"
+
+#: knfolder.cpp:197
+#, fuzzy
+msgid " Loading folder..."
+msgstr "جاري التّحميل مجلد."
+
+#: knfoldermanager.cpp:46
+#, fuzzy
+msgid "Local Folders"
+msgstr "مجلّدات محلّيّة"
+
+#: knfoldermanager.cpp:50
+#, fuzzy
+msgid "Drafts"
+msgstr "مسوّدات"
+
+#: knfoldermanager.cpp:54
+#, fuzzy
+msgid "Outbox"
+msgstr "صندوق الخارج"
+
+#: knfoldermanager.cpp:58
+#, fuzzy
+msgid "Sent"
+msgstr "أَرسِل"
+
+#: knfoldermanager.cpp:88
+#, fuzzy
+msgid "Cannot load index-file."
+msgstr "لا يستطيع التحميل فهرس ملفّ."
+
+#: knfoldermanager.cpp:143
+#, fuzzy
+msgid "New folder"
+msgstr "مجلّد جديد"
+
+#: knfoldermanager.cpp:289
+#, fuzzy
+msgid "Import MBox Folder"
+msgstr "استيراد مجلّد"
+
+#: knfoldermanager.cpp:298
+#, fuzzy
+msgid " Importing articles..."
+msgstr "يجري الاستيراد."
+
+#: knfoldermanager.cpp:362
+#, fuzzy
+msgid " Storing articles..."
+msgstr "الخزن."
+
+#: knfoldermanager.cpp:389
+#, fuzzy
+msgid "Export Folder"
+msgstr "صدِّر مجلّد"
+
+#: knfoldermanager.cpp:393
+#, fuzzy
+msgid " Exporting articles..."
+msgstr "جاري التصدير."
+
+#: kngroupbrowser.cpp:58
+#, fuzzy
+msgid "S&earch:"
+msgstr "إبح&ث:"
+
+#: kngroupbrowser.cpp:60
+#, fuzzy
+msgid "Disable &tree view"
+msgstr "ألغي العرض الش&جري"
+
+#: kngroupbrowser.cpp:62
+#, fuzzy
+msgid "&Subscribed only"
+msgstr "فقط الم&شترك فيها"
+
+#: kngroupbrowser.cpp:64
+#, fuzzy
+msgid "&New only"
+msgstr "ال&جديد فقط"
+
+#: kngroupbrowser.cpp:72
+#, fuzzy
+msgid "Loading groups..."
+msgstr "جاري التّحميل."
+
+#: kngroupbrowser.cpp:371
+#, fuzzy, kde-format
+msgid "Groups on %1: (%2 displayed)"
+msgstr "المجموعات يعمل"
+
+#: kngroupbrowser.cpp:424 kngroupbrowser.cpp:437 kngrouppropdlg.cpp:113
+#, fuzzy
+msgid "moderated"
+msgstr "مشرف عليها"
+
+#: kngroup.cpp:949
+#, fuzzy
+msgid " Scoring..."
+msgstr "الإحراز."
+
+#: kngroup.cpp:996
+#, fuzzy
+msgid " Reorganizing headers..."
+msgstr "إعادة تنظيم."
+
+#: kngroup.cpp:1099
+#, fuzzy, kde-format
+msgid "Cannot load saved headers: %1"
+msgstr "لا يستطيع التحميل 1"
+
+#: kngroupdialog.cpp:38
+#, fuzzy
+msgid "Subscribe to Newsgroups"
+msgstr "إشترِك إلى مجموعات أخبار"
+
+#: kngroupdialog.cpp:38
+#, fuzzy
+msgid "New &List"
+msgstr "&قائمة جديدة"
+
+#: kngroupdialog.cpp:38
+#, fuzzy
+msgid "New &Groups..."
+msgstr "جديد المجموعات."
+
+#: kngroupdialog.cpp:40
+#, fuzzy
+msgid "Current changes:"
+msgstr "التغييرات الحالية:"
+
+#: kngroupdialog.cpp:42
+#, fuzzy
+msgid "Subscribe To"
+msgstr "إشترك في"
+
+#: kngroupdialog.cpp:44
+#, fuzzy
+msgid "Unsubscribe From"
+msgstr "ألغي الإشتراك إلى"
+
+#: kngroupdialog.cpp:142
+#, fuzzy
+msgid ""
+"You have subscribed to a moderated newsgroup.\n"
+"Your articles will not appear in the group immediately.\n"
+"They have to go through a moderation process."
+msgstr ""
+"أنت إلى a مشرف عليها مجموعة الأخبار ليس ظهور بوصة المجموعة حالا إلى اذهب a "
+"إجراء."
+
+#: kngroupdialog.cpp:276
+#, fuzzy
+msgid "Downloading groups..."
+msgstr "يجري التنزيل."
+
+#: kngroupdialog.cpp:288
+#, fuzzy
+msgid "New Groups"
+msgstr "مجموعات جديدة"
+
+#: kngroupdialog.cpp:291
+#, fuzzy
+msgid "Check for New Groups"
+msgstr "كِش لـ جديد المجموعات"
+
+#: kngroupdialog.cpp:295
+#, fuzzy
+msgid "Created since last check:"
+msgstr "تاريخ الإنشاء منذ الأخير تفقّد:"
+
+#: kngroupdialog.cpp:303
+#, fuzzy
+msgid "Created since this date:"
+msgstr "تاريخ الإنشاء منذ التاريخ:"
+
+#: kngroupdialog.cpp:321
+#, fuzzy
+msgid "Checking for new groups..."
+msgstr "الفحص لـ جديد."
+
+#: kngroupmanager.cpp:424
+#, fuzzy
+msgid ""
+"Do you really want to unsubscribe\n"
+"from these groups?"
+msgstr "تنفيذ إلى إلغاء التسجيل?"
+
+#: kngroupmanager.cpp:425 knmainwidget.cpp:1552
+#, fuzzy
+msgid "Unsubscribe"
+msgstr "الغِ الإشتراك"
+
+#: kngroupmanager.cpp:465
+#, fuzzy, kde-format
+msgid ""
+"The group \"%1\" is being updated currently.\n"
+"It is not possible to unsubscribe from it at the moment."
+msgstr "الـ المجموعة هو هو ليس إلى إلغاء التسجيل من الإيطالية عند."
+
+#: kngroupmanager.cpp:531
+#, fuzzy
+msgid ""
+"This group cannot be expired because it is currently being updated.\n"
+" Please try again later."
+msgstr ""
+"هذا المجموعة الإيطالية هو\n"
+" رجاء."
+
+#: kngroupmanager.cpp:664
+#, fuzzy
+msgid ""
+"You do not have any groups for this account;\n"
+"do you want to fetch a current list?"
+msgstr "أنت ليس أي منها لـ الحساب إلى جلب a الحالي قائمة?"
+
+#: kngroupmanager.cpp:664
+#, fuzzy
+msgid "Fetch List"
+msgstr "تمكينإجلب قائمة"
+
+#: kngroupmanager.cpp:664
+#, fuzzy
+msgid "Do Not Fetch"
+msgstr "تنفيذ لا تمكينإجلب"
+
+#: kngrouppropdlg.cpp:48
+#, fuzzy
+msgid "&General"
+msgstr "&عام"
+
+#: kngrouppropdlg.cpp:53
+#, fuzzy
+msgid "Settings"
+msgstr "إعدادات"
+
+#: kngrouppropdlg.cpp:64
+#, fuzzy
+msgid "&Nickname:"
+msgstr "ال&كنية:"
+
+#: kngrouppropdlg.cpp:69
+#, fuzzy
+msgid "&Use different default charset:"
+msgstr "إستعمل مختلف افتراضي طقم محارف:"
+
+#: kngrouppropdlg.cpp:98
+#, fuzzy
+msgid "Description:"
+msgstr "الوصف:"
+
+#: kngrouppropdlg.cpp:103
+#, fuzzy
+msgid "Status:"
+msgstr "الحالة:"
+
+#: kngrouppropdlg.cpp:107
+#, fuzzy
+msgid "unknown"
+msgstr "مجهول"
+
+#: kngrouppropdlg.cpp:109
+msgid "posting forbidden"
+msgstr ""
+
+#: kngrouppropdlg.cpp:111
+#, fuzzy
+msgid "posting allowed"
+msgstr "المسموح لهم"
+
+#: kngrouppropdlg.cpp:123
+#, fuzzy
+msgid "Statistics"
+msgstr "الإحصائيات"
+
+#: kngrouppropdlg.cpp:131
+#, fuzzy
+msgid "Articles:"
+msgstr "المقالات:"
+
+#: kngrouppropdlg.cpp:136
+#, fuzzy
+msgid "Unread articles:"
+msgstr "غير مقروء:"
+
+#: kngrouppropdlg.cpp:141
+#, fuzzy
+msgid "New articles:"
+msgstr "جديد:"
+
+#: kngrouppropdlg.cpp:146
+#, fuzzy
+msgid "Threads with unread articles:"
+msgstr "الخيوط مع  غير مقروء:"
+
+#: kngrouppropdlg.cpp:151
+#, fuzzy
+msgid "Threads with new articles:"
+msgstr "الخيوط مع جديد:"
+
+#: kngroupselectdialog.cpp:27
+#, fuzzy
+msgid "Select Destinations"
+msgstr "انتقِ الأهداف"
+
+#: kngroupselectdialog.cpp:33
+#, fuzzy
+msgid "Groups for this article:"
+msgstr "المجموعات لـ مقالة:"
+
+#: kngroupselectdialog.cpp:103
+#, fuzzy
+msgid ""
+"You are crossposting to a moderated newsgroup.\n"
+"Please be aware that your article will not appear in any group\n"
+"until it has been approved by the moderators of the moderated group."
+msgstr ""
+"أنت إلى a مشرف عليها مجموعة الأخبار مقالة ليس ظهور بوصة أي منها المجموعة "
+"الإيطالية أداء من مشرف عليها المجموعة."
+
+#: knjobdata.cpp:157
+#, fuzzy
+msgid "Sending message"
+msgstr "يجري إرسال الرّسالة"
+
+#: knjobdata.cpp:166 scheduler.cpp:206
+#, fuzzy
+msgid "Waiting..."
+msgstr "يجري الإنتظار..."
+
+#: knmainwidget.cpp:145
+#, fuzzy
+msgid "&Search:"
+msgstr "&بحث:"
+
+#: knmainwidget.cpp:304
+#, fuzzy
+msgid " Ready"
+msgstr "جاهز"
+
+#: knmainwidget.cpp:329
+#, fuzzy
+msgid "KDE News Reader"
+msgstr "كيدي أخبار القارئ"
+
+#: knmainwidget.cpp:522
+#, fuzzy
+msgid "&Next Article"
+msgstr "&المقالة التالية"
+
+#: knmainwidget.cpp:523
+#, fuzzy
+msgid "Go to next article"
+msgstr "إذهب إلى التالي مقالة"
+
+#: knmainwidget.cpp:528
+#, fuzzy
+msgid "&Previous Article"
+msgstr "&المقالة السابقة"
+
+#: knmainwidget.cpp:530
+#, fuzzy
+msgid "Go to previous article"
+msgstr "إذهب إلى السابق مقالة"
+
+#: knmainwidget.cpp:535
+#, fuzzy
+msgid "Next Unread &Article"
+msgstr "التالي غير مقروء مقالة"
+
+#: knmainwidget.cpp:541
+#, fuzzy
+msgid "Next Unread &Thread"
+msgstr "التالي غير مقروء نقاش"
+
+#: knmainwidget.cpp:547
+#, fuzzy
+msgid "Ne&xt Group"
+msgstr "التالي المجموعة"
+
+#: knmainwidget.cpp:553
+#, fuzzy
+msgid "Pre&vious Group"
+msgstr "السابق المجموعة"
+
+#: knmainwidget.cpp:558
+#, fuzzy
+msgid "Read &Through Articles"
+msgstr "اقرأ عَبْر المقالات"
+
+#: knmainwidget.cpp:563
+#, fuzzy
+msgid "Focus on Next Folder"
+msgstr "التركيز على المجلد التالي"
+
+#: knmainwidget.cpp:568
+#, fuzzy
+msgid "Focus on Previous Folder"
+msgstr "التركيز على المجلّد السابق"
+
+#: knmainwidget.cpp:573
+#, fuzzy
+msgid "Select Folder with Focus"
+msgstr "اختيار المجلد مع التركيز"
+
+#: knmainwidget.cpp:578
+#, fuzzy
+msgid "Focus on Next Article"
+msgstr "التركيز يعمل التالي مقالة"
+
+#: knmainwidget.cpp:583
+#, fuzzy
+msgid "Focus on Previous Article"
+msgstr "التركيز يعمل السابق مقالة"
+
+#: knmainwidget.cpp:588
+#, fuzzy
+msgid "Select Article with Focus"
+msgstr "انتقِ مقالة مع التركيز"
+
+#: knmainwidget.cpp:595
+#, fuzzy
+msgid "Account &Properties"
+msgstr "الحساب خصائص"
+
+#: knmainwidget.cpp:600
+#, fuzzy
+msgid "&Rename Account"
+msgstr "إعادة تسمية الحساب"
+
+#: knmainwidget.cpp:605
+#, fuzzy
+msgid "&Subscribe to Newsgroups..."
+msgstr "إشترِك إلى مجموعات أخبار."
+
+#: knmainwidget.cpp:609
+#, fuzzy
+msgid "&Expire All Groups"
+msgstr "انهِ صلاحيّته الكل المجموعات"
+
+#: knmainwidget.cpp:614
+#, fuzzy
+msgid "&Get New Articles in All Groups"
+msgstr "احصل جديد المقالات بوصة الكل المجموعات"
+
+#: knmainwidget.cpp:619
+#, fuzzy
+msgid "&Get New Articles in All Accounts"
+msgstr "احصل جديد المقالات بوصة الكل حسابات"
+
+#: knmainwidget.cpp:624
+#, fuzzy
+msgid "&Delete Account"
+msgstr "احذف الحساب"
+
+#: knmainwidget.cpp:629
+#, fuzzy
+msgid "&Post to Newsgroup..."
+msgstr "أرسل إلى مجموعة أخبار."
+
+#: knmainwidget.cpp:636
+#, fuzzy
+msgid "Group &Properties"
+msgstr "المجموعة خصائص"
+
+#: knmainwidget.cpp:641
+#, fuzzy
+msgid "Rename &Group"
+msgstr "إعادة تسمية المجموعة"
+
+#: knmainwidget.cpp:646
+#, fuzzy
+msgid "&Get New Articles"
+msgstr "احصل جديد المقالات"
+
+#: knmainwidget.cpp:650
+#, fuzzy
+msgid "E&xpire Group"
+msgstr "انهِ صلاحيّته المجموعة"
+
+#: knmainwidget.cpp:654
+#, fuzzy
+msgid "Re&organize Group"
+msgstr "اعادة تنظيم المجموعة"
+
+#: knmainwidget.cpp:659
+#, fuzzy
+msgid "&Unsubscribe From Group"
+msgstr "الغِ الإشتراك من المجموعة"
+
+#: knmainwidget.cpp:664
+#, fuzzy
+msgid "Mark All as &Read"
+msgstr "علامة الكل اقرأ"
+
+#: knmainwidget.cpp:668
+#, fuzzy
+msgid "Mark All as U&nread"
+msgstr "علامة الكل غير مقروء"
+
+#: knmainwidget.cpp:672
+#, fuzzy
+msgid "Mark Last as Unr&ead..."
+msgstr "علامة الأخير غير مقروء."
+
+#: knmainwidget.cpp:677
+#, fuzzy
+msgid "&Configure KNode..."
+msgstr "اضبط قارئ الأخبار."
+
+#: knmainwidget.cpp:683
+#, fuzzy
+msgid "&New Folder"
+msgstr "جديد مجلّد"
+
+#: knmainwidget.cpp:688
+#, fuzzy
+msgid "New &Subfolder"
+msgstr "جديد"
+
+#: knmainwidget.cpp:693
+#, fuzzy
+msgid "&Delete Folder"
+msgstr "&حذف المجلد"
+
+#: knmainwidget.cpp:698
+#, fuzzy
+msgid "&Rename Folder"
+msgstr "&إعادة تسمية مجلد"
+
+#: knmainwidget.cpp:702
+#, fuzzy
+msgid "C&ompact Folder"
+msgstr "الميثاق مجلّد"
+
+#: knmainwidget.cpp:706
+#, fuzzy
+msgid "Co&mpact All Folders"
+msgstr "الميثاق الكل المجلّدات"
+
+#: knmainwidget.cpp:710
+#, fuzzy
+msgid "&Empty Folder"
+msgstr "فارغ مجلّد"
+
+#: knmainwidget.cpp:714
+#, fuzzy
+msgid "&Import MBox Folder..."
+msgstr "استيراد مجلّد."
+
+#: knmainwidget.cpp:718
+#, fuzzy
+msgid "E&xport as MBox Folder..."
+msgstr "صدِّر مجلّد."
+
+#: knmainwidget.cpp:723
+#, fuzzy
+msgid "S&ort"
+msgstr "أ&فرز"
+
+#: knmainwidget.cpp:725
+#, fuzzy
+msgid "By &Subject"
+msgstr "بواسطة الموضوع"
+
+#: knmainwidget.cpp:726
+#, fuzzy
+msgid "By S&ender"
+msgstr "بواسطة المرسل"
+
+#: knmainwidget.cpp:727
+#, fuzzy
+msgid "By S&core"
+msgstr "بواسطة النتيجة"
+
+#: knmainwidget.cpp:728
+#, fuzzy
+msgid "By &Lines"
+msgstr "بواسطة خطوط"
+
+#: knmainwidget.cpp:729
+#, fuzzy
+msgid "By &Date"
+msgstr "حسب التا&ريخ"
+
+#: knmainwidget.cpp:735
+#, fuzzy
+msgid "Sort"
+msgstr "رتّب"
+
+#: knmainwidget.cpp:739
+#, fuzzy
+msgid "&Filter"
+msgstr "الت&صفية"
+
+#: knmainwidget.cpp:744
+#, fuzzy
+msgid "Filter"
+msgstr "تصفية"
+
+#: knmainwidget.cpp:749
+#, fuzzy
+msgid "&Search Articles..."
+msgstr "ابحث المقالات."
+
+#: knmainwidget.cpp:755
+#, fuzzy
+msgid "&Refresh List"
+msgstr "&تحديث القائمة"
+
+#: knmainwidget.cpp:760
+#, fuzzy
+msgid "&Collapse All Threads"
+msgstr "&قلِّص كل النقاشات"
+
+#: knmainwidget.cpp:764
+#, fuzzy
+msgid "E&xpand All Threads"
+msgstr "توسيع الكل الخيوط"
+
+#: knmainwidget.cpp:768
+#, fuzzy
+msgid "&Toggle Subthread"
+msgstr "تبديل"
+
+#: knmainwidget.cpp:773
+#, fuzzy
+msgid "Show T&hreads"
+msgstr "اعرض الخيوط"
+
+#: knmainwidget.cpp:775
+#, fuzzy
+msgid "Hide T&hreads"
+msgstr "إخفاء الخيوط"
+
+#: knmainwidget.cpp:782
+#, fuzzy
+msgid "Mark as &Read"
+msgstr "علامة اقرأ"
+
+#: knmainwidget.cpp:788
+#, fuzzy
+msgid "Mar&k as Unread"
+msgstr "علامة غير مقروء"
+
+#: knmainwidget.cpp:793
+#, fuzzy
+msgid "Mark &Thread as Read"
+msgstr "علامة نقاش اقرأ"
+
+#: knmainwidget.cpp:798
+#, fuzzy
+msgid "Mark T&hread as Unread"
+msgstr "علامة نقاش غير مقروء"
+
+#: knmainwidget.cpp:804
+#, fuzzy
+msgid "Open in Own &Window"
+msgstr "افتح بوصة الملك نافذة"
+
+#: knmainwidget.cpp:811
+#, fuzzy
+msgid "&Edit Scoring Rules..."
+msgstr "تحرير الإحراز القواعد."
+
+#: knmainwidget.cpp:816
+#, fuzzy
+msgid "Recalculate &Scores"
+msgstr "أعد حساب النتائج"
+
+#: knmainwidget.cpp:820
+#, fuzzy
+msgid "&Lower Score for Author..."
+msgstr "أدنى النتيجة لـ المؤلف."
+
+#: knmainwidget.cpp:825
+#, fuzzy
+msgid "&Raise Score for Author..."
+msgstr "رفع النتيجة لـ المؤلف."
+
+#: knmainwidget.cpp:831
+#, fuzzy
+msgid "&Ignore Thread"
+msgstr "&تجاهل الخيط"
+
+#: knmainwidget.cpp:837
+#, fuzzy
+msgid "&Watch Thread"
+msgstr "&راقب الخيط"
+
+#: knmainwidget.cpp:844
+#, fuzzy
+msgid "Sen&d Pending Messages"
+msgstr "أرسِل منتظِر رسائل"
+
+#: knmainwidget.cpp:849
+#, fuzzy
+msgid "&Delete Article"
+msgstr "احذف مقالة"
+
+#: knmainwidget.cpp:855
+#, fuzzy
+msgid "Send &Now"
+msgstr "أرسِل الآن"
+
+#: knmainwidget.cpp:860
+#, fuzzy
+msgctxt "edit article"
+msgid "&Edit Article..."
+msgstr "تحرير مقالة."
+
+#: knmainwidget.cpp:867
+#, fuzzy
+msgid "Stop &Network"
+msgstr "قف الشبكة"
+
+#: knmainwidget.cpp:872
+#, fuzzy
+msgid "&Fetch Article with ID..."
+msgstr "تمكينإجلب مقالة مع الهوية."
+
+#: knmainwidget.cpp:877
+#, fuzzy
+msgid "Show Quick Search"
+msgstr "أظهُر البحث السريع"
+
+#: knmainwidget.cpp:879
+#, fuzzy
+msgid "Hide Quick Search"
+msgstr "إخفاء بسرعة ابحث"
+
+#: knmainwidget.cpp:952
+#, fuzzy
+msgid ""
+"KNode is currently sending articles. If you quit now you might lose these "
+"articles.\n"
+"Do you want to quit anyway?"
+msgstr "قارئ الأخبار هو إذا اخرج الآن إلى اخرج?"
+
+#: knmainwidget.cpp:1552
+#, fuzzy, kde-format
+msgid "Do you really want to unsubscribe from %1?"
+msgstr "تنفيذ إلى إلغاء التسجيل من?"
+
+#: knmainwidget.cpp:1582
+#, fuzzy
+msgid "Mark Last as Unread"
+msgstr "علامة الأخير غير مقروء"
+
+#: knmainwidget.cpp:1583
+#, fuzzy
+msgid "Enter how many articles should be marked unread:"
+msgstr "إدخال  غير مقروء:"
+
+#: knmainwidget.cpp:1624
+#, fuzzy
+msgid "You cannot delete a standard folder."
+msgstr "أنت حذف a قياسي مجلد."
+
+#: knmainwidget.cpp:1627
+#, fuzzy
+msgid "Do you really want to delete this folder and all its children?"
+msgstr "تنفيذ إلى حذف مجلد و الكل?"
+
+#: knmainwidget.cpp:1631
+#, fuzzy
+msgid ""
+"This folder cannot be deleted because some of\n"
+" its articles are currently in use."
+msgstr ""
+"هذا مجلد محذوف بعض من\n"
+" بوصة استخدام."
+
+#: knmainwidget.cpp:1644
+#, fuzzy
+msgid "You cannot rename a standard folder."
+msgstr "أنت اعادة تسمية  a قياسي مجلد."
+
+#: knmainwidget.cpp:1674
+#, fuzzy
+msgid ""
+"This folder cannot be emptied at the moment\n"
+"because some of its articles are currently in use."
+msgstr "هذا مجلد عند بعض من بوصة استخدام."
+
+#: knmainwidget.cpp:1678
+#, fuzzy, kde-format
+msgid "Do you really want to delete all articles in %1?"
+msgstr "تنفيذ إلى حذف الكل بوصة?"
+
+#: knmainwidget.cpp:1713
+#, fuzzy
+msgid "Select Sort Column"
+msgstr "انتقِ رتّب عمود"
+
+#: knmainwidget.cpp:2036
+#, fuzzy
+msgid "Fetch Article with ID"
+msgstr "تمكينإجلب مقالة مع الهوية"
+
+#: knmainwidget.cpp:2042
+#, fuzzy
+msgid "&Message-ID:"
+msgstr "رسالة الهوية:"
+
+#: knmainwidget.cpp:2047
+#, fuzzy
+msgid "&Fetch"
+msgstr "تمكينإجلب"
+
+#: knsearchdialog.cpp:32
+#, fuzzy
+msgid "Find Articles"
+msgstr "ابحث المقالات"
+
+#: knsearchdialog.cpp:39
+#, fuzzy
+msgid "&Search"
+msgstr "إ&بحث"
+
+#: knsearchdialog.cpp:40
+#, fuzzy
+msgid "C&lear"
+msgstr "ا&مسح"
+
+#: knsearchdialog.cpp:49
+#, fuzzy
+msgid "Sho&w complete threads"
+msgstr "اعرض كامل"
+
+#: knserverinfo.cpp:92
+#, fuzzy, kde-format
+msgid ""
+"KWallet is not available. It is strongly recommended to use KWallet for "
+"managing your passwords.\n"
+"However, KNode can store the password in its configuration file instead. The "
+"password is stored in an obfuscated format, but should not be considered "
+"secure from decryption efforts if access to the configuration file is "
+"obtained.\n"
+"Do you want to store the password for server '%1' in the configuration file?"
+msgstr ""
+"المحفظة KWallet هو ليس متوفّر itإيطالياهو هو مفضّل إلى استخدام المحفظة KWallet "
+"لـ قارئ الأخبار تخزين كلمة مرور بوصة تشكيل ملفّ الـ كلمة مرور هو بوصة تنسيق "
+"ليس آمن من فك تشفير IF وصول إلى تشكيل ملفّ هو إلى تخزين كلمة مرور لـ خادم "
+"بوصة تشكيل ملفّ?"
+
+#: knserverinfo.cpp:100
+#, fuzzy
+msgid "KWallet Not Available"
+msgstr "البرنامج KWallet غير متوفر"
+
+#: knserverinfo.cpp:101
+#, fuzzy
+msgid "Store Password"
+msgstr "إحفظ كلمة المرور"
+
+#: knserverinfo.cpp:102
+#, fuzzy
+msgid "Do Not Store Password"
+msgstr "لا تحفظ كلمة المرور"
+
+#: knsourceviewwindow.cpp:38
+#, fuzzy
+msgid "Article Source"
+msgstr "مقالة المصدر"
+
+#: knstatusfilter.cpp:111
+#, fuzzy
+msgid "Is read:"
+msgstr "هو قراءة:"
+
+#: knstatusfilter.cpp:112
+#, fuzzy
+msgid "Is new:"
+msgstr "هو جديد:"
+
+#: knstatusfilter.cpp:113
+#, fuzzy
+msgid "Has unread followups:"
+msgstr "له  غير مقروء:"
+
+#: knstatusfilter.cpp:114
+#, fuzzy
+msgid "Has new followups:"
+msgstr "له جديد:"
+
+#: knstatusfilter.cpp:213
+#, fuzzy
+msgid "True"
+msgstr "صح"
+
+#: knstatusfilter.cpp:214
+#, fuzzy
+msgid "False"
+msgstr "خطأ"
+
+#: knstringfilter.cpp:103
+#, fuzzy
+msgid "Does Contain"
+msgstr "يعمل إحتو"
+
+#: knstringfilter.cpp:104
+#, fuzzy
+msgid "Does NOT Contain"
+msgstr "ليسلا يحويلا يحتوي"
+
+#: knstringfilter.cpp:108
+#, fuzzy
+msgid "Regular expression"
+msgstr "تعبير نمطي"
+
+#: mailsendjob.cpp:39
+#, fuzzy
+msgid "Could not create mail transport job."
+msgstr "يمكن أن ليس إ_نشيء بريد نقل شغل."
+
+#: nntpjobs.cpp:99 nntpjobs.cpp:127
+#, fuzzy
+msgid "Loading group list from disk..."
+msgstr "جاري التّحميل المجموعة قائمة من قرص."
+
+#: nntpjobs.cpp:101 nntpjobs.cpp:130
+#, fuzzy
+msgid "Unable to read the group list file"
+msgstr "عاجز إلى قراءة المجموعة قائمة ملفّ"
+
+#: nntpjobs.cpp:107
+#, fuzzy
+msgid "Writing group list to disk..."
+msgstr "كتابة المجموعة قائمة إلى قرص."
+
+#: nntpjobs.cpp:110
+#, fuzzy
+msgid "Unable to write the group list file"
+msgstr "عاجز إلى كتابة المجموعة قائمة ملفّ"
+
+#: nntpjobs.cpp:181
+#, fuzzy
+msgid "Sorting..."
+msgstr "فرز."
+
+#. i18n: file: kncomposerui.rc:5
+#. i18n: ectx: Menu (file)
+#. i18n: file: knodeui.rc:5
+#. i18n: ectx: Menu (file)
+#. i18n: file: knreaderui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3 rc.cpp:288 rc.cpp:321
+#, fuzzy
+msgid "&File"
+msgstr "&ملف"
+
+#. i18n: file: kncomposerui.rc:13
+#. i18n: ectx: Menu (edit)
+#. i18n: file: knodeui.rc:15
+#. i18n: ectx: Menu (edit)
+#. i18n: file: knreaderui.rc:11
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6 rc.cpp:291 rc.cpp:324
+#, fuzzy
+msgid "&Edit"
+msgstr "&حرّر"
+
+#. i18n: file: kncomposerui.rc:27
+#. i18n: ectx: Menu (attach)
+#: rc.cpp:9
+#, fuzzy
+msgid "&Attach"
+msgstr "&ملحقات"
+
+#. i18n: file: kncomposerui.rc:33
+#. i18n: ectx: Menu (options)
+#: rc.cpp:12
+#, fuzzy
+msgid "Optio&ns"
+msgstr "خيارات"
+
+#. i18n: file: kncomposerui.rc:42
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:15
+#, fuzzy
+msgid "&Tools"
+msgstr "أ&دوات"
+
+#. i18n: file: kncomposerui.rc:57
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: knodeui.rc:131
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: knreaderui.rc:38
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:18 rc.cpp:318 rc.cpp:333
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسي"
+
+#. i18n: file: kncomposerui.rc:99
+#. i18n: ectx: Menu (spell)
+#: rc.cpp:21
+#, fuzzy
+msgid "Spell Result"
+msgstr "تهجّى النتيجة"
+
+#. i18n: file: knode.kcfg:13
+#. i18n: ectx: label, entry (autoCheckGroups), group (READNEWS)
+#: rc.cpp:24
+#, fuzzy
+msgid "Check for new articles automatically"
+msgstr "كِش لـ جديد"
+
+#. i18n: file: knode.kcfg:17
+#. i18n: ectx: label, entry (maxToFetch), group (READNEWS)
+#: rc.cpp:27
+#, fuzzy
+msgid "Maximum number of articles to fetch"
+msgstr "الأقصى رقم من إلى جلب"
+
+#. i18n: file: knode.kcfg:21
+#. i18n: ectx: label, entry (autoMark), group (READNEWS)
+#: rc.cpp:30
+#, fuzzy
+msgid "Automatically mark articles as read"
+msgstr "تلقائياً علامة قراءة"
+
+#. i18n: file: knode.kcfg:25
+#. i18n: ectx: label, entry (autoMarkSeconds), group (READNEWS)
+#: rc.cpp:33
+#, fuzzy
+msgid "Mark article as read after"
+msgstr "علامة مقالة قراءة بعد"
+
+#. i18n: file: knode.kcfg:29
+#. i18n: ectx: label, entry (markCrossposts), group (READNEWS)
+#: rc.cpp:36
+#, fuzzy
+msgid "Mark crossposted articles as read"
+msgstr "علامة قراءة"
+
+#. i18n: file: knode.kcfg:33
+#. i18n: ectx: label, entry (smartScrolling), group (READNEWS)
+#: rc.cpp:39
+#, fuzzy
+msgid "Smart scrolling"
+msgstr "ذكي"
+
+#. i18n: file: knode.kcfg:37
+#. i18n: ectx: label, entry (totalExpandThreads), group (READNEWS)
+#: rc.cpp:42
+#, fuzzy
+msgid "Show whole thread on expanding"
+msgstr "اعرض عملية جزئية يعمل"
+
+#. i18n: file: knode.kcfg:41
+#. i18n: ectx: label, entry (defaultToExpandedThreads), group (READNEWS)
+#: rc.cpp:45
+#, fuzzy
+msgid "Default to expanded threads"
+msgstr "افتراضي إلى ممدد"
+
+#. i18n: file: knode.kcfg:45
+#. i18n: ectx: label, entry (showLines), group (READNEWS)
+#: rc.cpp:48
+#, fuzzy
+msgid "Show line count column"
+msgstr "اعرض سطر العدد عمود"
+
+#. i18n: file: knode.kcfg:49
+#. i18n: ectx: label, entry (showScore), group (READNEWS)
+#: rc.cpp:51
+#, fuzzy
+msgid "Show score column"
+msgstr "اعرض عمود"
+
+#. i18n: file: knode.kcfg:53
+#. i18n: ectx: label, entry (showUnread), group (READNEWS)
+#: rc.cpp:54
+#, fuzzy
+msgid "Show unread count in thread"
+msgstr "اعرض  غير مقروء العدد بوصة عملية جزئية"
+
+#. i18n: file: knode.kcfg:57
+#. i18n: ectx: label, entry (showThreads), group (READNEWS)
+#: rc.cpp:57
+#, fuzzy
+msgid "Show Threads"
+msgstr "اعرض الخيوط"
+
+#. i18n: file: knode.kcfg:63
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#. i18n: file: readnewsgeneralwidget_base.ui:168
+#. i18n: ectx: property (text), widget (QRadioButton, mStandardDateFormat)
+#: rc.cpp:60 rc.cpp:510
+#, fuzzy
+msgid "Standard format"
+msgstr "قياسي تنسيق"
+
+#. i18n: file: knode.kcfg:66
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#. i18n: file: readnewsgeneralwidget_base.ui:189
+#. i18n: ectx: property (text), widget (QRadioButton, mLocalizedDateFormat)
+#: rc.cpp:63 rc.cpp:516
+#, fuzzy
+msgid "Localized format"
+msgstr "محلي تنسيق"
+
+#. i18n: file: knode.kcfg:69
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#. i18n: file: readnewsgeneralwidget_base.ui:175
+#. i18n: ectx: property (text), widget (QRadioButton, mFancyDateFormat)
+#: rc.cpp:66 rc.cpp:513
+#, fuzzy
+msgid "Fancy format"
+msgstr "الهوى تنسيق"
+
+#. i18n: file: knode.kcfg:72
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#: rc.cpp:69
+#, fuzzy
+msgid "ISO format"
+msgstr "آيزو تنسيق"
+
+#. i18n: file: knode.kcfg:75
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#: rc.cpp:72
+#, fuzzy
+msgid "Custom format"
+msgstr "تهيئة خاصة"
+
+#. i18n: file: knode.kcfg:78
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#: rc.cpp:75
+#, fuzzy
+msgid "Date format"
+msgstr "تنسيق البيانات"
+
+#. i18n: file: knode.kcfg:82
+#. i18n: ectx: label, entry (customDateFormat), group (READNEWS)
+#: rc.cpp:78
+#, fuzzy
+msgid "Custom date format"
+msgstr "مخصص التاريخ تنسيق"
+
+#. i18n: file: knode.kcfg:112
+#. i18n: ectx: whatsthis, entry (customDateFormat), group (READNEWS)
+#: rc.cpp:81
+#, fuzzy
+msgid ""
+"<!-- taken from KMail -->\n"
+"<qt><p><strong>These expressions may be used for the date:</strong></p>\n"
+"<ul>\n"
+"<li>d - the day as a number without a leading zero (1-31)</li>\n"
+"<li>dd - the day as a number with a leading zero (01-31)</li>\n"
+"<li>ddd - the abbreviated day name (Mon - Sun)</li>\n"
+"<li>dddd - the long day name (Monday - Sunday)</li>\n"
+"<li>M - the month as a number without a leading zero (1-12)</li>\n"
+"<li>MM - the month as a number with a leading zero (01-12)</li>\n"
+"<li>MMM - the abbreviated month name (Jan - Dec)</li>\n"
+"<li>MMMM - the long month name (January - December)</li>\n"
+"<li>yy - the year as a two digit number (00-99)</li>\n"
+"<li>yyyy - the year as a four digit number (0000-9999)</li>\n"
+"</ul>\n"
+"<p><strong>These expressions may be used for the time:</strong></p>\n"
+"<ul>\n"
+"<li>h - the hour without a leading zero (0-23 or 1-12 if AM/PM display)</"
+"li>\n"
+"<li>hh - the hour with a leading zero (00-23 or 01-12 if AM/PM display)</"
+"li>\n"
+"<li>m - the minutes without a leading zero (0-59)</li>\n"
+"<li>mm - the minutes with a leading zero (00-59)</li>\n"
+"<li>s - the seconds without a leading zero (0-59)</li>\n"
+"<li>ss - the seconds with a leading zero (00-59)</li>\n"
+"<li>z - the milliseconds without leading zeroes (0-999)</li>\n"
+"<li>zzz - the milliseconds with leading zeroes (000-999)</li>\n"
+"<li>AP - switch to AM/PM display. AP will be replaced by either \"AM\" or "
+"\"PM\".</li>\n"
+"<li>ap - switch to AM/PM display. ap will be replaced by either \"am\" or "
+"\"pm\".</li>\n"
+"<li>Z - time zone in numeric form (-0500)</li>\n"
+"</ul>\n"
+"<p><strong>All other input characters will be ignored.</strong></p></qt>\n"
+"      "
+msgstr ""
+"من KMail\n"
+"<qt><p><strong> هذه أيار مُستخدَم لـ التاريخ</strong></p>\n"
+"<ul>\n"
+"<li> d اليوم a رقم a يضع أصفارا\n"
+"صفر</li>\n"
+"<li> اليوم a رقم مع a يضع أصفارا\n"
+"صفر</li>\n"
+"<li> اليوم الإسم الإثنين الأحد</li>\n"
+"<li> اليوم الإسم الإثنين الأحد</li>\n"
+"<li> M شهر a رقم a يضع أصفارا\n"
+"صفر</li>\n"
+"<li> MM شهر a رقم مع a يضع أصفارا\n"
+"صفر</li>\n"
+"<li> شهر الإسم يناير ديسمبر</li>\n"
+"<li> ش ش ش ش شهر الإسم يناير ديسمبر</li>\n"
+"<li> السنة a إثنان رقم رقم</li>\n"
+"<li> السنة a أربعة رقم رقم</li>\n"
+"</ul>\n"
+"<p><strong> هذه أيار مُستخدَم لـ وقت</strong></p>\n"
+"<ul>\n"
+"<li> h ساعة a يضع أصفارا\n"
+"صفر أو IF صباحاً مساءاً عرض</li>\n"
+"<li> ساعة مع a يضع أصفارا\n"
+"صفر أو IF صباحاً مساءاً عرض</li>\n"
+"<li> m دقائق a يضع أصفارا\n"
+"صفر</li>\n"
+"<li> مم دقائق مع a يضع أصفارا\n"
+"صفر</li>\n"
+"<li> s ثوان a يضع أصفارا\n"
+"صفر</li>\n"
+"<li> ثوان مع a يضع أصفارا\n"
+"صفر</li>\n"
+"<li> z ملي ثانية</li>\n"
+"<li> ملي ثانية مع</li>\n"
+"<li> تحول إلى صباحاً مساءاً عرض أداء صباحاً أو مساءاً</li>\n"
+"<li> تحول إلى صباحاً مساءاً عرض أداء ص أو م</li>\n"
+"<li> Z وقت نطاق بوصة أبجدي عددي استمارة</li>\n"
+"</ul>\n"
+"<p><strong> الكل غير ذلك دَخْل محارف تجاهل</strong></p></qt> n "
+
+#. i18n: file: knode.kcfg:116
+#. i18n: ectx: label, entry (rewrapBody), group (READNEWS)
+#: rc.cpp:113
+#, fuzzy
+msgid "Rewrap text when necessary"
+msgstr "أعِد اللف نص"
+
+#. i18n: file: knode.kcfg:120
+#. i18n: ectx: label, entry (removeTrailingNewlines), group (READNEWS)
+#: rc.cpp:116
+#, fuzzy
+msgid "Remove trailing empty lines"
+msgstr "احذف فارغ سطور"
+
+#. i18n: file: knode.kcfg:124
+#. i18n: ectx: label, entry (showSignature), group (READNEWS)
+#: rc.cpp:119
+#, fuzzy
+msgid "Show signature"
+msgstr "اعرض إمضاء"
+
+#. i18n: file: knode.kcfg:128
+#. i18n: ectx: label, entry (interpretFormatTags), group (READNEWS)
+#: rc.cpp:122
+#, fuzzy
+msgid "Interpret emoticons and other formatting"
+msgstr "ترجم و غير ذلك"
+
+#. i18n: file: knode.kcfg:132
+#. i18n: ectx: label, entry (quoteCharacters), group (READNEWS)
+#: rc.cpp:125
+#, fuzzy
+msgid "Recognized quote characters"
+msgstr "معترف به اقتباس محارف"
+
+#. i18n: file: knode.kcfg:136
+#. i18n: ectx: label, entry (openAttachmentsOnClick), group (READNEWS)
+#: rc.cpp:128
+#, fuzzy
+msgid "Open attachments on click"
+msgstr "افتح يعمل انقر"
+
+#. i18n: file: knode.kcfg:140
+#. i18n: ectx: label, entry (showAlternativeContents), group (READNEWS)
+#: rc.cpp:131
+#, fuzzy
+msgid "Show alternative contents as attachments"
+msgstr "اعرض بديل"
+
+#. i18n: file: knode.kcfg:144
+#. i18n: ectx: label, entry (useFixedFont), group (READNEWS)
+#: rc.cpp:134
+#, fuzzy
+msgid "Use fixed font"
+msgstr "إستعمل fixed الخط"
+
+#. i18n: file: knode.kcfg:148
+#. i18n: ectx: label, entry (showRefBar), group (READNEWS)
+#. i18n: file: readnewsviewerwidget_base.ui:55
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showRefBar)
+#: rc.cpp:137 rc.cpp:561
+#, fuzzy
+msgid "Show reference bar"
+msgstr "اعرض المرجع شريط"
+
+#. i18n: file: knode.kcfg:152
+#. i18n: ectx: label, entry (alwaysShowHTML), group (READNEWS)
+#. i18n: file: readnewsviewerwidget_base.ui:120
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_alwaysShowHTML)
+#: rc.cpp:140 rc.cpp:582
+#, fuzzy
+msgid "Prefer HTML to plain text"
+msgstr "فضّل HTML إلى نص عادي نص"
+
+#. i18n: file: knode.kcfg:156
+#. i18n: ectx: label, entry (allowExternalReferences), group (READNEWS)
+#. i18n: file: readnewsviewerwidget_base.ui:127
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowExternalReferences)
+#: rc.cpp:143 rc.cpp:585
+msgid "Allow external references in HTML"
+msgstr ""
+
+#. i18n: file: knode.kcfg:163
+#. i18n: ectx: label, entry (markAllReadGoNext), group (READNEWS_NAVIGATION)
+#: rc.cpp:146
+#, fuzzy
+msgid "Mark group as read goes to next group"
+msgstr "علامة المجموعة قراءة إلى التالي المجموعة"
+
+#. i18n: file: knode.kcfg:168
+#. i18n: ectx: label, entry (markThreadReadGoNext), group (READNEWS_NAVIGATION)
+#: rc.cpp:150
+#, fuzzy
+msgid "Mark thread as read goes to next unread thread"
+msgstr "علامة عملية جزئية قراءة إلى التالي  غير مقروء عملية جزئية"
+
+#. i18n: file: knode.kcfg:172
+#. i18n: ectx: label, entry (markThreadReadCloseThread), group (READNEWS_NAVIGATION)
+#: rc.cpp:153
+#, fuzzy
+msgid "Mark thread as read closes the current thread"
+msgstr "علامة عملية جزئية قراءة الحالي عملية جزئية"
+
+#. i18n: file: knode.kcfg:176
+#. i18n: ectx: label, entry (ignoreThreadGoNext), group (READNEWS_NAVIGATION)
+#: rc.cpp:156
+#, fuzzy
+msgid "Ignore thread goes to the next unread thread"
+msgstr "تجاهل عملية جزئية إلى التالي  غير مقروء عملية جزئية"
+
+#. i18n: file: knode.kcfg:180
+#. i18n: ectx: label, entry (ignoreThreadCloseThread), group (READNEWS_NAVIGATION)
+#: rc.cpp:159
+#, fuzzy
+msgid "Ignore thread closes the current thread"
+msgstr "تجاهل عملية جزئية الحالي عملية جزئية"
+
+#. i18n: file: knode.kcfg:184
+#. i18n: ectx: label, entry (leaveGroupMarkAsRead), group (READNEWS_NAVIGATION)
+#: rc.cpp:162
+#, fuzzy
+msgid "Leaving a group marks all articles as read"
+msgstr "يغادر a المجموعة الكل قراءة"
+
+#. i18n: file: knode.kcfg:191
+#. i18n: ectx: label, entry (ignoredThreshold), group (SCORING)
+#: rc.cpp:165
+#, fuzzy
+msgid "Default score for ignored threads"
+msgstr "افتراضي لـ تجاهل"
+
+#. i18n: file: knode.kcfg:195
+#. i18n: ectx: label, entry (watchedThreshold), group (SCORING)
+#: rc.cpp:168
+#, fuzzy
+msgid "Default score for watched threads"
+msgstr "افتراضي لـ"
+
+#. i18n: file: knode.kcfg:202
+#. i18n: ectx: label, entry (collCacheSize), group (CACHE)
+#: rc.cpp:171
+#, fuzzy
+msgid "Cache size for headers"
+msgstr "الذّاكرة المؤقّتة حجم لـ"
+
+#. i18n: file: knode.kcfg:206
+#. i18n: ectx: label, entry (artCacheSize), group (CACHE)
+#: rc.cpp:174
+#, fuzzy
+msgid "Cache size for articles"
+msgstr "الذّاكرة المؤقّتة حجم لـ"
+
+#. i18n: file: knode.kcfg:214
+#. i18n: ectx: label, entry (UseOwnCharset), group (POSTNEWS)
+#: rc.cpp:177
+#, fuzzy
+msgid "Use own default charset when replying"
+msgstr "إستعمل افتراضي طقم محارف"
+
+#. i18n: file: knode.kcfg:218
+#. i18n: ectx: label, entry (hostname), group (POSTNEWS)
+#: rc.cpp:180
+#, fuzzy
+msgid "Host name used to generate the message ID."
+msgstr "مضيف الإسم مُستخدَم إلى رسالة الهوية."
+
+#. i18n: file: knode.kcfg:221
+#. i18n: ectx: label, entry (generateMessageID), group (POSTNEWS)
+#: rc.cpp:183
+#, fuzzy
+msgid "Generate message-id"
+msgstr "أنشئ رسالة هوية"
+
+#. i18n: file: knode.kcfg:225
+#. i18n: ectx: label, entry (noUserAgent), group (POSTNEWS)
+#: rc.cpp:186
+#, fuzzy
+msgid "Do not add the \"User-Agent\" identification header"
+msgstr "تنفيذ ليس اضف المستخدم الوكيل تعريف عنوان رأسي"
+
+#. i18n: file: knode.kcfg:229
+#. i18n: ectx: label, entry (useExternalMailer), group (POSTNEWS)
+#: rc.cpp:189
+#, fuzzy
+msgid "Use external mailer"
+msgstr "إستعمل خارجي باعث بريد"
+
+#. i18n: file: knode.kcfg:233
+#. i18n: ectx: label, entry (allow8BitBody), group (POSTNEWS)
+#: rc.cpp:192
+#, fuzzy
+msgid "Allow 8-bit encoding"
+msgstr ""
+"اسمح بِت\n"
+"ثنائية ترميز"
+
+#. i18n: file: knode.kcfg:241
+#. i18n: ectx: label, entry (wordWrap), group (POSTNEWS)
+#: rc.cpp:198
+#, fuzzy
+msgid "Word wrap at column"
+msgstr "كلمة عند عمود"
+
+#. i18n: file: knode.kcfg:245
+#. i18n: ectx: label, entry (autoSpellChecking), group (POSTNEWS)
+#: rc.cpp:201
+msgid "Automatic Spellchecking"
+msgstr ""
+
+#. i18n: file: knode.kcfg:249
+#. i18n: ectx: label, entry (maxLineLength), group (POSTNEWS)
+#: rc.cpp:204
+#, fuzzy
+msgid "Maximum line length if word wrap is enabled"
+msgstr "الأقصى سطر الطول IF كلمة هو ممكن"
+
+#. i18n: file: knode.kcfg:253
+#. i18n: ectx: label, entry (appendOwnSignature), group (POSTNEWS)
+#: rc.cpp:207
+#, fuzzy
+msgid "Append own signature automatically"
+msgstr "إلحاقالحاقأضف إمضاء"
+
+#. i18n: file: knode.kcfg:257
+#. i18n: ectx: label, entry (rewrap), group (POSTNEWS)
+#: rc.cpp:210
+#, fuzzy
+msgid "Rewrap quoted text automatically"
+msgstr "أعِد اللف نص"
+
+#. i18n: file: knode.kcfg:261
+#. i18n: ectx: label, entry (includeSignature), group (POSTNEWS)
+#: rc.cpp:213
+#, fuzzy
+msgid "Include the original author's signature in replies"
+msgstr "تضمين أصلي المؤلف s إمضاء بوصة"
+
+#. i18n: file: knode.kcfg:265
+#. i18n: ectx: label, entry (cursorOnTop), group (POSTNEWS)
+#: rc.cpp:216
+#, fuzzy
+msgid "Put the cursor below the introduction phrase"
+msgstr "ضع مؤشر أسفل"
+
+#. i18n: file: knode.kcfg:269
+#. i18n: ectx: label, entry (useExternalEditor), group (POSTNEWS)
+#: rc.cpp:219
+#, fuzzy
+msgid "Start external editor automatically"
+msgstr "ابدأ خارجي محرِّر"
+
+#. i18n: file: knode.kcfg:273
+#. i18n: ectx: label, entry (Intro), group (POSTNEWS)
+#: rc.cpp:222
+#, fuzzy
+msgid "Introduction phrase"
+msgstr "المقدمة"
+
+#. i18n: file: knode.kcfg:277
+#. i18n: ectx: label, entry (externalEditor), group (POSTNEWS)
+#: rc.cpp:225
+#, fuzzy
+msgid "Path to external editor"
+msgstr "المسار إلى خارجي محرِّر"
+
+#. i18n: file: knode.kcfg:285
+#. i18n: ectx: label, entry (useCustomColors), group (VISUAL_APPEARANCE)
+#: rc.cpp:228
+#, fuzzy
+msgid "Use custom colors"
+msgstr "إستعمل مخصص ألوان"
+
+#. i18n: file: knode.kcfg:289
+#. i18n: ectx: label, entry (backgroundColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:231
+#, fuzzy
+msgid "Background"
+msgstr "الخلفية"
+
+#. i18n: file: knode.kcfg:293
+#. i18n: ectx: label, entry (alternateBackgroundColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:234
+#, fuzzy
+msgid "Alternate Background"
+msgstr "تناوب الخلفية"
+
+#. i18n: file: knode.kcfg:297
+#. i18n: ectx: label, entry (textColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:237
+#, fuzzy
+msgid "Normal Text"
+msgstr "نص عادي"
+
+#. i18n: file: knode.kcfg:307
+#. i18n: ectx: label, entry (linkColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:240
+#, fuzzy
+msgid "Link"
+msgstr "وصلة"
+
+#. i18n: file: knode.kcfg:311
+#. i18n: ectx: label, entry (readThreadColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:243
+#, fuzzy
+msgid "Read Thread"
+msgstr "اقرأ نقاش"
+
+#. i18n: file: knode.kcfg:315
+#. i18n: ectx: label, entry (unreadThreadColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:246
+#, fuzzy
+msgid "Unread Thread"
+msgstr "نقاش غير مقروء"
+
+#. i18n: file: knode.kcfg:319
+#. i18n: ectx: label, entry (readArticleColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:249
+#, fuzzy
+msgid "Read Article"
+msgstr "اقرأ مقالة"
+
+#. i18n: file: knode.kcfg:323
+#. i18n: ectx: label, entry (unreadArticleColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:252
+#, fuzzy
+msgid "Unread Article"
+msgstr "غير مقروء مقالة"
+
+#. i18n: file: knode.kcfg:327
+#. i18n: ectx: label, entry (signOkKeyOkColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:255
+#, fuzzy
+msgid "Valid Signature with Trusted Key"
+msgstr "صالح التوقيع مع موثوقة  مفتاح"
+
+#. i18n: file: knode.kcfg:331
+#. i18n: ectx: label, entry (signOkKeyBadColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:258
+#, fuzzy
+msgid "Valid Signature with Untrusted Key"
+msgstr "صالح التوقيع مع غير موثوقة  مفتاح"
+
+#. i18n: file: knode.kcfg:335
+#. i18n: ectx: label, entry (signWarnColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:261
+#, fuzzy
+msgid "Unchecked Signature"
+msgstr "غير منتقى التوقيع"
+
+#. i18n: file: knode.kcfg:339
+#. i18n: ectx: label, entry (signErrColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:264
+#, fuzzy
+msgid "Bad Signature"
+msgstr "توقيع سيّء"
+
+#. i18n: file: knode.kcfg:343
+#. i18n: ectx: label, entry (htmlWarningColor), group (VISUAL_APPEARANCE)
+#: rc.cpp:267
+#, fuzzy
+msgid "HTML Message Warning"
+msgstr "HTML رسالة تحذير"
+
+#. i18n: file: knode.kcfg:348
+#. i18n: ectx: label, entry (useCustomFonts), group (VISUAL_APPEARANCE)
+#: rc.cpp:270
+#, fuzzy
+msgid "Use custom fonts"
+msgstr "إستعمال خطوط مخصّصة"
+
+#. i18n: file: knode.kcfg:352
+#. i18n: ectx: label, entry (articleFont), group (VISUAL_APPEARANCE)
+#: rc.cpp:273
+#, fuzzy
+msgid "Article Body"
+msgstr "مقالة المتن"
+
+#. i18n: file: knode.kcfg:355
+#. i18n: ectx: label, entry (articleFixedFont), group (VISUAL_APPEARANCE)
+#: rc.cpp:276
+#, fuzzy
+msgid "Article Body (Fixed)"
+msgstr "مقالة المتن ثابت"
+
+#. i18n: file: knode.kcfg:363
+#. i18n: ectx: label, entry (groupListFont), group (VISUAL_APPEARANCE)
+#: rc.cpp:282
+#, fuzzy
+msgid "Group List"
+msgstr "المجموعة قائمة"
+
+#. i18n: file: knode.kcfg:366
+#. i18n: ectx: label, entry (articleListFont), group (VISUAL_APPEARANCE)
+#. i18n: file: readnewsgeneralwidget_base.ui:105
+#. i18n: ectx: property (title), widget (QGroupBox, articleListBox)
+#: rc.cpp:285 rc.cpp:486
+#, fuzzy
+msgid "Article List"
+msgstr "قائمة المقال"
+
+#. i18n: file: knodeui.rc:24
+#. i18n: ectx: Menu (view)
+#. i18n: file: knreaderui.rc:16
+#. i18n: ectx: Menu (view)
+#: rc.cpp:294 rc.cpp:327
+#, fuzzy
+msgid "&View"
+msgstr "ا&عرض"
+
+#. i18n: file: knodeui.rc:45
+#. i18n: ectx: Menu (go)
+#: rc.cpp:297
+#, fuzzy
+msgid "&Go"
+msgstr "ا&ذهب"
+
+#. i18n: file: knodeui.rc:55
+#. i18n: ectx: Menu (account)
+#: rc.cpp:300
+#, fuzzy
+msgid "A&ccount"
+msgstr "الحساب"
+
+#. i18n: file: knodeui.rc:64
+#. i18n: ectx: Menu (group)
+#: rc.cpp:303
+#, fuzzy
+msgid "G&roup"
+msgstr "المجموعة"
+
+#. i18n: file: knodeui.rc:77
+#. i18n: ectx: Menu (folder)
+#: rc.cpp:306
+#, fuzzy
+msgid "Fol&der"
+msgstr "مجلّد"
+
+#. i18n: file: knodeui.rc:91
+#. i18n: ectx: Menu (article)
+#. i18n: file: knreaderui.rc:28
+#. i18n: ectx: Menu (article)
+#: rc.cpp:309 rc.cpp:330
+#, fuzzy
+msgid "&Article"
+msgstr "&مقالة"
+
+#. i18n: file: knodeui.rc:111
+#. i18n: ectx: Menu (scoring)
+#: rc.cpp:312
+#, fuzzy
+msgid "Sc&oring"
+msgstr "الإحراز"
+
+#. i18n: file: knodeui.rc:121
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:315
+#, fuzzy
+msgid "&Settings"
+msgstr "إ&عدادات"
+
+#. i18n: file: nntpaccountdialog_base.ui:39
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, mInterval)
+#: rc.cpp:336
+#, fuzzy
+msgid "min"
+msgstr "دقيقة"
+
+#. i18n: file: nntpaccountdialog_base.ui:55
+#. i18n: ectx: property (text), widget (QCheckBox, mIntervalChecking)
+#: rc.cpp:339
+#, fuzzy
+msgid "Enable &interval news checking"
+msgstr "مكّن أخبار فحص"
+
+#. i18n: file: nntpaccountdialog_base.ui:65
+#. i18n: ectx: property (text), widget (QLabel, mIntervalLabel)
+#: rc.cpp:342
+#, fuzzy
+msgid "Check inter&val:"
+msgstr "&فترة الفحص:"
+
+#. i18n: file: nntpaccountdialog_base.ui:88
+#. i18n: ectx: property (text), widget (QCheckBox, mFetchDesc)
+#: rc.cpp:345
+#, fuzzy
+msgid "Fetch group descriptions"
+msgstr "تمكينإجلب المجموعة"
+
+#. i18n: file: nntpaccountdialog_base.ui:95
+#. i18n: ectx: property (text), widget (QCheckBox, mLogin)
+#: rc.cpp:348
+#, fuzzy
+msgid "Server requires &authentication"
+msgstr "الخادم توثق"
+
+#. i18n: file: nntpaccountdialog_base.ui:128
+#. i18n: ectx: property (text), widget (QLabel, mPasswordLabel)
+#: rc.cpp:351
+#, fuzzy
+msgid "Pass&word:"
+msgstr "كلمة المر&ور:"
+
+#. i18n: file: nntpaccountdialog_base.ui:141
+#. i18n: ectx: property (text), widget (QLabel, mUserLabel)
+#: rc.cpp:354
+#, fuzzy
+msgid "&User:"
+msgstr "ال&مستخدم:"
+
+#. i18n: file: nntpaccountdialog_base.ui:151
+#. i18n: ectx: property (title), widget (QGroupBox, mEncGroup)
+#: rc.cpp:357
+#, fuzzy
+msgid "Encryption"
+msgstr "التشفير"
+
+#. i18n: file: nntpaccountdialog_base.ui:163
+#. i18n: ectx: property (text), widget (QRadioButton, mEncNone)
+#: rc.cpp:360
+#, fuzzy
+msgid "None"
+msgstr "لا شيء"
+
+#. i18n: file: nntpaccountdialog_base.ui:173
+#. i18n: ectx: property (text), widget (QRadioButton, mEncSSL)
+#: rc.cpp:363
+#, fuzzy
+msgid "SSL"
+msgstr "SSL"
+
+#. i18n: file: nntpaccountdialog_base.ui:183
+#. i18n: ectx: property (text), widget (QRadioButton, mEncTLS)
+#: rc.cpp:366
+#, fuzzy
+msgid "TLS"
+msgstr "TLS"
+
+#. i18n: file: nntpaccountdialog_base.ui:206
+#. i18n: ectx: property (text), widget (QLabel, mServerLabel)
+#: rc.cpp:372
+#, fuzzy
+msgid "&Server:"
+msgstr "&خادم:"
+
+#. i18n: file: nntpaccountdialog_base.ui:216
+#. i18n: ectx: property (text), widget (QLabel, mPortLabel)
+#: rc.cpp:375
+#, fuzzy
+msgid "&Port:"
+msgstr "ال&منفذ:"
+
+#. i18n: file: nntpaccountlistwidget_base.ui:62
+#. i18n: ectx: property (text), widget (QPushButton, mEditButton)
+#. i18n: file: postnewstechnicalwidget_base.ui:120
+#. i18n: ectx: property (text), widget (QPushButton, mEditButton)
+#: rc.cpp:381 rc.cpp:455
+#, fuzzy
+msgid "&Edit..."
+msgstr "&حرر..."
+
+#. i18n: file: nntpaccountlistwidget_base.ui:76
+#. i18n: ectx: property (text), widget (QPushButton, mSubscribeButton)
+#: rc.cpp:387
+#, fuzzy
+msgid "&Subscribe..."
+msgstr "إشترِك."
+
+#. i18n: file: postnewscomposerwidget_base.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_wordWrap)
+#: rc.cpp:393
+#, fuzzy
+msgid "Word &wrap at column:"
+msgstr "&بدّل الكلمة في العمود:"
+
+#. i18n: file: postnewscomposerwidget_base.ui:42
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_appendOwnSignature)
+#: rc.cpp:396
+#, fuzzy
+msgid "Appe&nd signature automatically"
+msgstr "إلحاقالحاقأضف إمضاء"
+
+#. i18n: file: postnewscomposerwidget_base.ui:55
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:399
+#, fuzzy
+msgid "Reply"
+msgstr "رد"
+
+#. i18n: file: postnewscomposerwidget_base.ui:72
+#. i18n: ectx: property (text), widget (QLabel, label1)
+#: rc.cpp:402
+#, fuzzy
+msgid "&Introduction phrase:"
+msgstr "المقدمة:"
+
+#. i18n: file: postnewscomposerwidget_base.ui:87
+#. i18n: ectx: property (text), widget (QLabel, label2)
+#: rc.cpp:406
+#, fuzzy, no-c-format
+msgid ""
+"<qt>Placeholders: <b>%NAME</b>=sender's name, <b>%EMAIL</b>=sender's address,"
+"<br><b>%DATE</b>=date, <b>%MSID</b>=message-id, <b>%MSIDX</b>=message-id "
+"without angle brackets, <b>%GROUP</b>=group name, <b>%L</b>=line break</qt>"
+msgstr ""
+"<qt> عناصر نائبة<b> الإسم</b> المُرسِل s الإسم<b> EMAIL</b> المُرسِل s "
+"عنوان<br><b> DATE</b> التاريخ<b></b> رسالة هوية<b></b> رسالة هوية زاوية<b></"
+"b> المجموعة الإسم<b> L</b> سطر توقّف</qt>"
+
+#. i18n: file: postnewscomposerwidget_base.ui:102
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_rewrap)
+#: rc.cpp:409
+#, fuzzy
+msgid "Rewrap quoted te&xt automatically"
+msgstr "أعِد اللف نص"
+
+#. i18n: file: postnewscomposerwidget_base.ui:109
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_includeSignature)
+#: rc.cpp:412
+#, fuzzy
+msgid "Include the a&uthor's signature"
+msgstr "تضمين المؤلف s إمضاء"
+
+#. i18n: file: postnewscomposerwidget_base.ui:116
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_cursorOnTop)
+#: rc.cpp:415
+#, fuzzy
+msgid "Put the cursor &below the introduction phrase"
+msgstr "ضع مؤشر أسفل"
+
+#. i18n: file: postnewscomposerwidget_base.ui:128
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: rc.cpp:418
+#, fuzzy
+msgid "External Editor"
+msgstr "محرر خارجي"
+
+#. i18n: file: postnewscomposerwidget_base.ui:140
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useExternalEditor)
+#: rc.cpp:421
+#, fuzzy
+msgid "Start exte&rnal editor automatically"
+msgstr "ابدأ خارجي محرِّر"
+
+#. i18n: file: postnewscomposerwidget_base.ui:147
+#. i18n: ectx: property (text), widget (QLabel, label4)
+#: rc.cpp:425
+#, fuzzy, no-c-format
+msgid "<qt><b>%f</b> will be replaced with the filename to edit</qt>"
+msgstr "<qt><b> f</b> مع اسم الملف إلى حرّر</qt>"
+
+#. i18n: file: postnewscomposerwidget_base.ui:161
+#. i18n: ectx: property (text), widget (QLabel, label3)
+#: rc.cpp:428
+#, fuzzy
+msgid "Specify editor:"
+msgstr "حدّد محرِّر:"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_generateMessageID)
+#: rc.cpp:434
+#, fuzzy
+msgid "&Generate message-id"
+msgstr "أنشئ رسالة هوية"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:52
+#. i18n: ectx: property (text), widget (QLabel, mHostLabel)
+#: rc.cpp:437
+#, fuzzy
+msgid "Ho&st name:"
+msgstr "مضيف الإسم:"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:62
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:440
+#, fuzzy
+msgid "Enco&ding:"
+msgstr "الترميز:"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:75
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseOwnCharset)
+#: rc.cpp:443
+#, fuzzy
+msgid "Use o&wn default charset when replying"
+msgstr "إستعمل افتراضي طقم محارف"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:85
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:446
+#, fuzzy
+msgid "Cha&rset:"
+msgstr "محارف:"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:98
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:449
+#, fuzzy
+msgid "Header"
+msgstr "ترويسة"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:113
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_noUserAgent)
+#: rc.cpp:452
+#, fuzzy
+msgid "Do not add the \"&User-Agent\" identification header"
+msgstr "تنفيذ ليس اضف المستخدم الوكيل تعريف عنوان رأسي"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:127
+#. i18n: ectx: property (text), widget (QPushButton, mDeleteButton)
+#: rc.cpp:458
+#, fuzzy
+msgid "Dele&te"
+msgstr "أمح&ي"
+
+#. i18n: file: postnewstechnicalwidget_base.ui:141
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:465
+#, fuzzy, no-c-format
+msgid ""
+"<qt>Placeholders for replies: <b>%NAME</b>=sender's name, <b>%EMAIL</"
+"b>=sender's address</qt>"
+msgstr ""
+"<qt> عناصر نائبة لـ<b> الإسم</b> المُرسِل s الإسم<b> EMAIL</b> المُرسِل s عنوان</"
+"qt>"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, articleHandlingBox)
+#: rc.cpp:468
+#, fuzzy
+msgid "Article Handling"
+msgstr "مقالة المعالجة"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:44
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoCheckGroups)
+#: rc.cpp:471
+#, fuzzy
+msgid "Check for new articles a&utomatically"
+msgstr "كِش لـ جديد"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:53
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:474
+#, fuzzy
+msgid "&Maximum number of articles to fetch:"
+msgstr "الأقصى رقم من إلى جلب:"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:73
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoMark)
+#: rc.cpp:477
+#, fuzzy
+msgid "Mar&k article as read after:"
+msgstr "علامة مقالة قراءة بعد:"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:83
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_autoMarkSeconds)
+#: rc.cpp:480
+#, fuzzy
+msgid "sec"
+msgstr "ثانية"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:95
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_markCrossposts)
+#: rc.cpp:483
+#, fuzzy
+msgid "Mark c&rossposted articles as read"
+msgstr "علامة قراءة"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:117
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_defaultToExpandedThreads)
+#: rc.cpp:489
+#, fuzzy
+msgid "Default to e&xpanded threads"
+msgstr "افتراضي إلى ممدد"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:124
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_smartScrolling)
+#: rc.cpp:492
+#, fuzzy
+msgid "Smart scrolli&ng"
+msgstr "ذكي"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:131
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_totalExpandThreads)
+#: rc.cpp:495
+#, fuzzy
+msgid "Show &whole thread on expanding"
+msgstr "اعرض عملية جزئية يعمل"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:138
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showScore)
+#: rc.cpp:498
+#, fuzzy
+msgid "Show article &score"
+msgstr "اعرض مقالة"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:145
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showLines)
+#: rc.cpp:501
+#, fuzzy
+msgid "Show &line count"
+msgstr "اعرض سطر العدد"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:152
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showUnread)
+#: rc.cpp:504
+#, fuzzy
+msgid "Show unread count in &thread"
+msgstr "اعرض  غير مقروء العدد بوصة عملية جزئية"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:162
+#. i18n: ectx: property (title), widget (QGroupBox, dateFormatBox)
+#: rc.cpp:507
+#, fuzzy
+msgid "Date Display"
+msgstr "عرض التاريخ"
+
+#. i18n: file: readnewsgeneralwidget_base.ui:196
+#. i18n: ectx: property (text), widget (QRadioButton, mCustomDateFormat)
+#: rc.cpp:519
+#, fuzzy
+msgid "Custom format (Shift+F1 for help):"
+msgstr "مخصص تنسيق Shift F1 لـ مساعدة:"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, markAllReadBox)
+#: rc.cpp:522
+#, fuzzy
+msgid "\"Mark All as Read\" Triggers Following Actions"
+msgstr "علامة الكل اقرأ أدوات اطلاق المتابعة إجراءات"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_markAllReadGoNext)
+#: rc.cpp:525
+#, fuzzy
+msgid "&Switch to the next group"
+msgstr "تحوّل إلى التالي المجموعة"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:45
+#. i18n: ectx: property (title), widget (QGroupBox, markThreadReadBox)
+#: rc.cpp:528
+#, fuzzy
+msgid "\"Mark Thread as Read\" Triggers Following Actions"
+msgstr "علامة نقاش اقرأ أدوات اطلاق المتابعة إجراءات"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:57
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_markThreadReadCloseThread)
+#: rc.cpp:531
+#, fuzzy
+msgid "Clos&e the current thread"
+msgstr "إغلاق الحالي عملية جزئية"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:64
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_markThreadReadGoNext)
+#: rc.cpp:534
+#, fuzzy
+msgid "Go &to the next unread thread"
+msgstr "إذهب إلى التالي  غير مقروء عملية جزئية"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:74
+#. i18n: ectx: property (title), widget (QGroupBox, ignoreThreadBox)
+#: rc.cpp:537
+#, fuzzy
+msgid "\"Ignore Thread\" Triggers Following Actions"
+msgstr "تجاهل نقاش أدوات اطلاق المتابعة إجراءات"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:86
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ignoreThreadCloseThread)
+#: rc.cpp:540
+#, fuzzy
+msgid "Close the cu&rrent thread"
+msgstr "إغلاق الحالي عملية جزئية"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:93
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ignoreThreadGoNext)
+#: rc.cpp:543
+#, fuzzy
+msgid "Go to the next &unread thread"
+msgstr "إذهب إلى التالي  غير مقروء عملية جزئية"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:103
+#. i18n: ectx: property (title), widget (QGroupBox, leaveGroupBox)
+#: rc.cpp:546
+#, fuzzy
+msgid "Leaving Group Triggers Following Actions"
+msgstr "يغادر a المجموعة أدوات اطلاق المتابعة إجراءات"
+
+#. i18n: file: readnewsnavigationwidget_base.ui:115
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_leaveGroupMarkAsRead)
+#: rc.cpp:549
+#, fuzzy
+msgid "Mark all articles as read"
+msgstr "علامة الكل قراءة"
+
+#. i18n: file: readnewsviewerwidget_base.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, appearanceBox)
+#: rc.cpp:552
+#, fuzzy
+msgid "Appearance"
+msgstr "المظهر"
+
+#. i18n: file: readnewsviewerwidget_base.ui:38
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:555
+#, fuzzy
+msgid "Recognized q&uote characters:"
+msgstr "معترف به اقتباس محارف:"
+
+#. i18n: file: readnewsviewerwidget_base.ui:48
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_removeTrailingNewlines)
+#: rc.cpp:558
+#, fuzzy
+msgid "Re&move trailing empty lines"
+msgstr "احذف فارغ سطور"
+
+#. i18n: file: readnewsviewerwidget_base.ui:62
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showSignature)
+#: rc.cpp:564
+#, fuzzy
+msgid "Show sig&nature"
+msgstr "اعرض إمضاء"
+
+#. i18n: file: readnewsviewerwidget_base.ui:69
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_rewrapBody)
+#: rc.cpp:567
+#, fuzzy
+msgid "Re&wrap text when necessary"
+msgstr "أعِد اللف نص"
+
+#. i18n: file: readnewsviewerwidget_base.ui:79
+#. i18n: ectx: property (title), widget (QGroupBox, attachmentBox)
+#: rc.cpp:570
+#, fuzzy
+msgid "Attachments"
+msgstr "مرفقات"
+
+#. i18n: file: readnewsviewerwidget_base.ui:91
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_openAttachmentsOnClick)
+#: rc.cpp:573
+#, fuzzy
+msgid "Open a&ttachments on click"
+msgstr "افتح يعمل انقر"
+
+#. i18n: file: readnewsviewerwidget_base.ui:98
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showAlternativeContents)
+#: rc.cpp:576
+#, fuzzy
+msgid "Show alternati&ve contents as attachments"
+msgstr "اعرض بديل"
+
+#. i18n: file: readnewsviewerwidget_base.ui:108
+#. i18n: ectx: property (title), widget (QGroupBox, securityBox)
+#: rc.cpp:579
+#, fuzzy
+msgid "Security"
+msgstr "الأمن"
+
+#: rc.cpp:586
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:587
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"
+
+#: scheduler.cpp:50
+#, fuzzy
+msgid "Internal Error: No account set for this job."
+msgstr "داخلي خطأ لا الحساب set لـ شغل."
+
+#: scheduler.cpp:64
+#, fuzzy
+msgid "Waiting for KWallet..."
+msgstr "منتظر لـ المحفظة KWallet."
+
+#: scheduler.cpp:177
+#, fuzzy
+msgid ""
+"You need to supply a username and a\n"
+"password to access this server"
+msgstr "أنت إلى a اسم المستخدم و a إلى وصول خادم"
+
+#: scheduler.cpp:178
+#, fuzzy
+msgid "Authentication Failed"
+msgstr "فشل التّوثيق"
+
+#: scheduler.cpp:178
+#, fuzzy
+msgid "Server:"
+msgstr "الخادم:"
+
+#: settings.cpp:27
+#, fuzzy
+msgid "Quoted Text - First level"
+msgstr "مقتبس نص الأول مستوى"
+
+#: settings.cpp:28
+#, fuzzy
+msgid "Quoted Text - Second level"
+msgstr "مقتبس نص الثّانية مستوى"
+
+#: settings.cpp:29
+#, fuzzy
+msgid "Quoted Text - Third level"
+msgstr "مقتبس نص الثّالثالثلث مستوى"
+
+#: utilities.cpp:70
+#, fuzzy, kde-format
+msgid ""
+"<qt>A file named <b>%1</b> already exists.<br />Do you want to replace it?</"
+"qt>"
+msgstr "<qt> A ملفّ مسمى<b></b> موجود<br /> تنفيذ إلى إستبدال الإيطالية</qt>"
+
+#: utilities.cpp:71
+#, fuzzy
+msgid "&Replace"
+msgstr "ا&ستبدل"
+
+#: utilities.cpp:345
+#, fuzzy
+msgid ""
+"Unable to load/save configuration.\n"
+"Wrong permissions on home folder?\n"
+"You should close KNode now to avoid data loss."
+msgstr ""
+"عاجز إلى التحميل حفظ تشكيل الصلاحيات يعمل home مجلد اغلق قارئ الأخبار الآن "
+"إلى البيانات."
+
+#: utilities.cpp:351
+#, fuzzy
+msgid "Unable to load/save file."
+msgstr "عاجز إلى التحميل حفظ ملفّ."
+
+#: utilities.cpp:357
+#, fuzzy
+msgid "Unable to save remote file."
+msgstr "عاجز إلى حفظ بعيد ملفّ."
+
+#: utilities.cpp:363
+#, fuzzy
+msgid "Unable to create temporary file."
+msgstr "عاجز إلى إ_نشيء مؤقت ملفّ."
+
+#: knode_options.h:25
+#, fuzzy
+msgid "A 'news://server/group' URL"
+msgstr "A أخبار خادم المجموعة URL"
+
+#, fuzzy
+#~ msgid "Unread Column"
+#~ msgstr "عمود غير مقروء"
+
+#, fuzzy
+#~ msgid "Total Column"
+#~ msgstr "مجموع العمود"
+
+#, fuzzy
+#~ msgid ""
+#~ "The group list could not be retrieved.\n"
+#~ "The following error occurred:\n"
+#~ msgstr "الـ المجموعة قائمة ليس متابعة خطأ n"
+
+#, fuzzy
+#~ msgid ""
+#~ "The group descriptions could not be retrieved.\n"
+#~ "The following error occurred:\n"
+#~ msgstr "الـ المجموعة ليس متابعة خطأ n"
+
+#, fuzzy
+#~ msgid ""
+#~ "New groups could not be retrieved.\n"
+#~ "The following error occurred:\n"
+#~ msgstr "جديد ليس متابعة خطأ n"
+
+#, fuzzy
+#~ msgid ""
+#~ "No new articles could be retrieved for\n"
+#~ "%1/%2.\n"
+#~ "The following error occurred:\n"
+#~ msgstr "لا جديد لـ n متابعة خطأ n"
+
+#, fuzzy
+#~ msgid ""
+#~ "No new articles could be retrieved.\n"
+#~ "The server sent a malformatted response:\n"
+#~ msgstr "لا جديد خادم a إجابة n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Article could not be retrieved.\n"
+#~ "The following error occurred:\n"
+#~ msgstr "مقالة ليس متابعة خطأ n"
+
+#, fuzzy
+#~ msgid ""
+#~ "<br /><br />The article you requested is not available on your news "
+#~ "server.<br />You could try to get it from <a href=\"http://groups.google."
+#~ "com/groups?selm=%1\">groups.google.com</a>."
+#~ msgstr ""
+#~ "<br /><br /> الـ مقالة هو ليس متوفّر يعمل أخبار خادم<br /> أنت إلى get "
+#~ "الإيطالية من<a href=\"http://groups.google.com/groups?selm=%1\"></a>."
+
+#, fuzzy
+#~ msgid ""
+#~ "Unable to connect.\n"
+#~ "The following error occurred:\n"
+#~ msgstr "عاجز إلى اتصال متابعة خطأ n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Authentication failed.\n"
+#~ "Check your username and password."
+#~ msgstr "التّوثيق failed اسم المستخدم و كلمة مرور."
+
+#, fuzzy
+#~ msgid ""
+#~ "Authentication failed.\n"
+#~ "Check your username and password.\n"
+#~ "\n"
+#~ "%1"
+#~ msgstr "التّوثيق failed اسم المستخدم و كلمة مرور n n 1"
+
+#, fuzzy
+#~ msgid ""
+#~ "An error occurred:\n"
+#~ "%1"
+#~ msgstr "أداة تعريف خطأ n 1"
+
+#, fuzzy
+#~ msgid "Unable to resolve hostname"
+#~ msgstr "عاجز إلى حلّ ،فرَّق ،حلَّل اسم مضيف"
+
+#, fuzzy
+#~ msgid ""
+#~ "Unable to connect:\n"
+#~ "%1"
+#~ msgstr "عاجز إلى اتصال n 1"
+
+#, fuzzy
+#~ msgid ""
+#~ "A delay occurred which exceeded the\n"
+#~ "current timeout limit."
+#~ msgstr "A مهلة، تأخر."
+
+#, fuzzy
+#~ msgid "Message size exceeded the size of the internal buffer."
+#~ msgstr "رسالة حجم حجم من داخلي مَخزن."
+
+#, fuzzy
+#~ msgid "The connection is broken."
+#~ msgstr "الاتصال مقطوع."
+
+#, fuzzy
+#~ msgid "Communication error:\n"
+#~ msgstr "التواصل خطأ n"
+
+#, fuzzy
+#~ msgid "Communication error"
+#~ msgstr "خطأ مواصلاني"
+
+#, fuzzy
+#~ msgid "Suggestions"
+#~ msgstr "إقتراحات"

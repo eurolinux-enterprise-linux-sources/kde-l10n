@@ -1,0 +1,141 @@
+# translation of plasma_applet_pager.po to Arabic
+# translation of plasma_applet_pager.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# majed <gmajedli@gmail.com>, 2008.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_pager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-07-29 01:24+0200\n"
+"PO-Revision-Date: 2009-07-02 13:13+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: pager.cpp:206
+msgid "&Configure Desktops..."
+msgstr "ا&ضبط أسطح المكتب..."
+
+#: pager.cpp:226
+msgid "General"
+msgstr "عام"
+
+#: pager.cpp:247
+msgid "Number of columns:"
+msgstr "عدد الأعمدة:"
+
+#: pager.cpp:1283
+#, kde-format
+msgid "One window:"
+msgid_plural "%1 windows:"
+msgstr[0] "لا يوجد نوافذ"
+msgstr[1] "نافذة واحدة"
+msgstr[2] "نافذتان"
+msgstr[3] "%1 نوافذ"
+msgstr[4] "%1 نافذة"
+msgstr[5] "%1 نافذة"
+
+#: pager.cpp:1287
+#, kde-format
+msgid "and 1 other"
+msgid_plural "and %1 others"
+msgstr[0] "فقط"
+msgstr[1] "واحدة أخرى"
+msgstr[2] "ونافذتين أخريتين"
+msgstr[3] "و %1 نوافذ"
+msgstr[4] "و %1 نافذة"
+msgstr[5] "و %1 نافذة"
+
+#. i18n: file: pagerConfig.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, pagerConfig)
+#: rc.cpp:3 rc.cpp:51
+msgid "Configure Pager"
+msgstr "اضبط المنادي"
+
+#. i18n: file: pagerConfig.ui:41
+#. i18n: ectx: property (text), widget (QLabel, displayLabel)
+#: rc.cpp:6 rc.cpp:54
+msgid "Display text:"
+msgstr "اعرض النص:"
+
+#. i18n: file: pagerConfig.ui:51
+#. i18n: ectx: property (text), widget (QRadioButton, desktopNumberRadioButton)
+#: rc.cpp:9 rc.cpp:57
+msgid "Desktop number"
+msgstr "رقم سطح المكتب"
+
+#. i18n: file: pagerConfig.ui:61
+#. i18n: ectx: property (text), widget (QRadioButton, desktopNameRadioButton)
+#: rc.cpp:13 rc.cpp:61
+msgid "Desktop name"
+msgstr "اسم سطح المكتب"
+
+#. i18n: file: pagerConfig.ui:71
+#. i18n: ectx: property (text), widget (QRadioButton, displayNoneRadioButton)
+#: rc.cpp:17 rc.cpp:65
+msgid "No text"
+msgstr "بدون نص"
+
+#. i18n: file: pagerConfig.ui:81
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:21 rc.cpp:69
+msgid "Display icons:"
+msgstr "اعرض الأيقونات:"
+
+#. i18n: file: pagerConfig.ui:101
+#. i18n: ectx: property (text), widget (QLabel, labelRows)
+#: rc.cpp:24 rc.cpp:72
+msgid "Number of rows:"
+msgstr "عدد الصفوف:"
+
+#. i18n: file: pagerConfig.ui:114
+#. i18n: ectx: property (toolTip), widget (QSpinBox, spinRows)
+#. i18n: file: pagerConfig.ui:117
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, spinRows)
+#. i18n: file: pagerConfig.ui:114
+#. i18n: ectx: property (toolTip), widget (QSpinBox, spinRows)
+#. i18n: file: pagerConfig.ui:117
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, spinRows)
+#: rc.cpp:27 rc.cpp:30 rc.cpp:75 rc.cpp:78
+msgid "Change the number of rows"
+msgstr "غيّر عدد الصفوف"
+
+#. i18n: file: pagerConfig.ui:143
+#. i18n: ectx: property (text), widget (QLabel, currentLabel)
+#: rc.cpp:33 rc.cpp:81
+msgid "Selecting current desktop:"
+msgstr "تختار سطح المكتب الحالي:"
+
+#. i18n: file: pagerConfig.ui:156
+#. i18n: ectx: property (text), widget (QRadioButton, doNothingRadioButton)
+#: rc.cpp:36 rc.cpp:84
+msgid "Does nothing"
+msgstr "لا يفعل شيء"
+
+#. i18n: file: pagerConfig.ui:166
+#. i18n: ectx: property (text), widget (QRadioButton, showDesktopRadioButton)
+#: rc.cpp:40 rc.cpp:88
+msgid "Shows desktop"
+msgstr "يظهر سطح المكتب"
+
+#. i18n: file: pagerConfig.ui:176
+#. i18n: ectx: property (text), widget (QRadioButton, showDashboardRadioButton)
+#: rc.cpp:44 rc.cpp:92
+msgid "Shows the dashboard"
+msgstr "تظهر لوحة الودجات"
+
+#. i18n: file: pagerConfig.ui:220
+#. i18n: ectx: property (text), widget (QPushButton, configureDesktopsButton)
+#: rc.cpp:48 rc.cpp:96
+msgid "Configure Desktops..."
+msgstr "اضبط أسطح المكتب..."

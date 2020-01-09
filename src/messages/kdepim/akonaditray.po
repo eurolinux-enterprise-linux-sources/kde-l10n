@@ -1,0 +1,227 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Seif Abaza <abazuos@gmail.com>, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: akonaditray\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-06-01 11:35+0200\n"
+"PO-Revision-Date: 2009-07-28 18:27+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: backupassistant.cpp:42
+msgid ""
+"The backup can not be made. Either the mysqldump application is not "
+"installed, or the bzip2 application is not found. Please install those and "
+"make sure they can be found in the current path. Restart this Assistant when "
+"this is fixed."
+msgstr ""
+"لا يُمكن إنشاء نسخه إحتياطية ، إما أن برنامج mysqldump غير مثبت ، أو برنامج "
+"bzip2 غير موجود ، من فضلك قم بتثبيت هذه البرامج ، وتأكد من وجودهم في المسار "
+"الحالي ، وقم بإعادت تشغيل المساعد عندما تصلح هذه المشكلة."
+
+#: backupassistant.cpp:47
+msgid ""
+"Please select the file where to store the backup, give it the extension .tar."
+"bz2"
+msgstr ""
+"من فضلك قم بتحديد مكان تخزين النسخة الإحتياطية ، و أعطها امتداد .tar.bz2"
+
+#: backupassistant.cpp:50
+msgid "&Click Here to Select the Backup Location..."
+msgstr "ا&ضغط هنا لتحديد مكان النسخة الإحتياطية..."
+
+#: backupassistant.cpp:53
+msgid "Press 'Next' to start the Backup"
+msgstr "اضغط على 'التالي' للبدء في النسخ الإحتياطي"
+
+#: backupassistant.cpp:57
+msgid "Welcome to the Backup Assistant"
+msgstr "مرحباً بك في مُساعد النسخ الإحتياطي"
+
+#: backupassistant.cpp:62
+msgid "Making the backup"
+msgstr "إنشاء نسخة إحتياطية"
+
+#: backupassistant.cpp:83
+msgid "Save As"
+msgstr "احفظ باسم"
+
+#: backupassistant.cpp:99
+msgid "Please be patient, the backup is being created..."
+msgstr "الرجاء الإنتظار ، جاري إنشاء النسخة الإحتياطية..."
+
+#: backupassistant.cpp:106
+msgid ""
+"The backup has been made. Please verify manually if the backup is complete. "
+"Also note that KWallet stored passwords are not in the backup, you might "
+"want to verify you have a backup of those elsewhere."
+msgstr ""
+"تم إنشاء النسخة الإحتياطية ، الرجاء التأكد من سلامة النسخة الإحتياطية بشكل "
+"يدوي. لاحظ أيضا أن KWallet لا تحتفظ بكلمة السر في النسخة الإحتياطية ؛ لذا قد "
+"تكون بحاجة لتأكد أيضاً أنه يوجد لديك نسخة إحتياطية منها في أي مكان أخر. "
+
+#: backupassistant.cpp:112
+msgid ""
+"The backup process ended unexpectedly. Please report a bug, so we can find "
+"out what the cause is."
+msgstr ""
+"عملية النسخ الإحتياطي تمت بصوره غير إعتيادية ، الرجاء الإبلاغ عن الخطأ ، حتى "
+"نتمكن من تصحيحه."
+
+#: dock.cpp:70
+msgid "Akonadi"
+msgstr "اكوندا"
+
+#: dock.cpp:76
+msgid "&Stop Akonadi"
+msgstr "أ&وقف اكوندا"
+
+#: dock.cpp:77
+msgid "S&tart Akonadi"
+msgstr "ا&بدأ اكوندا"
+
+#: dock.cpp:78
+msgid "Make &Backup..."
+msgstr "أنشئ &نسخه إحتياطية...."
+
+#: dock.cpp:79
+msgid "&Restore Backup..."
+msgstr "ا&سترجع نسخة إحتياطية..."
+
+#: dock.cpp:80
+msgid "&Configure..."
+msgstr "ا&ضبط..."
+
+#: dock.cpp:105 dock.cpp:157
+msgid "Akonadi available"
+msgstr "اكوندا متاح"
+
+#: dock.cpp:106 dock.cpp:158
+msgid "The Akonadi server has been started and can be used now."
+msgstr "خادم اكوندا يعمل الآن و بإمكانك إستخدامه."
+
+#: dock.cpp:114 dock.cpp:160
+msgid "Akonadi not available"
+msgstr "اكوندا غير متاح "
+
+#: dock.cpp:115 dock.cpp:161
+msgid ""
+"The Akonadi server has been stopped, Akonadi related applications can no "
+"longer be used."
+msgstr ""
+"توقف عمل الخادم اكوندا ، ولم يعد بالإمكان إستخدام التطبيقات التي تعتمد عليه."
+
+#: dock.cpp:167
+msgid "Akonadi is running"
+msgstr "اكوندا يعمل"
+
+#: dock.cpp:167
+msgid "Akonadi is not running"
+msgstr "اكوندا لا يعمل"
+
+#: dock.cpp:183
+msgid "Akonadi message"
+msgstr "رسالة اكوندا"
+
+#: dock.cpp:195
+msgid "Akonadi error"
+msgstr "خطأ اكوندا"
+
+#: main.cpp:53
+msgid "AkonadiTray"
+msgstr "AkonadiTray"
+
+#: main.cpp:55
+msgid "System tray application to control basic Akonadi functions"
+msgstr "تطبيق صينية النظام لتحكم بوظائف اكوندا الأساسية"
+
+#: main.cpp:57
+msgid "(c) 2008 Omat Holding B.V."
+msgstr "(c) 2008 Omat Holding B.V."
+
+#: main.cpp:59
+msgid "Tom Albers"
+msgstr "Tom Albers"
+
+#: main.cpp:59
+msgid "Maintainer and Author"
+msgstr "المشرف و المؤلف"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Seif Abaza,زايد السعيدي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "abazuos@gmail.com,zayed.alsaidi@gmail.com"
+
+#: restoreassistant.cpp:41
+msgid ""
+"The backup can not be restored. Either the mysql application is not "
+"installed, or the bzip2 application is not found. Please install those and "
+"make sure they can be found in the current path. Restart this Assistant when "
+"this is fixed."
+msgstr ""
+"لا يُمكن إسترجاع النسخة الإحتياطية ، وهذا يعود إما لعدم تثبيت mysql ، أو هناك "
+"فشل في العثور على تطبيق bzip2 ، من فضلك قم بتثبيت هذه البرامج ، و تأكد من "
+"أنهم في المسار الحالي ، و قم  بإعادة العملية بعد إصلاح هذه الأخطاء"
+
+#: restoreassistant.cpp:46
+msgid ""
+"Please select the file to restore. Note that restoring a backup will "
+"overwrite all existing data. You might want to make a backup first and "
+"please consider closing all Akonadi applications (but do not stop the "
+"akonadi server)."
+msgstr ""
+"من فضلك حدد الملف الذي ترغب في إسترجاعه ، مع ملاحظة أن عملية الاسترجاع "
+"للنسخة الإحتياطية ستقوم بالكتابة على البيانات الموجودة حالياً . لذالك من "
+"الأفضل  عمل نسخة  إحتياطية على البيانات الموجودة الآن و مراعاة إغلاق كل "
+"برامج اكوندا ، (لكن دون غلق خادم اكوندا)."
+
+#: restoreassistant.cpp:51
+msgid "&Click Here to Select the File to Restore..."
+msgstr "ا&ضغط هنا لتحديد مكان النسخة المراد إسترجاعها..."
+
+#: restoreassistant.cpp:54
+msgid "Press 'Next' to start the Restore"
+msgstr "اضغط 'التالي' لبدء عملية الاسترجاع"
+
+#: restoreassistant.cpp:58
+msgid "Welcome to the Restore Assistant"
+msgstr "مرحباً بك في مساعد الاسترجاع"
+
+#: restoreassistant.cpp:63
+msgid "Restoring"
+msgstr "يسترجع"
+
+#: restoreassistant.cpp:89
+msgid "Please be patient, the backup is being restored..."
+msgstr "الرجاء الإنتظار ، يتم الآن استرجاع النسخة الإحتياطية..."
+
+#: restoreassistant.cpp:96
+msgid ""
+"The backup has been restored. Note that KWallet stored passwords are not "
+"restored, so applications might ask for those."
+msgstr ""
+"تم إسترجاع النسخة الإحتياطية ، مع ملاحظة أن KWallet لم يسترجع كلمات السر "
+"المخزنه بهذه النسخة ، لهذا من المحتمل أن يتم سؤالك عنها."
+
+#: restoreassistant.cpp:101
+msgid ""
+"The restore process ended unexpectedly. Please report a bug, so we can find "
+"out what the cause is."
+msgstr ""
+"عملية الاسترجاع تمت بصوره غير طبيعيه ، فمن فضلك قم بإرسال تقرير بهذا الخطأ ، "
+"حتى نتمكن من معرفة ما هو السبب."

@@ -1,0 +1,97 @@
+# translation of okular_ghostview.po to Arabic
+# translation of okular_ghostview.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# ahmad samawi <ahmad.samawi@gmail.com>, 2008.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_ghostview\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-10-23 01:25+0200\n"
+"PO-Revision-Date: 2009-07-08 22:27+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 0.3\n"
+
+#. i18n: file: conf/gssettings.kcfg:9
+#. i18n: ectx: label, entry (PlatformFonts), group (General)
+#: rc_okular_ghostview.cpp:3
+msgid "Use Platform Fonts"
+msgstr "استعمل خطوط المنصة"
+
+#. i18n: file: conf/gssettings.kcfg:10
+#. i18n: ectx: whatsthis, entry (PlatformFonts), group (General)
+#: rc_okular_ghostview.cpp:6
+msgid ""
+"Determines whether Ghostscript should be allowed to use platform fonts, if "
+"false only usage of fonts embedded in the document will be allowed."
+msgstr ""
+"تحدد إذا ما كان يستطيع Ghostscript أن يستخدم خطوط المنصة ، إذا كان لا ؛ فإنه "
+"سيستعمل الخطوط المضمنة في المستند."
+
+#. i18n: file: conf/gssettingswidget.ui:28
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc_okular_ghostview.cpp:9
+msgid "General Settings"
+msgstr "الإعدادات العامة"
+
+#. i18n: file: conf/gssettingswidget.ui:37
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PlatformFonts)
+#: rc_okular_ghostview.cpp:12
+msgid "&Use platform fonts"
+msgstr "ا&ستعمل خطوط المنصة"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "احمد السماوي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ahmad.samawi@gmail.com"
+
+#: generator_ghostview.cpp:41
+msgid "PS Backend"
+msgstr "منصة خلفية لملفات PS"
+
+#: generator_ghostview.cpp:43
+msgid "A PostScript file renderer."
+msgstr "معالج ملفات بوست سكريبتز"
+
+#: generator_ghostview.cpp:45
+msgid "© 2007-2008 Albert Astals Cid"
+msgstr "جميع الحقوق محفوظة البرت استلس سيد 2007-2008"
+
+#: generator_ghostview.cpp:46
+msgid "Based on the Spectre library."
+msgstr "مبني على مكتبة سبيكتري spectre"
+
+#: generator_ghostview.cpp:48
+msgid "Albert Astals Cid"
+msgstr "البرت استلس سيد"
+
+#: generator_ghostview.cpp:100
+msgid "Ghostscript"
+msgstr "Ghostscript غوست سكريبت"
+
+#: generator_ghostview.cpp:100
+msgid "Ghostscript Backend Configuration"
+msgstr "اعدادات منصة غوست سكريبت الخلفية"
+
+#: generator_ghostview.cpp:275
+msgid "Document version"
+msgstr "إصدار المستند"
+
+#: generator_ghostview.cpp:278
+msgid "Language Level"
+msgstr "مستوى اللغة"

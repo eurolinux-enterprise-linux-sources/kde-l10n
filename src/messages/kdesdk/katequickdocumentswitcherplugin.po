@@ -1,0 +1,63 @@
+# translation of katequickdocumentswitcherplugin.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: katequickdocumentswitcherplugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-02-19 09:34+0100\n"
+"PO-Revision-Date: 2007-10-14 15:58+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: plugin_katequickdocumentswitcher.cpp:48
+#, fuzzy
+msgid "Quick Document Switcher"
+msgstr "مستند بسرعة تحوّل"
+
+#: plugin_katequickdocumentswitcher.cpp:48
+msgid "Quickly switch between documents"
+msgstr ""
+
+#: plugin_katequickdocumentswitcher.cpp:72
+msgid "Quickswitch"
+msgstr ""
+
+#: plugin_katequickdocumentswitcher.cpp:113
+#, fuzzy
+msgid "Document Quick Switch"
+msgstr "مستند بسرعة تحوّل"
+
+#: plugin_katequickdocumentswitcher.cpp:124
+#, fuzzy
+msgid "&Filter:"
+msgstr "ال&مرشح:"
+
+#. i18n: file: ui.rc:4
+#. i18n: ectx: Menu (documents)
+#: rc.cpp:3
+#, fuzzy
+msgid "&Document"
+msgstr "&مستند"
+
+#: rc.cpp:4
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:5
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#, fuzzy
+#~ msgid "%1: %2"
+#~ msgstr "%1: %2"

@@ -1,0 +1,1954 @@
+# translation of kcmkio.po to Arabic
+# translation of kcmkio.po to
+# Copyright (C) 2001,2002,2003, 2004, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+#
+# Mohammed Yousif <mhdyousif@gmx.net>, 2001.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Ammar Tabbaa <atabba@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# عبدالعزيز الشريف <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkio\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-04 12:00+0200\n"
+"PO-Revision-Date: 2009-07-13 10:04+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"X-Poedit-Language: Arabic\n"
+
+#: bookmarks.cpp:110
+msgid ""
+"<h1>My Bookmarks</h1><p>This module lets you configure the bookmarks home "
+"page.</p><p>The bookmarks home page is accessible at <a href=\"bookmarks:/"
+"\">bookmarks:/</a>.</p>"
+msgstr ""
+"<h1>علاماتي</h1><p>تسمح لك هذه الوحدة بضبط صفحة العلامات. </p><p>يمكنك "
+"الوصول إلى صفحة العلامات بواسطة <a href=\"bookmarks:/\">bookmarks:/</a>.</p>"
+
+#: cache.cpp:111
+msgid ""
+"<h1>Cache</h1><p>This module lets you configure your cache settings.</"
+"p><p>The cache is an internal memory in Konqueror where recently read web "
+"pages are stored. If you want to retrieve a web page again that you have "
+"recently read, it will not be downloaded from the Internet, but rather "
+"retrieved from the cache, which is a lot faster.</p>"
+msgstr ""
+"<h1>التخزين المؤقت</h1><p>تسمح لك هذه الوحدة بضبط إعدادات التخزين المؤقت.</"
+"p><p>الخازن هو ذاكر داخلية في الكونكيور يحتفظ بها بالصفحات التي قرأتها حديثا."
+"فإذا رغبت في قرائتها مرة أخرى ؛ فلن يقوم بتنزيلها من الإنترنت من جديدبل "
+"سيقوم بجلبها من المخزن المؤقت ، و الذي هو أسرع بكثير من تنزيلها.</p>"
+
+#: kcookiesmain.cpp:44
+msgid ""
+"Unable to start the cookie handler service.\n"
+"You will not be able to manage the cookies that are stored on your computer."
+msgstr ""
+"عاجز عن بدأ خدمة التعامل مع الكعك.\n"
+"لن تستطيع إدارة الكعك المخزن على حاسوبك."
+
+#: kcookiesmain.cpp:54
+msgid "&Policy"
+msgstr "ال&سياسة"
+
+#: kcookiesmain.cpp:60
+msgid "&Management"
+msgstr "ال&إدارة"
+
+#: kcookiesmain.cpp:88
+msgid ""
+"<p><h1>Cookies</h1> Cookies contain information that Konqueror (or other KDE "
+"applications using the HTTP protocol) stores on your computer, initiated by "
+"a remote Internet server. This means that a web server can store information "
+"about you and your browsing activities on your machine for later use. You "
+"might consider this an invasion of privacy.</p><p> However, cookies are "
+"useful in certain situations. For example, they are often used by Internet "
+"shops, so you can 'put things into a shopping basket'. Some sites require "
+"you have a browser that supports cookies.</p><p> Because most people want a "
+"compromise between privacy and the benefits cookies offer, KDE offers you "
+"the ability to customize the way it handles cookies. So you might want to "
+"set KDE's default policy to ask you whenever a server wants to set a cookie, "
+"allowing you to decide. For your favorite shopping web sites that you trust, "
+"you might want to set the policy to accept, then you can access the web "
+"sites without being prompted every time KDE receives a cookie.</p>"
+msgstr ""
+"<p><h1>الكعك</h1>يحوي الكعك على معلومات يخزنها الكونكيور (أو أي تطبيق كدي "
+"أخر يستعمل بروتوكول HTTP )على جهازك ، وهي تنشئ بطلب من خادم الإنترنت البعيد. "
+"هذا يعني أن خادم الويب يستطيع تخزين معلومات عنك وعن نشاطات متصفحك في حاسوبك "
+"لكي يستخدمها في وقت لاحق ، ربما قد تعتبر هذا انتهاكا لخصوصيتك.</p><p> على كل "
+"حال قد تكون الكعك مفيدة في بعض الأحيان ،  فعلى سبيل المثال ، تستخدم الكعك في "
+"المتاجر الإلكتروني لتنشئ سلة مشتريات . بعض المواقع تطلب أن يكون المتصفح "
+"داعما للكعك.</p><p> و بسبب أن أغلب الناس تريد أن توازن بين الخصوصية و "
+"المنافع الكعك ؛ فإن كيدي توفر لك القدرة على تخصيص طريقة التعامل مع الكعك . "
+"فقد ترغب أن تجعل سياسة كيدي هي طلب الإذن لأي خادم يريد أن ينشئ كعك ، وقد "
+"ترغب في السماح للمتاجرك الإلكترونية المفضلة التي تثق فيها أن تنشئ كعك كما "
+"تريد ، فيمكنك وضع سياسة قبول الكعك بدون طلب الإذن لهذه المواقع. </p>"
+
+#: kcookiesmanagement.cpp:151 kcookiesmanagement.cpp:168
+msgid "D-Bus Communication Error"
+msgstr "D-Bus خطأ اتصال"
+
+#: kcookiesmanagement.cpp:152
+msgid "Unable to delete all the cookies as requested."
+msgstr "غير قادر على حذف كلّ الكعكات المطلوبة."
+
+#: kcookiesmanagement.cpp:169
+msgid "Unable to delete cookies as requested."
+msgstr "غير قادر على حذف الكعكات المطلوبة."
+
+#: kcookiesmanagement.cpp:241
+msgid "<h1>Cookie Management Quick Help</h1>"
+msgstr "<h1>المساعدة السريعة  لإدارة الكعك</h1>"
+
+#: kcookiesmanagement.cpp:250
+msgid "Information Lookup Failure"
+msgstr "فشل في البحث عن المعلومات"
+
+#: kcookiesmanagement.cpp:251
+msgid ""
+"Unable to retrieve information about the cookies stored on your computer."
+msgstr "غير قادر على استرجاع معلومات الكعكات المخزنة على حاسوبك."
+
+#: kcookiesmanagement.cpp:341
+msgid "End of session"
+msgstr "نهاية الجلسة"
+
+#: kcookiesmanagement.cpp:350
+msgid "Yes"
+msgstr "نعم"
+
+#: kcookiespolicies.cpp:179
+msgid "New Cookie Policy"
+msgstr "سياسة كعكات جديدة"
+
+#: kcookiespolicies.cpp:218
+msgid "Change Cookie Policy"
+msgstr "غيّر سياسة الكعكات"
+
+#: kcookiespolicies.cpp:243
+#, kde-format
+msgid ""
+"<qt>A policy already exists for<center><b>%1</b></center>Do you want to "
+"replace it?</qt>"
+msgstr ""
+"<qt>هناك سياسة موجودة مسبقاً <center><b>%1</b></center> هل هل ترغب في "
+"استبدالها؟</qt>"
+
+#: kcookiespolicies.cpp:247
+msgid "Duplicate Policy"
+msgstr "سياسة مكررة"
+
+#: kcookiespolicies.cpp:248 useragentdlg.cpp:215
+msgid "Replace"
+msgstr "استبدل"
+
+#: kcookiespolicies.cpp:421
+msgid ""
+"Unable to communicate with the cookie handler service.\n"
+"Any changes you made will not take effect until the service is restarted."
+msgstr ""
+"تعذر تشغيل خدمة التعامل مع الكعكات.\n"
+"أي تعديلات قمت بها لن تصبح نافذة المفعول إلا بعد إعادة تشغيل الخدمة."
+
+#: kcookiespolicies.cpp:462
+msgid ""
+"<p><h1>Cookies</h1> Cookies contain information that Konqueror (or any other "
+"KDE application using the HTTP protocol) stores on your computer from a "
+"remote Internet server. This means that a web server can store information "
+"about you and your browsing activities on your machine for later use. You "
+"might consider this an invasion of privacy.</p><p>However, cookies are "
+"useful in certain situations. For example, they are often used by Internet "
+"shops, so you can 'put things into a shopping basket'. Some sites require "
+"you have a browser that supports cookies.</p><p>Because most people want a "
+"compromise between privacy and the benefits cookies offer, KDE offers you "
+"the ability to customize the way it handles cookies. You might, for example "
+"want to set KDE's default policy to ask you whenever a server wants to set a "
+"cookie or simply reject or accept everything. For example, you might choose "
+"to accept all cookies from your favorite shopping web site. For this all you "
+"have to do is either browse to that particular site and when you are "
+"presented with the cookie dialog box, click on <i> This domain </i> under "
+"the 'apply to' tab and choose accept or simply specify the name of the site "
+"in the <i> Domain Specific Policy </i> tab and set it to accept. This "
+"enables you to receive cookies from trusted web sites without being asked "
+"every time KDE receives a cookie.</p>"
+msgstr ""
+"<p><h1>الكعك</h1>يحوي الكعك على معلومات يخزنها الكونكيور (أو أي تطبيق كدي "
+"أخر يستعمل بروتوكول HTTP )على جهازك ، وهي تنشئ بطلب من خادم الإنترنت البعيد. "
+"هذا يعني أن خادم الويب يستطيع تخزين معلومات عنك وعن نشاطات متصفحك في حاسوبك "
+"لكي يستخدمها في وقت لاحق ، ربما قد تعتبر هذا انتهاكا لخصوصيتك.</p><p> على كل "
+"حال قد تكون الكعك مفيدة في بعض الأحيان ،  فعلى سبيل المثال ، تستخدم الكعك في "
+"المتاجر الإلكتروني لتنشئ سلة مشتريات . بعض المواقع تطلب أن يكون المتصفح "
+"داعما للكعك.</p><p> و بسبب أن أغلب الناس تريد أن توازن بين الخصوصية و "
+"المنافع الكعك ؛ فإن كيدي توفر لك القدرة على تخصيص طريقة التعامل مع الكعك . "
+"فقد ترغب أن تجعل سياسة كيدي هي طلب الإذن لأي خادم يريد أن ينشئ كعك ، وقد "
+"ترغب في السماح للمتاجرك الإلكترونية المفضلة التي تثق فيها أن تنشئ كعك كما "
+"تريد ، فيمكنك وضع سياسة قبول الكعك بدون طلب الإذن لهذه المواقع. </p> كل ما "
+"عليك هو أن تذهب إلى ذاك الموقع و عندما يظهر لك مربع حوار الكعك ، انقر على "
+"<i> هذا المجال </i> تحت لسان 'طبق على' و اختر اسمح أو  حدد بكل بساطة اسم "
+"الموقع في لسان <i> سياسة المجالات الخاصة </i> ثم وافق على قبولها ، هذا يمكنك "
+"من استقبال كعك من المواقع الموثوقة بدون الحاجة إلى سؤالك كل مرة تستقبل فيها "
+"الكعك."
+
+#: kenvvarproxydlg.cpp:49
+msgid "Variable Proxy Configuration"
+msgstr "تشكيل الوكيل المتغير"
+
+#: kenvvarproxydlg.cpp:130 kenvvarproxydlg.cpp:292
+msgid "You must specify at least one valid proxy environment variable."
+msgstr "يجب عليك تحديد وكيل بيئي متغير صالح على الأقل."
+
+#: kenvvarproxydlg.cpp:133 kenvvarproxydlg.cpp:295
+msgid ""
+"<qt>Make sure you entered the actual environment variable name rather than "
+"its value. For example, if the environment variable is <br /"
+"><b>HTTP_PROXY=http://localhost:3128</b><br /> you need to enter "
+"<b>HTTP_PROXY</b> here instead of the actual value http://localhost:3128.</"
+"qt>"
+msgstr ""
+"<qt>تأكد من أنك أدخلت اسم المتغير البيئة بدلا عن قيمته. على سبيل المثال إذا "
+"كان متغير البيئة هو  <br /><b>HTTP_PROXY=http://localhost:3128</b><br /> "
+"فإنك بحاجة إلى إدخال<b>HTTP_PROXY</b> بدلا عن القيمة الحقيقية http://"
+"localhost:3128.</qt>"
+
+#: kenvvarproxydlg.cpp:141 kenvvarproxydlg.cpp:303 kproxydlg.cpp:310
+msgid "Invalid Proxy Setup"
+msgstr "إعداد غير صالح للوكيل"
+
+#: kenvvarproxydlg.cpp:145
+msgid "Successfully verified."
+msgstr "تم التحقق بنجاح"
+
+#: kenvvarproxydlg.cpp:146
+msgid "Proxy Setup"
+msgstr "إعداد الوكيل"
+
+#: kenvvarproxydlg.cpp:222
+msgid ""
+"Did not detect any environment variables commonly used to set system wide "
+"proxy information."
+msgstr ""
+"لم يتم العثور على أي من أسماء المتغيرات البيئية شائعة الاستخدام لإعداد "
+"معلومات الوكيل الخاصة بالنظام ككل."
+
+#: kenvvarproxydlg.cpp:226
+msgid ""
+"<qt>To learn about the variable names the automatic detection process "
+"searches for, press OK, click on the quick help button on the window title "
+"bar of the previous dialog and then click on the \"<b>Auto Detect</b>\" "
+"button.</qt>"
+msgstr ""
+"<qt>لتتعرف على أسماء المتغيرات التي تبحث عنها عملية الاكتشاف التلقائي، اضغط "
+"على زر موافق، ثم إنقر على زر المساعدة السريعة الموجود في شريط عنوان النافذة  "
+"من مربع الحوار \"<b>تشكيل الوكيل المتغير</b>\" ثم انقر على زر \"<b>اكتشف "
+"تلقائياً</b>\".</qt>"
+
+#: kenvvarproxydlg.cpp:234
+msgid "Automatic Proxy Variable Detection"
+msgstr "تحديد متغير الوكيل آلياً."
+
+#: kmanualproxydlg.cpp:49
+msgid "Manual Proxy Configuration"
+msgstr "تشكيل الوكيل يدوياً"
+
+#: kmanualproxydlg.cpp:274
+msgid "Invalid Proxy Setting"
+msgstr "إعداد غير صالح للوكيل"
+
+#: kmanualproxydlg.cpp:275
+msgid ""
+"One or more of the specified proxy settings are invalid. The incorrect "
+"entries are highlighted."
+msgstr ""
+"واحد أو أكثر من إعدادات الوكيل المحددة غير صالحة. الخانات الغير صحيحة هي "
+"البارزة."
+
+#: kmanualproxydlg.cpp:343
+msgid "You entered a duplicate address. Please try again."
+msgstr "قمت بإدخال عنوان مكرر. من فضلك حاول مرة ثانية."
+
+#: kmanualproxydlg.cpp:345
+#, kde-format
+msgid "<qt><center><b>%1</b></center> is already in the list.</qt>"
+msgstr "<qt><center><b>%1</b></center> موجود في القائمة.</qt>"
+
+#: kmanualproxydlg.cpp:347
+msgid "Duplicate Entry"
+msgstr "مدخلة مكررة"
+
+#: kmanualproxydlg.cpp:357
+msgid "New Exception"
+msgstr "استثناء جديد"
+
+#: kmanualproxydlg.cpp:364
+msgid "Change Exception"
+msgstr "غيّر استثناء"
+
+#: kmanualproxydlg.cpp:441
+msgid "Invalid Entry"
+msgstr "مدخلة غير صالحة"
+
+#: kmanualproxydlg.cpp:444
+msgid "The address you have entered is not valid."
+msgstr "العنوان الذي قمت بإدخاله غير صالح"
+
+#: kmanualproxydlg.cpp:446
+msgid ""
+"<qt>Make sure none of the addresses or URLs you specified contain invalid or "
+"wildcard characters such as spaces, asterisks (*), or question marks(?).<br /"
+"><br /><u>Examples of VALID entries:</u><br /><code>http://mycompany.com, "
+"192.168.10.1, mycompany.com, localhost, http://localhost</code><br /><br /"
+"><u>Examples of INVALID entries:</u><br /><code>http://my company.com, http:/"
+"mycompany,com file:/localhost</code></qt>"
+msgstr ""
+"<qt>تأكد من أن العناوين التي تحددها لا تحتوي على محتويات غير صالحة أو محارف "
+"علامات مثل الفراغ ، و النجمة (*), أو علامة الاستفهام(؟).<br /><br /> "
+"<u>أمثلة على مدخلات صحيحة:</u><br /><code>http://mycompany.com, "
+"192.168.10.1, mycompany.com, localhost, http://localhost</code><br /><br /"
+"><u>أمثلة على مدخلات غير صحيحة:</u><br /><code>http://my company.com, http:/"
+"mycompany,com file:/localhost</code></qt>"
+
+#: kmanualproxydlg.cpp:467
+msgid "Enter the URL or address that should use the above proxy settings:"
+msgstr "أدخل العنوان الذي يجب أن يستخدم إعدادات الوكيل أعلاه:"
+
+#: kmanualproxydlg.cpp:470
+msgid ""
+"Enter the address or URL that should be excluded from using the above proxy "
+"settings:"
+msgstr "أدخل العنوان الذي يجب استثنائه من استخدام إعدادات الوكيل أعلاه:"
+
+#: kmanualproxydlg.cpp:473
+msgid ""
+"<qt>Enter a valid address or URL.<br /><br /><b><u>NOTE:</u></b> Wildcard "
+"matching such as <code>*.kde.org</code> is not supported. If you want to "
+"match any host in the <code>.kde.org</code> domain, e.g. <code>printing.kde."
+"org</code>, then simply enter <code>.kde.org</code>.</qt>"
+msgstr ""
+"<qt>أدخل عنوان صحيحا. .<br /><br /><b><u>ملاحظة:</u></b> علاماتالمطابقة "
+"مثل<code>*.kde.org</code> غير مدعومة. إذا رغبت في مطابقة أي مستضيف في مجال "
+"<code>.kde.org</code> على سبيل المثال <code>printing.kde.org</code>فعليك بكل "
+"بساطة إدخال <code>.kde.org</code>.</qt>"
+
+#: kproxydlg.cpp:159
+msgid ""
+"The address of the automatic proxy configuration script is invalid. Please "
+"correct this problem before proceeding. Otherwise, your changes will be "
+"ignored."
+msgstr ""
+"عنوان مخطوط تشكيلة الوكيل الآلية غير صحيحة. الرجاء تصحيح هذه المشكلة قبل "
+"المتابعة. وإلا فإن تغيراتك سوف ستُتجاهل."
+
+#: kproxydlg.cpp:286
+msgid ""
+"<h1>Proxy</h1><p>A proxy server is an intermediate program that sits between "
+"your machine and the Internet and provides services such as web page caching "
+"and/or filtering.</p><p>Caching proxy servers give you faster access to "
+"sites you have already visited by locally storing or caching the content of "
+"those pages; filtering proxy servers, on the other hand, provide the ability "
+"to block out requests for ads, spam, or anything else you want to block.</"
+"p><p><u>Note:</u> Some proxy servers provide both services.</p>"
+msgstr ""
+"<h1>الوكيل</h1><p>خادم الوكيل هو برنامج يتوسط بين جهازك و الإنترنت ، و يقوم "
+"بتقديم خدمات  مثل التخزين المؤقت لصفحات الإنترنت و/أو التنقية.</p><p>خوادم "
+"التخزين المؤقت تعطيك سرعة النفاذ عالية للمواقع التي زرتها من قبل بواسطة "
+"تخزين هذه محتويات هذه المواقع بشكل مؤقت ، أما خوادم التقنيةأو الترشيح فيه "
+"تعطيك القدرة على منع الإعلانات أو السخام أو أي شيء أخر تريد منعه.</"
+"p><p><u>ملاحظة:</u> بعض خوادم التنقية تقدم كلا الخدمتين.</p>"
+
+#: kproxydlg.cpp:305
+msgid ""
+"<qt>The proxy settings you specified are invalid.<br /><br />Please click on "
+"the <b>Setup...</b> button and correct the problem before proceeding; "
+"otherwise your changes will be ignored.</qt>"
+msgstr ""
+"<qt>إعدادات الوكيل التي حدتتها غير صالحة.<br /><br />رجاءا انقرعلى زر "
+"<b>إعداد...</b> وصحح المشكلة قبل المواصلة ؛ و إلا فإن تغيراتك ستُتجاهل. </qt>"
+
+#: ksaveioconfig.cpp:232 ksaveioconfig.cpp:248
+msgid "Update Failed"
+msgstr "فشل التحديث"
+
+#: ksaveioconfig.cpp:233
+msgid ""
+"You have to restart the running applications for these changes to take "
+"effect."
+msgstr "يجب إعادة تشغيل التطبيقات قيد التشغيل لتطبيق التغييرات عليها."
+
+#: ksaveioconfig.cpp:249
+msgid "You have to restart KDE for these changes to take effect."
+msgstr "يجب عليك إعادة تشغيل كدي لتطبيق التغييرات."
+
+#: main.cpp:64
+msgid ""
+"<h1>Local Network Browsing</h1>Here you setup your <b>\"Network Neighborhood"
+"\"</b>. You can use either the LISa daemon and the lan:/ ioslave, or the "
+"ResLISa daemon and the rlan:/ ioslave.<br /><br />About the <b>LAN ioslave</"
+"b> configuration:<br /> If you select it, the ioslave, <i>if available</i>, "
+"will check whether the host supports this service when you open this host. "
+"Please note that paranoid people might consider even this to be an attack."
+"<br /><i>Always</i> means that you will always see the links for the "
+"services, regardless of whether they are actually offered by the host. "
+"<i>Never</i> means that you will never have the links to the services. In "
+"both cases you will not contact the host, so nobody will ever regard you as "
+"an attacker.<br /><br />More information about <b>LISa</b> can be found at "
+"<a href=\"http://lisa-home.sourceforge.net\">the LISa Homepage</a> or "
+"contact Alexander Neundorf &lt;<a href=\"mailto:neundorf@kde.org"
+"\">neundorf@kde.org</a>&gt;."
+msgstr ""
+
+#: main.cpp:85
+msgid "&Windows Shares"
+msgstr "موارد ال&ويندوز المشاركة"
+
+#: main.cpp:91
+msgid "&LISa Daemon"
+msgstr "ر&قيب LISa"
+
+#: main.cpp:105
+msgid "lan:/ Iosla&ve"
+msgstr "lan:/ Iosla&ve"
+
+#: netpref.cpp:31
+msgid "Timeout Values"
+msgstr "قيم المهلة"
+
+#: netpref.cpp:32
+#, kde-format
+msgid ""
+"Here you can set timeout values. You might want to tweak them if your "
+"connection is very slow. The maximum allowed value is 1 second."
+msgid_plural ""
+"Here you can set timeout values. You might want to tweak them if your "
+"connection is very slow. The maximum allowed value is %1 seconds."
+msgstr[0] ""
+"يمكنك من هنا تعيين قيم المهلة. ربما ترغب في تغييرها إذا كان اتصالك بالإنترنت "
+"بطيء جداً. أكبر قيمة ممكنة هي %1 ثانية."
+msgstr[1] ""
+"يمكنك من هنا تعيين قيم المهلة. ربما ترغب في تغييرها إذا كان اتصالك بالإنترنت "
+"بطيء جداً. أكبر قيمة ممكنة هي ثانية واحدة."
+msgstr[2] ""
+"يمكنك من هنا تعيين قيم المهلة. ربما ترغب في تغييرها إذا كان اتصالك بالإنترنت "
+"بطيء جداً. أكبر قيمة ممكنة هي ثانيتين."
+msgstr[3] ""
+"يمكنك من هنا تعيين قيم المهلة. ربما ترغب في تغييرها إذا كان اتصالك بالإنترنت "
+"بطيء جداً. أكبر قيمة ممكنة هي %1 ثوان."
+msgstr[4] ""
+"يمكنك من هنا تعيين قيم المهلة. ربما ترغب في تغييرها إذا كان اتصالك بالإنترنت "
+"بطيء جداً. أكبر قيمة ممكنة هي %1 ثانية."
+msgstr[5] ""
+"يمكنك من هنا تعيين قيم المهلة. ربما ترغب في تغييرها إذا كان اتصالك بالإنترنت "
+"بطيء جداً. أكبر قيمة ممكنة هي %1 ثانية."
+
+#: netpref.cpp:44 netpref.cpp:50 netpref.cpp:56 netpref.cpp:62
+msgid " sec"
+msgstr " ثانية"
+
+#: netpref.cpp:45
+msgid "Soc&ket read:"
+msgstr "&قراءة المقبس:"
+
+#: netpref.cpp:51
+msgid "Pro&xy connect:"
+msgstr "الاتصال بال&وكيل:"
+
+#: netpref.cpp:57
+msgid "Server co&nnect:"
+msgstr "الاتصال بال&خادم:"
+
+#: netpref.cpp:63
+msgid "&Server response:"
+msgstr "ر&د الخادم:"
+
+#: netpref.cpp:67
+msgid "FTP Options"
+msgstr "FTP خيارات"
+
+#: netpref.cpp:71
+msgid "Enable passive &mode (PASV)"
+msgstr "مكّن و&ضع  سلبي (PASV)"
+
+#: netpref.cpp:72
+msgid ""
+"Enables FTP's \"passive\" mode. This is required to allow FTP to work from "
+"behind firewalls."
+msgstr ""
+"مكّن وضع \"passive\" للـ FTP. هذا ضروري لجعل الـ FTP يعمل من وراء الجدار "
+"الناري."
+
+#: netpref.cpp:78
+msgid "Mark &partially uploaded files"
+msgstr "ًعلّم الملفات المحملة &جزئيا"
+
+#: netpref.cpp:79
+msgid ""
+"<p>Marks partially uploaded FTP files.</p><p>When this option is enabled, "
+"partially uploaded files will have a \".part\" extension. This extension "
+"will be removed once the transfer is complete.</p>"
+msgstr ""
+"<p>ضع علامة على الملفات المحملة جزئياً عبر FTP.</p><p> عند تمكين هذا الخيار، "
+"سيكون للملفات المحملة جزئياً إمتداد إضافي و هو \".part\". هذا الإمتداد يتم "
+"إزالته عند إكتمال نقل الملف. </p>"
+
+#: netpref.cpp:147
+msgid ""
+"<h1>Network Preferences</h1>Here you can define the behavior of KDE programs "
+"when using Internet and network connections. If you experience timeouts or "
+"use a modem to connect to the Internet, you might want to adjust these "
+"settings."
+msgstr ""
+"<h1>تفضيلات الشبكة</h1>يمكنك من هنا تعريف سلوك برامج كدي أثناء استخدام "
+"الإنترنت واتصالات الشبكة. إذا عانيت من مشاكل انتهاء المهلة أو كنت تستخدم "
+"مودماً، ربما ترغب في تغيير هذه القيم."
+
+#. i18n: file: bookmarks.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:3
+msgid "Bookmarks"
+msgstr "العلامات"
+
+#. i18n: file: bookmarks.ui:23
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbShowRoot)
+#: rc.cpp:6
+msgid ""
+"If this option is unchecked, bookmarks at the root of the hierarchy (not in "
+"a folder) are not displayed.\n"
+"If checked, they are gathered in a \"root\" folder."
+msgstr ""
+"إذا عطل هذا الخيار فإنه لن يتم عرض العلامات التي في جذر الهرم (ليست في "
+"مجلد).\n"
+"إذا تم تفعيله فإنهن سيجمعن في مجلد \"الجذر\"."
+
+#. i18n: file: bookmarks.ui:26
+#. i18n: ectx: property (text), widget (QCheckBox, cbShowRoot)
+#: rc.cpp:10
+msgid "&Show bookmarks without folder"
+msgstr "أ&ظهر العلامات بدون مجلد"
+
+#. i18n: file: bookmarks.ui:37
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbFlattenTree)
+#: rc.cpp:13
+msgid ""
+"Sub-folders are shown within their parent by default. If you activate this "
+"option, sub-folders are displayed on their own.\n"
+"It looks less nice but it may help if you have a very big folder you want to "
+"spread in two columns."
+msgstr ""
+"مبدئيا تعرض الملفات الفرعية في أصولهن ، إذا فعلت هذا الخيار ؛ فإنهن سيعرضن "
+"منفصلات.\n"
+"قد يبدو هذا أقل جمالًا ولكن قد يكون مفيدا إذا كنت تملك مجلد ضخم و تريد عرضه "
+"في عمودين منفصلين."
+
+#. i18n: file: bookmarks.ui:40
+#. i18n: ectx: property (text), widget (QCheckBox, cbFlattenTree)
+#: rc.cpp:17
+msgid "&Flatten bookmarks tree"
+msgstr "&سطّح شجرة العلامات"
+
+#. i18n: file: bookmarks.ui:47
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbShowPlaces)
+#: rc.cpp:20
+msgid ""
+"Show a box with KDE places (Home, Network, ...). Useful if you use konqueror "
+"as a file manager."
+msgstr ""
+"تعرض مربه بأماكن كيدي (البيت ، والشبكة ، ...إلخ). مفيد إذا كنت تستعمل "
+"كونكيور كمدير ملفات."
+
+#. i18n: file: bookmarks.ui:50
+#. i18n: ectx: property (text), widget (QCheckBox, cbShowPlaces)
+#: rc.cpp:23
+msgid "Show system &places"
+msgstr "أظهر أ&ماكن النظام"
+
+#. i18n: file: bookmarks.ui:63
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:26
+msgid "General Settings"
+msgstr "إعدادات عامة"
+
+#. i18n: file: bookmarks.ui:71
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: rc.cpp:29
+msgid ""
+"Folders are automatically distributed in several columns. The optimal number "
+"of columns depends on the width of the konqueror window and the number of "
+"bookmarks you have."
+msgstr ""
+"تتوزع المجلدات تلقائيًا في عدة أعمدة. عدد الأعمدة المثالي يعتمد على عرض نافذة "
+"الكونكيور وعدد العلامات التي تملكها."
+
+#. i18n: file: bookmarks.ui:74
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:32
+msgid "Number of columns to show:"
+msgstr "عدد الأعمدة المعروضة:"
+
+#. i18n: file: bookmarks.ui:109
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbShowBackgrounds)
+#: rc.cpp:35
+msgid "Disable it on slow system to disable background images."
+msgstr "عطلها في الأنظمة البطيئة أو عطل صور الخلفية"
+
+#. i18n: file: bookmarks.ui:112
+#. i18n: ectx: property (text), widget (QCheckBox, cbShowBackgrounds)
+#: rc.cpp:38
+msgid "Show folder &backgrounds"
+msgstr "أظهر &خلفيات المجلد"
+
+#. i18n: file: bookmarks.ui:138
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox_3)
+#: rc.cpp:41
+msgid "How much disk space is used to cache the pixmaps"
+msgstr "كم المساحة المستخدمة في القرص لتخزين الصور"
+
+#. i18n: file: bookmarks.ui:141
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:44
+msgid "Pixmap Cache"
+msgstr "التخزين المؤقت للصور"
+
+#. i18n: file: bookmarks.ui:150
+#. i18n: ectx: property (text), widget (QLabel, lbMaxCacheSize)
+#: rc.cpp:47
+msgid "Disk cache size:"
+msgstr "ح&جم مَخبأ القرص:"
+
+#. i18n: file: bookmarks.ui:163
+#. i18n: ectx: property (suffix), widget (KIntNumInput, sbCacheSize)
+#: rc.cpp:50
+msgid " kB"
+msgstr "ك.بايت"
+
+#. i18n: file: bookmarks.ui:173
+#. i18n: ectx: property (whatsThis), widget (QPushButton, clearCacheButton)
+#: rc.cpp:53
+msgid "Clear the pixmap cache"
+msgstr "نظف مخبأ الصور"
+
+#. i18n: file: bookmarks.ui:176
+#. i18n: ectx: property (text), widget (QPushButton, clearCacheButton)
+#: rc.cpp:56
+msgid "&Clear Cache"
+msgstr "ن&ظف المخبأ"
+
+#. i18n: file: cache.ui:16
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbUseCache)
+#: rc.cpp:59
+msgid ""
+"Check this box if you want the web pages you visit to be stored on your hard "
+"disk for quicker access. The stored pages will only be updated as needed "
+"instead of on every visit to that site. This is especially useful if you "
+"have a slow connection to the Internet."
+msgstr ""
+"أختر هذا إذا كنت ترغب في تخزين صفحات الشبكة التي زرتها على القرص الصلب وذلك "
+"من أجل الوصول السريع للصفحات. سيتم تحديث الصفحات المخزّنة فقط عند الحاجة، "
+"بدلاً من  كل زيارة للموقع. هذه الميزة مفيدة بشكل خاص إذا كان لديك اتصال بطي ء "
+"بالإنترنت."
+
+#. i18n: file: cache.ui:19
+#. i18n: ectx: property (text), widget (QCheckBox, cbUseCache)
+#: rc.cpp:62
+msgid "&Use cache"
+msgstr "اس&تخدم الذاكرة المخبئة"
+
+#. i18n: file: cache.ui:45
+#. i18n: ectx: property (title), widget (QGroupBox, bgCachePolicy)
+#. i18n: file: kcookiespoliciesdlg.ui:211
+#. i18n: ectx: property (text), widget (QTreeWidget, lvDomainPolicy)
+#: rc.cpp:65 rc.cpp:298
+msgid "Policy"
+msgstr "السياسة"
+
+#. i18n: file: cache.ui:51
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, rbVerifyCache)
+#: rc.cpp:68
+msgid ""
+"Verify whether the cached web page is valid before attempting to fetch the "
+"web page again."
+msgstr ""
+"تحقق من أن صفحة الشبكة الموجودة في ذاكرة التخزين المؤقتة صالحة قبل محاولة "
+"جلبها مرة أخرى."
+
+#. i18n: file: cache.ui:54
+#. i18n: ectx: property (text), widget (QRadioButton, rbVerifyCache)
+#: rc.cpp:71
+msgid "&Keep cache in sync"
+msgstr "&حافظ على مزامنة الذاكرة المخبئة"
+
+#. i18n: file: cache.ui:61
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, rbCacheIfPossible)
+#: rc.cpp:74
+msgid ""
+"Always use documents from the cache when available. You can still use the "
+"reload button to synchronize the cache with the remote host."
+msgstr ""
+"الاعتماد على المستندات الموجودة في ذاكرة التخزين المؤقتة كلما أمكن. رغم ذلك "
+"فسيكون بإمكانك استخدام زر إعادة التحميل لمزامنة ذاكرة التخزين المؤقتة مع "
+"الجهاز المضيف البعيد."
+
+#. i18n: file: cache.ui:64
+#. i18n: ectx: property (text), widget (QRadioButton, rbCacheIfPossible)
+#: rc.cpp:77
+msgid "Use cache whenever &possible"
+msgstr "استخدم الذاكرة المخبئة كلّما أم&كن"
+
+#. i18n: file: cache.ui:71
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, rbOfflineMode)
+#: rc.cpp:80
+msgid ""
+"Do not fetch web pages that are not already stored in the cache. Offline "
+"mode prevents you from viewing pages that you have not previously visited."
+msgstr ""
+"عدم جلب صفحات الشبكة غير الموجودة في ذاكرة التخزين المؤقتة. تمنعك وضعية عدم "
+"الاتصال من عرض صفحات لم تزرها من قبل."
+
+#. i18n: file: cache.ui:74
+#. i18n: ectx: property (text), widget (QRadioButton, rbOfflineMode)
+#: rc.cpp:83
+msgid "O&ffline browsing mode"
+msgstr "وضع التصفح ب&دون اتصال"
+
+#. i18n: file: cache.ui:87
+#. i18n: ectx: property (text), widget (QLabel, lbMaxCacheSize)
+#: rc.cpp:86
+msgid "Disk cache &size:"
+msgstr "ح&جم مَخبأ القرص:"
+
+#. i18n: file: cache.ui:107
+#. i18n: ectx: property (text), widget (QPushButton, clearCacheButton)
+#: rc.cpp:89
+msgid "C&lear Cache"
+msgstr "ا&مح الذاكرة المخبئة"
+
+#. i18n: file: envvarproxy.ui:21
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbHttp)
+#. i18n: file: envvarproxy.ui:49
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leHttp)
+#: rc.cpp:92 rc.cpp:101
+msgid ""
+"<qt>\n"
+"Enter the name of the environment variable, e.g. <b>HTTP_PROXY</b>, used to "
+"store the address of the HTTP proxy server.<p>\n"
+"Alternatively, you can click on the <b>\"Auto Detect\"</b> button to attempt "
+"automatic discovery of this variable.\n"
+"</qt>"
+msgstr ""
+"<qt>أدخل اسم المتغير البيئي، مثل <b>HTTP_PROXY</b>،المستخدم لتخزين عنوان "
+"خادم الوكيل الخاص بـ HTTP. <p>\n"
+"كبديل، يمكنك النقر على زر <b>\"اكتشف تلقائياً\" </b> لمحاولة اكتشاف هذا "
+"المتغير تلقائياًً\n"
+".</qt>"
+
+#. i18n: file: envvarproxy.ui:24
+#. i18n: ectx: property (text), widget (QLabel, lbHttp)
+#. i18n: file: manualproxy.ui:66
+#. i18n: ectx: property (text), widget (QLabel, lbHttp)
+#: rc.cpp:98 rc.cpp:431
+msgid "H&TTP:"
+msgstr "H&TTP"
+
+#. i18n: file: envvarproxy.ui:59
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbHttps)
+#. i18n: file: envvarproxy.ui:87
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leHttps)
+#: rc.cpp:107 rc.cpp:116
+msgid ""
+"<qt>\n"
+"Enter the name of the environment variable, e.g. <b>HTTPS_PROXY</b>, used to "
+"store the address of the HTTPS proxy server.<p>\n"
+"Alternatively, you can click on the <b>\"Auto Detect\"</b> button to attempt "
+"an automatic discovery of this variable.\n"
+"</qt>"
+msgstr ""
+"<qt>أدخل اسم المتغير البيئي، مثل <b>HTTPS_PROXY</b>،المستخدم لتخزين عنوان "
+"خادم الوكيل الخاص بـ HTTPS. <p>\n"
+"كبديل، يمكنك النقر على زر <b>\"اكتشف تلقائياً\" </b> لمحاولة اكتشاف هذا "
+"المتغير تلقائياًً\n"
+".</qt>"
+
+#. i18n: file: envvarproxy.ui:62
+#. i18n: ectx: property (text), widget (QLabel, lbHttps)
+#. i18n: file: manualproxy.ui:47
+#. i18n: ectx: property (text), widget (QLabel, lbHttps)
+#: rc.cpp:113 rc.cpp:428
+msgid "HTTP&S:"
+msgstr "HTTP&S"
+
+#. i18n: file: envvarproxy.ui:97
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbFtp)
+#. i18n: file: envvarproxy.ui:125
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leFtp)
+#: rc.cpp:122 rc.cpp:131
+msgid ""
+"<qt>\n"
+"Enter the name of the environment variable, e.g. <b>FTP_PROXY</b>, used to "
+"store the address of the FTP proxy server.<p>\n"
+"Alternatively, you can click on the <b>\"Auto Detect\"</b> button to attempt "
+"an automatic discovery of this variable.\n"
+"</qt>"
+msgstr ""
+"<qt>أدخل اسم المتغير البيئي، مثل <b>FTP_PROXY</b>،المستخدم لتخزين عنوان خادم "
+"الوكيل الخاص بـ FTP. <p>\n"
+"كبديل، يمكنك النقر على زر <b>\"اكتشف تلقائياً\" </b> لمحاولة اكتشاف هذا "
+"المتغير تلقائياًً\n"
+".</qt>"
+
+#. i18n: file: envvarproxy.ui:100
+#. i18n: ectx: property (text), widget (QLabel, lbFtp)
+#. i18n: file: manualproxy.ui:28
+#. i18n: ectx: property (text), widget (QLabel, lbFtp)
+#: rc.cpp:128 rc.cpp:425
+msgid "&FTP:"
+msgstr "&FTP"
+
+#. i18n: file: envvarproxy.ui:135
+#. i18n: ectx: property (whatsThis), widget (QLabel, lnNoProxy)
+#. i18n: file: envvarproxy.ui:163
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leNoProxy)
+#: rc.cpp:137 rc.cpp:146
+msgid ""
+"<qt>\n"
+"Enter the environment variable, e.g. <b>NO_PROXY</b>, used to store the "
+"addresses of sites for which the proxy server should not be used.<p>\n"
+"Alternatively, you can click on the <b>\"Auto Detect\"</b> button to attempt "
+"an automatic discovery of this variable.\n"
+"</qt>"
+msgstr ""
+"<qt>أدخل اسم المتغير البيئي، مثل <b>NO_PROXY</b>، المستخدم لتخزين عناوين "
+"المواقع التي يتعين معها عدم استخدام الوكيل. <p>\n"
+"كبديل، يمكنك النقر على زر<b>\"اكتشف تلقائياً\" </b> لمحاولة اكتشاف هذا "
+"المتغير تلقائياًً\n"
+".</qt>"
+
+#. i18n: file: envvarproxy.ui:138
+#. i18n: ectx: property (text), widget (QLabel, lnNoProxy)
+#: rc.cpp:143
+msgid "NO &PROXY:"
+msgstr "بدون و&كيل"
+
+#. i18n: file: envvarproxy.ui:170
+#. i18n: ectx: property (text), widget (QCheckBox, cbShowValue)
+#: rc.cpp:152
+msgid "Show the &value of the environment variables"
+msgstr "أظهر قيم المت&غيرات البيئية"
+
+#. i18n: file: envvarproxy.ui:181
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pbVerify)
+#: rc.cpp:155
+msgid ""
+"<qt>Verify whether or not the environment variable names you supplied are "
+"valid. If an environment variable is not found, the associated labels will "
+"be <b>highlighted</b> to indicate that they are invalid.</qt>"
+msgstr ""
+"<qt>التحقق من فيما إذا كانت أسماء المتغيرات البيئية التي أدخلتها صحيحة أم "
+"لا. إذا لم يتم العثور على متغير بيئي ما، فسيتم <b>إبراز</b> التسميات "
+"المقترنة به لبيان عدم صحتها.</qt>"
+
+#. i18n: file: envvarproxy.ui:184
+#. i18n: ectx: property (text), widget (QPushButton, pbVerify)
+#: rc.cpp:158
+msgid "&Verify"
+msgstr "&تحقق"
+
+#. i18n: file: envvarproxy.ui:191
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pbDetect)
+#: rc.cpp:161
+msgid ""
+"<qt>Attempt automatic discovery of the environment variables used for "
+"setting system wide proxy information.<p> This feature works by searching "
+"for commonly used variable names such as HTTP_PROXY, FTP_PROXY and NO_PROXY."
+"</qt>"
+msgstr ""
+"<qt>محاولة إكتشاف المتغيرات البيئية المستخدمة لإعداد معلومات الوكيل الخاصة "
+"بالنظام ككل تلقائياً. <p> هذه الميزة تعمل من خلال البحث عن أسماء المتغيرات "
+"المستخدمة عادة مثل HTTP_PROXY و  FTP_PROXY و  NO_PROXY. </qt>"
+
+#. i18n: file: envvarproxy.ui:194
+#. i18n: ectx: property (text), widget (QPushButton, pbDetect)
+#: rc.cpp:164
+msgid "Auto &Detect"
+msgstr "ا&كتشف تلقائي"
+
+#. i18n: file: kcookiesmanagementdlg.ui:23
+#. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, kListViewSearchLine)
+#. i18n: file: kcookiespoliciesdlg.ui:225
+#. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, kListViewSearchLine)
+#: rc.cpp:167 rc.cpp:304
+msgid "Search"
+msgstr "ا&بحث:"
+
+#. i18n: file: kcookiesmanagementdlg.ui:30
+#. i18n: ectx: property (toolTip), widget (QTreeWidget, lvCookies)
+#: rc.cpp:170
+msgid "Search interactively for domains and hosts"
+msgstr "ابحث بشكل تفاعلي عن المجالات والمضيفين"
+
+#. i18n: file: kcookiesmanagementdlg.ui:40
+#. i18n: ectx: property (text), widget (QTreeWidget, lvCookies)
+#: rc.cpp:173
+msgid "Domain [Group]"
+msgstr "المجال (المجموعة)"
+
+#. i18n: file: kcookiesmanagementdlg.ui:45
+#. i18n: ectx: property (text), widget (QTreeWidget, lvCookies)
+#: rc.cpp:176
+msgid "Host [Set By]"
+msgstr "المضيف (إعداد بواسطة)"
+
+#. i18n: file: kcookiesmanagementdlg.ui:57
+#. i18n: ectx: property (text), widget (QPushButton, pbDelete)
+#. i18n: file: kcookiespoliciesdlg.ui:156
+#. i18n: ectx: property (text), widget (KPushButton, pbDelete)
+#. i18n: file: useragentdlg.ui:208
+#. i18n: ectx: property (text), widget (KPushButton, deleteButton)
+#: rc.cpp:179 rc.cpp:284 rc.cpp:618
+msgid "D&elete"
+msgstr "ا&حذف"
+
+#. i18n: file: kcookiesmanagementdlg.ui:64
+#. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
+#. i18n: file: kcookiespoliciesdlg.ui:163
+#. i18n: ectx: property (text), widget (KPushButton, pbDeleteAll)
+#. i18n: file: useragentdlg.ui:218
+#. i18n: ectx: property (text), widget (KPushButton, deleteAllButton)
+#: rc.cpp:182 rc.cpp:287 rc.cpp:624
+msgid "Delete A&ll"
+msgstr "احذف ال&كلّ"
+
+#. i18n: file: kcookiesmanagementdlg.ui:71
+#. i18n: ectx: property (text), widget (QPushButton, pbPolicy)
+#: rc.cpp:185
+msgid "Change &Policy..."
+msgstr "غيّر &السياسة..."
+
+#. i18n: file: kcookiesmanagementdlg.ui:78
+#. i18n: ectx: property (text), widget (QPushButton, pbReload)
+#: rc.cpp:188
+msgid "&Reload List"
+msgstr "أ&عد تحميل القائمة"
+
+#. i18n: file: kcookiesmanagementdlg.ui:102
+#. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
+#: rc.cpp:191
+msgid "Details"
+msgstr "تفاصيل"
+
+#. i18n: file: kcookiesmanagementdlg.ui:111
+#. i18n: ectx: property (text), widget (QLabel, lbName)
+#: rc.cpp:194
+msgid "Name:"
+msgstr "الاسم:"
+
+#. i18n: file: kcookiesmanagementdlg.ui:134
+#. i18n: ectx: property (text), widget (QLabel, lbValue)
+#: rc.cpp:197
+msgid "Value:"
+msgstr "القيمة:"
+
+#. i18n: file: kcookiesmanagementdlg.ui:157
+#. i18n: ectx: property (text), widget (QLabel, lbDomain)
+#: rc.cpp:200
+msgid "Domain:"
+msgstr "المجال:"
+
+#. i18n: file: kcookiesmanagementdlg.ui:180
+#. i18n: ectx: property (text), widget (QLabel, lbPath)
+#: rc.cpp:203
+msgid "Path:"
+msgstr "المسار:"
+
+#. i18n: file: kcookiesmanagementdlg.ui:203
+#. i18n: ectx: property (text), widget (QLabel, lbExpires)
+#: rc.cpp:206
+msgid "Expires:"
+msgstr "ينتهي في:"
+
+#. i18n: file: kcookiesmanagementdlg.ui:226
+#. i18n: ectx: property (text), widget (QLabel, lbSecure)
+#: rc.cpp:209
+msgid "Secure:"
+msgstr "آمن:"
+
+#. i18n: file: kcookiespoliciesdlg.ui:19
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbEnableCookies)
+#: rc.cpp:212
+msgid ""
+"<qt>\n"
+"<p>Enable cookie support. Normally you will want to have cookie support "
+"enabled and customize it to suit your privacy needs.</p><p>\n"
+"Please note that disabling cookie support might make many web sites "
+"unbrowsable.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"مكّن دعم الكعكات. عادة سترغب في تمكين دعم الكعكات وتخصيصها لتلائم حاجتك "
+"للخصوصية.</p><p>\n"
+"من فضلك لاحظ أن تعطيل دعم الكعكات سيجعلك غير قادر على تصفح الكثير من مواقع "
+"الشبكة .</p>\n"
+"</qt>"
+
+#. i18n: file: kcookiespoliciesdlg.ui:22
+#. i18n: ectx: property (text), widget (QCheckBox, cbEnableCookies)
+#: rc.cpp:218
+msgid "Enable coo&kies"
+msgstr "مكّن ال&كعكات"
+
+#. i18n: file: kcookiespoliciesdlg.ui:34
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRejectCrossDomainCookies)
+#: rc.cpp:221
+msgid ""
+"<qt>\n"
+"Reject the so called third-party cookies. These are cookies that originate "
+"from a site other than the one you are currently browsing. For example, if "
+"you visit <b>www.foobar.com</b> while this option is on, only cookies that "
+"originate from www.foobar.com will be processed per your settings. Cookies "
+"from any other site will be rejected. This reduces the chances of site "
+"operators compiling a profile about your daily browsing habits.\n"
+"</qt>"
+msgstr ""
+
+#. i18n: file: kcookiespoliciesdlg.ui:37
+#. i18n: ectx: property (text), widget (QCheckBox, cbRejectCrossDomainCookies)
+#: rc.cpp:226
+msgid "Only acce&pt cookies from originating server"
+msgstr "ا&قبل الكعكات الآتية من الخادم الأصلي فقط"
+
+#. i18n: file: kcookiespoliciesdlg.ui:47
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAutoAcceptSessionCookies)
+#: rc.cpp:229
+msgid ""
+"<qt>\n"
+"<p>Automatically accept temporary cookies meant to expire at the end of the "
+"current session. Such cookies will not be stored in your computer's hard "
+"drive or storage device. Instead, they are deleted when you close all "
+"applications (e.g. your browser) that use them.</p><p>\n"
+"<u>NOTE:</u> Checking this option along with the next one will override your "
+"default as well as site specific cookie policies. However, doing so also "
+"increases your privacy since all cookies will be removed when the current "
+"session ends.</p>\n"
+"</qt>"
+msgstr ""
+
+#. i18n: file: kcookiespoliciesdlg.ui:50
+#. i18n: ectx: property (text), widget (QCheckBox, cbAutoAcceptSessionCookies)
+#: rc.cpp:235
+msgid "Automaticall&y accept session cookies"
+msgstr "اقبل كعكات الجلسة آ&لياً"
+
+#. i18n: file: kcookiespoliciesdlg.ui:60
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbIgnoreCookieExpirationDate)
+#: rc.cpp:238
+msgid ""
+"<qt>\n"
+"<p>Treat all cookies as session cookies. Session cookies are small pieces of "
+"data that are temporarily stored in your computer's memory until you quit or "
+"close all applications (e.g. your browser) that use them. Unlike regular "
+"cookies, session cookies are never stored on your hard drive or other "
+"storage medium.</p><p>\n"
+"<u>NOTE:</u> Checking this option along with the previous one will override "
+"your default as well as site specific cookie policies. However, doing so "
+"also increases your privacy since all cookies will be removed when the "
+"current session ends.</p>\n"
+"</qt>"
+msgstr ""
+
+#. i18n: file: kcookiespoliciesdlg.ui:63
+#. i18n: ectx: property (text), widget (QCheckBox, cbIgnoreCookieExpirationDate)
+#: rc.cpp:244
+msgid "Treat &all cookies as session cookies"
+msgstr "ا&عتبر كلّ الكعكات ككعكات الجلسة"
+
+#. i18n: file: kcookiespoliciesdlg.ui:83
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, bgDefault)
+#: rc.cpp:247
+msgid ""
+"<qt>\n"
+"Determines how cookies received from a remote machine will be handled: \n"
+"<ul>\n"
+"<li><b>Ask</b> will cause KDE to ask for your confirmation whenever a server "
+"wants to set a cookie.</li>\n"
+"<li><b>Accept</b> will cause cookies to be accepted without prompting you.</"
+"li>\n"
+"<li><b>Reject</b> will cause the cookiejar to refuse all cookies it receives."
+"</li>\n"
+"</ul><p>\n"
+"<u>NOTE:</u> Domain specific policies, which can be set below, always take "
+"precedence over the default policy.</p>\n"
+"</qt>"
+msgstr ""
+
+#. i18n: file: kcookiespoliciesdlg.ui:86
+#. i18n: ectx: property (title), widget (QGroupBox, bgDefault)
+#: rc.cpp:258
+msgid "Default Policy"
+msgstr "السياسة الافتراضية"
+
+#. i18n: file: kcookiespoliciesdlg.ui:92
+#. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAsk)
+#: rc.cpp:261
+msgid "Ask &for confirmation"
+msgstr "اسأل لل&تأكيد"
+
+#. i18n: file: kcookiespoliciesdlg.ui:99
+#. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAccept)
+#: rc.cpp:264
+msgid "Accep&t all cookies"
+msgstr "ا&قبل كلّ الكعكات"
+
+#. i18n: file: kcookiespoliciesdlg.ui:106
+#. i18n: ectx: property (text), widget (QRadioButton, rbPolicyReject)
+#: rc.cpp:267
+msgid "Re&ject all cookies"
+msgstr "ارف&ض كلّ الكعكات"
+
+#. i18n: file: kcookiespoliciesdlg.ui:131
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, gbDomainSpecific)
+#: rc.cpp:270
+msgid ""
+"<qt>\n"
+"To add a new policy, simply click on the <b>Add...</b> button and supply the "
+"necessary information. To change an existing policy, use the <b>Change...</"
+"b> button and choose the new policy from the policy dialog box. Clicking on "
+"the <b>Delete</b> button will remove the currently selected policy causing "
+"the default policy setting to be used for that domain, whereas <b>Delete "
+"All</b> will remove all the site specific policies.\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"لإضافة سياسة جديدة، ببساطة إنقر على زر <b>أضف...</b> وأدخل المعلومات "
+"الضرورية. ولتغيير سياسة موجودة مسبقاً،استخدم زر <b>غيّر...</b> واختر السياسة "
+"الجديدة من مربع الحوار الخاص بالسياسات. ويؤدي النقر على الزر<b>احذف</b> إلى "
+"إزالة السياسة المنتقاة واستخدام السياسة الافتراضية للتعامل مع هذا المجال. "
+"بينما يقوم الزر <b>احذف الكل</b> بإزالة كلّ السياسات الخاصة بهذا المجال.\n"
+"</qt>"
+
+#. i18n: file: kcookiespoliciesdlg.ui:134
+#. i18n: ectx: property (title), widget (QGroupBox, gbDomainSpecific)
+#: rc.cpp:275
+msgid "Site Policy"
+msgstr "سياسة الموقع"
+
+#. i18n: file: kcookiespoliciesdlg.ui:142
+#. i18n: ectx: property (text), widget (KPushButton, pbNew)
+#. i18n: file: manualproxy.ui:214
+#. i18n: ectx: property (text), widget (QPushButton, pbNew)
+#. i18n: file: useragentdlg.ui:188
+#. i18n: ectx: property (text), widget (KPushButton, newButton)
+#: rc.cpp:278 rc.cpp:481 rc.cpp:606
+msgid "&New..."
+msgstr "&جديد..."
+
+#. i18n: file: kcookiespoliciesdlg.ui:149
+#. i18n: ectx: property (text), widget (KPushButton, pbChange)
+#. i18n: file: useragentdlg.ui:198
+#. i18n: ectx: property (text), widget (KPushButton, changeButton)
+#: rc.cpp:281 rc.cpp:612
+msgid "Chan&ge..."
+msgstr "&غيّر..."
+
+#. i18n: file: kcookiespoliciesdlg.ui:190
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, lvDomainPolicy)
+#: rc.cpp:290
+msgid ""
+"<qt>\n"
+"List of sites for which you have set a specific cookie policy. Specific "
+"policies override the default policy setting for these sites.\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"قائمة المواقع التي وضعت لها سياسة كعك خاصة.السياسات المخصصة ستتجاوز إعدادات "
+"السياسة المبدئية لهذه المواقع.\n"
+"</qt>"
+
+#. i18n: file: kcookiespoliciesdlg.ui:206
+#. i18n: ectx: property (text), widget (QTreeWidget, lvDomainPolicy)
+#: rc.cpp:295
+msgid "Domain"
+msgstr "المجال"
+
+#. i18n: file: kcookiespoliciesdlg.ui:222
+#. i18n: ectx: property (toolTip), widget (KTreeWidgetSearchLine, kListViewSearchLine)
+#: rc.cpp:301
+msgid "Search interactively for domains"
+msgstr "ابحث تفاعلياً عن المجالات"
+
+#. i18n: file: kio_ftprc.kcfg:10
+#. i18n: ectx: label, entry (DisablePassiveMode), group (DesktopIcons)
+#: rc.cpp:307
+msgid "Disable Passive FTP"
+msgstr "عطّل FTP السلبي"
+
+#. i18n: file: kio_ftprc.kcfg:11
+#. i18n: ectx: whatsthis, entry (DisablePassiveMode), group (DesktopIcons)
+#: rc.cpp:310
+msgid ""
+"When FTP connections are passive the client connects to the server, instead "
+"of the other way round, so firewalls do not block the connection; old FTP "
+"servers may not support Passive FTP though."
+msgstr ""
+"في الاتصال FTP السلبي ، يقوم العميل بالاتصال بالخادم بدلا أن يتصل الخادم "
+"بالعميل ؛ لذا لا يستطيع الجدار الناري منع الاتصال ، ولكن قد لا تدعم خوادم "
+"FTP القديم الـ FTP السلبي."
+
+#. i18n: file: kio_ftprc.kcfg:16
+#. i18n: ectx: label, entry (MarkPartial), group (DesktopIcons)
+#: rc.cpp:313
+msgid "Mark partially uploaded files"
+msgstr "علّم الملفات المرفوعة &جزئياً"
+
+#. i18n: file: kio_ftprc.kcfg:17
+#. i18n: ectx: whatsthis, entry (MarkPartial), group (DesktopIcons)
+#: rc.cpp:316
+msgid ""
+"While a file is being uploaded its extension is \".part\". When fully "
+"uploaded it is renamed to its real name."
+msgstr ""
+"في أثناء رفع الملف سيكون امتداده \".part\" ، وعند الإنتهاء من رفعه سوف يعاد "
+"تسميته إلى اسمه الحقيقي."
+
+#. i18n: file: kproxydlg.ui:19
+#. i18n: ectx: property (whatsThis), widget (QWidget, KProxyDialogUI)
+#: rc.cpp:319
+msgid ""
+"<qt>\n"
+"Setup proxy configuration.\n"
+"<p>\n"
+"A proxy server is an intermediate machine that sits between your computer "
+"and the Internet and provides services such as web page caching and "
+"filtering. Caching proxy servers give you faster access to web sites you "
+"have already visited by locally storing or caching those pages; filtering "
+"proxy servers usually provide the ability to block out requests for ads, "
+"spam, or anything else you want to block.\n"
+"<p>\n"
+"If you are uncertain whether or not you need to use a proxy server to "
+"connect to the Internet, consult your Internet service provider's setup "
+"guide or your system administrator.\n"
+"</qt>"
+msgstr ""
+
+#. i18n: file: kproxydlg.ui:37
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, rbNoProxy)
+#: rc.cpp:328
+msgid "Connect to the Internet directly."
+msgstr "اتصل بالإنترنت مباشرة."
+
+#. i18n: file: kproxydlg.ui:40
+#. i18n: ectx: property (text), widget (QRadioButton, rbNoProxy)
+#: rc.cpp:331
+msgid "Connect to the &Internet directly"
+msgstr "اتصل بالإنترنت &مباشرة"
+
+#. i18n: file: kproxydlg.ui:57
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, rbAutoDiscover)
+#: rc.cpp:334
+msgid ""
+"<qt>\n"
+"Automatically detect and configure the proxy settings.<p>\n"
+"Automatic detection is performed using the <b>Web Proxy Auto-Discovery "
+"Protocol (WPAD)</b>.<p>\n"
+"<b>NOTE:</b> This option might not work properly or not work at all in some "
+"UNIX/Linux distributions. If you encounter a problem when using this option, "
+"please check the FAQ section at http://konqueror.kde.org.\n"
+"</qt>"
+msgstr ""
+
+#. i18n: file: kproxydlg.ui:60
+#. i18n: ectx: property (text), widget (QRadioButton, rbAutoDiscover)
+#: rc.cpp:341
+msgid "A&utomatically detect proxy configuration"
+msgstr "اكتشف تشكيل الوكيل آ&لياً"
+
+#. i18n: file: kproxydlg.ui:78
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, rbAutoScript)
+#: rc.cpp:344
+msgid "Use the specified proxy script URL to configure the proxy settings."
+msgstr "استخدم عنوان مخطوط الوكيل المحدّد لضبط إعدادات الوكيل."
+
+#. i18n: file: kproxydlg.ui:81
+#. i18n: ectx: property (text), widget (QRadioButton, rbAutoScript)
+#: rc.cpp:347
+msgid "U&se proxy configuration URL:"
+msgstr "ا&ستخدم عنوان تشكيل الوكيل التالي:"
+
+#. i18n: file: kproxydlg.ui:97
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, location)
+#: rc.cpp:350
+msgid "Enter the address for the proxy configuration script."
+msgstr " أدخل عنوان سكربت تشكيل الوكيل. "
+
+#. i18n: file: kproxydlg.ui:126
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, rbEnvVar)
+#: rc.cpp:353
+msgid ""
+"<qt>\n"
+"Use environment variables to configure the proxy settings.<p>\n"
+"Environment variables such as <b>HTTP_PROXY</b> and <b>NO_PROXY</b> are "
+"usually used in multi-user UNIX installations, where both graphical and non-"
+"graphical applications need to share the same proxy configuration "
+"information.\n"
+"</qt>"
+msgstr ""
+
+#. i18n: file: kproxydlg.ui:129
+#. i18n: ectx: property (text), widget (QRadioButton, rbEnvVar)
+#: rc.cpp:359
+msgid "Use preset proxy environment &variables"
+msgstr "استخدم المت&غيرات البيئية المعدة مسبقاً للوكيل"
+
+#. i18n: file: kproxydlg.ui:139
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pbEnvSetup)
+#: rc.cpp:362
+msgid "Show the proxy environment variable configuration dialog."
+msgstr "أظهر حوار تشكيل متغيرات بيئة الوكيل."
+
+#. i18n: file: kproxydlg.ui:142
+#. i18n: ectx: property (text), widget (QPushButton, pbEnvSetup)
+#. i18n: file: kproxydlg.ui:184
+#. i18n: ectx: property (text), widget (QPushButton, pbManSetup)
+#: rc.cpp:365 rc.cpp:377
+msgid "Setup..."
+msgstr "إعداد..."
+
+#. i18n: file: kproxydlg.ui:168
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, rbManual)
+#: rc.cpp:368
+msgid "Manually enter proxy server configuration information."
+msgstr "أدخل معلومات تشكيل خادم الوكيل يدوياً."
+
+#. i18n: file: kproxydlg.ui:171
+#. i18n: ectx: property (text), widget (QRadioButton, rbManual)
+#: rc.cpp:371
+msgid "&Manually specify the proxy settings"
+msgstr "حدّد إعدادات الوكيل يدو&ياً"
+
+#. i18n: file: kproxydlg.ui:181
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pbManSetup)
+#: rc.cpp:374
+msgid "Show the manual proxy configuration dialog."
+msgstr "أظهر حوار الضبط اليدوي للوكيل ."
+
+#. i18n: file: kproxydlg.ui:199
+#. i18n: ectx: property (title), widget (QGroupBox, gbAuth)
+#: rc.cpp:380
+msgid "Authori&zation"
+msgstr "الت&رخيص"
+
+#. i18n: file: kproxydlg.ui:205
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, rbPrompt)
+#: rc.cpp:383
+msgid "Prompt for login information whenever it is required."
+msgstr "أطلب معلومات تسجيل الدخول كلما دعت الحاجة."
+
+#. i18n: file: kproxydlg.ui:208
+#. i18n: ectx: property (text), widget (QRadioButton, rbPrompt)
+#: rc.cpp:386
+msgid "Prompt as &needed"
+msgstr "السؤال عند ال&حاجة"
+
+#. i18n: file: kproxydlg.ui:229
+#. i18n: ectx: property (toolTip), widget (QRadioButton, rbPresetLogin)
+#: rc.cpp:389
+msgid "Use this login information."
+msgstr "استخدم معلومات  الود&لوج التالية."
+
+#. i18n: file: kproxydlg.ui:232
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, rbPresetLogin)
+#: rc.cpp:392
+msgid "Use information specified here to login into proxy servers as needed."
+msgstr "استخدم المعلومات أدناه للولوج إلى خوادم الوكيل عند الحاجة."
+
+#. i18n: file: kproxydlg.ui:235
+#. i18n: ectx: property (text), widget (QRadioButton, rbPresetLogin)
+#: rc.cpp:395
+msgid "Username:"
+msgstr "اسم المستخدم:"
+
+#. i18n: file: kproxydlg.ui:245
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leUsername)
+#: rc.cpp:398
+msgid "Login name."
+msgstr "اسم الدخول."
+
+#. i18n: file: kproxydlg.ui:255
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbPassword)
+#. i18n: file: kproxydlg.ui:274
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, lePassword)
+#: rc.cpp:401 rc.cpp:407
+msgid "Login password."
+msgstr "كلمة سر الدخول."
+
+#. i18n: file: kproxydlg.ui:258
+#. i18n: ectx: property (text), widget (QLabel, lbPassword)
+#: rc.cpp:404
+msgid "Password:"
+msgstr "كلمة السر:"
+
+#. i18n: file: kproxydlg.ui:292
+#. i18n: ectx: property (title), widget (QGroupBox, gbOptions)
+#: rc.cpp:410
+msgid "O&ptions"
+msgstr "&خيارات "
+
+#. i18n: file: kproxydlg.ui:301
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbPersConn)
+#: rc.cpp:413
+msgid ""
+"<qt>\n"
+"Use persistent proxy connection.<p>\n"
+"Although a persistent proxy connection is faster, note that it only works "
+"correctly with proxies that are fully HTTP 1.1 compliant. Do <b>not</b> use "
+"this option in combination with non-HTTP 1.1 compliant proxy servers such as "
+"JunkBuster and WWWOfle.\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"استخدم اتصال دائم مع الوكيل.<p>\n"
+"بالرغم من أن استخدام اتصال دائم مع الوكيل أسرع، غير أنه يعمل بشكل صحيح فقط "
+"مع خوادم الوكيل المتوافقة بشكل كامل مع HTTP 1.1.  <b>لا تقم</b> باستخدام هذا "
+"الخيار مع خوادم الوكيل غير المتوافقة مع HTTP 1.1 مثل JunkBuster أو  "
+"WWWOfle.\n"
+"</qt>"
+
+#. i18n: file: kproxydlg.ui:304
+#. i18n: ectx: property (text), widget (QCheckBox, cbPersConn)
+#: rc.cpp:419
+msgid "Use persistent connections to proxy"
+msgstr "استخدم اتصالات دائمة مع الوكيل."
+
+#. i18n: file: manualproxy.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, gbServers)
+#: rc.cpp:422
+msgid "Ser&vers"
+msgstr "الخ&وادم"
+
+#. i18n: file: manualproxy.ui:79
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leHttp)
+#: rc.cpp:434
+msgid "Enter the address of the HTTP proxy server."
+msgstr "أدخل عنوان خادم الوكيل الخاص بالـHTTP"
+
+#. i18n: file: manualproxy.ui:86
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leHttps)
+#: rc.cpp:437
+msgid "Enter the address of the HTTPS proxy server."
+msgstr "أدخل عنوان خادم الوكيل الخاص بـHTTPS"
+
+#. i18n: file: manualproxy.ui:93
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leFtp)
+#: rc.cpp:440
+msgid "Enter the address of the FTP proxy server."
+msgstr "أدخل عنوان خادم الوكيل الخاص بالـFTP."
+
+#. i18n: file: manualproxy.ui:100
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, sbFtp)
+#: rc.cpp:443
+msgid ""
+"Enter the port number of the FTP proxy server. Default 8080. Another common "
+"value is 3128."
+msgstr ""
+"أدخل رقم المنفذ الخاص بخادم الوكيل الخاص بالـFTP. الرقم الافتراضي هو 8080. "
+"من الأرقام الأخرى الشائعة عادة 3128."
+
+#. i18n: file: manualproxy.ui:110
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, sbHttps)
+#. i18n: file: manualproxy.ui:126
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, sbHttp)
+#: rc.cpp:446 rc.cpp:449
+msgid ""
+"Enter the port number of the HTTP proxy server. Default is 8080. Another "
+"common value is 3128."
+msgstr ""
+"أدخل رقم المنفذ الخاص بخادم الوكيل الخاص بالـHTTP. الرقم الافتراضي هو 8080. "
+"من الأرقام الأخرى الشائعة عادة 3128."
+
+#. i18n: file: manualproxy.ui:136
+#. i18n: ectx: property (text), widget (QCheckBox, cbSameProxy)
+#: rc.cpp:452
+msgid "&Use the same proxy server for all protocols"
+msgstr "ا&ستخدم نفس خادم الوكيل لكلّ البروتوكولات"
+
+#. i18n: file: manualproxy.ui:153
+#. i18n: ectx: property (title), widget (QGroupBox, gbExceptions)
+#: rc.cpp:455
+msgid "E&xceptions"
+msgstr "الاست&ثناءات"
+
+#. i18n: file: manualproxy.ui:161
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbReverseProxy)
+#: rc.cpp:458
+msgid ""
+"<qt>\n"
+"Reverse the use of the exception list. Checking this box will result in the "
+"proxy servers being used only when the requested URL matches one of the "
+"addresses listed here.<p>This feature is useful if all you want or need is "
+"to use a proxy server  for a few specific sites.<p>If you have more complex "
+"requirements you might want to use a configuration script.\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"عكس استخدام قائمة الاستثناءات. وضع علامة على المربع سيجعل استخدام خوادم "
+"الوكيل قاصراً فقط على عناوين الـ URL التي تتطابق مع تلك الموجودة في هذه "
+"القائمة. <p>هذه الميزة مفيدة إذا كان كل ما تريده أو تحتاجه هو استخدام خادم "
+"الوكيل مع مواقع محدّدة قليلة العدد. <p>ربما ترغب باستخدام مخطوط تشكيل إذا كان "
+"لديك متطلبات معقدة.\n"
+"</qt>"
+
+#. i18n: file: manualproxy.ui:164
+#. i18n: ectx: property (text), widget (QCheckBox, cbReverseProxy)
+#: rc.cpp:463
+msgid "Use proxy only for entries in this list"
+msgstr "استخدم الوكيل فقط مع الخانات الموجودة في هذه القائمة"
+
+#. i18n: file: manualproxy.ui:188
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pbDeleteAll)
+#: rc.cpp:466
+msgid "Remove all proxy exception addresses from the list."
+msgstr "أزل جميع عناوين إستثناء الوكيل من القائمة."
+
+#. i18n: file: manualproxy.ui:191
+#. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
+#: rc.cpp:469
+msgid "D&elete All"
+msgstr "ا&حذف الكل"
+
+#. i18n: file: manualproxy.ui:201
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pbDelete)
+#: rc.cpp:472
+msgid "Remove the selected proxy exception address from the list."
+msgstr "أزل عنوان استثناء وكيل مُحدد من القائمة."
+
+#. i18n: file: manualproxy.ui:204
+#. i18n: ectx: property (text), widget (QPushButton, pbDelete)
+#: rc.cpp:475
+msgid "De&lete"
+msgstr "ا&حذف"
+
+#. i18n: file: manualproxy.ui:211
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pbNew)
+#: rc.cpp:478
+msgid "Add new proxy exception address to the list."
+msgstr "أضف عنوان استثناء  وكيل إلى القائمة."
+
+#. i18n: file: manualproxy.ui:224
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pbChange)
+#: rc.cpp:484
+msgid "Change the selected proxy exception address."
+msgstr "غيّر عنوان إستثناء الوكيل المُحدد."
+
+#. i18n: file: manualproxy.ui:227
+#. i18n: ectx: property (text), widget (QPushButton, pbChange)
+#: rc.cpp:487
+msgid "C&hange..."
+msgstr "غ&يّر..."
+
+#. i18n: file: policydlg.ui:18
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbDomain)
+#. i18n: file: policydlg.ui:36
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leDomain)
+#: rc.cpp:490 rc.cpp:498
+msgid ""
+"<qt>\n"
+"Enter the host or domain to which this policy applies, e.g. <b>www.kde.org</"
+"b> or <b>.kde.org</b>.\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"أدخل اسم المضيف أو المجال الذي ترغب في تطبيق طريقة السياسة معه. مثلاً <b>www."
+"kde.org</b> أو <b>.kde.org</b>\n"
+"</qt>"
+
+#. i18n: file: policydlg.ui:21
+#. i18n: ectx: property (text), widget (QLabel, lbDomain)
+#: rc.cpp:495
+msgid "&Domain name:"
+msgstr "اسم الم&جال:"
+
+#. i18n: file: policydlg.ui:50
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbPolicy)
+#. i18n: file: policydlg.ui:73
+#. i18n: ectx: property (whatsThis), widget (KComboBox, cbPolicy)
+#: rc.cpp:503 rc.cpp:516
+msgid ""
+"<qt>\n"
+"Select the desired policy:\n"
+"<ul>\n"
+"<li><b>Accept</b> - Allows this site to set cookies</li>\n"
+"<li><b>Reject</b> - Refuse all cookies sent from this site</li>\n"
+"<li><b>Ask</b> - Prompt when cookies are received from this site</li>\n"
+"</ul>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"اختر السياسة التي ترغب بها:\n"
+"<ul>\n"
+"<li><b>اقبل</b> - السماح لهذا الموقع بتعيين الكعكات</li>\n"
+"<li><b>ارفض</b> - رفض جميع الكعكات التي يرسلها هذا الموقع</li>\n"
+"<li><b>اسأل أولاً</b> - السؤال كلما يتم استقبال الكعكات من هذا الموقع</li>\n"
+"</ul>\n"
+"</qt>"
+
+#. i18n: file: policydlg.ui:53
+#. i18n: ectx: property (text), widget (QLabel, lbPolicy)
+#: rc.cpp:513
+msgid "&Policy:"
+msgstr "&السياسة:"
+
+#. i18n: file: policydlg.ui:77
+#. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
+#: rc.cpp:526
+msgid "Accept"
+msgstr "اقبل"
+
+#. i18n: file: policydlg.ui:82
+#. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
+#: rc.cpp:529
+msgid "Reject"
+msgstr "ارفض"
+
+#. i18n: file: policydlg.ui:87
+#. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
+#: rc.cpp:532
+msgid "Ask"
+msgstr "اسأل أولاً"
+
+#. i18n: file: useragentdlg.ui:16
+#. i18n: ectx: property (whatsThis), widget (QWidget, UserAgentUI)
+#: rc.cpp:535
+msgid ""
+"<qt>\n"
+"Here you can modify the default browser-identification text or set a site "
+"<code>(eg. www.kde.org)</code> or a domain <code>(eg. kde.org)</code> "
+"specific identification text.<p>\n"
+"To add a new site-specific identification text, click the <code>New</code> "
+"button and supply the necessary information. To change an existing site-"
+"specific entry, click on the <code>Change</code> button. The <code>Delete</"
+"code> button will remove the selected site-specific identification text, "
+"causing the default setting to be used for that site or domain.\n"
+"</qt>"
+msgstr ""
+
+#. i18n: file: useragentdlg.ui:26
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, sendUACheckBox)
+#: rc.cpp:541
+msgid ""
+"<qt>\n"
+"Send the browser identification to web sites.<p>\n"
+"<u>NOTE:</u> Many sites rely on this information to display pages properly, "
+"hence, it is highly recommended that you do not totally disable this feature "
+"but rather customize it.<p>\n"
+"By default, only minimal identification information is sent to remote sites. "
+"The identification text that will be sent is shown below.\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"تفعيل/إيقاف إرسال تعريف المتصفح أثناء تصفح المواقع.<P>\n"
+"<u>ملاحظة:</u> تعتمد الكثير من المواقع على هذه المعلومات لعرض الصفحات بشكل "
+"صحيح، فلذلك من المحبذ جداً ألا توقف هذه الميزة تماماً ولكن تخصيصها.<P>\n"
+" افتراضياً، يتم إرسال أقل قدر ممكن من معلومات التعريف إلى المواقع. يظهر "
+"بالأسفل نص التعريف الذي سيتم إرساله . </qt>"
+
+#. i18n: file: useragentdlg.ui:29
+#. i18n: ectx: property (text), widget (QCheckBox, sendUACheckBox)
+#: rc.cpp:548
+msgid "&Send identification"
+msgstr "ا&رسل التعريف"
+
+#. i18n: file: useragentdlg.ui:42
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, defaultIdGroupBox)
+#: rc.cpp:551
+msgid ""
+"The browser identification text sent to the sites you visit. Use the "
+"provided options to customize it."
+msgstr ""
+"نص تعريف المتصفح المرسل للمواقع التي تقوم بزيارتها. استخدم الخيارات المتاحة "
+"لتخصيصه."
+
+#. i18n: file: useragentdlg.ui:45
+#. i18n: ectx: property (title), widget (QGroupBox, defaultIdGroupBox)
+#: rc.cpp:554
+msgid "Default Identification"
+msgstr "التعريف الافتراضي"
+
+#. i18n: file: useragentdlg.ui:57
+#. i18n: ectx: property (whatsThis), widget (KSqueezedTextLabel, defaultIdLineEdit)
+#: rc.cpp:557
+msgid ""
+"The browser identification text sent to the sites you visit. You can "
+"customize it using the options provided below."
+msgstr ""
+"التعريف الافتراضي الذي يرسل للمواقع أثناء التصفح. يمكنك تخصيصه باستخدام "
+"الخيارات بأسفل."
+
+#. i18n: file: useragentdlg.ui:70
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, osNameCheckBox)
+#: rc.cpp:561
+msgid ""
+"Includes your operating system's name in the browser identification text."
+msgstr "إضافة اسم نظام التشغيل الخاص بك لنص تعرّيف المتصفح."
+
+#. i18n: file: useragentdlg.ui:73
+#. i18n: ectx: property (text), widget (QCheckBox, osNameCheckBox)
+#: rc.cpp:564
+msgid "Add operating s&ystem name"
+msgstr "أضف اسم ن&ظام تشغيل"
+
+#. i18n: file: useragentdlg.ui:101
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, osVersionCheckBox)
+#: rc.cpp:567
+msgid ""
+"Includes your operating system's version number in the browser "
+"identification text."
+msgstr "إضافة رقم إصدار نظام التشغيل الخاص بك لنص تعرّيف المتصفح."
+
+#. i18n: file: useragentdlg.ui:104
+#. i18n: ectx: property (text), widget (QCheckBox, osVersionCheckBox)
+#: rc.cpp:570
+msgid "Add operating system &version"
+msgstr "أضف إ&صدار نظام تشغيل "
+
+#. i18n: file: useragentdlg.ui:113
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, platformCheckBox)
+#: rc.cpp:573
+msgid "Includes your platform type in the browser identification text"
+msgstr "إضافة نوع المنصة الخاصة بك لنص تعرّيف المتصفح"
+
+#. i18n: file: useragentdlg.ui:116
+#. i18n: ectx: property (text), widget (QCheckBox, platformCheckBox)
+#: rc.cpp:576
+msgid "Add &platform name"
+msgstr "أضف اسم م&نصة"
+
+#. i18n: file: useragentdlg.ui:123
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, processorTypeCheckBox)
+#: rc.cpp:579
+msgid "Includes your machine's CPU type in the browser identification text."
+msgstr "إضافة نوع معالج الجهاز الخاص بك لنص تعرّيف المتصفح."
+
+#. i18n: file: useragentdlg.ui:126
+#. i18n: ectx: property (text), widget (QCheckBox, processorTypeCheckBox)
+#: rc.cpp:582
+msgid "Add &machine (processor) type"
+msgstr "أضف نوع &جهاز (معالج)"
+
+#. i18n: file: useragentdlg.ui:133
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, languageCheckBox)
+#: rc.cpp:585
+msgid ""
+"Includes your language settings in the browser identification text to obtain "
+"localized versions of the page."
+msgstr ""
+"تضيف إعدادات لغتك في نص تعريف المتصفح حتى تجلب الإصدارة المحلية من الصفحة."
+
+#. i18n: file: useragentdlg.ui:136
+#. i18n: ectx: property (text), widget (QCheckBox, languageCheckBox)
+#: rc.cpp:588
+msgid "Add lang&uage information"
+msgstr "أضف معلومات الل&غة"
+
+#. i18n: file: useragentdlg.ui:149
+#. i18n: ectx: property (title), widget (QGroupBox, domainPolicyGroupBox)
+#: rc.cpp:591
+msgid "Site Specific Identification"
+msgstr "تعريف محدّد للموقع"
+
+#. i18n: file: useragentdlg.ui:162
+#. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
+#: rc.cpp:594
+msgid "Site Name"
+msgstr "اسم الموقع"
+
+#. i18n: file: useragentdlg.ui:167
+#. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
+#: rc.cpp:597
+msgid "Identification"
+msgstr "التعريف"
+
+#. i18n: file: useragentdlg.ui:172
+#. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
+#: rc.cpp:600
+msgid "User Agent"
+msgstr "مفوّض المستخدم"
+
+#. i18n: file: useragentdlg.ui:185
+#. i18n: ectx: property (whatsThis), widget (KPushButton, newButton)
+#: rc.cpp:603
+msgid "Add new identification text for a site."
+msgstr "أضف نص تعريف جديد لموقع معين."
+
+#. i18n: file: useragentdlg.ui:195
+#. i18n: ectx: property (whatsThis), widget (KPushButton, changeButton)
+#: rc.cpp:609
+msgid "Change the selected identifier text."
+msgstr "غيّر نص التعريف المنتقى."
+
+#. i18n: file: useragentdlg.ui:205
+#. i18n: ectx: property (whatsThis), widget (KPushButton, deleteButton)
+#: rc.cpp:615
+msgid "Delete the selected identifier text."
+msgstr "احذف نص التعريف المنتقى."
+
+#. i18n: file: useragentdlg.ui:215
+#. i18n: ectx: property (whatsThis), widget (KPushButton, deleteAllButton)
+#: rc.cpp:621
+msgid "Delete all identifiers."
+msgstr "احذف كلّ التعريفات."
+
+#. i18n: file: useragentselectordlg.ui:19
+#. i18n: ectx: property (whatsThis), widget (QLabel, siteLabel)
+#. i18n: file: useragentselectordlg.ui:38
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, siteLineEdit)
+#: rc.cpp:627 rc.cpp:636
+msgid ""
+"<qt>\n"
+"Enter the site or domain name where a fake browser identification should be "
+"used.<p>\n"
+"<u>NOTE:</u> Wildcard syntax such as \\\"*,?\\\" is NOT allowed: instead, "
+"use the top level address of a site to make generic matches; for example, if "
+"you want all KDE sites to receive a fake browser identification, you would "
+"enter <code>.kde.org</code> - the fake identity would then be sent to any "
+"KDE site that ends with <code>kde.org</code>.\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"أدخل اسم الموقع أو المجال الذي سيستخدم فيه تعريف وهمي. <p>\n"
+"<u>ملاحظة: </u> أحرف البدل مثل \\\"*,?\\\" غير مسموح باستخدامها. بدلاً من ذلك "
+"قم بإدخال عنوان المستوى الأعلى للموقع لعمل مطابقة عامة لكل المواقع الموجودة "
+"تحته. على سبيل المثال، إذا إردت أن تستقبل كل مواقع كدي تعريفاً وهمياً، قم "
+"بإدخال <code>.kde.org</code>.  عندها يرسل التعريف الوهمي لأي موقع كدي ينتهي "
+"بـ  <code>kde.org</code>.\n"
+"</qt>"
+
+#. i18n: file: useragentselectordlg.ui:22
+#. i18n: ectx: property (text), widget (QLabel, siteLabel)
+#: rc.cpp:633
+msgid "&When browsing the following site:"
+msgstr "حين تصفح ال&موقع التالي:"
+
+#. i18n: file: useragentselectordlg.ui:47
+#. i18n: ectx: property (whatsThis), widget (QLabel, aliasLabel)
+#. i18n: file: useragentselectordlg.ui:65
+#. i18n: ectx: property (whatsThis), widget (KComboBox, aliasComboBox)
+#: rc.cpp:642 rc.cpp:650
+msgid ""
+"<qt>\n"
+"Select the browser identification to use whenever contacting the site you "
+"specified above.\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"اختر تعريف المتصفح المستخدم عند الاتصال بالموقع المُحدد أعلاه.\n"
+"</qt>"
+
+#. i18n: file: useragentselectordlg.ui:50
+#. i18n: ectx: property (text), widget (QLabel, aliasLabel)
+#: rc.cpp:647
+msgid "&Use the following identification:"
+msgstr "استخدم ال&تعريف التالي:"
+
+#. i18n: file: useragentselectordlg.ui:74
+#. i18n: ectx: property (whatsThis), widget (QLabel, identityLabel)
+#. i18n: file: useragentselectordlg.ui:89
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, identityLineEdit)
+#: rc.cpp:655 rc.cpp:663
+msgid ""
+"<qt>\n"
+"The actual browser identification text that will be sent to the remote "
+"machine.\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"نص تعريف المتصفح الذي سيتم إرساله للجهاز البعيد.\n"
+"</qt>"
+
+#. i18n: file: useragentselectordlg.ui:77
+#. i18n: ectx: property (text), widget (QLabel, identityLabel)
+#: rc.cpp:660
+msgid "Real identification:"
+msgstr "التعريف الحقيقي:"
+
+#: smbrodlg.cpp:48
+msgid "These settings apply to network browsing only."
+msgstr "هذه الإعدادات تطبق للتصفح الشبكة فقط"
+
+#: smbrodlg.cpp:52
+msgid "Default user name:"
+msgstr "اسم المستخدم الافتراضي:"
+
+#: smbrodlg.cpp:60
+msgid "Default password:"
+msgstr "كلمة السر الافتراضية"
+
+#: smbrodlg.cpp:179
+msgid ""
+"<p><h1>Windows Shares</h1>Konqueror is able to access shared Microsoft "
+"Windows file systems, if properly configured. If there is a specific "
+"computer from which you want to browse, fill in the <em>Browse server</em> "
+"field. This is mandatory if you are not running Samba locally. The "
+"<em>Broadcast address</em> and <em>WINS address</em> fields will also be "
+"available, if you use the native code, or the location of the 'smb.conf' "
+"file from which the options are read, when using Samba. In any case, the "
+"broadcast address (interfaces in smb.conf) must be set up if it is guessed "
+"incorrectly or you have multiple cards. A WINS server usually improves "
+"performance, and reduces the network load a lot.</p><p>The bindings are used "
+"to assign a default user for a given server, possibly with the corresponding "
+"password, or for accessing specific shares. If you choose to, new bindings "
+"will be created for logins and shares accessed during browsing. You can edit "
+"all of them from here. Passwords will be stored locally, and scrambled so as "
+"to render them unreadable to the human eye. For security reasons, you may "
+"not want to do that, as entries with passwords are clearly indicated as such."
+"</p>"
+msgstr ""
+
+#: useragentdlg.cpp:80
+msgid "Add Identification"
+msgstr "أضف التعريف"
+
+#: useragentdlg.cpp:154
+msgid "Modify Identification"
+msgstr "عدّل التعريف"
+
+#: useragentdlg.cpp:209
+#, kde-format
+msgid ""
+"<qt><center>Found an existing identification for<br/><b>%1</b><br/>Do you "
+"want to replace it?</center></qt>"
+msgstr ""
+"<qt><center>تم إيجاد تعريف موجود لـ<br/><b>%1</b> <br/>  هل تريد استبداله؟</"
+"center></qt>"
+
+#: useragentdlg.cpp:214
+msgid "Duplicate Identification"
+msgstr "تعريف مكرر"
+
+#: useragentdlg.cpp:396
+msgid ""
+"<p><h1>Browser Identification</h1> The browser-identification module allows "
+"you to have full control over how Konqueror will identify itself to web "
+"sites you browse.</p><p>This ability to fake identification is necessary "
+"because some web sites do not display properly when they detect that they "
+"are not talking to current versions of either Netscape Navigator or Internet "
+"Explorer, even if the browser actually supports all the necessary features "
+"to render those pages properly. For such sites, you can use this feature to "
+"try to browse them. Please understand that this might not always work, since "
+"such sites might be using non-standard web protocols and or specifications.</"
+"p><p><u>NOTE:</u> To obtain specific help on a particular section of the "
+"dialog box, simply click on the quick help button on the window title bar, "
+"then click on the section for which you are seeking help.</p>"
+msgstr ""

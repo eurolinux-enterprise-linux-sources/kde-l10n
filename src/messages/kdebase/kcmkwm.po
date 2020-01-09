@@ -1,0 +1,954 @@
+# translation of kcmkwm.po to Arabic
+# translation of kcmkwm.po to
+# Copyright (C) 2002, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2001,2002.
+# Ammar Tabbaa <atabba@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkwm\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-06 12:09+0200\n"
+"PO-Revision-Date: 2009-07-08 14:31+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"X-Poedit-Language: Arabic\n"
+
+#: main.cpp:82
+msgid "&Focus"
+msgstr "التر&كيز"
+
+#: main.cpp:88 main.cpp:200
+msgid "&Titlebar Actions"
+msgstr "إج&راءات شريط العنوان"
+
+#: main.cpp:94 main.cpp:206
+msgid "Window Actio&ns"
+msgstr "اج&راءات النوافذ"
+
+#: main.cpp:100
+msgid "&Moving"
+msgstr "ت&حريك"
+
+#: main.cpp:106
+msgid "Ad&vanced"
+msgstr "م&تقدم"
+
+#: main.cpp:110
+msgid "kcmkwinoptions"
+msgstr "kcmkwinoptions"
+
+#: main.cpp:110
+msgid "Window Behavior Configuration Module"
+msgstr "وحدة تشكيل سلوك النوافذ"
+
+#: main.cpp:112
+msgid "(c) 1997 - 2002 KWin and KControl Authors"
+msgstr "(c) 1997 - 2002 KWin and KControl مؤلفو"
+
+#: main.cpp:114
+msgid "Matthias Ettrich"
+msgstr "Matthias Ettrich"
+
+#: main.cpp:115
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: main.cpp:116
+msgid "Cristian Tibirna"
+msgstr "Cristian Tibirna"
+
+#: main.cpp:117
+msgid "Matthias Kalle Dalheimer"
+msgstr "Matthias Kalle Dalheimer"
+
+#: main.cpp:118
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: main.cpp:119
+msgid "Wynn Wilkes"
+msgstr "Wynn Wilkes"
+
+#: main.cpp:120
+msgid "Pat Dowler"
+msgstr "Pat Dowler"
+
+#: main.cpp:121
+msgid "Bernd Wuebben"
+msgstr "Bernd Wuebben"
+
+#: main.cpp:122
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:174
+msgid ""
+"<p><h1>Window Behavior</h1> Here you can customize the way windows behave "
+"when being moved, resized or clicked on. You can also specify a focus policy "
+"as well as a placement policy for new windows.</p> <p>Please note that this "
+"configuration will not take effect if you do not use KWin as your window "
+"manager. If you do use a different window manager, please refer to its "
+"documentation for how to customize window behavior.</p>"
+msgstr ""
+"<p><h1>سلوك النافذة</h1>هنا يمكنك تخصيص كيف تتصرف النافذة عندما تحرك أو تحجم "
+"أو ينقر عليها ، كذلك تستطيع أن تحدد سياسة التركيز و سياسة مكان النوافذ "
+"الجديدة.</p> <p>الرجاء ملاحظة أن هذه الإعدادات لن تدخل في حيز التنفيذ إذا لم "
+"تستعمل كوِن كمدير نوافذك ، إذا كنت تستخدم مدير نوافذ مختلف فراجع وثائقه "
+"لتعريف كيف يمكن تخصيصه.</p>"
+
+#: mouse.cpp:159
+msgid "Maximize"
+msgstr "كبّر"
+
+#: mouse.cpp:160
+msgid "Maximize (vertical only)"
+msgstr "كبّر (عامودي فقط)"
+
+#: mouse.cpp:161
+msgid "Maximize (horizontal only)"
+msgstr "كبّر (أفقي فقط)"
+
+#: mouse.cpp:162 mouse.cpp:808
+msgid "Minimize"
+msgstr "صغّر"
+
+#: mouse.cpp:163 mouse.cpp:281 mouse.cpp:319
+msgid "Shade"
+msgstr "ظلّل"
+
+#: mouse.cpp:164 mouse.cpp:256 mouse.cpp:277 mouse.cpp:322 mouse.cpp:807
+msgid "Lower"
+msgstr "أقل"
+
+#: mouse.cpp:165
+msgid "On All Desktops"
+msgstr "على كلّ أسطح المكتب"
+
+#: mouse.cpp:166 mouse.cpp:188 mouse.cpp:259 mouse.cpp:280 mouse.cpp:323
+#: mouse.cpp:809 mouse.cpp:856
+msgid "Nothing"
+msgstr "لا شيء "
+
+#: mouse.cpp:170
+msgid "Behavior on <em>double</em> click into the titlebar."
+msgstr "السلوك عند النقر <em>المزدوج</em> في شريط العنوان."
+
+#: mouse.cpp:173
+msgid "&Titlebar double-click:"
+msgstr "النقر ال&مزدوج على شريط العنوان:"
+
+#: mouse.cpp:182 mouse.cpp:850
+msgid "Raise/Lower"
+msgstr "ارفع/اخفض"
+
+#: mouse.cpp:183 mouse.cpp:851
+msgid "Shade/Unshade"
+msgstr "ظلّل/لا تظلّل"
+
+#: mouse.cpp:184 mouse.cpp:852
+msgid "Maximize/Restore"
+msgstr "كبّر/استعد"
+
+#: mouse.cpp:185 mouse.cpp:853
+msgid "Keep Above/Below"
+msgstr "ابقِ أعلى/أسفل"
+
+#: mouse.cpp:186 mouse.cpp:854
+msgid "Move to Previous/Next Desktop"
+msgstr "انقل للسابق/سطح المكتب التالي"
+
+#: mouse.cpp:187 mouse.cpp:855
+msgid "Change Opacity"
+msgstr "غيّر العتمة"
+
+#: mouse.cpp:192
+msgid "Handle mouse wheel events"
+msgstr "تدبّر أحداث عجلة الفأرة"
+
+#: mouse.cpp:195
+msgid "Titlebar wheel event:"
+msgstr "حدث العجلة على شريط العنوان:"
+
+#: mouse.cpp:203
+msgid "Titlebar && Frame"
+msgstr "شريط العنوان و الإ&طار"
+
+#: mouse.cpp:206
+msgid ""
+"Here you can customize mouse click behavior when clicking on the titlebar or "
+"the frame of a window."
+msgstr ""
+"هنا، يمكنك تخصيص سلوك نقرات الفأرة عند النقر على شريط العنوان أو الإطار لأية "
+"نافذة."
+
+#: mouse.cpp:214 mouse.cpp:362 mouse.cpp:648 mouse.cpp:766
+msgid "Left button:"
+msgstr "الزر الأيسر:"
+
+#: mouse.cpp:215 mouse.cpp:649 mouse.cpp:767
+msgid ""
+"In this row you can customize left click behavior when clicking into the "
+"titlebar or the frame."
+msgstr ""
+"في هذا الصف، يمكنك تخصيص سلوك النقر  بالزر الأيسر عند النقر في شريط العنوان "
+"أو الإطار."
+
+#: mouse.cpp:218 mouse.cpp:364 mouse.cpp:656 mouse.cpp:774
+msgid "Right button:"
+msgstr "الزر الأيمن:"
+
+#: mouse.cpp:219 mouse.cpp:657 mouse.cpp:775
+msgid ""
+"In this row you can customize right click behavior when clicking into the "
+"titlebar or the frame."
+msgstr ""
+"في هذا الصف، يمكنك تخصيص سلوك النقر بالزر الأيمن عند النقر في شريط العنوان "
+"أو الإطار."
+
+#: mouse.cpp:233 mouse.cpp:363 mouse.cpp:652 mouse.cpp:770
+msgid "Middle button:"
+msgstr "الزر الأوسط:"
+
+#: mouse.cpp:236 mouse.cpp:653 mouse.cpp:771
+msgid ""
+"In this row you can customize middle click behavior when clicking into the "
+"titlebar or the frame."
+msgstr ""
+"في هذا الصف، يمكنك تخصيص سلوك النقر بالزر الأوسط عند النقر في شريط العنوان "
+"أو الإطار."
+
+#: mouse.cpp:245
+msgid "Active"
+msgstr "نشِط"
+
+#: mouse.cpp:248
+msgid ""
+"In this column you can customize mouse clicks into the titlebar or the frame "
+"of an active window."
+msgstr ""
+"في هذا العمود، يمكنك تخصيص نقرات الفأرة في شريط العنوان أو الإطار لنافذة "
+"نشِطة."
+
+#: mouse.cpp:255 mouse.cpp:276 mouse.cpp:321 mouse.cpp:806
+msgid "Raise"
+msgstr "ارفع"
+
+#: mouse.cpp:257 mouse.cpp:278 mouse.cpp:320
+msgid "Operations Menu"
+msgstr "قائمة العمليات"
+
+#: mouse.cpp:258 mouse.cpp:279 mouse.cpp:804
+msgid "Toggle Raise & Lower"
+msgstr "بدّل الرفع و الخفض"
+
+#: mouse.cpp:263
+msgid ""
+"Behavior on <em>left</em> click into the titlebar or frame of an <em>active</"
+"em> window."
+msgstr ""
+"السلوك عند النقر بالزر <em>الأيسر</em> في شريط العنوان أو إطار نافذة "
+"<em>نشِطة</em>."
+
+#: mouse.cpp:266
+msgid ""
+"Behavior on <em>right</em> click into the titlebar or frame of an "
+"<em>active</em> window."
+msgstr ""
+"السلوك عند النقر بالزر <em>الأيمن</em> في شريط العنوان أو إطار نافذة "
+"<em>نشِطة</em>."
+
+#: mouse.cpp:289
+msgid ""
+"Behavior on <em>middle</em> click into the titlebar or frame of an "
+"<em>active</em> window."
+msgstr ""
+"السلوك عند النقر بالزر <em>الأوسط</em> في شريط العنوان أو إطار نافذة "
+"<em>نشِطة</em>."
+
+#: mouse.cpp:300
+msgid ""
+"Behavior on <em>left</em> click into the titlebar or frame of an "
+"<em>inactive</em> window."
+msgstr ""
+"السلوك عند النقر بالزر <em>الأيسر</em> في شريط العنوان أو إطار نافذة "
+"<em>خاملة</em>."
+
+#: mouse.cpp:303
+msgid ""
+"Behavior on <em>right</em> click into the titlebar or frame of an "
+"<em>inactive</em> window."
+msgstr ""
+"السلوك عند النقر بالزر <em>الأيمن</em> في شريط العنوان أو إطار نافذة "
+"<em>خاملة</em>."
+
+#: mouse.cpp:309
+msgid "Inactive"
+msgstr "خامل"
+
+#: mouse.cpp:312
+msgid ""
+"In this column you can customize mouse clicks into the titlebar or the frame "
+"of an inactive window."
+msgstr ""
+"في هذا العمود، يمكنك تخصيص نقرات الفأرة في شريط العنوان أو الإطار لنافذة "
+"خاملة."
+
+#: mouse.cpp:316 mouse.cpp:687
+msgid "Activate & Raise"
+msgstr "نشّط و ارفع"
+
+#: mouse.cpp:317
+msgid "Activate & Lower"
+msgstr "نشّط و اخفض"
+
+#: mouse.cpp:318 mouse.cpp:686
+msgid "Activate"
+msgstr "نشّط"
+
+#: mouse.cpp:339
+msgid ""
+"Behavior on <em>middle</em> click into the titlebar or frame of an "
+"<em>inactive</em> window."
+msgstr ""
+"السلوك عند النقر بالزر <em>الأوسط</em> في شريط العنوان أو إطار نافذة "
+"<em>خاملة</em>."
+
+#: mouse.cpp:351
+msgid "Maximize Button"
+msgstr "زر التكبير"
+
+#: mouse.cpp:355
+msgid "Here you can customize behavior when clicking on the maximize button."
+msgstr "هنا، يمكنك تخصيص السلوك عند النقر على زر التكبير"
+
+#: mouse.cpp:367
+msgid "Behavior on <em>left</em> click onto the maximize button."
+msgstr "السلوك عند النقر <em>الأيسر</em> في زر التكبير."
+
+#: mouse.cpp:368
+msgid "Behavior on <em>middle</em> click onto the maximize button."
+msgstr "السلوك عند النقر <em>الأوسط</em> في زر التكبير."
+
+#: mouse.cpp:369
+msgid "Behavior on <em>right</em> click onto the maximize button."
+msgstr "السلوك عند النقر <em>الأيمن</em> في زر التكبير."
+
+#: mouse.cpp:638
+msgid "Inactive Inner Window"
+msgstr "نافذة داخلية خاملة"
+
+#: mouse.cpp:641
+msgid ""
+"Here you can customize mouse click behavior when clicking on an inactive "
+"inner window ('inner' means: not titlebar, not frame)."
+msgstr ""
+"هنا يمكنك تخصيص سلوك نقرات الفأرة عند النقر على نافذة داخلية خاملة ('داخلية' "
+"تعني: ليس إطار النافذة ولا شريط العنوان)."
+
+#: mouse.cpp:660
+msgid "Wheel"
+msgstr "العجلة"
+
+#: mouse.cpp:668
+msgid ""
+"In this row you can customize left click behavior when clicking into an "
+"inactive inner window ('inner' means: not titlebar, not frame)."
+msgstr ""
+"في هذا الصف، يمكنك تخصيص سلوك النقر بالزر الأيسر عند النقر في نافذة داخلية "
+"خاملة ('داخلية' تعني: ليس إطار النافذة ولا شريط العنوان)."
+
+#: mouse.cpp:671
+msgid ""
+"In this row you can customize middle click behavior when clicking into an "
+"inactive inner window ('inner' means: not titlebar, not frame)."
+msgstr ""
+"في هذا الصف، يمكنك تخصيص سلوك النقر بالزر الأوسط عند النقر في نافذة داخلية "
+"خاملة ('داخلية' تعني: ليس إطار النافذة ولا شريط العنوان)."
+
+#: mouse.cpp:674
+msgid ""
+"In this row you can customize right click behavior when clicking into an "
+"inactive inner window ('inner' means: not titlebar, not frame)."
+msgstr ""
+"في هذا الصف، يمكنك تخصيص سلوك النقر بالزر الأيمن عند النقر في نافذة داخلية "
+"خاملة ('داخلية' تعني: ليس إطار النافذة ولا شريط العنوان)."
+
+#: mouse.cpp:677
+msgid ""
+"In this row you can customize behavior when scrolling into an inactive inner "
+"window ('inner' means: not titlebar, not frame)."
+msgstr ""
+"في هذا الصف، يمكنك تخصيص سلوك التمرير في نافذة داخلية خاملة ('داخلية' تعني: "
+"ليس إطار النافذة ولا شريط العنوان)."
+
+#: mouse.cpp:684
+msgid "Activate, Raise & Pass Click"
+msgstr "نشّط، ارفع و مرّر النقرة"
+
+#: mouse.cpp:685
+msgid "Activate & Pass Click"
+msgstr "نشّط و مرّر النقرة"
+
+#: mouse.cpp:726
+msgid "Scroll"
+msgstr "التمرير"
+
+#: mouse.cpp:727
+msgid "Activate & Scroll"
+msgstr "نشّط و مرر"
+
+#: mouse.cpp:728
+msgid "Activate, Raise & Scroll"
+msgstr "نشّط و ارفع و مرر"
+
+#: mouse.cpp:747
+msgid "Inner Window, Titlebar && Frame"
+msgstr "النافذة الداخلية، شريط العنوان و الإ&طار"
+
+#: mouse.cpp:750
+msgid ""
+"Here you can customize KDE's behavior when clicking somewhere into a window "
+"while pressing a modifier key."
+msgstr ""
+"هنا يمكنك تخصيص سلوك كدي عند النقر في مكان في النافذة أثناء الضغط على مفتاح "
+"مغيير."
+
+#: mouse.cpp:786
+msgid "Meta"
+msgstr "Meta"
+
+#: mouse.cpp:787
+msgid "Alt"
+msgstr "Alt"
+
+#: mouse.cpp:790
+msgid ""
+"Here you select whether holding the Meta key or Alt key will allow you to "
+"perform the following actions."
+msgstr ""
+"هنا يمكنك انتقاء ما إذا كان الضغط على مفتاح Meta أو Alt سوف يسمح لك بالقيام "
+"بالإجراءات التالية."
+
+#: mouse.cpp:793
+msgid "Modifier key:"
+msgstr "مفتاح مغيير:"
+
+#: mouse.cpp:802
+msgid "Move"
+msgstr "انقل"
+
+#: mouse.cpp:803
+msgid "Activate, Raise and Move"
+msgstr "نشّط و ارفع وحرّك"
+
+#: mouse.cpp:805
+msgid "Resize"
+msgstr "أعد التحجيم"
+
+#: mouse.cpp:859
+msgid ""
+"Here you can customize KDE's behavior when scrolling with the mouse wheel in "
+"a window while pressing the modifier key."
+msgstr ""
+"هنا يمكنك تخصيص سلوك الكيدي عند التمرير بواسطة عجلة الفأرة في النافذة أثناء "
+"الضغط على مفتاح مغيير."
+
+#: mouse.cpp:862
+msgid "Mouse wheel:"
+msgstr "عجلة الفأرة:"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد,زايد السعيدي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr,zayed.alsaidi@gmail.com"
+
+#: windows.cpp:121
+msgctxt "Focus Stealing Prevention Level"
+msgid "None"
+msgstr "بدون"
+
+#: windows.cpp:122
+msgctxt "Focus Stealing Prevention Level"
+msgid "Low"
+msgstr "منخفض"
+
+#: windows.cpp:123
+msgctxt "Focus Stealing Prevention Level"
+msgid "Normal"
+msgstr "عادي"
+
+#: windows.cpp:124
+msgctxt "Focus Stealing Prevention Level"
+msgid "High"
+msgstr "عالي"
+
+#: windows.cpp:125
+msgctxt "Focus Stealing Prevention Level"
+msgid "Extreme"
+msgstr "عالي جداً"
+
+#: windows.cpp:126
+msgid ""
+"<p>This option specifies how much KWin will try to prevent unwanted focus "
+"stealing caused by unexpected activation of new windows. (Note: This feature "
+"does not work with the Focus Under Mouse or Focus Strictly Under Mouse focus "
+"policies.)<ul><li><em>None:</em> Prevention is turned off and new windows "
+"always become activated.</li><li><em>Low:</em> Prevention is enabled; when "
+"some window does not have support for the underlying mechanism and KWin "
+"cannot reliably decide whether to activate the window or not, it will be "
+"activated. This setting may have both worse and better results than normal "
+"level, depending on the applications.</li><li><em>Normal:</em> Prevention is "
+"enabled.</li><li><em>High:</em> New windows get activated only if no window "
+"is currently active or if they belong to the currently active application. "
+"This setting is probably not really usable when not using mouse focus policy."
+"</li><li><em>Extreme:</em> All windows must be explicitly activated by the "
+"user.</li></ul></p><p>Windows that are prevented from stealing focus are "
+"marked as demanding attention, which by default means their taskbar entry "
+"will be highlighted. This can be changed in the Notifications control module."
+"</p>"
+msgstr ""
+
+#: windows.cpp:148
+msgid "Focus stealing prevention level:"
+msgstr "مستوى الوقاية من غياب التركيز."
+
+#: windows.cpp:156
+msgid "Click to Focus"
+msgstr "انقر للتركيز"
+
+#: windows.cpp:157
+msgid "Focus Follows Mouse"
+msgstr "التركيز يتبع الفأرة"
+
+#: windows.cpp:158
+msgid "Focus Under Mouse"
+msgstr "التركيز تحت الفأرة"
+
+#: windows.cpp:159
+msgid "Focus Strictly Under Mouse"
+msgstr "التركيز تحت الفأرة فقط"
+
+#: windows.cpp:161
+msgid "&Policy:"
+msgstr "ال&سياسة:"
+
+#: windows.cpp:169
+msgid ""
+"The focus policy is used to determine the active window, i.e. the window you "
+"can work in. <ul> <li><em>Click to focus:</em> A window becomes active when "
+"you click into it. This is the behavior you might know from other operating "
+"systems.</li> <li><em>Focus follows mouse:</em> Moving the mouse pointer "
+"actively on to a normal window activates it. New windows will receive the "
+"focus, without you having to point the mouse at them explicitly. Very "
+"practical if you are using the mouse a lot.</li> <li><em>Focus under mouse:</"
+"em> The window that happens to be under the mouse pointer is active. If the "
+"mouse points nowhere, the last window that was under the mouse has focus. "
+"New windows will not automatically receive the focus.</li> <li><em>Focus "
+"strictly under mouse:</em> Only the window under the mouse pointer is "
+"active. If the mouse points nowhere, nothing has focus.</li> </ul>Note that "
+"'Focus under mouse' and 'Focus strictly under mouse' prevent certain "
+"features such as the Alt+Tab walk through windows dialog in the KDE mode "
+"from working properly."
+msgstr ""
+
+#: windows.cpp:198 windows.cpp:214 windows.cpp:631
+msgid " ms"
+msgstr "م.ث"
+
+#: windows.cpp:200
+msgid "&Raise, with the following delay:"
+msgstr "ا&رفع ، مع التأخير التالي:"
+
+#: windows.cpp:216
+msgid "Delay focus by:"
+msgstr "تأخير التركيز بـ:"
+
+#: windows.cpp:223
+msgid "C&lick raises active window"
+msgstr "النقر ير&فع النافذة النشطة"
+
+#: windows.cpp:227
+msgid ""
+"When this option is enabled, a window in the background will automatically "
+"come to the front when the mouse pointer has been over it for some time."
+msgstr ""
+"إذا كان هذا الخيار ممكّن، فإن أية نافذة في الخلفية سوف تنقل تلقائياً إلى "
+"الأمام عندما تضع مؤشر الفأرة فوقها لفترة من الزمن."
+
+#: windows.cpp:229
+msgid ""
+"This is the delay after which the window that the mouse pointer is over will "
+"automatically come to the front."
+msgstr ""
+"هذا هو التأخير الذي يتم بعده نقل أي نافذة التي يوجد فوقها مؤشر الفأرة "
+"تلقائياً إلى الأمام."
+
+#: windows.cpp:233
+msgid ""
+"When this option is enabled, the active window will be brought to the front "
+"when you click somewhere into the window contents. To change it for inactive "
+"windows, you need to change the settings in the Actions tab."
+msgstr ""
+"عندما يكون هذا الخيار ممكّن، فإن النافذة النشطة سوف تنقل إلى الأمام عندما "
+"تنقر على مكان ما داخل محتويات النافذة. لتغييرها للنوافذ الخاملة  تحتاج "
+"لتغيير الإعدادات في لسان الإجراءات."
+
+#: windows.cpp:238
+msgid ""
+"When this option is enabled, there will be a delay after which the window "
+"the mouse pointer is over will become active (receive focus)."
+msgstr ""
+"بعد تمكين هذا الخيار، لن تصبح النافذة نشطة إلا بعد مدة من وضع الفأرة عليها. "
+"(استقبال تركيز)"
+
+#: windows.cpp:240
+msgid ""
+"This is the delay after which the window the mouse pointer is over will "
+"automatically receive focus."
+msgstr ""
+" هذا هو التأخير الذي ستستقبل بعده النافذة التي يوجد فوقها مؤشر الفأرة التركيز"
+
+#: windows.cpp:243
+msgid "S&eparate screen focus"
+msgstr "اف&صل تركيز الشاشة"
+
+#: windows.cpp:245
+msgid ""
+"When this option is enabled, focus operations are limited only to the active "
+"Xinerama screen"
+msgstr ""
+"إذا تم تمكين هذا الخيار ، عمليات التركيز ستكون محدودة فقط في شاشة Xinerama "
+"النشطة"
+
+#: windows.cpp:248
+msgid "Active screen follows &mouse"
+msgstr "الشاشة النشطة تتبع ال&فأرة"
+
+#: windows.cpp:250
+msgid ""
+"When this option is enabled, the active Xinerama screen (where new windows "
+"appear, for example) is the screen containing the mouse pointer. When "
+"disabled, the active Xinerama screen is the  screen containing the focused "
+"window. By default this option is disabled for Click to focus and enabled "
+"for other focus policies."
+msgstr ""
+
+#: windows.cpp:270
+msgctxt "@title:group"
+msgid "Window Switching"
+msgstr "تبديل النوافذ"
+
+#: windows.cpp:273
+msgid "Show window list while switching windows"
+msgstr "أظهر لائحة النوافذ أثناء تبديل النوافذ"
+
+#: windows.cpp:276
+msgid ""
+"Hold down the Alt key and press the Tab key repeatedly to walk through the "
+"windows on the current desktop (the Alt+Tab combination can be "
+"reconfigured).\n"
+"\n"
+"If this checkbox is checked a popup widget is shown, displaying the icons of "
+"all windows to walk through and the title of the currently selected one.\n"
+"\n"
+"Otherwise, the focus is passed to a new window each time Tab is pressed, "
+"with no popup widget.  In addition, the previously activated window will be "
+"sent to the back in this mode."
+msgstr ""
+
+#: windows.cpp:289
+msgid "&Traverse windows on all desktops"
+msgstr "تنقل خلال ال&نوافذ الموجودة على كل أسطح المكتب"
+
+#: windows.cpp:292
+msgid ""
+"Leave this option disabled if you want to limit walking through windows to "
+"the current desktop."
+msgstr ""
+"اترك هذا الخيار معطلاً إذا كنت تريد تحديد التنقل خلال النوافذ إلى سطح المكتب "
+"الحالي."
+
+#: windows.cpp:297
+msgid "Desktop navi&gation wraps around"
+msgstr "تغل&يف تصفح سطح المكتب"
+
+#: windows.cpp:300
+msgid ""
+"Enable this option if you want keyboard or active desktop border navigation "
+"beyond the edge of a desktop to take you to the opposite edge of the new "
+"desktop."
+msgstr ""
+"فعّل هذا الخيار إذا أردت الانتقال إلى الحد الآخر من سطح المكتب المحاذي عندما "
+"تستعمل لوحة المفاتيح أو تصفح حافة سطح المكتب النشط  خارج الحدود."
+
+#: windows.cpp:305
+msgid "Popup desktop name on desktop &switch"
+msgstr "أظهر اسم سطح المكتب في قا&ئمة منبثقة عند تبديل سطح المكتب"
+
+#: windows.cpp:308
+msgid ""
+"Enable this option if you wish to see the current desktop name popup "
+"whenever the current desktop is changed."
+msgstr ""
+"مكّن هذا الخيار إذا كنت تريد أن ترى اسم سطح المكتب في قائمة منبثقة متى ما "
+"غيّرت سطح المكتب الحالي."
+
+#: windows.cpp:620
+msgid "Shading"
+msgstr "ظلّل"
+
+#: windows.cpp:623
+msgid "&Enable hover"
+msgstr "مكّ&ن التمرير"
+
+#: windows.cpp:633
+msgid ""
+"If Shade Hover is enabled, a shaded window will un-shade automatically when "
+"the mouse pointer has been over the title bar for some time."
+msgstr ""
+"إذا كان تمرير الظل مفعل ، فإن أي نافذة يوضع فوقها مؤشر الفأرة لفترة من الزمن "
+"سوف يزال تظليلها."
+
+#: windows.cpp:636
+msgid ""
+"Sets the time in milliseconds before the window unshades when the mouse "
+"pointer goes over the shaded window."
+msgstr ""
+"يعيّن الوقت الذي يمر بالجزء من الألف من الثانية قبل إزالة التظليل عن نافذة "
+"عند وضع مؤشر الفأرة فوقها."
+
+#: windows.cpp:640
+msgid "Dela&y:"
+msgstr "التأ&خير:"
+
+#: windows.cpp:657
+msgid "Smart"
+msgstr "ذكي"
+
+#: windows.cpp:658
+msgid "Maximizing"
+msgstr "أقصى حد"
+
+#: windows.cpp:659
+msgid "Cascade"
+msgstr "ترتيب متسلسل"
+
+#: windows.cpp:660
+msgid "Random"
+msgstr "عشوائي"
+
+#: windows.cpp:661
+msgid "Centered"
+msgstr "في الوسط"
+
+#: windows.cpp:662
+msgid "Zero-Cornered"
+msgstr "في زاوِيَة صفرية"
+
+#: windows.cpp:669
+msgid ""
+"The placement policy determines where a new window will appear on the "
+"desktop. <ul> <li><em>Smart</em> will try to achieve a minimum overlap of "
+"windows</li> <li><em>Maximizing</em> will try to maximize every window to "
+"fill the whole screen. It might be useful to selectively affect placement of "
+"some windows using the window-specific settings.</li> <li><em>Cascade</em> "
+"will cascade the windows</li> <li><em>Random</em> will use a random "
+"position</li> <li><em>Centered</em> will place the window centered</li> "
+"<li><em>Zero-Cornered</em> will place the window in the top-left corner</"
+"li></ul>"
+msgstr ""
+
+#: windows.cpp:685
+msgid "&Placement:"
+msgstr "مكان الوض&ع:"
+
+#: windows.cpp:693
+msgid "Hide utility windows for inactive applications"
+msgstr "اخفِ نوافذ المساعدة للتطبيقات الخاملة"
+
+#: windows.cpp:695
+msgid ""
+"When turned on, utility windows (tool windows, torn-off menus,...) of "
+"inactive applications will be hidden and will be shown only when the "
+"application becomes active. Note that applications have to mark the windows "
+"with the proper window type for this feature to work."
+msgstr ""
+
+#: windows.cpp:861
+msgid "Windows"
+msgstr "النوافذ"
+
+#: windows.cpp:868
+msgid "Di&splay content in moving windows"
+msgstr "اعرض المحتوى &في النوافذ المتحركة"
+
+#: windows.cpp:870
+msgid ""
+"Enable this option if you want a window's content to be fully shown while "
+"moving it, instead of just showing a window 'skeleton'. The result may not "
+"be satisfying on slow machines without graphic acceleration."
+msgstr ""
+"قم بتمكين هذا الخيار إذا كنت تريد أن تعرض محتويات نافذة بالكامل أثناء "
+"تحريكها، بدلاً من عرض 'هيكل' النافذة فقط. ربما لا تكون النتيجة جيدة إذا "
+"استخدمت جهازاً بطيئاً من غير مسرع صور."
+
+#: windows.cpp:874
+msgid "Display content in &resizing windows"
+msgstr "اعرض المحتوى عند إ&عادة تحجيم النوافذ"
+
+#: windows.cpp:876
+msgid ""
+"Enable this option if you want a window's content to be shown while resizing "
+"it, instead of just showing a window 'skeleton'. The result may not be "
+"satisfying on slow machines."
+msgstr ""
+"قم بتمكين هذا الخيار إذا كنت تريد أن تعرض محتويات نافذة بالكامل أثناء إعادة "
+"تحجيمها بدلاً من عرض 'هيكل' النافذة فقط. ربما لا تكون النتيجة جيدة إذا "
+"استخدمت جهازاً بطيئاً من غير مسرع صور."
+
+#: windows.cpp:880
+msgid "Display window &geometry when moving or resizing"
+msgstr "اعرض إ&حداثيات النوافذ عند التحريك أو إعادة التحجيم"
+
+#: windows.cpp:882
+msgid ""
+"Enable this option if you want a window's geometry to be displayed while it "
+"is being moved or resized. The window position relative to the top-left "
+"corner of the screen is displayed together with its size."
+msgstr ""
+"مكّن هذا الخيار إذا كنت تريد عرض إحداثيات النافذة أثناء تحريكها أو إعادة "
+"تحجيمها. يعرض وضعُ النافذة نسبة إلى الزاوِيَة اليسرى إلى الأعلى من الشاشة مع "
+"حجم النافذة."
+
+#: windows.cpp:892
+msgid "Allow moving and resizing o&f maximized windows"
+msgstr "اسمح بتحريك وإعادة تحجيم النوافذ المكبر&ة."
+
+#: windows.cpp:894
+msgid ""
+"When enabled, this feature activates the border of maximized windows and "
+"allows you to move or resize them, just like for normal windows"
+msgstr ""
+"عند تمكين هذه الميزة، يتم تنشيط إطارات النوافذ المكبرة والسماح بتحريكها أو "
+"إعادة تحجيمها كالنوافذ العادية."
+
+#: windows.cpp:922
+msgid "Snap Zones"
+msgstr "مناطق الجذب"
+
+#: windows.cpp:926 windows.cpp:940 windows.cpp:954
+msgid "none"
+msgstr "لا توجد"
+
+#: windows.cpp:929
+msgid ""
+"Here you can set the snap zone for screen borders, i.e. the 'strength' of "
+"the magnetic field which will make windows snap to the border when moved "
+"near it."
+msgstr ""
+"هنا يمكنك إعداد مناطق الجذب لحدود الشاشة، أو بمعنى آخر، 'قوة' الحقل "
+"الميغناطيسي التي تجعل النوافذ تلتصق بالحدود عندما يتم تحريكها جوارها."
+
+#: windows.cpp:933
+msgid "&Border snap zone:"
+msgstr "منطقة ال&جذب للحدود:"
+
+#: windows.cpp:943
+msgid ""
+"Here you can set the snap zone for windows, i.e. the 'strength' of the "
+"magnetic field which will make windows snap to each other when they are "
+"moved near another window."
+msgstr ""
+"هنا يمكنك إعداد مناطق الجذب للنوافذ، أو بمعنى آخر، 'قوة' الحقل المغناطيسي "
+"التي تجعل النوافذ تنجذب إلى بعضها البعض عندما يتم تحريكها بجوار نافذة أخرى."
+
+#: windows.cpp:947
+msgid "&Window snap zone:"
+msgstr "منطقة جذب للن&افذة:"
+
+#: windows.cpp:957
+msgid ""
+"Here you can set the snap zone for the screen center, i.e. the 'strength' of "
+"the magnetic field which will make windows snap to the center of the screen "
+"when moved near it."
+msgstr ""
+"هنا يمكنك إعداد مناطق الجذب لوسط الشاشة، أو بمعنى آخر، 'قوة' الحقل "
+"المغناطيسي التي تجعل النوافذ تنجذب إلى وسط الشاشة عندما يتم تحريكها بجوارها."
+
+#: windows.cpp:961
+msgid "&Center snap zone:"
+msgstr "منطقة ال&جذب للوسط:"
+
+#: windows.cpp:967
+msgid "Snap windows onl&y when overlapping"
+msgstr "اج&ذب النوافذ فقط عندما تكون تغطي بعضها"
+
+#: windows.cpp:968
+msgid ""
+"Here you can set that windows will be only snapped if you try to overlap "
+"them, i.e. they will not be snapped if the windows comes only near another "
+"window or border."
+msgstr ""
+"هنا يمكن تحديد أن نوافذ ستنجذب فقط إذا حاولت أن تطابق بينها ، بمعنى أنها لن "
+"تنجذب حتى تكون النوافذ قريبة من النوافذ الأخرى أو قريبة من حدودها."
+
+#: windows.cpp:1032 windows.cpp:1036 windows.cpp:1040
+msgid " pixel"
+msgid_plural " pixels"
+msgstr[0] "صفر بكسل"
+msgstr[1] "بكسل واحد"
+msgstr[2] "بكسلان"
+msgstr[3] "بكسلات"
+msgstr[4] "بكسلا"
+msgstr[5] "بكسل"
+
+#~ msgid "Active Desktop Borders"
+#~ msgstr "حدود سطح المكتب النشط"
+
+#~ msgid ""
+#~ "If this option is enabled, moving the mouse to a screen border will "
+#~ "change your desktop. This is e.g. useful if you want to drag windows from "
+#~ "one desktop to the other."
+#~ msgstr ""
+#~ "إذا كان هذا الخيار ممكّن، فإن تحريك الفأرة إلى أي من حدود الشاشة سوف يغير "
+#~ "سطح مكتبك. هذا مفيد، على سبيل المثال، إذا كنت تريد سحب نافذة من سطح مكتب "
+#~ "إلى آخر."
+
+#~ msgid "D&isabled"
+#~ msgstr "م&عطل"
+
+#~ msgid "Only &when moving windows"
+#~ msgstr "عند ت&حريك النوافذ فقط"
+
+#~ msgid "A&lways enabled"
+#~ msgstr "مم&كّن دائماً"
+
+#~ msgid ""
+#~ "Here you can set a delay for switching desktops using the active borders "
+#~ "feature. Desktops will be switched after the mouse has been pushed "
+#~ "against a screen border for the specified number of milliseconds."
+#~ msgstr ""
+#~ "هنا يمكنك تعيين تأخير تبديل أسطح المكتب باستخدام ميزة الحدود النشطة. سوف "
+#~ "يتم تبديل سطح المكتب بعد ضغط الفأرة على أحد حدود الشاشة للفترة المحدّدة من "
+#~ "الزمن التي يتم قياسها بالجزء من الألف من الثانية."
+
+#~ msgid "Desktop &switch delay:"
+#~ msgstr "تأ&خير تبديل سطح المكتب:"

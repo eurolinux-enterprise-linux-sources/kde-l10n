@@ -1,0 +1,238 @@
+# translation of kabc_ldapkio.po to
+# Copyright (C) 2004, 2007 Free Software Foundation, Inc.
+#
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Mohammed Gamal <f2c2001@yahoo.com>, 2004.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kabc_ldapkio\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-02-16 09:07+0100\n"
+"PO-Revision-Date: 2007-10-14 15:57+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: resourceldapkioconfig.cpp:75
+msgctxt "@title:tab general account settings"
+msgid "General"
+msgstr ""
+
+#: resourceldapkioconfig.cpp:78
+msgctxt "@title:tab account security settings"
+msgid "Security"
+msgstr ""
+
+#: resourceldapkioconfig.cpp:80
+#, fuzzy
+msgid "Sub-tree query"
+msgstr ""
+"فرعي شجرة استعلام\n"
+"إستفسار\n"
+"طلب"
+
+#: resourceldapkioconfig.cpp:83
+msgid "Edit Attributes..."
+msgstr "حرّر الخصائص..."
+
+#: resourceldapkioconfig.cpp:84
+#, fuzzy
+msgid "Offline Use..."
+msgstr "غير متّصلل إستعمل."
+
+#: resourceldapkioconfig.cpp:211
+msgid "Attributes Configuration"
+msgstr "إعداد الخصائص"
+
+#: resourceldapkioconfig.cpp:217
+#, fuzzy
+msgid "Object classes"
+msgstr "كائن الفئات"
+
+#: resourceldapkioconfig.cpp:218
+msgid "Common name"
+msgstr "الإسم الشّائع"
+
+#: resourceldapkioconfig.cpp:219
+msgid "Formatted name"
+msgstr "الإسم المهيَأ"
+
+#: resourceldapkioconfig.cpp:220
+msgid "Family name"
+msgstr "اسم العائلة"
+
+#: resourceldapkioconfig.cpp:221
+msgid "Given name"
+msgstr "الإسم المعطى"
+
+#: resourceldapkioconfig.cpp:222
+#, fuzzy
+msgid "Organization"
+msgstr "المنظّمة"
+
+#: resourceldapkioconfig.cpp:223
+#, fuzzy
+msgctxt "job title"
+msgid "Title"
+msgstr "العنوان"
+
+#: resourceldapkioconfig.cpp:224
+#, fuzzy
+msgid "Street"
+msgstr "الشارع"
+
+#: resourceldapkioconfig.cpp:225
+#, fuzzy
+msgctxt "state/province"
+msgid "State"
+msgstr "الحالة"
+
+#: resourceldapkioconfig.cpp:226
+#, fuzzy
+msgid "City"
+msgstr "المدينة"
+
+#: resourceldapkioconfig.cpp:227
+#, fuzzy
+msgid "Postal code"
+msgstr "الرمز البريدي"
+
+#: resourceldapkioconfig.cpp:228
+#, fuzzy
+#| msgid "Email"
+msgctxt "email address"
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: resourceldapkioconfig.cpp:229
+msgid "Email alias"
+msgstr "الإسم المستعار للبريد الإلكتروني"
+
+#: resourceldapkioconfig.cpp:230
+msgid "Telephone number"
+msgstr "رقم الهاتف"
+
+#: resourceldapkioconfig.cpp:231
+#, fuzzy
+msgid "Work telephone number"
+msgstr "العمل رقم"
+
+#: resourceldapkioconfig.cpp:232
+#, fuzzy
+msgid "Fax number"
+msgstr "Fax number"
+
+#: resourceldapkioconfig.cpp:233
+#, fuzzy
+msgid "Cell phone number"
+msgstr "خلية رقم"
+
+#: resourceldapkioconfig.cpp:234
+#, fuzzy
+msgid "Pager"
+msgstr "جهاز الإستدعاء"
+
+#: resourceldapkioconfig.cpp:235
+#, fuzzy
+msgid "Note"
+msgstr "ملاحظة"
+
+#: resourceldapkioconfig.cpp:236 resourceldapkioconfig.cpp:300
+msgid "UID"
+msgstr "معرّف المستخدم"
+
+#: resourceldapkioconfig.cpp:237
+#, fuzzy
+msgid "Photo"
+msgstr "صورة"
+
+#: resourceldapkioconfig.cpp:283
+msgid "Template:"
+msgstr "النموذج:"
+
+#: resourceldapkioconfig.cpp:288
+msgid "User Defined"
+msgstr "معرّف من قبل المستخدم"
+
+#: resourceldapkioconfig.cpp:289
+msgid "Kolab"
+msgstr "Kolab"
+
+#: resourceldapkioconfig.cpp:290
+msgid "Netscape"
+msgstr "Netscape"
+
+#: resourceldapkioconfig.cpp:291
+msgid "Evolution"
+msgstr "Evolution"
+
+#: resourceldapkioconfig.cpp:292
+msgid "Outlook"
+msgstr "Outlook"
+
+#: resourceldapkioconfig.cpp:295
+#, fuzzy
+msgid "RDN prefix attribute:"
+msgstr "وصف:"
+
+#: resourceldapkioconfig.cpp:299
+#, fuzzy
+msgid "commonName"
+msgstr "الإسم الشّائع"
+
+#: resourceldapkioconfig.cpp:392
+#, fuzzy
+msgid "Offline Configuration"
+msgstr "غير متّصلل إعدادات"
+
+#: resourceldapkioconfig.cpp:404
+#, fuzzy
+msgid "Offline Cache Policy"
+msgstr "غير متّصلل الذّاكرة المؤقّتة السياسة"
+
+#: resourceldapkioconfig.cpp:410
+#, fuzzy
+msgid "Do not use offline cache"
+msgstr ""
+"تنفيذ ليس استخدام غير متّصلل ذاكرة مخبئة\n"
+"تخزين مؤقت\n"
+"مَخبأ"
+
+#: resourceldapkioconfig.cpp:415
+#, fuzzy
+msgid "Use local copy if no connection"
+msgstr "إستعمل محليّ نسخ IF لا اتصال"
+
+#: resourceldapkioconfig.cpp:419
+#, fuzzy
+msgid "Always use local copy"
+msgstr "دائماً استخدام محليّ نسخ"
+
+#: resourceldapkioconfig.cpp:427
+#, fuzzy
+msgid "Refresh offline cache automatically"
+msgstr ""
+"تحديث غير متّصلل ذاكرة مخبئة\n"
+"تخزين مؤقت\n"
+"مَخبأ"
+
+#: resourceldapkioconfig.cpp:434
+#, fuzzy
+msgid "Load into Cache"
+msgstr "تحميل الذّاكرة المؤقّتة"
+
+#: resourceldapkioconfig.cpp:460
+#, fuzzy
+msgid "Successfully downloaded directory server contents."
+msgstr "بنجاح دليل خادم."
+
+#: resourceldapkioconfig.cpp:463
+#, fuzzy, kde-format
+msgid "An error occurred downloading directory server contents into file %1."
+msgstr "أداة تعريف خطأ دليل خادم ملفّ."

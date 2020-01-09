@@ -1,0 +1,275 @@
+# translation of kcm_krfb.po to
+# Copyright (C) 2003, 2004, 2006, 2007 Free Software Foundation, Inc.
+#
+# Nuriddin Aminagha <nuriddin55@hotmail.com>, 2002.
+# root <root@localhost.localdomain>, 2003.
+# Nuriddin S. Aminagha <nuriddin@haydarlinux.org>, 2003.
+# Mohamed Assar (محمد عَصَر) <aser@arabeyes.org>, 2003.
+# Munzir Taha <munzir@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Amine Roukh <amineroukh@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_krfb\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-08-25 09:07+0200\n"
+"PO-Revision-Date: 2009-01-02 21:06+0100\n"
+"Last-Translator: Amine Roukh <amineroukh@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: kcm_krfb.cpp:60
+msgid "Desktop Sharing Control Module"
+msgstr "وحدة التحكم بمشاركة سطح المكتب"
+
+#: kcm_krfb.cpp:62
+msgid "Configure desktop sharing"
+msgstr "إعداد مشاركة سطح المكتب"
+
+#: kcm_krfb.cpp:63
+msgid "(c) 2002, Tim Jansen\n"
+msgstr "(c) 2002، تيم جانسين\n"
+
+#: kcm_krfb.cpp:65
+msgid "Tim Jansen"
+msgstr "تيم جانسين"
+
+#: kcm_krfb.cpp:91
+msgid "You have no open invitation."
+msgstr "ليست لديك دعوة مفتوحة."
+
+#: kcm_krfb.cpp:93
+#, kde-format
+msgid "Open invitations: %1"
+msgstr "الدعوات المفتوحة: %1"
+
+#: kcm_krfb.cpp:162
+msgid ""
+"<h1>Desktop Sharing</h1> This module allows you to configure the KDE desktop "
+"sharing."
+msgstr ""
+"<h1>مشاركة سطح المكتب</h1> هذه الوحدة تسمح لك بإعداد المشاركة بسطح المكتب "
+"KDE."
+
+#. i18n: file: configurationwidget.ui:37
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:3
+msgid "Acc&ess"
+msgstr "الن&فاذ"
+
+#. i18n: file: configurationwidget.ui:54
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:6
+msgid "Invitations"
+msgstr "الدعوات"
+
+#. i18n: file: configurationwidget.ui:74
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:9
+msgid "You have no open invitations."
+msgstr "ليست لديك دعوات مفتوحة."
+
+#. i18n: file: configurationwidget.ui:90
+#. i18n: ectx: property (text), widget (QPushButton)
+#: rc.cpp:12
+msgid "Create && &Manage Invitations..."
+msgstr "إنشاء وإ&دارة الدعوات..."
+
+#. i18n: file: configurationwidget.ui:93
+#. i18n: ectx: property (whatsThis), widget (QPushButton)
+#: rc.cpp:15
+msgid "Click to view or delete the open invitations."
+msgstr "أنقر لعرض أو محو الدعوات المفتوحة."
+
+#. i18n: file: configurationwidget.ui:111
+#. i18n: ectx: property (title), widget (QButtonGroup)
+#: rc.cpp:18
+msgid "Uninvited Connections"
+msgstr "الاتصالات غير المدعوة"
+
+#. i18n: file: configurationwidget.ui:128
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:21
+msgid "Allow &uninvited connections"
+msgstr "السماح للاتصالات &غير المدعوة"
+
+#. i18n: file: configurationwidget.ui:134
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:24
+msgid ""
+"Select this option to allow connecting without inviting. This is useful if "
+"you want to access your desktop remotely."
+msgstr ""
+"حدد هذا الخيار لتسمح بالاتصال بدون دعوة. و هذا مفيد إذا أردت الوصول إلى سطح "
+"مكتبك عن بعد."
+
+#. i18n: file: configurationwidget.ui:142
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:27
+msgid "Announce service &on the network"
+msgstr "إعلان ال&خدمة على الشبكة"
+
+#. i18n: file: configurationwidget.ui:148
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:30
+msgid ""
+"If you allow uninvited connections and enable this option, Desktop Sharing "
+"will announce the service and your identity on the local network, so people "
+"can find you and your computer."
+msgstr ""
+"إذا سمحت للاتصالات غير المدعوة ومكّنت هذا الخيار ، سيتم الإعلان عن مشاركة سطح "
+"المكتب و عن هويتك على الشبكة المحلية ، كي يستطيع الآخرون من العثور عليك وعلى "
+"حاسوبك."
+
+#. i18n: file: configurationwidget.ui:156
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:33
+msgid "Confirm uninvited connections &before accepting"
+msgstr "&أكّد الاتصالات غير المدعوة قبل الموافقة"
+
+#. i18n: file: configurationwidget.ui:159
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:36
+msgid ""
+"If enabled, a dialog will appear when somebody attempts to connect, asking "
+"you whether you want to accept the connection."
+msgstr ""
+"إذا كان ممكّن سيظهر لك حوار عندما يحاول شخص ما الإتصال ، سا~لاً عن إرادتك "
+"لقبول الاتصال."
+
+#. i18n: file: configurationwidget.ui:167
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:39
+msgid "A&llow uninvited connections to control the desktop"
+msgstr "الس&ماح للاتصالات غير المدعوة بالتحكم بسطح المكتب"
+
+#. i18n: file: configurationwidget.ui:170
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:42
+msgid ""
+"Enable this option to allow uninvited user to control your desktop (using "
+"mouse and keyboard)."
+msgstr ""
+"مكن هذا الخيار كي تسمح للمستخدمين غير المدعوين بالتحكم بسطح مكتبك (باستعمال "
+"الفأرة ولوحة المفاتيح)."
+
+#. i18n: file: configurationwidget.ui:216
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:45
+msgid "Pass&word:"
+msgstr "&كلمة المرور:"
+
+#. i18n: file: configurationwidget.ui:233
+#. i18n: ectx: property (whatsThis), widget (QLineEdit)
+#: rc.cpp:48
+msgid ""
+"If you allow uninvited connections, it is highly recommended to set a "
+"password in order to protect your computer from unauthorized access."
+msgstr ""
+"إذا سمحت للاتصالات غير المدعوَّة ، يقترح عليك بشدّة تعيين كلمة مرور لحماية "
+"حاسوبك من النفاذ غير المسموح."
+
+#. i18n: file: configurationwidget.ui:264
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:51
+msgid "&Session"
+msgstr "ال&جلسة"
+
+#. i18n: file: configurationwidget.ui:281
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:54
+msgid "Session Preferences"
+msgstr "تفضيلات الجلسة"
+
+#. i18n: file: configurationwidget.ui:298
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:57
+msgid "Always disable &background image"
+msgstr "عطّل صورة ال&خلفية دائماً"
+
+#. i18n: file: configurationwidget.ui:304
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:60
+msgid ""
+"Check this option to always disable the background image during a remote "
+"session. Otherwise the client decides whether the background will be enabled "
+"or disabled."
+msgstr ""
+"حدد هذا الخيار لتعطيل صورة الخلفية دائمًا أثناء الجلسة البعيدة. وإلا الزبون "
+"سيقرر إذا ما كانت الخلفية معطلة أو ممكنة."
+
+#. i18n: file: configurationwidget.ui:333
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: rc.cpp:63
+msgid "&Network"
+msgstr "ال&شبكة"
+
+#. i18n: file: configurationwidget.ui:350
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: rc.cpp:66
+msgid "Network Port"
+msgstr "منفذ الشبكة"
+
+#. i18n: file: configurationwidget.ui:367
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: rc.cpp:69
+msgid "Assi&gn port automatically"
+msgstr "&عين المنفذ تلقائيًا"
+
+#. i18n: file: configurationwidget.ui:373
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: rc.cpp:72
+msgid ""
+"Check this option to assign the network port automatically. This is "
+"recommended unless your network setup requires you to use a fixed port, for "
+"example because of a firewall."
+msgstr ""
+"حدد هذا الخيار لتعيين منفذ الشبكة تلقائيًا. و هذا هو المقترح إلا إذا كانت "
+"تعيينات شبكتك تتطلب منفذ ثابت ، .مثلاً بسبب جدار عزل النار."
+
+#. i18n: file: configurationwidget.ui:404
+#. i18n: ectx: property (text), widget (QLabel)
+#: rc.cpp:75
+msgid "P&ort:"
+msgstr "ال&منفذ:"
+
+#. i18n: file: configurationwidget.ui:424
+#. i18n: ectx: property (toolTip), widget (KIntNumInput)
+#: rc.cpp:78
+msgid "Enter the TCP port number here"
+msgstr "أدخل رقم المنفذ TCP هنا"
+
+#. i18n: file: configurationwidget.ui:428
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput)
+#: rc.cpp:81
+msgid ""
+"Use this field to set a static port number for the desktop sharing service. "
+"Note that if the port is already in use the Desktop Sharing service will not "
+"be accessible until you free it. It is recommended to assign the port "
+"automatically unless you know what you are doing.\n"
+"Most VNC clients use a display number instead of the actual port. This "
+"display number is the offset to port 5900, so port 5901 has the display "
+"number 1."
+msgstr ""
+"استعمل هذا الحقل لتعيين رقم منفذ ثابت لخدمة مشاركة سطح المكتب. لاحظ أنّه إذا "
+"كان المنفذ قيد الاستعمال سابقاً فلن تكون خدمة مشاركة سطح المكتب ممكنة إلى حين "
+"الإخلاء عنه. من المقترح أن تعيين المنفذ تلقائياً إلا إذا كنت على إدراك تام "
+"بما تفعله.\n"
+"أغلب زبائن VNC تستعمل رقم الشاشة بدلاً عن المنفذ الحقيقي. يكون رقم الشاشة هذا "
+"الإزاحة عن رقم المنفذ 5900 ، و هكذا يكون رقم المنفذ 5901 هو رقم الشاشة 1."
+
+#: rc.cpp:83
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "نورالدين أمين آغا,منذر طه,Mohamed SAAD محمد سعد"
+
+#: rc.cpp:84
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "nuriddin55@hotmail.com,munzir@kacst.edu.sa,metehyi@free.fr"

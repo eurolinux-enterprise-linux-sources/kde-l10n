@@ -1,0 +1,697 @@
+# translation of plasma_applet_folderview.po to Arabic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_folderview\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-10-21 01:22+0200\n"
+"PO-Revision-Date: 2009-07-08 15:15+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"X-Poedit-Bookmarks: 13,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: folderview.cpp:499
+msgctxt "Sort Icons"
+msgid "Unsorted"
+msgstr "غير مفرز"
+
+#: folderview.cpp:506
+msgid "Top to Bottom, Left to Right"
+msgstr "من الأعلى للأسفل ، ومن اليسار إلى اليمين"
+
+#: folderview.cpp:507
+msgid "Top to Bottom, Right to Left"
+msgstr "من الأعلى للأسفل ، ومن اليمين إلى اليسار"
+
+#: folderview.cpp:508
+msgid "Left to Right, Top to Bottom"
+msgstr "من اليسار لليمين ، و من الأعلى للأسفل"
+
+#: folderview.cpp:509
+msgid "Right to Left, Top to Bottom"
+msgstr "من اليمين إلى اليسار ، ومن الأعلى للأسفل"
+
+#: folderview.cpp:547
+msgctxt ""
+"Title of the page that lets the user choose which location should the "
+"folderview show"
+msgid "Location"
+msgstr "الموقع"
+
+#: folderview.cpp:548
+msgctxt ""
+"Title of the page that lets the user choose how the folderview should be "
+"shown"
+msgid "Display"
+msgstr "اعرض"
+
+#: folderview.cpp:549
+msgctxt ""
+"Title of the page that lets the user choose how to filter the folderview "
+"contents"
+msgid "Filter"
+msgstr "المُرشِّح"
+
+#: folderview.cpp:981
+msgid "&Paste"
+msgstr "أ&لصق"
+
+#: folderview.cpp:1184
+msgid "Desktop Folder"
+msgstr "مجلد سطح المكتب"
+
+#: folderview.cpp:1252
+msgid "&Reload"
+msgstr "أ&عد التحميل"
+
+#: folderview.cpp:1255
+msgid "&Refresh Desktop"
+msgstr "أ&نعش سطح المكتب"
+
+#: folderview.cpp:1255
+msgid "&Refresh View"
+msgstr "أنعش ال&عرض"
+
+#: folderview.cpp:1263 popupview.cpp:232
+msgid "&Rename"
+msgstr "أعد ال&تسمية"
+
+#: folderview.cpp:1268 popupview.cpp:236
+msgid "&Move to Trash"
+msgstr "ا&نقل إلى المهملات"
+
+#: folderview.cpp:1274 popupview.cpp:241
+msgid "&Delete"
+msgstr "ا&حذف"
+
+#: folderview.cpp:1291
+msgid "Add Panel"
+msgstr "أضف لوحة"
+
+#: folderview.cpp:1315
+msgid "Run Command..."
+msgstr "شغل أمر..."
+
+#: folderview.cpp:1319
+msgid "Lock Screen"
+msgstr "اقفل الشاشة"
+
+#: folderview.cpp:1323
+msgid "Leave..."
+msgstr "اترك..."
+
+#: folderview.cpp:1333
+msgid "Align to Grid"
+msgstr "حاذِ إلى الشبكة"
+
+#: folderview.cpp:1338
+msgctxt "Icons on the desktop"
+msgid "Lock in Place"
+msgstr "اقفله في المكان"
+
+#: folderview.cpp:1345
+msgctxt "Sort icons"
+msgid "By Name"
+msgstr "حسب الاسم"
+
+#: folderview.cpp:1346
+msgctxt "Sort icons"
+msgid "By Size"
+msgstr "حسب الحجم"
+
+#: folderview.cpp:1347
+msgctxt "Sort icons"
+msgid "By Type"
+msgstr "حسب النوع"
+
+#: folderview.cpp:1348
+msgctxt "Sort icons"
+msgid "By Date"
+msgstr "حسب التاريخ"
+
+#: folderview.cpp:1362
+msgctxt "Sort icons"
+msgid "Folders First"
+msgstr "المجلدات أولا"
+
+#: folderview.cpp:1367
+msgid "Sort Icons"
+msgstr "افرز الأيقونات"
+
+#: folderview.cpp:1381
+msgid "Icons"
+msgstr "الأيقونات"
+
+#: folderview.cpp:1921
+#, kde-format
+msgctxt "Inserted as %1 in the message below."
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "لا يوجد مجلّدات"
+msgstr[1] "مجلّد واحد"
+msgstr[2] "مجلّدان"
+msgstr[3] "%1 مجلّدات"
+msgstr[4] "%1 مجلّدا"
+msgstr[5] "%1 مجلّد"
+
+#: folderview.cpp:1922
+#, kde-format
+msgctxt "Inserted as %2 in the message below."
+msgid "1 file"
+msgid_plural "%1 files"
+msgstr[0] "لا يوجد ملفات"
+msgstr[1] "ملف واحد"
+msgstr[2] "ملفان"
+msgstr[3] "%1 ملفات"
+msgstr[4] "%1 ملفا"
+msgstr[5] "%1 ملف"
+
+#: folderview.cpp:1926 tooltipwidget.cpp:193
+#, kde-format
+msgctxt "%1 and %2 are the messages translated above."
+msgid "%1, %2."
+msgstr "%1 و%2."
+
+#: folderview.cpp:1928
+#, kde-format
+msgid "1 file."
+msgid_plural "%1 files."
+msgstr[0] "لا يوجد ملفات."
+msgstr[1] "ملف واحد."
+msgstr[2] "ملفان."
+msgstr[3] "%1 ملفات."
+msgstr[4] "%1 ملفا."
+msgstr[5] "%1 ملف."
+
+#: iconview.cpp:1857
+msgid "Set as &Wallpaper"
+msgstr "ضع ك&شاشة خلفية"
+
+#. i18n: file: folderviewDisplayConfig.ui:24
+#. i18n: ectx: property (text), widget (QLabel, lblCustomLabel)
+#: rc.cpp:3
+msgid "Label:"
+msgstr "المسمى:"
+
+#. i18n: file: folderviewDisplayConfig.ui:39
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, labelEdit)
+#: rc.cpp:6
+msgid ""
+"This edit field contains the label which is shown at the top of the applet.\n"
+"\n"
+"By default it contains the name of the place being shown in the applet, but "
+"if you prefer to have a custom label you can enter it here."
+msgstr ""
+"حقل التحرير هذا يحتوي على اللصيقة التي تظهر أعلى البرنامج الصغير.\n"
+"\n"
+"و هو يتضمن افتراضيا اسم المكان الذي يظهر في البرنامج الصغير, و لكن إن كنت "
+"تفضل لصيقة مخصصة يمكنك إدخالها هنا."
+
+#. i18n: file: folderviewDisplayConfig.ui:48
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:11
+msgid "Icon Settings"
+msgstr "خيارات الأيقونة"
+
+#. i18n: file: folderviewDisplayConfig.ui:57
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:14
+msgid "Icon size:"
+msgstr "حجم الأيقونة:"
+
+#. i18n: file: folderviewDisplayConfig.ui:85
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:17
+msgid "Small"
+msgstr "صغير"
+
+#. i18n: file: folderviewDisplayConfig.ui:95
+#. i18n: ectx: property (whatsThis), widget (QSlider, sizeSlider)
+#: rc.cpp:20
+msgid ""
+"Use this slider to increase or decrease the size of the icons in the view."
+msgstr "استخدم هذا المنزلِق لزيادة أو تقليل حجم الأيقونات في العرض."
+
+#. i18n: file: folderviewDisplayConfig.ui:117
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:23
+msgid "Large"
+msgstr "كبير"
+
+#. i18n: file: folderviewDisplayConfig.ui:144
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showPreviews)
+#: rc.cpp:26
+msgid ""
+"Check this option if you want to see previews of the file contents in the "
+"icons."
+msgstr ""
+"أشِر على هذا الخيار إذا كنت تريد أن ترى معاينات لمحتويات الملف في الأيقونات."
+
+#. i18n: file: folderviewDisplayConfig.ui:147
+#. i18n: ectx: property (text), widget (QCheckBox, showPreviews)
+#: rc.cpp:29
+msgid "Show previews"
+msgstr "أظهر المعاينات"
+
+#. i18n: file: folderviewDisplayConfig.ui:154
+#. i18n: ectx: property (whatsThis), widget (QPushButton, previewsAdvanced)
+#: rc.cpp:32
+msgid ""
+"Click this button to choose for which types of files previews will be shown."
+msgstr "اضغط هذا الزر لاختيار أي أنواع عروض الملفات سيتم اظهاره."
+
+#. i18n: file: folderviewDisplayConfig.ui:157
+#. i18n: ectx: property (text), widget (QPushButton, previewsAdvanced)
+#: rc.cpp:35
+msgid "Advanced Options"
+msgstr "خيارات متقدمة"
+
+#. i18n: file: folderviewDisplayConfig.ui:182
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:38
+msgid "Text Settings"
+msgstr "خيارات النص"
+
+#. i18n: file: folderviewDisplayConfig.ui:191
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:41
+msgid "Text color:"
+msgstr "لون النص:"
+
+#. i18n: file: folderviewDisplayConfig.ui:206
+#. i18n: ectx: property (whatsThis), widget (KColorButton, colorButton)
+#: rc.cpp:44
+msgid ""
+"Click this button to choose the color which is used for the text labels in "
+"the view."
+msgstr "اضغط على هذا الزر لاختيار لون لصائق النص المستخدمة في العرض."
+
+#. i18n: file: folderviewDisplayConfig.ui:231
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:47
+msgid "Number of lines:"
+msgstr "عدد السّطور:"
+
+#. i18n: file: folderviewDisplayConfig.ui:252
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, numLinesEdit)
+#: rc.cpp:50
+msgid ""
+"Use this control to choose how many lines of text will be shown below the "
+"icons."
+msgstr ""
+"استخدم أداة التحكم هذه لاختيار عدد الأسطر التي سيتم إظهارها تحت الأيقونات."
+
+#. i18n: file: folderviewDisplayConfig.ui:284
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, drawShadows)
+#: rc.cpp:53
+msgid ""
+"<html><body><p>Check this option if you want the text labels to cast a "
+"shadow on the background.</p>\n"
+"<p></p>\n"
+"<p>Shadows help make the text easier to read by making it stand out more "
+"from the background.</p>\n"
+"<p></p>\n"
+"<p><i>Note that with dark text colors, this option will cause the text to "
+"glow with a bright halo, instead of casting a shadow.</i></p></body></html>"
+msgstr ""
+"<html><body><p>أشِر على هذا الخيار إذا كنت تريد جعل مسميات النصوص تصنع ظلال "
+"على الخلفية .</p>\n"
+"<p></p>\n"
+"<p>الظلال تساعد في جعل النص أسهل في القراءة بجعلها بارزة أكثر من الخلفية.</"
+"p>\n"
+"<p></p>\n"
+"<p><i>ملاحظة عند اختيار لون غامق للنص ، فإن هذا الخيار سيتسبب في توهج ، عوضا "
+"عن صنع ظلال.</i></p></body></html>"
+
+#. i18n: file: folderviewDisplayConfig.ui:287
+#. i18n: ectx: property (text), widget (QCheckBox, drawShadows)
+#: rc.cpp:60
+msgid "Show text shadows"
+msgstr "أظهر ظلال النص"
+
+#. i18n: file: folderviewDisplayConfig.ui:297
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:63
+msgid "Icon Arrangement"
+msgstr "ترتيب الأيقونات"
+
+#. i18n: file: folderviewDisplayConfig.ui:310
+#. i18n: ectx: property (text), widget (QLabel, flowLabel)
+#: rc.cpp:66
+msgid "Arrange icons:"
+msgstr "رتب الأيقونات:"
+
+#. i18n: file: folderviewDisplayConfig.ui:323
+#. i18n: ectx: property (whatsThis), widget (QComboBox, flowCombo)
+#: rc.cpp:69
+msgid ""
+"Use this control to choose if you want the icons to be arranged top to "
+"bottom starting on the left side of the view, or arranged left to right "
+"starting at the top of the view."
+msgstr ""
+"استخدم أداة التحكم هذه لاختيار ما إذا كنت تريد ترتيب الأيقونات من الأعلى "
+"للأسفل بداية من الجانب الأيسر من العرض , أو ترتيبها من اليسار لليمين بداية "
+"من أعلى العرض."
+
+#. i18n: file: folderviewDisplayConfig.ui:330
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:72
+msgid "Sort icons:"
+msgstr "افرز الأيقونات:"
+
+#. i18n: file: folderviewDisplayConfig.ui:343
+#. i18n: ectx: property (whatsThis), widget (QComboBox, sortCombo)
+#: rc.cpp:75
+msgid ""
+"Use this control to choose the criteria by which the icons will be sorted in "
+"the view."
+msgstr "استخدم أداة التحكم لاختيار معايير فرز الأيقونات عند العرض."
+
+#. i18n: file: folderviewDisplayConfig.ui:369
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, alignToGrid)
+#: rc.cpp:78
+msgid ""
+"Check this option if you want the icons to be arranged in a grid.\n"
+"\n"
+"When this option is checked, icons will automatically snap to the nearest "
+"grid cell when you move them around in the view."
+msgstr ""
+"أشِر على الخيار إذا كنت تريد أن ترتب الأيقونات في مربعات.\n"
+"\n"
+"عندما يتم التأشير على هذا الخيار, فإن الأيقونات ستقفز تلقائيا إلى أقرب خلية "
+"في الشبيكة عندما تحركها في نواحي العرض."
+
+#. i18n: file: folderviewDisplayConfig.ui:372
+#. i18n: ectx: property (text), widget (QCheckBox, alignToGrid)
+#: rc.cpp:83
+msgid "Align icons in a grid"
+msgstr "حاذِ الأيقونات في المربعات"
+
+#. i18n: file: folderviewDisplayConfig.ui:381
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, lockInPlace)
+#: rc.cpp:86
+msgid ""
+"Check this option if you do not want the icons to be moveable in the view.\n"
+"\n"
+"This option is useful if you want to avoid accidentally moving the icons "
+"while interacting with them."
+msgstr ""
+"أشِر على هذا الخيار إذا كنت تريد ألا نكون الأيقونات قابلة للتحريك .\n"
+"\n"
+"هذا الخيار مفيد إذا كنت تريد تجنب تحريك الأيقونات بغير قصد عند التعامل معهم."
+
+#. i18n: file: folderviewDisplayConfig.ui:384
+#. i18n: ectx: property (text), widget (QCheckBox, lockInPlace)
+#: rc.cpp:91
+msgid "Lock icons in place"
+msgstr "اقفل الأيقونات في مكانها"
+
+#. i18n: file: folderviewFilterConfig.ui:34
+#. i18n: ectx: property (toolTip), widget (QComboBox, filterType)
+#: rc.cpp:94
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">If you have selected "
+"\"Show Files Matching\" or \"Hide Files Matching\", only the files matching "
+"BOTH the conditions will be shown or hidden respectively.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">For example, if you have "
+"\"*\" as your pattern, but have nothing selected in the MIME types, no files "
+"will be shown.</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">إذا اخترت  \"أظهر الملفات "
+"المتطابقة\" أو \"اخف الملفات المتطابقة\"، فقط الملفات المتطابقة لكلا الشرطين "
+"سيظهران أو يختفيان بالتتابع.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">على سبيل المثال ، إذا كان "
+"نمطك \"*\" على سبيل المثال ،  ولكن لم تحدد نوع الملفات ، فإنه لم يعرض  أي "
+"ملف.</p></body></html>"
+
+#. i18n: file: folderviewFilterConfig.ui:41
+#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
+#: rc.cpp:102
+msgid "Show All Files"
+msgstr "أظهر جميع الملفات"
+
+#. i18n: file: folderviewFilterConfig.ui:46
+#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
+#: rc.cpp:105
+msgid "Show Files Matching"
+msgstr "أظهر الملفات المتطابقة"
+
+#. i18n: file: folderviewFilterConfig.ui:51
+#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
+#: rc.cpp:108
+msgid "Hide Files Matching"
+msgstr "اخف الملفات المتطابقة"
+
+# في قاموس عرب آيز يوجد انتقاء و اختيار و تحديد و لكن الأولى و الثانية اعتقد انها لتحديد ملف أو مجموعة من مجموعة اكبر لذلك اخترت تحدي الكل على كل يمكن تغييرها بانتقى التي تظهر ككلمة افتراضية في قاموس عرب أيز ، ايضا حرف الدال الاول يحتاج شدة فوقه
+#. i18n: file: folderviewFilterConfig.ui:138
+#. i18n: ectx: property (text), widget (QPushButton, selectAll)
+#: rc.cpp:111
+msgid "Select All"
+msgstr "حدد الكل"
+
+#. i18n: file: folderviewFilterConfig.ui:145
+#. i18n: ectx: property (text), widget (QPushButton, deselectAll)
+#: rc.cpp:114
+msgid "Deselect All"
+msgstr "أزل التحديد عن الكل"
+
+#. i18n: file: folderviewFilterConfig.ui:154
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#: rc.cpp:117
+msgid ""
+"Note that if you have selected \"Show Files Matching\" or \"Hide Files "
+"Matching\",\n"
+"only the files matching BOTH the conditions will be shown or hidden "
+"respectively.\n"
+"For example, if you have \"*\" as your pattern, but have nothing selected in "
+"the MIME types, no files will be shown."
+msgstr ""
+"لاحظ إذا اخترت \"أظهر الملفات المتطابقة\" أو \"اخف الملفات المتطابقة\"،\n"
+" فقط الملفات المتطابقة لكلا الشرطين سيظهران أو يختفيان بالتتابع\n"
+"على سبيل المثال ، إذا كان نمطك \"*\" على سبيل المثال ،\n"
+"  ولكن لم تحدد نوع الملفات ، فإنه لم يعرض أي ملف."
+
+#. i18n: file: folderviewFilterConfig.ui:157
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:122
+msgid "<a href=\"null\">Cannot See Any Files?</a>"
+msgstr "<a href=\"null\">لا تستطيع رؤية أي ملف؟</a>"
+
+#. i18n: file: folderviewFilterConfig.ui:184
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, searchMimetype)
+#: rc.cpp:125
+msgid "Search file type"
+msgstr "ابحث بنوع الملف"
+
+#. i18n: file: folderviewFilterConfig.ui:194
+#. i18n: ectx: property (text), widget (QLabel, fileTypesLabel)
+#: rc.cpp:128
+msgid "File types:"
+msgstr "أنواع الملفات:"
+
+#. i18n: file: folderviewFilterConfig.ui:201
+#. i18n: ectx: property (text), widget (QLabel, fileNameLabel)
+#: rc.cpp:131
+msgid "File name pattern:"
+msgstr "نمط اسم الملف:"
+
+#. i18n: file: folderviewFilterConfig.ui:214
+#. i18n: ectx: property (toolTip), widget (KLineEdit, filterFilesPattern)
+#: rc.cpp:134
+msgid "Space-separated list of extensions, e.g. *.txt *.od*"
+msgstr "قائمة امتدادات ذات حيز منفصل, على سبيل المثال. *.txt *.od*"
+
+#. i18n: file: folderviewFilterConfig.ui:217
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, filterFilesPattern)
+#: rc.cpp:137
+msgid ""
+"Space-separated list of extensions, e.g. *.txt *.od* to display only office- "
+"and text-files"
+msgstr ""
+"قائمة امتدادات ذات فضاء منفصل, على سبيل المثال. *.txt *.od* لإظهار ملفات "
+"أوفيس و الملفات النصية فقط"
+
+#. i18n: file: folderviewFilterConfig.ui:226
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, filterFilesPattern)
+#: rc.cpp:140
+msgid "Pattern filter"
+msgstr "نمط المرشِح"
+
+#. i18n: file: folderviewLocationConfig.ui:16
+#. i18n: ectx: property (text), widget (QRadioButton, showDesktopFolder)
+#: rc.cpp:143
+msgid "Show the Desktop folder"
+msgstr "أظهر مجلد سطح المكتب"
+
+#. i18n: file: folderviewLocationConfig.ui:23
+#. i18n: ectx: property (text), widget (QRadioButton, showPlace)
+#: rc.cpp:146
+msgid "Show a place:"
+msgstr "أظهر مكان:"
+
+#. i18n: file: folderviewLocationConfig.ui:53
+#. i18n: ectx: property (text), widget (QRadioButton, showCustomFolder)
+#: rc.cpp:149
+msgid "Specify a folder:"
+msgstr "حدد مجلد:"
+
+#. i18n: file: folderviewLocationConfig.ui:84
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, lineEdit)
+#: rc.cpp:152
+msgid "Type a path or a URL here"
+msgstr "اطبع مسار أو رابط موقع هنا"
+
+#. i18n: file: folderviewPreviewConfig.ui:16
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:155
+msgid "Check the file types you want icon previews for:"
+msgstr "أشِر على أنواع الملفات التي تريد تخصيص الأيقونة لها:"
+
+#: tooltipwidget.cpp:111
+msgctxt "Music"
+msgid "Artist:"
+msgstr "الفنان:"
+
+#: tooltipwidget.cpp:114
+msgctxt "Music"
+msgid "Title:"
+msgstr "العنوان:"
+
+#: tooltipwidget.cpp:117
+msgctxt "Music"
+msgid "Album:"
+msgstr "الألبوم:"
+
+#: tooltipwidget.cpp:139
+#, kde-format
+msgid "1 MPixel"
+msgid_plural "%1 MPixels"
+msgstr[0] "ميجابكسل"
+msgstr[1] "1 ميجابكسل"
+msgstr[2] "%1 ميجابكسل"
+msgstr[3] "%1 ميجابكسل"
+msgstr[4] "%1 ميجابكسل"
+msgstr[5] "%1 ميجابكسل"
+
+#: tooltipwidget.cpp:141
+msgid "Size:"
+msgstr "الحجم:"
+
+#: tooltipwidget.cpp:144
+msgid "Camera:"
+msgstr "الكاميرا:"
+
+#: tooltipwidget.cpp:148
+#, kde-format
+msgctxt "Length in millimeters"
+msgid "%1 mm"
+msgstr "%1 مم"
+
+#: tooltipwidget.cpp:151
+#, kde-format
+msgctxt "In photography"
+msgid "35 mm equivalent: %1 mm"
+msgstr "35 مم تساوي: %1 مم"
+
+#: tooltipwidget.cpp:153
+msgctxt "On a camera"
+msgid "Focal Length:"
+msgstr "الطول البؤري:"
+
+#: tooltipwidget.cpp:163
+msgctxt "On a camera"
+msgid "Exposure Time:"
+msgstr "وقت التعرض:"
+
+#: tooltipwidget.cpp:164
+#, kde-format
+msgctxt "Fraction of a second, or number of seconds"
+msgid "%1 s"
+msgstr "%1 ث"
+
+#: tooltipwidget.cpp:173
+msgctxt "On a camera"
+msgid "Aperture:"
+msgstr "الفتحة:"
+
+#: tooltipwidget.cpp:177
+msgctxt "On a camera"
+msgid "ISO Speed:"
+msgstr "سرعة ISO:"
+
+#: tooltipwidget.cpp:182
+msgid "Time:"
+msgstr "الوقت:"
+
+#: tooltipwidget.cpp:190
+#, kde-format
+msgctxt "Inserted as %1 in the message below."
+msgid "1 page"
+msgid_plural "%1 pages"
+msgstr[0] "صفحة واحدة"
+msgstr[1] "صفحة واحدة"
+msgstr[2] "صفحتين"
+msgstr[3] "%1 صفحات"
+msgstr[4] "%1 صفحة"
+msgstr[5] "%1 صفحة"
+
+#: tooltipwidget.cpp:191
+#, kde-format
+msgctxt "Inserted as %2 in the message below."
+msgid "1 word"
+msgid_plural "%1 words"
+msgstr[0] "كلمة واحدة"
+msgstr[1] "كلمة واحدة"
+msgstr[2] "كلمتين"
+msgstr[3] "%1 كلمات"
+msgstr[4] "%1 كلمة"
+msgstr[5] "%1 كلمة"
+
+#: tooltipwidget.cpp:231
+#, kde-format
+msgctxt "Items in a folder"
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] "لا يوجد ملفات"
+msgstr[1] "ملف واحد"
+msgstr[2] "ملفان"
+msgstr[3] "%1 ملفات"
+msgstr[4] "%1 ملفا"
+msgstr[5] "%1 ملف"
+
+#~ msgid ""
+#~ "<html><body><b>Note: The Desktop folder currently does not exist.<br />If "
+#~ "you select this option and click OK it will be created for you.</b></"
+#~ "body></html>"
+#~ msgstr ""
+#~ "<html><body><b>ملاحظة: مجلد سطح المكتب غير موجود حاليا.<br /> إذا انتقيت "
+#~ "هذا الخيار و ضغطت وافق سيتم إنشاءه لك.</b></body></html>"

@@ -1,0 +1,863 @@
+# translation of kcmlirc.po to
+# Copyright (C) 2004, 2006, 2007 Free Software Foundation, Inc.
+#
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Ammar Tabbaa <atabba@kacst.edu.sa>, 2004.
+# Khaled Hosny <dr.khaled.hosny@gmail.com>, 2006.
+# Fahad Al-Saidi <fahad.alsaidi@gmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmlirc\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-09-08 01:23+0200\n"
+"PO-Revision-Date: 2009-07-09 12:26+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: addaction.cpp:177
+#, kde-format
+msgid ""
+"You did not select a mode of that remote control. Please use %1, or revert "
+"back to select a different mode."
+msgstr ""
+"لم تحدد نمطاً لجهاز التحكم عن بعد هذا. يرجى استخدام %1، أو الرجوع للخلف "
+"لاختيار نمط مختلف."
+
+#: addaction.cpp:179
+msgid "Incorrect Remote Control Detected"
+msgstr "تم اكتشاف جهاز تحكم عن بعد غير صحيح"
+
+#: addaction.cpp:320 editaction.cpp:70 editaction.cpp:228
+msgid "Argument name"
+msgstr "اسم المعامل"
+
+#: addaction.cpp:320 editaction.cpp:71
+msgctxt "The value of an argument"
+msgid "Value"
+msgstr "القيمة"
+
+#: addaction.cpp:352
+msgid "D-Bus applications"
+msgstr "تطبيقات D-Bus"
+
+#: dbusinterface.cpp:206
+msgctxt "The name of a parameter"
+msgid "unknown"
+msgstr "مجهول"
+
+#: editaction.cpp:58 editaction.cpp:157 editaction.cpp:181
+msgid "[Exit current mode]"
+msgstr "[الخروج من النمط الحالي]"
+
+#: editaction.cpp:228
+msgctxt "Value of the argument"
+msgid "Value"
+msgstr "القيمة"
+
+#: kcmlirc.cpp:75
+msgid "KDE Lirc"
+msgstr "كدي Lirc"
+
+#: kcmlirc.cpp:76
+msgid "The KDE IR Remote Control System"
+msgstr "نظام كدى للتحكم عن بعد بالأشعة تحت الحمراء"
+
+#: kcmlirc.cpp:78
+msgid "Copyright (c)2003 Gav Wood"
+msgstr "حقوق الملكية (c)2003 Gav Wood"
+
+#: kcmlirc.cpp:80
+msgid ""
+"Use this to configure KDE's infrared remote control system in order to "
+"control any KDE application with your infrared remote control."
+msgstr ""
+"استخدم هذا لإعداد نظام كدى للتحكم عن بعد بالأشعة تحت الحمراء لكى تتمكن من "
+"تشغيل أى من تطبيقات كدى باستخدام جهاز التحكم عن بعد."
+
+#: kcmlirc.cpp:84
+msgid ""
+"<h1>Remote Controls</h1><p>This module allows you to configure bindings "
+"between your remote controls and KDE applications. Simply select your remote "
+"control and click Add under the Actions/Buttons list. If you want KDE to "
+"attempt to automatically assign buttons to a supported application's "
+"actions, try clicking the Auto-Populate button.</p><p>To view the recognised "
+"applications and remote controls, simply select the <em>Loaded Extensions</"
+"em> tab.</p>"
+msgstr ""
+"<h1>أجهزة التحكم عن بعد</h1> <p>تسمح لك هذه الوحدة بإعداد الإرتباطات بين "
+"أجهزة التحكم عن بعد لديك وتطبيقات كدى. ببساطة اختر جهاز التحكم عن بعد لديك "
+"ثم انقر على \"أضف\" من قائمة \"أعمال/أزرار\".  اذا أردت أن تحاول كدى تلقائيا "
+"ربط الأزرار بالتطبيقات المدعومة، جرب النقر على زر \"ملأ تلقائى\".</p> "
+"<p>لترى التطبيقات وأجهزة التحكم عن بعد التى تم التعرف عليها اختر لسان "
+"<em>الإمتدادات المحملة</em>.</p>"
+
+#: kcmlirc.cpp:90
+msgid ""
+"The Infrared Remote Control software is not currently running. This "
+"configuration module will not work properly without it. Would you like to "
+"start it now?"
+msgstr ""
+"إن برمجيات التحكم عن بعد بالأشعّة تحت الحمراء لا تعمل حالياً. لا تستطيع وحدة "
+"الإعداد هذه العمل جيداً دون تلك البرمجيات. هل تريد تشغيلها الآن؟"
+
+#: kcmlirc.cpp:91
+msgid "Software Not Running"
+msgstr "البرمجيات لا تعمل"
+
+#: kcmlirc.cpp:91
+msgid "Start"
+msgstr "ابدأ"
+
+#: kcmlirc.cpp:92 kcmlirc.cpp:102
+msgid "Do Not Start"
+msgstr "لا تبدأ"
+
+#: kcmlirc.cpp:100
+msgid ""
+"Would you like the infrared remote control software to start automatically "
+"when you begin KDE?"
+msgstr ""
+"هل تريد أن يتم تشغيل برامج المتحكم عن بعد بالأشعّة تحت الحمراء تلقائياً عند "
+"بدءك لكدى؟"
+
+#: kcmlirc.cpp:101
+msgid "Automatically Start?"
+msgstr "البدأ التلقائي؟"
+
+#: kcmlirc.cpp:101
+msgid "Start Automatically"
+msgstr "البدأ تلقائياً"
+
+#: kcmlirc.cpp:113
+msgctxt "Column which shows the available remotes on system"
+msgid "Remote"
+msgstr "بعيد"
+
+#: kcmlirc.cpp:113
+msgid "Used Extension"
+msgstr "الإمتدادت المُستعملة"
+
+#: kcmlirc.cpp:198
+msgid "Select a profile"
+msgstr "اختر تشكيل"
+
+#: kcmlirc.cpp:201
+msgid "Auto-Populate"
+msgstr "الملئ التلقائي"
+
+#: kcmlirc.cpp:360
+#, kde-format
+msgid "Are you sure you want to remove %1 and all its actions?"
+msgstr "هل أنت متأكد من حذف %1 و كل إجراءاته ؟"
+
+#: kcmlirc.cpp:362
+msgid "Erase Actions?"
+msgstr "حذف الإجراءات؟"
+
+#: kcmlirc.cpp:410
+msgid "Actions <i>always</i> available"
+msgstr "الإجراءات <i>دائما</i> متاحة"
+
+#: kcmlirc.cpp:411
+#, kde-format
+msgid "Actions available only in mode <b>%1</b>"
+msgstr "الإجراءات متاحه فقط في نمط <b>%1</b>"
+
+#: kcmlirc.cpp:518 kcmlirc.cpp:558 kcmlirc.cpp:571
+msgid "Applications"
+msgstr "التطبيقات"
+
+#: kcmlirc.cpp:530 kcmlirc.cpp:564 kcmlirc.cpp:590
+msgid "Remote Controls"
+msgstr "أجهزة التحكم عن بعد"
+
+#: kcmlirc.cpp:555 kcmlirc.cpp:588 kcmlirc.cpp:608
+#, kde-format
+msgid "Information on <b>%1</b>:"
+msgstr "معلومات حول <b>%1</b>:"
+
+#: kcmlirc.cpp:560
+msgid "Number of Applications"
+msgstr "عدد التطبيقات"
+
+#: kcmlirc.cpp:566
+msgid "Number of Remote Controls"
+msgstr "عدد أجهزة التحكم عن بعد"
+
+#: kcmlirc.cpp:575 kcmlirc.cpp:595
+msgid "Extension Name"
+msgstr "اسم الامتداد"
+
+#: kcmlirc.cpp:578 kcmlirc.cpp:598
+msgid "Extension Author"
+msgstr "مؤلف الامتداد"
+
+#: kcmlirc.cpp:581
+msgid "Application Identifier"
+msgstr "معرّف التطبيق"
+
+#: kcmlirc.cpp:584
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#: kcmlirc.cpp:601
+msgid "Remote Control Identifier"
+msgstr "معرف جهاز التحكم عن بعد"
+
+#: kcmlirc.cpp:604
+msgid "Number of Buttons"
+msgstr "عدد الأزرار"
+
+#. i18n: file: addactionbase.ui:126
+#. i18n: ectx: property (text), widget (QTreeWidget, theProfileFunctions)
+#. i18n: file: editactionbase.ui:24
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: file: kcmlircbase.ui:195
+#. i18n: ectx: property (text), widget (QTreeWidget, theActions)
+#: model.cpp:116 rc.cpp:21 rc.cpp:81 rc.cpp:197
+msgid "Function"
+msgstr "وظيفة"
+
+#: model.cpp:118
+msgid "Parameter"
+msgstr "وسيط"
+
+#: model.cpp:120
+msgid "Prototype"
+msgstr "نموذج أولي"
+
+#: model.cpp:170 model.cpp:280
+msgid "A comma-separated list of Strings"
+msgstr "فاصلة تفصل بين قائمة سلاسل نصية"
+
+#: model.cpp:200
+msgctxt "True"
+msgid "Value is true"
+msgstr "القيمة صح"
+
+#: model.cpp:201
+msgctxt "False"
+msgid "Value is false"
+msgstr "القيمة خطأ"
+
+#. i18n: file: addactionbase.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWizard, AddActionBase)
+#: rc.cpp:3
+msgid "Add Action"
+msgstr "أضف اجراء"
+
+#. i18n: file: addactionbase.ui:22
+#. i18n: ectx: property (text), widget (QRadioButton, theUseProfile)
+#: rc.cpp:6
+msgid "I wish to select an &application below for usage:"
+msgstr "أتمنى أن تختار تطبيق من التطب&يقات التالية للإستخدام:"
+
+#. i18n: file: addactionbase.ui:35
+#. i18n: ectx: property (text), widget (QRadioButton, theUseDBus)
+#: rc.cpp:9
+msgid "I wish to manually select a &function from a running program"
+msgstr "أتمنى اختيار و&ظيفة يدويا من برنامج عامل"
+
+#. i18n: file: addactionbase.ui:42
+#. i18n: ectx: property (text), widget (QRadioButton, theChangeMode)
+#: rc.cpp:12
+msgid "I wish to change the remote control's &mode"
+msgstr "أتمنى ت&غيير نمط جهاز التحكم عن بعد"
+
+#. i18n: file: addactionbase.ui:53
+#. i18n: ectx: property (text), widget (QLabel, theButtonText)
+#: rc.cpp:15
+msgid ""
+"You are attempting to configure an action for a button on [remote] (in mode "
+"[mode]). Press a button on this remote control or select from the list."
+msgstr ""
+"انت على وشك تنسيق إجراء لزر على [المتحكم عن بعد] ( في نمط [نمط]). اظغط زر "
+"على هذا المتحكم عن بعد أو على واحد من القائمة."
+
+#. i18n: file: addactionbase.ui:109
+#. i18n: ectx: property (text), widget (QRadioButton, theNotJustStart)
+#: rc.cpp:18
+msgid "&Perform a function in the application:"
+msgstr "تنفيذ &وظيفة في التطبيق:"
+
+#. i18n: file: addactionbase.ui:131
+#. i18n: ectx: property (text), widget (QTreeWidget, theProfileFunctions)
+#. i18n: file: editactionbase.ui:234
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:24 rc.cpp:111
+msgid "Options"
+msgstr "خيارات"
+
+#. i18n: file: addactionbase.ui:136
+#. i18n: ectx: property (text), widget (QTreeWidget, theProfileFunctions)
+#: rc.cpp:27
+msgid "Description"
+msgstr "الوصف"
+
+#. i18n: file: addactionbase.ui:144
+#. i18n: ectx: property (text), widget (QRadioButton, theJustStart)
+#: rc.cpp:30
+msgid "&Just start the application. Do not do anything else."
+msgstr "ا&بدأ التطبيق فقط. لا تقم بأى شئ آخر"
+
+#. i18n: file: addactionbase.ui:158
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:33
+msgid "Specify the arguments to be passed to the application"
+msgstr "حدد معاملات لتمرر إلى التطبيق"
+
+#. i18n: file: addactionbase.ui:175
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:36
+msgid "Miscellaneous Options"
+msgstr "خيارات متنوعة"
+
+#. i18n: file: addactionbase.ui:195
+#. i18n: ectx: property (text), widget (QCheckBox, theRepeat)
+#: rc.cpp:39
+msgid "This action is &repeatable if the button is held down"
+msgstr "سيتم إعادة الإجراء إذا بقي الزر م&ضغوط"
+
+#. i18n: file: addactionbase.ui:202
+#. i18n: ectx: property (text), widget (QCheckBox, theAutoStart)
+#: rc.cpp:42
+msgid "This action causes the application to &start if not already running"
+msgstr "هذا الإجراء يسبب &بدء التطبيق إذا لم يكن يعمل فعلا"
+
+#. i18n: file: addactionbase.ui:237
+#. i18n: ectx: property (text), widget (QLabel, theIMTop)
+#. i18n: file: editactionbase.ui:358
+#. i18n: ectx: property (text), widget (QLabel, theIMTop)
+#: rc.cpp:45 rc.cpp:132
+msgid "Multiple Instances"
+msgstr "حالات تشغيل متعددة"
+
+#. i18n: file: addactionbase.ui:263
+#. i18n: ectx: property (text), widget (QLabel, theIMLabel)
+#. i18n: file: editactionbase.ui:384
+#. i18n: ectx: property (text), widget (QLabel, theIMLabel)
+#: rc.cpp:48 rc.cpp:135
+msgid ""
+"This application may have multiple instances. In the case of having multiple "
+"instances at once when this action should be executed, choose a course of "
+"action:"
+msgstr ""
+"هذا التطبيق قد يحتوي على حالات تشغيل متعدده. في حالة وجود حالات تشغيل متعددة "
+"عند تنفيذ الإجراء، حدد مسار الإجراء:"
+
+#. i18n: file: addactionbase.ui:279
+#. i18n: ectx: property (text), widget (QRadioButton, theDontSend)
+#. i18n: file: editactionbase.ui:400
+#. i18n: ectx: property (text), widget (QRadioButton, theDontSend)
+#: rc.cpp:51 rc.cpp:138
+msgid "&Ignore the action"
+msgstr "ت&جاهل الإجراء"
+
+#. i18n: file: addactionbase.ui:292
+#. i18n: ectx: property (text), widget (QRadioButton, theSendToTop)
+#: rc.cpp:54
+msgid "Send the action to the instance hi&ghest in the window stacking order"
+msgstr "أرسل الإجراء لحالة التشغيل الأ&على في ترتيب تكديس النوافذ"
+
+#. i18n: file: addactionbase.ui:302
+#. i18n: ectx: property (text), widget (QRadioButton, theSendToBottom)
+#. i18n: file: editactionbase.ui:423
+#. i18n: ectx: property (text), widget (QRadioButton, theSendToBottom)
+#: rc.cpp:57 rc.cpp:144
+msgid "Send the action to the instance &lowest in window stacking order"
+msgstr "أرسل الإجراء لحالة التشغيل الأ&دنى في ترتيب تكديس النوافذ"
+
+#. i18n: file: addactionbase.ui:312
+#. i18n: ectx: property (text), widget (QRadioButton, theSendToAll)
+#: rc.cpp:60
+msgid "Send the action to &all instances"
+msgstr "أرسل الإجراء لكل &حالات التشغيل"
+
+#. i18n: file: addactionbase.ui:336
+#. i18n: ectx: property (text), widget (QRadioButton, theSwitchMode)
+#: rc.cpp:63
+msgid "&Switch to mode:"
+msgstr "&غيّر إلى نمط:"
+
+#. i18n: file: addactionbase.ui:353
+#. i18n: ectx: property (text), widget (QRadioButton, theExitMode)
+#: rc.cpp:66
+msgid "&Exit current mode"
+msgstr "ا&خرج من النمط الحالي"
+
+#. i18n: file: addactionbase.ui:379
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:69
+msgid "<b>Options</b>"
+msgstr "<b>خيارات</b>"
+
+#. i18n: file: addactionbase.ui:399
+#. i18n: ectx: property (text), widget (QCheckBox, theDoBefore)
+#. i18n: file: editactionbase.ui:313
+#. i18n: ectx: property (text), widget (QCheckBox, theDoBefore)
+#: rc.cpp:72 rc.cpp:126
+msgid "E&xecute all other actions before mode change (in original mode)"
+msgstr "&تنفيذ كل الإجراءات الأخرى قبل تغيير النمط ( في النمط الأصلي )"
+
+#. i18n: file: addactionbase.ui:409
+#. i18n: ectx: property (text), widget (QCheckBox, theDoAfter)
+#. i18n: file: editactionbase.ui:326
+#. i18n: ectx: property (text), widget (QCheckBox, theDoAfter)
+#: rc.cpp:75 rc.cpp:129
+msgid "Exec&ute all actions after mode change (in new mode)"
+msgstr "تنفيذ كل الإجراءات ب&عد تغيير النمط ( في النمط الجديد )"
+
+#. i18n: file: editactionbase.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, EditActionBase)
+#: rc.cpp:78
+msgid "Edit Action"
+msgstr "حرر الإجراء"
+
+#. i18n: file: editactionbase.ui:30
+#. i18n: ectx: property (text), widget (QRadioButton, theUseProfile)
+#: rc.cpp:84
+msgid "&Use application:"
+msgstr "ا&ستخدام التطبيق:"
+
+#. i18n: file: editactionbase.ui:49
+#. i18n: ectx: property (text), widget (QLabel, theUseProfileAppLabel)
+#: rc.cpp:87
+msgid "&Application:"
+msgstr "&تطبيق:"
+
+#. i18n: file: editactionbase.ui:78
+#. i18n: ectx: property (text), widget (QRadioButton, thePerformFunction)
+#: rc.cpp:90
+msgid "&Perform function:"
+msgstr "تنفيذ &وظيفة:"
+
+#. i18n: file: editactionbase.ui:98
+#. i18n: ectx: property (text), widget (QRadioButton, theJustStart)
+#: rc.cpp:93
+msgid "Just start application"
+msgstr "ابدأ التطبيق فقط"
+
+#. i18n: file: editactionbase.ui:108
+#. i18n: ectx: property (text), widget (QRadioButton, theUseDBus)
+#: rc.cpp:96
+msgid "Use &D-Bus:"
+msgstr "ا&ستخدام D-Bus:"
+
+#. i18n: file: editactionbase.ui:127
+#. i18n: ectx: property (text), widget (QLabel, theDBusApplicationsLabel)
+#: rc.cpp:99
+msgid "App&lication:"
+msgstr "تطبي&ق:"
+
+#. i18n: file: editactionbase.ui:156
+#. i18n: ectx: property (text), widget (QLabel, theDBusObjectsLabel)
+#: rc.cpp:102
+msgid "O&bject:"
+msgstr "ك&ائن:"
+
+#. i18n: file: editactionbase.ui:179
+#. i18n: ectx: property (text), widget (QLabel, theDBusFunctionsLabel)
+#: rc.cpp:105
+msgid "Fu&nction:"
+msgstr "&وظيفة:"
+
+#. i18n: file: editactionbase.ui:211
+#. i18n: ectx: property (text), widget (QRadioButton, theChangeMode)
+#: rc.cpp:108
+msgid "Change &mode to:"
+msgstr "غيّر النمط إ&لى:"
+
+#. i18n: file: editactionbase.ui:240
+#. i18n: ectx: property (text), widget (QLabel, optionsDBusAppLabel)
+#: rc.cpp:114
+msgid "<b>D-Bus/Application Action Options</b>"
+msgstr "<b>خيارات إجراء D-Bus/التطبيق</b>"
+
+#. i18n: file: editactionbase.ui:260
+#. i18n: ectx: property (text), widget (QCheckBox, theRepeat)
+#: rc.cpp:117
+msgid "&Action repeats if button is held down"
+msgstr "سيتم ت&كرار الإجراء اذا استمر الظغط على الزر"
+
+#. i18n: file: editactionbase.ui:267
+#. i18n: ectx: property (text), widget (QCheckBox, theAutoStart)
+#: rc.cpp:120
+msgid "&Start program/service if not already running"
+msgstr "ابد&أ البرنامج/الخدمة إذا لم تكن بدأت مسبقا"
+
+#. i18n: file: editactionbase.ui:290
+#. i18n: ectx: property (text), widget (QLabel, theMCOLabel)
+#: rc.cpp:123
+msgid "<b>Mode Change Options</b>"
+msgstr "<b>اختيارات تغيير النمط</b>"
+
+#. i18n: file: editactionbase.ui:413
+#. i18n: ectx: property (text), widget (QRadioButton, theSendToTop)
+#: rc.cpp:141
+msgid "Send the action to the instance hi&ghest in window stacking order"
+msgstr "أرسل الإجراء لحالة التشغيل الأ&على في ترتيب تكديس النوافذ"
+
+#. i18n: file: editactionbase.ui:433
+#. i18n: ectx: property (text), widget (QRadioButton, theSendToAll)
+#: rc.cpp:147
+msgid "Send the action to all i&nstances"
+msgstr "أرسل الاجرا&ء لكل حالات التشغيل"
+
+#. i18n: file: editmodebase.ui:16
+#. i18n: ectx: property (windowTitle), widget (QWidget, EditModeBase)
+#: rc.cpp:150
+msgid "Edit Mode"
+msgstr "حرر النمط"
+
+#. i18n: file: editmodebase.ui:22
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:153
+msgid "<b>Description</b>"
+msgstr "<b>الوصف</b>"
+
+#. i18n: file: editmodebase.ui:102
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:156
+msgid "&Mode name:"
+msgstr "&اسم النمط:"
+
+#. i18n: file: editmodebase.ui:115
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: rc.cpp:159
+msgid "&Icon for system tray:"
+msgstr "أ&يقونة للوحة النظام:"
+
+#. i18n: file: editmodebase.ui:140
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:162
+msgid "<b>Behavior</b>"
+msgstr "<b>السلوك</b>"
+
+#. i18n: file: editmodebase.ui:160
+#. i18n: ectx: property (text), widget (QCheckBox, theDefault)
+#: rc.cpp:165
+msgid "Mo&de is the default for its remote "
+msgstr "ال&نمط هو الافتراضي لجهاز التحكم عن بعد الخاص به"
+
+#. i18n: file: kcmlircbase.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWidget, KCMLircBase)
+#: rc.cpp:168
+msgid "Linux Infrared Remote Control"
+msgstr "جهاز لينكس للتحكم عن بعد بالأشعّة تحت الحمراء"
+
+#. i18n: file: kcmlircbase.ui:28
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:171
+msgid "Controller Functions"
+msgstr "وظائف المتحكم"
+
+#. i18n: file: kcmlircbase.ui:53
+#. i18n: ectx: property (text), widget (QLabel, theMainLabel)
+#: rc.cpp:174
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:600; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">There are currently no "
+"remote controls available. You must first set up LIRC correctly. Find more "
+"information on <a href=\"http://www.lirc.org\"><span style=\" text-"
+"decoration: underline; color:#3c7dbe;\">www.lirc.org</span></a>.</p></body></"
+"html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:600; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">لا يوجد متحكمات عن بعد "
+"الآن ، يجب عليك أولا أن تعد LIRC بشكل صححي ، احصل على معلومات  أكثر من على  "
+"<a href=\"http://www.lirc.org\"><span style=\" text-decoration: underline; "
+"color:#3c7dbe;\">www.lirc.org</span></a>.</p></body></html>"
+
+#. i18n: file: kcmlircbase.ui:77
+#. i18n: ectx: property (text), widget (QLabel, theRemotesLabel)
+#: rc.cpp:181
+msgid "Remote controls and modes:"
+msgstr "أجهزة التحكم عن بعد والأنماط:"
+
+#. i18n: file: kcmlircbase.ui:109
+#. i18n: ectx: property (text), widget (KPushButton, theAddMode)
+#: rc.cpp:184
+msgid "&Add..."
+msgstr "أ&ضف..."
+
+#. i18n: file: kcmlircbase.ui:125
+#. i18n: ectx: property (text), widget (KPushButton, theEditMode)
+#: rc.cpp:187
+msgid "&Edit..."
+msgstr "&حرّر..."
+
+#. i18n: file: kcmlircbase.ui:141
+#. i18n: ectx: property (text), widget (KPushButton, theRemoveMode)
+#: rc.cpp:190
+msgid "&Remove"
+msgstr "أ&زل"
+
+#. i18n: file: kcmlircbase.ui:190
+#. i18n: ectx: property (text), widget (QTreeWidget, theActions)
+#: rc.cpp:194
+msgid "Application"
+msgstr "التطبيق"
+
+#. i18n: file: kcmlircbase.ui:200
+#. i18n: ectx: property (text), widget (QTreeWidget, theActions)
+#: rc.cpp:200
+msgid "Arguments"
+msgstr "المعاملات"
+
+#. i18n: file: kcmlircbase.ui:205
+#. i18n: ectx: property (text), widget (QTreeWidget, theActions)
+#: rc.cpp:203
+msgid "Notes"
+msgstr "ملاحظات"
+
+#. i18n: file: kcmlircbase.ui:220
+#. i18n: ectx: property (text), widget (KPushButton, theAddActions)
+#: rc.cpp:206
+msgid "Auto-Populate..."
+msgstr "الملئ التلقائي..."
+
+#. i18n: file: kcmlircbase.ui:233
+#. i18n: ectx: property (text), widget (KPushButton, theAddAction)
+#: rc.cpp:209
+msgid "A&dd..."
+msgstr "أ&ضف..."
+
+#. i18n: file: kcmlircbase.ui:243
+#. i18n: ectx: property (text), widget (QPushButton, theEditAction)
+#: rc.cpp:212
+msgid "Ed&it..."
+msgstr "&حرّر..."
+
+#. i18n: file: kcmlircbase.ui:253
+#. i18n: ectx: property (text), widget (KPushButton, theRemoveAction)
+#: rc.cpp:215
+msgid "Re&move"
+msgstr "أ&زل"
+
+#. i18n: file: kcmlircbase.ui:280
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:218
+msgid "Extension Overview"
+msgstr "عرض عام للإمتداد"
+
+#. i18n: file: kcmlircbase.ui:287
+#. i18n: ectx: property (text), widget (QTreeWidget, theExtensions)
+#: rc.cpp:221
+msgid "Available Extensions"
+msgstr "الإمتدادت المُوجودة"
+
+#. i18n: file: kcmlircbase.ui:322
+#. i18n: ectx: property (text), widget (QTreeWidget, theInformation)
+#: rc.cpp:224
+msgid "Information"
+msgstr "المعلومات"
+
+#. i18n: file: kcmlircbase.ui:327
+#. i18n: ectx: property (text), widget (QTreeWidget, theInformation)
+#: rc.cpp:227
+msgid "Value"
+msgstr "قيمة"
+
+#. i18n: file: newmode.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, NewMode)
+#: rc.cpp:230
+msgid "New Mode"
+msgstr "نمط جديد"
+
+#. i18n: file: newmode.ui:29
+#. i18n: ectx: property (text), widget (QTreeWidget, theRemotes)
+#: rc.cpp:233
+msgid "Remotes"
+msgstr "المتحكمات البعيدة"
+
+#. i18n: file: newmode.ui:42
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:236
+msgctxt "Name of the remote mode"
+msgid "Name:"
+msgstr "الاسم:"
+
+#. i18n: file: newmode.ui:56
+#. i18n: ectx: property (text), widget (QCheckBox, theDefault)
+#: rc.cpp:239
+msgid "Set mode as default"
+msgstr "ضع النمط كالافتراضي"
+
+#. i18n: file: newmode.ui:98
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: rc.cpp:242
+msgid "&Icon "
+msgstr "الأ&يقونة"
+
+#: rc.cpp:243
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "خالد حسنى, فهد السعيدي,زايد السعيدي"
+
+#: rc.cpp:244
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"dr.khaled.hosny@gmail.com, Fahad.alsaidi@gmail.com,zayed.alsaidi@gmail.com"
+
+#~ msgid ""
+#~ "There are currently no remote controls available. You must first set up "
+#~ "LIRC correctly; see www.lirc.org for more information."
+#~ msgstr ""
+#~ "لا يتوفر حاليا أى أجهزة تحكم عن بعد.  يجب عليك تهيئة LIRC بشكل صحيح أولا؛ "
+#~ "انظر www.lirc.org للحصول على المزيد من المعلومات."
+
+#~ msgid "Button"
+#~ msgstr "زر"
+
+#~ msgid "Name"
+#~ msgstr "الإسم"
+
+#, fuzzy
+#~| msgid "Value"
+#~ msgid "False"
+#~ msgstr "قيمة"
+
+#~ msgid ""
+#~ "You may only drag the selected items onto a mode of the same remote "
+#~ "control"
+#~ msgstr "يمكنك فقط سحب العناصر المحدده إلى داخل نمط نفس المتحكم عن بعد"
+
+#~ msgid "You May Not Drag Here"
+#~ msgstr "لا يمكنك السحب هنا"
+
+#, fuzzy
+#~| msgid "Parameter"
+#~ msgid "Parameters"
+#~ msgstr "وسيط"
+
+#, fuzzy
+#~| msgid "Function"
+#~ msgid "DBus functions"
+#~ msgstr "وظيفة"
+
+#, fuzzy
+#~| msgid "anonymous"
+#~ msgctxt "Unknown parameter name in function"
+#~ msgid "&lt;anonymous&gt;"
+#~ msgstr "بدون اسم"
+
+#~ msgid "Program"
+#~ msgstr "برنامج"
+
+#~ msgid "Option Description"
+#~ msgstr "وصف الخيار"
+
+#~ msgid "Type"
+#~ msgstr "نوع"
+
+#~ msgid "Place"
+#~ msgstr "مكان"
+
+#~ msgid "Parameter:"
+#~ msgstr "وسيط:"
+
+#, fuzzy
+#~| msgid "A&pplication/DCOP options:"
+#~ msgid "A&pplication / D-Bus options:"
+#~ msgstr "خيارات ال&تطبيق/DCOP:"
+
+#~ msgid "&Help"
+#~ msgstr "&مساعدة"
+
+#~ msgid "F1"
+#~ msgstr "F1"
+
+#~ msgid "&OK"
+#~ msgstr "&موافق"
+
+#~ msgid "&Cancel"
+#~ msgstr "&إلغي"
+
+#, fuzzy
+#~| msgid "&Add..."
+#~ msgid "Add"
+#~ msgstr "أ&ضف..."
+
+#, fuzzy
+#~| msgid "&Cancel"
+#~ msgid "Cancel"
+#~ msgstr "&إلغي"
+
+#, fuzzy
+#~| msgid "Profile Name"
+#~ msgid "Profiles"
+#~ msgstr "اسم التشكيل الجانبي"
+
+#~ msgid "<anonymous>"
+#~ msgstr "<بدون اسم>"
+
+#~ msgid "Remote Control"
+#~ msgstr "جهاز تحكم عن بعد"
+
+#~ msgid "Default"
+#~ msgstr "افتراضي"
+
+#~ msgid "IR Kick"
+#~ msgstr "IR Kick"
+
+#~ msgid "Xine"
+#~ msgstr "Xine"
+
+#~ msgid "kicker"
+#~ msgstr "kicker"
+
+#~ msgid "noatun"
+#~ msgstr "noatun"
+
+#~ msgid "Marquis"
+#~ msgstr "Marquis"
+
+#~ msgid "Noatun"
+#~ msgstr "Noatun"
+
+#~ msgid "Mode"
+#~ msgstr "النمط"
+
+#~ msgid "New Column"
+#~ msgstr "عمود جديد"
+
+#~ msgid "Select Action to Carry Out on Button Press"
+#~ msgstr "حدد إجراء ليتم عمله عند ضغط الزر"
+
+#~ msgid "Select Button to Configure"
+#~ msgstr "حدد زر ليتم إعداده"
+
+#~ msgid "Select Program Function"
+#~ msgstr "حدد وظيفة البرنامج"
+
+#~ msgid "Populate Parameters"
+#~ msgstr "ملأ المعاملات"
+
+#~ msgid "Finishing Up"
+#~ msgstr "الإنتهاء من"
+
+#~ msgid "Select Required Mode Change"
+#~ msgstr "حدد التغيّر المطلوب فى النمط"

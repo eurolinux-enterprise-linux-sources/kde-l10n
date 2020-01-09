@@ -1,0 +1,641 @@
+# translation of keditbookmarks.po to Arabic
+# translation of keditbookmarks.po to
+# Copyright (C) 2001,2002, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+#
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: keditbookmarks\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-10-08 01:19+0200\n"
+"PO-Revision-Date: 2008-12-06 15:32+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: commands.cpp:117
+msgid "Insert Separator"
+msgstr "أدرج فاصلا"
+
+#: commands.cpp:119
+msgid "Create Folder"
+msgstr "أنشء مجلدا"
+
+#: commands.cpp:121
+#, kde-format
+msgid "Copy %1"
+msgstr "انسخ %1"
+
+#: commands.cpp:123
+msgid "Create Bookmark"
+msgstr "أنشء علامة موقع"
+
+#: commands.cpp:213
+msgid "Icon"
+msgstr "الأيقونة"
+
+#: commands.cpp:213 commands.cpp:215 commands.cpp:217 commands.cpp:219
+#, kde-format
+msgid "%1 Change"
+msgstr "تغير %1"
+
+#: commands.cpp:215
+msgid "Title"
+msgstr "العنوان"
+
+#: commands.cpp:217 bookmarkmodel.cpp:173
+msgid "URL"
+msgstr "المسار"
+
+#: commands.cpp:219 bookmarkmodel.cpp:175
+msgid "Comment"
+msgstr "التعليق"
+
+#: commands.cpp:420
+#, kde-format
+msgid "Move %1"
+msgstr "انقل %1"
+
+#: commands.cpp:532
+msgid "Set as Bookmark Toolbar"
+msgstr "اجعله شريط علامات"
+
+#: commands.cpp:570
+msgid "Copy Items"
+msgstr "انسخ العناصر"
+
+#: commands.cpp:571
+msgid "Move Items"
+msgstr "انقل العناصر"
+
+#: importers.cpp:47
+#, kde-format
+msgid "Import %1 Bookmarks"
+msgstr "استورد  العلامات %1"
+
+#: importers.cpp:51
+#, kde-format
+msgid "%1 Bookmarks"
+msgstr "%1 من العلامات"
+
+#: importers.cpp:81
+msgid "Import as a new subfolder or replace all the current bookmarks?"
+msgstr "هل تريد الاستيراد في مجلد جديد أو أن تستبدل العلامات الحالية؟"
+
+#: importers.cpp:82
+#, kde-format
+msgid "%1 Import"
+msgstr "%1 من الاستيرادات"
+
+#: importers.cpp:83
+msgid "As New Folder"
+msgstr "كمجلد جديد"
+
+#: importers.cpp:83
+msgid "Replace"
+msgstr "استبدل"
+
+#: importers.cpp:192
+msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
+msgstr "*.xbel|ملفات علامات جاليون (*.xbel)"
+
+#: importers.cpp:201
+msgid "*.xml|KDE Bookmark Files (*.xml)"
+msgstr "*.xml|ملفات علامات كيدي (*.xml)"
+
+#: bookmarkmodel.cpp:85
+msgid "Bookmarks"
+msgstr "علامات المواقع"
+
+#: bookmarkmodel.cpp:171
+msgid "Bookmark"
+msgstr "علامة موقع"
+
+#: bookmarkmodel.cpp:177
+msgid "Status"
+msgstr "الحالة"
+
+#: main.cpp:66
+#, kde-format
+msgid ""
+"Another instance of %1 is already running. Do you really want to open "
+"another instance or continue work in the same instance?\n"
+"Please note that, unfortunately, duplicate views are read-only."
+msgstr ""
+"توجد نسخة أخرى لـ %1 قيد التشغيل, هل تريد فعلاً فتح نسخة أخرى أم متابعة العمل "
+"في نفس النسخة؟\n"
+"من فضلك لاحظ، أن العروض المكررة -مع الأسف - تكون في وضع القراءة فقط."
+
+#: main.cpp:69
+msgid "Warning"
+msgstr "إنذار"
+
+#: main.cpp:70
+msgid "Run Another"
+msgstr "نفّذ آخر"
+
+#: main.cpp:71
+msgid "Continue in Same"
+msgstr "استمر في نفس العرض"
+
+#: main.cpp:94
+msgid "Bookmark Editor"
+msgstr "محرِّر علامات المواقع"
+
+#: main.cpp:95
+msgid "Bookmark Organizer and Editor"
+msgstr "منظم و محرر العلامات"
+
+#: main.cpp:97
+msgid "Copyright 2000-2007, KDE developers"
+msgstr "Copyright 2000-2007, مطور الكيدي"
+
+#: main.cpp:98
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:98
+msgid "Initial author"
+msgstr "المؤلف الأول"
+
+#: main.cpp:99
+msgid "Alexander Kellett"
+msgstr "Alexander Kellett"
+
+#: main.cpp:99
+msgid "Author"
+msgstr "المؤلف"
+
+#: main.cpp:106
+msgid "Import bookmarks from a file in Mozilla format"
+msgstr "استورد علامات المواقع من ملف في هيئة موزيلا"
+
+#: main.cpp:107
+msgid "Import bookmarks from a file in Netscape (4.x and earlier) format"
+msgstr "استورد علامات المواقع من ملف في هيئة نيتسكيب (4.x وأقدم) "
+
+#: main.cpp:108
+msgid "Import bookmarks from a file in Internet Explorer's Favorites format"
+msgstr "استورد علامات المواقع من ملف في صيغة مفضلات إنترنت اكسبلور"
+
+#: main.cpp:109
+msgid "Import bookmarks from a file in Opera format"
+msgstr "استورد علامات المواقع من ملف في صيغة أوبرا"
+
+#: main.cpp:110
+msgid "Export bookmarks to a file in Mozilla format"
+msgstr "صدّر علامات المواقع إلى ملف في هيئة موزيلا"
+
+#: main.cpp:111
+msgid "Export bookmarks to a file in Netscape (4.x and earlier) format"
+msgstr "صدّر علامات المواقع إلى ملف في هيئة نيتسكيب (4.x وأقدم)"
+
+#: main.cpp:112
+msgid "Export bookmarks to a file in a printable HTML format"
+msgstr "صدّر علامات المواقع إلى ملف في صيغة HTML قابلة للطباعة"
+
+#: main.cpp:113
+msgid "Export bookmarks to a file in Internet Explorer's Favorites format"
+msgstr "صدّر علامات المواقع إلى ملف في صيغة مفضلات إنترنت اكسبلور"
+
+#: main.cpp:114
+msgid "Export bookmarks to a file in Opera format"
+msgstr "صدّر علامات المواقع إلى ملف في صيغة أوبرا"
+
+#: main.cpp:115
+msgid "Open at the given position in the bookmarks file"
+msgstr "افتح عند الموضع المعطى في ملف علامات المواقع"
+
+#: main.cpp:116
+msgid "Set the user-readable caption, for example \"Konsole\""
+msgstr "استعمل عنوان يمكن للمستخدم قراءته، مثلا \"الطرفية\""
+
+#: main.cpp:117
+msgid "Hide all browser related functions"
+msgstr "أخفِ كلّ الدوال المتعلقة بالمتصفح"
+
+#: main.cpp:118
+#, fuzzy
+#| msgid ""
+#| "A unique name that represents this bookmark collection, usually the "
+#| "kinstance name.\n"
+#| "This should be \"konqueror\" for the Konqueror bookmarks, \"kfile\" for "
+#| "KFileDialog bookmarks, etc.\n"
+#| "The final DBus object path is /KBookmarkManager/dbusObjectName"
+msgid ""
+"A unique name that represents this bookmark collection, usually the "
+"kinstance name.\n"
+"This should be \"konqueror\" for the Konqueror bookmarks, \"kfile\" for "
+"KFileDialog bookmarks, etc.\n"
+"The final D-Bus object path is /KBookmarkManager/dbusObjectName"
+msgstr ""
+"اسم فريد لوصف هذه المجموعة من علامات المواقع.\n"
+"يجب أن تكون باسم البرنامج الذي تتعلق به هذه العلامات.\n"
+"المسار النهائي لكوائن DBus هو /KBookmarkManager/dbusObjectName"
+
+#: main.cpp:121
+msgid "File to edit"
+msgstr "الملف المراد تحريره"
+
+#: main.cpp:159
+msgid "You may only specify a single --export option."
+msgstr "يمكنك تحديد خيار --export فقط."
+
+#: main.cpp:164
+msgid "You may only specify a single --import option."
+msgstr "يمكنك تحديد خيار --import فقط."
+
+#: kbookmarkmerger.cpp:39
+msgid "KBookmarkMerger"
+msgstr "مازج علامات المواقع"
+
+#: kbookmarkmerger.cpp:40
+msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
+msgstr "يمزج العلامات التي تثبتها جهات أجنبية في علامات المستخدم"
+
+#: kbookmarkmerger.cpp:42
+msgid "Copyright © 2005 Frerich Raabe"
+msgstr "حقوق النسخ محفوظة © 2005 Frerich Raabe"
+
+#: kbookmarkmerger.cpp:43
+msgid "Frerich Raabe"
+msgstr "Frerich Raabe"
+
+#: kbookmarkmerger.cpp:43
+msgid "Original author"
+msgstr "المؤلف الأصلي"
+
+#: kbookmarkmerger.cpp:49
+msgid "Directory to scan for extra bookmarks"
+msgstr "الدليل للمسح فيه عن علامات مواقع إضافية"
+
+#: bookmarkinfo.cpp:259
+msgid "Name:"
+msgstr "الاسم:"
+
+#: bookmarkinfo.cpp:270
+msgid "Location:"
+msgstr "الموقع:"
+
+#: bookmarkinfo.cpp:281
+msgid "Comment:"
+msgstr "التعليق:"
+
+#: bookmarkinfo.cpp:291
+msgid "First viewed:"
+msgstr "عرض أول مرة في:"
+
+#: bookmarkinfo.cpp:297
+msgid "Viewed last:"
+msgstr "عرض آخر مرة في:"
+
+#: bookmarkinfo.cpp:303
+msgid "Times visited:"
+msgstr "عدد الزيارات:"
+
+#: kebsearchline.cpp:266
+msgid "Search Columns"
+msgstr "ابحث في الأعمدة"
+
+#: kebsearchline.cpp:269
+msgid "All Visible Columns"
+msgstr "كلّ الأعمدة المرئية"
+
+#: kebsearchline.cpp:278
+#, kde-format
+msgctxt "Column number %1"
+msgid "Column No. %1"
+msgstr "رقم العمود %1"
+
+#: kebsearchline.cpp:673
+msgid "S&earch:"
+msgstr "ا&بحث:"
+
+#: favicons.cpp:82 testlink.cpp:130
+msgid "OK"
+msgstr "موافق"
+
+#: favicons.cpp:82
+msgid "No favicon found"
+msgstr "أيقونة الويب غير موجودة"
+
+#: favicons.cpp:94
+msgid "Updating favicon..."
+msgstr "تحدّث أيقونة الويب"
+
+#: favicons.cpp:103
+msgid "Local file"
+msgstr "ملف محلي"
+
+#. i18n: file: keditbookmarks-genui.rc:6
+#. i18n: ectx: Menu (file)
+#. i18n: file: keditbookmarksui.rc:6
+#. i18n: ectx: Menu (file)
+#. i18n: file: keditbookmarks-genui.rc:6
+#. i18n: ectx: Menu (file)
+#. i18n: file: keditbookmarksui.rc:6
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3 rc.cpp:24 rc.cpp:56 rc.cpp:77
+msgid "&File"
+msgstr "&ملف"
+
+#. i18n: file: keditbookmarks-genui.rc:13
+#. i18n: ectx: Menu (edit)
+#. i18n: file: keditbookmarksui.rc:32
+#. i18n: ectx: Menu (edit)
+#. i18n: file: keditbookmarks-genui.rc:13
+#. i18n: ectx: Menu (edit)
+#. i18n: file: keditbookmarksui.rc:32
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6 rc.cpp:33 rc.cpp:59 rc.cpp:86
+msgid "&Edit"
+msgstr "&حرّر"
+
+#. i18n: file: keditbookmarks-genui.rc:25
+#. i18n: ectx: Menu (view)
+#. i18n: file: keditbookmarksui.rc:44
+#. i18n: ectx: Menu (view)
+#. i18n: file: keditbookmarks-genui.rc:25
+#. i18n: ectx: Menu (view)
+#. i18n: file: keditbookmarksui.rc:44
+#. i18n: ectx: Menu (view)
+#: rc.cpp:9 rc.cpp:36 rc.cpp:62 rc.cpp:89
+msgid "&View"
+msgstr "&أعرض"
+
+#. i18n: file: keditbookmarks-genui.rc:30
+#. i18n: ectx: Menu (folder)
+#. i18n: file: keditbookmarksui.rc:49
+#. i18n: ectx: Menu (folder)
+#. i18n: file: keditbookmarks-genui.rc:30
+#. i18n: ectx: Menu (folder)
+#. i18n: file: keditbookmarksui.rc:49
+#. i18n: ectx: Menu (folder)
+#: rc.cpp:12 rc.cpp:39 rc.cpp:65 rc.cpp:92
+msgid "&Folder"
+msgstr "&مجلد"
+
+#. i18n: file: keditbookmarks-genui.rc:38
+#. i18n: ectx: Menu (bookmark)
+#. i18n: file: keditbookmarksui.rc:58
+#. i18n: ectx: Menu (bookmark)
+#. i18n: file: keditbookmarks-genui.rc:38
+#. i18n: ectx: Menu (bookmark)
+#. i18n: file: keditbookmarksui.rc:58
+#. i18n: ectx: Menu (bookmark)
+#: rc.cpp:15 rc.cpp:42 rc.cpp:68 rc.cpp:95
+msgid "&Bookmark"
+msgstr "&علامة موقع"
+
+#. i18n: file: keditbookmarks-genui.rc:42
+#. i18n: ectx: Menu (settings)
+#. i18n: file: keditbookmarksui.rc:74
+#. i18n: ectx: Menu (settings)
+#. i18n: file: keditbookmarks-genui.rc:42
+#. i18n: ectx: Menu (settings)
+#. i18n: file: keditbookmarksui.rc:74
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:18 rc.cpp:48 rc.cpp:71 rc.cpp:101
+msgid "&Settings"
+msgstr "&إعدادات"
+
+#. i18n: file: keditbookmarks-genui.rc:48
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: keditbookmarksui.rc:81
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: keditbookmarks-genui.rc:48
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: keditbookmarksui.rc:81
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:21 rc.cpp:51 rc.cpp:74 rc.cpp:104
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسي"
+
+#. i18n: file: keditbookmarksui.rc:10
+#. i18n: ectx: Menu (import)
+#: rc.cpp:27 rc.cpp:80
+msgid "&Import"
+msgstr "&استورد"
+
+#. i18n: file: keditbookmarksui.rc:20
+#. i18n: ectx: Menu (export)
+#: rc.cpp:30 rc.cpp:83
+msgid "&Export"
+msgstr "&صدّر"
+
+#. i18n: file: keditbookmarksui.rc:66
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:45 rc.cpp:98
+msgid "&Tools"
+msgstr "&أدوات"
+
+#: rc.cpp:52
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد,زايد السعيدي"
+
+#: rc.cpp:53
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr,zayed.alsaidi@gmail.com"
+
+#: testlink.cpp:107
+msgid "Checking..."
+msgstr "يجري الفحص..."
+
+#: importers.h:106
+msgid "Galeon"
+msgstr "جاليون"
+
+#: importers.h:116
+msgid "KDE"
+msgstr "كيدي"
+
+#: importers.h:137
+msgid "Netscape"
+msgstr "نيتسكيب"
+
+#: importers.h:147
+msgid "Mozilla"
+msgstr "موزيلا"
+
+#: importers.h:157
+msgid "IE"
+msgstr "إنترنت اكسبلور"
+
+#: importers.h:169
+msgid "Opera"
+msgstr "أوبرا"
+
+#: importers.h:181
+msgid "Crashes"
+msgstr "الانهيارات"
+
+#: actionsimpl.cpp:99
+msgid "&Delete"
+msgstr "&احذف"
+
+#: actionsimpl.cpp:105
+msgid "Rename"
+msgstr "أعد التسمية"
+
+#: actionsimpl.cpp:111
+msgid "C&hange URL"
+msgstr "غيّ&ر المسار"
+
+#: actionsimpl.cpp:117
+msgid "C&hange Comment"
+msgstr "غيّ&ر التعليق"
+
+#: actionsimpl.cpp:123
+msgid "Chan&ge Icon..."
+msgstr "غيّ&ر الأيقونة..."
+
+#: actionsimpl.cpp:127
+msgid "Update Favicon"
+msgstr "حدّث أيقونة الموقع"
+
+#: actionsimpl.cpp:131 actionsimpl.cpp:498
+msgid "Recursive Sort"
+msgstr "فرز تعاودي"
+
+#: actionsimpl.cpp:136
+msgid "&New Folder..."
+msgstr "&مجلد جديد..."
+
+#: actionsimpl.cpp:142
+msgid "&New Bookmark"
+msgstr "&علامة موقع جديدة"
+
+#: actionsimpl.cpp:146
+msgid "&Insert Separator"
+msgstr "&أدرج فاصلا"
+
+#: actionsimpl.cpp:151
+msgid "&Sort Alphabetically"
+msgstr "&افرز أبجدياً"
+
+#: actionsimpl.cpp:156
+msgid "Set as T&oolbar Folder"
+msgstr "عيّن كم&جلد في شريط الأدوات"
+
+#: actionsimpl.cpp:160
+msgid "&Expand All Folders"
+msgstr "م&دّد كلّ المجلدات"
+
+#: actionsimpl.cpp:164
+msgid "Collapse &All Folders"
+msgstr "ا&طو كلّ المجلدات"
+
+#: actionsimpl.cpp:169
+msgid "&Open in Konqueror"
+msgstr "&افتح  بواسطة كونكيورر"
+
+#: actionsimpl.cpp:174
+msgid "Check &Status"
+msgstr "افحص ال&حالة"
+
+#: actionsimpl.cpp:178
+msgid "Check Status: &All"
+msgstr "افحص الحالة: ال&كلّ"
+
+#: actionsimpl.cpp:182
+msgid "Update All &Favicons"
+msgstr "حدّث كل أي&قونات المواقع"
+
+#: actionsimpl.cpp:186
+msgid "Cancel &Checks"
+msgstr "ألغ ال&فحوص"
+
+#: actionsimpl.cpp:190
+msgid "Cancel &Favicon Updates"
+msgstr "ألغ تحدي&ث أيقونات المواقع"
+
+#: actionsimpl.cpp:196
+msgid "Import &Netscape Bookmarks..."
+msgstr "استورد علام&ات مواقع نيتسكيب..."
+
+#: actionsimpl.cpp:202
+msgid "Import &Opera Bookmarks..."
+msgstr "استورد علام&ات مواقع أوبرا..."
+
+#: actionsimpl.cpp:207
+msgid "Import All &Crash Sessions as Bookmarks..."
+msgstr "استورد كلّ الجلسات ال&منهارة كـ علامات مواقع..."
+
+#: actionsimpl.cpp:212
+msgid "Import &Galeon Bookmarks..."
+msgstr "استورد علامات مواقع جاليون..."
+
+#: actionsimpl.cpp:218
+msgid "Import &KDE 2 or KDE 3 Bookmarks..."
+msgstr "استورد علامات الكيدي 2 أو الكيدي 3..."
+
+#: actionsimpl.cpp:224
+msgid "Import &Internet Explorer Bookmarks..."
+msgstr "استورد علامات إنترنت اكسبلورر..."
+
+#: actionsimpl.cpp:230
+msgid "Import &Mozilla Bookmarks..."
+msgstr "استورد ع&لامات مواقع موزيلا..."
+
+#: actionsimpl.cpp:235
+msgid "Export &Netscape Bookmarks"
+msgstr "صدِّر علامات &نتسكيب"
+
+#: actionsimpl.cpp:240
+msgid "Export &Opera Bookmarks..."
+msgstr "صدِّر علامات أوبرا..."
+
+#: actionsimpl.cpp:245
+msgid "Export &HTML Bookmarks..."
+msgstr "صدِّر علامات &HTML ..."
+
+#: actionsimpl.cpp:249
+msgid "Export &Internet Explorer Bookmarks..."
+msgstr "صدِّر علامات انترنت اكسبلورر..."
+
+#: actionsimpl.cpp:254
+msgid "Export &Mozilla Bookmarks..."
+msgstr "صدِّر  علامات موزيلا..."
+
+#: actionsimpl.cpp:292
+msgid "*.html|HTML Bookmark Listing"
+msgstr "*.html|مسرد علامات مواقع HTML"
+
+#: actionsimpl.cpp:336
+msgid "Cut Items"
+msgstr "قصّ العناصر"
+
+#: actionsimpl.cpp:361
+msgid "Paste"
+msgstr "الصق"
+
+#: actionsimpl.cpp:371
+msgid "Create New Bookmark Folder"
+msgstr "أنشئ مجلد علامات مواقع جديدة"
+
+#: actionsimpl.cpp:372
+msgid "New folder:"
+msgstr "مجلد جديد:"
+
+#: actionsimpl.cpp:514
+msgid "Sort Alphabetically"
+msgstr "افرز أبجدياً"
+
+#: actionsimpl.cpp:522
+msgid "Delete Items"
+msgstr "احذف العناصر"
+
+#: exporters.cpp:50
+msgid "My Bookmarks"
+msgstr "علامات مواقعي"

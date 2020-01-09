@@ -1,0 +1,2854 @@
+# translation of marble.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: marble\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-18 01:28+0200\n"
+"PO-Revision-Date: 2007-10-14 15:44+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: src/QtMainWindow.cpp:69
+#, fuzzy
+msgid "Marble - Desktop Globe"
+msgstr "رخامي سطح المكتب الكرة الأرضية"
+
+#: src/QtMainWindow.cpp:103
+#, fuzzy
+msgid "&Open Map..."
+msgstr "افتح الخريطة."
+
+#: src/QtMainWindow.cpp:104
+#, fuzzy
+msgid "Ctrl+O"
+msgstr "Ctrl+O"
+
+#: src/QtMainWindow.cpp:105
+#, fuzzy
+msgid "Open a file for viewing on Marble"
+msgstr "افتح a ملفّ لـ يعمل رخامي"
+
+#: src/QtMainWindow.cpp:112
+#, fuzzy
+msgid "&Export Map..."
+msgstr "صدِّر الخريطة."
+
+#: src/QtMainWindow.cpp:113
+#, fuzzy
+msgid "Ctrl+S"
+msgstr "Ctrl S"
+
+#: src/QtMainWindow.cpp:114
+#, fuzzy
+msgid "Save a screenshot of the map"
+msgstr "احفظ a من خريطة"
+
+#: src/QtMainWindow.cpp:117
+#, fuzzy
+msgid "&Print..."
+msgstr "ا&طبع..."
+
+#: src/QtMainWindow.cpp:118
+#, fuzzy
+msgid "Ctrl+P"
+msgstr "Ctrl P"
+
+#: src/QtMainWindow.cpp:119
+#, fuzzy
+msgid "Print a screenshot of the map"
+msgstr "اطبع a من خريطة"
+
+#: src/QtMainWindow.cpp:122
+#, fuzzy
+msgid "&Quit"
+msgstr "ا&خرج"
+
+#: src/QtMainWindow.cpp:123
+#, fuzzy
+msgid "Ctrl+Q"
+msgstr "Ctrl Q"
+
+#: src/QtMainWindow.cpp:124
+#, fuzzy
+msgid "Quit the Application"
+msgstr "اخرج تطبيق"
+
+#: src/QtMainWindow.cpp:127
+#, fuzzy
+msgid "&Copy Map"
+msgstr "نسخ الخريطة"
+
+#: src/QtMainWindow.cpp:128
+#, fuzzy
+msgid "Ctrl+C"
+msgstr "Ctrl C"
+
+#: src/QtMainWindow.cpp:129
+#, fuzzy
+msgid "Copy a screenshot of the map"
+msgstr "نسخ a من خريطة"
+
+#: src/QtMainWindow.cpp:132 src/QtMainWindow.cpp:240
+#, fuzzy
+msgid "&Settings"
+msgstr "إ&عدادات"
+
+#: src/QtMainWindow.cpp:133
+#, fuzzy
+msgid "Show the configuration dialog"
+msgstr "اعرض الملاحة شريط"
+
+#: src/QtMainWindow.cpp:136
+#, fuzzy
+msgid "C&opy Coordinates"
+msgstr "الأسس:"
+
+#: src/QtMainWindow.cpp:137
+msgid "Copy the center coordinates as text"
+msgstr ""
+
+#: src/QtMainWindow.cpp:140
+#, fuzzy
+msgid "Show &Navigation Panel"
+msgstr "اعرض الملاحة شريط"
+
+#: src/QtMainWindow.cpp:141
+#, fuzzy
+msgid "F9"
+msgstr "F9"
+
+#: src/QtMainWindow.cpp:144
+#, fuzzy
+msgid "Show Navigation Panel"
+msgstr "اعرض الملاحة شريط"
+
+#: src/QtMainWindow.cpp:147
+#, fuzzy
+msgid "&Full Screen Mode"
+msgstr "كامل شاشة الوضع"
+
+#: src/QtMainWindow.cpp:148
+#, fuzzy
+msgid "Ctrl+Shift+F"
+msgstr "Ctrl Shift F"
+
+#: src/QtMainWindow.cpp:150
+#, fuzzy
+msgid "Full Screen Mode"
+msgstr "نمط الشاشة الكاملة"
+
+#: src/QtMainWindow.cpp:153
+#, fuzzy
+msgid "&Status Bar"
+msgstr "&شريط الحالة"
+
+#: src/QtMainWindow.cpp:155
+#, fuzzy
+msgid "Show Status Bar"
+msgstr "إظهر شريط الحالة"
+
+#: src/QtMainWindow.cpp:159
+#, fuzzy
+msgid "Lock Position"
+msgstr "الموقع"
+
+#: src/QtMainWindow.cpp:161
+msgid "Lock Position of Floating Items"
+msgstr ""
+
+#: src/QtMainWindow.cpp:164
+#, fuzzy
+msgid "&Clouds"
+msgstr "أ&غلق"
+
+#: src/QtMainWindow.cpp:166
+msgid "Show Real Time Cloud Cover"
+msgstr ""
+
+#: src/QtMainWindow.cpp:169
+msgid "&Work Offline"
+msgstr ""
+
+#: src/QtMainWindow.cpp:173
+msgid "&Atmosphere"
+msgstr ""
+
+#: src/QtMainWindow.cpp:175
+#, fuzzy
+msgid "Show Atmosphere"
+msgstr "اعرض إطار معدل"
+
+#: src/QtMainWindow.cpp:178
+#, fuzzy
+msgid "S&un Control..."
+msgstr "الملاحة عنصر تحكم"
+
+#: src/QtMainWindow.cpp:179
+#, fuzzy
+msgid "Configure Sun Control"
+msgstr "الملاحة عنصر تحكم"
+
+#: src/QtMainWindow.cpp:182
+#, fuzzy
+msgid "Marble Desktop Globe &Handbook"
+msgstr "رخامي سطح المكتب الكرة الأرضية"
+
+#: src/QtMainWindow.cpp:183
+msgid "F1"
+msgstr ""
+
+#: src/QtMainWindow.cpp:184
+#, fuzzy
+msgid "Show the Handbook for Marble Desktop Globe"
+msgstr "حول رخامي سطح المكتب الكرة الأرضية"
+
+#: src/QtMainWindow.cpp:187
+#, fuzzy
+msgid "What's &This"
+msgstr "ما &هذا"
+
+#: src/QtMainWindow.cpp:188
+#, fuzzy
+msgid "Shift+F1"
+msgstr "Shift F1"
+
+#: src/QtMainWindow.cpp:189
+#, fuzzy
+msgid "Show a detailed explanation of the action."
+msgstr "اعرض a من الأفعال."
+
+#: src/QtMainWindow.cpp:192
+#, fuzzy
+msgid "&About Marble Desktop Globe"
+msgstr "حول رخامي سطح المكتب الكرة الأرضية"
+
+#: src/QtMainWindow.cpp:193
+#, fuzzy
+msgid "Show the application's About Box"
+msgstr "اعرض تطبيق s حول صندوق"
+
+#: src/QtMainWindow.cpp:196
+#, fuzzy
+msgid "About &Qt"
+msgstr "حول &Qt"
+
+#: src/QtMainWindow.cpp:197
+#, fuzzy
+msgid "Show the Qt library's About box"
+msgstr "اعرض Qt مكتبة s حول مربّع"
+
+#: src/QtMainWindow.cpp:204
+#, fuzzy
+msgid "&File"
+msgstr "&ملف"
+
+#: src/QtMainWindow.cpp:213
+#, fuzzy
+msgid "&Edit"
+msgstr "&حرّر"
+
+#: src/QtMainWindow.cpp:217
+#, fuzzy
+msgid "&View"
+msgstr "ا&عرض"
+
+#: src/QtMainWindow.cpp:247
+#, fuzzy
+msgid "&Help"
+msgstr "&مساعدة"
+
+#: src/QtMainWindow.cpp:294
+#, fuzzy
+msgid "Ready"
+msgstr "جاهز"
+
+#: src/QtMainWindow.cpp:306
+#, fuzzy
+msgid "Export Map"
+msgstr "صدِّر الخريطة"
+
+#: src/QtMainWindow.cpp:308
+#, fuzzy
+msgid "Images (*.jpg *.png)"
+msgstr "صور"
+
+#: src/QtMainWindow.cpp:324
+#, fuzzy
+msgid "Marble"
+msgstr "رخامي"
+
+#: src/QtMainWindow.cpp:325
+#, fuzzy
+msgid "An error occurred while trying to save the file.\n"
+msgstr "أداة تعريف خطأ بينما إلى حفظ ملفّ n"
+
+#: src/QtMainWindow.cpp:508
+#: src/plugins/render/fileview/FileViewFloatItem.cpp:232
+#, fuzzy
+msgid "Open File"
+msgstr "افتح ملف"
+
+#: src/QtMainWindow.cpp:510
+#: src/plugins/render/fileview/FileViewFloatItem.cpp:234
+#, fuzzy
+msgid ""
+"All Supported Files (*.gpx *.kml);;GPS Data (*.gpx);;Google Earth KML (*.kml)"
+msgstr "الكل مدعوم ملفات GPS البيانات جوجل الأرض"
+
+#: src/QtMarbleConfigDialog.cpp:62
+#, fuzzy
+msgid "View"
+msgstr "ا&عرض"
+
+#: src/QtMarbleConfigDialog.cpp:68
+#, fuzzy
+msgid "Native"
+msgstr "الملاحة"
+
+#: src/QtMarbleConfigDialog.cpp:71
+msgid "Native (X11)"
+msgstr ""
+
+#: src/QtMarbleConfigDialog.cpp:74
+msgid "Native (Mac OS X Core Graphics)"
+msgstr ""
+
+#: src/QtMarbleConfigDialog.cpp:83
+#: src/plugins/render/navigation/NavigationFloatItem.cpp:48
+#: src/lib/MarbleControlBox.cpp:452
+#, fuzzy
+msgid "Navigation"
+msgstr "الملاحة"
+
+#: src/QtMarbleConfigDialog.cpp:87
+msgid "Cache and Proxy"
+msgstr ""
+
+#: src/QtMarbleConfigDialog.cpp:304
+msgid "Graphics System Change"
+msgstr ""
+
+#: src/QtMarbleConfigDialog.cpp:305
+msgid ""
+"You have decided to run Marble with a different graphics system.\n"
+"For this change to become effective, Marble has to be restarted.\n"
+"Please close the application and start Marble again."
+msgstr ""
+
+#: src/plugins/network/kio/KIONetworkPlugin.cpp:93
+#, fuzzy
+msgid "KIO Network Plugin"
+msgstr "ابحث سطر"
+
+#: src/plugins/network/kio/KIONetworkPlugin.cpp:103
+msgid "KIO based Network Plugin"
+msgstr ""
+
+#: src/plugins/network/kio/KIONetworkPlugin.cpp:108
+msgid ""
+"A network plugin which supports HTTP pipelining to deliver a better user "
+"experience."
+msgstr ""
+
+#: src/plugins/network/qnam/QNamNetworkPlugin.cpp:34
+#, fuzzy
+msgid "QNam Network Plugin"
+msgstr "ابحث سطر"
+
+#: src/plugins/network/qnam/QNamNetworkPlugin.cpp:44
+msgid "QNetworkAccessManager based Network Plugin"
+msgstr ""
+
+#: src/plugins/network/qnam/QNamNetworkPlugin.cpp:49
+msgid ""
+"A network plugin which keeps connected to the hosts used to deliver a better "
+"user experience."
+msgstr ""
+
+#: src/plugins/network/qhttp/QHttpNetworkPlugin.cpp:110
+msgid "QHttp based Network Plugin"
+msgstr ""
+
+#: src/plugins/network/qhttp/QHttpNetworkPlugin.cpp:120
+msgid "QHttp based network plugin"
+msgstr ""
+
+#: src/plugins/network/qhttp/QHttpNetworkPlugin.cpp:125
+msgid ""
+"This is a network plugin which is based on the now deprecated QHttp class."
+msgstr ""
+
+#: src/plugins/render/test/TestPlugin.cpp:42
+msgid "Test Plugin"
+msgstr ""
+
+#: src/plugins/render/test/TestPlugin.cpp:47
+msgid "&Test Plugin"
+msgstr ""
+
+#: src/plugins/render/test/TestPlugin.cpp:57
+msgid "This is a simple test plugin."
+msgstr ""
+
+#: src/plugins/render/compass/CompassFloatItem.cpp:47
+#, fuzzy
+msgid "Compass"
+msgstr "البوصلة"
+
+#: src/plugins/render/compass/CompassFloatItem.cpp:52
+#, fuzzy
+msgid "&Compass"
+msgstr "البوصلة"
+
+#: src/plugins/render/compass/CompassFloatItem.cpp:62
+msgid "This is a float item that provides a compass."
+msgstr ""
+
+#: src/plugins/render/compass/CompassFloatItem.cpp:115
+#: src/lib/geodata/data/GeoDataCoordinates.cpp:621
+#, fuzzy
+msgid "N"
+msgstr "N"
+
+#: src/plugins/render/compass/CompassFloatItem.cpp:117
+#: src/lib/geodata/data/GeoDataCoordinates.cpp:621
+#, fuzzy
+msgid "S"
+msgstr "S"
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:40
+#, fuzzy
+msgid "Satellites"
+msgstr "قمر اصتناعي عرض"
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:45
+#, fuzzy
+msgid "&Satellites"
+msgstr "قمر اصتناعي عرض"
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:55
+msgid "This plugin displays TBD satellites."
+msgstr ""
+
+#: src/plugins/render/dataview/DataViewPlugin.cpp:73
+#, fuzzy
+msgid "DataView Plugin"
+msgstr "ابحث سطر"
+
+#: src/plugins/render/dataview/DataViewPlugin.cpp:78
+#, fuzzy
+msgid "&DataView Plugin"
+msgstr "ابحث سطر"
+
+#: src/plugins/render/dataview/DataViewPlugin.cpp:88
+msgid "A plugin that displays all the loaded data in a separate window."
+msgstr ""
+
+#: src/plugins/render/photo/PhotoPlugin.cpp:37
+msgid "Photos"
+msgstr ""
+
+#: src/plugins/render/photo/PhotoPlugin.cpp:41
+msgid "&Photos"
+msgstr ""
+
+#: src/plugins/render/photo/PhotoPlugin.cpp:45
+#: src/plugins/render/panoramio/PanoramioPlugin.cpp:37
+msgid ""
+"Automatically downloads images from around the world in preference to their "
+"popularity"
+msgstr ""
+
+#: src/plugins/render/stars/StarsPlugin.cpp:42
+#, fuzzy
+msgid "Stars Plugin"
+msgstr "ابحث سطر"
+
+#: src/plugins/render/stars/StarsPlugin.cpp:47
+#, fuzzy
+msgid "&Stars"
+msgstr "إ&بحث"
+
+#: src/plugins/render/stars/StarsPlugin.cpp:57
+msgid "A plugin that shows the Starry Sky."
+msgstr ""
+
+#: src/plugins/render/fileview/FileViewFloatItem.cpp:56
+#: src/lib/MarbleControlBox.cpp:470
+#, fuzzy
+msgid "File View"
+msgstr "ملف عرض"
+
+#: src/plugins/render/fileview/FileViewFloatItem.cpp:61
+#, fuzzy
+msgid "&File View"
+msgstr "ملف عرض"
+
+#: src/plugins/render/fileview/FileViewFloatItem.cpp:71
+msgid "A list of currently opened files"
+msgstr ""
+
+#: src/plugins/render/fileview/FileViewFloatItem.cpp:221
+msgid "Open new kml file..."
+msgstr ""
+
+#: src/plugins/render/fileview/FileViewFloatItem.cpp:223
+msgid "close this kml file..."
+msgstr ""
+
+#: src/plugins/render/overviewmap/OverviewMap.cpp:49
+msgid "Overview Map"
+msgstr ""
+
+#: src/plugins/render/overviewmap/OverviewMap.cpp:54
+msgid "&Overview Map"
+msgstr ""
+
+#: src/plugins/render/overviewmap/OverviewMap.cpp:64
+msgid "This is a float item that provides an overview map."
+msgstr ""
+
+#: src/plugins/render/mapscale/MapScaleFloatItem.cpp:40
+#: src/plugins/render/mapscale/MapScaleFloatItem.cpp:168
+#: src/lib/MarbleMap.cpp:1224
+#, fuzzy
+msgid "km"
+msgstr "كم"
+
+#: src/plugins/render/mapscale/MapScaleFloatItem.cpp:56
+#, fuzzy
+msgid "Scale Bar"
+msgstr "المقياس عمود"
+
+#: src/plugins/render/mapscale/MapScaleFloatItem.cpp:61
+#, fuzzy
+msgid "&Scale Bar"
+msgstr "المقياس عمود"
+
+#: src/plugins/render/mapscale/MapScaleFloatItem.cpp:71
+msgid "This is a float item that provides a map scale."
+msgstr ""
+
+#: src/plugins/render/mapscale/MapScaleFloatItem.cpp:172
+#, fuzzy
+msgid "m"
+msgstr "كم"
+
+#: src/plugins/render/panoramio/PanoramioPlugin.cpp:29
+msgid "Panoramio Photos"
+msgstr ""
+
+#: src/plugins/render/panoramio/PanoramioPlugin.cpp:33
+msgid "&Panoramio"
+msgstr ""
+
+#: src/plugins/render/navigation/NavigationFloatItem.cpp:53
+#, fuzzy
+msgid "&Navigation"
+msgstr "الملاحة"
+
+#: src/plugins/render/navigation/NavigationFloatItem.cpp:63
+msgid "A mouse control to zoom and move the map"
+msgstr ""
+
+#: src/plugins/render/geodata/GeoRendererPlugin.cpp:69
+#, fuzzy
+msgid "GeoRenderer Plugin"
+msgstr "ابحث سطر"
+
+#: src/plugins/render/geodata/GeoRendererPlugin.cpp:74
+#, fuzzy
+msgid "&GeoRenderer Plugin"
+msgstr "ابحث سطر"
+
+#: src/plugins/render/geodata/GeoRendererPlugin.cpp:84
+msgid "This plugin draws the map content (e.g. provided via a KML file)."
+msgstr ""
+
+#: src/plugins/render/twitter/twitterPlugin.cpp:47
+msgid "twitter "
+msgstr ""
+
+#: src/plugins/render/twitter/twitterPlugin.cpp:52
+msgid "&twitter"
+msgstr ""
+
+#: src/plugins/render/twitter/twitterPlugin.cpp:62
+msgid "show public twitts in their places"
+msgstr ""
+
+#: src/plugins/render/graticule/GraticulePlugin.cpp:44
+#, fuzzy
+msgid "Coordinate Grid"
+msgstr "شبكة الاحداثيات"
+
+#: src/plugins/render/graticule/GraticulePlugin.cpp:49
+#, fuzzy
+msgid "Coordinate &Grid"
+msgstr "شبكة الاحداثيات"
+
+#: src/plugins/render/graticule/GraticulePlugin.cpp:59
+msgid "A plugin that shows a coordinate grid."
+msgstr ""
+
+#: src/plugins/render/graticule/GraticulePlugin.cpp:158
+msgid "Equator"
+msgstr ""
+
+#: src/plugins/render/graticule/GraticulePlugin.cpp:161
+msgid "Prime Meridian"
+msgstr ""
+
+#: src/plugins/render/graticule/GraticulePlugin.cpp:162
+msgid "Antimeridian"
+msgstr ""
+
+#: src/plugins/render/graticule/GraticulePlugin.cpp:179
+msgid "Tropic of Cancer"
+msgstr ""
+
+#: src/plugins/render/graticule/GraticulePlugin.cpp:180
+msgid "Tropic of Capricorn"
+msgstr ""
+
+#: src/plugins/render/graticule/GraticulePlugin.cpp:183
+msgid "Arctic Circle"
+msgstr ""
+
+#: src/plugins/render/graticule/GraticulePlugin.cpp:184
+msgid "Antarctic Circle"
+msgstr ""
+
+#: src/plugins/render/wikipedia/WikipediaPlugin.cpp:34
+msgid "Wikipedia Articles"
+msgstr ""
+
+#: src/plugins/render/wikipedia/WikipediaPlugin.cpp:38
+msgid "&Wikipedia"
+msgstr ""
+
+#: src/plugins/render/wikipedia/WikipediaPlugin.cpp:42
+msgid ""
+"Automatically downloads Wikipedia articles and shows them on the right "
+"position on the map"
+msgstr ""
+
+#: src/plugins/render/placemarks/PlacemarksPlugin.cpp:58
+#, fuzzy
+msgid "Placemarks Plugin"
+msgstr "ابحث سطر"
+
+#: src/plugins/render/placemarks/PlacemarksPlugin.cpp:63
+#, fuzzy
+msgid "&Placemarks Plugin"
+msgstr "ابحث سطر"
+
+#: src/plugins/render/placemarks/PlacemarksPlugin.cpp:73
+msgid "A plugin that displays placemarks."
+msgstr ""
+
+#: src/plugins/render/crosshairs/CrosshairsPlugin.cpp:38
+msgid "Crosshairs"
+msgstr ""
+
+#: src/plugins/render/crosshairs/CrosshairsPlugin.cpp:43
+msgid "Cross&hairs"
+msgstr ""
+
+#: src/plugins/render/crosshairs/CrosshairsPlugin.cpp:53
+msgid "A plugin that shows crosshairs."
+msgstr ""
+
+#: src/plugins/positionprovider/gpsd/GpsdPositionProviderPlugin.cpp:21
+msgid "Gpsd position provider Plugin"
+msgstr ""
+
+#: src/plugins/positionprovider/gpsd/GpsdPositionProviderPlugin.cpp:31
+msgid "Gpsd position provider plugin"
+msgstr ""
+
+#: src/plugins/positionprovider/gpsd/GpsdPositionProviderPlugin.cpp:36
+msgid "Reports the the position of a GPS device."
+msgstr ""
+
+#: src/plugins/templates/floatitem/FITemplateFloatItem.cpp:53
+msgid "FITemplate"
+msgstr ""
+
+#: src/plugins/templates/floatitem/FITemplateFloatItem.cpp:58
+msgid "Float Item &Template"
+msgstr ""
+
+#: src/plugins/templates/floatitem/FITemplateFloatItem.cpp:68
+msgid "This is a template class for float items."
+msgstr ""
+
+#: src/lib/gps/GmlSax.cpp:68 src/lib/gps/GpxSax.cpp:106
+msgid "GpxSax"
+msgstr ""
+
+#: src/lib/gps/GmlSax.cpp:69 src/lib/gps/GpxSax.cpp:107
+#, fuzzy, qt-format
+msgid ""
+"Parse error at line %1, column %2:\n"
+"%3."
+msgstr "يُعرْب :: تُعرب خطأ عند سطر عمود n."
+
+#: src/lib/gps/GpxFileModel.cpp:56 src/lib/gps/GpxFileModel.cpp:63
+#: src/lib/GpxFileViewItem.cpp:39 src/lib/GpxFileViewItem.cpp:46
+#, fuzzy
+msgid "Save File"
+msgstr "احفظ ملف"
+
+#: src/lib/gps/GpxFileModel.cpp:58 src/lib/gps/GpxFileModel.cpp:61
+#: src/lib/GpxFileViewItem.cpp:41 src/lib/GpxFileViewItem.cpp:44
+msgid "GpxFile (*.gpx)"
+msgstr ""
+
+#: src/lib/SunControlWidget.cpp:58
+#, fuzzy
+msgid "&Hide"
+msgstr "&ملف"
+
+#: src/lib/SunControlWidget.cpp:60
+msgid "Sh&ow"
+msgstr ""
+
+#: src/lib/Planet.cpp:61 src/lib/Planet.cpp:344
+msgctxt "a planet without data"
+msgid "Unknown Planet"
+msgstr ""
+
+#: src/lib/Planet.cpp:319
+msgctxt "the planet"
+msgid "Mercury"
+msgstr ""
+
+#: src/lib/Planet.cpp:321
+msgctxt "the planet"
+msgid "Venus"
+msgstr ""
+
+#: src/lib/Planet.cpp:323
+#, fuzzy
+msgctxt "the planet"
+msgid "Earth"
+msgstr "الأرض"
+
+#: src/lib/Planet.cpp:325
+#, fuzzy
+msgctxt "the planet"
+msgid "Mars"
+msgstr "رخامي"
+
+#: src/lib/Planet.cpp:327
+msgctxt "the planet"
+msgid "Jupiter"
+msgstr ""
+
+#: src/lib/Planet.cpp:329
+msgctxt "the planet"
+msgid "Saturn"
+msgstr ""
+
+#: src/lib/Planet.cpp:331
+msgctxt "the planet"
+msgid "Uranus"
+msgstr ""
+
+#: src/lib/Planet.cpp:333
+msgctxt "the planet"
+msgid "Neptune"
+msgstr ""
+
+#: src/lib/Planet.cpp:336
+msgctxt "the planet"
+msgid "Pluto"
+msgstr ""
+
+#: src/lib/Planet.cpp:339
+msgctxt "the earth's star"
+msgid "Sun"
+msgstr ""
+
+#: src/lib/Planet.cpp:341
+msgctxt "the earth's moon"
+msgid "Moon"
+msgstr ""
+
+#: src/lib/MeasureTool.cpp:133
+#, fuzzy, qt-format
+msgid "Total Distance: %1 km"
+msgstr "المجموع المسافة كم"
+
+#: src/lib/MeasureTool.cpp:136
+#, fuzzy, qt-format
+msgid "Total Distance: %1 m"
+msgstr "المجموع المسافة m"
+
+#: src/lib/geodata/data/GeoDataCoordinates.cpp:324
+msgctxt "The compass direction"
+msgid "North"
+msgstr ""
+
+#: src/lib/geodata/data/GeoDataCoordinates.cpp:325
+#, fuzzy
+msgctxt "The compass direction"
+msgid "East"
+msgstr "الأرض"
+
+#: src/lib/geodata/data/GeoDataCoordinates.cpp:326
+msgctxt "The compass direction"
+msgid "South"
+msgstr ""
+
+#: src/lib/geodata/data/GeoDataCoordinates.cpp:327
+msgctxt "The compass direction"
+msgid "West"
+msgstr ""
+
+#: src/lib/geodata/data/GeoDataCoordinates.cpp:547
+#, fuzzy
+msgid "W"
+msgstr "W"
+
+#: src/lib/geodata/data/GeoDataCoordinates.cpp:547
+#, fuzzy
+msgid "E"
+msgstr "E"
+
+#: src/lib/geodata/scene/GeoSceneMapTheme.cpp:176
+#: src/lib/MapThemeManager.cpp:263
+#, fuzzy
+msgid "Name"
+msgstr "الاسم"
+
+#: src/lib/geodata/scene/GeoSceneMapTheme.cpp:177
+#: src/lib/MapThemeManager.cpp:265
+#, fuzzy
+msgid "Description"
+msgstr "الوصف"
+
+#: src/lib/geodata/scene/GeoSceneMapTheme.cpp:178
+#: src/lib/MapThemeManager.cpp:264
+#, fuzzy
+msgid "Path"
+msgstr "المسار"
+
+#: src/lib/geodata/handlers/dgml/DgmlMinimumTagHandler.cpp:50
+#, qt-format
+msgid "Could not convert <minimum> child text content to integer. Was: '%1'"
+msgstr ""
+
+#: src/lib/geodata/handlers/dgml/DgmlMaximumTagHandler.cpp:50
+#, qt-format
+msgid "Could not convert <maximum> child text content to integer. Was: '%1'"
+msgstr ""
+
+#: src/lib/geodata/parser/GeoParser.cpp:190
+#, fuzzy
+msgid "File format unrecognized"
+msgstr "ملف تنسيق غير معروف"
+
+#: src/lib/geodata/parser/GeoSceneParser.cpp:64
+#, fuzzy
+msgid "The file is not a valid DGML 2.0 file"
+msgstr "الـ ملفّ هو ليس a سليم ملفّ"
+
+#: src/lib/geodata/parser/GeoDataParser.cpp:75
+#, fuzzy
+msgid "The file is not a valid GPX 1.0 / 1.1 file"
+msgstr "الـ ملفّ هو ليس a سليم ملفّ"
+
+#: src/lib/geodata/parser/GeoDataParser.cpp:78
+#, fuzzy
+msgid "The file is not a valid KML 2.0 / 2.1 / 2.2 file"
+msgstr "الـ ملفّ هو ليس a سليم ملفّ"
+
+#: src/lib/MarbleControlBox.cpp:407
+#, fuzzy
+msgid "km/h"
+msgstr "كم"
+
+#: src/lib/MarbleControlBox.cpp:413
+msgid "mi/h"
+msgstr ""
+
+#: src/lib/MarbleControlBox.cpp:458
+#, fuzzy
+msgid "Legend"
+msgstr "مفتاح الرسم البياني"
+
+#: src/lib/MarbleControlBox.cpp:464
+#, fuzzy
+msgid "Map View"
+msgstr "الخريطة عرض"
+
+#: src/lib/MarbleControlBox.cpp:476
+#, fuzzy
+msgid "Current Location"
+msgstr "الحالي الموقع"
+
+#: src/lib/MapThemeSortFilterProxyModel.cpp:26
+#: src/lib/MapThemeSortFilterProxyModel.cpp:30
+#, fuzzy
+msgid "Atlas"
+msgstr "الأطلس"
+
+#: src/lib/MapThemeSortFilterProxyModel.cpp:27
+#: src/lib/MapThemeSortFilterProxyModel.cpp:31
+#, fuzzy
+msgid "Satellite View"
+msgstr "قمر اصتناعي عرض"
+
+#: src/lib/MapThemeSortFilterProxyModel.cpp:28
+#: src/lib/MapThemeSortFilterProxyModel.cpp:32
+msgid "OpenStreetMap"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:61
+#, fuzzy, qt-format
+msgid "Version %1"
+msgstr "الإصدار مجهول"
+
+#: src/lib/MarbleAboutDialog.cpp:67
+#, fuzzy
+msgid ""
+"<br />(c) 2007, 2008, 2009 The Marble Project<br /><br /><a href=\"http://"
+"edu.kde.org/marble\">http://edu.kde.org/marble</a>"
+msgstr ""
+"<br /> c الـ رخامي مشروع<br /><br /><a href=\"http://edu.kde.org/marble"
+"\">http://edu.kde.org/marble</a>"
+
+#: src/lib/MarbleAboutDialog.cpp:88
+msgid "<b>Active Development Team of Marble 0.8 and 0.7</b>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:89
+msgid ""
+"<p>Torsten Rahn <a href=\"mailto:rahn@kde.org\">rahn@kde.org</a><br><i>Core "
+"Developer and Original Author</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:91
+msgid ""
+"<p>Patrick Spendrin <a href=\"pspendrin@gmail.com\">pspendrin@gmail.com</"
+"a><br><i>Core Developer: KML and Windows support</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:93
+msgid ""
+"<p>Jens-Michael Hoffmann <a href=\"mailto:jensmh@gmx.de\">jensmh@gmx.de</"
+"a><br><i>Core Developer: OpenStreetMap support, Download Management</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:95
+msgid ""
+"<p>Henry de Valence <a href=\"mailto:hdevalence@gmail.com\">hdevalence@gmail."
+"com</a><br><i>Core Developer: Marble Runners, World-Clock Plasmoid</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:97
+msgid ""
+"<p>Bastian Holst, <a href=\"mailto:bastianholst@gmx.de\">bastianholst@gmx."
+"de</a><br><i>Online Services support</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:99
+msgid ""
+"<p>Andrew Manson <a href=\"mailto:g.real.ate@gmail.com\">g.real.ate@gmail."
+"com</a><br><i>Proxy support</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:101
+msgid ""
+"<p>Pino Toscano <a href=\"mailto:pino@kde.org\">pino@kde.org</"
+"a><br><i>Network plugins</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:103
+msgid ""
+"<p>Harshit Jain <a href=\"mailto:sonu.itbhu@googlemail.com\">sonu."
+"itbhu@googlemail.com</a><br><i>Planet Filter, bugfixes</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:105
+msgid ""
+"<p>M&eacute;d&eacute;ric Boquien <a href=\"mailto:mboquien@free.fr"
+"\">mboquien@free.fr</a><br><i>Astronomical Observatories</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:107
+msgid "<p> Magnus Valle<br><i>Historical Maps</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:108
+msgid ""
+"<p>Eckhart W&ouml;rner <a href=\"mailto:kde@ewsoftware.de\">kde@ewsoftware."
+"de</a><br><i>Bugfixes</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:110
+msgid "<b>Join us</b>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:111
+msgid ""
+"<p>You can reach the developers of the Marble Project at <a href=\"mailto:"
+"marble-devel@kde.org\">marble-devel@kde.org</a></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:112
+msgid "<b>Google Summer of Code</b>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:113
+msgid ""
+"<p> The Marble Team would like to thank its members who participated in the "
+"Google Summer of Code for their successful work on Marble:</p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:115
+msgid "<p><b>2008</b></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:116
+msgid ""
+"<p>Patrick Spendrin <a href=\"pspendrin@gmail.com\">pspendrin@gmail.com</"
+"a><br><i>Project: Vector Tiles for Marble</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:118
+msgid ""
+"<p>Shashank Singh <a href=\"mailto:shashank.personal@gmail.com\">shashank."
+"personal@gmail.com</a><br><i>Project: Panoramio / Wikipedia -photo support "
+"for Marble</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:120
+msgid "<b>2007</b>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:121
+msgid ""
+"<p>Carlos Licea <a href=\"mailto:carlos.licea@kdemail.net\">carlos."
+"licea@kdemail.net</a><br><i>Project: Equirectangular Projection (\"Flat Map"
+"\")</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:123
+msgid ""
+"<p>Andrew Manson <a href=\"mailto:g.real.ate@gmail.com\">g.real.ate@gmail."
+"com</a><br><i>Project: GPS Support for Marble</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:125
+msgid ""
+"<p>Murad Tagirov <a href=\"mailto:tmurad@gmail.com\">tmurad@gmail.com</"
+"a><br><i>Project: KML Support for Marble</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:127
+msgid ""
+"<p>... and of course we'd like to thank the people at Google Inc. for making "
+"these projects possible.</p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:128
+msgid "<b>Developers</b>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:129
+msgid ""
+"<p>Inge Wallin <a href=\"mailto:inge@lysator.liu.se\">inge@lysator.liu.se</"
+"a><br><i>Core Developer and Co-Maintainer</i></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:131
+msgid ""
+"<p><i>Development &amp; Patches:</i> Simon Schmeisser, Claudiu Covaci, David "
+"Roberts, Nikolas Zimmermann, Jan Becker, Stefan Asserh&auml;ll, Laurent "
+"Montel, Prashanth Udupa, Anne-Marie Mahfouf, Josef Spillner, Frerich Raabe, "
+"Frederik Gladhorn, Fredrik H&ouml;glund, Albert Astals Cid, Thomas Zander, "
+"Joseph Wenninger, Kris Thomsen, Daniel Molkentin  </p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:135
+msgid ""
+"<p><i>Platforms &amp; Distributions:</i>Tim Sutton, Christian Ehrlicher, "
+"Ralf Habacker, Steffen Joeris, Marcus Czeslinski, Marcus D. Hanwell, "
+"Chitlesh Goorah.</p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:137
+msgid "<p><i>Artwork:</i> Nuno Pinheiro, Torsten Rahn</p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:138
+msgid "<b>Credits</b>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:139
+msgid ""
+"<p><i>Various Suggestions &amp; Testing:</i> Stefan Jordan, Robert Scott, "
+"Lubos Petrovic, Benoit Sigoure, Martin Konold, Matthias Welwarsky, Rainer "
+"Endres, Luis Silva, Ralf Gesellensetter, Tim Alder</p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:141
+msgid ""
+"<p> We'd especially like to thank John Layt who provided an important source "
+"of inspiration by creating Marble's predecessor \"Kartographer\".</p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:152
+msgid "<b>Maps</b>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:153
+msgid ""
+"<p><i>Blue Marble Next Generation (500 m / pixel)</i><br>NASA Goddard Space "
+"Flight Center Earth Observatory <a href=\"http://earthobservatory.nasa.gov/"
+"Newsroom/BlueMarble/\">http://earthobservatory.nasa.gov/Newsroom/BlueMarble/"
+"</a></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:157
+msgid ""
+"<p><i>Earth's City Lights</i><br>Data courtesy Marc Imhoff of NASA GSFC and "
+"Christopher Elvidge of NOAA NGDC. Image by Craig Mayhew and Robert Simmon, "
+"NASA GSFC.</p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:160
+msgid ""
+"<p><i>Shuttle Radar Topography Mission (SRTM30, 1 km / pixel )</i><br>NASA "
+"Jet Propulsion Laboratory <a href=\"http://www2.jpl.nasa.gov/srtm/\">http://"
+"www2.jpl.nasa.gov/srtm/</a></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:163
+msgid ""
+"<p><i>Micro World Data Bank in Polygons (\"MWDB-POLY / MWDBII\")</"
+"i><br>CIA ; Global Associates, Ltd.; Fred Pospeschil and Antonio Rivera</p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:165
+msgid ""
+"<p><i>Temperature and Precipitation Maps (July and December)</i><br>A "
+"combination of two datasets:<ul><li>Legates, D.R. and Willmott, C.J. 1989. "
+"Average Monthly Surface Air Temperature and Precipitation. Digital Raster "
+"Data on a .5 degree Geographic (lat/long) 361x721 grid (centroid-registered "
+"on .5 degree meridians). Boulder CO: National Center for Atmospheric "
+"Research. <a href=\"http://www.ngdc.noaa.gov/ecosys/cdroms/ged_iia/datasets/"
+"a04/lw.htm\">http://www.ngdc.noaa.gov/ecosys/cdroms/ged_iia/datasets/a04/lw."
+"htm</a></li><li>CRU CL 2.0: New, M., Lister, D., Hulme, M. and Makin, I., "
+"2002: A high-resolution data set of surface climate over global land areas. "
+"Climate Research 21.<a href=\"http://www.cru.uea.ac.uk/cru/data/hrg\">http://"
+"www.cru.uea.ac.uk/cru/data/hrg</a></li></ul></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:177
+msgid "<b>Street Map</b>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:178
+msgid ""
+"<p><i>OpenStreetMap</i><br>The street maps used in Marble via download are "
+"provided by the <a href=\"http://www.openstreetmap.org\">OpenStreetMap</a> "
+"Project (\"OSM\"). OSM is an open community which creates free editable maps."
+"<i>License</i>: OpenStreetMap data can be used freely under the terms of the "
+"<a href=\"http://wiki.openstreetmap.org/index.php/OpenStreetMap_License"
+"\">Creative Commons Attribution-ShareAlike 2.0license</a>.</p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:185
+msgid "<b>Cities and Locations</b>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:186
+msgid ""
+"<p><i>World Gazetteer</i><br>Stefan Helders <a href=\"http://www.world-"
+"gazetteer.com\">http://www.world-gazetteer.com</a></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:188
+msgid ""
+"<p><i>Geonames.org</i><br><a href=\"http://www.geonames.org/\">http://www."
+"geonames.org/</a><i>License</i>: Geonames.org data can be used freely under "
+"the terms of the <a href=\"http://creativecommons.org/licenses/by/3.0/"
+"\">Creative Commons Attribution 3.0 license</a>.</p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:192
+msgid ""
+"<p><i>Czech Statistical Office</i><br>Public database <a href=\"http://www."
+"czso.cz/eng/redakce.nsf/i/home\">http://www.czso.cz</a></p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:194
+msgid "<b>Flags</b>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:195
+msgid ""
+"<p><i>Flags of the World</i><br>The flags were taken from Wikipedia (<a href="
+"\"http://www.wikipedia.org\">http://www.wikipedia.org</a>) which in turn "
+"took a subset from <a href=\"http://www.openclipart.org\">http://www."
+"openclipart.org</a> and reworked them. All flags are under the public domain "
+"(see comments inside the svg files).</p>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:200
+msgid "<b>Stars</b>"
+msgstr ""
+
+#: src/lib/MarbleAboutDialog.cpp:201
+msgid ""
+"<p><i>The Bright Star Catalogue</i><br>5th Revised Ed. (Preliminary Version) "
+"Hoffleit D., Warren Jr W.H., Astronomical Data Center, NSSDC/ADC (1991)<a "
+"href=\"http://adc.gsfc.nasa.gov/adc-cgi/cat.pl?/catalogs/5/5050\"> http://"
+"adc.gsfc.nasa.gov</a></p>"
+msgstr ""
+
+#: src/lib/MarbleWidgetPopupMenu.cpp:49 src/lib/MarbleWidgetPopupMenu.cpp:118
+#, fuzzy
+msgid "&Earth"
+msgstr "الأرض"
+
+#: src/lib/MarbleWidgetPopupMenu.cpp:51
+#, fuzzy
+msgid "0 N 0 W"
+msgstr "N W"
+
+#: src/lib/MarbleWidgetPopupMenu.cpp:54
+#, fuzzy
+msgid "Add &Measure Point"
+msgstr "إضافة قياس نقطة"
+
+#: src/lib/MarbleWidgetPopupMenu.cpp:56
+#, fuzzy
+msgid "&Remove Measure Points"
+msgstr "احذف قياس نقاط"
+
+#: src/lib/MarbleWidgetPopupMenu.cpp:61
+#, fuzzy
+msgid "&Set Home Location"
+msgstr "ضبط المنزل الموقع"
+
+#: src/lib/MarbleWidgetPopupMenu.cpp:65
+#, fuzzy
+msgid "&About"
+msgstr "&حوْل"
+
+#: src/lib/MarbleWidgetPopupMenu.cpp:128
+#, fuzzy
+msgid "Copy Coordinates"
+msgstr "الأسس:"
+
+#: src/lib/LatLonEdit.cpp:111
+#, fuzzy
+msgctxt "East, the direction"
+msgid "E"
+msgstr "E"
+
+#: src/lib/LatLonEdit.cpp:112
+#, fuzzy
+msgctxt "West, the direction"
+msgid "W"
+msgstr "W"
+
+#: src/lib/LatLonEdit.cpp:118
+#, fuzzy
+msgctxt "North, the direction"
+msgid "N"
+msgstr "N"
+
+#: src/lib/LatLonEdit.cpp:119
+#, fuzzy
+msgctxt "South, the direction"
+msgid "S"
+msgstr "S"
+
+#: src/lib/CacheStoragePolicy.cpp:39
+msgid "Unable to insert data into cache"
+msgstr ""
+
+#: src/lib/PlacemarkInfoDialog.cpp:32
+#, fuzzy, qt-format
+msgid "Marble Info Center - %1"
+msgstr "رخامي معلومات وسط 1"
+
+#: src/lib/PlacemarkInfoDialog.cpp:53
+#, fuzzy
+msgid "Population:"
+msgstr "السكان:"
+
+#: src/lib/PlacemarkInfoDialog.cpp:61 src/lib/PlacemarkInfoDialog.cpp:64
+#, fuzzy
+msgid "Capital"
+msgstr "REMOVE"
+
+#: src/lib/PlacemarkInfoDialog.cpp:67
+#, fuzzy
+msgid "Regional Capital"
+msgstr "ريجيونال REMOVE"
+
+#: src/lib/PlacemarkInfoDialog.cpp:70 src/lib/PlacemarkInfoDialog.cpp:73
+#, fuzzy
+msgid "Location"
+msgstr "الموقع"
+
+#: src/lib/PlacemarkInfoDialog.cpp:77
+#, fuzzy
+msgid "Mountain"
+msgstr "الجبل"
+
+#: src/lib/PlacemarkInfoDialog.cpp:79
+#, fuzzy
+msgid "Elevation extreme"
+msgstr "الارتفاع"
+
+#: src/lib/PlacemarkInfoDialog.cpp:82
+#, fuzzy
+msgid "Volcano"
+msgstr "البركاني"
+
+#: src/lib/PlacemarkInfoDialog.cpp:85
+#, fuzzy
+msgid "Shipwreck"
+msgstr "حطام السفينة"
+
+#: src/lib/PlacemarkInfoDialog.cpp:88
+#, fuzzy
+msgid "City"
+msgstr "المدينة"
+
+#: src/lib/PlacemarkInfoDialog.cpp:91
+msgid "Ocean"
+msgstr ""
+
+#: src/lib/PlacemarkInfoDialog.cpp:94
+#, fuzzy
+msgid "Nation"
+msgstr "الملاحة"
+
+#: src/lib/PlacemarkInfoDialog.cpp:97
+msgid "Continent"
+msgstr ""
+
+#: src/lib/PlacemarkInfoDialog.cpp:100
+msgid "Astronomical observatory"
+msgstr ""
+
+#: src/lib/PlacemarkInfoDialog.cpp:103
+#, fuzzy
+msgid "Maria"
+msgstr "رخامي"
+
+#: src/lib/PlacemarkInfoDialog.cpp:106
+#, fuzzy
+msgid "Crater"
+msgstr "m ماء"
+
+#: src/lib/PlacemarkInfoDialog.cpp:112
+msgid "Landing Site"
+msgstr ""
+
+#: src/lib/PlacemarkInfoDialog.cpp:115
+#, fuzzy
+msgid "Other Place"
+msgstr "أخرى مكان"
+
+#: src/lib/PlacemarkInfoDialog.cpp:139
+msgid "Area:"
+msgstr ""
+
+#: src/lib/PlacemarkInfoDialog.cpp:141
+#, fuzzy, qt-format
+msgid "%1 sq km"
+msgstr "m"
+
+#: src/lib/PlacemarkInfoDialog.cpp:143
+#, qt-format
+msgid "%1 Mio. sq km"
+msgstr ""
+
+#: src/lib/PlacemarkInfoDialog.cpp:147
+#, qt-format
+msgid "%1 inh."
+msgstr ""
+
+#: src/lib/PlacemarkInfoDialog.cpp:149
+#, qt-format
+msgid "%1 Mio. inh."
+msgstr ""
+
+#: src/lib/PlacemarkInfoDialog.cpp:152
+#, fuzzy, qt-format
+msgid "%1 m"
+msgstr "m"
+
+#: src/lib/PlacemarkInfoDialog.cpp:153
+#, fuzzy, qt-format
+msgid "%1 km"
+msgstr "m"
+
+#: src/lib/PlacemarkInfoDialog.cpp:171
+#, fuzzy
+msgid "-"
+msgstr "-"
+
+#: src/lib/global.h:187
+msgid "not available"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Download finished."
+#~ msgstr "نزّل إنتهيت."
+
+#, fuzzy
+#~ msgid "Download failed: %1."
+#~ msgstr "نزّل failed."
+
+#, fuzzy
+#~ msgid "Download failed."
+#~ msgstr "نزّل failed."
+
+#, fuzzy
+#~ msgid "Downloading data..."
+#~ msgstr "يجري التنزيل البيانات."
+
+#, fuzzy
+#~ msgid "Position: %1"
+#~ msgstr "الموضع: %1"
+
+#, fuzzy
+#~ msgid "Altitude: %1"
+#~ msgstr "الإرتفاع 1"
+
+#, fuzzy
+#~ msgid "marble_part"
+#~ msgstr "جزء"
+
+#, fuzzy
+#~ msgid "A Desktop Globe"
+#~ msgstr "A سطح المكتب الكرة الأرضية"
+
+#, fuzzy
+#~ msgid ""
+#~ "*.gpx *.kml|All Supported Files\n"
+#~ "*.gpx|GPS Data\n"
+#~ "*.kml|Google Earth KML"
+#~ msgstr "الكل مدعوم ملفات n GPS البيانات n جوجل الأرض"
+
+#, fuzzy
+#~ msgid "Images *.jpg *.png"
+#~ msgstr "صور"
+
+#, fuzzy
+#~ msgctxt "Application name"
+#~ msgid "Marble"
+#~ msgstr "رخامي"
+
+#, fuzzy
+#~ msgid "Open Map &Data..."
+#~ msgstr "افتح الخريطة."
+
+#, fuzzy
+#~ msgid "&Import Map Data..."
+#~ msgstr "صدِّر الخريطة."
+
+#, fuzzy
+#~ msgid "Scale &Bar"
+#~ msgstr "المقياس عمود"
+
+#, fuzzy
+#~ msgid "Maps..."
+#~ msgstr "افتح الخريطة."
+
+#, fuzzy
+#~ msgid "&Download new maps"
+#~ msgstr "نزّل إنتهيت."
+
+#, fuzzy
+#~ msgid "A World Atlas."
+#~ msgstr "A العالم الأطلس."
+
+#, fuzzy
+#~ msgid "Original Author, Developer and Maintainer"
+#~ msgstr "الأصلي المؤلف المطور و المشرف"
+
+#, fuzzy
+#~ msgid "Inge Wallin"
+#~ msgstr "Inge Wallin"
+
+#, fuzzy
+#~ msgid "Co-maintainer and Architect"
+#~ msgstr "شركاء أو كولورادو المشرف على الصيانة و المهندس المعماريّ"
+
+#, fuzzy
+#~ msgid "Make a time measurement to check performance"
+#~ msgstr "Make a وقت قياس إلى تفقّد"
+
+#, fuzzy
+#~ msgid "Check speed of gps drawing"
+#~ msgstr "كِش سرعة من"
+
+#, fuzzy
+#~ msgid "Show frame rate"
+#~ msgstr "اعرض إطار معدل"
+
+#, fuzzy
+#~ msgid "Enable tab to show the current location"
+#~ msgstr "مكّن لسان إلى إظهار الحالي موقع"
+
+#, fuzzy
+#~ msgid "Enable tab to see gpxFileView"
+#~ msgstr "مكّن لسان إلى"
+
+#, fuzzy
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Mohamed SAAD محمد سعد"
+
+#, fuzzy
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "metehyi@free.fr"
+
+#, fuzzy
+#~ msgid "Other features"
+#~ msgstr "أخرى مكان"
+
+#, fuzzy
+#~ msgid "Places of Interest"
+#~ msgstr "أماكن من الإهتمام"
+
+#, fuzzy
+#~ msgid "Mons, mountain"
+#~ msgstr "الجبل"
+
+#, fuzzy
+#~ msgid "Other"
+#~ msgstr "أخرى مكان"
+
+#, fuzzy
+#~ msgid "Geographic Pole"
+#~ msgstr "جغرافي القطب"
+
+#, fuzzy
+#~ msgid "Terrain"
+#~ msgstr "التضاريس"
+
+#, fuzzy
+#~ msgid "Boundaries"
+#~ msgstr "الحدود"
+
+#, fuzzy
+#~ msgid "Water Bodies"
+#~ msgstr "ماء الأجسام"
+
+#, fuzzy
+#~ msgid "Elevation"
+#~ msgstr "الارتفاع :"
+
+#, fuzzy
+#~ msgid "Ice and Glaciers"
+#~ msgstr "جليد&amp; الكتل الجليدية"
+
+#, fuzzy
+#~ msgid "Relief"
+#~ msgstr "Relief"
+
+#, fuzzy
+#~ msgid "Magnetic Pole"
+#~ msgstr "مغناطيسي القطب"
+
+#, fuzzy
+#~ msgid "Airport"
+#~ msgstr "مطار"
+
+#, fuzzy
+#~ msgid "International"
+#~ msgstr "عالمي"
+
+#, fuzzy
+#~ msgid "State"
+#~ msgstr "الحالة"
+
+#, fuzzy
+#~ msgid "Lake"
+#~ msgstr "البحيرة"
+
+#, fuzzy
+#~ msgid "River"
+#~ msgstr "النهر"
+
+#, fuzzy
+#~ msgid "7000 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "5000 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "3500 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "2000 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "1000 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "500 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "200 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "50 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "0 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "0 m (Water)"
+#~ msgstr "m ماء"
+
+#, fuzzy
+#~ msgid "-50 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "-200 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "-2000 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "-4000 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "-6500 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "-11000 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "Precipitation"
+#~ msgstr "الوصف"
+
+#, fuzzy
+#~ msgid "0 mm"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "10 mm"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "40 mm"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "63 mm"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "127 mm"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "256 mm"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "512 mm"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "Plain Map"
+#~ msgstr "عادي الخريطة"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>A <i>plain map</i>.<p>It uses vector lines to mark coastlines and "
+#~ "country borders etc.."
+#~ msgstr "A نص عادي خريطة itإيطالياهو متجه سطور إلى علامة و."
+
+#, fuzzy
+#~ msgid "Land"
+#~ msgstr "مفتاح الرسم البياني"
+
+#, fuzzy
+#~ msgid "Water"
+#~ msgstr "m ماء"
+
+#, fuzzy
+#~ msgid "Areas"
+#~ msgstr "الأطلس"
+
+#, fuzzy
+#~ msgid "Track"
+#~ msgstr "المقطوعة"
+
+#, fuzzy
+#~ msgid "Lightrail, tram"
+#~ msgstr "التضاريس"
+
+#, fuzzy
+#~ msgid "Earth at Night"
+#~ msgstr "الأرض عند ليلاً"
+
+#, fuzzy
+#~ msgid ""
+#~ "This image of <i>Earth's city lights</i> was created with data from the "
+#~ "Defense Meteorological Satellite Program (DMSP) Operational Linescan "
+#~ "System (OLS)."
+#~ msgstr ""
+#~ "هذا صورة من الأرض s مع البيانات من الدفاع أرصاديّ قمر اصتناعي البرنامج "
+#~ "شغّال النظام "
+
+#, fuzzy
+#~ msgid "Populated Places"
+#~ msgstr "مأهول بالسكان أماكن"
+
+#, fuzzy
+#~ msgid "Light terrain"
+#~ msgstr "التضاريس"
+
+#, fuzzy
+#~ msgid "Dark terrain"
+#~ msgstr "التضاريس"
+
+#, fuzzy
+#~ msgid "Town"
+#~ msgstr "أسفل"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>Earth as seen from Space.<p>The map is based on NASA's beautiful "
+#~ "\"Blue Marble Next Generation\" pictures. Credits: NASA's Earth "
+#~ "Observatory "
+#~ msgstr ""
+#~ "الأرض روجع من فضائي الـ خريطة هو يعمل الوكالة الوطنية للفضاء والطيران s "
+#~ "أزرق رخامي التالي الجيل صور المساهمون الوكالة الوطنية للفضاء والطيران s "
+#~ "الأرض المرصد "
+
+#, fuzzy
+#~ msgid "Vegetation"
+#~ msgstr "الارتفاع"
+
+#, fuzzy
+#~ msgid "Clouds"
+#~ msgstr "أ&غلق"
+
+#, fuzzy
+#~ msgid "Capitals:"
+#~ msgstr "أحرف كبيرة:"
+
+#, fuzzy
+#~ msgid "Red:&nbsp;Nation"
+#~ msgstr "أحمر&nbsp; الأمة"
+
+#, fuzzy
+#~ msgid "Orange:&nbsp;State"
+#~ msgstr "برتقالي&nbsp; الحالة"
+
+#, fuzzy
+#~ msgid "Yellow:&nbsp;County"
+#~ msgstr "أصفر&nbsp; المقاطعة"
+
+#, fuzzy
+#~ msgid "White:&nbsp;None"
+#~ msgstr "أبيض&nbsp; لا شيء"
+
+#, fuzzy
+#~ msgid "Sun Control"
+#~ msgstr "الملاحة عنصر تحكم"
+
+#, fuzzy
+#~ msgid "&Date"
+#~ msgstr "&بيانات"
+
+#, fuzzy
+#~ msgid "&Time"
+#~ msgstr "ال&سمة"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Change sun time</p></"
+#~ "body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Center the map on sun "
+#~ "position</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Display sun position</"
+#~ "p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid "Marble Cache Settings"
+#~ msgstr "إ&عدادات"
+
+#, fuzzy
+#~ msgid "&Drag location:"
+#~ msgstr "التقدير"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">While dragging the "
+#~ "mouse there are two standard behaviours when dealing with a virtual globe:"
+#~ "</p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">The location below "
+#~ "mouse pointer will follow the cursor exactly: As a result e.g. the north "
+#~ "pole will not stay at the top which can lead to confusion. By default "
+#~ "Marble makes sure that north is always up which results in a dragging "
+#~ "behaviour where the location below the mouse pointer slightly \"detaches"
+#~ "\" from the cursor. </p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> لا الوصف متوفّر</p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+#~ "\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> إذا إلى إنترنت انقر "
+#~ "لسان عند الأعلى من صفحة إلى get المزيد معلومات</p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">By default Marble will "
+#~ "display the home location immediately after the application has started. "
+#~ "As an alternative it can also show the last position that was active when "
+#~ "the user left the application. </p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid "Show Home Location"
+#~ msgstr "ضبط المنزل الموقع"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">When searching for a "
+#~ "location Marble can either move instantly to the new location or it can "
+#~ "show a travel animation from the previous place to the new place.</p></"
+#~ "body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid "&Distance:"
+#~ msgstr "المجموع المسافة m"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">The unit that gets used "
+#~ "to measure altitude, lengths and distances (e.g. km, mi, ft).</p></body></"
+#~ "html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Specifies the notation "
+#~ "of angles in coordinates: By default the Degree-Minute-Second notation (e."
+#~ "g. 54°30'00\" ) gets used. As an alternative you can choose decimal "
+#~ "degrees (e.g. 54.5°).</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Specifies the map "
+#~ "quality that gets displayed while there is no user input. Usually this "
+#~ "allows for high map quality as speed is no concern.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid "Outline Quality"
+#~ msgstr "اطبع صفحة"
+
+#, fuzzy
+#~ msgid "Print Quality"
+#~ msgstr "اطبع صفحة"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Specifies the map "
+#~ "quality that gets displayed during map animations (e.g. while dragging "
+#~ "the globe). </p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Especially on slow "
+#~ "machines it is advisable to set this option to \"low quality\" as this "
+#~ "will give better speed.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> لا الوصف متوفّر</p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+#~ "\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> إذا إلى إنترنت انقر "
+#~ "لسان عند الأعلى من صفحة إلى get المزيد معلومات</p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Places often have "
+#~ "different names in different languages. The label on the map can show the "
+#~ "name in the user's language. Alternatively it can display the name in the "
+#~ "official language and glyphs of that place. </p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">The default font that "
+#~ "gets used on the map.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid "About Marble"
+#~ msgstr "حول رخامي"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Marble Desktop Globe</span></p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\"> رخامي سطح المكتب الكرة الأرضية</span></p></body></html>"
+
+#, fuzzy
+#~ msgid "Version Unknown"
+#~ msgstr "الإصدار مجهول"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+#~ "\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">(c) 2007, The Marble "
+#~ "Project</p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-style:italic;\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">http://edu.kde.org/"
+#~ "marble</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+#~ "\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> c الـ رخامي مشروع</p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-style:italic;\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">http://edu.kde.org/"
+#~ "marble</p></body></html>"
+
+#, fuzzy
+#~ msgid "A&uthors"
+#~ msgstr "المؤلفو&ن"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+#~ "\"></p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+#~ "\"></p></body></html>"
+
+#, fuzzy
+#~ msgid "&Data"
+#~ msgstr "&بيانات"
+
+#, fuzzy
+#~ msgid "&License Agreement"
+#~ msgstr "أ&تفاق الترخيص"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-family:'MS Shell Dlg 2'; font-size:8pt;\"></p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-family:'MS Shell Dlg 2'; font-size:8pt;\"></p></body></html>"
+
+#, fuzzy
+#~ msgid "Marble Infocenter"
+#~ msgstr "رخامي"
+
+#, fuzzy
+#~ msgid "Data Sheet"
+#~ msgstr "البيانات ورقة"
+
+#, fuzzy
+#~ msgid "Name of the location"
+#~ msgstr "الاسم من موقع"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "size:14pt; font-weight:600;\">Name</span></p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "size:14pt; font-weight:600;\"> الاسم</span></p></body></html>"
+
+#, fuzzy
+#~ msgid "Role"
+#~ msgstr "الدّور"
+
+#, fuzzy
+#~ msgid "Role of the location."
+#~ msgstr "الدّور من موقع."
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\">Role</span></p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid "Alternative name"
+#~ msgstr "بديل الإسم"
+
+#, fuzzy
+#~ msgid "Alternative name of the location."
+#~ msgstr "بديل الإسم من موقع."
+
+#, fuzzy
+#~ msgid "Alternative Name"
+#~ msgstr "بديل الاسم"
+
+#, fuzzy
+#~ msgid "Short Description:"
+#~ msgstr "قصير الوصف:"
+
+#, fuzzy
+#~ msgid "Description field"
+#~ msgstr "الوصف حقل"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;\">No "
+#~ "description available.</p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+#~ "font-size:9pt;\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px; font-size:9pt;\">If you "
+#~ "are connected to the internet please click the \"Wikipedia\" tab at the "
+#~ "top of this page to get more information.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> لا الوصف متوفّر</p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+#~ "\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> إذا إلى إنترنت انقر "
+#~ "لسان عند الأعلى من صفحة إلى get المزيد معلومات</p></body></html>"
+
+#, fuzzy
+#~ msgid "Coordinates:"
+#~ msgstr "الأسس:"
+
+#, fuzzy
+#~ msgid ""
+#~ "000° 00' 00\" N\n"
+#~ "000° 00' 00\" E "
+#~ msgstr "N E "
+
+#, fuzzy
+#~ msgid "Elevation:"
+#~ msgstr "الارتفاع :"
+
+#, fuzzy
+#~ msgid "9000.0 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "0.0 sq km"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "Country:"
+#~ msgstr "الدولة:"
+
+#, fuzzy
+#~ msgid "Country"
+#~ msgstr "البلد"
+
+#, fuzzy
+#~ msgid "Back"
+#~ msgstr "الخلف"
+
+#, fuzzy
+#~ msgid "Move backwards one step in the browsing history."
+#~ msgstr "نقل خطوة بوصة تاريخ."
+
+#, fuzzy
+#~ msgid "Forward"
+#~ msgstr "مرر"
+
+#, fuzzy
+#~ msgid "Move forward one step in the browsing history."
+#~ msgstr "نقل أمام خطوة بوصة تاريخ."
+
+#, fuzzy
+#~ msgid "..."
+#~ msgstr "..."
+
+#, fuzzy
+#~ msgid "Print Page"
+#~ msgstr "اطبع صفحة"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">There are two caches "
+#~ "being used for Marble: The physical memory which is needed to keep map "
+#~ "data in the computer's memory. Increasing the value will make the "
+#~ "application more responsive. The hard disc memory cache is used by "
+#~ "download contents from the internet (e.g. Wikipedia data or map data). "
+#~ "Decrease this value if you want to save space on the hard disc and if "
+#~ "high usage of the internet is not an issue. </p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> لا الوصف متوفّر</p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+#~ "\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"> إذا إلى إنترنت انقر "
+#~ "لسان عند الأعلى من صفحة إلى get المزيد معلومات</p></body></html>"
+
+#, fuzzy
+#~ msgid "C&ache"
+#~ msgstr "إ&بحث"
+
+#, fuzzy
+#~ msgid "C&lear"
+#~ msgstr "إ&بحث"
+
+#, fuzzy
+#~ msgid "Cl&ear"
+#~ msgstr "إ&بحث"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Proxy settings for your "
+#~ "local intranet. Please leave empty if there is no proxy.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "This control panel allows you to adjust the map according to your needs."
+#~ msgstr "هذا control شريط إلى تسوية خريطة إلى."
+
+#, fuzzy
+#~ msgid "&Search"
+#~ msgstr "إ&بحث"
+
+#, fuzzy
+#~ msgid "Search line"
+#~ msgstr "ابحث سطر"
+
+#, fuzzy
+#~ msgid "Here you can enter the name of the location you are searching for."
+#~ msgstr "هنا أدخل الإسم من موقع لـ."
+
+#, fuzzy
+#~ msgid "Location Browser"
+#~ msgstr "الموقع المتصفح"
+
+#, fuzzy
+#~ msgid "Double click an entry of this list to get it displayed on the map."
+#~ msgstr "مزدوج انقر خانة من قائمة إلى get الإيطالية يعمل خريطة."
+
+#, fuzzy
+#~ msgid "Zoom Out"
+#~ msgstr "تصغير"
+
+#, fuzzy
+#~ msgid "Zoom out by pressing this button to see less details."
+#~ msgstr "تكبير خارج أداء زر إلى تفاصيل."
+
+#, fuzzy
+#~ msgid "Navigate to your 'Home Location'"
+#~ msgstr "إذهب إلى 'موقع منزلك'"
+
+#, fuzzy
+#~ msgid "Click this button to restore the original zoom level and view angle."
+#~ msgstr "نقر زر إلى استعاد أصلي كبِّر :: تكبير مستوى و اعرض زاوية."
+
+#, fuzzy
+#~ msgid "Home"
+#~ msgstr "المنزل"
+
+#, fuzzy
+#~ msgid "Right"
+#~ msgstr "يمين"
+
+#, fuzzy
+#~ msgid "Rotates the earth clockwise around its axis."
+#~ msgstr "يدور محور."
+
+#, fuzzy
+#~ msgid "Up"
+#~ msgstr "أعلى"
+
+#, fuzzy
+#~ msgid "Tilts the earth's axis towards the user."
+#~ msgstr "الميول s محور مستخدم."
+
+#, fuzzy
+#~ msgid "Zoom Slider"
+#~ msgstr "تكبير مزلق"
+
+#, fuzzy
+#~ msgid "Use this slider to adjust the zoom level of the map."
+#~ msgstr "إستعمل مزلق إلى تسوية كبِّر :: تكبير مستوى من خريطة."
+
+#, fuzzy
+#~ msgid "Zoom In"
+#~ msgstr "تكبير"
+
+#, fuzzy
+#~ msgid "Zoom in by pressing this button to see more details."
+#~ msgstr "تكبير بوصة أداء زر إلى المزيد تفاصيل."
+
+#, fuzzy
+#~ msgid "+"
+#~ msgstr "+"
+
+#, fuzzy
+#~ msgid "Down"
+#~ msgstr "أسفل"
+
+#, fuzzy
+#~ msgid "Tilts the earth's axis away from the user."
+#~ msgstr "الميول s محور من مستخدم."
+
+#, fuzzy
+#~ msgid "Left"
+#~ msgstr "يسار"
+
+#, fuzzy
+#~ msgid "Rotates the earth counterclockwise around its axis."
+#~ msgstr "يدور محور."
+
+#, fuzzy
+#~ msgid "&Projection"
+#~ msgstr "التقدير"
+
+#, fuzzy
+#~ msgid "Globe"
+#~ msgstr "الكرة الأرضية"
+
+#, fuzzy
+#~ msgid "Flat Map"
+#~ msgstr "مسطح الخريطة"
+
+#, fuzzy
+#~ msgid "&Theme"
+#~ msgstr "ال&سمة"
+
+#, fuzzy
+#~ msgid "Here you can choose the preferred map view from different topics."
+#~ msgstr "هنا اختيار مفضًل خريطة اعرض من مختلف."
+
+#, fuzzy
+#~ msgid "&Latitude"
+#~ msgstr "خط العرض"
+
+#, fuzzy
+#~ msgid "L&ongitude"
+#~ msgstr "خط الطول"
+
+#, fuzzy
+#~ msgid "Track Gps"
+#~ msgstr "المقطوعة"
+
+#, fuzzy
+#~ msgid "Catch Gps"
+#~ msgstr "الصيد"
+
+#, fuzzy
+#~ msgid "Draw"
+#~ msgstr "رسم"
+
+#, fuzzy
+#~ msgid "Go To"
+#~ msgstr "إذهب إلى"
+
+#, fuzzy
+#~ msgid "&Save"
+#~ msgstr "ا&حفظ"
+
+#, fuzzy
+#~ msgid "&Close"
+#~ msgstr "أ&غلق"
+
+#, fuzzy
+#~ msgid "Navigation mode"
+#~ msgstr "الملاحة"
+
+#, fuzzy
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:10pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">000,0 km/h</span></p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\"> رخامي سطح المكتب الكرة الأرضية</span></p></body></html>"
+
+#, fuzzy
+#~ msgid "Position"
+#~ msgstr "الموضع: %1"
+
+#, fuzzy
+#~ msgid "Longitude"
+#~ msgstr "خط الطول"
+
+#, fuzzy
+#~ msgid "Latitude"
+#~ msgstr "خط العرض"
+
+#, fuzzy
+#~ msgid "Altitude"
+#~ msgstr "الإرتفاع 1"
+
+#, fuzzy
+#~ msgid "000 m"
+#~ msgstr "m"
+
+#, fuzzy
+#~ msgid "Reset View"
+#~ msgstr "إعادة تعيين عرض"
+
+#, fuzzy
+#~ msgid "Creating Map"
+#~ msgstr "جاري الإنشاء الخريطة"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Satellite "
+#~ "View</span></p><p style=\" margin-top:0px; margin-bottom:0px; margin-"
+#~ "left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Earth "
+#~ "as seen from Space. The map is based on NASA's beautiful \"Blue Marble "
+#~ "Next Generation\" pictures. Credits: NASA's Earth Observatory</p></body></"
+#~ "html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\"><span style=\" font-weight:600;\"> قمر "
+#~ "اصتناعي عرض</span></p><p style=\" margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+#~ "\"> الأرض روجع من فضائي الـ خريطة هو يعمل الوكالة الوطنية للفضاء والطيران "
+#~ "s أزرق رخامي التالي الجيل صور المساهمون الوكالة الوطنية للفضاء والطيران s "
+#~ "الأرض المرصد</p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Marble needs to create this map. This only needs to be done once and may "
+#~ "take a few seconds."
+#~ msgstr "رخامي إلى إ_نشيء خريطة هذا إلى done و أيار a ثوان."
+
+#, fuzzy
+#~ msgid "&Cancel"
+#~ msgstr "إل&غاء"
+
+#, fuzzy
+#~ msgid "Projection"
+#~ msgstr "التقدير"
+
+#, fuzzy
+#~ msgid "Center map on longitude"
+#~ msgstr "خط الطول"
+
+#, fuzzy
+#~ msgid "Show date"
+#~ msgstr "اعرض"
+
+#, fuzzy
+#~ msgid "Area"
+#~ msgstr "الأطلس"
+
+#, fuzzy
+#~ msgid "Region"
+#~ msgstr "الارتفاع"
+
+#, fuzzy
+#~ msgid "Main Toolbar"
+#~ msgstr "شريط الأدوات الرئيسي"
+
+#, fuzzy
+#~ msgid "The Earth"
+#~ msgstr "الـ الأرض"
+
+#, fuzzy
+#~ msgid "The Marble widget displays a virtual globe."
+#~ msgstr "الـ رخامي a وهمي."
+
+#, fuzzy
+#~ msgid "Navigation Control"
+#~ msgstr "الملاحة عنصر تحكم"
+
+#, fuzzy
+#~ msgid "Use this control to navigate."
+#~ msgstr "إستعمل control إلى."
+
+#, fuzzy
+#~ msgid "Show places"
+#~ msgstr "اعرض"
+
+#, fuzzy
+#~ msgid "Show relief"
+#~ msgstr "اعرض"
+
+#, fuzzy
+#~ msgid "Show scale bar"
+#~ msgstr "اعرض مقياس شريط"
+
+#, fuzzy
+#~ msgid "Show borders"
+#~ msgstr "اعرض الحواف"
+
+#, fuzzy
+#~ msgid "Show ice / snow"
+#~ msgstr "اعرض ثلجي"
+
+#, fuzzy
+#~ msgid "Show compass"
+#~ msgstr "اعرض"
+
+#, fuzzy
+#~ msgid "Show grid"
+#~ msgstr "عرض الشبكة"
+
+#, fuzzy
+#~ msgid "Show rivers / lakes"
+#~ msgstr "اعرض"
+
+#, fuzzy
+#~ msgid "Show elevation model"
+#~ msgstr "اعرض شكل ، نموذج"
+
+#, fuzzy
+#~ msgid "Coordinates: "
+#~ msgstr "الأسس "
+
+#, fuzzy
+#~ msgid "(c) 2007"
+#~ msgstr "c"
+
+#, fuzzy
+#~ msgid "None"
+#~ msgstr "الملاحة"
+
+#, fuzzy
+#~ msgid "Show full timezone name"
+#~ msgstr "اعرض شكل ، نموذج"
+
+#, fuzzy
+#~ msgid "Show seconds"
+#~ msgstr "اعرض الحواف"
+
+#, fuzzy
+#~ msgid "Geo Tool"
+#~ msgstr "إذهب إلى"
+
+#, fuzzy
+#~ msgid "Cache"
+#~ msgstr "إل&غاء"
+
+#, fuzzy
+#~ msgid ""
+#~ "A classic topographic map. It uses vector lines to mark coastlines, "
+#~ "country borders etc. and bitmap graphics to create the height relief."
+#~ msgstr ""
+#~ "A تقليدي، اعتيادي خريطة itإيطالياهو متجه سطور إلى علامة و خارطة ثنائية "
+#~ "رسوم إلى إ_نشيء الارتفاع."
+
+#, fuzzy
+#~ msgid "Populated places"
+#~ msgstr "مأهول بالسكان أماكن"
+
+#, fuzzy
+#~ msgid "Quick and Dirty"
+#~ msgstr "بسرعة و قذر"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Decrease time step</p></"
+#~ "body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Backward</p></body></"
+#~ "html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Forward</p></body></"
+#~ "html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Increase time step</p></"
+#~ "body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\"> أبيض فراغ\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal; text-decoration:none;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "style:italic;\"> الدّور</span></p></body></html>"

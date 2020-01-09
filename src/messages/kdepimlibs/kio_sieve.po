@@ -1,0 +1,242 @@
+# translation of kio_sieve.po to
+# Copyright (C) 2003, 2004, 2006, 2007 Free Software Foundation, Inc.
+#
+# Nuriddin S. Aminagha <nuriddin@haydarlinux.org>, 2003.
+# Hafid BENHADRIA <ghosn@php4arab.info>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_sieve\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-18 10:56+0100\n"
+"PO-Revision-Date: 2007-10-14 15:57+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: sieve.cpp:328
+#, kde-format
+msgid "Connecting to %1..."
+msgstr "جاري الاتصال بـ %1..."
+
+#: sieve.cpp:331
+msgid "The connection to the server was lost."
+msgstr "فُقِدَ الاتصال بالخادم."
+
+#: sieve.cpp:343
+msgid "Server identification failed."
+msgstr "فشل التَّعرُّف على الخادم."
+
+#: sieve.cpp:350
+msgid "Can not use TLS since the underlying Qt library does not support it."
+msgstr ""
+
+#: sieve.cpp:357
+msgid ""
+"TLS encryption was requested, but your Sieve server does not advertise TLS "
+"in its capabilities.\n"
+"You can choose to try to initiate TLS negotiations nonetheless, or cancel "
+"the operation."
+msgstr ""
+
+#: sieve.cpp:359
+msgid "Server Does Not Advertise TLS"
+msgstr ""
+
+#: sieve.cpp:359
+msgid "&Start TLS nonetheless"
+msgstr ""
+
+#: sieve.cpp:359
+msgid "&Cancel"
+msgstr ""
+
+#: sieve.cpp:361
+msgid "TLS encryption requested, but not supported by server."
+msgstr ""
+
+#: sieve.cpp:384
+msgid ""
+"Your Sieve server claims to support TLS, but negotiation was unsuccessful."
+msgstr ""
+
+#: sieve.cpp:386
+#, fuzzy
+#| msgid "Authentication failed."
+msgid "Connection Failed"
+msgstr "فشل التَّحقُّق من الهوية."
+
+#: sieve.cpp:393
+msgid ""
+"The server does not seem to support TLS. Disable TLS if you want to connect "
+"without encryption."
+msgstr ""
+
+#: sieve.cpp:403
+msgid "Authenticating user..."
+msgstr "جاري التَّحقُّق من هوية المُسْتَخْدِم..."
+
+#: sieve.cpp:406
+msgid "Authentication failed."
+msgstr "فشل التَّحقُّق من الهوية."
+
+#: sieve.cpp:467
+#, fuzzy
+#| msgid "Done."
+msgctxt "special command completed"
+msgid "Done."
+msgstr "انتهى."
+
+#: sieve.cpp:479
+msgid "Activating script..."
+msgstr "جاري تنشيط الخاطوط..."
+
+#: sieve.cpp:495
+msgid "There was an error activating the script."
+msgstr "حدث خطأ عند تنشيط الخاطوط."
+
+#: sieve.cpp:513
+msgid "There was an error deactivating the script."
+msgstr "حدث خطأ عند إزالة تنشيط الخاطوط."
+
+#: sieve.cpp:541
+msgid "Sending data..."
+msgstr "جاري ارسال البيانات..."
+
+#: sieve.cpp:558
+msgid "KIO data supply error."
+msgstr "خطأ تموين KIO بالبيانات."
+
+#: sieve.cpp:585
+msgid "Quota exceeded"
+msgstr "تمَّ تجاوز الحصة"
+
+#: sieve.cpp:618 sieve.cpp:1138
+msgid "Network error."
+msgstr "خطأ شَبكيّ."
+
+#: sieve.cpp:629
+msgid "Verifying upload completion..."
+msgstr "جاري التَّاكُّد من اكتمال التَّصعيد..."
+
+#: sieve.cpp:655 sieve.cpp:663
+#, kde-format
+msgid ""
+"The script did not upload successfully.\n"
+"This is probably due to errors in the script.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"لم يُنْجَح في تصعيد الخاطوط.\n"
+"ربما يرجع هذا لأخطاء في الخاطوط.\n"
+"أجاب الخادم:\n"
+"%1"
+
+#: sieve.cpp:668 sieve.cpp:673
+msgid ""
+"The script did not upload successfully.\n"
+"The script may contain errors."
+msgstr ""
+"لم يُنْجَح في تصعيد الخاطوط.\n"
+"من الممكن أن يحتوي الخاطوط على أخطاء."
+
+#: sieve.cpp:680
+#, fuzzy
+#| msgid "Done."
+msgctxt "data upload complete"
+msgid "Done."
+msgstr "انتهى."
+
+#: sieve.cpp:708
+msgid "Retrieving data..."
+msgstr "جاري سحب البيانات..."
+
+#: sieve.cpp:757
+msgid "Finishing up..."
+msgstr "جاري الانهاء..."
+
+#: sieve.cpp:765
+msgid "A protocol error occurred while trying to negotiate script downloading."
+msgstr "طرأ خطأ ميفاق عند محاولة مفاوضة تنزيل نص الاوامر."
+
+#: sieve.cpp:770
+#, fuzzy
+#| msgid "Done."
+msgctxt "data retrival complete"
+msgid "Done."
+msgstr "انتهى."
+
+#: sieve.cpp:777
+msgid "Folders are not supported."
+msgstr "ليست المجلدات محل دعم."
+
+#: sieve.cpp:785
+msgid "Deleting file..."
+msgstr "جاري حذف الملف..."
+
+#: sieve.cpp:800
+msgid "The server would not delete the file."
+msgstr "لن يَحْذِف الخادِمُ المِلَفَ."
+
+#: sieve.cpp:804
+#, fuzzy
+#| msgid "Done."
+msgctxt "file removal complete"
+msgid "Done."
+msgstr "انتهى."
+
+#: sieve.cpp:819
+msgid "Cannot chmod to anything but 0700 (active) or 0600 (inactive script)."
+msgstr "تعذر تغيير الأذون فيما عدا 0700 (نشِط) أو 0600 (خاطوط غير نَشِط)."
+
+#: sieve.cpp:975
+#, fuzzy, kde-format
+msgid "An error occurred during authentication: %1"
+msgstr "حدوث خطأ أثناء عملية التوثيق: %1"
+
+#: sieve.cpp:999
+msgid "Sieve Authentication Details"
+msgstr "تفاصيل التَّحقُّق من الهوِية لدى Sieve"
+
+#: sieve.cpp:1000
+msgid ""
+"Please enter your authentication details for your sieve account (usually the "
+"same as your email password):"
+msgstr ""
+"يُرجَى ادخال تفاصيل التَّحقُّق من الهوية الخاصة بحسابك على sieve (عادة، نفس الشَّيء "
+"مثل الكلمة المروريَّة الخاصة ببريدك الالكترونيَ):"
+
+#: sieve.cpp:1070
+#, kde-format
+msgid ""
+"A protocol error occurred during authentication.\n"
+"Choose a different authentication method to %1."
+msgstr ""
+"طرأ خطأ ميفاق عند التَّحقُّق من الهوية.\n"
+"اختر منهجا آخر للتحقُّق من هوية %1."
+
+#: sieve.cpp:1108
+#, kde-format
+msgid ""
+"Authentication failed.\n"
+"Most likely the password is wrong.\n"
+"The server responded:\n"
+"%1"
+msgstr ""
+"فشل التَّحقُّق من الهوية.\n"
+"أغلب الظّن أنَّ كلمة المرور ة خاطئة.\n"
+"أجاب الخادمُ:\n"
+"%1"
+
+#: sieve.cpp:1189
+msgid "A protocol error occurred."
+msgstr "طرأ خطأ ميفاق."
+
+#~ msgid "No authentication details supplied."
+#~ msgstr "لم يتم توفير أيَّة تفاصيل بغرض التَّحقُّق من الهوية."

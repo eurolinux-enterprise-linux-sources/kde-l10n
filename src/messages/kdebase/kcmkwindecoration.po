@@ -1,0 +1,242 @@
+# translation of kcmkwindecoration.po to Arabic
+# translation of kcmkwindecoration.po to
+# Copyright (C) 2001,2002, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Mohammed Gamal <f2c2001@yahoo.com>, 2001.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Ossama Khayat <okhayat@yahoo.com>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkwindecoration\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-08-26 01:25+0200\n"
+"PO-Revision-Date: 2009-07-08 22:47+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+
+#: buttons.cpp:146
+msgid "Buttons"
+msgstr "الأ&زرار"
+
+#: buttons.cpp:625
+msgid "KDE"
+msgstr "كدي"
+
+#: buttons.cpp:677
+#, kde-format
+msgid "%1 (unavailable)"
+msgstr "%1 ( غير متوفر )"
+
+#: buttons.cpp:701
+msgid ""
+"To add or remove titlebar buttons, simply <i>drag</i> items between the "
+"available item list and the titlebar preview. Similarly, drag items within "
+"the titlebar preview to re-position them."
+msgstr ""
+"لإضافة أو إزالة  أزرار شريط العنوان ، ببساطة قم <i>بسحب</i> العناصر بين "
+"قائمة العناصر المتوفرة و معاينة شريط العنوان. بنفس الطريقة قم بسحب العناصر "
+"في معاينة شريط العنوان و قم بتغيير أماكنها."
+
+#: buttons.cpp:799
+msgid "Resize"
+msgstr "غيّر الحجم"
+
+#: buttons.cpp:803
+msgid "Shade"
+msgstr "ظلّل"
+
+#: buttons.cpp:807
+msgid "Keep Below Others"
+msgstr "ضعه تحت الآخرين"
+
+#: buttons.cpp:811
+msgid "Keep Above Others"
+msgstr "ضعه فوق الآخرين"
+
+#: buttons.cpp:815
+msgid "Close"
+msgstr "أغلق"
+
+#: buttons.cpp:819
+msgid "Maximize"
+msgstr "كبّر"
+
+#: buttons.cpp:823
+msgid "Minimize"
+msgstr "صغّر"
+
+#: buttons.cpp:827
+msgid "Help"
+msgstr "مساعدة"
+
+#: buttons.cpp:831
+msgid "On All Desktops"
+msgstr "على كلّ أسطح المكتب"
+
+#: buttons.cpp:835
+msgid "Menu"
+msgstr "قائمة"
+
+#: buttons.cpp:839
+msgid "--- spacer ---"
+msgstr "--- فراغ ---"
+
+#: kwindecoration.cpp:100
+msgid ""
+"Select the window decoration. This is the look and feel of both the window "
+"borders and the window handle."
+msgstr "انتقي زخرفة النافذة. أي المظهر والسِمة لكل من مقابض و حواف النافذة."
+
+#: kwindecoration.cpp:105
+msgid "Decoration Options"
+msgstr "خيارات الزخرفة"
+
+#: kwindecoration.cpp:115
+msgid "B&order size:"
+msgstr "حجم ال&حافة:"
+
+#: kwindecoration.cpp:118
+msgid "Use this combobox to change the border size of the decoration."
+msgstr "استخدم هذا المربع المركب لتغيير حجم الحافة للزخرفة."
+
+#: kwindecoration.cpp:135
+msgid "&Show window button tooltips"
+msgstr "أ&ظهر تلميحات زر النافذة"
+
+#: kwindecoration.cpp:137
+msgid ""
+"Enabling this checkbox will show window button tooltips. If this checkbox is "
+"off, no window button tooltips will be shown."
+msgstr ""
+"تمكين خانة التأشير سيظهر تلميحات زر النافذة. إذا كانت خانة التأشير غير محددة "
+"فلن يتم إظهار تلميحات زر النافذة."
+
+#: kwindecoration.cpp:141
+msgid "Use custom titlebar button &positions"
+msgstr "استخدم أو&ضاع مخصصة لزر شريط العنوان"
+
+#: kwindecoration.cpp:143
+msgid ""
+"The appropriate settings can be found in the \"Buttons\" Tab; please note "
+"that this option is not available on all styles yet."
+msgstr ""
+"الإعدادات المناسبة يمكن إيجادها في لسان \"الأزرار\" ، من فضلك لاحظ أن هذا "
+"الخيار غير متوفر لكلّ المظاهر حتى الآن."
+
+#: kwindecoration.cpp:177
+msgid "&Window Decoration"
+msgstr "زخرفة ال&نافذة"
+
+#: kwindecoration.cpp:178
+msgid "&Buttons"
+msgstr "الأ&زرار"
+
+#: kwindecoration.cpp:193
+msgid "kcmkwindecoration"
+msgstr "kcmkwindecoration"
+
+#: kwindecoration.cpp:194
+msgid "Window Decoration Control Module"
+msgstr "وحدة التحكم بزخرفة النوافذ"
+
+#: kwindecoration.cpp:196
+msgid "(c) 2001 Karol Szwed"
+msgstr "(c) 2001 Karol Szwed"
+
+#: kwindecoration.cpp:197
+msgid "Karol Szwed"
+msgstr "Karol Szwed"
+
+#: kwindecoration.cpp:277
+msgid "Tiny"
+msgstr "صغير جداَ"
+
+#: kwindecoration.cpp:278
+msgid "Normal"
+msgstr "عادي"
+
+#: kwindecoration.cpp:279
+msgid "Large"
+msgstr "كبير"
+
+#: kwindecoration.cpp:280
+msgid "Very Large"
+msgstr "كبير جداً"
+
+#: kwindecoration.cpp:281
+msgid "Huge"
+msgstr "ضخم"
+
+#: kwindecoration.cpp:282
+msgid "Very Huge"
+msgstr "ضخم جداً"
+
+#: kwindecoration.cpp:283
+msgid "Oversized"
+msgstr "مضخم الحجم"
+
+#: kwindecoration.cpp:551 kwindecoration.cpp:552
+msgid "Ozone"
+msgstr "أوزن"
+
+#: kwindecoration.cpp:596
+msgid ""
+"<h1>Window Manager Decoration</h1><p>This module allows you to choose the "
+"window border decorations, as well as titlebar button positions and custom "
+"decoration options.</p>To choose a theme for your window decoration click on "
+"its name and apply your choice by clicking the \"Apply\" button below. If "
+"you do not want to apply your choice you can click the \"Reset\" button to "
+"discard your changes.<p>You can configure each theme in the \"Configure [...]"
+"\" tab. There are different options specific for each theme.</p><p>In "
+"\"General Options (if available)\" you can activate the \"Buttons\" tab by "
+"checking the \"Use custom titlebar button positions\" box. In the \"Buttons"
+"\" tab you can change the positions of the buttons to your liking.</p>"
+msgstr ""
+"<h1>مدير زخرفة النوافذ</h1><p>تمكنك هذه الوحدة من اختيار زخرفات حواف "
+"النافذة، بالإضافة إلى مواقع أزرار شريط العنوان وخيارات الزخرفة المخصصة.</p> "
+"كي تختار سِمة لزخرفة نافذتك إنقر على اسمها وطبّق خيارك بالنقر على زر \"طبّق\" "
+"أدناه. إن لم تكن تريد أن تطبّق خيارك يمكنك النقر على زر \"استبداء\" كي تتجاهل "
+"تغييراتك.<p> يمكنك ضبط كل سِمة في لسان \"اضبط[...]\". هناك خيارات مختلفة خاصّة "
+"لكل سِمة.</p> <p> في \"الخيارات العامة (إن كانت متوفرة)\" يمكنك تنشيط لسان "
+"\"الأزرار\" بالنقر على مربع\"استخدم مواقع أزرار شريط العنوان المخصصة\". في "
+"لسان \"الأزرار\" يمكنك تغيير مواقع الأزرار كما تحب</p>"
+
+#: preview.cpp:54
+msgid ""
+"No preview available.\n"
+"Most probably there\n"
+"was a problem loading the plugin."
+msgstr ""
+"المعاينة غير متوفرة.\n"
+"على الأرجح كان هناك\n"
+"مشكلة في تحميل الملحق."
+
+#: preview.cpp:366
+msgid "Active Window"
+msgstr "النافذة النشطة"
+
+#: preview.cpp:366
+msgid "Inactive Window"
+msgstr "النافذة الخاملة"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد,زايد السعيدي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr ,zayed.alsaidi@gmail.com"

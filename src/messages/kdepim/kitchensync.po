@@ -1,0 +1,1135 @@
+# translation of kitchensync.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kitchensync\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-11 12:53+0200\n"
+"PO-Revision-Date: 2007-10-14 15:53+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: aboutpage.cpp:74
+#, fuzzy
+msgid "KDE KitchenSync"
+msgstr "كيدي"
+
+#: aboutpage.cpp:75
+#, fuzzy
+msgid "Get Synchronized!"
+msgstr "احصل مزامن!"
+
+#: aboutpage.cpp:76
+#, fuzzy
+msgid "The KDE Synchronization Tool"
+msgstr "الـ كيدي مزامنة الأداة"
+
+#: aboutpage.cpp:116
+#, fuzzy
+msgid "Welcome to KitchenSync"
+msgstr "مرحبا إلى"
+
+#: aboutpage.cpp:120
+#, fuzzy
+msgid ""
+"KitchenSync synchronizes your e-mail, address book, calendar, to-do list and "
+"more."
+msgstr "e بريد رزنامة إلى قائمة و المزيد."
+
+#: aboutpage.cpp:132
+#, fuzzy
+msgid "Read Manual"
+msgstr "إقرء الكتييب"
+
+#: aboutpage.cpp:133
+#, fuzzy
+msgid "Learn more about KitchenSync and its components"
+msgstr "تعلّم المزيد حوْل و"
+
+#: aboutpage.cpp:143
+#, fuzzy
+msgid "Visit KitchenSync Website"
+msgstr "زُر موقع ويب"
+
+#: aboutpage.cpp:144
+#, fuzzy
+msgid "Access online resources and tutorials"
+msgstr "تصفّح الموارد و نظام التعليم الأفرادي على الخط"
+
+#: aboutpage.cpp:154
+#, fuzzy
+msgid "Add Synchronization Group"
+msgstr "إضافة مزامنة المجموعة"
+
+#: aboutpage.cpp:155
+#, fuzzy
+msgid "Create group of devices for synchronization"
+msgstr "إنشاء المجموعة من لـ"
+
+#: calendardiffalgo.cpp:79
+#, fuzzy
+msgid "Yes"
+msgstr "نعم"
+
+#: calendardiffalgo.cpp:81
+#, fuzzy
+msgid "No"
+msgstr "لا"
+
+#: calendardiffalgo.cpp:116
+#, fuzzy
+msgid "Attendees"
+msgstr "الحضور"
+
+#: calendardiffalgo.cpp:119
+#, fuzzy
+msgid "Start time"
+msgstr "زمن البدء"
+
+#: calendardiffalgo.cpp:124
+#, fuzzy
+msgid "Organizer"
+msgstr "المنظم"
+
+#: calendardiffalgo.cpp:129
+#, fuzzy
+msgid "UID"
+msgstr "رمز المستخدم"
+
+#: calendardiffalgo.cpp:133
+#, fuzzy
+msgid "Is floating"
+msgstr "عائم"
+
+#: calendardiffalgo.cpp:138
+#, fuzzy
+msgid "Has duration"
+msgstr "لديه مدّة معيينة"
+
+#: calendardiffalgo.cpp:144
+#, fuzzy
+msgid "Duration"
+msgstr "المدّة"
+
+#: calendardiffalgo.cpp:154
+#, fuzzy
+msgid "Description"
+msgstr "الوصف"
+
+#: calendardiffalgo.cpp:159
+#, fuzzy
+msgid "Summary"
+msgstr "الملخّص"
+
+#: calendardiffalgo.cpp:163
+#, fuzzy
+msgid "Status"
+msgstr "الحالة"
+
+#: calendardiffalgo.cpp:167
+#, fuzzy
+msgid "Secrecy"
+msgstr "السريّة"
+
+#: calendardiffalgo.cpp:172
+#, fuzzy
+msgid "Priority"
+msgstr "الأولويّة"
+
+#: calendardiffalgo.cpp:177
+#, fuzzy
+msgid "Location"
+msgstr "الموقع"
+
+#: calendardiffalgo.cpp:180
+#, fuzzy
+msgid "Categories"
+msgstr "الفئات"
+
+#: calendardiffalgo.cpp:181
+#, fuzzy
+msgid "Alarms"
+msgstr "المنبهات"
+
+#: calendardiffalgo.cpp:182 configwidget.cpp:93
+#, fuzzy
+msgid "Resources"
+msgstr "الموارد"
+
+#: calendardiffalgo.cpp:183
+#, fuzzy
+msgid "Relations"
+msgstr "علاقات"
+
+#: calendardiffalgo.cpp:184
+#, fuzzy
+msgid "Attachments"
+msgstr "مرفقات"
+
+#: calendardiffalgo.cpp:185
+#, fuzzy
+msgid "Exception Dates"
+msgstr "تواريخ إستثنائية"
+
+#: calendardiffalgo.cpp:187
+#, fuzzy
+msgid "Exception Times"
+msgstr "أوقات إستثنائية"
+
+#: calendardiffalgo.cpp:194
+#, fuzzy
+msgid "Created"
+msgstr "تاريخ الإنشاء"
+
+#: calendardiffalgo.cpp:199
+#, fuzzy
+msgid "Related Uid"
+msgstr "رقم تعريف المستخدم ذات العلاقة"
+
+#: calendardiffalgo.cpp:207
+#, fuzzy
+msgid "Has End Date"
+msgstr "لديه تاريخ إنتهاء"
+
+#: calendardiffalgo.cpp:213
+#, fuzzy
+msgid "End Date"
+msgstr "تاريخ الإنتهاء"
+
+#: calendardiffalgo.cpp:222
+#, fuzzy
+msgid "Has Start Date"
+msgstr "لديه تاريخ إبتداء"
+
+#: calendardiffalgo.cpp:228
+#, fuzzy
+msgid "Has Due Date"
+msgstr "لديه تاريخ فرض"
+
+#: calendardiffalgo.cpp:234
+#, fuzzy
+msgid "Due Date"
+msgstr "تاريخ الفرض"
+
+#: calendardiffalgo.cpp:239
+#, fuzzy
+msgid "Has Complete Date"
+msgstr "لديه تاريخ للإتمام"
+
+#: calendardiffalgo.cpp:245
+#, fuzzy
+msgid "Complete"
+msgstr "تام"
+
+#: calendardiffalgo.cpp:251
+#, fuzzy
+msgid "Completed"
+msgstr "اكتمل"
+
+#: configauthenticationwidget.cpp:38
+#, fuzzy
+msgid "User:"
+msgstr "المستخدم:"
+
+#: configauthenticationwidget.cpp:44
+#, fuzzy
+msgid "Password:"
+msgstr "كلمة المرور:"
+
+#: configauthenticationwidget.cpp:49
+msgid "Reference:"
+msgstr ""
+
+#: configconnectionwidget.cpp:52 configresourcewidget.cpp:170
+msgid "Type:"
+msgstr ""
+
+#: configconnectionwidget.cpp:62
+msgid "Bluetooth"
+msgstr ""
+
+#: configconnectionwidget.cpp:70 configconnectionwidget.cpp:123
+#, fuzzy
+msgid "Address:"
+msgstr "عنوان IP:"
+
+#: configconnectionwidget.cpp:76
+#, fuzzy
+msgid "Channel:"
+msgstr "القناة:"
+
+#: configconnectionwidget.cpp:81
+msgid "SDP UUid:"
+msgstr ""
+
+#: configconnectionwidget.cpp:89
+#, fuzzy
+msgid "USB"
+msgstr "الناقل التسلسي العام (USB)"
+
+#: configconnectionwidget.cpp:97
+msgid "Vendor ID:"
+msgstr ""
+
+#: configconnectionwidget.cpp:103
+msgid "Product ID:"
+msgstr ""
+
+#: configconnectionwidget.cpp:108
+#, fuzzy
+msgid "Interface:"
+msgstr "الناقل التسلسي العام (USB) الواجهة:"
+
+#: configconnectionwidget.cpp:116
+msgid "Network"
+msgstr ""
+
+#: configconnectionwidget.cpp:129
+#, fuzzy
+msgid "Port:"
+msgstr "المنفذ:"
+
+#: configconnectionwidget.cpp:134
+#, fuzzy
+msgid "Protocol:"
+msgstr "برتوكول:"
+
+#: configconnectionwidget.cpp:139
+msgid "DnsSd:"
+msgstr ""
+
+#: configconnectionwidget.cpp:147
+#, fuzzy
+msgid "Serial"
+msgstr "تسلسلي"
+
+#: configconnectionwidget.cpp:154
+#, fuzzy
+msgid "Speed:"
+msgstr "السرعة:"
+
+#: configconnectionwidget.cpp:164
+#, fuzzy
+msgid "Device:"
+msgstr "الجهاز:"
+
+#: configconnectionwidget.cpp:172
+msgid "IRDA"
+msgstr ""
+
+#: configconnectionwidget.cpp:179
+#, fuzzy
+msgid "Service:"
+msgstr "الجهاز:"
+
+#: configlocalizationwidget.cpp:37
+msgid "Encoding:"
+msgstr ""
+
+#: configlocalizationwidget.cpp:42
+#, fuzzy
+msgid "Timezone:"
+msgstr "المهلة:"
+
+#: configlocalizationwidget.cpp:47
+msgid "Language:"
+msgstr ""
+
+#: configwidget.cpp:53
+#, fuzzy
+msgid "General"
+msgstr "تسلسلي"
+
+#: configwidget.cpp:59 groupconfigcommon.cpp:136
+#, fuzzy
+msgid "Name:"
+msgstr "الاسم:"
+
+#: configwidget.cpp:87
+#, fuzzy
+msgid "Advanced"
+msgstr "المضاف"
+
+#: genericdiffalgo.cpp:58 genericdiffalgo.cpp:61 genericdiffalgo.cpp:63
+#, fuzzy, kde-format
+msgid "Line %1"
+msgstr "خط 1"
+
+#: groupconfigcommon.cpp:50
+#, fuzzy
+msgid "Contacts"
+msgstr "المراسَلون"
+
+#: groupconfigcommon.cpp:51
+#, fuzzy
+msgid "Events"
+msgstr "أحداث"
+
+#: groupconfigcommon.cpp:52
+#, fuzzy
+msgid "To-dos"
+msgstr "الواجبات"
+
+#: groupconfigcommon.cpp:53
+#, fuzzy
+msgid "Notes"
+msgstr "ملاحظات"
+
+#: groupconfig.cpp:73
+#, fuzzy
+msgid "Group:"
+msgstr "المجموعة:"
+
+#: groupconfig.cpp:94
+#, fuzzy
+msgid "Group"
+msgstr "المجموعة"
+
+#: groupconfig.cpp:95
+#, fuzzy
+msgid "General Group Settings"
+msgstr "عام المجموعة إعدادات"
+
+#: groupconfig.cpp:188
+#, fuzzy, kde-format
+msgid ""
+"Error adding member %1\n"
+"%2\n"
+"Type: %3"
+msgstr "خطأ عضو n 3"
+
+#: groupconfigdialog.cpp:34
+#, fuzzy
+msgid "Configure Synchronization Group"
+msgstr "اضبط مزامنة المجموعة"
+
+#: groupconfigdialog.cpp:51
+#, fuzzy
+msgid "Remove Member"
+msgstr "احذف عضو"
+
+#: groupconfigdialog.cpp:52
+#, fuzzy
+msgid "Add Member..."
+msgstr "إضافة عضو."
+
+#: groupitem.cpp:68 groupitem.cpp:284 groupitem.cpp:293
+#, fuzzy
+msgid "Synchronize Now"
+msgstr "زامن الآن"
+
+#: groupitem.cpp:69
+#, fuzzy
+msgid "Configure"
+msgstr "اضبط"
+
+#: groupitem.cpp:107 groupitem.cpp:190 syncprocess.cpp:57 syncprocess.cpp:63
+#, fuzzy
+msgid "Ready"
+msgstr "جاهز"
+
+#: groupitem.cpp:172
+#, fuzzy, kde-format
+msgid "Group: %1"
+msgstr "المجموعة: %1"
+
+#: groupitem.cpp:176
+#, fuzzy, kde-format
+msgid "Last synchronized on: %1"
+msgstr "الأخير يعمل 1"
+
+#: groupitem.cpp:179
+#, fuzzy
+msgid "Not synchronized yet"
+msgstr "لا"
+
+#: groupitem.cpp:222
+#, fuzzy, kde-format
+msgid "1 entry read"
+msgid_plural "%1 entries read"
+msgstr[0] "خانات قراءة"
+msgstr[1] "خانات قراءة"
+msgstr[2] "خانات قراءة"
+msgstr[3] "خانات قراءة"
+msgstr[4] "خانات قراءة"
+msgstr[5] "خانات قراءة"
+
+#: groupitem.cpp:226
+#, fuzzy, kde-format
+msgid "1 entry written"
+msgid_plural "%1 entries written"
+msgstr[0] "خانات"
+msgstr[1] "خانات"
+msgstr[2] "خانات"
+msgstr[3] "خانات"
+msgstr[4] "خانات"
+msgstr[5] "خانات"
+
+#: groupitem.cpp:244
+#, fuzzy
+msgid "Error"
+msgstr "خطأ"
+
+#: groupitem.cpp:262 groupitem.cpp:316
+#, fuzzy
+msgid "Connected"
+msgstr "متّصل"
+
+#: groupitem.cpp:265
+#, fuzzy
+msgid "Abort Synchronization"
+msgstr "مدير المعلومات الشخصي مزامنة"
+
+#: groupitem.cpp:268
+#, fuzzy
+msgid "Data read"
+msgstr "البيانات قراءة"
+
+#: groupitem.cpp:271
+#, fuzzy
+msgid "Data written"
+msgstr "البيانات"
+
+#: groupitem.cpp:276 groupitem.cpp:325
+#, fuzzy
+msgid "Disconnected"
+msgstr "انقطع الاتصال"
+
+#: groupitem.cpp:279
+#, fuzzy
+msgid "Synchronization failed"
+msgstr "مزامنة failed"
+
+#: groupitem.cpp:287
+#, fuzzy
+msgid "Successfully synchronized"
+msgstr "بنجاح"
+
+#: groupitem.cpp:296
+#, fuzzy
+msgid "Previous synchronization failed"
+msgstr "السابق failed"
+
+#: groupitem.cpp:299
+#, fuzzy
+msgid "Conflicts solved"
+msgstr "التعارضات"
+
+#: groupitem.cpp:319
+#, fuzzy
+msgid "Changes read"
+msgstr "التغييرات قراءة"
+
+#: groupitem.cpp:322
+#, fuzzy
+msgid "Changes written"
+msgstr "التغييرات"
+
+#: groupitem.cpp:328
+#, fuzzy
+msgid "Synchronization done"
+msgstr "تمت المزامنة"
+
+#: groupitem.cpp:331
+#, fuzzy
+msgid "Discovered"
+msgstr "مكتشف"
+
+#: groupitem.cpp:334
+#, fuzzy, kde-format
+msgid "Error: %1"
+msgstr "الخطأ: %1"
+
+#: mainwidget.cpp:77
+msgid "KitchenSync"
+msgstr ""
+
+#: mainwidget.cpp:78
+#, fuzzy
+msgid "The KDE Syncing Application"
+msgstr "الـ كيدي المزامنة تطبيق"
+
+#: mainwidget.cpp:80
+#, fuzzy
+msgid "(c) 2005, The KDE PIM Team"
+msgstr "c الـ كيدي مدير المعلومات الشخصي فريق"
+
+#: mainwidget.cpp:81
+#, fuzzy
+msgid "Tobias Koenig"
+msgstr "كونيج"
+
+#: mainwidget.cpp:81
+#, fuzzy
+msgid "Current maintainer"
+msgstr "المشرف الحالي"
+
+#: mainwidget.cpp:82
+#, fuzzy
+msgid "Cornelius Schumacher"
+msgstr "Cornelius Schumacher"
+
+#: mainwidget.cpp:107
+#, fuzzy
+msgid "Synchronize"
+msgstr "زامن"
+
+#: mainwidget.cpp:111
+#, fuzzy
+msgid "Add Group..."
+msgstr "إضافة المجموعة."
+
+#: mainwidget.cpp:115
+#, fuzzy
+msgid "Delete Group..."
+msgstr "احذف المجموعة."
+
+#: mainwidget.cpp:119
+#, fuzzy
+msgid "Edit Group..."
+msgstr "تحرير المجموعة."
+
+#: mainwidget.cpp:137
+msgid ""
+"There are no OpenSync plugins installed on the system. Please install them "
+"before creating a synchronization group"
+msgstr ""
+
+#: mainwidget.cpp:143
+#, fuzzy
+msgid "Create Synchronization Group"
+msgstr "إنشاء مزامنة المجموعة"
+
+#: mainwidget.cpp:144
+#, fuzzy
+msgid "Name for new synchronization group."
+msgstr "الاسم لـ جديد المجموعة."
+
+#: mainwidget.cpp:161
+#, fuzzy, kde-format
+msgid "Delete synchronization group '%1'?"
+msgstr "احذف المجموعة?"
+
+#: mainwindow.cpp:33
+#, fuzzy
+msgid "PIM Synchronization"
+msgstr "مدير المعلومات الشخصي مزامنة"
+
+#: memberinfo.cpp:51
+#, fuzzy
+msgid "File"
+msgstr "ملف"
+
+#: memberinfo.cpp:52
+#, fuzzy
+msgid "Palm"
+msgstr "Palm"
+
+#: memberinfo.cpp:53
+#, fuzzy
+msgid "KDE PIM"
+msgstr "كيدي مدير المعلومات الشخصي"
+
+#: memberinfo.cpp:54
+#, fuzzy
+msgid "Remote File"
+msgstr "عن بعد ملف"
+
+#: memberinfo.cpp:55 memberinfo.cpp:59 memberinfo.cpp:60 memberinfo.cpp:61
+#: memberinfo.cpp:62
+#, fuzzy
+msgid "Mobile Phone"
+msgstr "الهاتف الجوال"
+
+#: memberinfo.cpp:56
+#, fuzzy
+msgid "Evolution"
+msgstr "إيفُليوشن"
+
+#: memberinfo.cpp:57 memberinfo.cpp:64
+#, fuzzy
+msgid "Handheld"
+msgstr "محمول"
+
+#: memberinfo.cpp:58
+#, fuzzy
+msgid "LDAP"
+msgstr "LDAP"
+
+#: memberinfo.cpp:63
+#, fuzzy
+msgid "Google Calendar"
+msgstr "جوجل التقويم"
+
+#: memberinfo.cpp:65
+#, fuzzy
+msgid "Sunbird Calendar"
+msgstr "التقويم"
+
+#: multiconflictdialog.cpp:51
+#, fuzzy
+msgid "Unknown"
+msgstr "مجهول"
+
+#: multiconflictdialog.cpp:54
+#, fuzzy
+msgid "Added"
+msgstr "المضاف"
+
+#: multiconflictdialog.cpp:57
+#, fuzzy
+msgid "Deleted"
+msgstr "محذوف"
+
+#: multiconflictdialog.cpp:60
+#, fuzzy
+msgid "Modified"
+msgstr "معدّل"
+
+#: multiconflictdialog.cpp:64
+#, fuzzy
+msgid "Unmodified"
+msgstr "غير معدّل"
+
+#: multiconflictdialog.cpp:131 singleconflictdialog.cpp:106
+#, fuzzy
+msgid "A conflict has appeared, please solve it manually."
+msgstr "A تضارب الإيطالية يدويّاً."
+
+#: multiconflictdialog.cpp:136
+#, fuzzy
+msgid "Use Selected Item"
+msgstr "إستعمل مختار عنصر"
+
+#: multiconflictdialog.cpp:140 singleconflictdialog.cpp:115
+#, fuzzy
+msgid "Duplicate Items"
+msgstr "مضاعفة عناصر"
+
+#: multiconflictdialog.cpp:144 singleconflictdialog.cpp:119
+#, fuzzy
+msgid "Ignore Conflict"
+msgstr "تجاهل تضارب"
+
+#: pluginpicker.cpp:105
+#, fuzzy
+msgid "Select Member Type"
+msgstr "انتقِ عضو النوع"
+
+#. i18n: file: kitchensync_part.rc:8
+#. i18n: ectx: Menu (groups)
+#. i18n: file: kitchensyncui.rc:8
+#. i18n: ectx: Menu (groups)
+#: rc.cpp:3 rc.cpp:9
+#, fuzzy
+msgid "&Groups"
+msgstr "الم&جموعات"
+
+#. i18n: file: kitchensync_part.rc:15
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: kitchensyncui.rc:15
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:6 rc.cpp:12
+#, fuzzy
+msgid "Main"
+msgstr "رئيسي"
+
+#: rc.cpp:13
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:14
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"
+
+#: singleconflictdialog.cpp:111 singleconflictdialog.cpp:123
+#, fuzzy
+msgid "Use Item"
+msgstr "إستعمل عنصر"
+
+#: syncprocess.cpp:94
+#, fuzzy, kde-format
+msgid ""
+"Error initializing Synchronization Engine for group \"%1\":\n"
+" %2"
+msgstr ""
+"خطأ المحرك لـ المجموعة\n"
+" 2"
+
+#: syncprocessmanager.cpp:52 syncprocessmanager.cpp:61
+#, fuzzy, kde-format
+msgid ""
+"Error initializing OpenSync.\n"
+"%1"
+msgstr "خطأ n 1"
+
+#, fuzzy
+#~ msgid "This member/plugin needs no configuration."
+#~ msgstr "هذا عضو ملحق لا تشكيل."
+
+#, fuzzy
+#~ msgid "Address Book location:"
+#~ msgstr "العنوان كتاب موقع:"
+
+#, fuzzy
+#~ msgid "Calendar location:"
+#~ msgstr "التقويم موقع:"
+
+#, fuzzy
+#~ msgid "Task list location:"
+#~ msgstr "مهمَّة قائمة موقع:"
+
+#, fuzzy
+#~ msgid "Directory name:"
+#~ msgstr "اسم المجلّد:"
+
+#, fuzzy
+#~ msgid "Sync all subdirectories"
+#~ msgstr "المصاحبة الكل"
+
+#, fuzzy
+#~ msgid "Username:"
+#~ msgstr "اسم المستخدم:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please notice that currently the password is stored as plain text in the "
+#~ "plugin configuration file"
+#~ msgstr "رجاء تنبيه كلمة مرور هو نص عادي نص بوصة ملحق تشكيل ملفّ"
+
+#, fuzzy
+#~ msgid "Calendar URL:"
+#~ msgstr "التقويم URL:"
+
+#, fuzzy
+#~ msgid "Model:"
+#~ msgstr "الطّراز:"
+
+#, fuzzy
+#~ msgid "Connection:"
+#~ msgstr "الإتصال:"
+
+#, fuzzy
+#~ msgid "Infrared"
+#~ msgstr "تحت الحمراء"
+
+#, fuzzy
+#~ msgid "TCP"
+#~ msgstr "TCP"
+
+#, fuzzy
+#~ msgid "USB (nokia_dku2)"
+#~ msgstr "الناقل التسلسي العام (USB)"
+
+#, fuzzy
+#~ msgid "USB (libusb)"
+#~ msgstr "الناقل التسلسي العام (USB)"
+
+#, fuzzy
+#~ msgid "Serial (DAU9P cable)"
+#~ msgstr "تسلسلي كبل"
+
+#, fuzzy
+#~ msgid "Serial (DLR3P cable)"
+#~ msgstr "تسلسلي كبل"
+
+#, fuzzy
+#~ msgid "Tekram Ir-Dongle"
+#~ msgstr "دون الأشعة الحمراء"
+
+#, fuzzy
+#~ msgid "Serial (M2BUS protocol)"
+#~ msgstr ""
+#~ "تسلسلي مراسم\n"
+#~ "ميفاق"
+
+#, fuzzy
+#~ msgid "Local"
+#~ msgstr "محلي"
+
+#, fuzzy
+#~ msgid "Ssh"
+#~ msgstr "SSHssh"
+
+#, fuzzy
+#~ msgid "Connection Mode:"
+#~ msgstr "الإتصال الوضع:"
+
+#, fuzzy
+#~ msgid "InfraRed (IR)"
+#~ msgstr "دون الأشعة الحمراء"
+
+#, fuzzy
+#~ msgid "Cable"
+#~ msgstr "موصل"
+
+#, fuzzy
+#~ msgid "Connection"
+#~ msgstr "الإتصال"
+
+#, fuzzy
+#~ msgid "Select your connection type."
+#~ msgstr "انتقِ اتصال نوع."
+
+#, fuzzy
+#~ msgid "Options"
+#~ msgstr "خيارات"
+
+#, fuzzy
+#~ msgid "Do not send OBEX UUID (IRMC-SYNC)"
+#~ msgstr "تنفيذ ليس إرسال"
+
+#, fuzzy
+#~ msgid ""
+#~ "Do not send OBEX UUID while connecting. Needed for older IrMC based "
+#~ "mobile phones."
+#~ msgstr "تنفيذ ليس إرسال بينما يتصل مطلوب لـ أعتق من نقّال."
+
+#, fuzzy
+#~ msgid "URL:"
+#~ msgstr "العنوان:"
+
+#, fuzzy
+#~ msgid "Base"
+#~ msgstr "الأساس"
+
+#, fuzzy
+#~ msgid "One"
+#~ msgstr "واحد"
+
+#, fuzzy
+#~ msgid "Sub"
+#~ msgstr "فرعي"
+
+#, fuzzy
+#~ msgid "Use encryption"
+#~ msgstr "إستعمل تشفير "
+
+#, fuzzy
+#~ msgid "Load data from LDAP"
+#~ msgstr "تحميل البيانات من LDAP"
+
+#, fuzzy
+#~ msgid "Save data to LDAP"
+#~ msgstr "احفظ البيانات إلى LDAP"
+
+#, fuzzy
+#~ msgid "Key Attribute:"
+#~ msgstr "مفتاح الصّفة:"
+
+#, fuzzy
+#~ msgid "Search Scope:"
+#~ msgstr "مجال البحث:"
+
+#, fuzzy
+#~ msgid "Device String:"
+#~ msgstr "الجهاز سلسلة:"
+
+#, fuzzy
+#~ msgid "Device IP:"
+#~ msgstr "الجهاز IP:"
+
+#, fuzzy
+#~ msgid "Device Type:"
+#~ msgstr "الجهاز النوع:"
+
+#, fuzzy
+#~ msgid "FTP"
+#~ msgstr "FTP"
+
+#, fuzzy
+#~ msgid " sec"
+#~ msgstr " ثانية"
+
+#, fuzzy
+#~ msgid "User"
+#~ msgstr "المستخدم"
+
+#, fuzzy
+#~ msgid "What to do if Username does not match"
+#~ msgstr "ماذا إلى IF اسم المستخدم ليس طابق"
+
+#, fuzzy
+#~ msgid "Sync Anyway"
+#~ msgstr "المصاحبة بأيّة حال"
+
+#, fuzzy
+#~ msgid "Ask What To Do"
+#~ msgstr "إسأل ماذا إلى تنفيذ"
+
+#, fuzzy
+#~ msgid "Abort Sync"
+#~ msgstr "إلغاء المصاحبة"
+
+#, fuzzy
+#~ msgid "Hotsync Notification"
+#~ msgstr "اشعار "
+
+#, fuzzy
+#~ msgid "Popup when interaction is required"
+#~ msgstr "منبثق هو مطلوب"
+
+#, fuzzy
+#~ msgid "Local Calendars"
+#~ msgstr "التقويمات المحلًية"
+
+#, fuzzy
+#~ msgid "WebDAV Calendars"
+#~ msgstr "التقويمات"
+
+#, fuzzy
+#~ msgid "Add new calendar"
+#~ msgstr "أضِف تقويم جديد"
+
+#, fuzzy
+#~ msgid "Sync only events newer than"
+#~ msgstr "المصاحبة أحدث من"
+
+#, fuzzy
+#~ msgid "day(s)"
+#~ msgstr "يوم/ايام"
+
+#, fuzzy
+#~ msgid "Remove"
+#~ msgstr "احذف"
+
+#, fuzzy
+#~ msgid "Set as Default"
+#~ msgstr "إجعله افتراضيا"
+
+#, fuzzy
+#~ msgid "Location:"
+#~ msgstr "الموقع:"
+
+#, fuzzy
+#~ msgid "Sync Contacts"
+#~ msgstr "المراسَلون"
+
+#, fuzzy
+#~ msgid "Sync Calendar"
+#~ msgstr "التقويم"
+
+#, fuzzy
+#~ msgid "File:"
+#~ msgstr "ملف:"
+
+#, fuzzy
+#~ msgid "Databases"
+#~ msgstr "قواعد البيانات"
+
+#, fuzzy
+#~ msgid "Contact Database:"
+#~ msgstr "المراسَل قاعدة بيانات:"
+
+#, fuzzy
+#~ msgid "Calendar Database:"
+#~ msgstr "التقويم قاعدة بيانات:"
+
+#, fuzzy
+#~ msgid "Note Database:"
+#~ msgstr "ملاحظة قاعدة بيانات:"
+
+#, fuzzy
+#~ msgid "User name:"
+#~ msgstr "اسم المستخدم:"
+
+#, fuzzy
+#~ msgid "Use String Table"
+#~ msgstr "إستعمل سلسلة جدول"
+
+#, fuzzy
+#~ msgid "Only Replace Entries"
+#~ msgstr "فقط استبدل مُدخلات"
+
+#, fuzzy
+#~ msgid "Use Local Timestamps only"
+#~ msgstr "إستعمل محلي"
+
+#, fuzzy
+#~ msgid "Url:"
+#~ msgstr "عنوان:"
+
+#, fuzzy
+#~ msgid "Receive Limit:"
+#~ msgstr "استقبال الحدّ:"
+
+#, fuzzy
+#~ msgid "Maximum Object Size"
+#~ msgstr "الأقصى كائن الحجم"
+
+#, fuzzy
+#~ msgid "SyncML Version:"
+#~ msgstr "الإصدار:"
+
+#, fuzzy
+#~ msgid "1.0"
+#~ msgstr "1.0"
+
+#, fuzzy
+#~ msgid "1.1"
+#~ msgstr "1.1"
+
+#, fuzzy
+#~ msgid "1.2"
+#~ msgstr "1.2"
+
+#, fuzzy
+#~ msgid "WAP Binary XML"
+#~ msgstr "ثنائي XML"
+
+#, fuzzy
+#~ msgid "Software Identifier:"
+#~ msgstr "البرنامج معرّف:"
+
+#, fuzzy
+#~ msgid "Bluetooth address:"
+#~ msgstr "عنوان:"
+
+#, fuzzy
+#~ msgid "Device Name:"
+#~ msgstr "الجهاز الاسم:"
+
+#, fuzzy
+#~ msgid "Serial Number:"
+#~ msgstr "الرقم التسلسلي:"
+
+#, fuzzy
+#~ msgid "Device Manufacturer:"
+#~ msgstr "الجهاز المصنّع:"
+
+#, fuzzy
+#~ msgid "SonyEricsson/Ericsson"
+#~ msgstr "أريكسون"
+
+#, fuzzy
+#~ msgid "Siemens"
+#~ msgstr "سيمينز"
+
+#, fuzzy
+#~ msgid ""
+#~ "Unable to read config from plugin '%1':\n"
+#~ "%2"
+#~ msgstr "عاجز إلى قراءة من ملحق n 2"
+
+#, fuzzy
+#~ msgid "Configuration of %1 is empty."
+#~ msgstr "إعدادات من هو فارغ."
+
+#, fuzzy
+#~ msgid ""
+#~ "Error initializing Opensync.\n"
+#~ "%1"
+#~ msgstr "خطأ n 1"

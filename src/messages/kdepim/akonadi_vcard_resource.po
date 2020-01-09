@@ -1,0 +1,57 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# walid <01walid@gmail.com>, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_vcard_resource\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-06 11:05+0200\n"
+"PO-Revision-Date: 2009-07-21 12:30+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 0.3\n"
+
+#. i18n: file: vcardresource.kcfg:9
+#. i18n: ectx: label, entry (Path), group (General)
+#: rc.cpp:3
+msgid "Path to vCard file."
+msgstr "المسار إلى ملف vCard."
+
+#. i18n: file: vcardresource.kcfg:13
+#. i18n: ectx: label, entry (AutosaveInterval), group (General)
+#: rc.cpp:6
+msgid "Autosave interval time (in minutes)."
+msgstr "فترة الحفظ التلقائي (بالدقائق)."
+
+#. i18n: file: vcardresource.kcfg:17
+#. i18n: ectx: label, entry (ReadOnly), group (General)
+#: rc.cpp:9
+msgid "Do not change the actual backend data."
+msgstr "لا تغير في خلفية البيانات الحالية."
+
+#. i18n: file: vcardresource.kcfg:21
+#. i18n: ectx: label, entry (MonitorFile), group (General)
+#: rc.cpp:12
+msgid "Monitor file for changes."
+msgstr "راقب الملف للتغيرات."
+
+#: vcardresource.cpp:70
+msgctxt "Filedialog filter for *.vcf"
+msgid "vCard Address Book File"
+msgstr "ملف دفتر العناوين لـvCard."
+
+#: vcardresource.cpp:71
+msgid "Select Address Book"
+msgstr "اختر دفتر العناوين."
+
+#: vcardresource.cpp:153 vcardresource.cpp:172
+#, kde-format
+msgid "Unable to open vCard file '%1'."
+msgstr "تعذر فتح ملف vCard '%1'."

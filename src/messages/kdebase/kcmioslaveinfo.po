@@ -1,0 +1,72 @@
+# translation of kcmioslaveinfo.po to Arabic
+# translation of kcmioslaveinfo.po to
+# Copyright (C) 2001,2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Mohammed Gamal <f2c2001@yahoo.com>, 2001.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmioslaveinfo\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-11-15 11:36+0100\n"
+"PO-Revision-Date: 2008-11-29 11:01+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"X-Poedit-Language: Arabic\n"
+
+#: kcmioslaveinfo.cpp:56
+msgid "Overview of the installed ioslaves and supported protocols."
+msgstr "نظرة عامة لوحدات الإدخال و الإخراج المثبتة و البروتوكلات المدعمة"
+
+#: kcmioslaveinfo.cpp:62
+msgid "Select the protocol documentation to display:"
+msgstr "انتق توثيق البروتوكول لعرضه"
+
+#: kcmioslaveinfo.cpp:94
+msgid "kcmioslaveinfo"
+msgstr "kcmioslaveinfo"
+
+#: kcmioslaveinfo.cpp:95
+msgid "KDE Panel System Information Control Module"
+msgstr "وحدة التحكم بمعلومات نظام اللوحة للكيدي"
+
+#: kcmioslaveinfo.cpp:97
+msgid "(c) 2001 - 2002 Alexander Neundorf"
+msgstr "(c) 2001 - 2002 Alexander Neundorf"
+
+#: kcmioslaveinfo.cpp:99
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#: kcmioslaveinfo.cpp:100
+msgid "George Staikos"
+msgstr "George Staikos"
+
+#: kcmioslaveinfo.cpp:146
+#, kde-format
+msgid ""
+"<html><body><p style='text-align:center'>No documentation available for the "
+"'%1:/' protocol.</p></body></html>"
+msgstr ""
+"<html><body><p style='text-align:center'>لا يوجد توثيق للبروتوكول'%1:/'.</"
+"p></body></html>"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد,زايد السعيدي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr,zayed.alsaidi@gmail.com"

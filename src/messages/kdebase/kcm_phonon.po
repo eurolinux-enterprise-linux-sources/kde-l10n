@@ -1,0 +1,195 @@
+# translation of kcm_phonon.po to Arabic
+# translation of kcm_phonon.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_phonon\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-12-31 11:06+0100\n"
+"PO-Revision-Date: 2008-11-25 20:58+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: main.cpp:38
+msgid "Phonon Configuration Module"
+msgstr "وحدة إعداد فونون"
+
+#: main.cpp:40
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "حقوق النسخ محفوظة 2006 - Matthias Kretz"
+
+#: main.cpp:41
+msgid "Matthias Kretz"
+msgstr "Matthias Kretz"
+
+#: main.cpp:52
+msgid "Device Preference"
+msgstr "تفضيلات الجهاز"
+
+#: main.cpp:54
+msgid "Backend"
+msgstr "الواجهة الخلفية"
+
+#: devicepreference.cpp:76
+msgid "Audio Output"
+msgstr "خرج صوتي"
+
+#: devicepreference.cpp:76
+msgid "Audio Capture"
+msgstr "التقاط الصوت"
+
+#: devicepreference.cpp:112
+msgid "Play a test sound on the selected device"
+msgstr "شغل صوت اختباري على الجهاز المُنتقى"
+
+#: devicepreference.cpp:133 devicepreference.cpp:140
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr "حدد الترتيب المبدئي للأجهزة المراد تجاهلها في كل فئة"
+
+#: devicepreference.cpp:214
+msgid "Default Output Device Preference"
+msgstr "تفضيلات جهاز الإخراج المبدئي"
+
+#: devicepreference.cpp:216
+msgid "Default Capture Device Preference"
+msgstr "تفضيلات جهاز الالتقاط المبدئي"
+
+#: devicepreference.cpp:220
+#, kde-format
+msgid "Output Device Preference for the '%1' Category"
+msgstr "تفضيلات جهاز الإخراج للفئة '%1'"
+
+#: devicepreference.cpp:222
+#, kde-format
+msgid "Capture Device Preference for the '%1' Category"
+msgstr "تفضيلات جهاز الالتقاط للفئة '%1'"
+
+#: devicepreference.cpp:602
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio output categories:"
+msgstr ""
+"طبق قائمة تفضيلات الأجهزة المعروضة حالياً على فئات أجهزة إخراج الصوت التي "
+"تليها"
+
+#: devicepreference.cpp:609
+msgid "Default/Unspecified Category"
+msgstr "فئة مبدئية/غير معينة"
+
+#. i18n: file: backendselection.ui:39
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: file: backendselection.ui:42
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: rc.cpp:3 rc.cpp:6
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+"قائمة الواجهات الخلفيات لفونون الموجودة في نظامك. يحدد الترتيب المحدّد "
+"الترتيب الذي سيستعمله فونون."
+
+#. i18n: file: backendselection.ui:58
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: file: devicepreference.ui:197
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: rc.cpp:9 rc.cpp:43
+msgid "Prefer"
+msgstr "فضّل"
+
+#. i18n: file: backendselection.ui:71
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: file: devicepreference.ui:213
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: rc.cpp:12 rc.cpp:49
+msgid "Defer"
+msgstr "أجِل"
+
+#. i18n: file: devicepreference.ui:28
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: file: devicepreference.ui:31
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: rc.cpp:15 rc.cpp:18
+msgid ""
+"Various categories of outputs.  For each category you may choose what device "
+"you wish to output to."
+msgstr ""
+"فئات الإخراج المختلفة . يمكنك اختيار الجهاز المراد توجيه الخرج إليه من كل فئة"
+
+#. i18n: file: devicepreference.ui:46
+#. i18n: ectx: property (text), widget (QCheckBox, showCheckBox)
+#: rc.cpp:21
+msgid "Show advanced devices"
+msgstr "اعرض الأجهزة المتقدمة"
+
+#. i18n: file: devicepreference.ui:76
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: rc.cpp:24
+msgid "Apply Device List To..."
+msgstr "طبق قائمة الأجهزة على ..."
+
+#. i18n: file: devicepreference.ui:106
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: rc.cpp:27
+msgid ""
+"Audio Outputs found on your system.  Choose the device that you wish sound "
+"to come out of."
+msgstr "عُثر على مخارج صوتية في نظامك. اختر الجهاز المُراد إخراج الصوت عبره."
+
+#. i18n: file: devicepreference.ui:110
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: rc.cpp:30
+msgid ""
+"The order determines the preference of the output devices. If for some "
+"reason the first device cannot be used Phonon will try to use the second, "
+"and\n"
+"so on."
+msgstr ""
+"يحدد الترتيب أفضلية أجهزة الخرج. إذا تعذر استعمال الجهاز الأول لسبب ما، "
+"سيجرب فونون الثاني،\n"
+"وهكذا."
+
+#. i18n: file: devicepreference.ui:155
+#. i18n: ectx: property (text), widget (QToolButton, removeButton)
+#: rc.cpp:34
+msgid "Remove"
+msgstr "أزِل"
+
+#. i18n: file: devicepreference.ui:178
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: rc.cpp:37
+msgid "Test"
+msgstr "اختبر"
+
+#. i18n: file: devicepreference.ui:194
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: rc.cpp:40
+msgid "prefer the selected device"
+msgstr "فضّل الجهاز المحدّد"
+
+#. i18n: file: devicepreference.ui:210
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: rc.cpp:46
+msgid "no preference for the selected device"
+msgstr "لا يوجد تفضيلات للجهاز المُنتقى"
+
+#: rc.cpp:50
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "majed316,زايد السعيدي"
+
+#: rc.cpp:51
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "GMajedli@gmail.com,zayed.alsaidi@gmail.com"

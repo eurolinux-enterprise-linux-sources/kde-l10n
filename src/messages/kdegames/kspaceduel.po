@@ -1,0 +1,421 @@
+# translation of kspaceduel.po to
+# Copyright (C) 2002, 2004, 2007 Free Software Foundation, Inc.
+#
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Ahmad M. Zawawi <zawawi@arabeyes.org>, 2004.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kspaceduel\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-02 09:57+0100\n"
+"PO-Revision-Date: 2007-10-14 15:45+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: dialogs.cpp:77
+msgid "Game speed:"
+msgstr "سرعة اللعبة:"
+
+#: dialogs.cpp:77
+msgid "Shot speed:"
+msgstr "سرعة الطلقة:"
+
+#: dialogs.cpp:78 dialogs.cpp:81 dialogs.cpp:84 dialogs.cpp:85
+msgid "Energy need:"
+msgstr "الطاقة المحتاجة:"
+
+#: dialogs.cpp:78 dialogs.cpp:82
+msgid "Max number:"
+msgstr "أعلى رقم:"
+
+#: dialogs.cpp:79 dialogs.cpp:82
+msgid "Damage:"
+msgstr "الضرر:"
+
+#: dialogs.cpp:79 dialogs.cpp:89
+msgid "Life time:"
+msgstr "وقت الحياة:"
+
+#: dialogs.cpp:80 dialogs.cpp:83
+msgid "Reload time:"
+msgstr "وقت إعادة التحميل:"
+
+#: dialogs.cpp:80
+msgid "Mine fuel:"
+msgstr "وقود اللغم:"
+
+#: dialogs.cpp:81
+msgid "Activate time:"
+msgstr "وقت التنشيط:"
+
+#: dialogs.cpp:83
+msgid "Acceleration:"
+msgstr "التسارع:"
+
+#: dialogs.cpp:84
+msgid "Rotation speed:"
+msgstr "سرعة الدوران:"
+
+#: dialogs.cpp:85
+msgid "Crash damage:"
+msgstr "ضرر التحطم:"
+
+#: dialogs.cpp:86
+msgid "Sun energy:"
+msgstr "طاقة الشمس:"
+
+#: dialogs.cpp:86
+msgid "Gravity:"
+msgstr "الجاذبية:"
+
+#: dialogs.cpp:87
+msgid "Position X:"
+msgstr "الموقع س:"
+
+#: dialogs.cpp:87
+msgid "Position Y:"
+msgstr "الموقع ص:"
+
+#: dialogs.cpp:88
+msgid "Velocity X:"
+msgstr "السرعة س:"
+
+#: dialogs.cpp:88
+msgid "Velocity Y:"
+msgstr "السرعة ص:"
+
+#: dialogs.cpp:89
+msgid "Appearance time:"
+msgstr "وقت الظهور:"
+
+#: dialogs.cpp:90
+msgid "Energy amount:"
+msgstr "كمية الطاقة:"
+
+#: dialogs.cpp:90
+msgid "Shield amount:"
+msgstr "كمية الدرع:"
+
+#: dialogs.cpp:188
+#, fuzzy
+#| msgid "Custom"
+msgctxt "custom values"
+msgid "Custom"
+msgstr "مخصص"
+
+#: dialogs.cpp:204
+#, fuzzy
+#| msgid "General"
+msgctxt "general game settings"
+msgid "General"
+msgstr "عام"
+
+#: dialogs.cpp:205 structs.h:63
+msgid "Bullet"
+msgstr "طلقة"
+
+#: dialogs.cpp:206
+msgctxt "Name"
+msgid "Mine"
+msgstr "اسمي"
+
+#: dialogs.cpp:207
+msgid "Ship"
+msgstr "السفينة"
+
+#: dialogs.cpp:208
+#, fuzzy
+#| msgid "Sun"
+msgctxt "the star, Sol"
+msgid "Sun"
+msgstr "الشمس"
+
+#: dialogs.cpp:209
+#, fuzzy
+#| msgid "Start"
+msgctxt "initial position and velocities of players"
+msgid "Start"
+msgstr "ابدأ"
+
+#: dialogs.cpp:210
+msgid "Powerups"
+msgstr "زيادات الطاقة"
+
+#: dialogs.cpp:425
+#, fuzzy
+#| msgid "General"
+msgctxt "general settings"
+msgid "General"
+msgstr "عام"
+
+#: dialogs.cpp:425
+msgid "General Settings"
+msgstr "الإعدادات العامة"
+
+#: dialogs.cpp:428
+#, fuzzy
+#| msgid "Game"
+msgctxt "game settings"
+msgid "Game"
+msgstr "لعبة"
+
+#: dialogs.cpp:428
+msgid "Game Settings"
+msgstr "إعدادات اللعبة"
+
+#: main.cpp:27
+msgid "KDE Space Game"
+msgstr "لعبة الفضاء لـ KDE"
+
+#: main.cpp:31
+msgid "KSpaceDuel"
+msgstr "لعبة مبارزة الفضاء (KSpaceDuel)"
+
+#: main.cpp:33
+#, fuzzy
+msgid "(c) 1998-2001, Andreas Zehender"
+msgstr "c"
+
+#: main.cpp:34
+#, fuzzy
+msgid "Andreas Zehender"
+msgstr "Andreas Zehender"
+
+#: main.cpp:34
+#, fuzzy
+msgid "Original Program"
+msgstr "الأصلي البرنامج"
+
+#: main.cpp:35
+#, fuzzy
+msgid "Branan Riley"
+msgstr "رايلي"
+
+#: main.cpp:35
+#, fuzzy
+msgid "SVG Renderer"
+msgstr "جاعل الشيء"
+
+#: mainview.cpp:371 topwidget.cpp:166
+msgid " paused "
+msgstr " ايقاف مؤقت "
+
+#: mainview.cpp:524
+#, kde-format
+msgid "Press %1 to start"
+msgstr "إضغط %1 للبدء"
+
+#: mainview.cpp:572
+msgid "draw round"
+msgstr "جولة تعادل"
+
+#: mainview.cpp:575
+msgid "blue player won the round"
+msgstr "اللعب الأزرق ربح الجولة"
+
+#: mainview.cpp:583
+msgid "red player won the round"
+msgstr "اللعب الأحمر ربح الجولة"
+
+#: mainview.cpp:591
+#, kde-format
+msgid "Press %1 for new round"
+msgstr "إضغط %1 لجولة جديدة"
+
+#: playerinfo.cpp:49 playerinfo.cpp:82
+msgid "Hit points"
+msgstr "نقاط الضرب"
+
+#: playerinfo.cpp:52 playerinfo.cpp:85
+msgid "Energy"
+msgstr "الطاقة"
+
+#: playerinfo.cpp:55 playerinfo.cpp:88
+msgid "Wins"
+msgstr "الإنتصارات"
+
+#. i18n: file: general.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: rc.cpp:3
+msgid "Hit Points"
+msgstr "نقاط الضرب"
+
+#. i18n: file: general.ui:42
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:6
+msgid "Red player:"
+msgstr "اللاعب الأحمر:"
+
+#. i18n: file: general.ui:82
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:9
+msgid "Blue player:"
+msgstr "اللاعب الأزرق:"
+
+#. i18n: file: general.ui:117
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
+#: rc.cpp:12
+msgid "Graphics"
+msgstr "الرسومات"
+
+#. i18n: file: general.ui:129
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:15
+msgid "Refresh time:"
+msgstr "وقت التحديث:"
+
+#. i18n: file: general.ui:176
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:18
+msgid "Red Player"
+msgstr "اللاعب الأحمر"
+
+#. i18n: file: general.ui:196
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Player0IsAi)
+#. i18n: file: general.ui:299
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Player1IsAi)
+#: rc.cpp:21 rc.cpp:42
+msgid "Player is AI"
+msgstr "اللاعب يستعمل الذكاء الصناعيّ"
+
+#. i18n: file: general.ui:229
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: general.ui:332
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:24 rc.cpp:45
+msgid "Difficulty:"
+msgstr "الصعوبة:"
+
+#. i18n: file: general.ui:243
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty0)
+#. i18n: file: general.ui:346
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty1)
+#: rc.cpp:27 rc.cpp:48
+msgid "Trainee"
+msgstr "المتدرب"
+
+#. i18n: file: general.ui:248
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty0)
+#. i18n: file: general.ui:351
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty1)
+#: rc.cpp:30 rc.cpp:51
+msgid "Normal"
+msgstr "عادي"
+
+#. i18n: file: general.ui:253
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty0)
+#. i18n: file: general.ui:356
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty1)
+#: rc.cpp:33 rc.cpp:54
+msgid "Hard"
+msgstr "صعب"
+
+#. i18n: file: general.ui:258
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty0)
+#. i18n: file: general.ui:361
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AiDifficulty1)
+#: rc.cpp:36 rc.cpp:57
+msgid "Insane"
+msgstr "مجنون"
+
+#. i18n: file: general.ui:279
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: rc.cpp:39
+msgid "Blue Player"
+msgstr "اللاعب الأزرق"
+
+#. i18n: file: kspaceduelui.rc:10
+#. i18n: ectx: Menu (game)
+#: rc.cpp:60
+#, fuzzy
+msgid "&Game"
+msgstr "&لعبة"
+
+#. i18n: file: kspaceduelui.rc:15
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:63
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسي"
+
+#: rc.cpp:64
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Isam Bayazidi,أحمد محمد زواوي"
+
+#: rc.cpp:65
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "bayazidi@arabeyes.org,zawawi@arabeyes.org"
+
+#: topwidget.cpp:98
+msgid "&New Round"
+msgstr "جولة &جديدة"
+
+#: topwidget.cpp:106
+#, fuzzy
+#| msgid "Start"
+msgctxt "start game"
+msgid "Start"
+msgstr "ابدأ"
+
+#: topwidget.cpp:119
+msgid "Player 1 Rotate Left"
+msgstr "اللاعب 1 تدوير لليسار"
+
+#: topwidget.cpp:123
+msgid "Player 1 Rotate Right"
+msgstr "اللاعب 1 تدوير لليمين"
+
+#: topwidget.cpp:127
+msgid "Player 1 Accelerate"
+msgstr "اللاعب 1 تسارع"
+
+#: topwidget.cpp:131
+msgid "Player 1 Shot"
+msgstr "اللاعب 1 إطلاق"
+
+#: topwidget.cpp:135
+msgid "Player 1 Mine"
+msgstr "اللاعب 1 اللغم"
+
+#: topwidget.cpp:140
+msgid "Player 2 Rotate Left"
+msgstr "اللاعب 2 تدوير لليسار"
+
+#: topwidget.cpp:144
+msgid "Player 2 Rotate Right"
+msgstr "اللاعب 2 تدوير لليمين"
+
+#: topwidget.cpp:148
+msgid "Player 2 Accelerate"
+msgstr "اللاعب 2 تسارع"
+
+#: topwidget.cpp:152
+msgid "Player 2 Shot"
+msgstr "اللاعب 2 إطلاق"
+
+#: topwidget.cpp:156
+msgid "Player 2 Mine"
+msgstr "اللاعب 2 اللغم"
+
+#: structs.h:63
+msgid "Default"
+msgstr ""
+
+#: structs.h:63
+msgid "Chaos"
+msgstr ""
+
+#: structs.h:63
+#, fuzzy
+#| msgid "Energy"
+msgid "Lack of Energy"
+msgstr "الطاقة"

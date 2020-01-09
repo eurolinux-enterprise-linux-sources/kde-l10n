@@ -1,0 +1,2172 @@
+# translation of kturtle.po to
+# Language AR translations for PACKAGE package.
+#
+# Automatically generated, 2007.
+# Khaled Hosny <khaledhosny@eglug.org>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Mohammad Alhargan <malham1@hotmail.com>9/2007
+msgid ""
+msgstr ""
+"Project-Id-Version: kturtle\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-12 01:31+0100\n"
+"PO-Revision-Date: 2007-10-14 15:43+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: interpreter/executer.cpp:274
+#, fuzzy, kde-format
+msgid "Internationalized string with an %1"
+msgstr "مدوّل سلسلة نص مع 1"
+
+#: interpreter/executer.cpp:275
+#, kde-format
+msgid "The %1 command accepts no parameters."
+msgstr "لا يقبل الأمر %1 أيّة معاملات."
+
+#: interpreter/executer.cpp:285
+#, fuzzy, kde-format
+msgid "The %2 command was called with %3 but needs 1 parameter."
+msgid_plural "The %2 command was called with %3 but needs %1 parameters."
+msgstr[0] "الـ أمر مع معلمة."
+msgstr[1] "الـ أمر مع معلمة."
+msgstr[2] "الـ أمر مع معلمة."
+msgstr[3] "الـ أمر مع معلمة."
+msgstr[4] "الـ أمر مع معلمة."
+msgstr[5] "الـ أمر مع معلمة."
+
+#: interpreter/executer.cpp:287
+#, fuzzy, kde-format
+msgid "The %2 command was called with %3 but only accepts 1 parameter."
+msgid_plural ""
+"The %2 command was called with %3 but only accepts %1 parameters."
+msgstr[0] "الـ أمر مع معلمة."
+msgstr[1] "الـ أمر مع معلمة."
+msgstr[2] "الـ أمر مع معلمة."
+msgstr[3] "الـ أمر مع معلمة."
+msgstr[4] "الـ أمر مع معلمة."
+msgstr[5] "الـ أمر مع معلمة."
+
+#: interpreter/executer.cpp:305
+#, kde-format
+msgid "The %1 command only accepts a string as its parameter."
+msgstr "يقبل الأمر %1 سلسلة نصّية فقط كمعاملاً له."
+
+#: interpreter/executer.cpp:307
+#, kde-format
+msgid "The %1 command only accepts strings as its parameters."
+msgstr "يقبل الأمر %1 سلاسل نصّية فقط كمعاملات له."
+
+#: interpreter/executer.cpp:312
+#, kde-format
+msgid "The %1 command only accepts a number as its parameter."
+msgstr "يقبل الأمر %1 رقما فقط كمعاملاً له."
+
+#: interpreter/executer.cpp:314
+#, kde-format
+msgid "The %1 command only accepts numbers as its parameters."
+msgstr "يقبل الأمر %1 أرقاما فقط كمعاملات له."
+
+#: interpreter/executer.cpp:319
+#, fuzzy, kde-format
+msgid "The %1 command only accepts an answer as its parameter."
+msgstr "الـ أمر معلمة."
+
+#: interpreter/executer.cpp:321
+#, fuzzy, kde-format
+msgid "The %1 command only accepts answers as its parameters."
+msgstr "الـ أمر البارامترات."
+
+#: interpreter/executer.cpp:409
+#, kde-format
+msgid "The variable '%1' was used without first being assigned to a value"
+msgstr "المتغير %1 استخدم بدون العمليات الاولية للمتغير"
+
+#: interpreter/executer.cpp:422
+#, fuzzy, kde-format
+#| msgid "An unknown function with named '%1' was called"
+msgid "An unknown function named '%1' was called"
+msgstr "قيمة غير معروفة %1 باسم "
+
+#: interpreter/executer.cpp:439 interpreter/executer.cpp:440
+#, fuzzy, kde-format
+msgid "1 parameter"
+msgid_plural "%1 parameters"
+msgstr[0] "باراميتر"
+msgstr[1] "باراميتر"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: interpreter/executer.cpp:437
+#, fuzzy, kde-format
+#| msgid ""
+#| "The function '%1' was called with %2, while it should should be called "
+#| "with %3"
+msgid "The function '%1' was called with %2, while it should be called with %3"
+msgstr "العملية %1 المسماة %2 يجب أن تسمى %3"
+
+#: interpreter/executer.cpp:647
+msgid "'And' needs two variables"
+msgstr "بحاجة الى متغيرات"
+
+#: interpreter/executer.cpp:656
+msgid "'Or' needs two variables"
+msgstr "'أو' بحاجة الى متغيرات"
+
+#: interpreter/executer.cpp:666
+msgid "I need something to do a not on"
+msgstr "احتاج إلى شيئ لاكتب ملاحظة عليه"
+
+#: interpreter/executer.cpp:674
+msgid "I cannot do a '==' without 2 variables"
+msgstr "لا استطيع العمل '=='بدون 2 متغير"
+
+#: interpreter/executer.cpp:682
+msgid "I cannot do a '!=' without 2 variables"
+msgstr "لا استطيع العمل '='بدون 2 متغير"
+
+#: interpreter/executer.cpp:690
+msgid "I cannot do a '>' without 2 variables"
+msgstr "لا استطيع العمل '<'بدون 2 متغير"
+
+#: interpreter/executer.cpp:698
+msgid "I cannot do a '<' without 2 variables"
+msgstr "لا استطيع العمل '>'بدون 2 متغير"
+
+#: interpreter/executer.cpp:706
+msgid "I cannot do a '>=' without 2 variables"
+msgstr "لا استطيع العمل '=<'بدون 2 متغير"
+
+#: interpreter/executer.cpp:714
+msgid "I cannot do a '<=' without 2 variables"
+msgstr "لا استطيع العمل '=>'بدون 2 متغير"
+
+#: interpreter/executer.cpp:722
+#, fuzzy
+#| msgid "You need two numbers or string to do an addition"
+msgid "You need two numbers or strings to do an addition"
+msgstr "تحتاج إلى رقمين أو سلسة ارقام لعمل اضافات"
+
+#: interpreter/executer.cpp:734
+#, fuzzy
+#| msgid "You need two numbers to substract"
+msgid "You need two numbers to subtract"
+msgstr "تحتاج إلى رقمين أو سلسة ارقام للحذف"
+
+#: interpreter/executer.cpp:741
+#, fuzzy, kde-format
+#| msgid "You tried to substract from a non-number, '%1'"
+msgid "You tried to subtract from a non-number, '%1'"
+msgstr "لقد حاولت ان تطرحه من غير عدد %1"
+
+#: interpreter/executer.cpp:743
+#, fuzzy, kde-format
+#| msgid "You tried to substract a non-number, '%1'"
+msgid "You tried to subtract a non-number, '%1'"
+msgstr "لقد حاولت ان تطرحه بدون رقم %1"
+
+#: interpreter/executer.cpp:749
+#, fuzzy
+#| msgid "You need two numbers to multiplicate"
+msgid "You need two numbers to multiply"
+msgstr "تحتاج إلى رقمين أو للمتعدد"
+
+# "#"
+#: interpreter/executer.cpp:756
+#, fuzzy, kde-format
+#| msgid "You tried to multiplicate a non-number, '%1'"
+msgid "You tried to multiply a non-number, '%1'"
+msgstr "لقد حاولت انشاء متعدد بدون ارقام %1"
+
+#: interpreter/executer.cpp:758
+#, fuzzy, kde-format
+#| msgid "You tried to multiplicate by a non-number, '%1'"
+msgid "You tried to multiply by a non-number, '%1'"
+msgstr "لقد حاولت انشاء متعدد بدون ارقام %1"
+
+#: interpreter/executer.cpp:764
+msgid "You need two numbers to divide"
+msgstr "تحتاج إلى رقمين لعمل القسمة"
+
+#: interpreter/executer.cpp:771
+#, kde-format
+msgid "You tried to divide a non-number, '%1'"
+msgstr "لقد حاولت القسمة بدون اعداد %1"
+
+#: interpreter/executer.cpp:773
+#, kde-format
+msgid "You tried to divide by a non-number, '%1'"
+msgstr "لقد حاولت القسمة بدون وجود اعداد %1"
+
+#: interpreter/executer.cpp:779
+msgid "You need two numbers to raise a power"
+msgstr "تحتاج إلى رقمين للرفع إلى قوى"
+
+#: interpreter/executer.cpp:786
+#, kde-format
+msgid "You tried to raise a non-number to a power, '%1'"
+msgstr "لقد حاولت الرفع إلى قوى بدون ارقام %1"
+
+#: interpreter/executer.cpp:788
+#, fuzzy, kde-format
+msgid "You tried to raise the power of a non-number, '%1'"
+msgstr "أنت إلى رفع من a رقم"
+
+#: interpreter/executer.cpp:794
+msgid "You need one variable and a value or variable to do a '='"
+msgstr "انت بحاجة إلى متغير بقيمة أو إلى قيمة لعمل '='"
+
+#: interpreter/executer.cpp:811
+#, fuzzy, kde-format
+#| msgid "The function '%1' is already defined!"
+msgid "The function '%1' is already defined."
+msgstr "تم تنفيذ %1 العملية"
+
+#: interpreter/parser.cpp:51
+#, kde-format
+msgid "Expected a command, instead got '%1'"
+msgstr ""
+
+#: interpreter/parser.cpp:84
+#, kde-format
+msgid "Could not understand '%1'"
+msgstr ""
+
+#: interpreter/parser.cpp:119
+msgid "A comma was expected here..."
+msgstr ""
+
+#: interpreter/parser.cpp:122
+#, kde-format
+msgid "Did not expect '%1', instead expected the line to end after %2"
+msgstr ""
+
+#: interpreter/parser.cpp:128
+#, kde-format
+msgid "Expected an assignment, '=', after the variable '%1'"
+msgstr ""
+
+#: interpreter/parser.cpp:132
+#, kde-format
+msgid "Did not expect '%1', instead expected a closing parenthesis, ')'"
+msgstr ""
+
+#: interpreter/parser.cpp:136
+msgid "Expected 'to' after 'for'"
+msgstr ""
+
+#: interpreter/parser.cpp:139
+#, fuzzy
+#| msgid "Expected a scope after the 'learn' command"
+msgid "Expected a name for a command after 'learn' command"
+msgstr "توقّعت نطاق بعد تعليم أمر '%1'"
+
+#: interpreter/parser.cpp:244
+#, fuzzy, kde-format
+#| msgid "You cannot put '%1' here!"
+msgid "You cannot put '%1' here."
+msgstr "لا تستطيع أن تضع %1 هنا"
+
+#: interpreter/parser.cpp:280
+msgid ""
+"Text string was not properly closed, expected a double quote, ' \" ', to "
+"close the string."
+msgstr ""
+
+#: interpreter/parser.cpp:639
+msgid "'for' was called wrongly"
+msgstr "'ل' يسمى خطئ"
+
+#: interpreter/parser.cpp:701
+msgid "Expected a scope after the 'learn' command"
+msgstr "توقّعت نطاق بعد تعليم أمر '%1'"
+
+#: interpreter/translator.cpp:119
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'True' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "true"
+msgstr "صحيح"
+
+#: interpreter/translator.cpp:126
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'False' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "false"
+msgstr "خاطئ"
+
+#: interpreter/translator.cpp:145
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'ArgumentSeparator' COMMAND, there are some "
+"rules on how to translate it.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn how to properly translate it."
+msgid ","
+msgstr "،"
+
+#: interpreter/translator.cpp:152
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'DecimalSeparator' COMMAND, there are some "
+"rules on how to translate it.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn how to properly translate it."
+msgid "."
+msgstr "."
+
+#: interpreter/translator.cpp:159
+msgctxt ""
+"You are about to translate the 'Exit' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "exit"
+msgstr "خروج"
+
+#: interpreter/translator.cpp:166
+msgctxt ""
+"You are about to translate the 'If' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "if"
+msgstr "IF"
+
+#: interpreter/translator.cpp:173
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'Else' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "else"
+msgstr "خاطئ"
+
+#: interpreter/translator.cpp:180
+msgctxt ""
+"You are about to translate the 'Repeat' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "repeat"
+msgstr "تكرار"
+
+#: interpreter/translator.cpp:187
+msgctxt ""
+"You are about to translate the 'While' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "while"
+msgstr "بينما"
+
+#: interpreter/translator.cpp:194
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'For' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "for"
+msgstr "لـ"
+
+#: interpreter/translator.cpp:201
+msgctxt ""
+"You are about to translate the 'To' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "to"
+msgstr "إلى"
+
+#: interpreter/translator.cpp:208
+msgctxt ""
+"You are about to translate the 'Step' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "step"
+msgstr "خطوة"
+
+#: interpreter/translator.cpp:215
+msgctxt ""
+"You are about to translate the 'Break' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "break"
+msgstr "توقّف"
+
+#: interpreter/translator.cpp:222
+msgctxt ""
+"You are about to translate the 'Return' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "return"
+msgstr "عودة"
+
+#: interpreter/translator.cpp:229
+msgctxt ""
+"You are about to translate the 'Wait' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "wait"
+msgstr "أنتطر"
+
+#: interpreter/translator.cpp:236
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'And' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "and"
+msgstr "و"
+
+#: interpreter/translator.cpp:243
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'Or' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "or"
+msgstr "أو"
+
+#: interpreter/translator.cpp:250
+msgctxt ""
+"You are about to translate the 'Not' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "not"
+msgstr "ليس"
+
+#: interpreter/translator.cpp:281
+msgctxt ""
+"You are about to translate the 'Learn' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "learn"
+msgstr "تعلم"
+
+#: interpreter/translator.cpp:288
+msgctxt ""
+"You are about to translate the 'Reset' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "reset"
+msgstr "إعادة تعيين"
+
+#: interpreter/translator.cpp:295
+msgctxt ""
+"You are about to translate the 'Clear' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "clear"
+msgstr "مسح"
+
+#: interpreter/translator.cpp:302
+msgctxt ""
+"You are about to translate the 'Clear' COMMAND ALIAS, there are some rules "
+"on how to translate it.Please see http://edu.kde.org/kturtle/translator.php "
+"to learn how to properly translate it."
+msgid "ccl"
+msgstr ""
+
+#: interpreter/translator.cpp:309
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'Center' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "center"
+msgstr "عام"
+
+#: interpreter/translator.cpp:316
+msgctxt ""
+"You are about to translate the 'Go' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "go"
+msgstr "اذهب"
+
+#: interpreter/translator.cpp:323
+msgctxt ""
+"You are about to translate the 'GoX' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "gox"
+msgstr ""
+
+#: interpreter/translator.cpp:330
+msgctxt ""
+"You are about to translate the 'GoX' COMMAND ALIAS, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "gx"
+msgstr ""
+
+#: interpreter/translator.cpp:337
+msgctxt ""
+"You are about to translate the 'GoY' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "goy"
+msgstr ""
+
+#: interpreter/translator.cpp:344
+msgctxt ""
+"You are about to translate the 'GoY' COMMAND ALIAS, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "gy"
+msgstr ""
+
+#: interpreter/translator.cpp:351
+msgctxt ""
+"You are about to translate the 'Forward' COMMAND, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "forward"
+msgstr "إلى الأمام"
+
+#: interpreter/translator.cpp:358
+msgctxt ""
+"You are about to translate the 'Forward' COMMAND ALIAS, there are some rules "
+"on how to translate it.Please see http://edu.kde.org/kturtle/translator.php "
+"to learn how to properly translate it."
+msgid "fw"
+msgstr ""
+
+#: interpreter/translator.cpp:365
+msgctxt ""
+"You are about to translate the 'Backward' COMMAND, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "backward"
+msgstr "إلى الخلف"
+
+#: interpreter/translator.cpp:372
+msgctxt ""
+"You are about to translate the 'Backward' COMMAND ALIAS, there are some "
+"rules on how to translate it.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn how to properly translate it."
+msgid "bw"
+msgstr ""
+
+#: interpreter/translator.cpp:379
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'Direction' COMMAND, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "direction"
+msgstr "وصف"
+
+#: interpreter/translator.cpp:386
+msgctxt ""
+"You are about to translate the 'Direction' COMMAND ALIAS, there are some "
+"rules on how to translate it.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn how to properly translate it."
+msgid "dir"
+msgstr "عرض"
+
+#: interpreter/translator.cpp:393
+msgctxt ""
+"You are about to translate the 'TurnLeft' COMMAND, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "turnleft"
+msgstr "اتجه لليمين"
+
+#: interpreter/translator.cpp:400
+msgctxt ""
+"You are about to translate the 'TurnLeft' COMMAND ALIAS, there are some "
+"rules on how to translate it.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn how to properly translate it."
+msgid "tl"
+msgstr ""
+
+#: interpreter/translator.cpp:407
+msgctxt ""
+"You are about to translate the 'TurnRight' COMMAND, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "turnright"
+msgstr "اتجه لليمين"
+
+#: interpreter/translator.cpp:414
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'TurnRight' COMMAND ALIAS, there are some "
+"rules on how to translate it.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn how to properly translate it."
+msgid "tr"
+msgstr "حقيقي"
+
+#: interpreter/translator.cpp:421
+msgctxt ""
+"You are about to translate the 'PenWidth' COMMAND, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "penwidth"
+msgstr "عرض القلم"
+
+#: interpreter/translator.cpp:428
+msgctxt ""
+"You are about to translate the 'PenWidth' COMMAND ALIAS, there are some "
+"rules on how to translate it.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn how to properly translate it."
+msgid "pw"
+msgstr ""
+
+#: interpreter/translator.cpp:435
+msgctxt ""
+"You are about to translate the 'PenUp' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "penup"
+msgstr "القلم للأعلى"
+
+#: interpreter/translator.cpp:442
+msgctxt ""
+"You are about to translate the 'PenUp' COMMAND ALIAS, there are some rules "
+"on how to translate it.Please see http://edu.kde.org/kturtle/translator.php "
+"to learn how to properly translate it."
+msgid "pu"
+msgstr ""
+
+#: interpreter/translator.cpp:449
+msgctxt ""
+"You are about to translate the 'PenDown' COMMAND, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "pendown"
+msgstr "القلم للأسفل"
+
+#: interpreter/translator.cpp:456
+msgctxt ""
+"You are about to translate the 'PenDown' COMMAND ALIAS, there are some rules "
+"on how to translate it.Please see http://edu.kde.org/kturtle/translator.php "
+"to learn how to properly translate it."
+msgid "pd"
+msgstr ""
+
+#: interpreter/translator.cpp:463
+msgctxt ""
+"You are about to translate the 'PenColor' COMMAND, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "pencolor"
+msgstr "لون القلم"
+
+#: interpreter/translator.cpp:470
+msgctxt ""
+"You are about to translate the 'PenColor' COMMAND ALIAS, there are some "
+"rules on how to translate it.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn how to properly translate it."
+msgid "pc"
+msgstr ""
+
+#: interpreter/translator.cpp:477
+msgctxt ""
+"You are about to translate the 'CanvasColor' COMMAND, there are some rules "
+"on how to translate it.Please see http://edu.kde.org/kturtle/translator.php "
+"to learn how to properly translate it."
+msgid "canvascolor"
+msgstr "جامع الألوان"
+
+#: interpreter/translator.cpp:484
+msgctxt ""
+"You are about to translate the 'CanvasColor' COMMAND ALIAS, there are some "
+"rules on how to translate it.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn how to properly translate it."
+msgid "cc"
+msgstr ""
+
+#: interpreter/translator.cpp:491
+msgctxt ""
+"You are about to translate the 'CanvasSize' COMMAND, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "canvassize"
+msgstr ""
+
+#: interpreter/translator.cpp:498
+#, fuzzy
+#| msgctxt ""
+#| "You are about to translate the 'Cos' COMMAND, there are some rules on how "
+#| "to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+#| "learn how to properly translate it."
+#| msgid "cos"
+msgctxt ""
+"You are about to translate the 'CanvasSize' COMMAND ALIAS, there are some "
+"rules on how to translate it.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn how to properly translate it."
+msgid "cs"
+msgstr "COS"
+
+#: interpreter/translator.cpp:505
+msgctxt ""
+"You are about to translate the 'SpriteShow' COMMAND, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "spriteshow"
+msgstr "عرض وهمي"
+
+#: interpreter/translator.cpp:512
+msgctxt ""
+"You are about to translate the 'SpriteShow' COMMAND ALIAS, there are some "
+"rules on how to translate it.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn how to properly translate it."
+msgid "ss"
+msgstr ""
+
+#: interpreter/translator.cpp:519
+msgctxt ""
+"You are about to translate the 'SpriteHide' COMMAND, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "spritehide"
+msgstr "اخفاء"
+
+#: interpreter/translator.cpp:526
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'SpriteHide' COMMAND ALIAS, there are some "
+"rules on how to translate it.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn how to properly translate it."
+msgid "sh"
+msgstr "sh"
+
+#: interpreter/translator.cpp:533
+msgctxt ""
+"You are about to translate the 'Print' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "print"
+msgstr "طباعة"
+
+#: interpreter/translator.cpp:540
+msgctxt ""
+"You are about to translate the 'FontSize' COMMAND, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "fontsize"
+msgstr "مقاس الخط"
+
+#: interpreter/translator.cpp:547
+msgctxt ""
+"You are about to translate the 'Random' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "random"
+msgstr "عشوائي"
+
+#: interpreter/translator.cpp:554
+msgctxt ""
+"You are about to translate the 'Random' COMMAND ALIAS, there are some rules "
+"on how to translate it.Please see http://edu.kde.org/kturtle/translator.php "
+"to learn how to properly translate it."
+msgid "rnd"
+msgstr ""
+
+#: interpreter/translator.cpp:561
+msgctxt ""
+"You are about to translate the 'GetX' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "getx"
+msgstr ""
+
+#: interpreter/translator.cpp:568
+msgctxt ""
+"You are about to translate the 'GetY' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "gety"
+msgstr ""
+
+#: interpreter/translator.cpp:575
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'Message' COMMAND, there are some rules on "
+"how to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "message"
+msgstr "رسالة"
+
+#: interpreter/translator.cpp:582
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'Ask' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "ask"
+msgstr "اسأل"
+
+#: interpreter/translator.cpp:589
+#, fuzzy
+msgctxt ""
+"You are about to translate the 'Pi' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "pi"
+msgstr "pi"
+
+#: interpreter/translator.cpp:596
+msgctxt ""
+"You are about to translate the 'Tan' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "tan"
+msgstr "TAN"
+
+#: interpreter/translator.cpp:603
+msgctxt ""
+"You are about to translate the 'Sin' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "sin"
+msgstr "SIN"
+
+#: interpreter/translator.cpp:610
+msgctxt ""
+"You are about to translate the 'Cos' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "cos"
+msgstr "COS"
+
+#: interpreter/translator.cpp:617
+msgctxt ""
+"You are about to translate the 'ArcTan' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "arctan"
+msgstr ""
+
+#: interpreter/translator.cpp:624
+msgctxt ""
+"You are about to translate the 'ArcSin' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "arcsin"
+msgstr ""
+
+#: interpreter/translator.cpp:631
+msgctxt ""
+"You are about to translate the 'ArcCos' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "arccos"
+msgstr ""
+
+#: interpreter/translator.cpp:638
+msgctxt ""
+"You are about to translate the 'Sqrt' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "sqrt"
+msgstr ""
+
+#: interpreter/translator.cpp:645
+msgctxt ""
+"You are about to translate the 'Exp' COMMAND, there are some rules on how to "
+"translate it.Please see http://edu.kde.org/kturtle/translator.php to learn "
+"how to properly translate it."
+msgid "exp"
+msgstr ""
+
+#: interpreter/translator.cpp:652
+msgctxt ""
+"You are about to translate the 'Round' COMMAND, there are some rules on how "
+"to translate it.Please see http://edu.kde.org/kturtle/translator.php to "
+"learn how to properly translate it."
+msgid "round"
+msgstr ""
+
+#: interpreter/translator.cpp:671
+msgctxt ""
+"This is an EXAMPLE NAME in KTurtle.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn know how to properly translate it."
+msgid "triangle"
+msgstr "مثلث"
+
+#: interpreter/translator.cpp:683
+msgctxt ""
+"This is an EXAMPLE NAME in KTurtle.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn know how to properly translate it."
+msgid "curly"
+msgstr "مموج"
+
+#: interpreter/translator.cpp:701
+msgctxt ""
+"This is an EXAMPLE NAME in KTurtle.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn know how to properly translate it."
+msgid "arrow"
+msgstr "سهم"
+
+#: interpreter/translator.cpp:728
+#, fuzzy
+msgctxt ""
+"This is an EXAMPLE NAME in KTurtle.Please see http://edu.kde.org/kturtle/"
+"translator.php to learn know how to properly translate it."
+msgid "flower"
+msgstr "زهرة"
+
+#: canvas.cpp:212
+#, fuzzy
+msgid "bold"
+msgstr "سميك"
+
+#: canvas.cpp:213
+msgid "italic"
+msgstr "مائل"
+
+#: canvas.cpp:214
+#, fuzzy
+msgid "underline"
+msgstr "سطِّر"
+
+#: canvas.cpp:215
+#, fuzzy
+msgid "overline"
+msgstr "سطر"
+
+#: canvas.cpp:216
+msgid "strikeout"
+msgstr "تشريط للخاج"
+
+#: colorpicker.cpp:37
+msgid "Color Picker"
+msgstr ""
+
+#: colorpicker.cpp:41 directiondialog.cpp:216
+#, fuzzy
+msgid "&Quit"
+msgstr "&حرّر"
+
+#: colorpicker.cpp:57
+msgid "Amount red:"
+msgstr ""
+
+#: colorpicker.cpp:71
+msgid "Amount green:"
+msgstr ""
+
+#: colorpicker.cpp:84
+msgid "Amount blue:"
+msgstr ""
+
+#: colorpicker.cpp:114 directiondialog.cpp:298
+msgid "&Copy to clipboard"
+msgstr ""
+
+#: colorpicker.cpp:118 directiondialog.cpp:301
+msgid "&Paste to editor"
+msgstr ""
+
+#: console.cpp:48 console.cpp:75
+msgid "Write a command here and press enter..."
+msgstr ""
+
+#: console.cpp:49
+msgid ""
+"Console: quickly run single commands -- write a command here and press enter."
+msgstr ""
+
+#: console.cpp:51
+#, fuzzy
+#| msgid "Show &Inspector"
+msgid "Console:"
+msgstr "إظهار المفتش"
+
+#: directiondialog.cpp:212
+#, fuzzy
+#| msgid "&Direction chooser"
+msgid "Direction Chooser"
+msgstr "محدد الاتجاه"
+
+#: directiondialog.cpp:241
+#, fuzzy
+#| msgid "Command"
+msgid "Command &type:"
+msgstr "أمر"
+
+#: directiondialog.cpp:256
+#, fuzzy
+msgid "&Previous direction:"
+msgstr "السابق"
+
+#: directiondialog.cpp:273
+#, fuzzy
+msgid "&New direction:"
+msgstr "وصف"
+
+#: editor.cpp:165 editor.cpp:263
+msgid "Turtle code files"
+msgstr "رمز ملفاة السلحفاة"
+
+#: editor.cpp:165 editor.cpp:263 mainwindow.cpp:951
+#, fuzzy
+msgid "All files"
+msgstr "جميع الملفات"
+
+#: editor.cpp:166
+#, fuzzy
+msgid "Open"
+msgstr "افتح"
+
+#: editor.cpp:177
+#, fuzzy, kde-format
+msgid "Cannot read %1"
+msgstr "لا يستطيع قراءة 1"
+
+#: editor.cpp:185
+#, kde-format
+msgid ""
+"The file you try to open is not a valid KTurtle script, or is incompatible "
+"with this version of KTurtle.\n"
+"Cannot open %1"
+msgstr ""
+
+#: editor.cpp:263
+#, fuzzy
+msgid "Save As"
+msgstr "احفظ كـ"
+
+#: editor.cpp:267 mainwindow.cpp:955
+#, kde-format
+msgid "Are you sure you want to overwrite %1?"
+msgstr "هل أنت متأكد بأنك تريد الكتابة فوقه %1 ؟"
+
+#: editor.cpp:268 mainwindow.cpp:956
+#, fuzzy
+msgid "Overwrite Existing File"
+msgstr "الكتابة فوقه الإيجاد ملف"
+
+#: editor.cpp:268 editor.cpp:270 mainwindow.cpp:956 mainwindow.cpp:958
+msgid "&Overwrite"
+msgstr "&أكتب عليه"
+
+#: editor.cpp:281
+msgid ""
+"The program you are currently working on is not saved. By continuing you may "
+"lose the changes you have made."
+msgstr ""
+"البرنامج الذي تعمل عليه حاليا غير محفوظ. إذا اكملت قد تفقد التغييرات التي "
+"قمت بها."
+
+#: editor.cpp:283
+msgid "Unsaved File"
+msgstr "ملف غير محفوظ"
+
+#: editor.cpp:283
+msgid "&Discard Changes"
+msgstr "ت&جاهل التغييرات"
+
+#: errordialog.cpp:36
+msgid "Errors"
+msgstr "أخطاء"
+
+#: errordialog.cpp:39
+#, fuzzy
+#| msgid "Errors"
+msgid "Hide Errors"
+msgstr "أخطاء"
+
+#: errordialog.cpp:39
+msgid "This button hides the Errors tab"
+msgstr ""
+
+#: errordialog.cpp:50
+#, fuzzy
+#| msgid ""
+#| "In this list you find the error(s) that resulted from running your Logo "
+#| "code. \n"
+#| "Good luck!"
+msgid ""
+"In this list you find the error(s) that resulted from running your code.\n"
+"Good luck!"
+msgstr "داخل قائمة ابحث خطأ s من جاري التنفيذ الشعار رمز!"
+
+#: errordialog.cpp:66
+msgid "line"
+msgstr "سطر"
+
+#: errordialog.cpp:66
+msgid "description"
+msgstr "وصف"
+
+#: errordialog.cpp:66
+msgid "code"
+msgstr "رمز"
+
+#: errordialog.cpp:86
+msgid "No errors occurred yet."
+msgstr ""
+
+#: inspector.cpp:45
+#, fuzzy
+msgid "Variables"
+msgstr "متغيرات"
+
+#: inspector.cpp:52
+#, fuzzy
+msgid "Functions"
+msgstr "متعلّم دالات"
+
+#: inspector.cpp:59
+#, fuzzy
+#| msgid "Code &Tree"
+msgid "Tree"
+msgstr "شجرة & الرموز"
+
+#: inspector.cpp:103 inspector.cpp:121
+msgid "name"
+msgstr "الأسم"
+
+#: inspector.cpp:103
+#, fuzzy
+msgid "value"
+msgstr "قيمة"
+
+#: inspector.cpp:103
+msgid "type"
+msgstr "نوع"
+
+#: inspector.cpp:113 inspector.cpp:130
+#, fuzzy
+msgid "Nothing to show here"
+msgstr "لا شيء إلى إظهار"
+
+#: inspector.cpp:121
+msgid "parameters"
+msgstr "البارامترات"
+
+#: inspector.cpp:173
+#, fuzzy
+msgctxt "undefined type of a variable"
+msgid "empty"
+msgstr "(فارغ)"
+
+#: inspector.cpp:180 mainwindow.cpp:701
+msgid "boolean"
+msgstr "منطقي"
+
+#: inspector.cpp:183
+msgid "number"
+msgstr "رقم"
+
+#: inspector.cpp:186
+msgid "string"
+msgstr "سلسلة"
+
+#: inspector.cpp:218
+msgid "None"
+msgstr "لاشيء"
+
+#: main.cpp:40
+#, fuzzy
+#| msgid ""
+#| "KTurtle is an educational programming environment that aims to make "
+#| "programming as easy as possible, especially for young children. KTurtle "
+#| "intends to help teaching kids the basics of math, geometry and... "
+#| "programming."
+msgid ""
+"KTurtle is an educational programming environment that aims to make "
+"programming as easy as possible, especially for young children. KTurtle "
+"intends to help teaching kids the basics of math, geometry, and programming."
+msgstr ""
+"  Kturtle هو بيئة تعليم البرمجه يهدف الى جعل البرمجه اسهل ما يمكن، وخصوصا  "
+"للأطفال الصغار.  Kturtle  تعتزم مساعدة تعليم الاطفال اساسيات  الرياضيات ، "
+"والهندسه...  البرمجه."
+
+#: main.cpp:49
+msgid "KTurtle"
+msgstr "سلحفاة ك"
+
+#: main.cpp:50
+msgid "Cies Breijs"
+msgstr ""
+
+#: main.cpp:50
+msgid "Initiator and core developer"
+msgstr "غرس حب التطوير"
+
+#: main.cpp:51
+msgid "Niels Slot"
+msgstr "مخرج Niels"
+
+#: main.cpp:51 main.cpp:52
+msgid "Core developer"
+msgstr "لب التطوير"
+
+#: main.cpp:52
+msgid "Mauricio Piacentini"
+msgstr ""
+
+#: main.cpp:58
+msgid "File to open (in the GUI mode)"
+msgstr "فتح الملف في وضعية GUI"
+
+#: main.cpp:60
+msgid ""
+"Starts KTurtle in testing mode (without a GUI), directly runs the specified "
+"local file"
+msgstr "ابداء KTurtle في وضع الاختبار بدون ( GUI) تشغيل الملفالمحدد مباشرة "
+
+#: main.cpp:62
+msgid ""
+"Specifies the localization language by a language code, defaults to \"en_US"
+"\" (only works in testing mode)"
+msgstr "تعيين اللغة المحددة كلغة برمجة افتراضية"
+
+#: main.cpp:64
+#, fuzzy
+msgid "Only tokenizes the turtle code (only works in testing mode)"
+msgstr "فقط رمز بوصة testing نمط"
+
+#: main.cpp:66
+#, fuzzy
+msgid ""
+"Translates turtle code to embeddable C++ example strings (for developers "
+"only)"
+msgstr "يترجم رمز إلى C لـ"
+
+#: mainwindow.cpp:80
+#, fuzzy
+msgctxt "@info:status the application is ready for commands"
+msgid "Ready"
+msgstr "جاهز"
+
+#: mainwindow.cpp:181
+msgid "Create a new file"
+msgstr "انشاء ملف جديد"
+
+#: mainwindow.cpp:182
+#, fuzzy
+#| msgid "Create a new file"
+msgid "New File: Create a new file"
+msgstr "انشاء ملف جديد"
+
+#: mainwindow.cpp:185
+msgid "Open an existing file"
+msgstr "افتح الملف المحدد"
+
+#: mainwindow.cpp:186
+#, fuzzy
+#| msgid "Open an existing file"
+msgid "Open File: Open an existing file"
+msgstr "افتح الملف المحدد"
+
+#: mainwindow.cpp:190
+msgid "Open a recently used file"
+msgstr "فتح آخر ملف تم فتحه"
+
+#: mainwindow.cpp:191
+#, fuzzy
+#| msgid "Open a recently used file"
+msgid "Open Recent File: Open a recently used file"
+msgstr "فتح آخر ملف تم فتحه"
+
+#: mainwindow.cpp:194
+msgid "Save the current file to disk"
+msgstr "حفظ الملف إلى دسك"
+
+#: mainwindow.cpp:195
+#, fuzzy
+#| msgid "Save the current file to disk"
+msgid "Save File: Save the current file to disk"
+msgstr "حفظ الملف إلى دسك"
+
+#: mainwindow.cpp:199
+msgid "Save the current file under a different name"
+msgstr "حفظ الملف باسم مختلف"
+
+#: mainwindow.cpp:200
+#, fuzzy
+#| msgid "Save the current file under a different name"
+msgid "Save File As: Save the current file under a different name"
+msgstr "حفظ الملف باسم مختلف"
+
+#: mainwindow.cpp:203
+msgid "Save &as Picture..."
+msgstr ""
+
+#: mainwindow.cpp:204
+#, fuzzy
+#| msgid "Save the current file to disk"
+msgid "Save the current canvas as a picture"
+msgstr "حفظ الملف إلى دسك"
+
+#: mainwindow.cpp:205
+#, fuzzy
+#| msgid "Save the current file to disk"
+msgid "Save as Picture: Save the current canvas as a picture"
+msgstr "حفظ الملف إلى دسك"
+
+#: mainwindow.cpp:208 mainwindow.cpp:403
+#, fuzzy
+msgid "&Run"
+msgstr "&تشغيل"
+
+#: mainwindow.cpp:211 mainwindow.cpp:407
+msgid "Execute the program"
+msgstr ""
+
+#: mainwindow.cpp:212 mainwindow.cpp:408
+msgid "Run: Execute the program"
+msgstr ""
+
+#: mainwindow.cpp:215
+#, fuzzy
+msgid "&Pause"
+msgstr "إ&يقاف مؤقتإي&قاف مؤقتتوقف مؤقت"
+
+#: mainwindow.cpp:219
+#, fuzzy
+msgid "Pause execution"
+msgstr "إيقاف مؤقت"
+
+#: mainwindow.cpp:220
+#, fuzzy
+msgid "Pause: Pause execution"
+msgstr "إيقاف مؤقت"
+
+#: mainwindow.cpp:223
+#, fuzzy
+msgid "&Abort"
+msgstr "&إلغاء"
+
+#: mainwindow.cpp:226
+#, fuzzy
+msgid "Stop executing program"
+msgstr "إلغاء"
+
+#: mainwindow.cpp:227
+#, fuzzy
+msgid "Abort: Stop executing program"
+msgstr "إلغاء"
+
+#: mainwindow.cpp:231
+#, fuzzy
+msgid "Print the code"
+msgstr "اطبع رمز"
+
+#: mainwindow.cpp:232
+#, fuzzy
+msgid "Print: Print the code"
+msgstr "اطبع رمز"
+
+#: mainwindow.cpp:235
+#, fuzzy
+msgid "Quit KTurtle"
+msgstr "اخرج سلحفاة ك"
+
+#: mainwindow.cpp:236
+#, fuzzy
+msgid "Quit: Quit KTurtle"
+msgstr "اخرج سلحفاة ك"
+
+#: mainwindow.cpp:240
+#, fuzzy
+msgid "Undo a change in the editor"
+msgstr "تراجع a تغيير بوصة الرّمز المحرر"
+
+#: mainwindow.cpp:241
+#, fuzzy
+msgid "Undo: Undo a change in the editor"
+msgstr "تراجع a تغيير بوصة الرّمز المحرر"
+
+#: mainwindow.cpp:246
+#, fuzzy
+#| msgid "Redo a previously undone change in the Code Editor"
+msgid "Redo a previously undone change in the editor"
+msgstr "اعد ما سبق والغ تغييرات رموز التحرير"
+
+#: mainwindow.cpp:247
+#, fuzzy
+#| msgid "Redo a previously undone change in the Code Editor"
+msgid "Redo: Redo a previously undone change in the editor"
+msgstr "اعد ما سبق والغ تغييرات رموز التحرير"
+
+#: mainwindow.cpp:252
+msgid "Cut the selected text to the clipboard"
+msgstr "قص إلى حافظة"
+
+#: mainwindow.cpp:253
+#, fuzzy
+#| msgid "Cut the selected text to the clipboard"
+msgid "Cut: Cut the selected text to the clipboard"
+msgstr "قص إلى حافظة"
+
+#: mainwindow.cpp:258
+msgid "Copy the selected text to the clipboard"
+msgstr "نسخ إلى حافظة"
+
+#: mainwindow.cpp:259
+#, fuzzy
+#| msgid "Copy the selected text to the clipboard"
+msgid "Copy: Copy the selected text to the clipboard"
+msgstr "نسخ إلى حافظة"
+
+#: mainwindow.cpp:264
+msgid "Paste the clipboard's content into the current selection"
+msgstr "لصق في التحديد"
+
+#: mainwindow.cpp:265
+#, fuzzy
+#| msgid "Paste the clipboard's content into the current selection"
+msgid "Paste: Paste the clipboard's content into the current selection"
+msgstr "لصق في التحديد"
+
+#: mainwindow.cpp:268
+msgid "Select all the code in the editor"
+msgstr "اختيار كل الرموز في المحرر"
+
+#: mainwindow.cpp:269
+#, fuzzy
+#| msgid "Select all the code in the editor"
+msgid "Select All: Select all the code in the editor"
+msgstr "اختيار كل الرموز في المحرر"
+
+#: mainwindow.cpp:272
+#, fuzzy
+#| msgid "&Overwrite"
+msgid "Overwrite Mode"
+msgstr "&أكتب عليه"
+
+#: mainwindow.cpp:274
+msgid "Toggle between the 'insert' and 'overwrite' mode"
+msgstr "تبديل بين الكتابة فوق النص و ازاحة النص"
+
+#: mainwindow.cpp:275
+#, fuzzy
+#| msgid "Toggle between the 'insert' and 'overwrite' mode"
+msgid "Overwrite Mode: Toggle between the 'insert' and 'overwrite' mode"
+msgstr "تبديل بين الكتابة فوق النص و ازاحة النص"
+
+#: mainwindow.cpp:282
+msgid "Search through the code in the editor"
+msgstr "بحث خلال الرموز في المحرر"
+
+#: mainwindow.cpp:283
+#, fuzzy
+#| msgid "Search through the code in the editor"
+msgid "Find: Search through the code in the editor"
+msgstr "بحث خلال الرموز في المحرر"
+
+#: mainwindow.cpp:286
+#, fuzzy
+#| msgid "Search through the code in the editor"
+msgid "Continue searching through the code in the editor"
+msgstr "بحث خلال الرموز في المحرر"
+
+#: mainwindow.cpp:287
+#, fuzzy
+#| msgid "Search through the code in the editor"
+msgid "Find Next: Continue searching through the code in the editor"
+msgstr "بحث خلال الرموز في المحرر"
+
+#: mainwindow.cpp:290
+#, fuzzy
+#| msgid "Search through the code in the editor"
+msgid "Continue searching backwards through the code in the editor"
+msgstr "بحث خلال الرموز في المحرر"
+
+#: mainwindow.cpp:291
+#, fuzzy
+#| msgid "Search through the code in the editor"
+msgid ""
+"Find Previous: Continue searching backwards through the code in the editor"
+msgstr "بحث خلال الرموز في المحرر"
+
+#: mainwindow.cpp:299
+#, fuzzy
+msgid "Show &Editor"
+msgstr "اعرض الرّمز المحرر"
+
+#: mainwindow.cpp:301
+msgid "Show or hide the Code Editor"
+msgstr "إظهار أو إخفاء المُحرّر"
+
+#: mainwindow.cpp:302
+#, fuzzy
+#| msgid "Show or hide the Code Editor"
+msgid "Show Code Editor: Show or hide the Code Editor"
+msgstr "إظهار أو إخفاء المُحرّر"
+
+#: mainwindow.cpp:309
+msgid "Show &Inspector"
+msgstr "إظهار المفتش"
+
+#: mainwindow.cpp:311
+msgid "Show or hide the Inspector"
+msgstr "إظهار أو إخفاء المفتش"
+
+#: mainwindow.cpp:312
+#, fuzzy
+#| msgid "Show or hide the Inspector"
+msgid "Show Inspector: Show or hide the Inspector"
+msgstr "إظهار أو إخفاء المفتش"
+
+#: mainwindow.cpp:319
+#, fuzzy
+#| msgid "Errors"
+msgid "Show E&rrors"
+msgstr "أخطاء"
+
+#: mainwindow.cpp:321
+#, fuzzy
+#| msgid "Show or hide the Statusbar"
+msgid "Show or hide the Errors tab"
+msgstr "إظهار أو إخفاء شريط الحالة"
+
+#: mainwindow.cpp:322
+#, fuzzy
+#| msgid "Show or hide the Toolbar"
+msgid "Show Errors: Show or hide the Errors tab"
+msgstr "إظهار أو إخفاء شريط أدوات"
+
+#: mainwindow.cpp:336
+msgid "Show &Line Numbers"
+msgstr "أظهر أر&قام الأسطر"
+
+#: mainwindow.cpp:338
+#, fuzzy
+#| msgid "Turn the editors line numbers on/off"
+msgid "Turn the line numbers on/off in the editor"
+msgstr "إيقاف أو تشغيل محرر ارقام الاسطر"
+
+#: mainwindow.cpp:339
+msgid "Show Line Numbers: Turn the line numbers on/off in the editor"
+msgstr ""
+
+#: mainwindow.cpp:347
+#, fuzzy
+#| msgid "&Direction chooser"
+msgid "&Direction Chooser..."
+msgstr "محدد الاتجاه"
+
+#: mainwindow.cpp:349
+msgid "Shows the direction chooser dialog"
+msgstr "إظهار إعداد محدد الاتجاه"
+
+#: mainwindow.cpp:350
+#, fuzzy
+#| msgid "Shows the direction chooser dialog"
+msgid "Direction Chooser: Show the direction chooser dialog"
+msgstr "إظهار إعداد محدد الاتجاه"
+
+#: mainwindow.cpp:353
+msgid "&Color Picker..."
+msgstr ""
+
+#: mainwindow.cpp:355
+#, fuzzy
+#| msgid "Shows the direction chooser dialog"
+msgid "Shows the color picker dialog"
+msgstr "إظهار إعداد محدد الاتجاه"
+
+#: mainwindow.cpp:356
+#, fuzzy
+#| msgid "Shows the direction chooser dialog"
+msgid "Color Picker: Show the color picker dialog"
+msgstr "إظهار إعداد محدد الاتجاه"
+
+#: mainwindow.cpp:369
+#, fuzzy
+#| msgid "Show &Inspector"
+msgid "Console"
+msgstr "إظهار المفتش"
+
+#: mainwindow.cpp:376
+msgid "Execute"
+msgstr ""
+
+#: mainwindow.cpp:378
+#, fuzzy
+#| msgid "Execute the code in the Code Editor"
+msgid "Execute: Executes the current line in the console"
+msgstr "تنفيذ الارمز بمحرر الرموز"
+
+#: mainwindow.cpp:386
+msgid "Get help on the command under the cursor"
+msgstr "المساعدة في الامر اسفل المؤشر"
+
+#: mainwindow.cpp:387
+#, fuzzy
+#| msgid "Get help on the command under the cursor"
+msgid "Context Help: Get help on the command under the cursor"
+msgstr "المساعدة في الامر اسفل المؤشر"
+
+#: mainwindow.cpp:392
+#, fuzzy
+msgid "Help"
+msgstr "مساعدة"
+
+#: mainwindow.cpp:393
+msgid "Help: Open manual for KTurtle"
+msgstr ""
+
+#: mainwindow.cpp:412
+#, fuzzy
+msgctxt "@option:radio"
+msgid "&Full Speed"
+msgstr "كامل السرعة"
+
+#: mainwindow.cpp:416
+msgid "Run the program at full speed"
+msgstr ""
+
+#: mainwindow.cpp:417
+msgid "Full Speed: Run the program at full speed"
+msgstr ""
+
+#: mainwindow.cpp:422
+#, fuzzy
+msgctxt "@option:radio choose the slow speed"
+msgid "&Slow"
+msgstr "بطيء"
+
+#: mainwindow.cpp:425
+msgid "Run the program at a slow speed"
+msgstr ""
+
+#: mainwindow.cpp:426
+msgid "Slow Speed: Run the program at a slow speed"
+msgstr ""
+
+#: mainwindow.cpp:431
+#, fuzzy
+msgctxt "@option:radio"
+msgid "S&lower"
+msgstr "أبطأ"
+
+#: mainwindow.cpp:434
+msgid "Run the program at a slower speed"
+msgstr ""
+
+#: mainwindow.cpp:435
+msgid "Slower Speed: Run the program at a slower speed"
+msgstr ""
+
+#: mainwindow.cpp:440
+#, fuzzy
+msgctxt "@option:radio"
+msgid "Sl&owest"
+msgstr "الأبطأ"
+
+#: mainwindow.cpp:443
+msgid "Run the program at the slowest speed"
+msgstr ""
+
+#: mainwindow.cpp:444
+msgid "Slowest Speed: Run the program at the slowest speed"
+msgstr ""
+
+#: mainwindow.cpp:449
+msgctxt "@option:radio"
+msgid "S&tep-by-Step"
+msgstr "خطوة خطوة"
+
+#: mainwindow.cpp:452
+msgid "Run the program one step at a time"
+msgstr ""
+
+#: mainwindow.cpp:453
+msgid "Step Speed: Run the program one step at a time"
+msgstr ""
+
+#: mainwindow.cpp:474
+msgid ""
+"Canvas: This is where the turtle moves and draws when the program is running"
+msgstr ""
+
+#: mainwindow.cpp:476 mainwindow.cpp:499
+msgid "&Canvas"
+msgstr ""
+
+#: mainwindow.cpp:483
+#, fuzzy
+#| msgid "Errors"
+msgid "E&rrors"
+msgstr "أخطاء"
+
+#: mainwindow.cpp:513
+#, fuzzy
+msgid "&Editor"
+msgstr "&حرّر"
+
+#: mainwindow.cpp:527
+msgid "Editor: Write your KTurtle commands here"
+msgstr ""
+
+#: mainwindow.cpp:530
+msgid "&Inspector"
+msgstr "المفتش"
+
+#: mainwindow.cpp:540
+msgid ""
+"Inspector: See information about variables and functions when the program "
+"runs"
+msgstr ""
+
+#: mainwindow.cpp:617
+#, kde-format
+msgid "Switch to the %1 dictionary"
+msgstr "حول إلى %1 القاموس"
+
+#: mainwindow.cpp:668
+msgid " OVR "
+msgstr " فوق "
+
+#: mainwindow.cpp:668
+msgid " INS "
+msgstr " ادرج "
+
+#: mainwindow.cpp:674 mainwindow.cpp:717
+msgid "<placeholder>no keyword</placeholder>"
+msgstr "<placeholder>لا توجد كلمة دليلية</placeholder>"
+
+#: mainwindow.cpp:675
+#, kde-format
+msgid "Help on: %1"
+msgstr "مساعدة حول %1"
+
+#: mainwindow.cpp:680
+#, kde-format
+msgid " Line: %1 Column: %2 "
+msgstr " سطر: %1 عمود: %2 "
+
+#: mainwindow.cpp:690
+msgid "<placeholder>variable</placeholder>"
+msgstr "<placeholder>المتغير</placeholder>"
+
+#: mainwindow.cpp:691
+msgid "<placeholder>number</placeholder>"
+msgstr "<placeholder>رقم</placeholder>"
+
+#: mainwindow.cpp:692
+msgid "<placeholder>comment</placeholder>"
+msgstr "<placeholder>أمر</placeholder>"
+
+#: mainwindow.cpp:693
+msgid "<placeholder>string</placeholder>"
+msgstr "<placeholder>متغير</placeholder>"
+
+#: mainwindow.cpp:694
+msgid "<placeholder>scope</placeholder>"
+msgstr "<placeholder>المجال</placeholder>"
+
+#: mainwindow.cpp:695
+msgid "<placeholder>assignment</placeholder>"
+msgstr "<placeholder>تحويل</placeholder>"
+
+#: mainwindow.cpp:696
+msgid "<placeholder>parenthesis</placeholder>"
+msgstr "<placeholder>العلامة</placeholder>"
+
+#: mainwindow.cpp:698
+msgid "mathematical operator"
+msgstr "مُعاملات رياضية"
+
+#: mainwindow.cpp:699
+msgid "expression"
+msgstr "تعبير"
+
+#: mainwindow.cpp:700
+msgid "boolean operator"
+msgstr "عامل منطقي"
+
+#: mainwindow.cpp:702 mainwindow.cpp:703 mainwindow.cpp:704
+msgid "command"
+msgstr "أمر"
+
+#: mainwindow.cpp:738
+#, kde-format
+msgid "Could not change the language to %1."
+msgstr "لا يمكن تغيير اللغة إلى %1"
+
+#: mainwindow.cpp:747
+#, fuzzy
+#| msgid "%1 [built in]"
+msgid "English [built in]"
+msgstr "%1 [مضمن]"
+
+#: mainwindow.cpp:748
+#, fuzzy, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: mainwindow.cpp:891
+msgid "untitled"
+msgstr "بلا عنوان"
+
+#: mainwindow.cpp:937
+msgid "Input"
+msgstr "إدخال"
+
+#: mainwindow.cpp:944
+msgid "Message"
+msgstr "رسالة"
+
+#: mainwindow.cpp:951
+msgid "PNG Images"
+msgstr ""
+
+#: mainwindow.cpp:951
+msgid "Save as Picture"
+msgstr ""
+
+#. i18n: file: kturtleui.rc:6
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3
+#, fuzzy
+msgid "&File"
+msgstr "&ملف"
+
+#. i18n: file: kturtleui.rc:11
+#. i18n: ectx: Menu (examples)
+#: rc.cpp:6
+#, fuzzy
+msgid "&Examples"
+msgstr "افتح مثال"
+
+#. i18n: file: kturtleui.rc:22
+#. i18n: ectx: Menu (speed)
+#: rc.cpp:9
+#, fuzzy
+msgid "&Run Speed"
+msgstr "كامل السرعة"
+
+#. i18n: file: kturtleui.rc:34
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:12
+#, fuzzy
+msgid "&Edit"
+msgstr "&حرّر"
+
+#. i18n: file: kturtleui.rc:51
+#. i18n: ectx: Menu (view)
+#: rc.cpp:15
+#, fuzzy
+msgid "&View"
+msgstr "ا&عرض"
+
+#. i18n: file: kturtleui.rc:59
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:18
+msgid "&Tools"
+msgstr "ادوات"
+
+#. i18n: file: kturtleui.rc:63
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:21
+msgid "&Settings"
+msgstr "إعدادات"
+
+#. i18n: file: kturtleui.rc:64
+#. i18n: ectx: Menu (language)
+#: rc.cpp:24
+#, fuzzy
+msgid "&Script Language"
+msgstr "الل&غة"
+
+#. i18n: file: kturtleui.rc:70
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:27
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "شريط الأدوات"
+
+#: rc.cpp:28
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "خالد حسني"
+
+#: rc.cpp:29
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "khaledhosny@eglug.org"
+
+#, fuzzy
+#~| msgid "Errors"
+#~ msgid "no errors"
+#~ msgstr "أخطاء"
+
+#, fuzzy
+#~| msgid "Show or hide the Statusbar"
+#~ msgid "Show or hide the interative Console tab"
+#~ msgstr "إظهار أو إخفاء شريط الحالة"
+
+#, fuzzy
+#~| msgid "Show or hide the Toolbar"
+#~ msgid "Show Console: Show or hide the interactive Console tab"
+#~ msgstr "إظهار أو إخفاء شريط أدوات"
+
+#~ msgid "Set a direction"
+#~ msgstr "عين الاتجاه"
+
+#, fuzzy
+#~ msgid "Direction"
+#~ msgstr "الاتجاه"
+
+#~ msgid "Turnleft"
+#~ msgstr "اتجه لليسار"
+
+#~ msgid "Turnright"
+#~ msgstr "اتجه لليمين"
+
+#, fuzzy
+#~ msgid "Toggle &Insert"
+#~ msgstr "تبديل إدراج"
+
+#, fuzzy
+#~| msgid "Toggle between the 'insert' and 'overwrite' mode"
+#~ msgid "Toggle Insert: Toggle between the 'insert' and 'overwrite' mode"
+#~ msgstr "تبديل بين الكتابة فوق النص و ازاحة النص"
+
+#, fuzzy
+#~ msgid "&Code Editor"
+#~ msgstr "الرّمز المحرر"
+
+#, fuzzy
+#~| msgid "R&un Speed"
+#~ msgid "&Speed"
+#~ msgstr "سرعة التشغيل"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "You are about to translate the 'triangle' EXAMPLE PROGRAM, examples have "
+#~ "to be translated in a special way.Please see http://edu.kde.org/kturtle/"
+#~ "translator.php to learn how to properly translate it."
+#~ msgid ""
+#~ "# Example: %1\n"
+#~ "\n"
+#~ "@(repeat) 3 {\n"
+#~ "  @(forward) 100\n"
+#~ "  @(turnleft) 120\n"
+#~ "}\n"
+#~ msgstr ""
+#~ "مثال n n تكرار\n"
+#~ " أمام\n"
+#~ " اتجه لليمين n n"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "You are about to translate the 'curly' EXAMPLE PROGRAM, examples have to "
+#~ "be translated in a special way.Please see http://edu.kde.org/kturtle/"
+#~ "translator.php to learn know how to properly translate it."
+#~ msgid ""
+#~ "# Example: %1\n"
+#~ "# This example draws some nice curving shapes...\n"
+#~ "\n"
+#~ "@(reset)\n"
+#~ "@(penup)\n"
+#~ "@(forward) 50\n"
+#~ "@(pendown)\n"
+#~ "\n"
+#~ "@(repeat) 4 {\n"
+#~ "  @(for) $x = 1 @(to) 100 {\n"
+#~ "    @(forward) 10\n"
+#~ "    @(turnright) 100 - $x\n"
+#~ "  }\n"
+#~ "}\n"
+#~ msgstr ""
+#~ "مثال n هذا بعض ظريف n n أعد الضبط n القلم للأعلى n أمام n القلم للأسفل n "
+#~ "n تكرار\n"
+#~ " لـ x إلى\n"
+#~ " أمام\n"
+#~ " اتجه لليمين x\n"
+#~ " n n"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "You are about to translate the 'arrow' EXAMPLE PROGRAM, examples have to "
+#~ "be translated in a special way.Please see http://edu.kde.org/kturtle/"
+#~ "translator.php to learn know how to properly translate it."
+#~ msgid ""
+#~ "# Example: %1\n"
+#~ "# This example draws an arrow...\n"
+#~ "@(reset)\n"
+#~ "\n"
+#~ "@(canvascolor) 0@(,) 0@(,) 0\n"
+#~ "@(penup)\n"
+#~ "@(pencolor) 255@(,) 0@(,) 0\n"
+#~ "@(penwidth) 5\n"
+#~ "@(clear)\n"
+#~ "\n"
+#~ "@(go) 20@(,)20\n"
+#~ "@(direction) 135\n"
+#~ "\n"
+#~ "@(pendown)\n"
+#~ "@(forward) 200\n"
+#~ "@(turnleft) 135\n"
+#~ "@(forward) 100\n"
+#~ "@(turnleft) 135\n"
+#~ "@(forward) 141\n"
+#~ "@(turnleft) 135\n"
+#~ "@(forward) 100\n"
+#~ "@(turnleft) 45\n"
+#~ "\n"
+#~ "@(penup)\n"
+#~ "@(go) 40@(,) 100"
+#~ msgstr ""
+#~ "مثال n هذا سهم n أعد الضبط n n n جامع الألوان n لون القلم n عرض القلم n "
+#~ "مسح n n اذهب n n n أمام n اتجه لليمين n أمام n اتجه لليمين n أمام n اتجه "
+#~ "لليمين n أمام n اتجه لليمين n n اذهب 100"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "You are about to translate the 'flower' EXAMPLE PROGRAM, examples have to "
+#~ "be translated in a special way.Please see http://edu.kde.org/kturtle/"
+#~ "translator.php to learn know how to properly translate it."
+#~ msgid ""
+#~ "# Example: %1\n"
+#~ "# This example draws a flower...\n"
+#~ "\n"
+#~ "@(reset)\n"
+#~ "@(penup)\n"
+#~ "@(canvascolor) 255@(,) 55@(,) 140\n"
+#~ "@(pencolor) 160@(,) 0@(,) 255\n"
+#~ "@(penwidth) 3\n"
+#~ "\n"
+#~ "@(pendown)\n"
+#~ "@(repeat) 8 {\n"
+#~ "  @(repeat) 4 {\n"
+#~ "    @(forward) 20\n"
+#~ "    @(turnright) 30\n"
+#~ "  }\n"
+#~ "  @(repeat) 7 {\n"
+#~ "    @(forward) 10\n"
+#~ "    @(turnright) 15\n"
+#~ "  }\n"
+#~ "  @(repeat) 9 {\n"
+#~ "    @(forward) 3\n"
+#~ "    @(turnright) 10\n"
+#~ "  }\n"
+#~ "}\n"
+#~ "\n"
+#~ "@(penup)\n"
+#~ "@(go) 145@(,) 145\n"
+#~ "@(direction) 0"
+#~ msgstr ""
+#~ "مثال n هذا a زهرة n n أعد الضبط n n جامع الألوان n اذهب n لون القلم n عرض "
+#~ "القلم n n تكرار\n"
+#~ " تكرار\n"
+#~ " أمام\n"
+#~ " اتجه لليمين\n"
+#~ "\n"
+#~ " تكرار\n"
+#~ " أمام\n"
+#~ " اتجه لليمين\n"
+#~ "\n"
+#~ " تكرار\n"
+#~ " أمام\n"
+#~ " اتجه لليمين\n"
+#~ " n n n اذهب n 0"
+
+#~ msgid "KTurtle; an educational programming environment."
+#~ msgstr "KTurtle; عبارة عن بيئة برمجة تعليمية"
+
+#~ msgid "About KTurtle"
+#~ msgstr "عن KTurtle"
+
+#~ msgid "Execute the code in the Code Editor"
+#~ msgstr "تنفيذ الارمز بمحرر الرموز"
+
+#, fuzzy
+#~ msgid "Abort execution"
+#~ msgstr "إلغاء"
+
+#~ msgid "Find the next occurrence"
+#~ msgstr "بحث عن الحدث التالي"
+
+#~ msgid "Find the previous occurrence"
+#~ msgstr "بحث عن الحدث السابق"
+
+#~ msgid "Show &Statusbar"
+#~ msgstr "إظهار شريط الحالة"
+
+#, fuzzy
+#~| msgid "Show or hide the Statusbar"
+#~ msgid "Show Statusbar: Show or hide the Statusbar"
+#~ msgstr "إظهار أو إخفاء شريط الحالة"
+
+#, fuzzy
+#~ msgid "Show &Toolbar"
+#~ msgstr "أظهر شريط الأ&دوات"
+
+#~ msgid "Show or hide the Toolbar"
+#~ msgstr "إظهار أو إخفاء شريط أدوات"
+
+#~ msgid "Information about KTurtle"
+#~ msgstr "معلومات عن KTurtel"
+
+#, fuzzy
+#~| msgid "Information about KTurtle"
+#~ msgid "About KTurtle: Information about KTurtle"
+#~ msgstr "معلومات عن KTurtel"
+
+#~ msgid "Information about KDE"
+#~ msgstr "معلومات عن KDE"
+
+#, fuzzy
+#~| msgid "Information about KDE"
+#~ msgid "About KDE: Information about KDE"
+#~ msgstr "معلومات عن KDE"
+
+#, fuzzy
+#~| msgid "Information about KTurtle"
+#~ msgid "Help: Information about KTurtle"
+#~ msgstr "معلومات عن KTurtel"
+
+#~ msgid "Point and click information about the interface of KTurtle"
+#~ msgstr "معلومات وتلميحات عن واجهة KTurtel"
+
+#, fuzzy
+#~| msgid "Point and click information about the interface of KTurtle"
+#~ msgid ""
+#~ "Whats This?: Point and click information about the interface of KTurtle"
+#~ msgstr "معلومات وتلميحات عن واجهة KTurtel"
+
+#, fuzzy
+#~ msgid "&Help"
+#~ msgstr "&مساعدة"
+
+#, fuzzy
+#~| msgid "Full Speed"
+#~ msgctxt "@option:radio"
+#~ msgid "Full Speed"
+#~ msgstr "سرعة كاملة"
+
+#, fuzzy
+#~| msgid "Slow"
+#~ msgctxt "@option:radio choose slow speed"
+#~ msgid "Slow"
+#~ msgstr "بطيء"
+
+#, fuzzy
+#~| msgid "Slower"
+#~ msgctxt "@option:radio"
+#~ msgid "Slower"
+#~ msgstr "أبطأ"
+
+#, fuzzy
+#~| msgid "Slowest"
+#~ msgctxt "@option:radio"
+#~ msgid "Slowest"
+#~ msgstr "الأبطأ"
+
+#~ msgctxt "@option:radio"
+#~ msgid "Step by Step"
+#~ msgstr "خطوة خطوة"
+
+#~ msgid "Search and replace"
+#~ msgstr "بحث واستبدال"
+
+#~ msgid "Configure the application's keyboard shortcut assignments."
+#~ msgstr "اعداد اختصارات لوحة المفاتيح"

@@ -1,0 +1,1582 @@
+# translation of libkdegames.po to
+# Copyright (C) 2002, 2004, 2007 Free Software Foundation, Inc.
+#
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Ahmad M. Zawawi <zawawi@arabeyes.org>, 2004.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkdegames\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-05 11:21+0200\n"
+"PO-Revision-Date: 2009-07-12 23:29+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: kgamedifficulty.cpp:116
+msgctxt "Game difficulty level"
+msgid "Difficulty"
+msgstr "الصعوبة"
+
+#: kgamedifficulty.cpp:117
+msgid "Set the difficulty level"
+msgstr "ضع مستوى الصعوبة"
+
+#: kgamedifficulty.cpp:118
+msgid "Set the difficulty level of the game."
+msgstr "ضع مستوى صعوبة اللعبة."
+
+#: kgamedifficulty.cpp:126
+msgid "Difficulty"
+msgstr "الصعوبة"
+
+#: kgamedifficulty.cpp:140
+msgid "Changing the difficulty level will end the current game!"
+msgstr "تغير مستوى الصعوبة سينهي اللعبة الحالية!"
+
+#: kgamedifficulty.cpp:140
+msgid "Change the difficulty level"
+msgstr "غير مستوى الصعوبة"
+
+#: kgamedifficulty.cpp:156
+msgctxt "Game difficulty level 1 out of 8"
+msgid "Ridiculously Easy"
+msgstr "سهل للغاية"
+
+#: kgamedifficulty.cpp:158
+msgctxt "Game difficulty level 2 out of 8"
+msgid "Very Easy"
+msgstr "سهل جدا"
+
+#: kgamedifficulty.cpp:160
+msgctxt "Game difficulty level 3 out of 8"
+msgid "Easy"
+msgstr "سهل"
+
+#: kgamedifficulty.cpp:162
+msgctxt "Game difficulty level 4 out of 8"
+msgid "Medium"
+msgstr "متوسط"
+
+#: kgamedifficulty.cpp:164
+msgctxt "Game difficulty level 5 out of 8"
+msgid "Hard"
+msgstr "صعب"
+
+#: kgamedifficulty.cpp:166
+msgctxt "Game difficulty level 6 out of 8"
+msgid "Very Hard"
+msgstr "صعب جدا"
+
+#: kgamedifficulty.cpp:168
+msgctxt "Game difficulty level 7 out of 8"
+msgid "Extremely Hard"
+msgstr "صعب للغاية"
+
+#: kgamedifficulty.cpp:170
+msgctxt "Game difficulty level 8 out of 8"
+msgid "Impossible"
+msgstr "مستحيل"
+
+#: kgamedifficulty.cpp:205
+msgctxt ""
+"Name of the game difficulty level that is customized by the user by setting "
+"up different game parameters"
+msgid "Custom"
+msgstr "مخصص"
+
+#: kgamedifficulty.cpp:304
+msgid ""
+"Select the <b>difficulty</b> of the game.<br />If you change the difficulty "
+"level while a game is running, you will have to cancel it and start a new "
+"one."
+msgstr ""
+"اختر <b>صعوبة </b> اللعبة.<br />إذا غيرت مستوى الصعوبة عندما تكون اللعبة "
+"تعمل ، سيكون عليك إلغائها و البدأ من جديد."
+
+#: kgamedifficulty.cpp:306
+msgid ""
+"Select the <b>difficulty</b> of the game.<br />You can change the difficulty "
+"level during a running game."
+msgstr ""
+"اختر <b>صعوبة </b> اللعبة.<br /> يمكنك تغير مستوى الصعوبة خلال لعبة تعمل."
+
+#: kgame/kplayer.cpp:91
+msgid "UserId"
+msgstr "معرف المستخدم"
+
+#: kgame/kplayer.cpp:93
+msgid "Group"
+msgstr "المجموعة"
+
+#: kgame/kplayer.cpp:94 kgame/kplayer.cpp:96
+msgid "default"
+msgstr "افتراضي"
+
+#: kgame/kplayer.cpp:95 highscore/kscoredialog.cpp:115
+#: highscore/kexthighscore_internal.h:64
+msgid "Name"
+msgstr "الاسم"
+
+#: kgame/kplayer.cpp:98
+msgid "AsyncInput"
+msgstr "إدخال لاتزامني"
+
+#: kgame/kplayer.cpp:100
+msgid "myTurn"
+msgstr "دوري"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:130
+msgid "KGame Debug Dialog"
+msgstr "مربع حوار التنقيح KGame"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:152
+msgid "Debug &KGame"
+msgstr "تنقيح &KGame"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:174
+#: kgame/dialogs/kgamedebugdialog.cpp:226
+msgid "Update"
+msgstr "تحديث"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:179
+msgid "KGame Pointer"
+msgstr "مؤشر KGame"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:180
+msgid "Game ID"
+msgstr "هوية اللعبة"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:181
+msgid "Game Cookie"
+msgstr "كعكة اللعبة"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:182
+msgid "Is Master"
+msgstr "هو رئيس"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:183
+msgid "Is Admin"
+msgstr "هو مدير النظام"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:184
+msgid "Is Offering Connections"
+msgstr "هل يقدم اتصالات"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:185
+msgid "Game Status"
+msgstr "حالة اللعبة"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:186
+msgid "Game is Running"
+msgstr "اللعبة مشغَلة"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:187
+msgid "Maximal Players"
+msgstr "أعلى اللاعبين"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:188
+msgid "Minimal Players"
+msgstr "أدنى اللاعبين"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:189
+msgid "Players"
+msgstr "اللاعبين"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:195
+msgid "Debug &Players"
+msgstr "تنقيح اللا&عبين"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:205
+msgid "Available Players"
+msgstr "اللاعبين المتوفّرين"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:230
+msgid "Player Pointer"
+msgstr "مؤشر اللاعب"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:231 kgame/kgamemessage.cpp:148
+msgid "Player ID"
+msgstr "هوية اللاعب"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:232
+msgid "Player Name"
+msgstr "اسم اللاعب"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:233
+msgid "Player Group"
+msgstr "مجموعة اللاعب"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:234
+msgid "Player User ID"
+msgstr "هوية المستخدم للاعب"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:235
+msgid "My Turn"
+msgstr "دوري"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:236
+msgid "Async Input"
+msgstr "إدخال لامتزامن"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:237
+msgid "KGame Address"
+msgstr "عنوان KGame"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:238
+msgid "Player is Virtual"
+msgstr "اللاعب غير حقيقي"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:239
+msgid "Player is Active"
+msgstr "اللاعب نشط"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:240
+msgid "RTTI"
+msgstr "RTTI"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:241
+msgid "Network Priority"
+msgstr "أولوية الشبكة"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:247
+msgid "Debug &Messages"
+msgstr "تنقيح ال&رسائل"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:261
+msgid "&>>"
+msgstr "&>>"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:265
+msgid "&<<"
+msgstr "&<<"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:269
+msgid "Do not show IDs:"
+msgstr "لا تظهر الهويات:"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:338 kgame/kgamepropertyhandler.cpp:356
+msgid "NULL pointer"
+msgstr "مؤشر NULL"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:349
+#: kgame/dialogs/kgamedebugdialog.cpp:350
+#: kgame/dialogs/kgamedebugdialog.cpp:351
+#: kgame/dialogs/kgamedebugdialog.cpp:353
+#: kgame/dialogs/kgamedebugdialog.cpp:409
+#: kgame/dialogs/kgamedebugdialog.cpp:410
+#: kgame/dialogs/kgamedebugdialog.cpp:413
+#: kgame/dialogs/kgamedebugdialog.cpp:414 kgame/kgamepropertyhandler.cpp:375
+msgid "True"
+msgstr "صح"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:349
+#: kgame/dialogs/kgamedebugdialog.cpp:350
+#: kgame/dialogs/kgamedebugdialog.cpp:351
+#: kgame/dialogs/kgamedebugdialog.cpp:353
+#: kgame/dialogs/kgamedebugdialog.cpp:409
+#: kgame/dialogs/kgamedebugdialog.cpp:410
+#: kgame/dialogs/kgamedebugdialog.cpp:413
+#: kgame/dialogs/kgamedebugdialog.cpp:414 kgame/kgamepropertyhandler.cpp:375
+msgid "False"
+msgstr "خطأ"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:367
+#: kgame/dialogs/kgamedebugdialog.cpp:428
+msgid "Clean"
+msgstr "نظيف"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:370
+#: kgame/dialogs/kgamedebugdialog.cpp:431
+msgid "Dirty"
+msgstr "قذر"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:373
+#: kgame/dialogs/kgamedebugdialog.cpp:434
+msgid "Local"
+msgstr "محلي"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:377
+#: kgame/dialogs/kgamedebugdialog.cpp:438
+msgid "Undefined"
+msgstr "غير محدد"
+
+#: kgame/dialogs/kgamedebugdialog.cpp:524 kgame/kgamepropertyhandler.cpp:381
+msgid "Unknown"
+msgstr "مجهول"
+
+#: kgame/dialogs/kgameerrordialog.cpp:80
+msgid "Connection to the server has been lost!"
+msgstr "قطع الاتصال إلى الخادم!"
+
+#: kgame/dialogs/kgameerrordialog.cpp:93
+msgid "Connection to client has been lost!"
+msgstr "قطع الاتصال إلى العميل!"
+
+#: kgame/dialogs/kgameerrordialog.cpp:99
+#, kde-format
+msgid ""
+"Received a network error!\n"
+"Error number: %1\n"
+"Error message: %2"
+msgstr ""
+"حصل خطأ في الشبكة!\n"
+"رقم الخطأ: %1\n"
+"رسالة الخطأ: %2"
+
+#: kgame/dialogs/kgameerrordialog.cpp:107
+msgid "No connection could be created."
+msgstr "فشل إنشاء اتصال."
+
+#: kgame/dialogs/kgameerrordialog.cpp:109
+#, kde-format
+msgid ""
+"No connection could be created.\n"
+"The error message was:\n"
+"%1"
+msgstr ""
+"فشل إنشاء اتصال.\n"
+"رسالة الخطأ كانت:\n"
+"%1"
+
+#: kgame/dialogs/kgameerrordialog.cpp:121
+msgid "Error"
+msgstr "خطأ"
+
+#: kgame/dialogs/kgamedialog.cpp:138
+msgid "&Chat"
+msgstr "&دردشة"
+
+#: kgame/dialogs/kgamedialog.cpp:149
+msgid "C&onnections"
+msgstr "الإ&تصالات"
+
+#: kgame/dialogs/kgamedialog.cpp:168
+msgid "&Game"
+msgstr "&لعبة"
+
+#: kgame/dialogs/kgamedialog.cpp:177
+msgid "&Network"
+msgstr "&شبكة"
+
+#: kgame/dialogs/kgamedialog.cpp:185
+msgid "&Message Server"
+msgstr "خادم ال&رسائل"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:136 kgame/kgamemessage.cpp:124
+msgid "Disconnect"
+msgstr "قطع الاتصال"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:140
+msgid "Network Configuration"
+msgstr "إعداد الشبكة"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:200
+msgid "Cannot connect to the network"
+msgstr "لا يستطيع الإتصال بالشبكة"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:206
+msgid "Network status: No Network"
+msgstr "حالة الشبكة: لا شبكة"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:212
+msgid "Network status: You are MASTER"
+msgstr "الشبكة حالة: أنت رئيس"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:214
+msgid "Network status: You are connected"
+msgstr "حالة الشبكة: أنت موصول"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:284
+msgid "Your name:"
+msgstr "اسمك:"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:448
+msgid "Maximal Number of Clients"
+msgstr "أعلى عدد من العملاء"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:453
+msgid "Maximal number of clients (-1 = infinite):"
+msgstr "أعلى عدد من العملاء (-1 =أبدي):"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:504
+msgid "Change Maximal Number of Clients"
+msgstr "غيّر أعلى رقم للزبائن"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:506
+msgid "Change Admin"
+msgstr "غيّر مدير النظام"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:508
+msgid "Remove Client with All Players"
+msgstr "إزالة العميل مع كلَ اللاعبين"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:526
+msgid "Only the admin can configure the message server!"
+msgstr "يمكن لمدير النظام فقط إعداد خادم الرسائل!"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:537
+msgid "You do not own the message server"
+msgstr "أنت لا تملك خادم رسائل"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:571
+msgid "Chat"
+msgstr "محادثة"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:628
+msgid "Connected Players"
+msgstr "لاعبين متصلين"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:774
+#, kde-format
+msgid "Do you want to ban player \"%1\" from the game?"
+msgstr "هل تريد حرمان اللاعب \"%1\" من اللعبة؟"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:775
+msgid "Ban Player"
+msgstr "لاعب محجوب"
+
+#: kgame/dialogs/kgamedialogconfig.cpp:775
+msgid "Do Not Ban"
+msgstr "لا تحجب"
+
+#: kgame/dialogs/kgameconnectdialog.cpp:73
+msgid "Create a network game"
+msgstr "إنشاء لعبة شبكية"
+
+#: kgame/dialogs/kgameconnectdialog.cpp:76
+msgid "Join a network game"
+msgstr "التحق باللعبة الشبكية"
+
+#: kgame/dialogs/kgameconnectdialog.cpp:82
+msgid "Game name:"
+msgstr "اسم اللعبة:"
+
+#: kgame/dialogs/kgameconnectdialog.cpp:84
+msgid "Network games:"
+msgstr "ألعاب شبكية:"
+
+#: kgame/dialogs/kgameconnectdialog.cpp:94
+msgid "Port to connect to:"
+msgstr "منفذ للوصول إليه:"
+
+#: kgame/dialogs/kgameconnectdialog.cpp:98
+msgid "Host to connect to:"
+msgstr "المضيف للوصول إليه:"
+
+#: kgame/dialogs/kgameconnectdialog.cpp:103
+msgid "&Start Network"
+msgstr "ا&بدأ الشبكة"
+
+#: kgame/dialogs/kgameconnectdialog.cpp:246
+msgid "Network Game"
+msgstr "لعبة شبكية"
+
+#: kgame/kgame.cpp:93
+msgid "MaxPlayers"
+msgstr "أعلى لاعبين"
+
+#: kgame/kgame.cpp:95
+msgid "MinPlayers"
+msgstr "أدنى لاعبين"
+
+#: kgame/kgame.cpp:97
+msgid "GameStatus"
+msgstr "حالة اللعبة"
+
+#: kgame/kgamepropertyhandler.cpp:170
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kgame/kgamepropertyhandler.cpp:172
+#, kde-format
+msgid "Unnamed - ID: %1"
+msgstr "غير مسماة - الهوية: %1"
+
+#: kgame/kgamepropertyhandler.cpp:176
+#, kde-format
+msgid "%1 unregistered"
+msgstr "%1 غير مسجَل"
+
+#: kgame/kgamemessage.cpp:112
+msgid "Setup Game"
+msgstr "تعيين اللعبة"
+
+#: kgame/kgamemessage.cpp:114
+msgid "Setup Game Continue"
+msgstr "تابع تعيين اللعبة"
+
+#: kgame/kgamemessage.cpp:116
+msgid "Load Game"
+msgstr "حمَل لعبة"
+
+#: kgame/kgamemessage.cpp:118
+msgid "Client game connected"
+msgstr "لعبة العميل موصولة"
+
+#: kgame/kgamemessage.cpp:120
+msgid "Game setup done"
+msgstr "انتهى تعيين اللعبة"
+
+#: kgame/kgamemessage.cpp:122
+msgid "Synchronize Random"
+msgstr "تزامن عشوائي"
+
+#: kgame/kgamemessage.cpp:126
+msgid "Player Property"
+msgstr "خاصية اللاعب"
+
+#: kgame/kgamemessage.cpp:128
+msgid "Game Property"
+msgstr "خاصية اللعبة"
+
+#: kgame/kgamemessage.cpp:130
+msgid "Add Player"
+msgstr "إضف لاعب"
+
+#: kgame/kgamemessage.cpp:132
+msgid "Remove Player"
+msgstr "إحذف لاعب"
+
+#: kgame/kgamemessage.cpp:134
+msgid "Activate Player"
+msgstr "تنشيط لاعب"
+
+#: kgame/kgamemessage.cpp:136
+msgid "Inactivate Player"
+msgstr "عطّل لاعب"
+
+#: kgame/kgamemessage.cpp:138
+msgid "Id Turn"
+msgstr "دور الهوية"
+
+#: kgame/kgamemessage.cpp:140
+msgid "Error Message"
+msgstr "رسالة خطأ"
+
+#: kgame/kgamemessage.cpp:142
+msgid "Player Input"
+msgstr "إدخال اللاعب"
+
+#: kgame/kgamemessage.cpp:144
+msgid "An IO was added"
+msgstr "تم اضافة IO"
+
+#: kgame/kgamemessage.cpp:146
+msgid "Process Query"
+msgstr "معالجة الاستعلام"
+
+#: kgame/kgamechat.cpp:97
+#, kde-format
+msgid "Player %1"
+msgstr "اللاعب %1"
+
+#: kgame/kgamechat.cpp:105 kchat.cpp:100
+msgctxt "Unknown player"
+msgid "Unknown"
+msgstr "مجهول"
+
+#: kgame/kgamechat.cpp:170 kchatbase.cpp:260
+#, kde-format
+msgid "Send to %1"
+msgstr "إرسال إلى %1"
+
+#: kgame/kgamechat.cpp:216
+#, kde-format
+msgid "Send to My Group (\"%1\")"
+msgstr "إرسال إلى مجموعتي (\"%1\")"
+
+#: kgame/kgameerror.cpp:60
+#, kde-format
+msgid ""
+"Cookie mismatch!\n"
+"Expected Cookie: %1\n"
+"Received Cookie: %2"
+msgstr ""
+"الكعكة لا تتوافق!\n"
+"الكعكة المتوقع: %1\n"
+"الكعكة المستقبلة: %2"
+
+#: kgame/kgameerror.cpp:69
+#, kde-format
+msgid ""
+"KGame Version mismatch!\n"
+"Expected Version: %1\n"
+"Received Version: %2\n"
+msgstr ""
+"عدم مطابقة إصدار KGame!\n"
+"الإصدار المتوقَع: %1\n"
+"الإصدار المستلم: %2\n"
+
+#: kgame/kgameerror.cpp:73
+#, kde-format
+msgid "Unknown error code %1"
+msgstr "شيفرة الخطأ مجهولة %1"
+
+#: tests/kgamepopupitemtest.cpp:65
+msgid "kgamepopupitemtest"
+msgstr "kgamepopupitemtest"
+
+#: kggzgames/kggzseatsdialog.cpp:110
+msgid "Display:"
+msgstr "عرض:"
+
+#: kggzgames/kggzseatsdialog.cpp:113
+msgid "Involved players and bots"
+msgstr "اللاعبون و الآليون المشاركين"
+
+#: kggzgames/kggzseatsdialog.cpp:114
+msgid "Spectators"
+msgstr "المشاهدون"
+
+#: kggzgames/kggzseatsdialog.cpp:116
+msgid "Close"
+msgstr "أغلق"
+
+#: kggzgames/kggzseatsdialog.cpp:133
+msgid "Players, Bots and Spectators"
+msgstr "اللأعبون و الآليون و المشاهدون"
+
+#: kggzgames/kggzseatsdialog.cpp:204
+msgid "Action..."
+msgstr "اجراء..."
+
+#: kggzgames/kggzseatsdialog.cpp:210
+msgid "Player"
+msgstr "لاعب"
+
+#: kggzgames/kggzseatsdialog.cpp:213
+msgid "Open"
+msgstr "افتح"
+
+#: kggzgames/kggzseatsdialog.cpp:216
+msgid "Reserved"
+msgstr "محفوظ"
+
+#: kggzgames/kggzseatsdialog.cpp:219
+msgid "AI bot"
+msgstr " الآلي AI"
+
+#: kggzgames/kggzseatsdialog.cpp:222
+msgid "Abandoned"
+msgstr "متروك"
+
+#: kggzgames/kggzseatsdialog.cpp:228 kggzgames/kggzseatsdialog.cpp:316
+#, kde-format
+msgid "Type: %1"
+msgstr "النوع: %1"
+
+#: kggzgames/kggzseatsdialog.cpp:231 kggzgames/kggzseatsdialog.cpp:319
+msgid "(unnamed)"
+msgstr "(غير مسمى)"
+
+#: kggzgames/kggzseatsdialog.cpp:315
+msgid "Spectator"
+msgstr "المشاهد"
+
+#: kggzgames/kggzseatsdialog.cpp:366
+msgid "Statistics..."
+msgstr "الإحصائيات..."
+
+#: kggzgames/kggzseatsdialog.cpp:372
+msgid "Sit down here"
+msgstr "اجلس هنا"
+
+#: kggzgames/kggzseatsdialog.cpp:374
+msgid "Add a bot here"
+msgstr "ضع ألي هنا"
+
+#: kggzgames/kggzseatsdialog.cpp:378
+msgid "Boot bot and open seat"
+msgstr "أقلع أي و افتح مقعد"
+
+#: kggzgames/kggzseatsdialog.cpp:384
+msgid "Stand up"
+msgstr "قف"
+
+#: kggzgames/kggzseatsdialog.cpp:386
+msgid "Boot player and open seat"
+msgstr "أقلع لاعب و افتح مقعد"
+
+#: kggzgames/kggzseatsdialog.cpp:473
+#, kde-format
+msgid "Host: %1"
+msgstr "المستضيف: %1"
+
+#: kggzgames/kggzseatsdialog.cpp:479
+#, kde-format
+msgid "Realname: %1"
+msgstr "الإسم الحقيقي: %1"
+
+#: kgamemisc.cpp:46
+msgctxt "A list of language typical names ( for games ), separated by spaces"
+msgid ""
+"Adam Alex Andreas Andrew Bart Ben Bernd Bill Chris Chuck Daniel Don Duncan "
+"Ed Emily Eric Gary Greg Harry Ian Jean Jeff Jan Kai Keith Ken Kirk Marc Mike "
+"Neil Paul Rik Robert Sam Sean Thomas Tim Walter"
+msgstr ""
+"أحمد أسامة خالد خليفة راشد زايد سعيد سيف طارق عبدالعزيز عبدالله غالب فهد "
+"محمد مصطفى نصر هزاع وليد ياسر"
+
+#: carddeckinfo.cpp:78 carddeckinfo.cpp:79 carddeckinfo.cpp:126
+#: carddeckinfo.cpp:127
+msgid "unnamed"
+msgstr "غير مسمى"
+
+#: kstandardgameaction.cpp:51
+msgctxt "new game"
+msgid "&New"
+msgstr "&جديد"
+
+#: kstandardgameaction.cpp:51
+msgid "Start a new game."
+msgstr "ابدأ لعبة جديدة."
+
+#: kstandardgameaction.cpp:51
+msgid "Start a new game"
+msgstr "ابدأ لعبة جديدة"
+
+#: kstandardgameaction.cpp:52
+msgid "&Load..."
+msgstr "&تحميل..."
+
+#: kstandardgameaction.cpp:52
+msgid "Open a saved game..."
+msgstr "افتح لعبة محفوظة..."
+
+#: kstandardgameaction.cpp:53
+msgid "Load &Recent"
+msgstr "تحميل &حديث"
+
+#: kstandardgameaction.cpp:53
+msgid "Open a recently saved game..."
+msgstr "افتح لعبة محفوظة حديثا..."
+
+#: kstandardgameaction.cpp:54
+msgid "Restart &Game"
+msgstr "إعادة تشغيل &لعبة"
+
+#: kstandardgameaction.cpp:54
+msgid "Restart the game"
+msgstr "إعادة تشغيل اللعبة"
+
+#: kstandardgameaction.cpp:55
+msgid "&Save"
+msgstr "ا&حفظ"
+
+#: kstandardgameaction.cpp:55
+msgid "Save the current game"
+msgstr "احفظ اللعبة الحالية"
+
+#: kstandardgameaction.cpp:56
+msgid "Save &As..."
+msgstr "احفظ با&سم..."
+
+#: kstandardgameaction.cpp:56
+msgid "Save the current game to another file"
+msgstr "احفظ اللعبة الحالية في ملف أخر"
+
+#: kstandardgameaction.cpp:57
+msgid "&End Game"
+msgstr "ا&نهاء اللعبة"
+
+#: kstandardgameaction.cpp:57
+msgid "End the current game"
+msgstr "أنهي اللعبة الحالية"
+
+#: kstandardgameaction.cpp:58
+msgid "Pa&use"
+msgstr "إيقاف &مؤقت"
+
+#: kstandardgameaction.cpp:58
+msgid "Pause the game"
+msgstr "أوقف لعبة"
+
+#: kstandardgameaction.cpp:59
+msgid "Show &High Scores"
+msgstr "أظهر النتائج ال&عالية"
+
+#: kstandardgameaction.cpp:59
+msgid "Show high scores"
+msgstr "أظهر أعلى النتائج"
+
+#: kstandardgameaction.cpp:60
+msgid "&Clear High Scores"
+msgstr "ا&مسح النقاط العليا"
+
+#: kstandardgameaction.cpp:60
+msgid "Clear high scores"
+msgstr "امسح النقاط العليا"
+
+#: kstandardgameaction.cpp:61
+msgid "Show Statistics"
+msgstr "أظهر الإحصائيات"
+
+#: kstandardgameaction.cpp:61
+msgid "Show statistics"
+msgstr "أظهر الإحصائيات"
+
+#: kstandardgameaction.cpp:62
+msgid "&Clear Statistics"
+msgstr "ام&سح الإحصائيات"
+
+#: kstandardgameaction.cpp:62
+msgid "Delete all-time statistics."
+msgstr "احذف جميع احصائيات الوقت."
+
+#: kstandardgameaction.cpp:63
+msgid "&Print..."
+msgstr "ا&طبع..."
+
+#: kstandardgameaction.cpp:64
+msgid "&Quit"
+msgstr "ا&خرج"
+
+#: kstandardgameaction.cpp:64
+msgid "Quit the program"
+msgstr "أنهي البرنامج"
+
+#: kstandardgameaction.cpp:66
+msgid "Repeat"
+msgstr "إعادة"
+
+#: kstandardgameaction.cpp:66
+msgid "Repeat the last move"
+msgstr "كرر أخر حركة"
+
+#: kstandardgameaction.cpp:67
+msgid "Und&o"
+msgstr "ت&راجع"
+
+#: kstandardgameaction.cpp:67
+msgid "Undo the last move"
+msgstr "تراجع عن أخر حركة"
+
+#: kstandardgameaction.cpp:68
+msgid "Re&do"
+msgstr "ت&كرار"
+
+#: kstandardgameaction.cpp:68
+msgid "Redo the latest move"
+msgstr "أعاد أحدث حركة"
+
+#: kstandardgameaction.cpp:69
+msgid "&Roll Dice"
+msgstr "&رمي النرد"
+
+#: kstandardgameaction.cpp:69
+msgid "Roll the dice"
+msgstr "ا&رمي النرد"
+
+#: kstandardgameaction.cpp:70
+msgid "End Turn"
+msgstr "انهي الدور"
+
+#: kstandardgameaction.cpp:71
+msgid "&Hint"
+msgstr "&تلميح"
+
+#: kstandardgameaction.cpp:71
+msgid "Give a hint"
+msgstr "أعط تلميح"
+
+#: kstandardgameaction.cpp:72
+msgid "&Demo"
+msgstr "ال&عينة"
+
+#: kstandardgameaction.cpp:72
+msgid "Play a demo"
+msgstr "إلعب لعبة استعراضية"
+
+#: kstandardgameaction.cpp:73
+msgid "&Solve"
+msgstr "&حلّ"
+
+#: kstandardgameaction.cpp:73
+msgid "Solve the game"
+msgstr "حل اللعبة"
+
+#: kstandardgameaction.cpp:75
+msgid "Choose Game &Type"
+msgstr "اختر نوع اللعبة"
+
+#: kstandardgameaction.cpp:76
+msgid "Configure &Carddecks..."
+msgstr "ا&ضبط شكل الورق..."
+
+#: kstandardgameaction.cpp:77
+msgid "Configure &High Scores..."
+msgstr "اضبط النقاط ال&عليا..."
+
+#: highscore/khighscore.cpp:138
+msgid "Retry"
+msgstr "أعد المحاولة"
+
+#: highscore/khighscore.cpp:139
+msgid ""
+"Cannot access the highscore file. Another user is probably currently writing "
+"to it."
+msgstr "لا يمكن الوصول إلى ملف أعلى النقاط. ربما مستخدم أخر يكتب إليه حاليا."
+
+#: highscore/kscoredialog.cpp:48
+msgid "High Scores"
+msgstr "أفضل النتائج"
+
+#: highscore/kscoredialog.cpp:117 highscore/kexthighscore_internal.h:73
+msgid "Date"
+msgstr "التاريخ"
+
+#: highscore/kscoredialog.cpp:119
+msgid "Level"
+msgstr "مستوى"
+
+#: highscore/kscoredialog.cpp:121 highscore/kexthighscore.cpp:208
+msgid "Score"
+msgstr "النتيجة"
+
+#: highscore/kscoredialog.cpp:123
+msgid "Time"
+msgstr "الوقت"
+
+#: highscore/kscoredialog.cpp:274 highscore/kexthighscore_internal.h:53
+msgid "Rank"
+msgstr "الرتبة"
+
+#: highscore/kscoredialog.cpp:297
+#, kde-format
+msgctxt "Enumeration (#1, #2 ...) of the highscore entries"
+msgid "#%1"
+msgstr "#%1"
+
+#: highscore/kscoredialog.cpp:559
+msgid ""
+"Excellent!\n"
+"You have a new high score!"
+msgstr ""
+"ممتاز!\n"
+"لقد حصلت على نتيجة عليا جديدة!"
+
+#: highscore/kscoredialog.cpp:561
+msgid ""
+"Well done!\n"
+"You made it to the high score list!"
+msgstr ""
+"حسنا!\n"
+"لقد وصلت إلى قائمة أفضل النتائج!"
+
+#: highscore/kexthighscore_gui.cpp:162
+msgid "Best &Scores"
+msgstr "أفضل ال&نتائج"
+
+#: highscore/kexthighscore_gui.cpp:167
+msgid "&Players"
+msgstr "الل&اعبين"
+
+#: highscore/kexthighscore_gui.cpp:172
+msgid "Statistics"
+msgstr "الإحصائيات"
+
+#: highscore/kexthighscore_gui.cpp:178
+msgid "Histogram"
+msgstr "المدرج الإحصائي"
+
+#: highscore/kexthighscore_gui.cpp:185
+msgid "View world-wide highscores"
+msgstr "عرض أفضل النتائج العالمية"
+
+#: highscore/kexthighscore_gui.cpp:192
+msgid "View world-wide players"
+msgstr "عرض اللاعبين العالميين"
+
+#: highscore/kexthighscore_gui.cpp:232
+msgid "Highscores"
+msgstr "النتائج العليا"
+
+#: highscore/kexthighscore_gui.cpp:239
+msgid "Configure..."
+msgstr "إضبط..."
+
+#: highscore/kexthighscore_gui.cpp:240
+msgid "Export..."
+msgstr "تصدير..."
+
+#: highscore/kexthighscore_gui.cpp:292
+msgid "Overwrite"
+msgstr "كتابة على"
+
+#: highscore/kexthighscore_gui.cpp:294
+msgid "The file already exists. Overwrite?"
+msgstr "الملف موجود بالفعل. هل تريد الكتابة فوقه؟"
+
+#: highscore/kexthighscore_gui.cpp:295
+msgid "Export"
+msgstr "صدّر"
+
+#: highscore/kexthighscore_gui.cpp:344
+msgid "Winner"
+msgstr "الفائز"
+
+#: highscore/kexthighscore_gui.cpp:382
+msgid "Won Games"
+msgstr "فوز بألعاب"
+
+#: highscore/kexthighscore_gui.cpp:409
+msgid "Configure Highscores"
+msgstr "اضبط النتائج العليا"
+
+#: highscore/kexthighscore_gui.cpp:419
+msgid "Main"
+msgstr "رئيسي"
+
+#: highscore/kexthighscore_gui.cpp:430 highscore/kexthighscore_gui.cpp:469
+msgid "Nickname:"
+msgstr "الكنية:"
+
+#: highscore/kexthighscore_gui.cpp:441
+msgid "Comment:"
+msgstr "التعليق:"
+
+#: highscore/kexthighscore_gui.cpp:451
+msgid "World-wide highscores enabled"
+msgstr "أفضل النتائج العالمية مفعلة"
+
+#: highscore/kexthighscore_gui.cpp:458
+msgid "Advanced"
+msgstr "متقدم"
+
+#: highscore/kexthighscore_gui.cpp:464
+msgid "Registration Data"
+msgstr "بيانات التسجيل"
+
+#: highscore/kexthighscore_gui.cpp:475
+msgid "Key:"
+msgstr "مفتاح:"
+
+#: highscore/kexthighscore_gui.cpp:482 highscore/kexthighscore_gui.cpp:515
+msgid "Remove"
+msgstr "ا&زل"
+
+#: highscore/kexthighscore_gui.cpp:517
+msgid ""
+"This will permanently remove your registration key. You will not be able to "
+"use the currently registered nickname anymore."
+msgstr ""
+"هذا سيحذف مفتاح تسجيلك بشكل دائم. لن تكون قادرا على استخدام كنيتك المسجلة "
+"حاليا مرة أخرى."
+
+#: highscore/kexthighscore_gui.cpp:560
+msgid "Please choose a non empty nickname."
+msgstr "الرجاء اختيار كنية غير فارغة."
+
+#: highscore/kexthighscore_gui.cpp:564
+msgid "Nickname already in use. Please choose another one"
+msgstr "الكنية مستعملة. الرجاء اختيار واحدة أخرى"
+
+#: highscore/kexthighscore_gui.cpp:585
+msgid "Enter Your Nickname"
+msgstr "أدخل كنيتك"
+
+#: highscore/kexthighscore_gui.cpp:597
+msgid "Congratulations, you have won!"
+msgstr "تهانينا، لقد فزت!"
+
+#: highscore/kexthighscore_gui.cpp:602
+msgid "Enter your nickname:"
+msgstr "أدخل كنيتك:"
+
+#: highscore/kexthighscore_gui.cpp:610
+msgid "Do not ask again."
+msgstr "لا تسأل مجددا."
+
+#: highscore/kexthighscore.cpp:211
+msgid "Mean Score"
+msgstr "متوسط النتيجة"
+
+#: highscore/kexthighscore.cpp:216
+msgid "Best Score"
+msgstr "أفضل نتيجة"
+
+#: highscore/kexthighscore.cpp:220
+msgid "Elapsed Time"
+msgstr "الوقت المنقضي"
+
+#: highscore/kexthighscore_internal.cpp:52
+msgid "anonymous"
+msgstr "مجهول"
+
+#: highscore/kexthighscore_internal.cpp:269
+msgid "Games Count"
+msgstr "عدد الألعاب"
+
+#: highscore/kexthighscore_internal.cpp:276
+msgid "Comment"
+msgstr "تعليق"
+
+#: highscore/kexthighscore_internal.cpp:593
+msgid "Undefined error."
+msgstr "خطأ غير محدد."
+
+#: highscore/kexthighscore_internal.cpp:594
+msgid "Missing argument(s)."
+msgstr "معطى(ات) مفقود(ة)."
+
+#: highscore/kexthighscore_internal.cpp:595
+msgid "Invalid argument(s)."
+msgstr "معطى(ات) غير صحيح(ة)"
+
+#: highscore/kexthighscore_internal.cpp:597
+msgid "Unable to connect to MySQL server."
+msgstr "لا يمكن الإتصال بخادم MySQL."
+
+#: highscore/kexthighscore_internal.cpp:598
+msgid "Unable to select database."
+msgstr "عاجز عن تحديد قاعدة المعلومات."
+
+#: highscore/kexthighscore_internal.cpp:599
+msgid "Error on database query."
+msgstr "خطأ في الإستعلام من قاعدة المعلومات."
+
+#: highscore/kexthighscore_internal.cpp:600
+msgid "Error on database insert."
+msgstr "خطأ في عملية الإدراج في قاعدة المعلومات."
+
+#: highscore/kexthighscore_internal.cpp:602
+msgid "Nickname already registered."
+msgstr "الكنية مسجلة."
+
+#: highscore/kexthighscore_internal.cpp:603
+msgid "Nickname not registered."
+msgstr "الكنية غير مسجلة."
+
+#: highscore/kexthighscore_internal.cpp:604
+msgid "Invalid key."
+msgstr "مِفْتَاح غَيْر صالِح."
+
+#: highscore/kexthighscore_internal.cpp:605
+msgid "Invalid submit key."
+msgstr "مفتاح التقديم غير صحيح."
+
+#: highscore/kexthighscore_internal.cpp:607
+msgid "Invalid level."
+msgstr "مستوى غير صحيح."
+
+#: highscore/kexthighscore_internal.cpp:608
+msgid "Invalid score."
+msgstr "نتيجة غير صحيحة."
+
+#: highscore/kexthighscore_internal.cpp:612
+msgid "Unable to contact world-wide highscore server"
+msgstr "عاجز عن الإتصال بالخادم العالمي لأعلى النقاط."
+
+#: highscore/kexthighscore_internal.cpp:621
+#, kde-format
+msgid "Server URL: %1"
+msgstr "عنوان الخادم: %1"
+
+#: highscore/kexthighscore_internal.cpp:629
+msgid "Unable to open temporary file."
+msgstr "لم يمكن فتح الملف المؤقت."
+
+#: highscore/kexthighscore_internal.cpp:651
+msgid "Message from world-wide highscores server"
+msgstr "رسالة من الخادم العالمي لأعلى النقاط"
+
+#: highscore/kexthighscore_internal.cpp:658
+msgid "Invalid answer from world-wide highscores server."
+msgstr "اجابة غير صالحة من الخادم العالمي لأعلى النقاط."
+
+#: highscore/kexthighscore_internal.cpp:659
+#, kde-format
+msgid "Raw message: %1"
+msgstr "رسالة خام: %1"
+
+#: highscore/kexthighscore_internal.cpp:671
+#, kde-format
+msgid "Invalid answer from world-wide highscores server (missing item: %1)."
+msgstr "اجابة غير صالحة من الخادم العالمي لأعلى النقاط (العنصر المفقود:%1)."
+
+#: highscore/kexthighscore_internal.h:82
+msgid "Success"
+msgstr "نجاح"
+
+#: highscore/kexthighscore_item.cpp:277
+msgid "Multiplayers Scores"
+msgstr "نقاط اللاعبين المتعددين"
+
+#: highscore/kexthighscore_item.cpp:288
+msgid "No game played."
+msgstr "لم  تلعب لعبة."
+
+#: highscore/kexthighscore_item.cpp:290
+msgid "Scores for last game:"
+msgstr "النتائج لأخر لعبة:"
+
+#: highscore/kexthighscore_item.cpp:297
+#, kde-format
+msgid "Scores for the last %1 games:"
+msgstr "النتائج لأخر %1 لعب:"
+
+#: highscore/kexthighscore_tab.cpp:49
+msgid "all"
+msgstr "الكل"
+
+#: highscore/kexthighscore_tab.cpp:78
+msgid "Select player:"
+msgstr "اختيار اللاعب:"
+
+#: highscore/kexthighscore_tab.cpp:115
+msgid "Total:"
+msgstr "المجموع:"
+
+#: highscore/kexthighscore_tab.cpp:115
+msgid "Won:"
+msgstr "فوز:"
+
+#: highscore/kexthighscore_tab.cpp:115
+msgid "Lost:"
+msgstr "خسارة:"
+
+#: highscore/kexthighscore_tab.cpp:116
+msgid "Draw:"
+msgstr "التعادل:"
+
+#: highscore/kexthighscore_tab.cpp:119
+msgid "Current:"
+msgstr "الحالي:"
+
+#: highscore/kexthighscore_tab.cpp:119
+msgid "Max won:"
+msgstr "الحد الأقصى للفوز:"
+
+#: highscore/kexthighscore_tab.cpp:119
+msgid "Max lost:"
+msgstr "الحد الأقصى للخسارة:"
+
+#: highscore/kexthighscore_tab.cpp:134
+msgid "Game Counts"
+msgstr "تعدادات اللعبة"
+
+#: highscore/kexthighscore_tab.cpp:147
+msgid "Trends"
+msgstr "إتّجاهات"
+
+#: highscore/kexthighscore_tab.cpp:235
+msgid "From"
+msgstr "من"
+
+#: highscore/kexthighscore_tab.cpp:236
+msgid "To"
+msgstr "إلى"
+
+#: highscore/kexthighscore_tab.cpp:237
+msgid "Count"
+msgstr "عدد"
+
+#: highscore/kexthighscore_tab.cpp:238
+msgid "Percent"
+msgstr "بالمائة"
+
+#. i18n: file: kgamecardselector.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, frontGroupBox)
+#: rc.cpp:3 rc.cpp:110
+msgctxt "Front side of a card"
+msgid "Front"
+msgstr "الوجه"
+
+#. i18n: file: kgamecardselector.ui:50
+#. i18n: ectx: property (title), widget (QGroupBox, backGroupBox)
+#: rc.cpp:6 rc.cpp:113
+msgctxt "Back side of a card"
+msgid "Back"
+msgstr "الخلف"
+
+#. i18n: file: kgamecardselector.ui:82
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: kgamethemeselector.ui:54
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: file: kgamecardselector.ui:82
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: kgamethemeselector.ui:54
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:9 rc.cpp:29 rc.cpp:116 rc.cpp:136
+msgid "Preview"
+msgstr "معاينة"
+
+#. i18n: file: kgamecardselector.ui:104
+#. i18n: ectx: property (text), widget (QLabel, frontPreview)
+#: rc.cpp:12 rc.cpp:119
+msgid ""
+"Frontside\n"
+"Preview"
+msgstr ""
+"معاينة\n"
+"الوجه الأمامي"
+
+#. i18n: file: kgamecardselector.ui:117
+#. i18n: ectx: property (text), widget (QLabel, cardName)
+#: rc.cpp:16 rc.cpp:123
+msgid "Deck Name"
+msgstr "اسم مجموعة الورق"
+
+#. i18n: file: kgamecardselector.ui:143
+#. i18n: ectx: property (text), widget (QLabel, backPreview)
+#: rc.cpp:19 rc.cpp:126
+msgid ""
+"Backside\n"
+"Preview"
+msgstr ""
+"معاينة\n"
+"الوجه الخلفي"
+
+#. i18n: file: kgamecardselector.ui:159
+#. i18n: ectx: property (text), widget (QLabel, cardDescription)
+#: rc.cpp:23 rc.cpp:130
+msgid "Deck description."
+msgstr "وصف مجموعة الورق."
+
+#. i18n: file: kgamethemeselector.ui:39
+#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
+#: rc.cpp:26 rc.cpp:133
+msgid "&Get New Themes"
+msgstr "ا&حصل على أحدث السمات"
+
+#. i18n: file: kgamethemeselector.ui:96
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:32 rc.cpp:139
+msgid "Theme Details"
+msgstr "تفاصيل السمة"
+
+#. i18n: file: kgamethemeselector.ui:130
+#. i18n: ectx: property (text), widget (QLabel, labelContact)
+#: rc.cpp:35 rc.cpp:142
+msgid "Contact:"
+msgstr "الإتصال:"
+
+#. i18n: file: kgamethemeselector.ui:165
+#. i18n: ectx: property (text), widget (QLabel, labelDescription)
+#: rc.cpp:38 rc.cpp:145
+msgid "Description:"
+msgstr "الوصف:"
+
+#. i18n: file: kgamethemeselector.ui:200
+#. i18n: ectx: property (text), widget (QLabel, labelAuthor)
+#: rc.cpp:41 rc.cpp:148
+msgid "Author:"
+msgstr "المؤلف:"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, showRichText)
+#: rc.cpp:44
+msgid "Show rich text"
+msgstr "أظهر نص غني"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:39
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:47
+msgid "Message timeout:"
+msgstr "رسالة انتهاء الوقت:"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:53
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:50
+msgid "msec"
+msgstr "ملي ثانية"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:60
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:53
+msgid "Opacity:"
+msgstr "العتمة:"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:80
+#. i18n: ectx: property (text), widget (QPushButton, changeIcon)
+#: rc.cpp:56
+msgid "Change Icon..."
+msgstr "غير الأيقونة..."
+
+#. i18n: file: tests/kgamepopupitemtest.ui:87
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:59
+msgid "Text color:"
+msgstr "لون النص:"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:101
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:62
+msgid "Backgound color:"
+msgstr "لون الخلفية:"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:111
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:65
+msgid "Replace Mode"
+msgstr "نمط الإستبدال"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:117
+#. i18n: ectx: property (text), widget (QRadioButton, leavePrevious)
+#: rc.cpp:68
+msgid "LeavePrevious"
+msgstr "اترك_السابق"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:127
+#. i18n: ectx: property (text), widget (QRadioButton, replacePrevious)
+#: rc.cpp:71
+msgid "ReplacePrevious"
+msgstr "استبدل_السابق"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:137
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:74
+msgid "Corners:"
+msgstr "الزوايا:"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:148
+#. i18n: ectx: property (text), item, widget (QComboBox, cornersType)
+#: rc.cpp:77
+msgid "Square"
+msgstr "مربع"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:153
+#. i18n: ectx: property (text), item, widget (QComboBox, cornersType)
+#: rc.cpp:80
+msgid "Sharp"
+msgstr "حاد"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:158
+#. i18n: ectx: property (text), item, widget (QComboBox, cornersType)
+#: rc.cpp:83
+msgid "Soft"
+msgstr "ناعم"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:163
+#. i18n: ectx: property (text), item, widget (QComboBox, cornersType)
+#: rc.cpp:86
+msgid "Softest"
+msgstr "أنعم"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:183
+#. i18n: ectx: property (text), widget (QPushButton, popupTL)
+#: rc.cpp:89
+msgid "Popup Top-Left"
+msgstr "أعلى-يسار النافذة المنبثقة"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:190
+#. i18n: ectx: property (text), widget (QPushButton, popupTR)
+#: rc.cpp:92
+msgid "Popup Top-Right"
+msgstr "أعلى-يمين النافذة المنبثقة"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:197
+#. i18n: ectx: property (text), widget (QPushButton, popupBL)
+#: rc.cpp:95
+msgid "Popup Bottom-Left"
+msgstr "أسفل-يسار النافذة المنبثقة"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:204
+#. i18n: ectx: property (text), widget (QPushButton, popupBR)
+#: rc.cpp:98
+msgid "Popup Bottom-Right"
+msgstr "أسفل-يمين النافذة المنبثقة"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:211
+#. i18n: ectx: property (text), widget (QPushButton, popupCenter)
+#: rc.cpp:101
+msgid "Popup Center"
+msgstr "وسط النافذة المنبثقة"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:218
+#. i18n: ectx: property (text), widget (QPushButton, forceInstantHide)
+#: rc.cpp:104
+msgid "Force Instant Hide"
+msgstr "أجبر على الإخفاء الفوري"
+
+#. i18n: file: tests/kgamepopupitemtest.ui:225
+#. i18n: ectx: property (text), widget (QPushButton, forceAnimatedHide)
+#: rc.cpp:107
+msgid "Force Animated Hide"
+msgstr "أجبر على الإخفاء المتحرك"
+
+#: kcarddialog.cpp:385
+msgid "Card Deck Selection"
+msgstr "اختيار مجموعة الورق"
+
+#: kchatbaseitemdelegate.cpp:54 kchatbaseitemdelegate.cpp:56
+#: kchatbaseitemdelegate.cpp:76
+#, kde-format
+msgid "%1: "
+msgstr "%1: "
+
+#: kchatdialog.cpp:65 kchatdialog.cpp:76
+msgid "Configure Chat"
+msgstr "هيئ المحادثة"
+
+#: kchatdialog.cpp:97 kchatdialog.cpp:119
+msgid "Name Font..."
+msgstr "اسم الخط..."
+
+#: kchatdialog.cpp:100 kchatdialog.cpp:122
+msgid "Text Font..."
+msgstr "خط النص..."
+
+#: kchatdialog.cpp:109
+msgid "Player: "
+msgstr "اللاعب: "
+
+#: kchatdialog.cpp:111
+msgid "This is a player message"
+msgstr "هذه رسالة من لاعب"
+
+#: kchatdialog.cpp:117
+msgid "System Messages - Messages directly sent from the game"
+msgstr "رسائل النظام - الرسائل مباشرة ارسلت من اللعبة"
+
+#: kchatdialog.cpp:131
+msgid "--- Game: "
+msgstr "--- لعبة: "
+
+#: kchatdialog.cpp:133
+msgid "This is a system message"
+msgstr "هذه رسالة من النظام"
+
+#: kchatdialog.cpp:137
+msgid "Maximum number of messages (-1 = unlimited):"
+msgstr "أكبر رقم للرسائل (-1 = غير محدود):"
+
+#: kchatbase.cpp:122
+msgid "Send to All Players"
+msgstr "إرسال إلى كل اللاعبين"
+
+#, fuzzy
+#~ msgid "KDE card deck"
+#~ msgstr "كيدي بطاقة"
+
+#, fuzzy
+#~ msgid "Filter"
+#~ msgstr "تصفية"
+
+#, fuzzy
+#~| msgid "Random frontside"
+#~ msgctxt "back and front refer to the sides of a card"
+#~ msgid "Lock back to front"
+#~ msgstr "أقفل إلى"
+
+#, fuzzy
+#~ msgid "Show old style decks"
+#~ msgstr "اعرض بطاقات"
+
+#, fuzzy
+#~| msgid "Theme Details"
+#~ msgid "Details"
+#~ msgstr "تفاصيل"
+
+#, fuzzy
+#~ msgid "Show only fixed size cards"
+#~ msgstr "اعرض fixed حجم بطاقات"

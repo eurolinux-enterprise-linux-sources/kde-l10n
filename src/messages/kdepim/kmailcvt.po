@@ -1,0 +1,695 @@
+# translation of kmailcvt.po to
+# Language AR translations for PACKAGE package.
+#
+# Automatically generated, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmailcvt\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-22 11:32+0200\n"
+"PO-Revision-Date: 2007-10-14 15:54+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: filter_mailapp.cxx:31
+#, fuzzy
+msgid "Import From OS X Mail"
+msgstr "استيراد من نظام التّشغيل س بريد"
+
+#: filter_mailapp.cxx:33
+#, fuzzy
+msgid ""
+"<p><b>OS X Mail Import Filter</b></p><p>This filter imports e-mails from the "
+"Mail client in Apple Mac OS X.</p>"
+msgstr ""
+"<p><b> نظام التّشغيل س بريد استيراد تصفية</b></p><p> هذا المرشّح واردات e من "
+"بريد عميل بوصة التّفّاحة الماك نظام التّشغيل س</p>"
+
+#: filter_mailapp.cxx:57 filter_thunderbird.cxx:160 filter_evolution.cxx:123
+#: filter_opera.cxx:70 filter_pmail.cxx:162 filter_pmail.cxx:230
+#: filter_pmail.cxx:248 filter_pmail.cxx:287 filter_mbox.cxx:53
+#: filter_evolution_v2.cxx:161 filter_lnotes.cxx:87 filter_thebat.cxx:149
+#: filter_outlook.cxx:57
+#, fuzzy, kde-format
+msgid "Unable to open %1, skipping"
+msgstr "عاجز إلى فتح"
+
+#: filter_mailapp.cxx:65 filter_evolution.cxx:144 filter_opera.cxx:72
+#: filter_mbox.cxx:59 filter_outlook.cxx:55
+#, fuzzy, kde-format
+msgid "Importing emails from %1..."
+msgstr "يجري الاستيراد من."
+
+#: filter_mailapp.cxx:114 filter_thunderbird.cxx:97 filter_sylpheed.cxx:76
+#: filter_evolution.cxx:75 filter_opera.cxx:128 filter_pmail.cxx:75
+#: filter_mbox.cxx:131 filter_kmail_maildir.cxx:81 filter_evolution_v2.cxx:98
+#: filter_thebat.cxx:81 filter_plain.cxx:78
+#, fuzzy, kde-format
+msgid "Finished importing emails from %1"
+msgstr "انتهى من 1"
+
+#: filter_mailapp.cxx:116 filter_mbox.cxx:133
+#, fuzzy, kde-format
+msgid "1 duplicate message not imported to folder %2 in KMail"
+msgid_plural "%1 duplicate messages not imported to folder %2 in KMail"
+msgstr[0] "مكرر :: تكرار رسالة ليس إلى مجلد بوصة KMail"
+msgstr[1] "مكرر :: تكرار رسالة ليس إلى مجلد بوصة KMail"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: filter_mailapp.cxx:123 filter_thunderbird.cxx:102 filter_sylpheed.cxx:80
+#: filter_opera.cxx:183 filter_mbox.cxx:137 filter_kmail_maildir.cxx:85
+#: filter_evolution_v2.cxx:102 filter_oe.cxx:99 filter_thebat.cxx:85
+#: filter_plain.cxx:82
+#, fuzzy
+msgid "Finished import, canceled by user."
+msgstr "انتهى استيراد ملغي أداء مستخدم."
+
+#: filter_thunderbird.cxx:27
+#, fuzzy
+msgid "Import Thunderbird/Mozilla Local Mails and Folder Structure"
+msgstr "استيراد ثندر بيرد موزيلا محلي البريد و مجلّد بناء"
+
+#: filter_thunderbird.cxx:29
+#, fuzzy
+msgid ""
+"<p><b>Thunderbird/Mozilla import filter</b></p><p>Select your base "
+"Thunderbird/Mozilla mailfolder (usually ~/.thunderbird/*.default/Mail/Local "
+"Folders/).</p><p><b>Note:</b> Never choose a Folder which <u>does not</u> "
+"contain mbox-files (for example, a maildir): if you do, you will get many "
+"new folders.</p><p>Since it is possible to recreate the folder structure, "
+"the folders will be stored under: \"Thunderbird-Import\".</p>"
+msgstr ""
+"<p><b> ثندر بيرد موزيلا استيراد المرشّح</b></p><p> انتقِ القاعدة ثندر بيرد "
+"موزيلا افتراضي بريد محلي المجلّدات</p><p><b> ملاحظة</b> أبداً اختيار a مجلّد<u> "
+"ليس</u> تحوي على ملفات لـ a IF get جديد</p><p> منذ الإيطالية هو إلى مجلد "
+"بنية ثندر بيرد استيراد</p>"
+
+#: filter_thunderbird.cxx:63 filter_sylpheed.cxx:54 filter_evolution.cxx:56
+#: filter_opera.cxx:159 filter_pmail.cxx:52 filter_kmail_maildir.cxx:55
+#: filter_evolution_v2.cxx:63 filter_oe.cxx:57 filter_thebat.cxx:59
+#: filter_outlook.cxx:42 filter_plain.cxx:42
+#, fuzzy
+msgid "No directory selected."
+msgstr "لا دليل مُنتقى."
+
+#: filter_thunderbird.cxx:70 filter_sylpheed.cxx:61 filter_evolution.cxx:63
+#: filter_opera.cxx:166 filter_kmail_maildir.cxx:62 filter_evolution_v2.cxx:70
+#: filter_thebat.cxx:66 filter_outlook.cxx:48
+#, fuzzy
+msgid "No files found for import."
+msgstr "لا ملفات موجود لـ استيراد."
+
+#: filter_thunderbird.cxx:92 filter_thunderbird.cxx:128
+#: filter_evolution_v2.cxx:93 filter_evolution_v2.cxx:130
+#, fuzzy, kde-format
+msgid "Start import file %1..."
+msgstr "ابدأ استيراد ملفّ."
+
+#: filter_thunderbird.cxx:99 filter_sylpheed.cxx:78 filter_evolution.cxx:194
+#: filter_opera.cxx:130 filter_kmail_maildir.cxx:83
+#: filter_evolution_v2.cxx:100 filter_thebat.cxx:83 filter_outlook.cxx:56
+#: filter_plain.cxx:80
+#, fuzzy, kde-format
+msgid "1 duplicate message not imported"
+msgid_plural "%1 duplicate messages not imported"
+msgstr[0] "مكرر :: تكرار رسالة ليس"
+msgstr[1] "مكرر :: تكرار رسالة ليس"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: filters.cxx:146 filters.cxx:186
+#, fuzzy, kde-format
+msgid ""
+"<b>Fatal:</b> Unable to start KMail for D-Bus communication: %1; %2<br /"
+">Make sure <i>kmail</i> is installed."
+msgstr ""
+"<b> حاسم :: قَدَريّ :: نُبوئي :: مُقدّر أو محتوم :: مقرّر لمصير المرء :: مُميت :: "
+"مُهلِك :: مشؤوم :: لا سبيل إلى مقاومته</b> عاجز إلى تشغيل KMail لـ D الناقل "
+"تواصل<br /> Make<i></i> هو مُثبّتة."
+
+#: filters.cxx:154 filters.cxx:194
+#, fuzzy, kde-format
+msgid "Cannot make folder %1 in KMail"
+msgstr "لا يستطيع make مجلد بوصة KMail"
+
+#: filters.cxx:157 filters.cxx:197
+#, fuzzy, kde-format
+msgid "Cannot add message to folder %1 in KMail"
+msgstr "لا يستطيع اضف رسالة إلى مجلد بوصة KMail"
+
+#: filters.cxx:163 filters.cxx:200
+#, fuzzy, kde-format
+msgid "Error while adding message to folder %1 in KMail"
+msgstr "خطأ بينما رسالة إلى مجلد بوصة KMail"
+
+#: filter_sylpheed.cxx:26
+#, fuzzy
+msgid "Import Sylpheed Maildirs and Folder Structure"
+msgstr "استيراد Sylpheed و مجلّد بناء"
+
+#: filter_sylpheed.cxx:28
+#, fuzzy
+msgid ""
+"<p><b>Sylpheed import filter</b></p><p>Select the base directory of the "
+"Sylpheed mailfolder you want to import (usually: ~/Mail ).</p><p>Since it is "
+"possible to recreate the folder structure, the folders will be stored under: "
+"\"Sylpheed-Import\" in your local folder.</p><p>This filter also recreates "
+"the status of message, e.g. new or forwarded.</p>"
+msgstr ""
+"<p><b> Sylpheed استيراد المرشّح</b></p><p> انتقِ القاعدة دليل من Sylpheed إلى "
+"استيراد بريد</p><p> منذ الإيطالية هو إلى مجلد بنية Sylpheed استيراد بوصة "
+"محليّ مجلد</p><p> هذا المرشّح الحالة من رسالة e g جديد أو forwarded</p>"
+
+#: filter_sylpheed.cxx:139 filter_kmail_maildir.cxx:155 filter_thebat.cxx:197
+#, fuzzy, kde-format
+msgid "Import folder %1..."
+msgstr "استيراد مجلد."
+
+#: filter_sylpheed.cxx:152 filter_sylpheed.cxx:157
+#: filter_kmail_maildir.cxx:163 filter_kmail_maildir.cxx:168
+#: filter_plain.cxx:65 filter_plain.cxx:69
+#, fuzzy, kde-format
+msgid "Could not import %1"
+msgstr "يمكن أن ليس استيراد 1"
+
+#: main.cpp:28
+msgid "KMailCVT"
+msgstr ""
+
+#: main.cpp:29
+#, fuzzy
+msgid "KMail Import Filters"
+msgstr "KMail استيراد المرشحات"
+
+#: main.cpp:30
+#, fuzzy
+msgid "(c) 2000-2009, The KMailCVT developers"
+msgstr "c الـ"
+
+#: main.cpp:31
+#, fuzzy
+msgid "Hans Dijkema"
+msgstr "هانز"
+
+#: main.cpp:31
+#, fuzzy
+msgid "Original author"
+msgstr "المؤلف الأصلي"
+
+#: main.cpp:32
+#, fuzzy
+msgid "Danny Kukawka"
+msgstr "داني"
+
+#: main.cpp:32
+#, fuzzy
+msgid "Maintainer & New filters"
+msgstr "المشرف جديد"
+
+#: main.cpp:33
+#, fuzzy
+msgid "Laurence Anderson"
+msgstr "لورنس آندرسون"
+
+#: main.cpp:33 main.cpp:34
+#, fuzzy
+msgid "New GUI & cleanups"
+msgstr "جديد الواجهة الرسومية"
+
+#: main.cpp:34
+#, fuzzy
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: filter_evolution.cxx:30
+#, fuzzy
+msgid "Import Evolution 1.x Local Mails and Folder Structure"
+msgstr "استيراد إيفُليوشن x محلي البريد و مجلّد بناء"
+
+#: filter_evolution.cxx:32
+#, fuzzy
+msgid ""
+"<p><b>Evolution 1.x import filter</b></p><p>Select the base directory of "
+"Evolution's mails (usually ~/evolution/local).</p><p>Since it is possible to "
+"recreate the folder structure, the folders will be stored under: \"Evolution-"
+"Import\".</p>"
+msgstr ""
+"<p><b> إيفُليوشن x استيراد المرشّح</b></p><p> انتقِ القاعدة دليل من إيفُليوشن s "
+"محليّ</p><p> منذ الإيطالية هو إلى مجلد بنية إيفُليوشن استيراد</p>"
+
+#: filter_opera.cxx:27
+#, fuzzy
+msgid "Import Opera Emails"
+msgstr "استيراد أوبرا بريد إلكتروني"
+
+#: filter_opera.cxx:29
+#, fuzzy
+msgid ""
+"<p><b>Opera email import filter</b></p><p>This filter will import mails from "
+"Opera mail folder. Use this filter if you want to import all mails within a "
+"account in the Opera maildir.</p><p>Select the directory of the account "
+"(usually ~/.opera/mail/store/account*).</p><p><b>Note:</b> Emails will be "
+"imported into a folder named after the account they came from, prefixed with "
+"OPERA-</p>"
+msgstr ""
+"<p><b> أوبرا بريد إلكتروني استيراد المرشّح</b></p><p> هذا المرشّح استيراد من "
+"أوبرا بريد مجلد إستعمل المرشّح IF إلى استيراد الكل a الحساب بوصة أوبرا</p><p> "
+"انتقِ دليل من الحساب بريد تخزين الحساب</p><p><b> ملاحظة</b> بريد إلكتروني a "
+"مجلد مسمى بعد الحساب من مع</p>"
+
+#: filter_opera.cxx:65 filter_outlook.cxx:47 filter_plain.cxx:53
+#, fuzzy
+msgid "Importing new mail files..."
+msgstr "يجري الاستيراد جديد بريد ملفات."
+
+#: filter_opera.cxx:174 filter_pmail.cxx:57 filter_outlook.cxx:43
+#: filter_plain.cxx:49
+#, fuzzy
+msgid "Counting files..."
+msgstr "الحساب ملفات."
+
+#: kmailcvt.cpp:32
+#, fuzzy
+msgid "KMailCVT Import Tool"
+msgstr "استيراد الأداة"
+
+#: kmailcvt.cpp:36
+#, fuzzy
+msgid "Step 1: Select Filter"
+msgstr "خطوة انتقِ تصفية"
+
+#: kmailcvt.cpp:41
+#, fuzzy
+msgid "Step 2: Importing..."
+msgstr "خطوة يجري الاستيراد."
+
+#: kmailcvt.cpp:78
+#, fuzzy
+msgid "Import in progress"
+msgstr "استيراد بوصة progress"
+
+#: kmailcvt.cpp:81
+#, fuzzy
+msgid "Import finished"
+msgstr "استيراد إنتهيت"
+
+#: filter_pmail.cxx:28
+#, fuzzy
+msgid "Import Folders From Pegasus-Mail"
+msgstr "استيراد المجلّدات من البيغاسوس - الحصان المجنّح بريد"
+
+#: filter_pmail.cxx:30
+#, fuzzy
+msgid ""
+"<p>Select the Pegasus-Mail directory on your system (containing *.CNM, *.PMM "
+"and *.MBX files). On many systems this is stored in C:\\pmail\\mail or C:"
+"\\pmail\\mail\\admin</p><p><b>Note:</b> Since it is possible to recreate the "
+"folder structure, the folders will be stored under: \"PegasusMail-Import\".</"
+"p>"
+msgstr ""
+"<p> انتقِ البيغاسوس - الحصان المجنّح بريد دليل يعمل نظام و ملفات تشغيل هو بوصة "
+"C بريد أو C بريد ادر</p><p><b> ملاحظة</b> منذ الإيطالية هو إلى مجلد بنية "
+"استيراد</p>"
+
+#: filter_pmail.cxx:65
+#, fuzzy
+msgid ""
+"Cannot parse the folder structure; continuing import without subfolder "
+"support."
+msgstr "لا يستطيع إعراب مجلد بنية استيراد دعم."
+
+#: filter_pmail.cxx:68
+#, fuzzy
+msgid "Importing new mail files ('.cnm')..."
+msgstr "يجري الاستيراد جديد بريد ملفات."
+
+#: filter_pmail.cxx:70
+#, fuzzy
+msgid "Importing mail folders ('.pmm')..."
+msgstr "يجري الاستيراد بريد."
+
+#: filter_pmail.cxx:72
+#, fuzzy
+msgid "Importing 'UNIX' mail folders ('.mbx')..."
+msgstr "يجري الاستيراد يونيكس بريد."
+
+#: filter_pmail.cxx:172 filter_pmail.cxx:250
+#, fuzzy, kde-format
+msgid "Importing %1"
+msgstr "يجري الاستيراد 1"
+
+#: filter_pmail.cxx:272 filter_lnotes.cxx:107
+#, fuzzy, kde-format
+msgid "Message %1"
+msgstr "رسالة 1"
+
+#: filter_pmail.cxx:283
+#, fuzzy
+msgid "Parsing the folder structure..."
+msgstr "الإعراب مجلد بنية."
+
+#. i18n: file: kimportpagedlg.ui:78
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: rc.cpp:3
+#, fuzzy
+msgid "From:"
+msgstr "من:"
+
+#. i18n: file: kimportpagedlg.ui:88
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:6
+#, fuzzy
+msgid "To:"
+msgstr "إلى:"
+
+#. i18n: file: kimportpagedlg.ui:98
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:9
+#, fuzzy
+msgid "Current:"
+msgstr "الحالي:"
+
+#. i18n: file: kimportpagedlg.ui:108
+#. i18n: ectx: property (text), widget (QLabel, _textStatus)
+#: rc.cpp:12
+#, fuzzy
+msgid "Importing in progress..."
+msgstr "يجري الاستيراد بوصة progress."
+
+#. i18n: file: kimportpagedlg.ui:129
+#. i18n: ectx: property (text), widget (QLabel, _current)
+#. i18n: file: kimportpagedlg.ui:147
+#. i18n: ectx: property (text), widget (QLabel, _to)
+#. i18n: file: kimportpagedlg.ui:175
+#. i18n: ectx: property (text), widget (QLabel, _from)
+#: rc.cpp:15 rc.cpp:18 rc.cpp:24
+#, fuzzy
+msgid "..."
+msgstr "..."
+
+#. i18n: file: kimportpagedlg.ui:157
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:21
+#, fuzzy
+msgid "Total:"
+msgstr "المجموع:"
+
+#. i18n: file: kimportpagedlg.ui:196
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:27
+#, fuzzy
+msgid "Click 'Back' to import more emails or contacts"
+msgstr "نقر الخلف إلى استيراد المزيد أو"
+
+#. i18n: file: kselfilterpagedlg.ui:84
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: rc.cpp:30
+#, fuzzy
+msgid ""
+"<b>Welcome to KMailCVT - The KMail Import Tool</b>\n"
+"<br><br>\n"
+"This program will help you import your email from your previous email "
+"program into KMail.<br><br><br><br>\n"
+" Please select the program you would like to import from, then click 'Next'."
+msgstr ""
+"<b> مرحبا إلى الـ KMail استيراد الأداة</b>\n"
+"<br><br> برنامج مساعدة استيراد بريد إلكتروني من السابق بريد إلكتروني برنامج "
+"KMail<br><br><br><br>\n"
+" رجاء تحديد برنامج مثل إلى استيراد من انقر التالي."
+
+#. i18n: file: kselfilterpagedlg.ui:119
+#. i18n: ectx: property (text), widget (QCheckBox, remDupMsg)
+#: rc.cpp:36
+#, fuzzy
+msgid "Remove &duplicate messages during import"
+msgstr "احذف مكرر :: تكرار رسائل استيراد"
+
+#: rc.cpp:37
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:38
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"
+
+#: filter_mbox.cxx:27
+#, fuzzy
+msgid "Import mbox Files (UNIX, Evolution)"
+msgstr "استيراد ملفات يونيكس إيفُليوشن"
+
+#: filter_mbox.cxx:29
+#, fuzzy
+msgid ""
+"<p><b>mbox import filter</b></p><p>This filter will import mbox files into "
+"KMail. Use this filter if you want to import mails from Ximian Evolution or "
+"other mailers that use this traditional UNIX format.</p><p><b>Note:</b> "
+"Emails will be imported into folders named after the file they came from, "
+"prefixed with MBOX-</p>"
+msgstr ""
+"<p><b> استيراد المرشّح</b></p><p> هذا المرشّح استيراد ملفات KMail إستعمل "
+"المرشّح IF إلى استيراد من زيميان إيفُليوشن أو غير ذلك استخدام يونيكس تنسيق</"
+"p><p><b> ملاحظة</b> بريد إلكتروني مسمى بعد ملفّ من مع</p>"
+
+#: filter_mbox.cxx:47
+#, fuzzy
+msgid "mbox Files (*)"
+msgstr "ملفات"
+
+#: filter_kmail_maildir.cxx:25
+#, fuzzy
+msgid "Import KMail Maildirs and Folder Structure"
+msgstr "استيراد KMail و مجلّد بناء"
+
+#: filter_kmail_maildir.cxx:27
+#, fuzzy
+msgid ""
+"<p><b>KMail import filter</b></p><p>Select the base directory of the KMail "
+"mailfolder you want to import.</p><p><b>Note:</b> Never select your current "
+"local KMail maildir (usually ~/Mail or ~/.kde/share/apps/kmail/mail ): in "
+"this case, KMailCVT may become stuck in a continuous loop. </p><p>This "
+"filter does not import KMail mailfolders with mbox files.</p><p>Since it is "
+"possible to recreate the folder structure, the folders will be stored under: "
+"\"KMail-Import\" in your local folder.</p>"
+msgstr ""
+"<p><b> KMail استيراد المرشّح</b></p><p> انتقِ القاعدة دليل من KMail إلى "
+"استيراد</p><p><b> ملاحظة</b> أبداً تحديد الحالي محليّ KMail بريد أو مشاركات "
+"بريد بوصة حالة أيار بوصة a ينفذ بتكرار\n"
+"حلقة\n"
+"يكرر</p><p> هذا المرشّح ليس استيراد KMail مع ملفات</p><p> منذ الإيطالية هو "
+"إلى مجلد بنية KMail استيراد بوصة محليّ مجلد</p>"
+
+#: filter_evolution_v2.cxx:27
+#, fuzzy
+msgid "Import Evolution 2.x Local Mails and Folder Structure"
+msgstr "استيراد إيفُليوشن x محلي البريد و مجلّد بناء"
+
+#: filter_evolution_v2.cxx:29
+#, fuzzy
+msgid ""
+"<p><b>Evolution 2.x import filter</b></p><p>Select the base directory of "
+"your local Evolution mailfolder (usually ~/.evolution/mail/local/).</"
+"p><p><b>Note:</b> Never choose a Folder which <u>does not</u> contain mbox-"
+"files (for example a maildir): if you do, you will get many new folders.</"
+"p><p>Since it is possible to recreate the folder structure, the folders will "
+"be stored under: \"Evolution-Import\".</p>"
+msgstr ""
+"<p><b> إيفُليوشن x استيراد المرشّح</b></p><p> انتقِ القاعدة دليل من محليّ "
+"إيفُليوشن بريد محليّ</p><p><b> ملاحظة</b> أبداً اختيار a مجلّد<u> ليس</u> تحوي "
+"على ملفات لـ a IF get جديد</p><p> منذ الإيطالية هو إلى مجلد بنية إيفُليوشن "
+"استيراد</p>"
+
+#: filter_oe.cxx:37
+#, fuzzy
+msgid "Import Outlook Express Emails"
+msgstr ""
+"استيراد Outlook واضح :: دقيق :: طبق الأصل :: خاص :: سريع :: رسول مكلّف بمهة "
+"خاصة :: رسالة عاجلة :: يصوّر :: يُعبّر عن :: يُظهر :: يعكس :: يجسّد :: يرمز "
+"إلى :: يَعْصر :: يرسل بالقطار السريع بريد إلكتروني"
+
+#: filter_oe.cxx:39
+#, fuzzy
+msgid ""
+"<p><b>Outlook Express 4/5/6 import filter</b></p><p>You will need to locate "
+"the folder where the mailbox has been stored by searching for .dbx or .mbx "
+"files under <ul><li><i>C:\\Windows\\Application Data</i> in Windows 9x</"
+"li><li><i>Documents and Settings</i> in Windows 2000 or later</li></ul></"
+"p><p><b>Note:</b> Since it is possible to recreate the folder structure, the "
+"folders from Outlook Express 5 and 6 will be stored under: \"OE-Import\" in "
+"your local folder.</p>"
+msgstr ""
+"<p><b> Outlook واضح :: دقيق :: طبق الأصل :: خاص :: سريع :: رسول مكلّف بمهة "
+"خاصة :: رسالة عاجلة :: يصوّر :: يُعبّر عن :: يُظهر :: يعكس :: يجسّد :: يرمز "
+"إلى :: يَعْصر :: يرسل بالقطار السريع استيراد المرشّح</b></p><p> أنت إلى مجلد "
+"صندوق بريد أداء لـ أو ملفات<ul><li><i> C النوافذ تطبيق البيانات</i> بوصة "
+"النوافذ</li><li><i> مستندات و إعدادات</i> بوصة النوافذ أو</li></ul></"
+"p><p><b> ملاحظة</b> منذ الإيطالية هو إلى مجلد بنية من Outlook واضح :: "
+"دقيق :: طبق الأصل :: خاص :: سريع :: رسول مكلّف بمهة خاصة :: رسالة عاجلة :: "
+"يصوّر :: يُعبّر عن :: يُظهر :: يعكس :: يجسّد :: يرمز إلى :: يَعْصر :: يرسل بالقطار "
+"السريع و استيراد بوصة محليّ مجلد</p>"
+
+#: filter_oe.cxx:64
+#, fuzzy, kde-format
+msgid "No Outlook Express mailboxes found in directory %1."
+msgstr ""
+"لا Outlook واضح :: دقيق :: طبق الأصل :: خاص :: سريع :: رسول مكلّف بمهة "
+"خاصة :: رسالة عاجلة :: يصوّر :: يُعبّر عن :: يُظهر :: يعكس :: يجسّد :: يرمز "
+"إلى :: يَعْصر :: يرسل بالقطار السريع موجود بوصة دليل."
+
+#: filter_oe.cxx:79
+#, fuzzy
+msgid "Import folder structure..."
+msgstr "استيراد مجلد بنية."
+
+#: filter_oe.cxx:98
+#, fuzzy
+msgid "Finished importing Outlook Express emails"
+msgstr ""
+"انتهى Outlook واضح :: دقيق :: طبق الأصل :: خاص :: سريع :: رسول مكلّف بمهة "
+"خاصة :: رسالة عاجلة :: يصوّر :: يُعبّر عن :: يُظهر :: يعكس :: يجسّد :: يرمز "
+"إلى :: يَعْصر :: يرسل بالقطار السريع"
+
+#: filter_oe.cxx:116
+#, fuzzy, kde-format
+msgid "Unable to open mailbox %1"
+msgstr "عاجز إلى فتح صندوق بريد 1"
+
+#: filter_oe.cxx:127
+#, fuzzy, kde-format
+msgid "Importing OE4 Mailbox %1"
+msgstr "يجري الاستيراد صندوق البريد 1"
+
+#: filter_oe.cxx:141
+#, fuzzy, kde-format
+msgid "Importing OE5+ Mailbox %1"
+msgstr "يجري الاستيراد صندوق البريد 1"
+
+#: filter_oe.cxx:147
+#, fuzzy, kde-format
+msgid "Importing OE5+ Folder file %1"
+msgstr "يجري الاستيراد مجلّد ملفّ 1"
+
+#: filter_lnotes.cxx:29
+#, fuzzy
+msgid "Import Lotus Notes Emails"
+msgstr "استيراد اللوتس ملاحظات بريد إلكتروني"
+
+#: filter_lnotes.cxx:31
+#, fuzzy
+msgid ""
+"<p><b>Lotus Notes Structured Text mail import filter</b></p><p>This filter "
+"will import Structure Text files from an exported Lotus Notes email client "
+"into KMail. Use this filter if you want to import mails from Lotus or other "
+"mailers that use Lotus Notes' Structured Text format.</p><p><b>Note:</b> "
+"Since it is possible to recreate the folder structure, the imported messages "
+"will be stored in subfolders named by the files they came from under: "
+"\"LNotes-Import\" in your local folder.</p>"
+msgstr ""
+"<p><b> اللوتس ملاحظات منظّم نص بريد استيراد المرشّح</b></p><p> هذا المرشّح "
+"استيراد بناء نص ملفات من اللوتس ملاحظات بريد إلكتروني عميل KMail إستعمل "
+"المرشّح IF إلى استيراد من اللوتس أو غير ذلك استخدام اللوتس ملاحظات منظّم نص "
+"تنسيق</p><p><b> ملاحظة</b> منذ الإيطالية هو إلى مجلد بنية رسائل بوصة مسمى "
+"أداء ملفات من استيراد بوصة محليّ مجلد</p>"
+
+#: filter_lnotes.cxx:54
+#, fuzzy
+msgid "All Files (*)"
+msgstr "الكل ملفات"
+
+#: filter_lnotes.cxx:63
+#, fuzzy, kde-format
+msgid "Importing emails from %1"
+msgstr "يجري الاستيراد من 1"
+
+#: filter_thebat.cxx:31
+#, fuzzy
+msgid "Import The Bat! Mails and Folder Structure"
+msgstr "استيراد الـ الخفّاش البريد و مجلّد بناء"
+
+#: filter_thebat.cxx:33
+#, fuzzy
+msgid ""
+"<p><b>The Bat! import filter</b></p><p>Select the base directory of the 'The "
+"Bat!' local mailfolder you want to import.</p><p><b>Note:</b> This filter "
+"imports the *.tbb-files from 'The Bat!' local folder, e.g. from POP "
+"accounts, and not from IMAP/DIMAP accounts.</p><p>Since it is possible to "
+"recreate the folder structure, the folders will be stored under: \"TheBat-"
+"Import\" in your local account.</p>"
+msgstr ""
+"<p><b> الـ الخفّاش استيراد المرشّح</b></p><p> انتقِ القاعدة دليل من الـ الخفّاش "
+"محليّ إلى استيراد</p><p><b> ملاحظة</b> هذا المرشّح واردات ملفات من الـ الخفّاش "
+"محليّ مجلد e g من POP الحسابات و ليس من IMAP الحسابات</p><p> منذ الإيطالية هو "
+"إلى مجلد بنية استيراد بوصة محليّ الحساب</p>"
+
+#: kselfilterpage.cpp:78
+#, fuzzy, kde-format
+msgid "<p><i>Written by %1.</i></p>"
+msgstr "<p><i> كتب أداء</i></p>"
+
+#: filter_outlook.cxx:26
+#, fuzzy
+msgid "Import Outlook Emails"
+msgstr "استيراد Outlook بريد إلكتروني"
+
+#: filter_outlook.cxx:28
+#, fuzzy
+msgid ""
+"<p><b>Outlook email import filter</b></p><p>This filter will import mails "
+"from a Outlook pst-file. You will need to locate the folder where the pst-"
+"file has been stored by searching for .pst files under: <i>C:\\Documents and "
+"Settings</i> in Windows 2000 or later</p><p><b>Note:</b> Emails will be "
+"imported into a folder named after the account they came from, prefixed with "
+"OUTLOOK-</p>"
+msgstr ""
+"<p><b> Outlook بريد إلكتروني استيراد المرشّح</b></p><p> هذا المرشّح استيراد من "
+"a Outlook ملفّ أنت إلى مجلد ملفّ أداء لـ ملفات<i> C مستندات و إعدادات</i> بوصة "
+"النوافذ أو</p><p><b> ملاحظة</b> بريد إلكتروني a مجلد مسمى بعد الحساب من مع</"
+"p>"
+
+#: filter_outlook.cxx:44
+#, fuzzy
+msgid "Counting mail..."
+msgstr "الحساب بريد."
+
+#: filter_outlook.cxx:45
+#, fuzzy
+msgctxt "'directories' means directories on hard disc, not email-folders."
+msgid "Counting directories..."
+msgstr "الحساب."
+
+#: filter_outlook.cxx:46
+#, fuzzy
+msgctxt "'folders' means email-folders, not folders on disc."
+msgid "Counting folders..."
+msgstr "الحساب."
+
+#: filter_plain.cxx:25
+#, fuzzy
+msgid "Import Plain Text Emails"
+msgstr "استيراد عادي نص بريد إلكتروني"
+
+#: filter_plain.cxx:27
+#, fuzzy
+msgid ""
+"<p>Select the directory containing the emails on your system. The emails are "
+"placed in a folder with the same name as the directory they were in, "
+"prefixed by PLAIN-</p><p>This filter will import all .msg, .eml and .txt "
+"emails.</p>"
+msgstr ""
+"<p> انتقِ دليل يعمل نظام الـ بوصة a مجلد مع الإسم دليل بوصة أداء صِرْف</p><p> "
+"هذا المرشّح استيراد الكل و نص</p>"

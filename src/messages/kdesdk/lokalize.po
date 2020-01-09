@@ -1,0 +1,3071 @@
+# translation of lokalize.po to Arabic
+# Copyright (C) 2002,2003, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002.
+# Nuriddin Aminagha <nuriddin@haydarlinux.org>, 2003.
+# Nuriddin S. Aminagha <nuriddin@haydarlinux.org>, 2003.
+# Ahmad M. Zawawi <zawawi@arabeyes.org>, 2004.
+# Tarig Abdu Taha <ihassan@kacst.edu.sa>, 2004.
+# Munzir Taha <munzir@kacst.edu.sa>, 2004.
+# Khaled Hosny <khaledhosny@eglug.org>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: lokalize\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-11-14 01:23+0100\n"
+"PO-Revision-Date: 2008-12-01 01:24+0200\n"
+"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: rc.cpp:1
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "اسم المصدر:"
+
+#: rc.cpp:2
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "اسم المصدر:"
+
+#. i18n: file: src/tm/dbparams.ui:19
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:5 scripts/newprojectwizard.py:214
+#, fuzzy
+msgid "Name:"
+msgstr "الإ&سم:"
+
+#. i18n: file: src/tm/dbparams.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:8
+#, fuzzy
+msgid "Markup regex:"
+msgstr "الوصف"
+
+#. i18n: file: src/tm/dbparams.ui:39
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:11
+#, fuzzy
+msgid "Accelerator:"
+msgstr "رمز المسرع (&&)"
+
+#. i18n: file: src/tm/queryoptions.ui:24
+#. i18n: ectx: property (toolTip), widget (KLineEdit, querySource)
+#: rc.cpp:14
+msgid ""
+"Search expression for source language part.\n"
+"Press Enter to start the search."
+msgstr ""
+
+#. i18n: file: src/tm/queryoptions.ui:32
+#. i18n: ectx: property (toolTip), widget (KLineEdit, queryTarget)
+#: rc.cpp:18
+msgid ""
+"Search expression for target language part.\n"
+"Press Enter to start the search."
+msgstr ""
+
+#. i18n: file: src/tm/queryoptions.ui:39
+#. i18n: ectx: property (text), widget (QLabel, querySourceLabel)
+#: rc.cpp:22 scripts/newprojectwizard.py:282
+#, fuzzy
+msgid "Source:"
+msgstr "مصدر"
+
+#. i18n: file: src/tm/queryoptions.ui:49
+#. i18n: ectx: property (text), widget (QLabel, queryTargetLabel)
+#: rc.cpp:25 scripts/newprojectwizard.py:283
+#, fuzzy
+msgid "Target:"
+msgstr "الجدول:"
+
+#. i18n: file: src/tm/queryoptions.ui:59
+#. i18n: ectx: property (toolTip), widget (QCheckBox, invertTarget)
+#. i18n: file: src/tm/queryoptions.ui:69
+#. i18n: ectx: property (toolTip), widget (QCheckBox, invertSource)
+#: rc.cpp:28 rc.cpp:34
+msgid "Show results that do not match search expression"
+msgstr ""
+
+#. i18n: file: src/tm/queryoptions.ui:62
+#. i18n: ectx: property (text), widget (QCheckBox, invertTarget)
+#. i18n: file: src/tm/queryoptions.ui:72
+#. i18n: ectx: property (text), widget (QCheckBox, invertSource)
+#: rc.cpp:31 rc.cpp:37
+#, fuzzy
+msgid "Invert"
+msgstr "اعكس"
+
+#. i18n: file: src/tm/queryoptions.ui:95
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:40
+#, fuzzy
+msgid "File mask:"
+msgstr "الملفات:"
+
+#. i18n: file: src/tm/queryoptions.ui:111
+#. i18n: ectx: property (toolTip), widget (KLineEdit, filemask)
+#: rc.cpp:43
+msgid "Show only results from files with path matching specified mask"
+msgstr ""
+
+#. i18n: file: src/tm/queryoptions.ui:122
+#. i18n: ectx: property (toolTip), widget (QRadioButton, substr)
+#: rc.cpp:46
+#, fuzzy
+msgid "Case insensitive"
+msgstr "حساس لحالة اﻷحرف"
+
+#. i18n: file: src/tm/queryoptions.ui:125
+#. i18n: ectx: property (text), widget (QRadioButton, substr)
+#: rc.cpp:49
+msgctxt "@option:radio"
+msgid "Substring"
+msgstr ""
+
+#. i18n: file: src/tm/queryoptions.ui:135
+#. i18n: ectx: property (toolTip), widget (QRadioButton, like)
+#: rc.cpp:52
+msgid "Space is AND operator. Case insensitive."
+msgstr ""
+
+#. i18n: file: src/tm/queryoptions.ui:138
+#. i18n: ectx: property (text), widget (QRadioButton, like)
+#: rc.cpp:55
+msgctxt "@option:radio"
+msgid "Google-like"
+msgstr ""
+
+#. i18n: file: src/tm/queryoptions.ui:148
+#. i18n: ectx: property (toolTip), widget (QRadioButton, glob)
+#: rc.cpp:58
+msgid "Shell globs (* and ?). Case sensitive."
+msgstr ""
+
+#. i18n: file: src/tm/queryoptions.ui:151
+#. i18n: ectx: property (text), widget (QRadioButton, glob)
+#: rc.cpp:61
+#, fuzzy
+msgctxt "@option:radio"
+msgid "Wildcard"
+msgstr "استخدم  أ&حرف البدل"
+
+#. i18n: file: src/tm/queryoptions.ui:171
+#. i18n: ectx: property (text), widget (QPushButton, doFind)
+#: rc.cpp:64
+msgid "&Search"
+msgstr ""
+
+#. i18n: file: src/tm/queryoptions.ui:178
+#. i18n: ectx: property (toolTip), widget (QPushButton, doUpdateTM)
+#: rc.cpp:67
+msgid ""
+"Reads all project files into translation memory, updating old entries. The "
+"scanning will work in background."
+msgstr ""
+
+#. i18n: file: src/tm/queryoptions.ui:181
+#. i18n: ectx: property (text), widget (QPushButton, doUpdateTM)
+#: rc.cpp:70
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open project"
+msgid "&Rescan Project Files"
+msgstr "افتح مشروع"
+
+#. i18n: file: src/tm/managedatabases.ui:18
+#. i18n: ectx: property (text), widget (QPushButton, create)
+#: rc.cpp:73
+msgid "Create"
+msgstr "أنشيء"
+
+#. i18n: file: src/tm/managedatabases.ui:25
+#. i18n: ectx: property (text), widget (QPushButton, addData)
+#: rc.cpp:76
+msgid "Add Data"
+msgstr ""
+
+#. i18n: file: src/tm/managedatabases.ui:32
+#. i18n: ectx: property (text), widget (QPushButton, importTMX)
+#: rc.cpp:79
+msgid "Add Data from TMX"
+msgstr ""
+
+#. i18n: file: src/tm/managedatabases.ui:39
+#. i18n: ectx: property (text), widget (QPushButton, exportTMX)
+#: rc.cpp:82
+msgid "Export to TMX"
+msgstr ""
+
+#. i18n: file: src/editorui.rc:4
+#. i18n: ectx: Menu (file)
+#. i18n: file: src/lokalizemainwindowui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:85 rc.cpp:306
+#, fuzzy
+msgid "&File"
+msgstr "الملفات:"
+
+#. i18n: file: src/editorui.rc:32
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:88
+#, fuzzy
+msgid "&Edit"
+msgstr "&حرِّر..."
+
+#. i18n: file: src/editorui.rc:60
+#. i18n: ectx: Menu (glossary)
+#: rc.cpp:91
+#, fuzzy
+msgid "&Glossary"
+msgstr "المُسْرد"
+
+#. i18n: file: src/editorui.rc:85
+#. i18n: ectx: Menu (webquery)
+#: rc.cpp:94
+msgid "&WebQuery"
+msgstr ""
+
+#. i18n: file: src/editorui.rc:102
+#. i18n: ectx: Menu (tmquery)
+#: rc.cpp:97
+#, fuzzy
+msgid "Translation &Memory"
+msgstr "الترجمة"
+
+#. i18n: file: src/editorui.rc:119
+#. i18n: ectx: Menu (alttrans)
+#: rc.cpp:100
+#, fuzzy
+msgid "Alternative Translations"
+msgstr "آخر مترجم"
+
+#. i18n: file: src/editorui.rc:137
+#. i18n: ectx: Menu (go)
+#: rc.cpp:103
+msgid "&Go"
+msgstr "ا&نطلق"
+
+#. i18n: file: src/editorui.rc:167
+#. i18n: ectx: Menu (bookmarks)
+#: rc.cpp:106
+#, fuzzy
+msgid "&Bookmarks"
+msgstr "امسح علامات المواقع"
+
+#. i18n: file: src/editorui.rc:174
+#. i18n: ectx: Menu (merge)
+#: rc.cpp:109
+msgid "&Sync"
+msgstr ""
+
+#. i18n: file: src/editorui.rc:183
+#. i18n: ectx: Menu (mergesecondary)
+#: rc.cpp:112
+msgid "&Secondary sync source"
+msgstr ""
+
+#. i18n: file: src/editorui.rc:205
+#. i18n: ectx: Menu (toolviews)
+#. i18n: file: src/lokalizemainwindowui.rc:40
+#. i18n: ectx: Menu (toolviews)
+#: rc.cpp:115 rc.cpp:315
+#, fuzzy
+msgid "Tool&views"
+msgstr "&مشاهد"
+
+#. i18n: file: src/editorui.rc:228
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:118
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_tm.ui:35
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PrefetchTM)
+#: rc.cpp:121
+msgid "If checked, get translation memory suggestions "
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_tm.ui:38
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_PrefetchTM)
+#: rc.cpp:124
+msgid ""
+"If this is checked, the program will fetch translation memories as soon as "
+"you open a file."
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_tm.ui:41
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrefetchTM)
+#: rc.cpp:127
+msgid "Prefetch translation memory suggestions on file open"
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_tm.ui:48
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:130
+#, fuzzy
+msgid "Maximum number of suggestions:"
+msgstr "العدد الاقصى للكلمات فى الاستعلام:"
+
+#. i18n: file: src/prefs/prefs_tm.ui:55
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SuggCount)
+#: rc.cpp:133
+#, fuzzy
+msgid "Set the maximum number of suggestions"
+msgstr "أدخل العدد اﻷقل للتكرارات بالنسبة لنص"
+
+#. i18n: file: src/prefs/prefs_tm.ui:58
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_SuggCount)
+#: rc.cpp:136
+#, fuzzy
+msgid "You can change the maximum number of suggestions, default is 10."
+msgstr "أدخل العدد اﻷقل للتكرارات بالنسبة لنص"
+
+#. i18n: file: src/prefs/prefs_tm.ui:65
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoaddTM)
+#: rc.cpp:139
+#, fuzzy
+msgid "Update/Add edited entries to translation memory"
+msgstr "اب&حث في الترجمات"
+
+#. i18n: file: src/prefs/prefs_tm.ui:72
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ScanToTMOnOpen)
+#: rc.cpp:142
+msgid "Add opened files to translation memory automatically"
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_editor.ui:36
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoApprove)
+#: rc.cpp:145
+msgid "Set 'approved' status automatically when editing started"
+msgstr ""
+
+#. i18n: file: src/prefs/lokalize.kcfg:14
+#. i18n: ectx: label, entry, group (Identity)
+#: rc.cpp:148
+#, fuzzy
+msgid "Translator's name"
+msgstr "المترجِم:"
+
+#. i18n: file: src/prefs/lokalize.kcfg:15
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#: rc.cpp:151
+#, fuzzy
+msgid "Translator's name in English"
+msgstr "ملفات الترجمة"
+
+#. i18n: file: src/prefs/lokalize.kcfg:21
+#. i18n: ectx: label, entry, group (Identity)
+#: rc.cpp:154
+#, fuzzy
+msgid "Localized name"
+msgstr "الإسم ال&محلي:"
+
+#. i18n: file: src/prefs/lokalize.kcfg:22
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#: rc.cpp:157
+#, fuzzy
+msgid "Translator's name in target language"
+msgstr "ملفات الترجمة"
+
+#. i18n: file: src/prefs/lokalize.kcfg:28
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#: rc.cpp:160
+#, fuzzy
+msgid "Translator's email"
+msgstr "المترجِم:"
+
+#. i18n: file: src/prefs/lokalize.kcfg:34
+#. i18n: ectx: label, entry, group (Identity)
+#. i18n: file: src/prefs/lokalize.kcfg:35
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#: rc.cpp:163 rc.cpp:166
+msgid "Default language code for new projects"
+msgstr ""
+
+#. i18n: file: src/prefs/lokalize.kcfg:41
+#. i18n: ectx: label, entry, group (Identity)
+#. i18n: file: src/prefs/lokalize.kcfg:42
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#: rc.cpp:169 rc.cpp:172
+#, fuzzy
+msgid "Default mailing list for new projects"
+msgstr "&قائمة اللغة البريدية:"
+
+#. i18n: file: src/prefs/lokalize.kcfg:61
+#. i18n: ectx: label, entry (CleverEditing), group (Appearance)
+#. i18n: file: src/prefs/lokalize.kcfg:77
+#. i18n: ectx: label, entry (OnFlySpellCheck), group (Appearance)
+#. i18n: file: src/prefs/lokalize.kcfg:82
+#. i18n: ectx: label, entry (WhitespacePoints), group (Appearance)
+#: rc.cpp:175 rc.cpp:182 rc.cpp:186
+msgid ""
+"\n"
+"        "
+msgstr ""
+
+#. i18n: file: src/prefs/lokalize.kcfg:67
+#. i18n: ectx: label, entry (MsgFont), group (Appearance)
+#: rc.cpp:179
+msgid "Font for Messages"
+msgstr "خط الرسائل"
+
+#. i18n: file: src/prefs/prefs_identity.ui:13
+#. i18n: ectx: property (whatsThis), widget (QWidget, prefs_identity)
+#: rc.cpp:190
+msgid ""
+"Fill in your identity and information about your translation team. This "
+"information is used when updating the header of a file."
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_identity.ui:37
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:193
+#, fuzzy
+msgctxt "@label:chooser"
+msgid "Default language:"
+msgstr "الل&غة:"
+
+#. i18n: file: src/prefs/prefs_identity.ui:47
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:196
+#, fuzzy
+msgctxt "@label:textbox"
+msgid "Email:"
+msgstr "ال&بريد اﻹلكتروني:"
+
+#. i18n: file: src/prefs/prefs_identity.ui:60
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: rc.cpp:199
+#, fuzzy
+msgctxt "@label:textbox"
+msgid "Name:"
+msgstr "الإ&سم:"
+
+#. i18n: file: src/prefs/prefs_identity.ui:73
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_authorName)
+#: rc.cpp:202
+#, fuzzy
+msgid "Your name, in English"
+msgstr "ملفات الترجمة"
+
+#. i18n: file: src/prefs/prefs_identity.ui:76
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_authorName)
+#: rc.cpp:205
+msgid "Please enter here your name and surname written in English"
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_identity.ui:83
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:208
+#, fuzzy
+msgctxt "@label:textbox"
+msgid "Default mailing list:"
+msgstr "&قائمة اللغة البريدية:"
+
+#. i18n: file: src/prefs/prefs_identity.ui:93
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_DefaultMailingList)
+#: rc.cpp:211
+#, fuzzy
+msgid "The email of your team mailing list"
+msgstr "&قائمة اللغة البريدية:"
+
+#. i18n: file: src/prefs/prefs_identity.ui:96
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_DefaultMailingList)
+#: rc.cpp:214
+msgid "Write the email of your translating team mailing list"
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_identity.ui:103
+#. i18n: ectx: property (toolTip), widget (KComboBox, DefaultLangCode)
+#: rc.cpp:217
+#, fuzzy
+msgid "Language you translate to"
+msgstr "ترجمة &كلمة مفردة"
+
+#. i18n: file: src/prefs/prefs_identity.ui:106
+#. i18n: ectx: property (whatsThis), widget (KComboBox, DefaultLangCode)
+#: rc.cpp:220
+#, fuzzy
+msgid "Set the default language you are going to translate to"
+msgstr "ترجمة &كلمة مفردة"
+
+#. i18n: file: src/prefs/prefs_identity.ui:126
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_authorEmail)
+#: rc.cpp:223
+msgid "Write your email"
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_identity.ui:129
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_authorEmail)
+#: rc.cpp:226
+msgid ""
+"Write your email here so it will appear in the po file header with your name"
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_identity.ui:143
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_authorLocalizedName)
+#: rc.cpp:229
+msgid "Your name in your own language"
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_identity.ui:146
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_authorLocalizedName)
+#: rc.cpp:232
+msgid ""
+"Write your name and surname in your language with your language alphabet."
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_identity.ui:153
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:235
+#, fuzzy
+msgctxt "@label:textbox"
+msgid "Localized name:"
+msgstr "الإسم ال&محلي:"
+
+#. i18n: file: src/prefs/prefs_appearance.ui:24
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:238
+msgid "Editor font:"
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_appearance.ui:31
+#. i18n: ectx: property (toolTip), widget (KFontRequester, kcfg_MsgFont)
+#: rc.cpp:241
+#, fuzzy
+msgid "Change the font for the editor"
+msgstr "&غير لون النص عند حدوث خطأ"
+
+#. i18n: file: src/prefs/prefs_appearance.ui:34
+#. i18n: ectx: property (whatsThis), widget (KFontRequester, kcfg_MsgFont)
+#: rc.cpp:244
+msgid "Choose a new font for the area where you write the translated message."
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_appearance.ui:41
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Leds)
+#: rc.cpp:247
+msgid "Display LEDS for message status"
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_appearance.ui:44
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Leds)
+#: rc.cpp:250
+msgid ""
+"If checked, LEDS will be shown to display the message status: Fuzzy, "
+"Untranslated or Error. If unchecked, no LEDs will be displayed."
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_appearance.ui:47
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Leds)
+#: rc.cpp:253
+msgid ""
+"LEDs to indicate Fuzzy and Untranslated status as well as cursor column "
+"number"
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_appearance.ui:56
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
+#: rc.cpp:256
+#, fuzzy
+msgid "Text colors for the changes in the message."
+msgstr "ليس هناك مدخلة لهذه الحزمة في قاعدة البيانات."
+
+#. i18n: file: src/prefs/prefs_appearance.ui:59
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:259
+#, fuzzy
+msgid "String Matching"
+msgstr "أ&وقف البحث"
+
+#. i18n: file: src/prefs/prefs_appearance.ui:65
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:262
+msgctxt "@label:chooser"
+msgid "Text added in the newer string:"
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_appearance.ui:72
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_AddColor)
+#: rc.cpp:265
+#, fuzzy
+msgid "Change the color for the new text added"
+msgstr "&غير لون النص عند حدوث خطأ"
+
+#. i18n: file: src/prefs/prefs_appearance.ui:75
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_AddColor)
+#: rc.cpp:268
+msgid ""
+"You can set another color for viewing the text that was added to the string."
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_appearance.ui:85
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:271
+msgctxt "@label:chooser"
+msgid "Text removed in the newer string:"
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_appearance.ui:92
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_DelColor)
+#: rc.cpp:274
+#, fuzzy
+msgid "Change the color for the text removed"
+msgstr "&غير لون النص عند حدوث خطأ"
+
+#. i18n: file: src/prefs/prefs_appearance.ui:95
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_DelColor)
+#: rc.cpp:277
+msgid ""
+"You can set another color for viewing the text that was removed from the "
+"string."
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_appearance.ui:121
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HighlightSpaces)
+#: rc.cpp:280
+msgid ""
+"Check to see if a string ends in a space (which is often important when "
+"displaying it in the user interface, or when it gets concatenated with "
+"others)."
+msgstr ""
+
+#. i18n: file: src/prefs/prefs_appearance.ui:124
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightSpaces)
+#: rc.cpp:283
+msgid "Highlight spaces at the end"
+msgstr ""
+
+#. i18n: file: src/glossary/termedit.ui:16
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:286
+msgid "English synonyms (one per line):"
+msgstr ""
+
+#. i18n: file: src/glossary/termedit.ui:33
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:289
+#, fuzzy
+msgid "Corresponding target language synonyms:"
+msgstr "ملف المصدر المقابل غير موجود"
+
+#. i18n: file: src/glossary/termedit.ui:50
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:292
+#, fuzzy
+msgid "Subject field:"
+msgstr "القاموس الإ&فتراضي:"
+
+#. i18n: file: src/glossary/termedit.ui:57
+#. i18n: ectx: property (toolTip), widget (KComboBox, subjectField)
+#: rc.cpp:295
+msgctxt "@info:tooltip"
+msgid ""
+"When adding a new item, press enter after you have typed its name for "
+"changes to take effect"
+msgstr ""
+
+#. i18n: file: src/glossary/termedit.ui:67
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:298
+msgid "English definition:"
+msgstr ""
+
+#. i18n: file: src/glossary/termedit.ui:86
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:301
+msgid ""
+"Note: one glossary entry corresponds exactly to one term, not word/word "
+"sequence.\n"
+"\n"
+"That is, there may be several entries with the same word/word sequence "
+"expressing different meanings."
+msgstr ""
+
+#. i18n: file: src/lokalizemainwindowui.rc:17
+#. i18n: ectx: Menu (project)
+#: rc.cpp:309
+msgid "&Project"
+msgstr "&مشروع"
+
+#. i18n: file: src/lokalizemainwindowui.rc:27
+#. i18n: ectx: Menu (project_actions)
+#: rc.cpp:312
+#, fuzzy
+msgid "&Scripts"
+msgstr "ال&وصف"
+
+#. i18n: file: src/kaider_findextension.ui:30
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_skipTags)
+#: rc.cpp:318
+msgid "Skip tags"
+msgstr ""
+
+#. i18n: file: src/kaider_findextension.ui:33
+#. i18n: ectx: property (text), widget (QCheckBox, m_skipTags)
+#: rc.cpp:321
+msgctxt "@option:check"
+msgid "Skip markup"
+msgstr ""
+
+#. i18n: file: src/kaider_findextension.ui:40
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_ignoreAccelMarks)
+#: rc.cpp:324
+msgid "Ignore accelerator marks"
+msgstr ""
+
+#. i18n: file: src/kaider_findextension.ui:43
+#. i18n: ectx: property (text), widget (QCheckBox, m_ignoreAccelMarks)
+#: rc.cpp:327
+msgctxt "@option:check"
+msgid "Ignore accelerator marks"
+msgstr ""
+
+#. i18n: file: src/kaider_findextension.ui:54
+#. i18n: ectx: property (text), widget (QCheckBox, m_notes)
+#: rc.cpp:330
+msgid "Include notes"
+msgstr ""
+
+#. i18n: file: src/webquery/querycontrol.ui:8
+#. i18n: ectx: property (text), widget (QPushButton, queryBtn)
+#: rc.cpp:333
+msgid "Query"
+msgstr ""
+
+#. i18n: file: src/webquery/querycontrol.ui:15
+#. i18n: ectx: property (text), widget (QCheckBox, autoQuery)
+#: rc.cpp:336
+#, fuzzy
+msgid "Autoquery"
+msgstr "المؤلف:"
+
+#. i18n: file: src/webquery/querycontrol.ui:22
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox)
+#: rc.cpp:339
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Next untranslated"
+msgid "Prefetch for the next untranslated"
+msgstr "غير المترجم التالي"
+
+#. i18n: file: src/webquery/querycontrol.ui:25
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: rc.cpp:342
+msgid "Prefetch"
+msgstr ""
+
+#. i18n: file: src/project/prefs_project_local.ui:21
+#. i18n: ectx: property (text), widget (QLabel, l0)
+#: rc.cpp:345
+msgid "Role:"
+msgstr ""
+
+#. i18n: file: src/project/prefs_project_local.ui:29
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Role)
+#: rc.cpp:348
+#, fuzzy
+msgid "Translator"
+msgstr "غير مترجم"
+
+#. i18n: file: src/project/prefs_project_local.ui:34
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Role)
+#: rc.cpp:351
+msgid "Reviewer"
+msgstr ""
+
+#. i18n: file: src/project/prefs_project_local.ui:39
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Role)
+#: rc.cpp:354
+#, fuzzy
+msgid "Approver"
+msgstr "ا&لمُعلم التالى"
+
+#. i18n: file: src/project/projectbase.kcfg:18
+#. i18n: ectx: label, entry (LangCode), group (General)
+#: rc.cpp:357
+#, fuzzy
+msgid "Language"
+msgstr "الل&غة"
+
+#. i18n: file: src/project/projectbase.kcfg:30
+#. i18n: ectx: label, entry (PoBaseDir), group (General)
+#: rc.cpp:360
+#, fuzzy
+msgid "The base directory for PO files (translations)"
+msgstr "قاموس للمترجمين"
+
+#. i18n: file: src/project/projectbase.kcfg:36
+#. i18n: ectx: label, entry (PotBaseDir), group (General)
+#: rc.cpp:363
+#, fuzzy
+msgid "The base directory for POT files (templates to be translated)"
+msgstr "قاموس للمترجمين"
+
+#. i18n: file: src/project/projectbase.kcfg:44
+#. i18n: ectx: label, entry (GlossaryTbx), group (General)
+#: rc.cpp:366
+#, fuzzy
+msgid "Project's glossary"
+msgstr "خطأ في ملف المشروع"
+
+#. i18n: file: src/project/prefs_projectmain.ui:22
+#. i18n: ectx: property (text), widget (QLabel, l0)
+#: rc.cpp:369
+#, fuzzy
+msgctxt "@label:textbox"
+msgid "Target language:"
+msgstr "الل&غة:"
+
+#. i18n: file: src/project/prefs_projectmain.ui:35
+#. i18n: ectx: property (toolTip), widget (KComboBox, LangCode)
+#: rc.cpp:372
+#, fuzzy
+msgid "Target language of the project."
+msgstr "الل&غة:"
+
+#. i18n: file: src/project/prefs_projectmain.ui:55
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, poBaseDir)
+#: rc.cpp:375
+msgid ""
+"This is main setting. Set this to path of a folder with translation files\n"
+"for your project (or a subproject for your target language)."
+msgstr ""
+
+#. i18n: file: src/project/prefs_projectmain.ui:78
+#. i18n: ectx: property (text), widget (QLabel, l1)
+#: rc.cpp:379
+#, fuzzy
+msgctxt "@label:textbox"
+msgid "Root folder:"
+msgstr "القاموس الإ&فتراضي:"
+
+#. i18n: file: src/project/prefs_projectmain.ui:88
+#. i18n: ectx: property (text), widget (QLabel, l2)
+#: rc.cpp:382
+#, fuzzy
+msgctxt "@label:textbox"
+msgid "Glossary:"
+msgstr "المُسْرد"
+
+#. i18n: file: src/project/prefs_projectmain.ui:98
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_ProjectID)
+#: rc.cpp:385
+msgid ""
+"Project ID is used to differentiate translation memories of absolutely "
+"different projects and languages.\n"
+"\n"
+"For example, if you have several projects for translating KDE applications\n"
+"(e.g. they are in different repositories), use same ID for all of them."
+msgstr ""
+
+#. i18n: file: src/project/prefs_projectmain.ui:105
+#. i18n: ectx: property (text), widget (QLabel, l3)
+#: rc.cpp:391
+msgctxt "@label:textbox"
+msgid "ID:"
+msgstr ""
+
+#. i18n: file: src/project/prefs_projectmain.ui:115
+#. i18n: ectx: property (text), widget (QLabel, l4)
+#: rc.cpp:394
+#, fuzzy
+msgctxt "@label:textbox"
+msgid "Mailing list:"
+msgstr "&قائمة اللغة البريدية:"
+
+#. i18n: file: src/project/prefs_project_advanced.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:397
+#, fuzzy
+msgid "Syntax"
+msgstr "افح&ص البنية"
+
+#. i18n: file: src/project/prefs_project_advanced.ui:22
+#. i18n: ectx: property (text), widget (QLabel, l0)
+#: rc.cpp:400
+#, fuzzy
+msgctxt "@label:textbox"
+msgid "Accelerator:"
+msgstr "رمز المسرع (&&)"
+
+#. i18n: file: src/project/prefs_project_advanced.ui:29
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_Accel)
+#: rc.cpp:403
+msgid "Usually '&', but may also be '_' for GTK apps."
+msgstr ""
+
+#. i18n: file: src/project/prefs_project_advanced.ui:36
+#. i18n: ectx: property (text), widget (QLabel, l1)
+#: rc.cpp:406
+msgctxt "@label:textbox"
+msgid "Markup:"
+msgstr ""
+
+#. i18n: file: src/project/prefs_project_advanced.ui:51
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_Markup)
+#: rc.cpp:409
+msgid ""
+"Regular expression of markup. It is used for translation memory matching and "
+"for 'Insert tag' feature.\n"
+"\n"
+"A default value (suitable for XML-based texts) is:\n"
+"(<[^>]+>)+|(&[A-Za-z_:][A-Za-z0-9_\\.:-]*;)+\n"
+"\n"
+"It is only used for gettext PO files, as XLIFF format has its own way of "
+"specifying where markup is."
+msgstr ""
+
+#. i18n: file: src/project/prefs_project_advanced.ui:61
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:417
+msgid "Paths"
+msgstr ""
+
+#. i18n: file: src/project/prefs_project_advanced.ui:70
+#. i18n: ectx: property (text), widget (QLabel, l2)
+#: rc.cpp:420
+#, fuzzy
+msgctxt "@label:textbox"
+msgid "Template files folder:"
+msgstr "القاموس الإ&فتراضي:"
+
+#. i18n: file: src/project/prefs_project_advanced.ui:91
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, potBaseDir)
+#: rc.cpp:423
+msgid ""
+"Usually your translation project will be a subproject of a project\n"
+"for translating same texts into multiple languages.\n"
+"\n"
+"Set this to path of a folder containing empty translation files\n"
+"(i.e. files without translation into any language)\n"
+"shared among all subprojects."
+msgstr ""
+
+#. i18n: file: src/project/prefs_project_advanced.ui:98
+#. i18n: ectx: property (text), widget (QLabel, l3)
+#: rc.cpp:431
+#, fuzzy
+msgctxt "@label:textbox"
+msgid "Branch folder:"
+msgstr "القاموس الإ&فتراضي:"
+
+#. i18n: file: src/project/prefs_project_advanced.ui:125
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, branchDir)
+#: rc.cpp:434
+msgctxt ""
+"this message contains text from documentation, so use its translation when "
+"you're translating docs"
+msgid ""
+"This setting is for Sync Mode.\n"
+"\n"
+"Sync Mode may be used to make changes to translation\n"
+"for two branches simultaneously.\n"
+"\n"
+"Set this to path that corresponds to root folder of the branch project,\n"
+"and Secondary Sync view will automatically open files from branch.\n"
+"Then, each time you make changes in files of your main branch,\n"
+"they will automatically be replicated to the branch\n"
+"(of course, if it contains the same English string).\n"
+"\n"
+"See documentation for more details."
+msgstr ""
+
+#. i18n: file: src/project/prefs_project_advanced.ui:132
+#. i18n: ectx: property (text), widget (QLabel, l4)
+#: rc.cpp:448
+#, fuzzy
+msgctxt "@label:textbox"
+msgid "Alternate translations folder:"
+msgstr "حدِّث حقوق نسخ الم&ترجم"
+
+#. i18n: file: src/project/prefs_project_advanced.ui:156
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, altDir)
+#: rc.cpp:451
+msgctxt ""
+"this message contains text from documentation, so use its translation when "
+"you're translating docs"
+msgid ""
+"Set this to path of a folder with structure similar to Root Folder.\n"
+"\n"
+"On each translation file open, a corresponding file in Alternate "
+"translations directory will be looked up and,\n"
+"if it is found, it will be used for Alternate Translations view.\n"
+"\n"
+"You will likely want to use translations of another target language (i.e. "
+"another subproject), which is close to yours.\n"
+"Also, you can use other subproject's translations either immediately, or "
+"have them pretranslated to your language by machine.\n"
+"\n"
+"See documentation for more details."
+msgstr ""
+
+#. i18n: file: scripts/widget-text-capture.ui:25
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:462
+msgid ""
+"<html>\n"
+"<p align=\"justify\">To facilitate KDE translation, Lokalize can capture "
+"text from applications' user interfaces and search for translation files "
+"containing the text.</p>\n"
+"<p align=\"justify\">When enabled, the capture can be initiated by middle "
+"mouse clicking on any non-editable GUI element (widget). After that, switch "
+"to the Lokalize window and choose the entry with this text. Even if several "
+"files contain the same string, the right one will be chosen in most cases.</"
+"p>\n"
+"<p align=\"justify\">Remember that you need to have an up-to-date actual "
+"translation memory with all translation files indexed for this feature to "
+"work.</p></html>"
+msgstr ""
+
+#. i18n: file: scripts/widget-text-capture.ui:41
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:468
+msgid "Middle Mouse Button Click Reaction"
+msgstr ""
+
+#. i18n: file: scripts/widget-text-capture.ui:47
+#. i18n: ectx: property (text), widget (QRadioButton, none)
+#: rc.cpp:471
+#, fuzzy
+msgid "None"
+msgstr "ا&لمُعلم التالى"
+
+#. i18n: file: scripts/widget-text-capture.ui:57
+#. i18n: ectx: property (text), widget (QRadioButton, search)
+#: rc.cpp:474
+#, fuzzy
+msgid "Search GUI element text in translation memory"
+msgstr "اب&حث في الترجمات"
+
+#. i18n: file: scripts/widget-text-capture.ui:64
+#. i18n: ectx: property (text), widget (QRadioButton, clipboard)
+#: rc.cpp:477
+msgid "Copy GUI element text to clipboard"
+msgstr ""
+
+#. i18n: tag collection attribute text
+#. i18n: file: scripts/msgmerge.rc:3
+#: rc.cpp:480
+#, fuzzy
+#| msgctxt "@title actions category"
+#| msgid "File"
+msgid "File"
+msgstr "ملف"
+
+#. i18n: tag script attribute text
+#. i18n: file: scripts/msgmerge.rc:4
+#: rc.cpp:483
+msgid "Update file from template"
+msgstr ""
+
+#. i18n: tag collection attribute text
+#. i18n: file: scripts/newprojectwizard.rc:3
+#. i18n: tag collection attribute text
+#. i18n: file: scripts/newprojectwizard_win.rc:3
+#: rc.cpp:486 rc.cpp:495
+#, fuzzy
+#| msgctxt "@title actions category"
+#| msgid "Project"
+msgid "Project"
+msgstr "مشروع"
+
+#. i18n: tag script attribute text
+#. i18n: file: scripts/newprojectwizard.rc:4
+#. i18n: tag script attribute text
+#. i18n: file: scripts/newprojectwizard_win.rc:4
+#: rc.cpp:489 rc.cpp:498
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open project"
+msgid "Create new project"
+msgstr "افتح مشروع"
+
+#. i18n: tag script attribute comment
+#. i18n: file: scripts/newprojectwizard.rc:4
+#. i18n: tag script attribute comment
+#. i18n: file: scripts/newprojectwizard_win.rc:4
+#: rc.cpp:492 rc.cpp:501
+msgid "Fires up a wizard to guide you through project creation"
+msgstr ""
+
+#. i18n: tag collection attribute text
+#. i18n: file: scripts/widget-text-capture.rc:3
+#. i18n: tag collection attribute text
+#. i18n: file: scripts/xliff2odf.rc:3
+#: rc.cpp:504 rc.cpp:513
+#, fuzzy
+#| msgctxt "@title actions category"
+#| msgid "Tools"
+msgid "Tools"
+msgstr "الأدوات"
+
+#. i18n: tag script attribute text
+#. i18n: file: scripts/widget-text-capture.rc:4
+#: rc.cpp:507
+msgid "Widget text capture"
+msgstr ""
+
+#. i18n: tag script attribute comment
+#. i18n: file: scripts/widget-text-capture.rc:4
+#: rc.cpp:510
+msgid ""
+"Middle mouse click on a widget in any KDE app initiates TM search in all "
+"opened Lokalize windows"
+msgstr ""
+
+#. i18n: tag script attribute text
+#. i18n: file: scripts/xliff2odf.rc:4
+#: rc.cpp:516
+msgid "Merge into ODF"
+msgstr ""
+
+#. i18n: tag script attribute comment
+#. i18n: file: scripts/xliff2odf.rc:4
+#: rc.cpp:519
+msgid "Generates translated version of ODF document"
+msgstr ""
+
+#: src/alttransview.cpp:48 src/alttransview.cpp:51
+#, fuzzy
+msgctxt "@title:window"
+msgid "Alternate Translations"
+msgstr "آخر مترجم"
+
+#: src/alttransview.cpp:84
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Sometimes, if original text is changed, its translation becomes "
+"deprecated and is either marked as <emphasis>needing&nbsp;review</emphasis> "
+"(i.e. looses approval status), or (only in case of XLIFF file) moved to the "
+"<emphasis>alternate&nbsp;translations</emphasis> section accompanying the "
+"unit.</p><p>This toolview also shows the difference between new original "
+"string and the old one, so that you can easily see which changes should be "
+"applied to existing translation.</p><p>Double-click any word in this "
+"toolview to insert it into translation.</p><p>Drop translation file onto "
+"this toolview to use it as a source for alternate translations.</p>"
+msgstr ""
+
+#: src/alttransview.cpp:253
+#, fuzzy
+msgctxt "@item Undo action"
+msgid "Use alternate translation"
+msgstr "اب&حث في الترجمات"
+
+#: src/binunitsview.cpp:131 src/cataloglistview/catalogmodel.cpp:148
+msgid "no"
+msgstr ""
+
+#: src/binunitsview.cpp:131 src/cataloglistview/catalogmodel.cpp:148
+msgid "yes"
+msgstr ""
+
+#: src/binunitsview.cpp:149
+#, fuzzy
+msgctxt "@title:column"
+msgid "Source"
+msgstr "مصدر"
+
+#: src/binunitsview.cpp:150
+#, fuzzy
+msgctxt "@title:column"
+msgid "Target"
+msgstr "وسوم"
+
+#: src/binunitsview.cpp:151 src/cataloglistview/catalogmodel.cpp:97
+msgctxt "@title:column"
+msgid "Approved"
+msgstr ""
+
+#: src/binunitsview.cpp:159
+msgctxt "@title toolview name"
+msgid "Binary Units"
+msgstr ""
+
+#: src/binunitsview.cpp:197
+msgctxt "@action:inmenu"
+msgid "Set the file"
+msgstr ""
+
+#: src/binunitsview.cpp:198
+msgctxt "@action:inmenu"
+msgid "Use source file"
+msgstr ""
+
+#: src/editortab.cpp:157
+#, kde-format
+msgctxt "@info:status message entry"
+msgid "Current: %1"
+msgstr "الحالي: %1"
+
+#: src/editortab.cpp:158 src/editortab.cpp:795 src/tm/tmtab.cpp:394
+#, kde-format
+msgctxt "@info:status message entries"
+msgid "Total: %1"
+msgstr "المجموع: %1"
+
+#: src/editortab.cpp:159 src/editortab.cpp:170
+#, fuzzy, kde-format
+#| msgctxt "@info:status message entries"
+#| msgid "Total: %1"
+msgctxt ""
+"@info:status message entries\n"
+"'fuzzy' in gettext terminology"
+msgid "Not ready: %1"
+msgstr "المجموع: %1"
+
+#: src/editortab.cpp:160 src/editortab.cpp:179
+#, kde-format
+msgctxt "@info:status message entries"
+msgid "Untranslated: %1"
+msgstr "غير مترجم: %1"
+
+#: src/editortab.cpp:196 src/lokalizemainwindow.cpp:366
+msgctxt "@title actions category"
+msgid "File"
+msgstr "ملف"
+
+#: src/editortab.cpp:197
+msgctxt "@title actions category"
+msgid "Navigation"
+msgstr "التصفح"
+
+#: src/editortab.cpp:198
+msgctxt "@title actions category"
+msgid "Editing"
+msgstr "التحرير"
+
+#: src/editortab.cpp:199
+msgid "Synchronization 1"
+msgstr "مزامنة 1"
+
+#: src/editortab.cpp:200
+msgid "Synchronization 2"
+msgstr "مزامنة 2"
+
+#: src/editortab.cpp:201
+msgid "Translation Memory"
+msgstr "ذاكرة الترجمة"
+
+#: src/editortab.cpp:202 src/lokalizemainwindow.cpp:368
+msgctxt "@title actions category"
+msgid "Glossary"
+msgstr "المُسْرد"
+
+#: src/editortab.cpp:203
+msgctxt "@title actions category"
+msgid "Tools"
+msgstr "الأدوات"
+
+#: src/editortab.cpp:228
+#, fuzzy, kde-format
+msgctxt "@action:inmenu"
+msgid "Insert alternate translation # %1"
+msgstr "ترجمة &كلمة مفردة"
+
+#: src/editortab.cpp:291
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Insert TM suggestion # %1"
+msgstr ""
+
+#: src/editortab.cpp:338
+#, fuzzy, kde-format
+msgctxt "@action:inmenu"
+msgid "Insert # %1 term translation"
+msgstr "ترجمة &كلمة مفردة"
+
+#: src/editortab.cpp:349
+msgctxt "@action:inmenu"
+msgid "Define new term"
+msgstr ""
+
+#: src/editortab.cpp:383
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Insert WebQuery result # %1"
+msgstr ""
+
+#: src/editortab.cpp:414
+msgctxt "@action:inmenu"
+msgid "Phases..."
+msgstr ""
+
+#: src/editortab.cpp:450
+msgctxt "@action:inmenu"
+msgid "Change searching direction"
+msgstr ""
+
+#: src/editortab.cpp:459
+#, fuzzy
+msgctxt ""
+"@option:check whether message is marked as translated/reviewed/approved "
+"(depending on your role)"
+msgid "Approved"
+msgstr "ا&لمُعلم التالى"
+
+#: src/editortab.cpp:475
+msgctxt "@action:inmenu"
+msgid "Approve and go to next"
+msgstr ""
+
+#: src/editortab.cpp:480
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Equivalent translation"
+msgstr "اب&حث في الترجمات"
+
+#: src/editortab.cpp:492
+msgctxt "@action:inmenu"
+msgid "Copy source to target"
+msgstr ""
+
+#: src/editortab.cpp:495
+msgctxt "@action:inmenu"
+msgid "Unwrap target"
+msgstr ""
+
+#: src/editortab.cpp:500
+msgctxt "@action:inmenu"
+msgid "Clear"
+msgstr "امسح"
+
+#: src/editortab.cpp:504
+msgctxt "@action:inmenu"
+msgid "Insert Tag"
+msgstr "أدرج وسْم"
+
+#: src/editortab.cpp:512
+msgctxt "@action:inmenu entry"
+msgid "&Next"
+msgstr "ال&تالي"
+
+#: src/editortab.cpp:517
+msgctxt "@action:inmenu entry"
+msgid "&Previous"
+msgstr "ال&سابق"
+
+#: src/editortab.cpp:523
+msgctxt "@action:inmenu"
+msgid "&First Entry"
+msgstr "الخانة الأ&ولى"
+
+#: src/editortab.cpp:529
+msgctxt "@action:inmenu"
+msgid "&Last Entry"
+msgstr "الخانة الأ&خيرة"
+
+#: src/editortab.cpp:535
+msgctxt "@action:inmenu"
+msgid "Entry by number"
+msgstr ""
+
+#: src/editortab.cpp:537
+#, fuzzy
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Previous non-empty but not ready"
+msgstr "غير ا&لمترجم السابق"
+
+#: src/editortab.cpp:541
+#, fuzzy
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Next non-empty but not ready"
+msgstr "غير ال&مترجم التالي"
+
+#: src/editortab.cpp:545
+msgctxt "@action:inmenu"
+msgid "Previous untranslated"
+msgstr "غير المترجم السابق"
+
+#: src/editortab.cpp:549
+msgctxt "@action:inmenu"
+msgid "Next untranslated"
+msgstr "غير المترجم التالي"
+
+#: src/editortab.cpp:553
+#, fuzzy
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Previous not ready"
+msgstr "المُ&علم السابق"
+
+#: src/editortab.cpp:557
+#, fuzzy
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Next not ready"
+msgstr "ا&لمُعلم التالى"
+
+#: src/editortab.cpp:563
+msgctxt "@action:inmenu"
+msgid "Focus the search line of Translation Units view"
+msgstr ""
+
+#: src/editortab.cpp:569
+msgctxt "@option:check"
+msgid "Bookmark message"
+msgstr ""
+
+#: src/editortab.cpp:575
+msgctxt "@action:inmenu"
+msgid "Previous bookmark"
+msgstr ""
+
+#: src/editortab.cpp:579
+msgctxt "@action:inmenu"
+msgid "Next bookmark"
+msgstr ""
+
+#: src/editortab.cpp:587
+#, no-c-format
+msgctxt "@action:inmenu"
+msgid "Fill in all exact suggestions"
+msgstr ""
+
+#: src/editortab.cpp:591
+#, no-c-format
+msgctxt "@action:inmenu"
+msgid "Fill in all exact suggestions and mark as fuzzy"
+msgstr ""
+
+#: src/editortab.cpp:595
+msgctxt "@action:inmenu"
+msgid "Word count"
+msgstr "عدد الكلمات"
+
+#: src/editortab.cpp:600
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Open file for sync/merge"
+msgstr "ا&فتح ملفا لعرض الاختلاف"
+
+#: src/editortab.cpp:601 src/editortab.cpp:647
+msgctxt "@info:status"
+msgid ""
+"Open catalog to be merged into the current one / replicate base file changes "
+"to"
+msgstr ""
+
+#: src/editortab.cpp:607 src/editortab.cpp:653
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Previous different"
+msgstr "المُ&علم السابق"
+
+#: src/editortab.cpp:608 src/editortab.cpp:654
+msgctxt "@info:status"
+msgid ""
+"Previous entry which is translated differently in the file being merged, "
+"including empty translations in merge source"
+msgstr ""
+
+#: src/editortab.cpp:616 src/editortab.cpp:661
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Next different"
+msgstr "لم يُعثر على اختلاف"
+
+#: src/editortab.cpp:617 src/editortab.cpp:662
+msgctxt "@info:status"
+msgid ""
+"Next entry which is translated differently in the file being merged, "
+"including empty translations in merge source"
+msgstr ""
+
+#: src/editortab.cpp:625 src/editortab.cpp:669
+msgctxt "@action:inmenu"
+msgid "Copy from merging source"
+msgstr ""
+
+#: src/editortab.cpp:631 src/editortab.cpp:674
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Copy all new translations"
+msgstr "اب&حث في الترجمات"
+
+#: src/editortab.cpp:632
+msgctxt "@info:status"
+msgid "This changes only empty entries in base file"
+msgstr ""
+
+#: src/editortab.cpp:639 src/editortab.cpp:681
+msgctxt "@action:inmenu"
+msgid "Copy to merging source"
+msgstr ""
+
+#: src/editortab.cpp:646
+msgctxt "@action:inmenu"
+msgid "Open file for secondary sync"
+msgstr ""
+
+#: src/editortab.cpp:675
+msgctxt "@info:status"
+msgid "This changes only empty entries"
+msgstr ""
+
+#: src/editortab.cpp:706
+msgctxt "editor tab name"
+msgid "(recovered)"
+msgstr ""
+
+#: src/editortab.cpp:748 src/editortab.cpp:883
+#, fuzzy
+msgctxt "@info"
+msgid ""
+"The document contains unsaved changes.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"يحتوي المستند على تغييرات غير محفوظة.\n"
+"أتريد حفظ التغييرات أم تجاهلها؟"
+
+#: src/editortab.cpp:749 src/editortab.cpp:884
+#: src/glossary/glossarywindow.cpp:416
+#, fuzzy
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "جارِ البحث"
+
+#: src/editortab.cpp:834
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "Error opening the file <filename>%1</filename>, line: %2"
+msgstr ""
+"لديك حددت مجلداً:\n"
+"%1\n"
+"أتريد الحفظ الى ملف آخر أم الالغاء؟"
+
+#: src/editortab.cpp:835
+#, kde-format
+msgctxt "@info"
+msgid "Error opening the file <filename>%1</filename>"
+msgstr ""
+
+#: src/editortab.cpp:857
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid ""
+"Error saving the file <filename>%1</filename>\n"
+"Do you want to save to another file or cancel?"
+msgstr ""
+"لديك حددت مجلداً:\n"
+"%1\n"
+"أتريد الحفظ الى ملف آخر أم الالغاء؟"
+
+#: src/editortab.cpp:859
+#, fuzzy
+msgctxt "@title"
+msgid "Error"
+msgstr "أخطأ"
+
+#: src/editortab.cpp:910
+#, fuzzy
+msgctxt "@title"
+msgid "Jump to Entry"
+msgstr "اذهب الى الخانة"
+
+#: src/editortab.cpp:911
+msgctxt "@label:spinbox"
+msgid "Enter entry number:"
+msgstr ""
+
+#: src/editortab.cpp:987
+#, kde-format
+msgctxt "@info:status"
+msgid "Current: %1"
+msgstr "الحالي: %1"
+
+#: src/editortab.cpp:999
+msgctxt "@info:status"
+msgid "Untranslated"
+msgstr "غير مترجم"
+
+#: src/editortab.cpp:1000
+msgctxt "@info:status 'non-fuzzy' in gettext terminology"
+msgid "Ready"
+msgstr ""
+
+#: src/editortab.cpp:1001
+#, fuzzy
+msgctxt "@info:status 'fuzzy' in gettext terminology"
+msgid "Needs review"
+msgstr "ملفات الترجمة"
+
+#: src/editortab.cpp:1165
+#, fuzzy
+msgctxt "@option:check trans-unit state"
+msgid "Translated"
+msgstr "غير مترجم"
+
+#: src/editortab.cpp:1166
+msgctxt "@option:check trans-unit state"
+msgid "Signed-off"
+msgstr ""
+
+#: src/editortab.cpp:1167
+#, fuzzy
+msgctxt "@option:check trans-unit state"
+msgid "Approved"
+msgstr "ا&لمُعلم التالى"
+
+#: src/editortab.cpp:1170
+msgctxt "@info:tooltip"
+msgid "Translation is done (although still may need a review)"
+msgstr ""
+
+#: src/editortab.cpp:1171
+msgctxt "@info:tooltip"
+msgid "Translation recieved positive review"
+msgstr ""
+
+#: src/editortab.cpp:1172
+msgctxt "@info:tooltip"
+msgid "Entry is fully localized (i.e. final)"
+msgstr ""
+
+#: src/editortab_findreplace.cpp:507
+msgctxt "@item Undo action item"
+msgid "Replace"
+msgstr "استبدل"
+
+#: src/editortab_findreplace.cpp:593
+msgid ""
+"Lokalize has reached end of document. Do you want to continue from start?"
+msgstr ""
+
+#: src/editortab_findreplace.cpp:593 src/editortab_findreplace.cpp:602
+#, fuzzy
+msgctxt "@title"
+msgid "Spellcheck"
+msgstr "دقق إملائياً"
+
+#: src/editortab_findreplace.cpp:602
+msgid "Lokalize has finished spellchecking"
+msgstr ""
+
+#: src/editortab_findreplace.cpp:712
+#, kde-format
+msgctxt "@info words count"
+msgid "Source text words: %1<br/>Target text words: %2"
+msgstr ""
+
+#: src/editortab_findreplace.cpp:713
+msgctxt "@title"
+msgid "Word Count"
+msgstr "عدد الكلمات"
+
+#: src/editorview.cpp:68
+msgctxt "@label whether entry is fuzzy"
+msgid "Not ready:"
+msgstr ""
+
+#: src/editorview.cpp:70
+msgctxt "@label whether entry is untranslated"
+msgid "Untranslated:"
+msgstr "غير مترجم:"
+
+#: src/editorview.cpp:81
+msgctxt "@action"
+msgid "Hide"
+msgstr ""
+
+#: src/editorview.cpp:91
+#, fuzzy, kde-format
+msgctxt "@info:label cursor position"
+msgid "Column: %1"
+msgstr "الحالي: %1"
+
+#: src/editorview.cpp:106
+msgid ""
+"<qt><p><b>Original String</b></p>\n"
+"<p>This part of the window shows the original message\n"
+"of the currently displayed entry.</p></qt>"
+msgstr ""
+
+#: src/editorview.cpp:181
+#, kde-format
+msgctxt "@title:tab"
+msgid "Plural Form %1"
+msgstr "جمع %1"
+
+#: src/editorview.cpp:267
+msgctxt "@item Undo action item"
+msgid "Unwrap"
+msgstr ""
+
+#: src/lokalizemainwindow.cpp:369
+msgctxt "@title actions category"
+msgid "Translation Memory"
+msgstr "ذاكرة الترجمة"
+
+#: src/lokalizemainwindow.cpp:370
+msgctxt "@title actions category"
+msgid "Project"
+msgstr "مشروع"
+
+#: src/lokalizemainwindow.cpp:409
+#, fuzzy
+msgid "Next tab"
+msgstr "ال&تالي >"
+
+#: src/lokalizemainwindow.cpp:412
+#, fuzzy
+msgid "Previous tab"
+msgstr "المُ&علم السابق"
+
+#: src/lokalizemainwindow.cpp:418
+msgctxt "@action:inmenu"
+msgid "Glossary"
+msgstr "مُسْرد"
+
+#: src/lokalizemainwindow.cpp:426
+msgctxt "@action:inmenu"
+msgid "Translation memory"
+msgstr "ذاكرة الترجمة"
+
+#: src/lokalizemainwindow.cpp:430
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Manage translation memories"
+msgstr "ملفات الترجمة"
+
+#: src/lokalizemainwindow.cpp:434
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Project overview"
+msgstr "السلسلة الحرفية للمشروع"
+
+#: src/lokalizemainwindow.cpp:438 src/lokalizemainwindow.cpp:441
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Configure project"
+msgstr "ا&ضبط القاموس"
+
+#: src/lokalizemainwindow.cpp:444
+msgctxt "@action:inmenu"
+msgid "Open project"
+msgstr "افتح مشروع"
+
+#: src/lokalizemainwindow.cpp:447
+msgctxt "@action:inmenu"
+msgid "Open recent project"
+msgstr ""
+
+#: src/main.cpp:52
+msgid ""
+"Computer-aided translation system.\n"
+"Do not translate what had already been translated."
+msgstr ""
+
+#: src/main.cpp:56
+msgctxt "@title"
+msgid "Lokalize"
+msgstr ""
+
+#: src/main.cpp:57
+#, fuzzy
+msgctxt "@info:credit"
+msgid ""
+"(c) 2007-2009 Nick Shaforostoff\n"
+"(c) 1999-2006 The KBabel developers"
+msgstr "(c) 2000,2001,2002,2003 مطوري قاموس‌مترجم‌ك"
+
+#: src/main.cpp:58
+msgid "Nick Shaforostoff"
+msgstr ""
+
+#: src/main.cpp:59
+msgid "Google Inc."
+msgstr ""
+
+#: src/main.cpp:59
+msgid "sponsored development as part of Google Summer Of Code program"
+msgstr ""
+
+#: src/main.cpp:60
+#, fuzzy
+msgid "Translate-toolkit"
+msgstr "غير مترجم"
+
+#: src/main.cpp:60
+msgid "provided excellent cross-format converting scripts"
+msgstr ""
+
+#: src/main.cpp:61
+msgid "Viesturs Zarins"
+msgstr ""
+
+#: src/main.cpp:61
+msgid "project tree merging translation+templates"
+msgstr ""
+
+#: src/main.cpp:62
+msgid "Stephan Johach"
+msgstr ""
+
+#: src/main.cpp:62 src/main.cpp:63
+msgid "bug fixing patches"
+msgstr ""
+
+#: src/main.cpp:63
+msgid "Chusslove Illich"
+msgstr ""
+
+#: src/main.cpp:71
+msgid "Load specified project."
+msgstr ""
+
+#: src/main.cpp:72
+#, fuzzy
+msgid "Document to open"
+msgstr "ملفات لتُفتح"
+
+#: src/msgctxtview.cpp:50
+msgctxt "@title toolview name"
+msgid "Unit metadata"
+msgstr ""
+
+#: src/msgctxtview.cpp:109
+#, fuzzy
+msgctxt ""
+"@info notes to translation unit which expire when the catalog is closed"
+msgid "<b>Temporary notes:</b>"
+msgstr "ال&تعليق:"
+
+#: src/msgctxtview.cpp:121
+msgctxt "@info translation unit metadata"
+msgid "<b>Phase:</b><br>"
+msgstr ""
+
+#: src/msgctxtview.cpp:144
+msgctxt "@info PO comment parsing"
+msgid "<br><b>Files:</b><br>"
+msgstr ""
+
+#: src/msgctxtview.cpp:152
+msgctxt "@info PO comment parsing"
+msgid "<br><b>Context:</b><br>"
+msgstr ""
+
+#: src/noteeditor.cpp:58
+msgctxt "@info:label"
+msgid "From:"
+msgstr ""
+
+#: src/noteeditor.cpp:62
+msgctxt "@info:tooltip"
+msgid "Save empty note to remove it"
+msgstr ""
+
+#: src/noteeditor.cpp:63
+msgctxt "@info:tooltip"
+msgid "Author of this note"
+msgstr ""
+
+#: src/noteeditor.cpp:132
+#, fuzzy
+msgctxt "@info XLIFF notes representation"
+msgid "<b>Notes:</b>"
+msgstr "ال&تعليق:"
+
+#: src/noteeditor.cpp:144
+msgctxt "link to edit note"
+msgid "edit..."
+msgstr ""
+
+#: src/noteeditor.cpp:149
+msgctxt "link to add a note"
+msgid "Add..."
+msgstr ""
+
+#: src/noteeditor.cpp:152
+msgctxt "link to add a note"
+msgid "Add a note..."
+msgstr ""
+
+#: src/phaseswindow.cpp:148
+#, fuzzy
+#| msgid "Create"
+msgctxt "@title:column"
+msgid "Date"
+msgstr "أنشيء"
+
+#: src/phaseswindow.cpp:149
+msgctxt "@title:column"
+msgid "Process"
+msgstr ""
+
+#: src/phaseswindow.cpp:150
+msgctxt "@title:column"
+msgid "Company"
+msgstr ""
+
+#: src/phaseswindow.cpp:151
+msgctxt "@title:column"
+msgid "Person"
+msgstr ""
+
+#: src/phaseswindow.cpp:152
+#, fuzzy
+#| msgctxt "@title actions category"
+#| msgid "Tools"
+msgctxt "@title:column"
+msgid "Tool"
+msgstr "الأدوات"
+
+#: src/phaseswindow.cpp:177
+#, fuzzy
+msgid "Translation"
+msgstr "غير مترجم"
+
+#: src/phaseswindow.cpp:177
+msgid "Review"
+msgstr ""
+
+#: src/phaseswindow.cpp:177
+#, fuzzy
+msgid "Approval"
+msgstr "ا&لمُعلم التالى"
+
+#: src/phaseswindow.cpp:181
+msgid "Process"
+msgstr ""
+
+#: src/phaseswindow.cpp:244
+msgctxt "@item Undo action item"
+msgid "Edit phases"
+msgstr ""
+
+#: src/xlifftextedit.cpp:554 src/catalog/cmd.cpp:418
+msgctxt "@item Undo action item"
+msgid "Insert text with markup"
+msgstr ""
+
+#: src/xlifftextedit.cpp:889
+msgctxt "@action:inmenu"
+msgid "Show the binary unit"
+msgstr ""
+
+#: src/xlifftextedit.cpp:890
+msgctxt "@action:inmenu"
+msgid "Go to the referenced entry"
+msgstr ""
+
+#: src/xlifftextedit.cpp:1038
+msgctxt "@item Undo action item"
+msgid "Copy source to target"
+msgstr ""
+
+#: src/catalog/catalog.cpp:74
+msgid "New"
+msgstr ""
+
+#: src/catalog/catalog.cpp:74
+#, fuzzy
+msgid "Needs translation"
+msgstr "آخر مترجم"
+
+#: src/catalog/catalog.cpp:74
+msgid "Needs full localization"
+msgstr ""
+
+#: src/catalog/catalog.cpp:74
+msgid "Needs adaptation"
+msgstr ""
+
+#: src/catalog/catalog.cpp:74
+#, fuzzy
+msgid "Translated"
+msgstr "غير مترجم"
+
+#: src/catalog/catalog.cpp:75
+#, fuzzy
+msgid "Needs translation review"
+msgstr "ملفات الترجمة"
+
+#: src/catalog/catalog.cpp:75
+msgid "Needs full localization review"
+msgstr ""
+
+#: src/catalog/catalog.cpp:75
+msgid "Needs adaptation review"
+msgstr ""
+
+#: src/catalog/catalog.cpp:75
+#, fuzzy
+#| msgctxt "@title actions category"
+#| msgid "File"
+msgid "Final"
+msgstr "ملف"
+
+#: src/catalog/catalog.cpp:76
+msgid "Signed-off"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:72
+msgctxt "XLIFF inline tag name"
+msgid "Start of paired tag"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:73
+msgctxt "XLIFF inline tag name"
+msgid "End of paired tag"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:74
+msgctxt "XLIFF inline tag name"
+msgid "Stand-alone tag"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:75
+msgctxt "XLIFF inline tag name"
+msgid "Isolated tag"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:77
+msgctxt "XLIFF inline tag name"
+msgid "Marker"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:78
+msgctxt "XLIFF inline tag name"
+msgid "Generic group placeholder"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:79
+msgctxt "XLIFF inline tag name"
+msgid "Sub-flow"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:81
+msgctxt "XLIFF inline tag name"
+msgid "Generic placeholder"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:82
+msgctxt "XLIFF inline tag name"
+msgid "Start of paired placeholder"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:83
+msgctxt "XLIFF inline tag name"
+msgid "End of paired placeholder"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:131
+#, fuzzy
+#| msgctxt "@title actions category"
+#| msgid "Navigation"
+msgctxt "XLIFF mark type"
+msgid "abbreviation"
+msgstr "التصفح"
+
+#: src/catalog/catalogstring.cpp:132
+msgctxt "XLIFF mark type"
+msgid ""
+"abbreviated form: a term resulting from the omission of any part of the full "
+"term while designating the same concept"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:133
+msgctxt "XLIFF mark type"
+msgid ""
+"abbreviation: an abbreviated form of a simple term resulting from the "
+"omission of some of its letters (e.g. 'adj.' for 'adjective')"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:134
+msgctxt "XLIFF mark type"
+msgid ""
+"acronym: an abbreviated form of a term made up of letters from the full form "
+"of a multiword term strung together into a sequence pronounced only "
+"syllabically (e.g. 'radar' for 'radio detecting and ranging')"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:135
+msgctxt "XLIFF mark type"
+msgid ""
+"appellation: a proper-name term, such as the name of an agency or other "
+"proper entity"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:136
+msgctxt "XLIFF mark type"
+msgid ""
+"collocation: a recurrent word combination characterized by cohesion in that "
+"the components of the collocation must co-occur within an utterance or "
+"series of utterances, even though they do not necessarily have to maintain "
+"immediate proximity to one another"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:137
+msgctxt "XLIFF mark type"
+msgid ""
+"common name: a synonym for an international scientific term that is used in "
+"general discourse in a given language"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:138
+msgctxt "XLIFF mark type"
+msgid "date and/or time"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:139
+msgctxt "XLIFF mark type"
+msgid ""
+"equation: an expression used to represent a concept based on a statement "
+"that two mathematical expressions are, for instance, equal as identified by "
+"the equal sign (=), or assigned to one another by a similar sign"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:140
+msgctxt "XLIFF mark type"
+msgid ""
+"expanded form: The complete representation of a term for which there is an "
+"abbreviated form"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:141
+msgctxt "XLIFF mark type"
+msgid ""
+"formula: figures, symbols or the like used to express a concept briefly, "
+"such as a mathematical or chemical formula"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:142
+msgctxt "XLIFF mark type"
+msgid ""
+"head term: the concept designation that has been chosen to head a "
+"terminological record"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:143
+msgctxt "XLIFF mark type"
+msgid ""
+"initialism: an abbreviated form of a term consisting of some of the initial "
+"letters of the words making up a multiword term or the term elements making "
+"up a compound term when these letters are pronounced individually (e.g. "
+"'BSE' for 'bovine spongiform encephalopathy')"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:144
+msgctxt "XLIFF mark type"
+msgid ""
+"international scientific term: a term that is part of an international "
+"scientific nomenclature as adopted by an appropriate scientific body"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:145
+msgctxt "XLIFF mark type"
+msgid ""
+"internationalism: a term that has the same or nearly identical orthographic "
+"or phonemic form in many languages"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:146
+msgctxt "XLIFF mark type"
+msgid ""
+"logical expression: an expression used to represent a concept based on "
+"mathematical or logical relations, such as statements of inequality, set "
+"relationships, Boolean operations, and the like"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:147
+msgctxt "XLIFF mark type"
+msgid "materials management unit: a unit to track object"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:148
+#, fuzzy
+msgctxt "XLIFF mark type"
+msgid "name"
+msgstr "الإ&سم:"
+
+#: src/catalog/catalogstring.cpp:149
+msgctxt "XLIFF mark type"
+msgid ""
+"near synonym: a term that represents the same or a very similar concept as "
+"another term in the same language, but for which interchangeability is "
+"limited to some contexts and inapplicable in others"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:150
+msgctxt "XLIFF mark type"
+msgid ""
+"part number: a unique alphanumeric designation assigned to an object in a "
+"manufacturing system"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:151
+msgctxt "XLIFF mark type"
+msgid "phrase"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:152
+msgctxt "XLIFF mark type"
+msgid ""
+"phraseological: a group of two or more words that form a unit, the meaning "
+"of which frequently cannot be deduced based on the combined sense of the "
+"words making up the phrase"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:153
+msgctxt "XLIFF mark type"
+msgid "protected: the marked text should not be translated"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:154
+msgctxt "XLIFF mark type"
+msgid ""
+"romanized form: a form of a term resulting from an operation whereby non-"
+"Latin writing systems are converted to the Latin alphabet"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:155
+msgctxt "XLIFF mark type"
+msgid "segment: the marked text represents a segment"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:156
+msgctxt "XLIFF mark type"
+msgid "set phrase: a fixed, lexicalized phrase"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:157
+msgctxt "XLIFF mark type"
+msgid ""
+"short form: a variant of a multiword term that includes fewer words than the "
+"full form of the term (e.g. 'Group of Twenty-four' for 'Intergovernmental "
+"Group of Twenty-four on International Monetary Affairs')"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:158
+msgctxt "XLIFF mark type"
+msgid ""
+"stock keeping unit: an inventory item identified by a unique alphanumeric "
+"designation assigned to an object in an inventory control system"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:159
+msgctxt "XLIFF mark type"
+msgid "standard text: a fixed chunk of recurring text"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:160
+msgctxt "XLIFF mark type"
+msgid ""
+"symbol: a designation of a concept by letters, numerals, pictograms or any "
+"combination thereof"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:161
+msgctxt "XLIFF mark type"
+msgid ""
+"synonym: a term that represents the same or a very similar concept as the "
+"main entry term in a term entry"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:162
+msgctxt "XLIFF mark type"
+msgid ""
+"synonymous phrase: phraseological unit in a language that expresses the same "
+"semantic content as another phrase in that same language"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:163
+msgctxt "XLIFF mark type"
+msgid "term"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:164
+msgctxt "XLIFF mark type"
+msgid ""
+"transcribed form: a form of a term resulting from an operation whereby the "
+"characters of one writing system are represented by characters from another "
+"writing system, taking into account the pronunciation of the characters "
+"converted"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:165
+msgctxt "XLIFF mark type"
+msgid ""
+"transliterated form: a form of a term resulting from an operation whereby "
+"the characters of an alphabetic writing system are represented by characters "
+"from another alphabetic writing system"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:166
+msgctxt "XLIFF mark type"
+msgid ""
+"truncated term: an abbreviated form of a term resulting from the omission of "
+"one or more term elements or syllables (e.g. 'flu' for 'influenza')"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:167
+msgctxt "XLIFF mark type"
+msgid "variant: one of the alternate forms of a term"
+msgstr ""
+
+#: src/catalog/cmd.cpp:94
+#, fuzzy
+msgctxt "@item Undo action item"
+msgid "Insertion"
+msgstr "أدرج &وسْم"
+
+#: src/catalog/cmd.cpp:128
+#, fuzzy
+msgctxt "@item Undo action item"
+msgid "Deletion"
+msgstr "الوصف"
+
+#: src/catalog/cmd.cpp:183
+msgctxt "@item Undo action item"
+msgid "Approvement toggling"
+msgstr ""
+
+#: src/catalog/cmd.cpp:201
+#, fuzzy
+msgctxt "@item Undo action item"
+msgid "Markup Insertion"
+msgstr "أدرج &وسْم"
+
+#: src/catalog/cmd.cpp:223
+#, fuzzy
+msgctxt "@item Undo action item"
+msgid "Markup Deletion"
+msgstr "الوصف"
+
+#: src/catalog/cmd.cpp:244
+msgctxt "@item Undo action item"
+msgid "Note setting"
+msgstr ""
+
+#: src/catalog/cmd.cpp:278
+msgctxt "@item Undo action item"
+msgid "Update/add workflow phase"
+msgstr ""
+
+#: src/catalog/cmd.cpp:299
+#, fuzzy
+msgctxt "@item Undo action item"
+msgid "Translation Equivalence Setting"
+msgstr "قائمة الترجمة"
+
+#: src/catalog/cmd.cpp:364
+msgctxt "@item Undo action item"
+msgid "Remove text with markup"
+msgstr ""
+
+#: src/cataloglistview/cataloglistview.cpp:46
+#, fuzzy
+msgctxt "@title:window aka Message Tree"
+msgid "Translation Units"
+msgstr "غير مترجم"
+
+#: src/cataloglistview/cataloglistview.cpp:63
+msgid "Quick search..."
+msgstr ""
+
+#: src/cataloglistview/cataloglistview.cpp:64
+msgctxt "@info:tooltip"
+msgid "Accepts regular expressions"
+msgstr ""
+
+#: src/cataloglistview/cataloglistview.cpp:70
+msgid "options"
+msgstr ""
+
+#: src/cataloglistview/cataloglistview.cpp:156
+msgid "Reset individual filter"
+msgstr ""
+
+#: src/cataloglistview/cataloglistview.cpp:161
+#, fuzzy
+msgid "Case sensitive"
+msgstr "حساس لحالة اﻷحرف"
+
+#: src/cataloglistview/cataloglistview.cpp:162
+msgid "Ready"
+msgstr ""
+
+#: src/cataloglistview/cataloglistview.cpp:163
+#, fuzzy
+msgid "Non-ready"
+msgstr "ا&لمُعلم التالى"
+
+#: src/cataloglistview/cataloglistview.cpp:164
+msgid "Non-empty"
+msgstr ""
+
+#: src/cataloglistview/cataloglistview.cpp:165
+msgid "Empty"
+msgstr ""
+
+#: src/cataloglistview/cataloglistview.cpp:166
+msgid "Changed since file open"
+msgstr ""
+
+#: src/cataloglistview/cataloglistview.cpp:167
+msgid "Unchanged since file open"
+msgstr ""
+
+#: src/cataloglistview/cataloglistview.cpp:172
+msgctxt "@title:inmenu"
+msgid "Basic"
+msgstr ""
+
+#: src/cataloglistview/cataloglistview.cpp:173
+msgctxt "@title:inmenu"
+msgid "States"
+msgstr ""
+
+#: src/cataloglistview/cataloglistview.cpp:175
+#, fuzzy
+msgctxt "@title:inmenu"
+msgid "Columns"
+msgstr "الحالي: %1"
+
+#: src/cataloglistview/cataloglistview.cpp:194
+msgctxt "@item:inmenu all columns"
+msgid "All"
+msgstr ""
+
+#: src/cataloglistview/catalogmodel.cpp:93
+#, fuzzy
+msgctxt "@title:column"
+msgid "Entry"
+msgstr "الخانة الأ&خيرة"
+
+#: src/cataloglistview/catalogmodel.cpp:94 src/glossary/glossary.cpp:430
+#: src/tm/tmtab.cpp:76
+#, fuzzy
+msgctxt "@title:column Original text"
+msgid "Source"
+msgstr "مصدر"
+
+#: src/cataloglistview/catalogmodel.cpp:95 src/glossary/glossary.cpp:431
+#: src/tm/tmtab.cpp:77
+#, fuzzy
+msgctxt "@title:column Text in target language"
+msgid "Target"
+msgstr "وسوم"
+
+#: src/cataloglistview/catalogmodel.cpp:96
+msgctxt "@title:column"
+msgid "Notes"
+msgstr ""
+
+#: src/common/termlabel.cpp:99
+#, fuzzy
+msgctxt "@action:inmenu Edit term"
+msgid "Edit"
+msgstr "&حرِّر..."
+
+#: src/glossary/glossary.cpp:432
+msgctxt "@title:column"
+msgid "Subject Field"
+msgstr ""
+
+#: src/glossary/glossaryview.cpp:60 src/glossary/glossaryview.cpp:68
+#: src/glossary/glossarywindow.cpp:278 src/glossary/glossarywindow.cpp:315
+#: src/glossary/glossarywindow.cpp:357 src/glossary/glossarywindow.cpp:375
+#: src/glossary/glossarywindow.cpp:396
+#, fuzzy
+msgctxt "@title:window"
+msgid "Glossary"
+msgstr "المُسْرد"
+
+#: src/glossary/glossaryview.cpp:80
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Translations for common terms appear here.</p><p>Press shortcut displayed "
+"near the term to insert its translation.</p><p>Use context menu to add new "
+"entry (tip:&nbsp;select words in original and translation fields before "
+"calling <interface>Define&nbsp;new&nbsp;term</interface>).</p>"
+msgstr ""
+
+#: src/glossary/glossarywindow.cpp:231
+#, fuzzy
+msgctxt "@action:button reloads glossary from disk"
+msgid "Restore"
+msgstr "أ&عد ضبط"
+
+#: src/glossary/glossarywindow.cpp:232
+msgctxt "@info:tooltip"
+msgid "Reload glossary from disk, discarding any changes"
+msgstr ""
+
+#: src/glossary/glossarywindow.cpp:415
+#, fuzzy
+msgctxt "@info"
+msgid ""
+"The glossary contains unsaved changes.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"يحتوي المستند على تغييرات غير محفوظة.\n"
+"أتريد حفظ التغييرات أم تجاهلها؟"
+
+#: src/mergemode/mergecatalog.cpp:207
+#, fuzzy
+msgctxt "@item Undo action item"
+msgid "Accept change in translation"
+msgstr "اب&حث في الترجمات"
+
+#: src/mergemode/mergecatalog.cpp:259
+#, fuzzy
+msgctxt "@item Undo action item"
+msgid "Accept all new translations"
+msgstr "اب&حث في الترجمات"
+
+#: src/mergemode/mergeview.cpp:46 src/mergemode/mergeview.cpp:51
+msgctxt ""
+"@title:window that displays difference between current file and 'merge "
+"source'"
+msgid "Primary Sync"
+msgstr ""
+
+#: src/mergemode/mergeview.cpp:46 src/mergemode/mergeview.cpp:52
+msgctxt ""
+"@title:window that displays difference between current file and 'merge "
+"source'"
+msgid "Secondary Sync"
+msgstr ""
+
+#: src/mergemode/mergeview.cpp:60
+msgctxt "@info:tooltip"
+msgid "Drop file to be merged into / synced with the current one here"
+msgstr ""
+
+#: src/mergemode/mergeview.cpp:232
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid ""
+"Error opening the file <filename>%1</filename> for synchronization, error "
+"line: %2"
+msgstr ""
+"لديك حددت مجلداً:\n"
+"%1\n"
+"أتريد الحفظ الى ملف آخر أم الالغاء؟"
+
+#: src/mergemode/mergeview.cpp:234
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "Error opening the file <filename>%1</filename> for synchronization"
+msgstr ""
+"لديك حددت مجلداً:\n"
+"%1\n"
+"أتريد الحفظ الى ملف آخر أم الالغاء؟"
+
+#: src/mergemode/mergeview.cpp:351
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Different entries: %1\n"
+"Unmatched entries: %2"
+msgstr ""
+
+#: src/prefs/prefs.cpp:108
+msgctxt "@title:tab"
+msgid "Identity"
+msgstr ""
+
+#: src/prefs/prefs.cpp:114
+#, fuzzy
+#| msgctxt "@title actions category"
+#| msgid "Editing"
+msgctxt "@title:tab"
+msgid "Editing"
+msgstr "التحرير"
+
+#: src/prefs/prefs.cpp:120
+#, fuzzy
+msgctxt "@title:tab"
+msgid "Appearance"
+msgstr "&المظهر"
+
+#: src/prefs/prefs.cpp:126
+#, fuzzy
+msgctxt "@title:tab"
+msgid "Translation Memory"
+msgstr "ذاكرة الترجمة"
+
+#: src/prefs/prefs.cpp:135
+#, fuzzy
+msgctxt "@title:tab"
+msgid "Spellcheck"
+msgstr "دقق إملائياً"
+
+#: src/prefs/prefs.cpp:190
+#, fuzzy
+msgctxt "@title:tab"
+msgid "General"
+msgstr "عام"
+
+#: src/prefs/prefs.cpp:233
+msgctxt "@title:tab"
+msgid "Advanced"
+msgstr ""
+
+#: src/prefs/prefs.cpp:252
+msgctxt "@title:tab"
+msgid "Scripts"
+msgstr ""
+
+#: src/prefs/prefs.cpp:258
+msgctxt "@title:tab"
+msgid "Personal"
+msgstr ""
+
+#: src/project/projectmodel.cpp:508
+#, fuzzy
+msgctxt "@title:column File name"
+msgid "Name"
+msgstr "الإ&سم:"
+
+#: src/project/projectmodel.cpp:509
+msgctxt ""
+"@title:column Graphical representation of Translated/Fuzzy/Untranslated "
+"counts"
+msgid "Graph"
+msgstr ""
+
+#: src/project/projectmodel.cpp:510
+#, fuzzy
+msgctxt "@title:column Number of entries"
+msgid "Total"
+msgstr "المجموع"
+
+#: src/project/projectmodel.cpp:511
+#, fuzzy
+msgctxt "@title:column Number of entries"
+msgid "Translated"
+msgstr "غير مترجم"
+
+#: src/project/projectmodel.cpp:512
+msgctxt "@title:column Number of entries"
+msgid "Not ready"
+msgstr ""
+
+#: src/project/projectmodel.cpp:513
+#, fuzzy
+msgctxt "@title:column Number of entries"
+msgid "Untranslated"
+msgstr "غير مترجم"
+
+#: src/project/projectmodel.cpp:514
+#, fuzzy
+msgctxt "@title:column"
+msgid "Last Translation"
+msgstr "آخر مترجم"
+
+#: src/project/projectmodel.cpp:515
+#, fuzzy
+msgctxt "@title:column"
+msgid "Template Revision"
+msgstr "آخر مراجعة"
+
+#: src/project/projectmodel.cpp:516
+#, fuzzy
+msgctxt "@title:column"
+msgid "Last Translator"
+msgstr "آخر مترجم"
+
+#: src/project/projecttab.cpp:43
+#, fuzzy
+msgctxt "@title:window"
+msgid "Project Overview"
+msgstr "السلسلة الحرفية للمشروع"
+
+#: src/project/projecttab.cpp:73
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "ا&فتح"
+
+#: src/project/projecttab.cpp:80
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Get statistics for subfolders"
+msgstr "إحصاءات الكلّ:\n"
+
+#: src/tm/dbfilesmodel.cpp:77
+#, fuzzy
+msgctxt "@title:column"
+msgid "Name"
+msgstr "الإ&سم:"
+
+#: src/tm/dbfilesmodel.cpp:78
+msgctxt "@title:column"
+msgid "Pairs"
+msgstr ""
+
+#: src/tm/dbfilesmodel.cpp:79
+msgctxt "@title:column"
+msgid "Unique original entries"
+msgstr ""
+
+#: src/tm/dbfilesmodel.cpp:80
+#, fuzzy
+msgctxt "@title:column"
+msgid "Unique translations"
+msgstr "اب&حث في الترجمات"
+
+#: src/tm/tmmanager.cpp:83
+#, fuzzy
+msgctxt "@title:window"
+msgid "Select Directory to be scanned"
+msgstr "اختر مجلد للفحص"
+
+#: src/tm/tmmanager.cpp:95
+#, fuzzy
+msgctxt "@title:window"
+msgid "New Translation Memory"
+msgstr "ملفات الترجمة"
+
+#: src/tm/tmmanager.cpp:119 src/tm/tmmanager.cpp:139
+msgid ""
+"*.tmx *.xml|TMX files\n"
+"*|All files"
+msgstr ""
+
+#: src/tm/tmmanager.cpp:121
+msgctxt "@title:window"
+msgid "Select TMX file to be imported into selected database"
+msgstr ""
+
+#: src/tm/tmmanager.cpp:141
+msgctxt "@title:window"
+msgid "Select TMX file to export selected database to"
+msgstr ""
+
+#: src/tm/tmscanapi.cpp:86
+msgid "Adding files to Lokalize translation memory"
+msgstr ""
+
+#: src/tm/tmscanapi.cpp:87
+msgid "TM"
+msgstr ""
+
+#: src/tm/tmtab.cpp:78
+#, fuzzy
+msgctxt "@title:column"
+msgid "Context"
+msgstr "سياق PO"
+
+#: src/tm/tmtab.cpp:79
+#, fuzzy
+msgctxt "@title:column"
+msgid "File"
+msgstr "ملف"
+
+#: src/tm/tmtab.cpp:232 src/tm/tmview.cpp:146 src/tm/tmview.cpp:151
+#, fuzzy
+msgctxt "@title:window"
+msgid "Translation Memory"
+msgstr "ذاكرة الترجمة"
+
+#: src/tm/tmtab.cpp:259
+msgid "Copy source to clipboard"
+msgstr ""
+
+#: src/tm/tmtab.cpp:265
+msgid "Copy target to clipboard"
+msgstr ""
+
+#: src/tm/tmtab.cpp:271
+#, fuzzy
+msgid "Open file"
+msgstr "استخدم &ملف"
+
+#: src/tm/tmview.cpp:188 src/webquery/webqueryview.cpp:107
+msgctxt "@info:tooltip"
+msgid "Double-click any word to insert it into translation"
+msgstr ""
+
+#: src/tm/tmview.cpp:309
+msgctxt "@item Undo action"
+msgid "Batch translation memory filling"
+msgstr ""
+
+#: src/tm/tmview.cpp:312
+msgctxt "@info"
+msgid "Batch translation has been completed."
+msgstr ""
+
+#: src/tm/tmview.cpp:319
+msgctxt "@info"
+msgid "No suggestions with exact matches were found."
+msgstr ""
+
+#: src/tm/tmview.cpp:323
+#, fuzzy
+msgctxt "@title"
+msgid "Batch translation complete"
+msgstr "حدِّث حقوق نسخ الم&ترجم"
+
+#: src/tm/tmview.cpp:337 src/tm/tmview.cpp:352
+#, fuzzy
+msgctxt "@title"
+msgid "Batch translation"
+msgstr "اب&حث في الترجمات"
+
+#: src/tm/tmview.cpp:338 src/tm/tmview.cpp:353
+msgctxt "@info"
+msgid "Batch translation has been scheduled."
+msgstr ""
+
+#: src/tm/tmview.cpp:562
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "File: %1<br />Date: %2"
+msgstr ""
+
+#: src/tm/tmview.cpp:564
+msgctxt "@info:tooltip on TM entry continues"
+msgid "<br />Is not present in the file anymore"
+msgstr ""
+
+#: src/tm/tmview.cpp:582
+msgctxt "@action:inmenu"
+msgid "Remove this entry"
+msgstr ""
+
+#: src/tm/tmview.cpp:584
+msgctxt "@action:inmenu"
+msgid "Open file containing this entry"
+msgstr ""
+
+#: src/tm/tmview.cpp:589
+msgid "Do you really want to remove this entry from translation memory?"
+msgstr ""
+
+#: src/tm/tmview.cpp:589
+#, fuzzy
+#| msgid "Translation Memory"
+msgctxt "@title:window"
+msgid "Translation Memory Entry Removal"
+msgstr "ذاكرة الترجمة"
+
+#: src/tm/tmview.cpp:982
+msgctxt "@item Undo action"
+msgid "Use translation memory suggestion"
+msgstr ""
+
+#: src/webquery/webqueryview.cpp:65
+msgid "Web Queries"
+msgstr ""
+
+#: scripts/msgmerge.py:32
+msgid "Gettext not found"
+msgstr ""
+
+#: scripts/msgmerge.py:32
+msgid "Install gettext package for this feature to work"
+msgstr ""
+
+#: scripts/msgmerge.py:43
+msgid "Updating from templates..."
+msgstr ""
+
+#: scripts/newprojectwizard.py:124
+msgid ""
+"Translate-Toolkit not found. Please install this package for the feature to "
+"work."
+msgstr ""
+
+#: scripts/newprojectwizard.py:134
+msgid "What do you want to do?"
+msgstr ""
+
+#: scripts/newprojectwizard.py:135
+msgid "Identify the kind of project you want:"
+msgstr ""
+
+#: scripts/newprojectwizard.py:137
+#, fuzzy
+msgid "Translate a document"
+msgstr "غير مترجم"
+
+#: scripts/newprojectwizard.py:139
+msgid "Translate application interface"
+msgstr ""
+
+#: scripts/newprojectwizard.py:159
+#, fuzzy
+msgid "Choose a document to be translated"
+msgstr "ملفات لتُفتح"
+
+#: scripts/newprojectwizard.py:160
+#, fuzzy
+msgid "Choose document in a source language."
+msgstr "ملف المصدر المقابل غير موجود"
+
+#: scripts/newprojectwizard.py:162
+#, fuzzy
+msgid "Select file:"
+msgstr "القاموس الإ&فتراضي:"
+
+#: scripts/newprojectwizard.py:169
+#, fuzzy
+msgid "Select a folder:"
+msgstr "القاموس الإ&فتراضي:"
+
+#: scripts/newprojectwizard.py:203
+msgid "Choose project name and location"
+msgstr ""
+
+#: scripts/newprojectwizard.py:204
+msgid "If you choose custom paths then the source files will be copied to it."
+msgstr ""
+
+#: scripts/newprojectwizard.py:207
+msgid "Use initial source dir, generate name automatically"
+msgstr ""
+
+#: scripts/newprojectwizard.py:210
+msgid "Custom paths"
+msgstr ""
+
+#: scripts/newprojectwizard.py:217
+msgid "Location:"
+msgstr ""
+
+#: scripts/newprojectwizard.py:263
+#, fuzzy
+msgid "Choose source and target languages"
+msgstr "ملف المصدر المقابل غير موجود"
+
+#: scripts/newprojectwizard.py:297
+msgid "Choose a type of software project"
+msgstr ""
+
+#: scripts/newprojectwizard.py:298
+msgid "Different projects use different translation files filesystem layout."
+msgstr ""
+
+#: scripts/newprojectwizard.py:300
+msgid "KDE"
+msgstr ""
+
+#: scripts/newprojectwizard.py:317
+msgid "Choose location of your software translation project"
+msgstr ""
+
+#: scripts/newprojectwizard.py:318
+msgid ""
+"Choose whether you already have translation files on disk, or if you want to "
+"download them now."
+msgstr ""
+
+#: scripts/newprojectwizard.py:320
+#, fuzzy
+#| msgctxt "@title actions category"
+#| msgid "Editing"
+msgid "Existing:"
+msgstr "التحرير"
+
+#: scripts/newprojectwizard.py:324
+msgid "Your language's folder containing messages/ and docmessages/ subfolders"
+msgstr ""
+
+#: scripts/newprojectwizard.py:330
+msgid ""
+"Get from svn repository\n"
+"(approx. 20 MB):"
+msgstr ""
+
+#: scripts/newprojectwizard.py:344
+msgid "Local download folder (will/does contain trunk/l10n-kde4/...)"
+msgstr ""
+
+#: scripts/newprojectwizard.py:387
+msgid ""
+"Please install 'subversion' package\n"
+"to have Lokalize download KDE translation files."
+msgstr ""
+
+#: scripts/newprojectwizard.py:387
+msgid "Subversion client not found"
+msgstr ""
+
+#: scripts/widget-text-capture.py:17 scripts/widget-text-capture.py:20
+msgid "Widget Text Capture"
+msgstr ""
+
+#, fuzzy
+#~ msgctxt "@label:textbox"
+#~ msgid "Localized Name:"
+#~ msgstr "الإسم ال&محلي:"
+
+#~ msgctxt "@info:status message entries"
+#~ msgid "Fuzzy: %1"
+#~ msgstr "مبهم: %1"
+
+#~ msgctxt "@label whether entry is fuzzy"
+#~ msgid "Fuzzy:"
+#~ msgstr "مبهم:"
+
+#, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "Original Diff"
+#~ msgstr "الأصلي"
+
+#, fuzzy
+#~ msgctxt "@label:textbox"
+#~ msgid "Translation directory:"
+#~ msgstr "قائمة الترجمة"
+
+#, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "Message Tree"
+#~ msgstr "رسائل:"
+
+#, fuzzy
+#~ msgctxt "@title:column Number of entries"
+#~ msgid "Fuzzy"
+#~ msgstr "مبهم"
+
+#, fuzzy
+#~| msgctxt "@info:status"
+#~| msgid "Untranslated"
+#~ msgid "Untranslated"
+#~ msgstr "غير مترجم"
+
+#, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "Message Context"
+#~ msgstr "فهارس الرسائل"
+
+#, fuzzy
+#~ msgctxt "@label:textbox"
+#~ msgid "Language:"
+#~ msgstr "الل&غة:"
+
+#, fuzzy
+#~| msgctxt "@title actions category"
+#~| msgid "Project"
+#~ msgid "Project Type"
+#~ msgstr "مشروع"
+
+#, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "Scanning Files..."
+#~ msgstr "فحص الملف:"
+
+#, fuzzy
+#~ msgctxt "@title"
+#~ msgid "Scanning complete"
+#~ msgstr "فحص الملف:"

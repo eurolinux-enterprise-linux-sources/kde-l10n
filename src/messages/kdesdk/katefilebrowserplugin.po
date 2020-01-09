@@ -1,0 +1,215 @@
+# translation of katefilebrowserplugin.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: katefilebrowserplugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-16 10:32+0100\n"
+"PO-Revision-Date: 2007-10-14 15:58+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: katefileselector.cpp:62 katefileselector.cpp:79
+#, fuzzy
+msgid "Filesystem Browser"
+msgstr "متصفح نظم الملفات"
+
+#: katefileselector.cpp:62
+msgid "Browse through the filesystem"
+msgstr ""
+
+#: katefileselector.cpp:115
+#, fuzzy
+msgid "File Selector"
+msgstr "منتقي الملفات"
+
+#: katefileselector.cpp:121
+#, fuzzy
+msgid "File Selector Settings"
+msgstr "إعدادات منتقي الملفات"
+
+#: katefileselector.cpp:162
+#, fuzzy
+msgid "Bookmarks"
+msgstr "علامات المواقع"
+
+#: katefileselector.cpp:184
+#, fuzzy
+msgid "Current Document Folder"
+msgstr "مجلد المستند الحالي"
+
+#: katefileselector.cpp:208
+#, fuzzy
+msgid ""
+"<p>Here you can enter a path for a folder to display.</p><p>To go to a "
+"folder previously entered, press the arrow on the right and choose one.</"
+"p><p>The entry has folder completion. Right-click to choose how completion "
+"should behave.</p>"
+msgstr ""
+"<p> هنا أدخل a المسار لـ a مجلد إلى عرض</p><p> إلى اذهب إلى a مجلد ضغط سهم "
+"يعمل يمين و اختيار</p><p> الـ خانة مجلد يمين انقر إلى اختيار</p>"
+
+#: katefileselector.cpp:212
+#, fuzzy
+msgid ""
+"<p>Here you can enter a name filter to limit which files are displayed.</"
+"p><p>To clear the filter, toggle off the filter button to the left.</p><p>To "
+"reapply the last filter used, toggle on the filter button.</p>"
+msgstr ""
+"<p> هنا أدخل a الإسم المرشّح إلى ملفات</p><p> إلى مسح المرشّح بدّل موقف المرشّح "
+"زر إلى يسار</p><p> إلى الأخير المرشّح مُستخدَم بدّل يعمل المرشّح زر</p>"
+
+#: katefileselector.cpp:215
+#, fuzzy
+msgid ""
+"<p>This button clears the name filter when toggled off, or reapplies the "
+"last filter used when toggled on.</p>"
+msgstr "<p> هذا زر الإسم المرشّح موقف أو الأخير المرشّح مُستخدَم يعمل</p>"
+
+#: katefileselector.cpp:362
+#, fuzzy, kde-format
+msgid "Apply last filter (\"%1\")"
+msgstr "طبّق التصفية الأخيرة (\"%1\")"
+
+#: katefileselector.cpp:368
+#, fuzzy
+msgid "Clear filter"
+msgstr "محو المرشح"
+
+#: katefileselector.cpp:624
+#, fuzzy
+msgid "Toolbar"
+msgstr "شريط الأدوات"
+
+#: katefileselector.cpp:626
+#, fuzzy
+msgid "A&vailable actions:"
+msgstr "الأعمال المت&وفرة:"
+
+#: katefileselector.cpp:627
+#, fuzzy
+msgid "S&elected actions:"
+msgstr "الأعمال ال&محددة:"
+
+#: katefileselector.cpp:640
+#, fuzzy
+msgid "Auto Synchronization"
+msgstr "المزامنة التلقائية"
+
+#: katefileselector.cpp:641
+#, fuzzy
+msgid "When a docu&ment becomes active"
+msgstr "عندما يصبح ال&مستند نشطاً"
+
+#: katefileselector.cpp:642
+#, fuzzy
+msgid "When the file selector becomes visible"
+msgstr "عندما يصبح منتقي الملفات ظاهراً"
+
+#: katefileselector.cpp:655
+#, fuzzy
+msgid "Remember &locations:"
+msgstr "تذكر الم&واقع:"
+
+#: katefileselector.cpp:662
+#, fuzzy
+msgid "Remember &filters:"
+msgstr "تذكّر ال&مصفّيات:"
+
+#: katefileselector.cpp:669
+#, fuzzy
+msgid "Session"
+msgstr "الجلسة"
+
+#: katefileselector.cpp:670
+#, fuzzy
+msgid "Restore loca&tion"
+msgstr "استرجع الم&وقع"
+
+#: katefileselector.cpp:671
+#, fuzzy
+msgid "Restore last f&ilter"
+msgstr "استرجع الم&صفي الأخير"
+
+#: katefileselector.cpp:672
+msgid "Show hidden files"
+msgstr ""
+
+#: katefileselector.cpp:700
+#, fuzzy
+msgid ""
+"<p>Decides how many locations to keep in the history of the location combo "
+"box.</p>"
+msgstr ""
+"<p> يقرّر :: يفصل :: يحسُم :: يقضي بحكم إلى إبقاء بوصة تاريخ من موقع مربّع</p>"
+
+#: katefileselector.cpp:705
+#, fuzzy
+msgid ""
+"<p>Decides how many filters to keep in the history of the filter combo box.</"
+"p>"
+msgstr ""
+"<p> يقرّر :: يفصل :: يحسُم :: يقضي بحكم إلى إبقاء بوصة تاريخ من المرشّح مربّع</p>"
+
+#: katefileselector.cpp:710
+#, fuzzy
+msgid ""
+"<p>These options allow you to have the File Selector automatically change "
+"location to the folder of the active document on certain events.</p><p>Auto "
+"synchronization is <em>lazy</em>, meaning it will not take effect until the "
+"file selector is visible.</p><p>None of these are enabled by default, but "
+"you can always sync the location by pressing the sync button in the toolbar."
+"</p>"
+msgstr ""
+"<p> هذه خيارات اسمح إلى ملف منتقيالمختار تغيير موقع إلى مجلد من نشط مستند "
+"يعمل</p><p> تلقائي هو<em></em> الإيطالية ليس تأثير حتّى ملفّ منتقي هو مرئي</"
+"p><p> لا شيء من ممكن أداء افتراضي دائماً مزامنة موقع أداء مزامنة زر بوصة شريط "
+"الأدوات</p>"
+
+#: katefileselector.cpp:719
+#, fuzzy
+msgid ""
+"<p>If this option is enabled (default), the location will be restored when "
+"you start Kate.</p><p><strong>Note</strong> that if the session is handled "
+"by the KDE session manager, the location is always restored.</p>"
+msgstr ""
+"<p> إذا خيار هو ممكن افتراضي موقع تشغيل Kate</p><p><strong> ملاحظة</strong> "
+"IF جلسة هو أداء كيدي جلسة مدير موقع هو دائماً</p>"
+
+#: katefileselector.cpp:723
+#, fuzzy
+msgid ""
+"<p>If this option is enabled (default), the current filter will be restored "
+"when you start Kate.<p><strong>Note</strong> that if the session is handled "
+"by the KDE session manager, the filter is always restored.</"
+"p><p><strong>Note</strong> that some of the autosync settings may override "
+"the restored location if on.</p>"
+msgstr ""
+"<p> إذا خيار هو ممكن افتراضي الحالي المرشّح تشغيل Kate<p><strong> ملاحظة</"
+"strong> IF جلسة هو أداء كيدي جلسة مدير المرشّح هو دائماً</p><p><strong> "
+"ملاحظة</strong> بعض من خصائص أيار تجاوز موقع IF يعمل</p>"
+
+#: katefileselector.cpp:730
+msgid ""
+"<p>If this option is enabled, the file selector will show hidden files in "
+"this session.</p>"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""

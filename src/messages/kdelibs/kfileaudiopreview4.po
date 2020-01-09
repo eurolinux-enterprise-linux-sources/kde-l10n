@@ -1,0 +1,44 @@
+# translation of kfileaudiopreview4.po to
+# Copyright (C) 2004, 2007 Free Software Foundation, Inc.
+#
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kfileaudiopreview4\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-10 11:05+0200\n"
+"PO-Revision-Date: 2009-06-23 08:10+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: mediacontrols_p.h:50
+msgid "start playback"
+msgstr "شغل"
+
+#: mediacontrols_p.h:55
+msgid "pause playback"
+msgstr "اوقف مؤقتا"
+
+#: mediacontrols_p.h:61
+msgid "stop playback"
+msgstr "اوقف"
+
+#: mediacontrols_p.h:66
+msgid "loop: restarts playback at end"
+msgstr "تكرار: تعيد التشغيل من النهاية"
+
+#: kfileaudiopreview.cpp:75
+msgid "Media Player"
+msgstr "مشغَل الوسائط"
+
+#: kfileaudiopreview.cpp:90
+msgid "Play &automatically"
+msgstr "&شغَل تلقائياَ"

@@ -1,0 +1,83 @@
+# translation of strigila_diff.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: strigila_diff\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-08-24 01:25+0200\n"
+"PO-Revision-Date: 2007-10-14 15:59+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: difflineanalyzer.cpp:388
+msgid "CVSDiff"
+msgstr ""
+
+#: difflineanalyzer.cpp:389
+#, fuzzy
+msgid "Diff"
+msgstr "الاختلافات"
+
+#: difflineanalyzer.cpp:390
+msgid "Diff3"
+msgstr ""
+
+#: difflineanalyzer.cpp:391
+#, fuzzy
+msgid "Perforce"
+msgstr "بالضرورة"
+
+#: difflineanalyzer.cpp:392
+#, fuzzy
+msgid "Subversion"
+msgstr "إصدار فرعى"
+
+#: difflineanalyzer.cpp:393 difflineanalyzer.cpp:395 difflineanalyzer.cpp:409
+#: difflineanalyzer.cpp:412
+#, fuzzy
+msgid "Unknown"
+msgstr "مجهول"
+
+#: difflineanalyzer.cpp:403
+#, fuzzy
+msgid "Context"
+msgstr "السياق"
+
+#: difflineanalyzer.cpp:404
+#, fuzzy
+msgid "Ed"
+msgstr "Ed"
+
+#: difflineanalyzer.cpp:405
+#, fuzzy
+msgid "Normal"
+msgstr "عادي"
+
+#: difflineanalyzer.cpp:406
+#, fuzzy
+msgid "RCS"
+msgstr "RCS"
+
+#: difflineanalyzer.cpp:407
+#, fuzzy
+msgid "Unified"
+msgstr "موحّد"
+
+#: difflineanalyzer.cpp:408
+#, fuzzy
+msgid "Not Available (file empty)"
+msgstr "لا متوفر ملفّ فارغ"
+
+#: difflineanalyzer.cpp:410
+#, fuzzy
+msgid "Side by Side"
+msgstr "الجانب أداء الجانب"

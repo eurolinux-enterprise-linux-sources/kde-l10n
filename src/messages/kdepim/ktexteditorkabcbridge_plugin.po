@@ -1,0 +1,34 @@
+# translation of ktexteditorkabcbridge_plugin.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: ktexteditorkabcbridge_plugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-03 10:24+0100\n"
+"PO-Revision-Date: 2007-10-14 15:56+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: ktexteditorkabcbridge.cpp:47
+#, fuzzy
+msgid ""
+"The template needs information about you. It looks like you did not set that "
+"information in the address book. Please set the information to use this "
+"template."
+msgstr ""
+"الـ قالب معلومات حوْل itإيطالياهو مثل ليس set معلومات بوصة رجاء set معلومات "
+"إلى استخدام قالب"
+
+#: ktexteditorkabcbridge.cpp:48
+#, fuzzy
+msgid "Missing personal information"
+msgstr "مفقود معلومات"

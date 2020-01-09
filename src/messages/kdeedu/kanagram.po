@@ -1,0 +1,546 @@
+# translation of kanagram.po to
+# Language AR translations for PACKAGE package.
+#
+# Automatically generated, 2007.
+# Anas Al-Mousa <anas.ali@gmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kanagram\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-08-18 01:29+0200\n"
+"PO-Revision-Date: 2007-10-14 15:40+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: JORDAN\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: kanagram.cpp:57
+msgid "reveal word"
+msgstr "اكشف الكلمة"
+
+#: kanagram.cpp:58
+msgid "hint"
+msgstr "تلْميحة"
+
+#: kanagram.cpp:59
+#, fuzzy
+#| msgid "Quit Kanagram"
+msgid "Next Anagram"
+msgstr "التالي الجناس النّاقص"
+
+#: kanagram.cpp:209
+#, fuzzy
+#| msgid "hint"
+msgid "Show Hint"
+msgstr "اعرض تلميحةالتلميح"
+
+#: kanagram.cpp:215
+#, fuzzy
+#| msgid "reveal word"
+msgid "Reveal Anagram"
+msgstr "كشف الجناس النّاقص"
+
+#: kanagram.cpp:383
+msgid "About Kanagram"
+msgstr "حَوْل كاناجرام(Kanagram)"
+
+#: kanagram.cpp:398
+msgid "About KDE"
+msgstr "حَوْل كي دي إي (KDE)"
+
+#: kanagram.cpp:413
+msgid "Kanagram Handbook"
+msgstr "كتيّب كاناجرام (Kanagram)"
+
+#: kanagram.cpp:429
+msgid "Configure Kanagram"
+msgstr "إعداد كاناجرام(Kanagram)"
+
+#: kanagram.cpp:433
+msgid "Quit Kanagram"
+msgstr "الخروج من كاناجرام (Kanagram)"
+
+#. i18n: file: mainsettingswidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainSettingsWidget)
+#: kanagram.cpp:838 rc.cpp:15 rc.cpp:189
+#, fuzzy
+#| msgid "General"
+msgctxt "@title:group main settings page name"
+msgid "General"
+msgstr "عام"
+
+#. i18n: file: vocabsettingswidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, VocabSettingsWidget)
+#: kanagram.cpp:842 rc.cpp:115 rc.cpp:228
+msgid "Vocabularies"
+msgstr "معاجم"
+
+#: kanagram.cpp:846
+#, fuzzy
+msgid "Shortcuts"
+msgstr "اختصارات"
+
+#. i18n: file: newstuffwidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, NewStuffWidget)
+#: kanagram.cpp:852 rc.cpp:54 rc.cpp:252
+msgid "New Stuff"
+msgstr "أشياء جديدة"
+
+#: kanagram.cpp:931
+#, kde-format
+msgid ""
+"File %1 cannot be found.\n"
+" Please ensure that Kanagram is properly installed."
+msgstr ""
+"لا يمكن إيجاد الملف %1\n"
+"رجاءاً، تأكد من أن كاناجرام (Kanagram) مثبت بالشكل الصحيح"
+
+#: kanagram.cpp:932
+#, fuzzy
+msgid "Error"
+msgstr "خطأ"
+
+#: kanagramgame.cpp:204
+#, fuzzy
+#| msgid "hint"
+msgid "No hint"
+msgstr "لا تلْميحة"
+
+#: main.cpp:31
+msgid "Kanagram"
+msgstr "كاناجرام(Kanagram)"
+
+#: main.cpp:31
+msgid "An anagram game"
+msgstr "لعبة ترتيب أحرف"
+
+#: main.cpp:33
+#, fuzzy
+msgid ""
+"© 2005 Joshua Keel\n"
+"© 2005 Danny Allen\n"
+"© 2007 Jeremy Whiting"
+msgstr "يوشع عارضة القعر n داني ألين n جيرمي طعام سمك"
+
+#: main.cpp:34
+#, fuzzy
+msgid "Joshua Keel"
+msgstr "يوشع عارضة القعر"
+
+#: main.cpp:34
+msgid "Coding"
+msgstr "تشفير"
+
+#: main.cpp:35
+#, fuzzy
+msgid "Danny Allen"
+msgstr "داني آلن (Danny Allen)"
+
+#: main.cpp:35
+msgid "Design, Graphics and many Vocabularies"
+msgstr "تصميمٌ، رسومياتٌ و معاجمُ كثيرةٌ"
+
+#: main.cpp:36
+#, fuzzy
+msgid "Jeremy Whiting"
+msgstr "جيرمي طعام سمك"
+
+#: main.cpp:36
+#, fuzzy
+msgid "Maintainer"
+msgstr "المشرف"
+
+#: main.cpp:37
+#, fuzzy
+msgid "Artemiy Pavlov"
+msgstr "بافلوف"
+
+#: main.cpp:37
+msgid "Sound effects"
+msgstr "مؤثرات صوتية"
+
+#: main.cpp:38
+msgid "Pino Toscano"
+msgstr ""
+
+#: main.cpp:38
+#, fuzzy
+msgid "Italian Data Files"
+msgstr "ملفات البيانات الإيطالية"
+
+#: main.cpp:39
+#, fuzzy
+msgid "Kris Thomsen"
+msgstr "كريس"
+
+#: main.cpp:39
+#, fuzzy
+msgid "Danish Data Files"
+msgstr "دانماركي البيانات ملفات"
+
+#: main.cpp:40
+#, fuzzy
+msgid "Patrick Spendrin"
+msgstr "باتريك"
+
+#: main.cpp:40
+#, fuzzy
+msgid "German Data Files"
+msgstr "ملفات البيانات الألمانيّة"
+
+#: main.cpp:41
+#, fuzzy
+msgid "Eric Krüse"
+msgstr "Eric"
+
+#: main.cpp:41
+#, fuzzy
+msgid "British English Data Files"
+msgstr "ملفات البيانات الإنجليزية البريطانيّة"
+
+#: main.cpp:42
+msgid "Hanna Scott"
+msgstr ""
+
+#: main.cpp:42
+#, fuzzy
+msgid "Swedish Data Files"
+msgstr "دانماركي البيانات ملفات"
+
+#: main.cpp:43
+msgid "Jure Repinc"
+msgstr ""
+
+#: main.cpp:43
+#, fuzzy
+msgid "Slovenian Data Files"
+msgstr "ملفات البيانات الإيطالية"
+
+#: main.cpp:44
+msgid "Yuri Chornoivan"
+msgstr ""
+
+#: main.cpp:44
+#, fuzzy
+msgid "Ukranian Data Files"
+msgstr "ملفات البيانات الإيطالية"
+
+#: mainsettings.cpp:81
+#, fuzzy
+msgctxt "@item:inlistbox no language for that locale"
+msgid "None"
+msgstr "لا شيء"
+
+#. i18n: file: kanagram.kcfg:9
+#. i18n: ectx: label, entry (hintHideTime), group (kanagram)
+#: rc.cpp:3
+#, fuzzy
+msgid ""
+"This setting allows you to set how long Kanagram's hint bubble is shown."
+msgstr "هذا إلى set كاناجرام(Kanagram) s تلْميحة هو."
+
+#. i18n: file: kanagram.kcfg:13
+#. i18n: ectx: label, entry (useSounds), group (kanagram)
+#. i18n: file: mainsettingswidget.ui:93
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_useSounds)
+#: rc.cpp:6 rc.cpp:48 rc.cpp:222
+msgid "Turns sounds on/off."
+msgstr "يشغّل و يطفئ الأصوات"
+
+#. i18n: file: kanagram.kcfg:17
+#. i18n: ectx: label, entry (defaultVocab), group (kanagram)
+#: rc.cpp:9
+#, fuzzy
+msgid "Set the default vocabulary"
+msgstr "ضبط افتراضي"
+
+#. i18n: file: kanagram.kcfg:21
+#. i18n: ectx: label, entry (dataLanguage), group (kanagram)
+#: rc.cpp:12
+#, fuzzy
+msgid "Set the default translation"
+msgstr "ضبط افتراضي"
+
+#. i18n: file: mainsettingswidget.ui:16
+#. i18n: ectx: property (whatsThis), widget (QWidget, MainSettingsWidget)
+#: rc.cpp:18 rc.cpp:192
+#, fuzzy
+msgid ""
+"This setting allows you to set the length of time Kanagram's hint bubble is "
+"shown."
+msgstr "هذا إلى set الطول من وقت كاناجرام(Kanagram) s تلْميحة هو."
+
+#. i18n: file: mainsettingswidget.ui:22
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:21 rc.cpp:195
+msgid "Hints"
+msgstr "تلميحات"
+
+#. i18n: file: mainsettingswidget.ui:28
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:24 rc.cpp:198
+msgid "Auto-hide hints after:"
+msgstr "أزل التلميحات تلقائياً بعْد:"
+
+#. i18n: file: mainsettingswidget.ui:36
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#: rc.cpp:27 rc.cpp:201
+msgid "Do Not Auto-Hide Hints"
+msgstr "لا تخفي التلميحات تلقائياً"
+
+#. i18n: file: mainsettingswidget.ui:41
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#: rc.cpp:30 rc.cpp:204
+msgid "3 Seconds"
+msgstr "3 ثواني"
+
+#. i18n: file: mainsettingswidget.ui:46
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#: rc.cpp:33 rc.cpp:207
+msgid "5 Seconds"
+msgstr "5 ثواني"
+
+#. i18n: file: mainsettingswidget.ui:51
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#: rc.cpp:36 rc.cpp:210
+msgid "7 Seconds"
+msgstr "7 ثواني"
+
+#. i18n: file: mainsettingswidget.ui:56
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#: rc.cpp:39 rc.cpp:213
+msgid "9 Seconds"
+msgstr "9 ثواني"
+
+#. i18n: file: mainsettingswidget.ui:67
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: rc.cpp:42 rc.cpp:216
+msgid "Vocabulary Options"
+msgstr "خيارات المعجم"
+
+# لا أدري هل يقصد بكلمة play  الأصوات أم اللعب باللعبة بحدّ ذاته
+#. i18n: file: mainsettingswidget.ui:75
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:45 rc.cpp:219
+#, fuzzy
+msgid "Play using:"
+msgstr "تشغيل:"
+
+#. i18n: file: mainsettingswidget.ui:96
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useSounds)
+#: rc.cpp:51 rc.cpp:225
+msgid "Use sou&nds"
+msgstr "استخدمْ الأ&صوات"
+
+#. i18n: file: newstuffwidget.ui:29
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:57 rc.cpp:255
+msgid ""
+"Kanagram allows you to download\n"
+"new data from the Internet.\n"
+"\n"
+"If you are connected to the Internet, press \n"
+"the button to get new vocabulary files."
+msgstr ""
+"كاناجرام (Kanagram) يسمح لك بإنزال\n"
+"بيانات جديدة من الانترنت.\n"
+"\n"
+"إذا كنت متصلاً بالإنترنت،فاضغط \n"
+"الزر للحصول على ملفات معاجم جديدة"
+
+#. i18n: file: newstuffwidget.ui:52
+#. i18n: ectx: property (text), widget (QPushButton, btnGetNew)
+#: rc.cpp:64 rc.cpp:262
+msgid "Download New Vocabularies"
+msgstr "أنزِل معاجماً جديدة"
+
+#. i18n: file: vocabeditwidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, VocabEditWidget)
+#: rc.cpp:67 rc.cpp:141
+msgid "Vocabulary Editor"
+msgstr "محرر المعاجم"
+
+#. i18n: file: vocabeditwidget.ui:74
+#. i18n: ectx: property (text), widget (QPushButton, btnSave)
+#: rc.cpp:70 rc.cpp:144
+#, fuzzy
+msgid "&Save"
+msgstr "ا&حفظ"
+
+#. i18n: file: vocabeditwidget.ui:81
+#. i18n: ectx: property (text), widget (QPushButton, btnClose)
+#: rc.cpp:73 rc.cpp:147
+#, fuzzy
+msgid "&Close"
+msgstr "أ&غلق"
+
+#. i18n: file: vocabeditwidget.ui:127
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
+#: rc.cpp:76 rc.cpp:150
+#, fuzzy
+#| msgid ""
+#| "The description of the vocabulary. If you're creating a new vocabulary, "
+#| "add a description so that users of your vocabulary will know what kinds "
+#| "of words it contains."
+msgid ""
+"The description of the vocabulary. If you are creating a new vocabulary, add "
+"a description so that users of your vocabulary will know what kinds of words "
+"it contains."
+msgstr ""
+"الـ الوصف من إذا إنشاء a جديد اضف a الوصف مستخدمون من من الإيطالية يحتوي."
+
+#. i18n: file: vocabeditwidget.ui:130
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:79 rc.cpp:153
+#, fuzzy
+#| msgid "Description:"
+msgid "&Description:"
+msgstr "ال&وصف:"
+
+#. i18n: file: vocabeditwidget.ui:143
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#: rc.cpp:82 rc.cpp:156
+msgid "The name of the vocabulary you are editing."
+msgstr "اسم المعجم الذي تقوم بتحريره"
+
+#. i18n: file: vocabeditwidget.ui:146
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:85 rc.cpp:159
+#, fuzzy
+#| msgid "Vocabulary name:"
+msgid "Vocabulary &name:"
+msgstr "المفردات الإسم:"
+
+#. i18n: file: vocabeditwidget.ui:195
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnRemoveWord)
+#: rc.cpp:88 rc.cpp:162
+msgid "Removes the selected word."
+msgstr "يزيل الكلمة المُخْتَارة"
+
+#. i18n: file: vocabeditwidget.ui:198
+#. i18n: ectx: property (text), widget (QPushButton, btnRemoveWord)
+#: rc.cpp:91 rc.cpp:165
+#, fuzzy
+#| msgid "Remove Word"
+msgid "&Remove Word"
+msgstr "احذف كلمة"
+
+#. i18n: file: vocabeditwidget.ui:205
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnNewWord)
+#: rc.cpp:94 rc.cpp:168
+msgid "Creates a new word."
+msgstr "يُنْشِئ كلمة جديدة"
+
+#. i18n: file: vocabeditwidget.ui:208
+#. i18n: ectx: property (text), widget (QPushButton, btnNewWord)
+#: rc.cpp:97 rc.cpp:171
+#, fuzzy
+#| msgid "New Word"
+msgid "&New Word"
+msgstr "جديد كلمة"
+
+#. i18n: file: vocabeditwidget.ui:217
+#. i18n: ectx: property (whatsThis), widget (QListWidget, lboxWords)
+#: rc.cpp:100 rc.cpp:174
+msgid "The list of words in the vocabulary."
+msgstr "قائمة الكلمات الموجودة في المعجم."
+
+#. i18n: file: vocabeditwidget.ui:246
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3)
+#: rc.cpp:103 rc.cpp:177
+msgid "The selected word. This box allows you to edit the selected word."
+msgstr "الكلمة المختارة. هذا الصندوق يسمح لك بتحرير الكلمة المختارة"
+
+#. i18n: file: vocabeditwidget.ui:249
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:106 rc.cpp:180
+#, fuzzy
+#| msgid "Word:"
+msgid "&Word:"
+msgstr "كلمة:"
+
+#. i18n: file: vocabeditwidget.ui:265
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
+#: rc.cpp:109 rc.cpp:183
+msgid "The selected hint. Add a hint to aid in guessing the word."
+msgstr "التلميحة المختارة. أضف تلميحة للمساعدة في تخمين الكلمة"
+
+#. i18n: file: vocabeditwidget.ui:268
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:112 rc.cpp:186
+#, fuzzy
+#| msgid "Hint:"
+msgid "&Hint:"
+msgstr "تلميحةالتلميح:"
+
+#. i18n: file: vocabsettingswidget.ui:71
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnCreateNew)
+#: rc.cpp:118 rc.cpp:231
+msgid "Creates a new vocabulary."
+msgstr "يُنْشئُ معجماً جديدا."
+
+#. i18n: file: vocabsettingswidget.ui:74
+#. i18n: ectx: property (text), widget (QPushButton, btnCreateNew)
+#: rc.cpp:121 rc.cpp:234
+#, fuzzy
+#| msgid "Create New"
+msgid "Create &New"
+msgstr "&أنشئ جديد"
+
+#. i18n: file: vocabsettingswidget.ui:84
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnEdit)
+#: rc.cpp:124 rc.cpp:237
+msgid "Edits the selected vocabulary."
+msgstr "يحررُ المعجمَ المختار"
+
+#. i18n: file: vocabsettingswidget.ui:87
+#. i18n: ectx: property (text), widget (QPushButton, btnEdit)
+#: rc.cpp:127 rc.cpp:240
+#, fuzzy
+msgid "&Edit"
+msgstr "&حرّر"
+
+#. i18n: file: vocabsettingswidget.ui:96
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, lviewVocab)
+#: rc.cpp:130 rc.cpp:243
+msgid "The list of installed vocabularies."
+msgstr "قائمة المعاجم المثبّتة"
+
+#. i18n: file: vocabsettingswidget.ui:103
+#. i18n: ectx: property (text), widget (QTreeWidget, lviewVocab)
+#: rc.cpp:133 rc.cpp:246
+msgid "Title"
+msgstr "عنوان"
+
+#. i18n: file: vocabsettingswidget.ui:108
+#. i18n: ectx: property (text), widget (QTreeWidget, lviewVocab)
+#: rc.cpp:136 rc.cpp:249
+msgid "Description"
+msgstr "وَصْف"
+
+#: rc.cpp:137
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:138
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"
+
+#: vocabedit.cpp:113
+msgid "Would you like to save your changes?"
+msgstr "هل تحبُّ أن تحفظَ تعديلاتِكَ؟"
+
+#: vocabedit.cpp:113
+msgid "Save Changes Dialog"
+msgstr "حوار حفظ التعديلات"

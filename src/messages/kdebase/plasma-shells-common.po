@@ -1,0 +1,169 @@
+# translation of plasma-shells-common.po to Arabic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# zayed <zayed.alsaidi@gmail.com>, 2008, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-shells-common\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-08-26 01:26+0200\n"
+"PO-Revision-Date: 2009-07-08 17:09+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"\n"
+"\n"
+
+#: appletbrowser.cpp:96
+msgid "All Widgets"
+msgstr "جميع الودجات"
+
+#: appletbrowser.cpp:115 appletbrowser.cpp:119
+#, kde-format
+msgctxt ""
+"%1 is the entity (person, staff, organization...) which recommends the widget"
+msgid "Recommended by %1"
+msgstr "موصى بواسطة %1"
+
+#: appletbrowser.cpp:125
+msgid "My Favorite Widgets"
+msgstr "ودجاتي المفضلة"
+
+#: appletbrowser.cpp:128 appletbrowser.cpp:164
+msgid "Widgets I Have Used Before"
+msgstr "الودجات التي استخدمتها سابقا"
+
+#: appletbrowser.cpp:131
+msgid "Currently Running Widgets"
+msgstr "الودجات التي تعمل حاليا"
+
+#: appletbrowser.cpp:135
+msgid "Categories:"
+msgstr "التصنيف:"
+
+#: appletbrowser.cpp:447
+msgid "Download New Plasma Widgets"
+msgstr "نزل ودجات بلازما جديدة"
+
+#: appletbrowser.cpp:459
+#, kde-format
+msgctxt ""
+"%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-*."
+"desktop files"
+msgid "Download New %1"
+msgstr "نزل %1 جديد"
+
+#: appletbrowser.cpp:469
+msgid "Install Widget From Local File..."
+msgstr "ثبت ودجة من ملف محلي..."
+
+#: appletbrowser.cpp:480
+msgid "Widgets"
+msgstr "الودجات"
+
+#: appletbrowser.cpp:484
+msgid "Add Widget"
+msgstr "أضف ودجة"
+
+#: appletbrowser.cpp:485
+msgid "Install New Widgets"
+msgstr "ثبت ودجات جديدة"
+
+#: appletbrowser.cpp:487
+msgid "Get New Widgets"
+msgstr "احصل على ودجات جديدة"
+
+#: appletbrowser.cpp:491
+msgid "Close the dialog"
+msgstr "أغلق الحوار"
+
+#: appletbrowser.cpp:492
+msgid ""
+"<qt>When clicking <b>Close</b>, this dialog will be closed with no further "
+"action taken.</qt>"
+msgstr "<qt>عند النقر <b>أغلق</b>فإن هذا الحوار سيغلق بدون أيمتخذة أخرى.</qt>"
+
+#: appletbrowser.cpp:493
+msgid "Add selected widgets"
+msgstr "أضف الودجات المنتقاة"
+
+#: appletbrowser.cpp:494
+msgid ""
+"<qt>When clicking <b>Add Widget</b>, the selected widgets will be added to "
+"your desktop.</qt>"
+msgstr ""
+"<qt>عند النقر <b>اضف ودجة</b>فإن الودجات المنتقاة ستتم إضافتهاإلى سطح مكتبك."
+"</qt>"
+
+#: appletbrowser.cpp:495
+msgid "Install new widgets"
+msgstr "ثبت الودجات الجديدة"
+
+#: appletbrowser.cpp:496
+msgid ""
+"<qt>Selecting <b>Get New Widgets</b> will show a window that allows you to "
+"download new widgets directly from the Internet, while Install From File "
+"allows you to add new widgets from files you have on disk.</qt>"
+msgstr ""
+"<qt>اختيار <b>احصل على ودجات جديدة</b> سيعرض نافذة تسمح لك بتزيل ودجات جديدة "
+"مباشرة من الإنترنت ، بينما تثب من ملف سيسمحلك بإضافة الودجات الجديدة من "
+"الملفات التي تملكها على قرصك الصلب.</qt>"
+
+#: kcategorizeditemsview.cpp:38
+msgid "Enter search phrase here"
+msgstr "أدخل عبارة البحث هنا"
+
+#: kcategorizeditemsviewmodels.cpp:72
+msgid "Filters"
+msgstr "المرشحات"
+
+#: openwidgetassistant.cpp:46
+msgid "Select the type of widget to install from the list below."
+msgstr "اختر نوع الودجة لتثبتها من القائمة بالأسفل."
+
+#: openwidgetassistant.cpp:54
+msgid "Plasmoid: Native plasma widget"
+msgstr "بلازمويد: ودجة بلازما أصلية"
+
+#: openwidgetassistant.cpp:75
+msgid "Install New Widget From File"
+msgstr "ثبت ودجة جديدة من ملف"
+
+#: openwidgetassistant.cpp:80
+msgid "Select File"
+msgstr "اختر ملف"
+
+#: openwidgetassistant.cpp:172
+#, kde-format
+msgid "Could not load the required installer %1. The error given was: %2"
+msgstr "لا يمكن تحميل المثبت المطلوب %1. الخطأ المعطى هو: %2"
+
+#: openwidgetassistant.cpp:175 openwidgetassistant.cpp:187
+msgid "Installation Failure"
+msgstr "فشل الثبيت"
+
+#: openwidgetassistant.cpp:186
+#, kde-format
+msgid "Installing the package %1 failed."
+msgstr "تثبيت الحزمة %1 فشل."
+
+#: plasmaappletitemmodel.cpp:139
+msgid "Containments"
+msgstr "الحاويات"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"

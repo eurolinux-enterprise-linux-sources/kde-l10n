@@ -1,0 +1,1699 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: libconversion\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-08-27 01:27+0200\n"
+"PO-Revision-Date: 2009-07-11 17:50+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: area.cpp:30
+msgid "Area"
+msgstr "المساحة"
+
+#: area.cpp:31 volume.cpp:32
+msgctxt "area unit"
+msgid "meter"
+msgstr "متر"
+
+#: area.cpp:31 volume.cpp:32
+msgctxt "area unit"
+msgid "meters"
+msgstr "أمتار"
+
+#: area.cpp:32
+msgctxt "area unit"
+msgid "hectares"
+msgstr "هكتارات"
+
+#: area.cpp:33
+msgctxt "area unit"
+msgid "hectare"
+msgstr "هكتار"
+
+#: area.cpp:35 area.cpp:36
+msgctxt "area unit"
+msgid "acre"
+msgstr "أكر"
+
+#: area.cpp:35
+msgctxt "area unit"
+msgid "acres"
+msgstr "أكرات"
+
+#: area.cpp:37
+msgctxt "area unit"
+msgid "square foot"
+msgstr "قدم مربع"
+
+#: area.cpp:37
+msgctxt "area unit"
+msgid "square feet"
+msgstr "أقدام مربعة"
+
+#: area.cpp:38
+msgctxt "area unit: square feet"
+msgid "ft²"
+msgstr "قدم²"
+
+#: area.cpp:39
+msgctxt "area unit: square foot"
+msgid "square ft"
+msgstr "قدم مربع"
+
+#: area.cpp:40
+msgctxt "area unit: square foot"
+msgid "sq foot"
+msgstr "ق.مربع"
+
+#: area.cpp:40
+msgctxt "area unit: square foot"
+msgid "sq ft"
+msgstr "ق.م"
+
+#: area.cpp:41
+msgctxt "area unit: square feet"
+msgid "sq feet"
+msgstr "أقدام مربعة"
+
+#: area.cpp:41
+msgctxt "area unit: square feet"
+msgid "feet²"
+msgstr "قدم²"
+
+#: area.cpp:42 area.cpp:44
+msgctxt "area unit"
+msgid "square inch"
+msgstr "بوصة مربعة"
+
+#: area.cpp:42
+msgctxt "area unit"
+msgid "square inches"
+msgstr "بوصات مربعة"
+
+#: area.cpp:43
+msgctxt "area unit: square inches"
+msgid "in²"
+msgstr "بوصة²"
+
+#: area.cpp:44
+msgctxt "area unit: square inch"
+msgid "square in"
+msgstr "بوصة مربعة"
+
+#: area.cpp:45
+msgctxt "area unit: square inch"
+msgid "sq inches"
+msgstr "بوصة مربعة"
+
+#: area.cpp:45
+msgctxt "area unit: square inch"
+msgid "sq inch"
+msgstr "بوصة مربعة"
+
+#: area.cpp:46
+msgctxt "area unit: square inch"
+msgid "sq in"
+msgstr "بوصة مربعة"
+
+#: area.cpp:46
+msgctxt "area unit: square inches"
+msgid "inch²"
+msgstr "بوصة²"
+
+#: area.cpp:47
+msgctxt "area unit"
+msgid "square mile"
+msgstr "ميل مربع"
+
+#: area.cpp:47
+msgctxt "area unit"
+msgid "square miles"
+msgstr "أميال مربعة"
+
+#: area.cpp:48
+msgctxt "area unit: square miles"
+msgid "mi²"
+msgstr "ميل²"
+
+#: area.cpp:49
+msgctxt "area unit: square miles"
+msgid "square mi"
+msgstr "ميل مربع"
+
+#: area.cpp:50
+msgctxt "area unit: square miles"
+msgid "sq miles"
+msgstr "أميال مربع"
+
+#: area.cpp:50
+msgctxt "area unit: square miles"
+msgid "sq mile"
+msgstr "ميل مبريع"
+
+#: area.cpp:51
+msgctxt "area unit: square miles"
+msgid "sq mi"
+msgstr "ميل مربع"
+
+#: area.cpp:51
+msgctxt "area unit: square miles"
+msgid "mile²"
+msgstr "ميل²"
+
+#: currency.cpp:40
+msgid "Currency"
+msgstr "العملة"
+
+#: currency.cpp:44
+msgid "euro"
+msgstr "يورو"
+
+#: currency.cpp:44
+msgid "euros"
+msgstr "يوروات"
+
+#: currency.cpp:47
+msgid "schilling"
+msgstr " شلنج"
+
+#: currency.cpp:47
+msgid "schillings"
+msgstr "شلنجات"
+
+#: currency.cpp:47
+msgid "austria"
+msgstr "النمسا"
+
+#: currency.cpp:48 currency.cpp:51 currency.cpp:55 currency.cpp:78
+msgid "franc"
+msgstr "فرنك"
+
+#: currency.cpp:48 currency.cpp:51 currency.cpp:55 currency.cpp:78
+msgid "francs"
+msgstr "فركات"
+
+#: currency.cpp:48
+msgid "belgium"
+msgstr "بليجكا"
+
+#: currency.cpp:49
+msgid "guilder"
+msgstr "غيلدر"
+
+#: currency.cpp:49
+msgid "guilders"
+msgstr "غيلدرات"
+
+#: currency.cpp:49
+msgid "netherlands"
+msgstr "هولندا"
+
+#: currency.cpp:50
+msgid "markka"
+msgstr ""
+
+#: currency.cpp:50
+msgid "markkas"
+msgstr ""
+
+#: currency.cpp:50
+msgid "finland"
+msgstr "فلندا"
+
+#: currency.cpp:51
+msgid "france"
+msgstr ""
+
+#: currency.cpp:52
+msgid "mark"
+msgstr ""
+
+#: currency.cpp:52
+msgid "marks"
+msgstr ""
+
+#: currency.cpp:52
+msgid "germany"
+msgstr "ألمانيا"
+
+#: currency.cpp:53
+msgid "irish pound"
+msgstr ""
+
+#: currency.cpp:53
+msgid "irish pounds"
+msgstr ""
+
+#: currency.cpp:53
+msgid "ireland"
+msgstr "ايرلندا"
+
+#: currency.cpp:54 currency.cpp:82
+msgid "lira"
+msgstr ""
+
+#: currency.cpp:54 currency.cpp:82
+msgid "liras"
+msgstr ""
+
+#: currency.cpp:54
+msgid "italy"
+msgstr "إيطاليا"
+
+#: currency.cpp:55
+msgid "luxembourg"
+msgstr "لوكسمبروغ"
+
+#: currency.cpp:56
+msgid "escudo"
+msgstr ""
+
+#: currency.cpp:56
+msgid "escudos"
+msgstr ""
+
+#: currency.cpp:56
+msgid "portugal"
+msgstr "البرتغال"
+
+#: currency.cpp:57
+msgid "peseta"
+msgstr ""
+
+#: currency.cpp:57
+msgid "pesetas"
+msgstr ""
+
+#: currency.cpp:57
+msgid "spain"
+msgstr "أسبانيا"
+
+#: currency.cpp:58
+msgid "drachma"
+msgstr ""
+
+#: currency.cpp:58
+msgid "drachmas"
+msgstr ""
+
+#: currency.cpp:58
+msgid "greece"
+msgstr ""
+
+#: currency.cpp:59
+msgid "tolar"
+msgstr ""
+
+#: currency.cpp:59
+msgid "tolars"
+msgstr ""
+
+#: currency.cpp:59
+msgid "slovenia"
+msgstr ""
+
+#: currency.cpp:60
+msgid "cypriot pound"
+msgstr ""
+
+#: currency.cpp:60
+msgid "cypriot pounds"
+msgstr ""
+
+#: currency.cpp:60
+msgid "cyprus"
+msgstr "قبرص"
+
+#: currency.cpp:61
+msgid "maltese lira"
+msgstr ""
+
+#: currency.cpp:61
+msgid "maltese liras"
+msgstr ""
+
+#: currency.cpp:61
+msgid "malta"
+msgstr ""
+
+#: currency.cpp:62 currency.cpp:68
+msgid "koruna"
+msgstr ""
+
+#: currency.cpp:62 currency.cpp:68
+msgid "korunas"
+msgstr ""
+
+#: currency.cpp:62
+msgid "slovakia"
+msgstr ""
+
+#: currency.cpp:65
+msgid "dollar"
+msgstr "دولار"
+
+#: currency.cpp:65
+msgid "dollars"
+msgstr "دولارات"
+
+#: currency.cpp:65
+msgid "usa"
+msgstr "الولايات المتحدة"
+
+#: currency.cpp:66
+msgid "yen"
+msgstr "ين"
+
+#: currency.cpp:66
+msgid "yens"
+msgstr "ينات"
+
+#: currency.cpp:66
+msgid "japan"
+msgstr "اليابان"
+
+#: currency.cpp:67
+msgid "lev"
+msgstr ""
+
+#: currency.cpp:67
+msgid "levs"
+msgstr ""
+
+#: currency.cpp:67
+msgid "bulgaria"
+msgstr "بلغاريا"
+
+#: currency.cpp:68
+msgid "czech"
+msgstr "التشيك"
+
+#: currency.cpp:69
+msgid "danish krone"
+msgstr ""
+
+#: currency.cpp:69
+msgid "danish krones"
+msgstr ""
+
+#: currency.cpp:69
+msgid "denmark"
+msgstr "الدينمارك"
+
+#: currency.cpp:70
+msgid "kroon"
+msgstr ""
+
+#: currency.cpp:70
+msgid "kroons"
+msgstr ""
+
+#: currency.cpp:70
+msgid "estonia"
+msgstr "أستونيا"
+
+#: currency.cpp:71
+msgid "pound"
+msgstr "جنيه"
+
+#: currency.cpp:71
+msgid "pounds"
+msgstr "جنيهات"
+
+#: currency.cpp:71
+msgid "UK"
+msgstr "بريطانيا"
+
+#: currency.cpp:71
+msgid "sterling"
+msgstr "سترليني"
+
+#: currency.cpp:71
+msgid "sterlings"
+msgstr "سترلينات"
+
+#: currency.cpp:72
+msgid "forint"
+msgstr ""
+
+#: currency.cpp:72
+msgid "forints"
+msgstr ""
+
+#: currency.cpp:72
+msgid "hungary"
+msgstr "هنجاريا"
+
+#: currency.cpp:73
+msgid "litas"
+msgstr ""
+
+#: currency.cpp:73
+msgid "litass"
+msgstr ""
+
+#: currency.cpp:73
+msgid "lithuania"
+msgstr ""
+
+#: currency.cpp:74
+msgid "lats"
+msgstr ""
+
+#: currency.cpp:74
+msgid "latss"
+msgstr ""
+
+#: currency.cpp:74
+msgid "latvia"
+msgstr ""
+
+#: currency.cpp:75
+msgid "zloty"
+msgstr ""
+
+#: currency.cpp:75
+msgid "zlotys"
+msgstr ""
+
+#: currency.cpp:75
+msgid "poland"
+msgstr "بولندا"
+
+#: currency.cpp:76
+msgid "leu"
+msgstr ""
+
+#: currency.cpp:76
+msgid "leus"
+msgstr ""
+
+#: currency.cpp:76
+msgid "romania"
+msgstr "رومانيا"
+
+#: currency.cpp:77
+msgid "krona"
+msgstr ""
+
+#: currency.cpp:77
+msgid "kronas"
+msgstr ""
+
+#: currency.cpp:77
+msgid "sweden"
+msgstr "السويد"
+
+#: currency.cpp:78
+msgid "switzerland"
+msgstr "سويسرا"
+
+#: currency.cpp:79
+msgid "norwegian krone"
+msgstr ""
+
+#: currency.cpp:79
+msgid "norwegian krones"
+msgstr ""
+
+#: currency.cpp:79
+msgid "norway"
+msgstr "النرويج"
+
+#: currency.cpp:80
+msgid "kuna"
+msgstr ""
+
+#: currency.cpp:80
+msgid "kunas"
+msgstr ""
+
+#: currency.cpp:80
+msgid "croatia"
+msgstr ""
+
+#: currency.cpp:81
+msgid "rouble"
+msgstr ""
+
+#: currency.cpp:81
+msgid "roubles"
+msgstr ""
+
+#: currency.cpp:81
+msgid "russia"
+msgstr "روسيا"
+
+#: currency.cpp:82
+msgid "turkey"
+msgstr "تركيا"
+
+#: currency.cpp:83
+msgid "australian dollar"
+msgstr "دولار استرالي"
+
+#: currency.cpp:83
+msgid "australian dollars"
+msgstr "دولارات استرالية"
+
+#: currency.cpp:83
+msgid "australia"
+msgstr "أستراليا"
+
+#: currency.cpp:84
+msgid "real"
+msgstr "ريال"
+
+#: currency.cpp:84
+msgid "reals"
+msgstr "ريالات"
+
+#: currency.cpp:84
+msgid "brasilia"
+msgstr "برازليا"
+
+#: currency.cpp:85
+msgid "canadian dollar"
+msgstr "دولار كندي"
+
+#: currency.cpp:85
+msgid "canadian dollars"
+msgstr "دولارات كندية"
+
+#: currency.cpp:85
+msgid "canada"
+msgstr "كندا"
+
+#: currency.cpp:86
+msgid "yuan"
+msgstr "يوان"
+
+#: currency.cpp:86
+msgid "yuans"
+msgstr "يوانات"
+
+#: currency.cpp:86
+msgid "china"
+msgstr "الصين"
+
+#: currency.cpp:87
+msgid "hong kong dollar"
+msgstr "دولار هونج كونج"
+
+#: currency.cpp:87
+msgid "hong kong dollars"
+msgstr "دولارات هونج كونج"
+
+#: currency.cpp:87
+msgid "hong kong"
+msgstr "هونج كونج"
+
+#: currency.cpp:88
+msgid "rupiah"
+msgstr "روبية"
+
+#: currency.cpp:88
+msgid "rupiahs"
+msgstr "روبيات"
+
+#: currency.cpp:88
+msgid "indonesia"
+msgstr "أندونسيا"
+
+#: currency.cpp:89
+msgid "rupee"
+msgstr "روبية"
+
+#: currency.cpp:89
+msgid "rupees"
+msgstr "روبيات"
+
+#: currency.cpp:89
+msgid "india"
+msgstr "الهند"
+
+#: currency.cpp:90
+msgid "won"
+msgstr "ون"
+
+#: currency.cpp:90
+msgid "wons"
+msgstr "ونات"
+
+#: currency.cpp:90
+msgid "south korea"
+msgstr "كوريا الجنوبية"
+
+#: currency.cpp:91
+msgid "mexican peso"
+msgstr "بيزو مكسيكية"
+
+#: currency.cpp:91
+msgid "mexican pesos"
+msgstr "بيزوات مكسكية"
+
+#: currency.cpp:91
+msgid "mexico"
+msgstr "المكسيك"
+
+#: currency.cpp:92
+msgid "ringgit"
+msgstr "رنجات"
+
+#: currency.cpp:92
+msgid "ringgits"
+msgstr "رنجات"
+
+#: currency.cpp:92
+msgid "malaysia"
+msgstr "ماليزيا"
+
+#: currency.cpp:93
+msgid "new zealand dollar"
+msgstr "دولار نيوزلندي"
+
+#: currency.cpp:93
+msgid "new zealand dollars"
+msgstr "دولارات نيوزلندية"
+
+#: currency.cpp:93
+msgid "new zealand"
+msgstr "نيوزلندا"
+
+#: currency.cpp:94
+msgid "philippine peso"
+msgstr "بيزو فلبينية"
+
+#: currency.cpp:94
+msgid "philippine pesos"
+msgstr "بيزوات فلبينية"
+
+#: currency.cpp:94
+msgid "philippines"
+msgstr "الفلبين"
+
+#: currency.cpp:95
+msgid "singapore dollar"
+msgstr "دولار سنغفوري"
+
+#: currency.cpp:95
+msgid "singapore dollars"
+msgstr "دولارات سنغفورية"
+
+#: currency.cpp:95
+msgid "singapore"
+msgstr "سنغافورة"
+
+#: currency.cpp:96
+msgid "baht"
+msgstr "باهت"
+
+#: currency.cpp:96
+msgid "bahts"
+msgstr "باهتات"
+
+#: currency.cpp:96
+msgid "thailand"
+msgstr "تايلندا"
+
+#: currency.cpp:97
+msgid "rand"
+msgstr "راند"
+
+#: currency.cpp:97
+msgid "rands"
+msgstr "راندات"
+
+#: currency.cpp:97
+msgid "south africa"
+msgstr "جنوب أفريقيا"
+
+#: energy.cpp:30
+msgid "Energy"
+msgstr "الطاقة"
+
+#: energy.cpp:31
+msgid "joule"
+msgstr "جول"
+
+#: energy.cpp:31
+msgid "joules"
+msgstr "جولات"
+
+#: energy.cpp:33
+msgid "guideline daily amount"
+msgstr "القيمة اليومية المرشدة"
+
+#: energy.cpp:34
+msgid "electronvolt"
+msgstr "إلكترون-فولت"
+
+#: energy.cpp:34
+msgid "electronvolts"
+msgstr "إلكترونات-فولت"
+
+#: energy.cpp:35
+msgid "rydberg"
+msgstr ""
+
+#: energy.cpp:35
+msgid "rydbergs"
+msgstr ""
+
+#: energy.cpp:36
+msgid "kilocalorie"
+msgstr "كلوري"
+
+#: energy.cpp:36
+msgid "kilocalories"
+msgstr "كلوريات"
+
+#: fuel_efficiency.cpp:48
+msgid "Fuel Efficiency"
+msgstr "كفاءة الوقود"
+
+#: fuel_efficiency.cpp:50
+msgid "liters per 100 kilometers"
+msgstr "لتر لكل 100 كيلومتر"
+
+#: fuel_efficiency.cpp:52
+msgid "mile per US gallon"
+msgstr "ميل كل جالون أمريكي"
+
+#: fuel_efficiency.cpp:52
+msgid "miles per US gallon"
+msgstr "ميل لكل جالون أمريكي"
+
+#: fuel_efficiency.cpp:54
+msgid "mile per imperial gallon"
+msgstr "ميل كل جالون امبريالي"
+
+#: fuel_efficiency.cpp:54
+msgid "miles per imperial gallon"
+msgstr "ميل كل جالون امبريالي"
+
+#: fuel_efficiency.cpp:55
+msgid "mpg (imperial)"
+msgstr "م.ل.ج (أمبريالي)"
+
+#: fuel_efficiency.cpp:56
+msgid "kilometre per litre"
+msgstr "كيلومتر لكل لتر"
+
+#: fuel_efficiency.cpp:56
+msgid "kilometres per litre"
+msgstr "كيلومتر لكل لتر"
+
+#: length.cpp:31
+msgid "Length"
+msgstr "الطول"
+
+#: length.cpp:33
+msgctxt "length unit"
+msgid "meter"
+msgstr "متر"
+
+#: length.cpp:33
+msgctxt "length unit"
+msgid "meters"
+msgstr "متر"
+
+#: length.cpp:34
+msgctxt "length unit"
+msgid "inch"
+msgstr "بوصة"
+
+#: length.cpp:34
+msgctxt "length unit"
+msgid "inches"
+msgstr "بوصه"
+
+#: length.cpp:35
+msgctxt "length unit: inch"
+msgid "in"
+msgstr "ب"
+
+#: length.cpp:36
+msgctxt "length unit"
+msgid "foot"
+msgstr "قدم"
+
+#: length.cpp:36
+msgctxt "length unit"
+msgid "feet"
+msgstr "قدم"
+
+#: length.cpp:37
+msgctxt "length unit: foot"
+msgid "ft"
+msgstr "ق"
+
+#: length.cpp:38
+msgctxt "length unit"
+msgid "yard"
+msgstr "ياردة"
+
+#: length.cpp:38
+msgctxt "length unit"
+msgid "yards"
+msgstr "ياردة"
+
+#: length.cpp:39
+msgctxt "length unit: yard"
+msgid "yd"
+msgstr "يادرة"
+
+#: length.cpp:40
+msgctxt "length unit"
+msgid "mile"
+msgstr "ميل"
+
+#: length.cpp:40
+msgctxt "length unit"
+msgid "miles"
+msgstr "ميل"
+
+#: length.cpp:41
+msgctxt "length unit: mile"
+msgid "mi"
+msgstr "ميل"
+
+#: length.cpp:42
+msgctxt "length unit"
+msgid "nautical mile"
+msgstr "ميل بحري"
+
+#: length.cpp:42
+msgctxt "length unit"
+msgid "nautical miles"
+msgstr "ميل بحرية"
+
+#: length.cpp:43
+msgctxt "length unit: nautical mile"
+msgid "nmi"
+msgstr "ميل بحري"
+
+#: length.cpp:44
+msgctxt "length unit"
+msgid "light-year"
+msgstr "سنة ضوئية"
+
+#: length.cpp:44
+msgctxt "length unit"
+msgid "light-years"
+msgstr "سنة ضوئية"
+
+#: length.cpp:45
+msgctxt "length unit: light-year"
+msgid "ly"
+msgstr "سنة ضوئية"
+
+#: length.cpp:46
+msgctxt "length unit"
+msgid "lightyear"
+msgstr "سنة ضوئية"
+
+#: length.cpp:46
+msgctxt "length unit"
+msgid "lightyears"
+msgstr "سنة ضوئية"
+
+#: length.cpp:47
+msgctxt "length unit"
+msgid "parsec"
+msgstr "فرسخ"
+
+#: length.cpp:47
+msgctxt "length unit"
+msgid "parsecs"
+msgstr "فرسخ"
+
+#: length.cpp:48
+msgctxt "length unit: parsec"
+msgid "pc"
+msgstr "فرسخ"
+
+#: length.cpp:49
+msgctxt "length unit"
+msgid "astronomical unit"
+msgstr "وحدة فلكية"
+
+#: length.cpp:49
+msgctxt "length unit"
+msgid "astronomical units"
+msgstr "وحدة فلكية"
+
+#: length.cpp:50
+msgctxt "length unit: astronomical unit"
+msgid "au"
+msgstr "وحدة فلكية"
+
+#: mass.cpp:31
+msgid "Mass"
+msgstr "الكتلة"
+
+#: mass.cpp:32
+msgctxt "mass unit"
+msgid "gram"
+msgstr "جرام"
+
+#: mass.cpp:32
+msgid "grams"
+msgstr "جرام"
+
+#: mass.cpp:34
+msgctxt "mass unit"
+msgid "ton"
+msgstr "طن"
+
+#: mass.cpp:34
+msgctxt "mass unit"
+msgid "tons"
+msgstr "طن"
+
+#: mass.cpp:35
+msgctxt "mass unit"
+msgid "tonne"
+msgstr "طن"
+
+#: mass.cpp:37
+msgctxt "mass unit"
+msgid "carat"
+msgstr "قيراط"
+
+#: mass.cpp:37
+msgctxt "mass unit"
+msgid "carats"
+msgstr "قيراط"
+
+#: mass.cpp:39
+msgctxt "mass unit"
+msgid "pound"
+msgstr "رطل"
+
+#: mass.cpp:39
+msgctxt "mass unit"
+msgid "pounds"
+msgstr "رطل"
+
+#: mass.cpp:40
+msgctxt "mass unit: pounds"
+msgid "lb"
+msgstr "رطل"
+
+#: mass.cpp:42
+msgctxt "mass unit"
+msgid "ounce"
+msgstr "أونصة"
+
+#: mass.cpp:42
+msgctxt "mass unit"
+msgid "ounces"
+msgstr "أونصة"
+
+#: mass.cpp:43
+msgctxt "mass unit"
+msgid "troy ounce"
+msgstr "أوقية"
+
+#: mass.cpp:43
+msgctxt "mass unit"
+msgid "troy ounces"
+msgstr "أوقية"
+
+#: mass.cpp:44
+msgctxt "mass unit"
+msgid "newton"
+msgstr "نيوتن"
+
+#: mass.cpp:44
+msgctxt "mass unit"
+msgid "newtons"
+msgstr "نيوتن"
+
+#: mass.cpp:46
+msgctxt "mass unit"
+msgid "kilonewton"
+msgstr "كيلونيوتن"
+
+#: power.cpp:30
+msgid "Power"
+msgstr "الطاقة"
+
+#: power.cpp:31
+msgid "watt"
+msgstr "وات"
+
+#: power.cpp:31
+msgid "watts"
+msgstr "وات"
+
+#: power.cpp:33
+msgid "horsepower"
+msgstr "طاقة-حصان"
+
+#: power.cpp:33
+msgid "horsepowers"
+msgstr "طاقة-حصان"
+
+#: power.cpp:33
+msgctxt "horsepower"
+msgid "hp"
+msgstr "hp"
+
+#: pressure.cpp:30
+msgid "Pressure"
+msgstr "الضغط"
+
+#: pressure.cpp:32
+msgctxt "pressure unit"
+msgid "pascal"
+msgstr "باسكال"
+
+#: pressure.cpp:32
+msgctxt "pressure unit"
+msgid "pascals"
+msgstr "باسكال"
+
+#: pressure.cpp:33
+msgctxt "pressure unit"
+msgid "bar"
+msgstr "بار"
+
+#: pressure.cpp:33
+msgctxt "pressure unit"
+msgid "bars"
+msgstr "بار"
+
+#: pressure.cpp:34
+msgctxt "pressure unit"
+msgid "millibar"
+msgstr "ميلي بار"
+
+#: pressure.cpp:34
+msgctxt "pressure unit"
+msgid "millibars"
+msgstr "ميلي بار"
+
+#: pressure.cpp:35
+msgctxt "pressure unit millibar"
+msgid "mbar"
+msgstr "م.بار"
+
+#: pressure.cpp:36
+msgctxt "pressure unit"
+msgid "decibar"
+msgstr "ديسي بار"
+
+#: pressure.cpp:36
+msgctxt "pressure unit"
+msgid "decibars"
+msgstr "ديس بار"
+
+#: pressure.cpp:37
+msgctxt "pressure unit decibar"
+msgid "dbar"
+msgstr "د.بار"
+
+#: pressure.cpp:38 pressure.cpp:39
+msgctxt "pressure unit"
+msgid "torr"
+msgstr "تورر"
+
+#: pressure.cpp:38
+msgctxt "pressure unit"
+msgid "torrs"
+msgstr ""
+
+#: pressure.cpp:40
+msgctxt "pressure unit"
+msgid "technical atmosphere"
+msgstr ""
+
+#: pressure.cpp:40
+msgctxt "pressure unit"
+msgid "technical atmospheres"
+msgstr ""
+
+#: pressure.cpp:41
+msgctxt "pressure unit technical atmosphere"
+msgid "at"
+msgstr ""
+
+#: pressure.cpp:42
+msgctxt "pressure unit"
+msgid "atmosphere"
+msgstr ""
+
+#: pressure.cpp:42
+msgctxt "pressure unit"
+msgid "atmospheres"
+msgstr ""
+
+#: pressure.cpp:43
+msgctxt "pressure unit atmosphere"
+msgid "atm"
+msgstr ""
+
+#: pressure.cpp:44
+msgctxt "pressure unit"
+msgid "pound-force per square inch"
+msgstr ""
+
+#: pressure.cpp:45
+msgctxt "pressure unit pound-force per square inch"
+msgid "psi"
+msgstr ""
+
+#: pressure.cpp:47
+msgctxt "pressure unit"
+msgid "inches of mercury"
+msgstr ""
+
+#: pressure.cpp:48
+msgctxt "pressure unit inches of mercury"
+msgid "inHg"
+msgstr ""
+
+#: temperature.cpp:68
+msgid "Temperature"
+msgstr "الحرارة"
+
+#: temperature.cpp:70
+msgid "kelvin"
+msgstr "كلفن"
+
+#: temperature.cpp:70
+msgid "kelvins"
+msgstr "كلفن"
+
+#: temperature.cpp:71
+msgid "celsius"
+msgstr "سيليزية"
+
+#: temperature.cpp:71
+msgid "celsiuses"
+msgstr "سيليزية"
+
+#: temperature.cpp:72
+msgid "fahrenheit"
+msgstr "فهرنهايتية"
+
+#: temperature.cpp:72
+msgid "fahrenheits"
+msgstr "فهرنهايتية"
+
+#: temperature.cpp:73
+msgid "rankine"
+msgstr ""
+
+#: temperature.cpp:73
+msgid "rankines"
+msgstr ""
+
+#: temperature.cpp:74
+msgid "delisle"
+msgstr ""
+
+#: temperature.cpp:74
+msgid "delisles"
+msgstr ""
+
+#: temperature.cpp:75
+msgid "newton"
+msgstr ""
+
+#: temperature.cpp:75
+msgid "newtons"
+msgstr ""
+
+#: temperature.cpp:76
+msgid "réaumur"
+msgstr ""
+
+#: temperature.cpp:76
+msgid "réaumurs"
+msgstr ""
+
+#: temperature.cpp:77
+msgid "reaumur"
+msgstr ""
+
+#: temperature.cpp:77
+msgid "reaumurs"
+msgstr ""
+
+#: temperature.cpp:78
+msgid "rømer"
+msgstr ""
+
+#: temperature.cpp:79
+msgid "romer"
+msgstr ""
+
+#: temperature.cpp:79
+msgid "romers"
+msgstr ""
+
+#: timeunit.cpp:30
+msgid "Time"
+msgstr "الوقت"
+
+#: timeunit.cpp:31
+msgid "second"
+msgstr "ثانية"
+
+#: timeunit.cpp:31
+msgid "seconds"
+msgstr "ثانية"
+
+#: timeunit.cpp:33
+msgid "minute"
+msgstr "دقيقة"
+
+#: timeunit.cpp:33
+msgid "minutes"
+msgstr "دقيقة"
+
+#: timeunit.cpp:34
+msgid "hour"
+msgstr "ساعة"
+
+#: timeunit.cpp:34
+msgid "hours"
+msgstr "ساعة"
+
+#: timeunit.cpp:35
+msgid "day"
+msgstr "يوم"
+
+#: timeunit.cpp:35
+msgid "days"
+msgstr "يوم"
+
+#: timeunit.cpp:36
+msgid "week"
+msgstr "أسبوع"
+
+#: timeunit.cpp:36
+msgid "weeks"
+msgstr "أسبوع"
+
+#: timeunit.cpp:37
+msgid "julian year"
+msgstr "سنة يوليانية"
+
+#: timeunit.cpp:37
+msgid "julian years"
+msgstr "سنة يوليانية"
+
+#: timeunit.cpp:38
+msgid "leap year"
+msgstr "سنة كبيسة"
+
+#: timeunit.cpp:38
+msgid "leap years"
+msgstr "سنة كبيسة"
+
+#: timeunit.cpp:40
+msgid "year"
+msgstr "سنة"
+
+#: unitcategory.cpp:95
+msgid "yotta"
+msgstr "سنة"
+
+#: unitcategory.cpp:95
+msgid "zetta"
+msgstr "زتا"
+
+#: unitcategory.cpp:95
+msgid "exa"
+msgstr "اكسا"
+
+#: unitcategory.cpp:95
+msgid "peta"
+msgstr "بتا"
+
+#: unitcategory.cpp:95
+msgid "tera"
+msgstr "ترا"
+
+#: unitcategory.cpp:96
+msgid "giga"
+msgstr "جاجا"
+
+#: unitcategory.cpp:96
+msgid "mega"
+msgstr "ميجا"
+
+#: unitcategory.cpp:96
+msgid "kilo"
+msgstr "كيلو"
+
+#: unitcategory.cpp:96
+msgid "hecto"
+msgstr "هكتو"
+
+#: unitcategory.cpp:96
+msgid "deca"
+msgstr "ديكا"
+
+#: unitcategory.cpp:97
+msgid "deci"
+msgstr "ديسا"
+
+#: unitcategory.cpp:97
+msgid "centi"
+msgstr "سنتا"
+
+#: unitcategory.cpp:97
+msgid "milli"
+msgstr "ميلي"
+
+#: unitcategory.cpp:97
+msgid "micro"
+msgstr "مايكرو"
+
+#: unitcategory.cpp:98
+msgid "nano"
+msgstr "نانو"
+
+#: unitcategory.cpp:98
+msgid "pico"
+msgstr "بكتو"
+
+#: unitcategory.cpp:98
+msgid "femto"
+msgstr "فمتو"
+
+#: unitcategory.cpp:98
+msgid "atto"
+msgstr "أتتو"
+
+#: unitcategory.cpp:98
+msgid "zepto"
+msgstr "زبتو"
+
+#: unitcategory.cpp:99
+msgid "yocto"
+msgstr "يوكتو"
+
+#. i18n: Fix for 4.3.0 Translate this to "yes" if you want square and cubic
+#. as prefix e.g. "square meter". "no" if you want suffix e.g. "mètre au carré"
+#: unitcategory.cpp:112
+#, fuzzy
+#| msgid "yens"
+msgid "yes"
+msgstr "ينات"
+
+#: unitcategory.cpp:117
+msgid "square "
+msgstr "مربع"
+
+#: unitcategory.cpp:121
+msgid "cubic "
+msgstr "مكعب "
+
+#: velocity.cpp:37
+msgid "Velocity"
+msgstr "السرعة"
+
+#: velocity.cpp:39
+msgid "meter per second"
+msgstr "متر في الثانية"
+
+#: velocity.cpp:39
+msgid "meters per second"
+msgstr "متر في الثانية"
+
+#: velocity.cpp:40
+msgid "kilometer per hour"
+msgstr "كيلومتر في الساعة"
+
+#: velocity.cpp:40
+msgid "kilometers per hour"
+msgstr "كيلو متر في الساعة"
+
+#: velocity.cpp:41
+msgid "mile per hour"
+msgstr " ميل في الساعة"
+
+#: velocity.cpp:41
+msgid "miles per hour"
+msgstr " ميل في الساعة"
+
+#: velocity.cpp:42
+msgid "foot per second"
+msgstr " قدم في الثانية"
+
+#: velocity.cpp:42
+msgid "feet per second"
+msgstr " قدم في الثانية"
+
+#: velocity.cpp:42
+msgid "ft/s"
+msgstr " قدم/ث"
+
+#: velocity.cpp:43
+msgid "inch per second"
+msgstr "بوصة في الثانية"
+
+#: velocity.cpp:43
+msgid "inches per second"
+msgstr "بوصة في الثانية"
+
+#: velocity.cpp:43
+msgid "in/s"
+msgstr "بوصة/ث"
+
+#: velocity.cpp:44
+msgid "knot"
+msgstr "عقدة"
+
+#: velocity.cpp:44
+msgid "knots"
+msgstr "عقد"
+
+#: velocity.cpp:44
+msgid "nautical miles per hour"
+msgstr "ميل بحري في الساعة"
+
+#: velocity.cpp:46
+msgid "mach"
+msgstr "ماخ"
+
+#: velocity.cpp:46
+msgid "machs"
+msgstr "ماخ"
+
+#: velocity.cpp:46
+msgid "speed of sound"
+msgstr "سرعة الصوت"
+
+#: velocity.cpp:47
+msgid "speed of light"
+msgstr "سرعة الضوء"
+
+#: velocity.cpp:50
+msgid "beaufort"
+msgstr "بيوفورت"
+
+#: velocity.cpp:50
+msgid "beauforts"
+msgstr "بيوفورت"
+
+#: volume.cpp:30
+msgid "Volume"
+msgstr "الحجم"
+
+#: volume.cpp:33
+msgid "liter"
+msgstr "لتر"
+
+#: volume.cpp:33
+msgid "liters"
+msgstr "لتر"
+
+#: volume.cpp:35
+msgid "cubic foot"
+msgstr "قدم مكعب"
+
+#: volume.cpp:35
+msgid "cubic feet"
+msgstr "قدم مكعب"
+
+#: volume.cpp:35
+msgid "ft³"
+msgstr "قدم³"
+
+#: volume.cpp:36
+msgid "cubic ft"
+msgstr "قدم مكعب"
+
+#: volume.cpp:36
+msgid "cu foot"
+msgstr "قدم مكعب"
+
+#: volume.cpp:36
+msgid "cu ft"
+msgstr " قدم مكعب"
+
+#: volume.cpp:37
+msgid "cu feet"
+msgstr "أقدام مكعبة"
+
+#: volume.cpp:37
+msgid "feet³"
+msgstr "قدم³"
+
+#: volume.cpp:39 volume.cpp:40
+msgid "cubic inch"
+msgstr "بوصة مكعبة"
+
+#: volume.cpp:39
+msgid "cubic inches"
+msgstr "بوصة مكعبة"
+
+#: volume.cpp:39
+msgid "in³"
+msgstr "بوصة³"
+
+#: volume.cpp:40
+msgid "cubic in"
+msgstr "بوصة مكعبة"
+
+#: volume.cpp:40
+msgid "cu inches"
+msgstr "بوصة مكعبة"
+
+#: volume.cpp:41
+msgid "cu inch"
+msgstr "بوصة مكعبة"
+
+#: volume.cpp:41
+msgid "cu in"
+msgstr "بوصة مكعبة"
+
+#: volume.cpp:41
+msgid "inch³"
+msgstr "بوصة³"
+
+#: volume.cpp:43 volume.cpp:44
+msgid "cubic mile"
+msgstr "ميل مكعب"
+
+#: volume.cpp:43
+msgid "cubic miles"
+msgstr "ميل مكعب"
+
+#: volume.cpp:43
+msgid "mi³"
+msgstr "ميل³"
+
+#: volume.cpp:44
+msgid "cubic mi"
+msgstr "ميل مكعب"
+
+#: volume.cpp:44
+msgid "cu miles"
+msgstr "ميل مكعب"
+
+#: volume.cpp:44
+msgid "cu mile"
+msgstr "ميل مكعب"
+
+#: volume.cpp:45
+msgid "cu mi"
+msgstr "ميل مكعب"
+
+#: volume.cpp:45
+msgid "mile³"
+msgstr "ميل³"
+
+#: volume.cpp:47 volume.cpp:49
+msgid "fluid ounce"
+msgstr "أوقية سائلة"
+
+#: volume.cpp:47
+msgid "fluid ounces"
+msgstr "أوقية سائلة"
+
+#: volume.cpp:47
+msgid "fl.oz."
+msgstr "أوقية سائلة"
+
+#: volume.cpp:48
+msgid "oz.fl."
+msgstr "أوقية سائلة"
+
+#: volume.cpp:48
+msgid "oz. fl."
+msgstr "أوقية سائلة"
+
+#: volume.cpp:48
+msgid "fl. oz."
+msgstr "أوقية سائلة"
+
+#: volume.cpp:49
+msgid "fl oz"
+msgstr "أوقية سائلة"
+
+#: volume.cpp:51
+msgid "cup"
+msgstr " كوب"
+
+#: volume.cpp:51
+msgid "cups"
+msgstr "كوب"
+
+#: volume.cpp:51
+msgid "cp"
+msgstr "كوب"
+
+#: volume.cpp:53
+msgid "gallon (U.S. liquid)"
+msgstr "جالون (أمريكي سائل)"
+
+#: volume.cpp:53
+msgid "gallons (U.S. liquid)"
+msgstr "جالون (أمريكي سائل)"
+
+#: volume.cpp:53
+msgid "gal"
+msgstr "جالون"
+
+#: volume.cpp:54
+msgid "gallon"
+msgstr "جالون"
+
+#: volume.cpp:54
+msgid "gallons"
+msgstr "جالون"
+
+#: volume.cpp:56
+msgid "pint (imperial)"
+msgstr "بنت (امبريالي)"
+
+#: volume.cpp:56
+msgid "pints (imperial)"
+msgstr "بنت (امبريالي)"
+
+#: volume.cpp:57
+msgid "pint"
+msgstr "بنت"
+
+#: volume.cpp:57
+msgid "pints"
+msgstr "بنت"

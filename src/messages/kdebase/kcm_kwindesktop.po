@@ -1,0 +1,63 @@
+# translation of kcm_kwindesktop.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# محمد ابراهيم الحرقان <malham1@hotmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_kwindesktop\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-03 11:07+0200\n"
+"PO-Revision-Date: 2009-07-06 18:17+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: desktop.cpp:66
+msgid ""
+"<h1>Multiple Desktops</h1>In this module, you can configure how many virtual "
+"desktops you want and how these should be labeled."
+msgstr ""
+"<h1>أسطح مكتب متعددة</h1>في هذه الوحدة  ، تستطيع ضبط عدد أسطح المكتب "
+"الافتراضية المطلوبة ومسمياتها"
+
+#: desktop.cpp:78
+msgid "N&umber of desktops: "
+msgstr "ع&دد أسطح المكتب: "
+
+#: desktop.cpp:84
+msgid ""
+"Here you can set how many virtual desktops you want on your KDE desktop. "
+"Move the slider to change the value."
+msgstr ""
+"هنا يمكنك وضع عدد أسطح المكتب الافتراضية على سطح مكتب كدي. حرك المزلاق "
+"لتغيير القيمة ."
+
+#: desktop.cpp:94
+msgid "Desktop &Names"
+msgstr "أسماء أس&طح المكتب "
+
+#: desktop.cpp:99
+#, kde-format
+msgid "Desktop %1:"
+msgstr "سطح المكتب %1:"
+
+#: desktop.cpp:102 desktop.cpp:103
+#, kde-format
+msgid "Here you can enter the name for desktop %1"
+msgstr "من هنا يمكنك كتابة اسم لسطح المكتب %1"
+
+#: desktop.cpp:117
+msgid "Mouse wheel over desktop background switches desktop"
+msgstr "حرك عجلة الفأرة فوق خلفية سطح المكتب للتبديل "
+
+#: desktop.cpp:244 desktop.cpp:268
+#, kde-format
+msgid "Desktop %1"
+msgstr "سطح المكتب %1"

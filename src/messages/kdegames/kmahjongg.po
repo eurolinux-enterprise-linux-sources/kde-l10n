@@ -1,0 +1,483 @@
+# translation of kmahjongg.po to
+# Copyright (C) 2002, 2007 Free Software Foundation, Inc.
+#
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmahjongg\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-11 12:50+0200\n"
+"PO-Revision-Date: 2007-10-14 15:44+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: boardwidget.cpp:411
+msgid "Undo operation done successfully."
+msgstr "تمت عملية التراجع بنجاح."
+
+#: boardwidget.cpp:415
+msgid "What do you want to undo? You have done nothing!"
+msgstr "لماذا تريد التراجع؟ أنت لم تفعل شيئا!"
+
+#: boardwidget.cpp:434
+msgid "Sorry, you have lost the game."
+msgstr "آسف ، خسرت اللعبة."
+
+#: boardwidget.cpp:479
+msgid "Demo mode. Click mousebutton to stop."
+msgstr "الوضع الإستعراضي. انقر زر الفأرة لتتوقف."
+
+#: boardwidget.cpp:488
+msgid "Now it is you again."
+msgstr "الآن أنت مرة أخرى."
+
+#: boardwidget.cpp:511
+msgid "Your computer has lost the game."
+msgstr "حاسبك خسر هذه اللعبة."
+
+#: boardwidget.cpp:606
+msgid "Congratulations. You have won!"
+msgstr "تهانينا! لقد فزت."
+
+#: boardwidget.cpp:653
+msgid "Calculating new game..."
+msgstr "حساب لعبة جديدة..."
+
+#: boardwidget.cpp:658
+msgid "Error converting board information!"
+msgstr "خطأ تحويل معلومات اللوحة!"
+
+#: boardwidget.cpp:684
+msgid "Ready. Now it is your turn."
+msgstr "جاهز. الآن دورك."
+
+#: boardwidget.cpp:692
+msgid "Error generating new game!"
+msgstr "خطأ توليد لعبة جديدة."
+
+#: boardwidget.cpp:856
+msgid "Game over: You have no moves left."
+msgstr "انتهت اللعبة: لم يتبقى لديك أي حركة."
+
+#: Editor.cpp:81
+msgid "Edit Board Layout"
+msgstr "حرر تخطيط اللوحة"
+
+#: Editor.cpp:116
+msgid "New board"
+msgstr "لوحة جديدة"
+
+#: Editor.cpp:122
+msgid "Open board"
+msgstr "افتح لوحة"
+
+#: Editor.cpp:128
+msgid "Save board"
+msgstr "احفظ اللوحة"
+
+#: Editor.cpp:139
+msgid "Select"
+msgstr "اختر"
+
+#: Editor.cpp:145
+msgid "Cut"
+msgstr "قص"
+
+#: Editor.cpp:150
+msgid "Copy"
+msgstr "انسخ"
+
+#: Editor.cpp:155
+msgid "Paste"
+msgstr "ألصق"
+
+#: Editor.cpp:162
+msgid "Move tiles"
+msgstr "انقل القراميد"
+
+#: Editor.cpp:165
+msgid "Add tiles"
+msgstr "أضف القراميد"
+
+#: Editor.cpp:168
+msgid "Remove tiles"
+msgstr "احذف القراميد"
+
+#: Editor.cpp:190
+msgid "Shift left"
+msgstr "أزح لليسار"
+
+#: Editor.cpp:196
+msgid "Shift up"
+msgstr "أزح للأعلى"
+
+#: Editor.cpp:202
+msgid "Shift down"
+msgstr "أزح للأسفل"
+
+#: Editor.cpp:208
+msgid "Shift right"
+msgstr "أزح لليمين"
+
+#: Editor.cpp:294
+#, kde-format
+msgid "Tiles: %1 Pos: %2,%3,%4"
+msgstr "القراميد: %1 المكان: %2,%3,%4"
+
+#: Editor.cpp:306 Editor.cpp:338
+#, fuzzy
+msgid ""
+"*.layout|Board Layout (*.layout)\n"
+"*|All Files"
+msgstr ""
+"تخطيط\n"
+"نسق لوح التصميم تخطيط\n"
+"نسق n الكل ملفات"
+
+#: Editor.cpp:309
+msgid "Open Board Layout"
+msgstr "افتح تخطيط لوحة"
+
+#: Editor.cpp:341 Editor.cpp:360
+msgid "Save Board Layout"
+msgstr "احفظ تخطيط لوحة"
+
+#: Editor.cpp:348 kmahjongg.cpp:562
+msgid "Only saving to local files currently supported."
+msgstr "فقط الحفظ إلى ملفات محلية هو المدعوم حاليا"
+
+#: Editor.cpp:357
+msgid "A file with that name already exists. Do you wish to overwrite it?"
+msgstr "يوجد ملف بهذا الإسم. هل تريد أن تكتب فوقه؟"
+
+#: Editor.cpp:384
+msgid "The board has been modified. Would you like to save the changes?"
+msgstr "تم تعديل اللوحة. هل تريد أن تحفظ التغيرات؟"
+
+#: Editor.cpp:392
+msgid "Save failed. Aborting operation."
+msgstr "فشل الحفظ. احبطت العملية."
+
+#: kmahjongg.cpp:148
+msgid "New Numbered Game..."
+msgstr "لعبة مرقمة جديدة..."
+
+#: kmahjongg.cpp:155
+msgid "Shu&ffle"
+msgstr "&خلط"
+
+#: kmahjongg.cpp:159
+#, fuzzy
+#| msgid "Rotate View Counter Clockwise"
+msgid "Rotate View Counterclockwise"
+msgstr "ادر العرض عكس عقارب الساعة"
+
+#: kmahjongg.cpp:163
+msgid "Rotate View Clockwise"
+msgstr "ادر العرض باتجاه عقارب الساعة"
+
+#: kmahjongg.cpp:191
+msgid "Removed: 0000/0000"
+msgstr "أزيل: 0000/0000"
+
+#: kmahjongg.cpp:198
+msgid "Game: 000000000000000000000"
+msgstr "اللعبة: 000000000000000000000"
+
+#: kmahjongg.cpp:212
+msgid "Time: 0:00:00"
+msgstr "الوقت: 0:00:00"
+
+#: kmahjongg.cpp:218
+msgid "Time: "
+msgstr "الوقت:"
+
+#: kmahjongg.cpp:236
+msgid "New Game"
+msgstr "لعبة جديدة"
+
+#: kmahjongg.cpp:236
+msgid "Enter game number:"
+msgstr "أدخل رقم اللعبة:"
+
+#: kmahjongg.cpp:266
+msgid "General"
+msgstr "عام"
+
+#: kmahjongg.cpp:267
+#, fuzzy
+#| msgid "Edit Board Layout"
+msgid "Board Layout"
+msgstr ""
+"لوح تخطيط\n"
+"نسق"
+
+#: kmahjongg.cpp:364
+msgid "You have won!"
+msgstr "لقد فزت!"
+
+#: kmahjongg.cpp:405
+#, kde-format
+msgid "Game number: %1"
+msgstr "رقم اللعبة:%1"
+
+#: kmahjongg.cpp:415
+#, kde-format
+msgid "Removed: %1/%2  Combinations left: %3"
+msgstr "أزيل: %1/%2  التجميعات الباقية: %3"
+
+#: kmahjongg.cpp:481
+#, fuzzy
+msgid "Load Game"
+msgstr "حمَل لعبة"
+
+#: kmahjongg.cpp:493
+#, fuzzy
+#| msgid "Could not write to file. Aborting."
+msgid "Could not read from file. Aborting."
+msgstr "يمكن أن ليس قراءة من ملفّ جاري الإجهاض."
+
+#: kmahjongg.cpp:503
+#, fuzzy
+msgid "File is not a KMahjongg game."
+msgstr "ملف هو ليس a ماهجونج ك لعبة."
+
+#: kmahjongg.cpp:516
+#, fuzzy
+msgid "File format not recognized."
+msgstr "ملف تنسيق ليس."
+
+#: kmahjongg.cpp:553
+#, fuzzy
+#| msgid "Save Theme"
+msgid "Save Game"
+msgstr "احفظ لعبة"
+
+#: kmahjongg.cpp:570
+#, fuzzy
+#| msgid "Could not write to file. Aborting."
+msgid "Could not write saved game."
+msgstr "يمكن أن ليس كتابة لعبة."
+
+#: main.cpp:29
+msgid "Mahjongg Solitaire for KDE"
+msgstr "سوليتير ماهجونج للكدي"
+
+#: main.cpp:33
+msgid "KMahjongg"
+msgstr "ماهجونج ك"
+
+#: main.cpp:35
+msgid ""
+"(c) 1997, Mathias Mueller\n"
+"(c) 2006, Mauricio Piacentini"
+msgstr ""
+"(c) 1997, Mathias Mueller\n"
+"(c) 2006, Mauricio Piacentini"
+
+#: main.cpp:36
+msgid "Mathias Mueller"
+msgstr "Mathias Mueller"
+
+#: main.cpp:36
+msgid "Original Author"
+msgstr "المؤلف الأصلي"
+
+#: main.cpp:37
+msgid "Mauricio Piacentini"
+msgstr "Mauricio Piacentini"
+
+#: main.cpp:37
+msgid "Current maintainer"
+msgstr "المشرف الحالي"
+
+#: main.cpp:38
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#: main.cpp:38
+msgid "Bug fixes"
+msgstr "إصلاح العلل"
+
+#: main.cpp:39
+msgid "David Black"
+msgstr "David Black"
+
+#: main.cpp:39
+msgid "KDE 3 rewrite and Extension"
+msgstr "إعادة كتابة الكيدي 3 و الإمتداد"
+
+#: main.cpp:40
+msgid "Michael Haertjens"
+msgstr "Michael Haertjens"
+
+#: main.cpp:40
+msgid ""
+"Solvable game generation\n"
+"based on algorithm by Michael Meeks in GNOME mahjongg"
+msgstr ""
+"توليد ألعاب قابلة للحل\n"
+"اعتمادا على خوارزمية مايكل مييكس في ماهونج جنوم."
+
+#: main.cpp:41
+msgid "Raquel Ravanini"
+msgstr "Raquel Ravanini"
+
+#: main.cpp:41
+msgid "SVG Tileset for KDE4"
+msgstr "مجموعة القراميد SVG للكدي4"
+
+#: main.cpp:42
+msgid "Richard Lohman"
+msgstr "Richard Lohman"
+
+#: main.cpp:42
+msgid "Tile set contributor and current web page maintainer"
+msgstr "مساهم في مجموعة القراميد و المشرف الحالي لصفحة الويب"
+
+#: main.cpp:43
+msgid "Osvaldo Stark"
+msgstr "Osvaldo Stark"
+
+#: main.cpp:43
+msgid "Tile set contributor and original web page maintainer"
+msgstr "مساهم في مجموعة القراميد و المشرف الأصلي لصفحة الويب."
+
+#: main.cpp:44
+msgid "Benjamin Meyer"
+msgstr "Benjamin Meyer"
+
+#: main.cpp:44
+msgid "Code cleanup"
+msgstr "تنظيف الشفرة"
+
+#. i18n: file: gametype.ui:48
+#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
+#: rc.cpp:3
+#, fuzzy
+msgid "&Get New Layouts"
+msgstr "احصل جديد التصاميم"
+
+#. i18n: file: gametype.ui:57
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:6
+#, fuzzy
+msgid "Preview"
+msgstr "معاينة"
+
+#. i18n: file: gametype.ui:99
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:9
+#, fuzzy
+#| msgid "Your emails"
+msgid "Layout Details"
+msgstr "تفاصيل التخطيط"
+
+#. i18n: file: gametype.ui:137
+#. i18n: ectx: property (text), widget (QLabel, labelAuthor)
+#: rc.cpp:12
+#, fuzzy
+msgid "Author:"
+msgstr "المؤلف:"
+
+#. i18n: file: gametype.ui:147
+#. i18n: ectx: property (text), widget (QLabel, labelContact)
+#: rc.cpp:15
+#, fuzzy
+msgid "Contact:"
+msgstr "الإتصال:"
+
+#. i18n: file: gametype.ui:157
+#. i18n: ectx: property (text), widget (QLabel, labelDescription)
+#: rc.cpp:18
+#, fuzzy
+msgid "Description:"
+msgstr "الوصف:"
+
+#. i18n: file: kmahjongg.kcfg:9
+#. i18n: ectx: label, entry (TileSet), group (General)
+#: rc.cpp:21
+msgid "The tile-set to use."
+msgstr "مجموعة القراميد التي ستستخدم."
+
+#. i18n: file: kmahjongg.kcfg:12
+#. i18n: ectx: label, entry (Background), group (General)
+#: rc.cpp:24
+msgid "The background to use."
+msgstr "الخلفية التي ستستعمل."
+
+#. i18n: file: kmahjongg.kcfg:15
+#. i18n: ectx: label, entry (Layout), group (General)
+#: rc.cpp:27
+msgid "The layout of the tiles."
+msgstr "تخطيط القراميد."
+
+#. i18n: file: kmahjongg.kcfg:21
+#. i18n: ectx: label, entry (SolvableGames), group (General)
+#: rc.cpp:30
+msgid "Whether all games should be solvable."
+msgstr "إما أن تكون كل اللعاب قابلة للحل."
+
+#. i18n: file: kmahjongg.kcfg:25
+#. i18n: ectx: label, entry (ShowMatchingTiles), group (General)
+#: rc.cpp:33
+msgid "Whether matching tiles are shown."
+msgstr "إما القراميد المتشابهة معروضة."
+
+#. i18n: file: kmahjonggui.rc:10
+#. i18n: ectx: Menu (game)
+#: rc.cpp:36
+msgid "&Game"
+msgstr "&لعبة"
+
+#. i18n: file: kmahjonggui.rc:13
+#. i18n: ectx: Menu (move)
+#: rc.cpp:39
+msgid "&Move"
+msgstr "ا&نقل"
+
+#. i18n: file: kmahjonggui.rc:16
+#. i18n: ectx: Menu (view)
+#: rc.cpp:42
+msgid "&View"
+msgstr "ا&عرض"
+
+#. i18n: file: kmahjonggui.rc:22
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:45
+msgid "Main Toolbar"
+msgstr "شريط الأدوات العام"
+
+#. i18n: file: settings.ui:22
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMatchingTiles)
+#: rc.cpp:48
+#, fuzzy
+msgid "Blink matching tiles when first one is selected"
+msgstr "وميض مواءمة الأوّل هو مُنتقى"
+
+#. i18n: file: settings.ui:29
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SolvableGames)
+#: rc.cpp:51
+msgid "Generate solvable games"
+msgstr "ولد ألعاب قابلة للحل"
+
+#: rc.cpp:52
+#, fuzzy
+#| msgid "Your names"
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:53
+#, fuzzy
+#| msgid "Your emails"
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"

@@ -1,0 +1,241 @@
+# translation of kcm_emoticons.po to Arabic
+# translation of kcm_emoticons.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# محمد ابراهيم الحرقان <malham1@hotmail.com>, 2008.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_emoticons\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-08-25 01:20+0200\n"
+"PO-Revision-Date: 2009-07-08 17:11+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: emoticonslist.cpp:66
+msgid ""
+"Insert the string for the emoticon.  If you want multiple strings, separate "
+"them by spaces."
+msgstr "أدرج نص للتعبير ، إذا أردت أكثر من نص افتصل بينها بفراغ"
+
+#: emoticonslist.cpp:107
+msgid "Emoticons"
+msgstr "تعبيرات"
+
+#: emoticonslist.cpp:254
+msgid "Drag or Type Emoticon Theme URL"
+msgstr "ضع تعبير أو أكتب موقع سمة التعبير "
+
+#: emoticonslist.cpp:259
+msgid "Emoticon themes must be installed from local files."
+msgstr "يجب أن تثبت سمات التعبيرات من الملفات المحلية"
+
+#: emoticonslist.cpp:260
+msgid "Could Not Install Emoticon Theme"
+msgstr "لم يستطع تثبيت سمة التعبيرات"
+
+#: emoticonslist.cpp:278
+#, kde-format
+msgid "Do you want to remove %1 too?"
+msgstr "هل تريد إزالة %1 أيضا؟"
+
+#: emoticonslist.cpp:278
+msgid "Delete emoticon"
+msgstr "احذف التعبير"
+
+#: emoticonslist.cpp:294
+msgid "Add Emoticon"
+msgstr "أضف تعبير"
+
+#: emoticonslist.cpp:318
+msgid "Edit Emoticon"
+msgstr "حرر تعبير"
+
+#: emoticonslist.cpp:364 emoticonslist.cpp:387
+msgid "New Emoticon Theme"
+msgstr "سمة تعبير جديد"
+
+#: emoticonslist.cpp:364
+msgid "Enter the name of the new emoticon theme:"
+msgstr "أدخل اسم سمة التعبير الجديد:"
+
+#: emoticonslist.cpp:370
+#, kde-format
+msgid "%1 theme already exists"
+msgstr "سمة %1 موجود بالفعل"
+
+#: emoticonslist.cpp:387
+msgid "Choose the type of emoticon theme to create"
+msgstr "اختر نوع سمة التعبير لإنشائها"
+
+#. i18n: file: emoticonslist.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, EmoticonsManager)
+#: rc.cpp:3
+msgid "Emoticons Manager"
+msgstr "مدير التعبيرات"
+
+#. i18n: file: emoticonslist.ui:44
+#. i18n: ectx: property (toolTip), widget (KPushButton, btAdd)
+#: rc.cpp:6
+msgid "Create a new emoticon"
+msgstr "أنشئ تعبير جديد"
+
+#. i18n: file: emoticonslist.ui:47
+#. i18n: ectx: property (whatsThis), widget (KPushButton, btAdd)
+#: rc.cpp:9
+msgid "Create a new emoticon by assigning it an icon and some text"
+msgstr "أنشئ تعبير  جديد بواسطة تخصيص أيقونه له وبعض النصوص"
+
+#. i18n: file: emoticonslist.ui:50
+#. i18n: ectx: property (text), widget (KPushButton, btAdd)
+#: rc.cpp:12
+msgid "Add..."
+msgstr "أضف..."
+
+#. i18n: file: emoticonslist.ui:57
+#. i18n: ectx: property (toolTip), widget (KPushButton, btEdit)
+#: rc.cpp:15
+msgid "Modify the selected emoticon icon or text "
+msgstr "تعديل أيقونة أو نص التعبير المختار"
+
+#. i18n: file: emoticonslist.ui:60
+#. i18n: ectx: property (whatsThis), widget (KPushButton, btEdit)
+#: rc.cpp:18
+msgid "Edit the selected emoticon to change its icon or its text"
+msgstr "حرر التعبير المختار لتغيير أيقونته أو نصه"
+
+#. i18n: file: emoticonslist.ui:63
+#. i18n: ectx: property (text), widget (KPushButton, btEdit)
+#: rc.cpp:21
+msgid "Edit..."
+msgstr "حرر..."
+
+#. i18n: file: emoticonslist.ui:70
+#. i18n: ectx: property (toolTip), widget (KPushButton, btRemoveEmoticon)
+#: rc.cpp:24
+msgid "Remove the selected emoticon"
+msgstr "أزل التعبير المختار"
+
+#. i18n: file: emoticonslist.ui:73
+#. i18n: ectx: property (whatsThis), widget (KPushButton, btRemoveEmoticon)
+#: rc.cpp:27
+msgid "Remove the selected emoticon from your disk"
+msgstr "أزل التعبير المختار من القرص"
+
+#. i18n: file: emoticonslist.ui:76
+#. i18n: ectx: property (text), widget (KPushButton, btRemoveEmoticon)
+#: rc.cpp:30
+msgid "Remove"
+msgstr "أزِل"
+
+#. i18n: file: emoticonslist.ui:100
+#. i18n: ectx: property (text), widget (QCheckBox, cbStrict)
+#: rc.cpp:33
+msgid "Require spaces around emoticons"
+msgstr "المساحة المطلوبة حول التعبيرات"
+
+#. i18n: file: emoticonslist.ui:107
+#. i18n: ectx: property (toolTip), widget (KPushButton, btNew)
+#: rc.cpp:36
+msgid "Design a new emoticon theme"
+msgstr "صمم سمة تعبير جديدة"
+
+#. i18n: file: emoticonslist.ui:110
+#. i18n: ectx: property (whatsThis), widget (KPushButton, btNew)
+#: rc.cpp:39
+msgid ""
+"Start a new theme by assigning it a name. Then use the Add button on the "
+"right to add emoticons to this theme."
+msgstr ""
+"ابدأ سمة مع بتخصيص إسم لها. وبعد ذلك استخدم زر أضف الموجود على اليمين لإضافة "
+"تعبيرات إلى هذه السمة."
+
+#. i18n: file: emoticonslist.ui:113
+#. i18n: ectx: property (text), widget (KPushButton, btNew)
+#: rc.cpp:42
+msgid "New Theme..."
+msgstr "سِمة جديدة..."
+
+#. i18n: file: emoticonslist.ui:120
+#. i18n: ectx: property (toolTip), widget (KPushButton, btGetNew)
+#: rc.cpp:45
+msgid "Get new themes from the Internet"
+msgstr "احصل على سمات جديد من الإنترنت"
+
+#. i18n: file: emoticonslist.ui:123
+#. i18n: ectx: property (whatsThis), widget (KPushButton, btGetNew)
+#: rc.cpp:48
+msgid ""
+"You need to be connected to the Internet to use this action. A dialog will "
+"display a list of emoticon themes from the http://www.kde.org website. "
+"Clicking the Install button associated with a theme will install this theme "
+"locally."
+msgstr ""
+"تحتاج للاتصال بالإنترنت لاستخدام هذا الإجراء. الحوار سيعرض قائمة بسمات "
+"التعابير من الموقع http://www.kde.org . بالنقر على زر ثبت المرافق لاسم السمة "
+"سيثبت تلك السمة على جهازك."
+
+#. i18n: file: emoticonslist.ui:126
+#. i18n: ectx: property (text), widget (KPushButton, btGetNew)
+#: rc.cpp:51
+msgid "Get New Themes..."
+msgstr "احصل على سِمات جديدة..."
+
+#. i18n: file: emoticonslist.ui:133
+#. i18n: ectx: property (toolTip), widget (KPushButton, btInstall)
+#: rc.cpp:54
+msgid "Install a theme archive file you already have locally"
+msgstr "ثبت سمة من ملف السمات في جهازك"
+
+#. i18n: file: emoticonslist.ui:136
+#. i18n: ectx: property (whatsThis), widget (KPushButton, btInstall)
+#: rc.cpp:57
+msgid ""
+"If you already have an emoticon theme archive locally, this button will "
+"unpack it and make it available for KDE applications"
+msgstr ""
+"إذا كان لديك سمة تعبيرات على جهازك, هذا الزر سيقوم بفكها وسيجعلها متاح "
+"لبرامج كدي."
+
+#. i18n: file: emoticonslist.ui:139
+#. i18n: ectx: property (text), widget (KPushButton, btInstall)
+#: rc.cpp:60
+msgid "Install Theme File..."
+msgstr "ثبت ملف السمة"
+
+#. i18n: file: emoticonslist.ui:146
+#. i18n: ectx: property (toolTip), widget (KPushButton, btRemoveTheme)
+#: rc.cpp:63
+msgid "Remove the selected theme from your disk"
+msgstr "أزل التعبير المختار من القرص"
+
+#. i18n: file: emoticonslist.ui:149
+#. i18n: ectx: property (whatsThis), widget (KPushButton, btRemoveTheme)
+#: rc.cpp:66
+msgid "This will remove the selected theme from your disk."
+msgstr "هذا سيزيل التعبير المختار من القرص"
+
+#. i18n: file: emoticonslist.ui:152
+#. i18n: ectx: property (text), widget (KPushButton, btRemoveTheme)
+#: rc.cpp:69
+msgid "Remove Theme"
+msgstr "أزل السمه"
+
+#: rc.cpp:70
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#: rc.cpp:71
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"

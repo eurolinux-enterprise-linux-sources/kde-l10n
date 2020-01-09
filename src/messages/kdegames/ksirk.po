@@ -1,0 +1,3941 @@
+# translation of ksirk.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksirk\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-08-25 01:23+0200\n"
+"PO-Revision-Date: 2007-10-14 16:09+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: kgamewinslots.cpp:104
+#, fuzzy, kde-format
+msgid "%2 belongs to %3. 1 army."
+msgid_plural "%2 belongs to %3. %1 armies."
+msgstr[0] "إلى 2"
+msgstr[1] "إلى 2"
+msgstr[2] "إلى 2"
+msgstr[3] "إلى 2"
+msgstr[4] "إلى 2"
+msgstr[5] "إلى 2"
+
+#: kgamewinslots.cpp:458
+msgid "Cannot save when waiting for a defense."
+msgstr ""
+
+#: kgamewinslots.cpp:465
+#, fuzzy
+msgid "KsirK - Save Game"
+msgstr "احفظ لعبة"
+
+#: kgamewinslots.cpp:468
+#, kde-format
+msgid ""
+"%1 exists.\n"
+"Do you really want to overwrite it?"
+msgstr ""
+
+#: kgamewinslots.cpp:469
+msgid "Overwrite file?"
+msgstr ""
+
+#: kgamewinslots.cpp:472
+msgid "Saving canceled"
+msgstr ""
+
+#: kgamewinslots.cpp:483
+#, kde-format
+msgid "Game saved to %1"
+msgstr ""
+
+#: kgamewinslots.cpp:491
+#, fuzzy
+msgid "Only game master can save the game in network playing."
+msgstr "فقط لعبة سيّد حفظ لعبة بوصة شبكة قيد القراءة."
+
+#: kgamewinslots.cpp:796
+msgid ""
+"Attack by drag & drop between countries<br>Move armies the same way (last "
+"action of a turn)."
+msgstr ""
+
+#: kgamewinslots.cpp:978 Jabber/jabberaccount.cpp:534
+msgid ""
+"An encrypted connection with the Jabber server could not be established."
+msgstr ""
+
+#: kgamewinslots.cpp:979 Jabber/jabberaccount.cpp:535
+msgid "Jabber Connection Error"
+msgstr ""
+
+#: kgamewinslots.cpp:1067 Jabber/jabberaccount.cpp:1518
+#, kde-format
+msgid "A password is required to join the room %1."
+msgstr ""
+
+#: kgamewinslots.cpp:1076 Jabber/jabberaccount.cpp:1527
+#, kde-format
+msgid "Error trying to join %1: nickname %2 is already in use"
+msgstr ""
+
+#: kgamewinslots.cpp:1076 Jabber/jabberprotocol.cpp:431
+#: Jabber/jabberaccount.cpp:1528
+msgid "Provide your nickname"
+msgstr ""
+
+#: kgamewinslots.cpp:1085 Jabber/jabberaccount.cpp:1541
+#, kde-format
+msgid "You cannot join the room %1 because you have been banned"
+msgstr ""
+
+#: kgamewinslots.cpp:1085 kgamewinslots.cpp:1089 kgamewinslots.cpp:1096
+#: Jabber/jabberaccount.cpp:1542 Jabber/jabberaccount.cpp:1549
+#: Jabber/jabberaccount.cpp:1559
+msgid "Jabber Group Chat"
+msgstr ""
+
+#: kgamewinslots.cpp:1089 Jabber/jabberaccount.cpp:1548
+#, kde-format
+msgid ""
+"You cannot join the room %1 because the maximum number of users has been "
+"reached"
+msgstr ""
+
+#: kgamewinslots.cpp:1094 Jabber/jabberaccount.cpp:1554
+msgid "No reason given by the server"
+msgstr ""
+
+#: kgamewinslots.cpp:1096 Jabber/jabberaccount.cpp:1558
+#, kde-format
+msgid ""
+"There was an error processing your request for groupchat %1. (Reason: %2, "
+"Code %3)"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:137
+msgid "Authorization"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:143
+msgid "(Re)send Authorization To"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:150
+msgid "(Re)request Authorization From"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:157
+msgid "Remove Authorization From"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:162
+msgid "Set Availability"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:171
+msgid "Online"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:172
+msgid "Free to Chat"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:173
+msgid "Away"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:174
+msgid "Extended Away"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:175
+msgid "Do Not Disturb"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:176
+msgid "Invisible"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:180
+msgid "Select Resource"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:197
+msgid "Automatic (best/default resource)"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:250
+msgid "Voice call"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:283
+#, kde-format
+msgid "The original message is: <i>\" %1 \"</i><br />"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:284
+#, kde-format
+msgid ""
+"<qt><i>%1</i> has invited you to join the conference <b>%2</b><br />%3<br /"
+">If you want to accept and join, just <b>enter your nickname</b> and press "
+"ok<br />If you want to decline, press cancel</qt>"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:290
+msgid "Invited to a conference - Jabber Plugin"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:307
+msgid "Message has been displayed"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:309
+msgid "Message has been delivered"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:312
+msgid "Message stored on the server, contact offline"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:319
+#, kde-format
+msgid "%1 has ended his/her participation in the chat session."
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:357 Jabber/jabbergroupmembercontact.cpp:121
+#: Jabber/jabbergroupcontact.cpp:170
+#, kde-format
+msgid "Your message could not be delivered: \"%1\", Reason: \"%2\""
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:938
+#, kde-format
+msgid "Do you also want to remove user %1's authorization to see your status?"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:939 Jabber/jabberaccount.cpp:1134
+msgid "Notification"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:940 Jabber/jabberaccount.cpp:1134
+msgid "Keep"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:1039 Jabber/jabbergroupmembercontact.cpp:158
+#: Jabber/jabbergroupcontact.cpp:309
+msgid "Kopete File Transfer"
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:1110
+#, kde-format
+msgid ""
+"You have preselected a resource for contact %1, but you still have open chat "
+"windows for this contact. The preselected resource will only apply to newly "
+"opened chat windows."
+msgstr ""
+
+#: Jabber/jabbercontact.cpp:1114
+msgid "Jabber Resource Selector"
+msgstr ""
+
+#: Jabber/jabberbookmarks.cpp:135
+msgid "Groupchat bookmark"
+msgstr ""
+
+#: Jabber/jabberprotocol.cpp:335
+#, fuzzy
+msgid "Choose Account"
+msgstr "اختر"
+
+#: Jabber/jabberprotocol.cpp:341
+#, kde-format
+msgid "Choose an account to handle the URL %1"
+msgstr ""
+
+#: Jabber/jabberprotocol.cpp:390
+#, kde-format
+msgid "Do you want to add '%1' to your contact list?"
+msgstr ""
+
+#: Jabber/jabberprotocol.cpp:391
+msgid "Add"
+msgstr ""
+
+#: Jabber/jabberprotocol.cpp:391
+#, fuzzy
+msgid "Do Not Add"
+msgstr "لا تفعل شيئاً"
+
+#: Jabber/jabberprotocol.cpp:407
+#, kde-format
+msgid "Do you want to remove '%1' from your contact list?"
+msgstr ""
+
+#: Jabber/jabberprotocol.cpp:408
+msgid "Remove"
+msgstr ""
+
+#: Jabber/jabberprotocol.cpp:408
+msgid "Do Not Remove"
+msgstr ""
+
+#: Jabber/jabberprotocol.cpp:430
+#, kde-format
+msgid "Please enter your nickname for the room %1"
+msgstr ""
+
+#: Jabber/jabberprotocol.cpp:453
+#, kde-format
+msgid "You have been invited to %1"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:215
+msgid "Please connect first."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:215
+#, fuzzy
+msgid "Jabber Error"
+msgstr "خطأ قاتل"
+
+#: Jabber/jabberaccount.cpp:378
+#, kde-format
+msgid ""
+"SSL support could not be initialized for account %1. This is most likely "
+"because the QCA TLS plugin is not installed on your system."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:380
+msgid "Jabber SSL Error"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:413
+msgid "The host name does not match the one in the certificate."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:417
+msgid "The certificate is invalid."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:421
+msgid "No certificate was presented."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:431
+msgid "The Certificate Authority rejected the certificate."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:435
+msgid "The certificate is not trusted."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:439
+msgid "The signature is invalid."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:443
+msgid "The Certificate Authority is invalid."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:447
+msgid "Invalid certificate purpose."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:451
+msgid "The certificate is self-signed."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:455
+msgid "The certificate has been revoked."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:459
+msgid "Maximum certificate chain length was exceeded."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:463
+msgid "The certificate has expired."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:467
+msgid "The Certificate Authority has expired."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:471
+msgid "Validity is unknown."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:482
+#, kde-format
+msgid ""
+"<qt><p>The identity and the certificate of server %1 could not be validated "
+"for account %2:</p><p>%3</p><p>%4</p><p>Do you want to continue?</p></qt>"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:488 Jabber/jabberaccount.cpp:493
+#, kde-format
+msgid ""
+"<qt><p>The certificate of server %1 could not be validated for account %2: %"
+"3</p><p>Do you want to continue?</p></qt>"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:500
+msgid "Jabber Connection Certificate Problem"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:738
+msgid "Malformed packet received."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:743
+msgid "There was an unrecoverable error in the protocol."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:750
+msgid "Generic stream error."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:754
+msgid "There was a conflict in the information received."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:757
+msgid "The stream timed out."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:760
+msgid "Internal server error."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:763
+msgid "Stream packet received from an invalid address."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:766
+msgid "Malformed stream packet received."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:770
+msgid "Policy violation in the protocol stream."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:774
+msgid "Resource constraint."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:778
+msgid "System shutdown."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:781
+msgid "Unknown reason."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:785
+#, kde-format
+msgid "There was an error in the protocol stream: %1"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:793
+msgid "Host not found."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:796
+msgid "Address is already in use."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:799
+msgid "Cannot recreate the socket."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:802
+msgid "Cannot bind the socket again."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:805
+msgid "Socket is already connected."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:808
+msgid "Socket is not connected."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:811
+msgid "Socket is not bound."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:814
+msgid "Socket has not been created."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:817
+msgid ""
+"The socket operation would block. You should not see this error: please use "
+"\"Report Bug\" from the Help menu."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:820
+msgid "Connection refused."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:823
+msgid "Connection timed out."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:826
+msgid "Connection attempt already in progress."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:829
+#, fuzzy
+msgid "Network failure."
+msgstr "الشبكة لعبة"
+
+#: Jabber/jabberaccount.cpp:832
+msgid "Operation is not supported."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:835
+msgid "Socket timed out."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:843
+#, kde-format
+msgid "There was a connection error: %1"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:851
+msgid "Unknown host."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:855
+msgid "Could not connect to a required remote resource."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:858
+msgid ""
+"It appears we have been redirected to another server; I do not know how to "
+"handle this."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:861
+msgid "Unsupported protocol version."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:864 Jabber/jabberaccount.cpp:881
+#: Jabber/jabberaccount.cpp:925 Jabber/jabberaccount.cpp:942
+#: Jabber/jabberaccount.cpp:959 Jabber/jabberaccount.cpp:967
+msgid "Unknown error."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:868
+#, kde-format
+msgid "There was a negotiation error: %1"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:875
+msgid "Server rejected our request to start the TLS handshake."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:878
+msgid "Failed to establish a secure connection."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:885
+#, kde-format
+msgid "There was a Transport Layer Security (TLS) error: %1"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:892
+msgid "Login failed with unknown reason."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:895
+msgid "No appropriate authentication mechanism available."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:898
+msgid "Bad SASL authentication protocol."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:901
+msgid "Server failed mutual authentication."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:904
+msgid "Encryption is required but not present."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:907
+msgid "Invalid user ID."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:910
+msgid "Invalid mechanism."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:913
+msgid "Invalid realm."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:916
+msgid "Mechanism too weak."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:919
+msgid "Wrong credentials supplied. (check your user ID and password)"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:922
+msgid "Temporary failure, please try again later."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:929
+#, kde-format
+msgid "There was an error authenticating with the server: %1"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:936
+msgid "Transport Layer Security (TLS) problem."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:939
+msgid "Simple Authentication and Security Layer (SASL) problem."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:946
+#, kde-format
+msgid "There was an error in the security layer: %1"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:953
+msgid "No permission to bind the resource."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:956
+msgid "The resource is already in use."
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:963
+#, kde-format
+msgid "Could not bind a resource: %1"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:981 Jabber/jabberaccount.cpp:985
+#, kde-format
+msgid "Connection problem with Jabber server %1"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:1131
+#, kde-format
+msgid ""
+"The Jabber user %1 removed %2's subscription to him/her. This account will "
+"no longer be able to view his/her online/offline status. Do you want to "
+"delete the contact?"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:1712
+#, kde-format
+msgid ""
+"An error occurred while trying to remove the account:\n"
+"%1"
+msgstr ""
+
+#: Jabber/jabberaccount.cpp:1713
+msgid "Jabber Account Unregistration"
+msgstr ""
+
+#: Jabber/jabberbasecontact.cpp:129
+msgid "You cannot see each others' status."
+msgstr ""
+
+#: Jabber/jabberbasecontact.cpp:133
+msgid "You can see this contact's status, but he/she cannot see your status."
+msgstr ""
+
+#: Jabber/jabberbasecontact.cpp:137
+msgid "This contact can see your status, but you cannot see his/her status."
+msgstr ""
+
+#: Jabber/jabberbasecontact.cpp:141
+msgid "You can see each others' status."
+msgstr ""
+
+#: Jabber/jabberbasecontact.cpp:251
+msgid "Client"
+msgstr ""
+
+#: Jabber/jabberbasecontact.cpp:276
+#, fuzzy
+msgid "Timestamp"
+msgstr "فيتنام"
+
+#: Jabber/jabberbasecontact.cpp:283
+msgid "Message"
+msgstr ""
+
+#: Jabber/jabberbasecontact.cpp:642
+msgid "Downloading of Jabber contact photo failed."
+msgstr ""
+
+#: Jabber/jabbergroupcontact.cpp:119
+msgid "Change nickname"
+msgstr ""
+
+#: Jabber/jabbergroupcontact.cpp:366
+msgid "Change nickname - Jabber Plugin"
+msgstr ""
+
+#: Jabber/jabbergroupcontact.cpp:367
+#, kde-format
+msgid "Please enter the new nickname you want to have in the room <i>%1</i>"
+msgstr ""
+
+#: gestionSprites.cpp:77 gestionSprites.cpp:111 gestionSprites.cpp:162
+#, fuzzy, kde-format
+msgid "Cannot move %1 armies from %2 to %3"
+msgstr "لا يستطيع انقل من إلى 3"
+
+#: gestionSprites.cpp:84
+#, fuzzy, kde-format
+msgid "Moving %1 armies from %2 to %3"
+msgstr "جاري النقل من إلى 3"
+
+#: gestionSprites.cpp:697 gestionSprites.cpp:812 gestionSprites.cpp:1413
+#: gestionSprites.cpp:1490
+#, fuzzy
+msgid ""
+"Sound roule not found - Verify your installation<br>Program cannot continue"
+msgstr "صوت ليس موجود تحقّق تثبيت<br/> البرنامج متابعة"
+
+#: gestionSprites.cpp:697 gestionSprites.cpp:812 gestionSprites.cpp:857
+#: gestionSprites.cpp:1413 gestionSprites.cpp:1490 GameLogic/onu.cpp:131
+#: GameLogic/onu.cpp:148 Sprites/animsprite.cpp:511 Sprites/animsprite.cpp:526
+#: kgamewin.cpp:153 kgamewin.cpp:352 kgamewin.cpp:369 kgamewin.cpp:386
+#: kgamewin.cpp:539 kgamewin.cpp:743
+#, fuzzy
+msgid "Error!"
+msgstr "خطأ!"
+
+#: gestionSprites.cpp:857
+#, fuzzy
+msgid ""
+"Sound cannon not found - Verify your installation<br>Program cannot continue"
+msgstr "صوت ليس موجود تحقّق تثبيت<br/> البرنامج متابعة"
+
+#: gestionSprites.cpp:932 gestionSprites.cpp:952 gestionSprites.cpp:1053
+#: gestionSprites.cpp:1090 gestionSprites.cpp:1125 gestionSprites.cpp:1179
+#: gestionSprites.cpp:1216 gestionSprites.cpp:1250
+#, fuzzy
+msgid ""
+"Sound crash not found - Verify your installation\n"
+"Program cannot continue"
+msgstr "صوت تحطّم ليس موجود تحقّق تثبيت متابعة"
+
+#: gestionSprites.cpp:932 gestionSprites.cpp:952 gestionSprites.cpp:1053
+#: gestionSprites.cpp:1090 gestionSprites.cpp:1125 gestionSprites.cpp:1179
+#: gestionSprites.cpp:1216 gestionSprites.cpp:1250
+#, fuzzy
+msgid "KsirK - Error!"
+msgstr "خطأ!"
+
+#: gestionSprites.cpp:1294
+#, fuzzy
+msgid "Problem: no one destroyed"
+msgstr "المشكلة لا"
+
+#: gestionSprites.cpp:1504
+#, fuzzy
+msgid "Bug: who should be 0, 1 or 2."
+msgstr "علّة أو."
+
+#: decoratedgameframe.cpp:99 kgamewin.cpp:416
+#, fuzzy
+msgid "Next Player"
+msgstr "التالي اللاعب"
+
+#: decoratedgameframe.cpp:102
+msgid "Details"
+msgstr ""
+
+#: decoratedgameframe.cpp:105 kgamewin.cpp:398 kgamewin.cpp:1349
+#: kgamewin.cpp:1359 kgamewin.cpp:2606
+#, fuzzy
+msgid "Goal"
+msgstr "الهدف"
+
+#: decoratedgameframe.cpp:137 decoratedgameframe.cpp:383
+#: decoratedgameframe.cpp:390
+msgid "Enable Arena"
+msgstr ""
+
+#: decoratedgameframe.cpp:141
+msgid "Attack 1"
+msgstr ""
+
+#: decoratedgameframe.cpp:144
+msgid "Attack 2"
+msgstr ""
+
+#: decoratedgameframe.cpp:147
+msgid "Attack 3"
+msgstr ""
+
+#: decoratedgameframe.cpp:150
+#, fuzzy
+msgid "Auto attack"
+msgstr "لا شيء إلى!"
+
+#: decoratedgameframe.cpp:168
+msgid "Move 1"
+msgstr ""
+
+#: decoratedgameframe.cpp:171
+msgid "Move 5"
+msgstr ""
+
+#: decoratedgameframe.cpp:174
+msgid "Move 10"
+msgstr ""
+
+#: decoratedgameframe.cpp:385
+msgid "Disable Arena"
+msgstr ""
+
+#: main.cpp:32 main.cpp:39 kgamewin.cpp:2422
+msgid "KsirK"
+msgstr ""
+
+#: main.cpp:41
+#, fuzzy
+msgid "(c) 2002-2005, Gaël de Chalendar\n"
+msgstr "c n"
+
+#: main.cpp:42
+#, fuzzy
+msgid ""
+"For help and user manual, please see\n"
+"the KsirK web site."
+msgstr "لـ مساعدة و مستخدم ويب موقع"
+
+#: main.cpp:44
+msgid "Gael de Chalendar aka Kleag"
+msgstr ""
+
+#: main.cpp:45
+#, fuzzy
+msgid "Robin Doer"
+msgstr "روبن الفاعل"
+
+#: main.cpp:46
+#, fuzzy
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#: main.cpp:47
+#, fuzzy
+msgid "Michal Golunski (Polish translation)"
+msgstr "البولندية"
+
+#: main.cpp:48
+msgid "French students of the 'IUP ISI 2007-2008':"
+msgstr ""
+
+#: main.cpp:50
+msgid ""
+"&nbsp;&nbsp;Anthony Rey<br/>&nbsp;&nbsp;Benjamin Lucas<br/>&nbsp;&nbsp;"
+"Benjamin Moreau<br/>&nbsp;&nbsp;Gaël Clouet<br/>&nbsp;&nbsp;Guillaume "
+"Pelouas<br/>&nbsp;&nbsp;Joël Marco<br/>&nbsp;&nbsp;Laurent Dang<br/>&nbsp;"
+"&nbsp;Nicolas Linard<br/>&nbsp;&nbsp;Vincent Sac"
+msgstr ""
+
+#: main.cpp:54
+#, fuzzy
+msgid "file to open"
+msgstr "الملف لفتحه"
+
+#: Dialogs/kplayersetupdialog.cpp:67
+#, fuzzy, kde-format
+msgid "Player Number %1, please type in your name and choose your nation:"
+msgstr "اللاعب الرقم نوع بوصة الإسم<br /> و اختيار:"
+
+#: Dialogs/kplayersetupdialog.cpp:96 Dialogs/kplayersetupdialog.cpp:98
+#: Dialogs/kplayersetupdialog.cpp:103 Dialogs/kplayersetupdialog.cpp:105
+#: GameLogic/gameautomaton.cpp:1585 kgamewin.cpp:1486
+#, fuzzy
+msgid "Error"
+msgstr "خطأ"
+
+#: Dialogs/kplayersetupdialog.cpp:97
+#, fuzzy, kde-format
+msgid "Player %1, you have to choose a name!"
+msgstr "اللاعب إلى اختيار a الإسم!"
+
+#: Dialogs/kplayersetupdialog.cpp:104
+#, fuzzy, kde-format
+msgid "Player %1, you have to choose another name!<br/>%2 is not unique."
+msgstr "اللاعب إلى اختيار الإسم<br/> هو ليس فريد."
+
+#: Dialogs/InvasionSlider.cpp:144
+#, fuzzy, kde-format
+msgid ""
+"You are invading <font color=\"blue\">%1</font> with <font color=\"red\">%2</"
+"font>!"
+msgstr "<font color=\"red\"> مع</font> و<font color=\"blue\"></font>"
+
+#: Dialogs/InvasionSlider.cpp:145
+msgid "<br><i>Choose the number of invading armies.</i>"
+msgstr ""
+
+#: Dialogs/InvasionSlider.cpp:149
+#, fuzzy, kde-format
+msgid ""
+"You are moving armies from <font color=\"red\">%1</font> to <font color="
+"\"blue\">%2</font>!"
+msgstr "<font color=\"red\"> مع</font> و<font color=\"blue\"></font>"
+
+#: Dialogs/InvasionSlider.cpp:150
+msgid "<br><i>Choose the number of armies to move.</i>"
+msgstr ""
+
+#: Dialogs/InvasionSlider.cpp:178
+#, fuzzy
+msgid "Invasion"
+msgstr "نهاية الإحتلال"
+
+#: Dialogs/jabbergameui.cpp:82
+msgid "Nickname"
+msgstr ""
+
+#: Dialogs/jabbergameui.cpp:83
+#, fuzzy
+msgid "Skin"
+msgstr "الجلد:"
+
+#: Dialogs/jabbergameui.cpp:84
+#, fuzzy
+msgid "Nb players"
+msgstr "الرقم من:"
+
+#: Dialogs/newGameDialogImpl.cpp:107
+#, fuzzy
+msgid "Help currently unavailable."
+msgstr "مساعدة غير متوفّر."
+
+#: Dialogs/newGameDialogImpl.cpp:107
+#, fuzzy
+msgid "KsirK - No help!"
+msgstr "لا مساعدة!"
+
+#: Dialogs/newGameDialogImpl.cpp:131
+#, fuzzy
+msgid ""
+"Skins directory not found - Verify your installation\n"
+"Program cannot continue"
+msgstr "الجلود دليل ليس موجود تحقّق تثبيت متابعة"
+
+#: Dialogs/newGameDialogImpl.cpp:132
+#, fuzzy
+msgid "Fatal Error!"
+msgstr "خطأ فادِح !"
+
+#: ksirkConfigDialog.cpp:63
+#, fuzzy
+msgid "Preferences"
+msgstr "تفضيلات"
+
+#: GameLogic/aiplayer.cpp:499
+#, fuzzy, kde-format
+msgid ""
+"Error - No receiving country selected while computer player %2 had still 1 "
+"army to place. This is bug probably #2232 at www.gna.org."
+msgid_plural ""
+"Error - No receiving country selected while computer player %2 had still %1 "
+"armies to place. This is bug probably #2232 at www.gna.org."
+msgstr[0] "خطأ لا مُنتقى بينما حاسوب إلى هذا هو خلل عند."
+msgstr[1] "خطأ لا مُنتقى بينما حاسوب إلى هذا هو خلل عند."
+msgstr[2] "خطأ لا مُنتقى بينما حاسوب إلى هذا هو خلل عند."
+msgstr[3] "خطأ لا مُنتقى بينما حاسوب إلى هذا هو خلل عند."
+msgstr[4] "خطأ لا مُنتقى بينما حاسوب إلى هذا هو خلل عند."
+msgstr[5] "خطأ لا مُنتقى بينما حاسوب إلى هذا هو خلل عند."
+
+#: GameLogic/aiplayer.cpp:501 Sprites/skinSpritesData.cpp:89
+#: Sprites/skinSpritesData.cpp:105
+#, fuzzy
+msgid "Fatal Error"
+msgstr "خطأ قاتل"
+
+#: GameLogic/goal.cpp:158
+msgid "You must conquer the World!"
+msgstr ""
+
+#: GameLogic/goal.cpp:197
+#, fuzzy
+msgid "Error: no player to destroy"
+msgstr "خطأ لا إلى تدمير"
+
+#: GameLogic/goal.cpp:233
+#, fuzzy, kde-format
+msgid "<br>%1 is still alive..."
+msgstr "<br/> هو."
+
+#: GameLogic/goal.cpp:237
+#, fuzzy, kde-format
+msgid "<br>You now have to conquer %1"
+msgstr "<br/> أنت الآن إلى 1"
+
+#: GameLogic/goal.cpp:244
+#, fuzzy, kde-format
+msgid "<br>%2, you still have 1 country to conquer..."
+msgid_plural "<br>%2, you still have %1 countries to conquer..."
+msgstr[0] "<br/> إلى."
+msgstr[1] "<br/> إلى."
+msgstr[2] "<br/> إلى."
+msgstr[3] "<br/> إلى."
+msgstr[4] "<br/> إلى."
+msgstr[5] "<br/> إلى."
+
+#: GameLogic/goal.cpp:256
+#, fuzzy, kde-format
+msgid ""
+"<br>%2, you have enough countries but you still have to put more than 1 army "
+"on %3 of them..."
+msgid_plural ""
+"<br>%2, you have enough countries but you still have to put more than %1 "
+"armies on %3 of them..."
+msgstr[0] "<br/> إلى put المزيد يعمل من."
+msgstr[1] "<br/> إلى put المزيد يعمل من."
+msgstr[2] "<br/> إلى put المزيد يعمل من."
+msgstr[3] "<br/> إلى put المزيد يعمل من."
+msgstr[4] "<br/> إلى put المزيد يعمل من."
+msgstr[5] "<br/> إلى put المزيد يعمل من."
+
+#: GameLogic/goal.cpp:261
+#, fuzzy, kde-format
+msgid "<br>%1, you still have to conquer "
+msgstr "<br/> إلى "
+
+#: GameLogic/goal.cpp:267
+#, fuzzy, kde-format
+msgid "1 country in %2"
+msgid_plural "%1 countries in %2"
+msgstr[0] "بوصة 2"
+msgstr[1] "بوصة 2"
+msgstr[2] "بوصة 2"
+msgstr[3] "بوصة 2"
+msgstr[4] "بوصة 2"
+msgstr[5] "بوصة 2"
+
+#: GameLogic/goal.cpp:277
+#, fuzzy
+msgid " and "
+msgstr " و "
+
+#: GameLogic/goal.cpp:281
+#, fuzzy
+msgid ", "
+msgstr "، "
+
+#: GameLogic/goal.cpp:287
+#, fuzzy, kde-format
+msgctxt ""
+"@info An element of the enumeration of the number of countries in the given "
+"continent"
+msgid "%1 in %2"
+msgstr "%1 فى %2"
+
+#: GameLogic/goal.cpp:309
+#, fuzzy
+msgid "KsirK - Goal Display"
+msgstr "الهدف العرض"
+
+#: GameLogic/onu.cpp:130
+#, fuzzy
+msgid ""
+"Pool filename not found\n"
+"Program cannot continue"
+msgstr "تجمّع اسم الملف ليس موجود متابعة"
+
+#: GameLogic/onu.cpp:147
+#, fuzzy
+msgid ""
+"Map mask image not found\n"
+"Program cannot continue"
+msgstr "الخريطة حجاب ، قناع صورة ليس موجود متابعة"
+
+#: GameLogic/gameautomaton.cpp:304
+#, fuzzy
+msgid "KsirK - Network configuration"
+msgstr "الشبكة تشكيل"
+
+#: GameLogic/gameautomaton.cpp:305
+#, fuzzy
+msgid "Please type in the port number on which to offer connections:"
+msgstr "رجاء نوع بوصة منفذ رقم يعمل إلى:"
+
+#: GameLogic/gameautomaton.cpp:1176
+#, fuzzy
+msgid "Port configuration"
+msgstr "تهيئة الشبكة"
+
+#: GameLogic/gameautomaton.cpp:1179
+#, fuzzy
+msgid "TCP port on which to offer connections"
+msgstr "رجاء نوع بوصة منفذ رقم يعمل إلى:"
+
+#: GameLogic/gameautomaton.cpp:1257 GameLogic/gameautomaton.cpp:1298
+#, fuzzy
+msgid "Do you really want to end your current game and join another?"
+msgstr "تنفيذ إلى end الحالي لعبة و تشغيل a جديد?"
+
+#: GameLogic/gameautomaton.cpp:1257 GameLogic/gameautomaton.cpp:1298
+#: kgamewin.cpp:2771
+#, fuzzy
+msgid "New game confirmation"
+msgstr "جديد لعبة تأكيد"
+
+#: GameLogic/gameautomaton.cpp:1478
+#, fuzzy, kde-format
+msgid "%1 (%2) joined game ; waiting for %3 players to connect"
+msgstr "لعبة يجري الإنتظار... لـ إلى اتصال"
+
+#: GameLogic/gameautomaton.cpp:1571
+#, fuzzy
+msgid "Please choose another name"
+msgstr "رجاء اختيار الإسم"
+
+#: GameLogic/gameautomaton.cpp:1571
+#, fuzzy
+msgid "KsirK - Name already used!"
+msgstr "الاسم مُستخدَم!"
+
+#: GameLogic/gameautomaton.cpp:1577 kgamewin.cpp:1479
+#, fuzzy, kde-format
+msgid "Player number %1, what's your name?"
+msgstr "اللاعب رقم s الإسم?"
+
+#: GameLogic/gameautomaton.cpp:1584 kgamewin.cpp:1485
+#, fuzzy, kde-format
+msgid "Error - Player %1, you have to choose a name."
+msgstr "خطأ اللاعب إلى اختيار a الإسم."
+
+#: GameLogic/gameautomaton.cpp:1586 kgamewin.cpp:1487
+#, fuzzy, kde-format
+msgctxt "@info Forged player name"
+msgid "Player%1"
+msgstr "اللاعب 1"
+
+#: GameLogic/gameautomaton.cpp:1638
+#, fuzzy
+msgid "Please choose another nation"
+msgstr "رجاء اختيار"
+
+#: GameLogic/gameautomaton.cpp:1638
+#, fuzzy
+msgid "KsirK - Nation already used!"
+msgstr "الأمة مُستخدَم!"
+
+#: GameLogic/gameautomaton.cpp:1727
+#, fuzzy
+msgid ""
+"KsirK - Lost connection to server!\n"
+"What do you want to do?"
+msgstr "خسرت اتصال إلى خادم إلى?"
+
+#: GameLogic/gameautomaton.cpp:1728
+#, fuzzy
+msgid "Starting a new game or exit."
+msgstr "جاري التشغيل a جديد لعبة أو خروج."
+
+#. i18n: file: Dialogs/restartOrExitDialog.ui:27
+#. i18n: ectx: property (text), widget (QPushButton, newGameButton)
+#: GameLogic/gameautomaton.cpp:1729 rc.cpp:230
+#, fuzzy
+msgid "New Game"
+msgstr "لعبة جديدة"
+
+#. i18n: file: Dialogs/restartOrExitDialog.ui:50
+#. i18n: ectx: property (text), widget (QPushButton, exitButton)
+#: GameLogic/gameautomaton.cpp:1730 rc.cpp:242
+#, fuzzy
+msgid "Exit"
+msgstr "خروج"
+
+#: GameLogic/gameautomaton.cpp:1731
+#, fuzzy
+msgid "Do nothing"
+msgstr "لا تعمل شيئا"
+
+#: GameLogic/gameautomaton.cpp:1755
+#, fuzzy
+msgid ""
+"Lost connection to a client.\n"
+"For the moment, you can only save the game and start a new one or quit.\n"
+"This will be improved in a future version."
+msgstr "خسرت اتصال إلى a عميل حفظ لعبة و تشغيل a جديد أو اخرج بوصة a النسخة."
+
+#: GameLogic/gameautomaton.cpp:1756
+#, fuzzy
+msgid "KsirK - Lost connection to client!"
+msgstr "خسرت اتصال إلى عميل!"
+
+#: GameLogic/gameautomaton.cpp:1757
+#, fuzzy
+msgid "Do want to save your game?"
+msgstr "تنفيذ إلى حفظ لعبة?"
+
+#: GameLogic/gameautomaton.cpp:1919 GameLogic/gameautomaton.cpp:2333
+#: kgamewin.cpp:2235 kgamewin.cpp:2332 kgamewin.cpp:2369
+#, fuzzy, kde-format
+msgid "%1: %2 armies to place"
+msgstr "إلى"
+
+#: GameLogic/gameautomaton.cpp:1924 GameLogic/gameautomaton.cpp:2336
+#, fuzzy
+msgid ""
+"Now, place your armies in your countries<br>by clicking in the target "
+"countries."
+msgstr "الآن بوصة<br/> أداء بوصة هدف."
+
+#: GameLogic/gameautomaton.cpp:2000
+#, fuzzy, kde-format
+msgid ""
+"%1, your goal will be displayed. Please<br>make sure that no other player "
+"can see it!"
+msgstr "رجاء make لا غير ذلك الإيطالية!"
+
+#: GameLogic/gameautomaton.cpp:2002
+#, fuzzy
+msgid "KsirK - Displaying Goal"
+msgstr "العرض الهدف"
+
+#: GameLogic/gameautomaton.cpp:2188
+#, kde-format
+msgid "%1 chooses its defense"
+msgstr ""
+
+#: GameLogic/gameautomaton.cpp:2346
+#, fuzzy, kde-format
+msgid "%1 choose to end recycling; there are now %2 players who want so"
+msgstr "اختيار إلى end هو الآن"
+
+#: GameLogic/gameautomaton.cpp:2436
+#, fuzzy
+msgid "Problem : no one destroyed"
+msgstr "المشكلة لا"
+
+#: GameLogic/gameautomaton.cpp:2436
+#, fuzzy
+msgid "Ksirk - Error!"
+msgstr "خطأ!"
+
+#: GameLogic/gameautomaton.cpp:2485
+#, fuzzy
+msgid ""
+"You entered an invalid password.\n"
+"Please try again."
+msgstr "أنت غير صالح كلمة مرور."
+
+#: GameLogic/gameautomaton.cpp:2485
+#, fuzzy
+msgid "KsirK - Invalid password!"
+msgstr "غير صحيح كلمة مرور!"
+
+#: GameLogic/gameautomaton.cpp:2687
+#, fuzzy, kde-format
+msgid ""
+"%1, you have not played anything this turn.\n"
+"Do you really want to lose your turn?"
+msgstr "ليس أي شيء إلى?"
+
+#: GameLogic/gameautomaton.cpp:2688
+#, fuzzy
+msgid "Really Next Player?"
+msgstr "التالي اللاعب"
+
+#: GameLogic/KsirkChatModel.cpp:72 kgamewin.cpp:186
+msgid "No message..."
+msgstr ""
+
+#: GameLogic/KsirkChatModel.cpp:74
+#, kde-format
+msgid "<b>%1:</b> %2"
+msgstr ""
+
+#. i18n: file: ksirksettings.kcfg:7
+#. i18n: ectx: label, entry (spritesSpeed), group (General)
+#: rc.cpp:3
+#, fuzzy
+msgid "The sprites speed: slow, normal, quick, immediate"
+msgstr "العفاريت سرعة عادي"
+
+#. i18n: file: ksirksettings.kcfg:11
+#. i18n: ectx: label, entry (soundEnabled), group (General)
+#: rc.cpp:6
+msgid "If true, sounds are played; they are not otherwise."
+msgstr ""
+
+#. i18n: file: ksirksettings.kcfg:15
+#. i18n: ectx: label, entry (helpEnabled), group (General)
+#: rc.cpp:9
+msgid "If true, help is displayed; they are not otherwise."
+msgstr ""
+
+#. i18n: file: ksirksettings.kcfg:19
+#. i18n: ectx: label, entry (showArmiesNumbers), group (General)
+#: rc.cpp:12
+msgid "If true, the number of armies is displayed on each country."
+msgstr ""
+
+#. i18n: file: ksirksettings.kcfg:23
+#. i18n: ectx: label, entry (Theme), group (General)
+#: rc.cpp:15
+msgid "The graphical theme to be used."
+msgstr ""
+
+#. i18n: file: ksirksettings.kcfg:26
+#. i18n: ectx: label, entry (jabberId), group (General)
+#: rc.cpp:18
+msgid "The last used Jabber Id."
+msgstr ""
+
+#. i18n: file: ksirksettings.kcfg:29
+#. i18n: ectx: label, entry (jabberPassword), group (General)
+#: rc.cpp:21
+msgid "The password of the last used Jabber Id."
+msgstr ""
+
+#. i18n: file: ksirksettings.kcfg:32
+#. i18n: ectx: label, entry (roomJid), group (General)
+#: rc.cpp:24
+msgid "The last used Jabber groupchat room."
+msgstr ""
+
+#. i18n: file: ksirksettings.kcfg:35
+#. i18n: ectx: label, entry (roomPassword), group (General)
+#: rc.cpp:27
+msgid "The password for last used Jabber groupchat room."
+msgstr ""
+
+#. i18n: file: ksirksettings.kcfg:38
+#. i18n: ectx: label, entry (nickname), group (General)
+#: rc.cpp:30
+msgid "The nickname used in the last used Jabber groupchat room."
+msgstr ""
+
+#. i18n: file: ksirkui.rc:10
+#. i18n: ectx: Menu (game)
+#: rc.cpp:33 rc.cpp:414
+#, fuzzy
+msgid "&Game"
+msgstr "&لعبة"
+
+#. i18n: file: ksirkui.rc:24
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:36 rc.cpp:417
+#, fuzzy
+msgid "&Settings"
+msgstr "إ&عدادات"
+
+#. i18n: file: ksirkui.rc:26
+#. i18n: ectx: Menu (help)
+#: rc.cpp:39 rc.cpp:420
+msgid "&Help"
+msgstr ""
+
+#. i18n: file: ksirkui.rc:31
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:42 rc.cpp:423
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسي"
+
+#. i18n: file: mainMenu.ui:31
+#. i18n: ectx: property (text), widget (QLabel, lImage1)
+#: rc.cpp:45 rc.cpp:200
+msgid "LeftImg"
+msgstr ""
+
+#. i18n: file: mainMenu.ui:38
+#. i18n: ectx: property (text), widget (QLabel, lTitle)
+#: rc.cpp:48 rc.cpp:203
+msgid "<h1>KsirK</h1>"
+msgstr ""
+
+#. i18n: file: mainMenu.ui:45
+#. i18n: ectx: property (text), widget (QLabel, lImage2)
+#: rc.cpp:51 rc.cpp:206
+msgid "RightImg"
+msgstr ""
+
+#. i18n: file: mainMenu.ui:97
+#. i18n: ectx: property (text), widget (KPushButton, pbNewGame)
+#: rc.cpp:54 rc.cpp:209
+#, fuzzy
+msgid "New Local Game"
+msgstr "لعبة جديدة"
+
+#. i18n: file: mainMenu.ui:104
+#. i18n: ectx: property (text), widget (KPushButton, pbJabberGame)
+#: rc.cpp:57 rc.cpp:212
+msgid "Play KsirK over Jabber Network"
+msgstr ""
+
+#. i18n: file: mainMenu.ui:111
+#. i18n: ectx: property (text), widget (KPushButton, pbNewSocketGame)
+#: rc.cpp:60 rc.cpp:215 kgamewin.cpp:372
+msgid "New Standard TCP/IP Network Game"
+msgstr ""
+
+#. i18n: file: mainMenu.ui:118
+#. i18n: ectx: property (text), widget (KPushButton, pbJoin)
+#: rc.cpp:63 rc.cpp:218
+#, fuzzy
+msgid "Join Standard TCP/IP Network Game"
+msgstr "انضم شبكة لعبة"
+
+#. i18n: file: mainMenu.ui:125
+#. i18n: ectx: property (text), widget (KPushButton, pbLoad)
+#: rc.cpp:66 rc.cpp:221
+msgid "Load"
+msgstr ""
+
+#. i18n: file: mainMenu.ui:145
+#. i18n: ectx: property (text), widget (KPushButton, pbQuit)
+#: rc.cpp:69 rc.cpp:224
+msgid "Quit"
+msgstr ""
+
+#. i18n: file: preferences.ui:25
+#. i18n: ectx: property (windowTitle), widget (QWidget, KsirkPreferencesWidget)
+#: rc.cpp:72 rc.cpp:185
+#, fuzzy
+msgid "KsirK Preferences"
+msgstr "تفضيلات"
+
+#. i18n: file: preferences.ui:37
+#. i18n: ectx: property (text), widget (QCheckBox, soundEnabled)
+#: rc.cpp:75 rc.cpp:188
+#, fuzzy
+msgid "Sound enabled"
+msgstr "صوت ممكن"
+
+#. i18n: file: preferences.ui:50
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:78 rc.cpp:191
+#, fuzzy
+msgid "Sprites speed (slow, normal, rapid, immediate)"
+msgstr "العفاريت سرعة عادي"
+
+#. i18n: file: preferences.ui:94
+#. i18n: ectx: property (text), widget (QCheckBox, helpEnabled)
+#: rc.cpp:81 rc.cpp:194
+msgid "Show help"
+msgstr ""
+
+#. i18n: file: preferences.ui:101
+#. i18n: ectx: property (text), widget (QCheckBox, armiesNumbers)
+#: rc.cpp:84 rc.cpp:197
+msgid "Show number of armies on countries"
+msgstr ""
+
+#: rc.cpp:85
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:86
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:25
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:89
+msgid "Core"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:34
+#. i18n: ectx: property (title), widget (QGroupBox, gb_server)
+#: rc.cpp:92
+msgid "Server"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:45
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:95
+msgid "Full JID:"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:62
+#. i18n: ectx: property (text), widget (QLabel, textLabel5_2)
+#: rc.cpp:98
+msgid "User (if needed):"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:76
+#. i18n: ectx: property (text), widget (QLabel, textLabel7_2)
+#: rc.cpp:101
+msgid "Pass:"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:97
+#. i18n: ectx: property (text), widget (QCheckBox, ck_ssl)
+#: rc.cpp:104
+msgid "SSL"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:105
+#. i18n: ectx: property (text), item, widget (QComboBox, cb_proxy)
+#: rc.cpp:107
+msgid "None"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:110
+#. i18n: ectx: property (text), item, widget (QComboBox, cb_proxy)
+#: rc.cpp:110
+msgid "HTTP(S)"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:115
+#. i18n: ectx: property (text), item, widget (QComboBox, cb_proxy)
+#: rc.cpp:113
+msgid "SOCKS5"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:120
+#. i18n: ectx: property (text), item, widget (QComboBox, cb_proxy)
+#: rc.cpp:116
+msgid "HTTP Polling"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:128
+#. i18n: ectx: property (text), widget (QLabel, lb_host)
+#. i18n: file: iris/tools/xmpptest/test.ui:160
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#. i18n: file: iris/tools/xmpptest/test.ui:128
+#. i18n: ectx: property (text), widget (QLabel, lb_host)
+#. i18n: file: iris/tools/xmpptest/test.ui:160
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: rc.cpp:119 rc.cpp:131
+msgid "Host:Port:"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:135
+#. i18n: ectx: property (text), widget (QCheckBox, ck_probe)
+#: rc.cpp:122
+msgid "Legacy SSL probe"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:142
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:125
+msgid "Proxy:"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:154
+#. i18n: ectx: property (title), widget (QGroupBox, gb_proxy)
+#: rc.cpp:128
+#, fuzzy
+msgid "Proxy Settings"
+msgstr "إ&عدادات"
+
+#. i18n: file: iris/tools/xmpptest/test.ui:170
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:134
+msgid "User/Pass:"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:180
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#. i18n: file: iris/tools/xmpptest/test.ui:242
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: iris/tools/xmpptest/test.ui:180
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#. i18n: file: iris/tools/xmpptest/test.ui:242
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:137 rc.cpp:155
+msgid "/"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:194
+#. i18n: ectx: property (text), widget (QLabel, lb_proxyurl)
+#: rc.cpp:140
+msgid "Polling URL:"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:207
+#. i18n: ectx: property (title), widget (QGroupBox, gb_security)
+#: rc.cpp:143
+#, fuzzy
+msgid "Security Settings"
+msgstr "إ&عدادات"
+
+#. i18n: file: iris/tools/xmpptest/test.ui:213
+#. i18n: ectx: property (text), widget (QCheckBox, ck_plain)
+#: rc.cpp:146
+msgid "Allow plaintext login"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:220
+#. i18n: ectx: property (text), widget (QCheckBox, ck_mutual)
+#: rc.cpp:149
+msgid "Require mutual authentication"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:232
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:152
+msgid "SASL SSF min/max:"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:265
+#. i18n: ectx: property (text), widget (QPushButton, pb_go)
+#: rc.cpp:158
+msgid "&Connect"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:288
+#. i18n: ectx: property (text), widget (QPushButton, pb_about)
+#: rc.cpp:161
+msgid "&About"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:313
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: rc.cpp:164
+msgid "Quick XML >>"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:324
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#: rc.cpp:167
+msgid "To:"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:341
+#. i18n: ectx: property (text), widget (QPushButton, pb_im)
+#: rc.cpp:170
+msgid "&IM Session"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:348
+#. i18n: ectx: property (text), widget (QPushButton, pb_msg)
+#: rc.cpp:173
+msgid "&Message"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:355
+#. i18n: ectx: property (text), widget (QPushButton, pb_iqv)
+#: rc.cpp:176
+msgid "IQ &Version"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:376
+#. i18n: ectx: attribute (title), widget (QWidget, tab2)
+#: rc.cpp:179
+msgid "IM"
+msgstr ""
+
+#. i18n: file: iris/tools/xmpptest/test.ui:433
+#. i18n: ectx: property (text), widget (QPushButton, pb_send)
+#: rc.cpp:182
+msgid "&Send"
+msgstr ""
+
+#. i18n: file: Dialogs/restartOrExitDialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, RestartOrExitDialog)
+#: rc.cpp:227
+#, fuzzy
+msgid "New Game or Exit"
+msgstr "جديد لعبة أو خروج"
+
+#. i18n: file: Dialogs/restartOrExitDialog.ui:33
+#. i18n: ectx: property (toolTip), widget (QPushButton, newGameButton)
+#: rc.cpp:233
+#, fuzzy
+msgid "Starts a new game"
+msgstr "يبدء a جديد لعبة"
+
+#. i18n: file: Dialogs/restartOrExitDialog.ui:40
+#. i18n: ectx: property (text), widget (QPushButton, doNothingButton)
+#: rc.cpp:236
+#, fuzzy
+msgid "Do Nothing"
+msgstr "لا تفعل شيئاً"
+
+#. i18n: file: Dialogs/restartOrExitDialog.ui:43
+#. i18n: ectx: property (toolTip), widget (QPushButton, doNothingButton)
+#: rc.cpp:239
+#, fuzzy
+msgid "Do nothing. Game buttons will be available"
+msgstr "تنفيذ لا شئ لعبة متوفّر"
+
+#. i18n: file: Dialogs/restartOrExitDialog.ui:53
+#. i18n: ectx: property (toolTip), widget (QPushButton, exitButton)
+#: rc.cpp:245
+#, fuzzy
+msgid "Quit KsirK"
+msgstr "اخرج"
+
+#. i18n: file: Dialogs/restartOrExitDialog.ui:89
+#. i18n: ectx: property (text), widget (QLabel, messageLabel)
+#: rc.cpp:249
+#, fuzzy, no-c-format, kde-format
+msgid "%1 won! Do you want to play again?"
+msgstr "تنفيذ إلى تشغيل?"
+
+#. i18n: file: Dialogs/jabbergameui.ui:29
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:252
+msgid "Connection to the Jabber Network"
+msgstr ""
+
+#. i18n: file: Dialogs/jabbergameui.ui:38
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:255
+msgid "Jabber ID:"
+msgstr ""
+
+#. i18n: file: Dialogs/jabbergameui.ui:45
+#. i18n: ectx: property (text), widget (KLineEdit, jabberid)
+#: rc.cpp:258
+msgid "kleag@kdetalk.net"
+msgstr ""
+
+#. i18n: file: Dialogs/jabbergameui.ui:52
+#. i18n: ectx: property (text), widget (KLineEdit, password)
+#: rc.cpp:261
+msgid "12345678"
+msgstr ""
+
+#. i18n: file: Dialogs/jabbergameui.ui:62
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:264
+msgid "Password:"
+msgstr ""
+
+#. i18n: file: Dialogs/jabbergameui.ui:73
+#. i18n: ectx: property (text), widget (KPushButton, connectbutton)
+#: rc.cpp:267
+msgid "Connect"
+msgstr ""
+
+#. i18n: file: Dialogs/jabbergameui.ui:95
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: file: Dialogs/jabbergameui.ui:188
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. i18n: file: Dialogs/jabbergameui.ui:95
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: file: Dialogs/jabbergameui.ui:188
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: rc.cpp:270 rc.cpp:288
+msgid "State:"
+msgstr ""
+
+#. i18n: file: Dialogs/jabbergameui.ui:136
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:273
+msgid "Joining a KsirK Jabber Chatroom"
+msgstr ""
+
+#. i18n: file: Dialogs/jabbergameui.ui:145
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:276
+msgid "Room JID:"
+msgstr ""
+
+#. i18n: file: Dialogs/jabbergameui.ui:155
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:279
+msgid "Nickname:"
+msgstr ""
+
+#. i18n: file: Dialogs/jabbergameui.ui:165
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:282
+msgid "Room Password:"
+msgstr ""
+
+#. i18n: file: Dialogs/jabbergameui.ui:179
+#. i18n: ectx: property (text), widget (KPushButton, joinroombutton)
+#: rc.cpp:285
+#, fuzzy
+msgid "Join Room"
+msgstr "انضم"
+
+#. i18n: file: Dialogs/jabbergameui.ui:208
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:291
+msgid "Games in the Room"
+msgstr ""
+
+#. i18n: file: Dialogs/jabbergameui.ui:241
+#. i18n: ectx: property (text), widget (KPushButton, startnewgamebutton)
+#: rc.cpp:294
+#, fuzzy
+msgid "Start a New Game"
+msgstr "يبدء a جديد لعبة"
+
+#. i18n: file: Dialogs/jabbergameui.ui:248
+#. i18n: ectx: property (text), widget (KPushButton, joingamebutton)
+#: rc.cpp:297
+#, fuzzy
+msgid "Join Selected Game"
+msgstr "انضم شبكة لعبة"
+
+#. i18n: file: Dialogs/jabbergameui.ui:255
+#. i18n: ectx: property (text), widget (KPushButton, loadsavedgamebutton)
+#: rc.cpp:300
+#, fuzzy
+msgid "Load a Saved Game"
+msgstr "احفظ لعبة"
+
+#. i18n: file: Dialogs/jabbergameui.ui:288
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: rc.cpp:303
+msgid ""
+"<b>Note:</b> Playing over the Jabber network is an experimental feature in "
+"KsirK.<br/>Particularly, the distribution of armies at game beginning is "
+"very slow (expect something like one minute)."
+msgstr ""
+
+#. i18n: file: Dialogs/jabbergameui.ui:313
+#. i18n: ectx: property (text), widget (KPushButton, cancelbutton)
+#: rc.cpp:306
+#, fuzzy
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. i18n: file: Dialogs/joingame.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, JoinGameDialog)
+#: rc.cpp:309
+#, fuzzy
+msgid "Join Network Game Configuration"
+msgstr "انضم شبكة لعبة تشكيل"
+
+#. i18n: file: Dialogs/joingame.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:312
+#, fuzzy
+msgid "Network Configuration"
+msgstr "تهيئة الشبكة"
+
+#. i18n: file: Dialogs/joingame.ui:25
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:315
+msgid "Host:"
+msgstr ""
+
+#. i18n: file: Dialogs/joingame.ui:35
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:318
+msgid "Port:"
+msgstr ""
+
+#. i18n: file: Dialogs/qwaitedplayersetupdialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, QWaitedPlayerSetupDialog)
+#: rc.cpp:321
+#, fuzzy
+msgid "Saved Player Selection"
+msgstr "منقذ منتقى"
+
+#. i18n: file: Dialogs/qwaitedplayersetupdialog.ui:23
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:324
+#, fuzzy
+msgid "Please select your saved player:"
+msgstr "رجاء تحديد:"
+
+#. i18n: file: Dialogs/qwaitedplayersetupdialog.ui:36
+#. i18n: ectx: property (toolTip), widget (QComboBox, waitedPlayersCombo)
+#. i18n: file: Dialogs/qplayersetupdialog.ui:48
+#. i18n: ectx: property (toolTip), widget (QComboBox, nationCombo)
+#. i18n: file: Dialogs/qwaitedplayersetupdialog.ui:36
+#. i18n: ectx: property (toolTip), widget (QComboBox, waitedPlayersCombo)
+#. i18n: file: Dialogs/qplayersetupdialog.ui:48
+#. i18n: ectx: property (toolTip), widget (QComboBox, nationCombo)
+#: rc.cpp:327 rc.cpp:347
+#, fuzzy
+msgid "Choose your nation"
+msgstr "اختر"
+
+#. i18n: file: Dialogs/qwaitedplayersetupdialog.ui:40
+#. i18n: ectx: property (whatsThis), widget (QComboBox, waitedPlayersCombo)
+#. i18n: file: Dialogs/qplayersetupdialog.ui:52
+#. i18n: ectx: property (whatsThis), widget (QComboBox, nationCombo)
+#. i18n: file: Dialogs/qwaitedplayersetupdialog.ui:40
+#. i18n: ectx: property (whatsThis), widget (QComboBox, waitedPlayersCombo)
+#. i18n: file: Dialogs/qplayersetupdialog.ui:52
+#. i18n: ectx: property (whatsThis), widget (QComboBox, nationCombo)
+#: rc.cpp:330 rc.cpp:350
+#, fuzzy
+msgid ""
+"A combo box that lists currently available nations.\n"
+"Choose one of them. It will be your nation during the game"
+msgstr "A مربّع قوائم متوفّر من itإيطالياهو لعبة"
+
+#. i18n: file: Dialogs/qwaitedplayersetupdialog.ui:50
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#. i18n: file: Dialogs/qplayersetupdialog.ui:62
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#. i18n: file: Dialogs/qwaitedplayersetupdialog.ui:50
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#. i18n: file: Dialogs/qplayersetupdialog.ui:62
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: rc.cpp:334 rc.cpp:354
+#, fuzzy
+msgid "Enter your password:"
+msgstr "إدخال كلمة مرور:"
+
+#. i18n: file: Dialogs/qwaitedplayersetupdialog.ui:70
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#. i18n: file: Dialogs/qplayersetupdialog.ui:85
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#. i18n: file: Dialogs/qwaitedplayersetupdialog.ui:70
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#. i18n: file: Dialogs/qplayersetupdialog.ui:85
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#: rc.cpp:337 rc.cpp:357
+#, fuzzy
+msgid "OK"
+msgstr "موافق"
+
+#. i18n: file: Dialogs/qplayersetupdialog.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, QPlayerSetupDialog)
+#: rc.cpp:340
+#, fuzzy
+msgid "Player Setup"
+msgstr "اللاعب تثبيت"
+
+#. i18n: file: Dialogs/qplayersetupdialog.ui:22
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:344
+#, fuzzy, no-c-format, kde-format
+msgid "Player number %1, please enter your name and choose your nation:"
+msgstr "اللاعب رقم d أدخل الإسم و اختيار:"
+
+#. i18n: file: Dialogs/qplayersetupdialog.ui:92
+#. i18n: ectx: property (text), widget (QCheckBox, CheckBox1)
+#: rc.cpp:360
+#, fuzzy
+msgid "Pla&yer is computer"
+msgstr "اللاعب هو حاسوب"
+
+#. i18n: file: Dialogs/newGameDialog.ui:15
+#. i18n: ectx: property (windowTitle), widget (QDialog, NewGameDialog)
+#: rc.cpp:363
+#, fuzzy
+msgid "Ksirk - New game properties"
+msgstr "جديد لعبة خصائِص"
+
+#. i18n: file: Dialogs/newGameDialog.ui:28
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:366
+#, fuzzy
+msgid "Total number of players:"
+msgstr "الرقم من:"
+
+#. i18n: file: Dialogs/newGameDialog.ui:38
+#. i18n: ectx: property (toolTip), widget (QSpinBox, playersNumberEntry)
+#: rc.cpp:369
+#, fuzzy
+msgid "Spin this to choose the number of players."
+msgstr "دوران إلى اختيار رقم من."
+
+#. i18n: file: Dialogs/newGameDialog.ui:41
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, playersNumberEntry)
+#: rc.cpp:372
+#, fuzzy
+msgid "A spin box to choose the number of players"
+msgstr "A تدوير مربّع إلى اختيار رقم من"
+
+#. i18n: file: Dialogs/newGameDialog.ui:52
+#. i18n: ectx: property (text), widget (QLabel, localPlayersNumberLabel)
+#: rc.cpp:375
+#, fuzzy
+msgid "Number of local players:"
+msgstr "الرقم من:"
+
+#. i18n: file: Dialogs/newGameDialog.ui:79
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:378
+#, fuzzy
+msgid "Skin:"
+msgstr "الجلد:"
+
+#. i18n: file: Dialogs/newGameDialog.ui:89
+#. i18n: ectx: property (toolTip), widget (QComboBox, skinCombo)
+#: rc.cpp:381
+#, fuzzy
+msgid "Choose the skin (map, nationalities, etc.) to use for this game."
+msgstr "اختر خريطة إلى استخدام لـ لعبة."
+
+#. i18n: file: Dialogs/newGameDialog.ui:92
+#. i18n: ectx: property (whatsThis), widget (QComboBox, skinCombo)
+#: rc.cpp:384
+#, fuzzy
+msgid "A combo listing all the available skins."
+msgstr "A عرض الكل متوفّر."
+
+#. i18n: file: Dialogs/newGameDialog.ui:99
+#. i18n: ectx: property (text), widget (KPushButton, ghnsbutton)
+#: rc.cpp:387
+msgid "Download New Skins"
+msgstr ""
+
+#. i18n: file: Dialogs/newGameDialog.ui:106
+#. i18n: ectx: property (text), widget (QLabel, skinDescLabel)
+#: rc.cpp:390
+msgid "textLabel1"
+msgstr ""
+
+#. i18n: file: Dialogs/newGameDialog.ui:119
+#. i18n: ectx: property (title), widget (QGroupBox, goalGroup)
+#: rc.cpp:393
+#, fuzzy
+msgid "Goal Type"
+msgstr "الهدف النوع"
+
+#. i18n: file: Dialogs/newGameDialog.ui:125
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioWorld)
+#: rc.cpp:396
+#, fuzzy
+msgid "Choose this for players to have to conquer all the world to win."
+msgstr "اختر لـ إلى إلى الكل العالم إلى."
+
+#. i18n: file: Dialogs/newGameDialog.ui:128
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioWorld)
+#: rc.cpp:399
+#, fuzzy
+msgid "In this mode, a player will have to conquer all the world to win."
+msgstr "داخل نمط a إلى الكل العالم إلى."
+
+#. i18n: file: Dialogs/newGameDialog.ui:131
+#. i18n: ectx: property (text), widget (QRadioButton, radioWorld)
+#: rc.cpp:402
+#, fuzzy
+msgid "Wor&ld conquest"
+msgstr "العالم"
+
+#. i18n: file: Dialogs/newGameDialog.ui:138
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioGoal)
+#: rc.cpp:405
+#, fuzzy
+msgid "Choose this to have a goal assigned to each player."
+msgstr "اختر إلى a إلى."
+
+#. i18n: file: Dialogs/newGameDialog.ui:141
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioGoal)
+#: rc.cpp:408
+#, fuzzy
+msgid ""
+"In this mode, a goal will be assigned to each player, which he will have to "
+"reach in order to win."
+msgstr "داخل نمط a إلى إلى بوصة ترتيب إلى."
+
+#. i18n: file: Dialogs/newGameDialog.ui:144
+#. i18n: ectx: property (text), widget (QRadioButton, radioGoal)
+#: rc.cpp:411
+#, fuzzy
+msgid "Reach a goal"
+msgstr "الوصول a"
+
+#. i18n: file skins/default/Data/world.desktop line 1
+#. i18n: file skins/default/Data/world.desktop line 516
+#. i18n: file skins/default/Data/world.desktop line 531
+#. i18n: file skins/default/Data/world.desktop line 536
+#. i18n: file skins/default/Data/world.desktop line 558
+#. i18n: file skins/legacy/Data/world.desktop line 1
+#. i18n: file skins/legacy/Data/world.desktop line 529
+#. i18n: file skins/legacy/Data/world.desktop line 544
+#. i18n: file skins/legacy/Data/world.desktop line 566
+#. i18n: file skins/static/Data/world.desktop line 1
+#. i18n: file skins/static/Data/world.desktop line 529
+#. i18n: file skins/static/Data/world.desktop line 544
+#. i18n: file skins/static/Data/world.desktop line 566
+#. i18n: file skins/default/Data/world.desktop line 1
+#. i18n: file skins/default/Data/world.desktop line 516
+#. i18n: file skins/default/Data/world.desktop line 531
+#. i18n: file skins/default/Data/world.desktop line 536
+#. i18n: file skins/default/Data/world.desktop line 558
+#. i18n: file skins/legacy/Data/world.desktop line 1
+#. i18n: file skins/legacy/Data/world.desktop line 529
+#. i18n: file skins/legacy/Data/world.desktop line 544
+#. i18n: file skins/legacy/Data/world.desktop line 566
+#. i18n: file skins/static/Data/world.desktop line 1
+#. i18n: file skins/static/Data/world.desktop line 529
+#. i18n: file skins/static/Data/world.desktop line 544
+#. i18n: file skins/static/Data/world.desktop line 566
+#: rc.cpp:426 rc.cpp:585 rc.cpp:612 rc.cpp:624 rc.cpp:651 rc.cpp:807
+#: rc.cpp:984 rc.cpp:1008 rc.cpp:1038 rc.cpp:1197 rc.cpp:1374 rc.cpp:1398
+#: rc.cpp:1428
+#, fuzzy, no-c-format
+msgid "Africa"
+msgstr "إفريقيا"
+
+#. i18n: file skins/default/Data/world.desktop line 6
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 6
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 6
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 6
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 6
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 6
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:429 rc.cpp:675 rc.cpp:810 rc.cpp:1062 rc.cpp:1200 rc.cpp:1452
+#, fuzzy, no-c-format
+msgid "Alaska"
+msgstr "ألاسكا"
+
+#. i18n: file skins/default/Data/world.desktop line 16
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 16
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 16
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 16
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 16
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 16
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:432 rc.cpp:672 rc.cpp:813 rc.cpp:1059 rc.cpp:1203 rc.cpp:1449
+#, fuzzy, no-c-format
+msgid "Alberta"
+msgstr "آلبرتا"
+
+#. i18n: file skins/default/Data/world.desktop line 26
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 26
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 26
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 26
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 26
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 26
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:435 rc.cpp:738 rc.cpp:816 rc.cpp:1125 rc.cpp:1206 rc.cpp:1515
+#, fuzzy, no-c-format
+msgid "Algeria"
+msgstr "الجزائر"
+
+#. i18n: file skins/default/Data/world.desktop line 36
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 36
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 36
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 36
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 36
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 36
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:438 rc.cpp:759 rc.cpp:819 rc.cpp:1146 rc.cpp:1209 rc.cpp:1536
+#, fuzzy, no-c-format
+msgid "Arabia"
+msgstr "الجزيرة العربية"
+
+#. i18n: file skins/default/Data/world.desktop line 46
+#. i18n: file skins/default/Data/world.desktop line 521
+#. i18n: file skins/default/Data/world.desktop line 526
+#. i18n: file skins/default/Data/world.desktop line 558
+#. i18n: file skins/legacy/Data/world.desktop line 46
+#. i18n: file skins/legacy/Data/world.desktop line 544
+#. i18n: file skins/legacy/Data/world.desktop line 549
+#. i18n: file skins/legacy/Data/world.desktop line 566
+#. i18n: file skins/static/Data/world.desktop line 46
+#. i18n: file skins/static/Data/world.desktop line 544
+#. i18n: file skins/static/Data/world.desktop line 549
+#. i18n: file skins/static/Data/world.desktop line 566
+#. i18n: file skins/default/Data/world.desktop line 46
+#. i18n: file skins/default/Data/world.desktop line 521
+#. i18n: file skins/default/Data/world.desktop line 526
+#. i18n: file skins/default/Data/world.desktop line 558
+#. i18n: file skins/legacy/Data/world.desktop line 46
+#. i18n: file skins/legacy/Data/world.desktop line 544
+#. i18n: file skins/legacy/Data/world.desktop line 549
+#. i18n: file skins/legacy/Data/world.desktop line 566
+#. i18n: file skins/static/Data/world.desktop line 46
+#. i18n: file skins/static/Data/world.desktop line 544
+#. i18n: file skins/static/Data/world.desktop line 549
+#. i18n: file skins/static/Data/world.desktop line 566
+#: rc.cpp:441 rc.cpp:594 rc.cpp:603 rc.cpp:654 rc.cpp:822 rc.cpp:1011
+#: rc.cpp:1020 rc.cpp:1041 rc.cpp:1212 rc.cpp:1401 rc.cpp:1410 rc.cpp:1431
+#, fuzzy, no-c-format
+msgid "Asia"
+msgstr "آسيا"
+
+#. i18n: file skins/default/Data/world.desktop line 51
+#. i18n: file skins/default/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 51
+#. i18n: file skins/legacy/Data/world.desktop line 575
+#. i18n: file skins/static/Data/world.desktop line 51
+#. i18n: file skins/static/Data/world.desktop line 575
+#. i18n: file skins/default/Data/world.desktop line 51
+#. i18n: file skins/default/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 51
+#. i18n: file skins/legacy/Data/world.desktop line 575
+#. i18n: file skins/static/Data/world.desktop line 51
+#. i18n: file skins/static/Data/world.desktop line 575
+#: rc.cpp:444 rc.cpp:798 rc.cpp:825 rc.cpp:1188 rc.cpp:1215 rc.cpp:1578
+#, fuzzy, no-c-format
+msgid "Belgium"
+msgstr "بلجيكا"
+
+#. i18n: file skins/default/Data/world.desktop line 55
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 55
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 55
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 55
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 55
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 55
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:447 rc.cpp:702 rc.cpp:828 rc.cpp:1089 rc.cpp:1218 rc.cpp:1479
+#, fuzzy, no-c-format
+msgid "Benelux"
+msgstr "بينيلَكس"
+
+#. i18n: file skins/default/Data/world.desktop line 65
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 65
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 65
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 65
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 65
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 65
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:450 rc.cpp:687 rc.cpp:831 rc.cpp:1074 rc.cpp:1221 rc.cpp:1464
+#, fuzzy, no-c-format
+msgid "Brazil"
+msgstr "البرازيل"
+
+#. i18n: file skins/default/Data/world.desktop line 75
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 75
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 75
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 75
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 75
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 75
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:453 rc.cpp:693 rc.cpp:834 rc.cpp:1080 rc.cpp:1224 rc.cpp:1470
+#, fuzzy, no-c-format
+msgid "Chile"
+msgstr "الفلفل الحار"
+
+#. i18n: file skins/default/Data/world.desktop line 85
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 85
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 85
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 85
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 85
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 85
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:456 rc.cpp:720 rc.cpp:837 rc.cpp:1107 rc.cpp:1227 rc.cpp:1497
+#, fuzzy, no-c-format
+msgid "China"
+msgstr "الصين"
+
+#. i18n: file skins/default/Data/world.desktop line 95
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 95
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 95
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 95
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 95
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 95
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:459 rc.cpp:684 rc.cpp:840 rc.cpp:1071 rc.cpp:1230 rc.cpp:1461
+#, fuzzy, no-c-format
+msgid "Colombia"
+msgstr "كولومبيا"
+
+#. i18n: file skins/default/Data/world.desktop line 105
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 105
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 105
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 105
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 105
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 105
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:462 rc.cpp:663 rc.cpp:843 rc.cpp:1050 rc.cpp:1233 rc.cpp:1440
+#, fuzzy, no-c-format
+msgid "Eastern US"
+msgstr "شرقي JO"
+
+#. i18n: file skins/default/Data/world.desktop line 115
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 115
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 115
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 115
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 115
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 115
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:465 rc.cpp:744 rc.cpp:846 rc.cpp:1131 rc.cpp:1236 rc.cpp:1521
+#, fuzzy, no-c-format
+msgid "Egypt"
+msgstr "مصر"
+
+#. i18n: file skins/default/Data/world.desktop line 125
+#. i18n: file skins/default/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 125
+#. i18n: file skins/legacy/Data/world.desktop line 575
+#. i18n: file skins/static/Data/world.desktop line 125
+#. i18n: file skins/static/Data/world.desktop line 575
+#. i18n: file skins/default/Data/world.desktop line 125
+#. i18n: file skins/default/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 125
+#. i18n: file skins/legacy/Data/world.desktop line 575
+#. i18n: file skins/static/Data/world.desktop line 125
+#. i18n: file skins/static/Data/world.desktop line 575
+#: rc.cpp:468 rc.cpp:792 rc.cpp:849 rc.cpp:1182 rc.cpp:1239 rc.cpp:1572
+#, fuzzy, no-c-format
+msgid "England"
+msgstr "جرينلاند"
+
+#. i18n: file skins/default/Data/world.desktop line 129
+#. i18n: file skins/default/Data/world.desktop line 531
+#. i18n: file skins/default/Data/world.desktop line 541
+#. i18n: file skins/default/Data/world.desktop line 558
+#. i18n: file skins/legacy/Data/world.desktop line 129
+#. i18n: file skins/legacy/Data/world.desktop line 524
+#. i18n: file skins/legacy/Data/world.desktop line 534
+#. i18n: file skins/legacy/Data/world.desktop line 566
+#. i18n: file skins/static/Data/world.desktop line 129
+#. i18n: file skins/static/Data/world.desktop line 524
+#. i18n: file skins/static/Data/world.desktop line 534
+#. i18n: file skins/static/Data/world.desktop line 566
+#. i18n: file skins/default/Data/world.desktop line 129
+#. i18n: file skins/default/Data/world.desktop line 531
+#. i18n: file skins/default/Data/world.desktop line 541
+#. i18n: file skins/default/Data/world.desktop line 558
+#. i18n: file skins/legacy/Data/world.desktop line 129
+#. i18n: file skins/legacy/Data/world.desktop line 524
+#. i18n: file skins/legacy/Data/world.desktop line 534
+#. i18n: file skins/legacy/Data/world.desktop line 566
+#. i18n: file skins/static/Data/world.desktop line 129
+#. i18n: file skins/static/Data/world.desktop line 524
+#. i18n: file skins/static/Data/world.desktop line 534
+#. i18n: file skins/static/Data/world.desktop line 566
+#: rc.cpp:471 rc.cpp:615 rc.cpp:633 rc.cpp:648 rc.cpp:852 rc.cpp:972
+#: rc.cpp:993 rc.cpp:1035 rc.cpp:1242 rc.cpp:1362 rc.cpp:1383 rc.cpp:1425
+#, fuzzy, no-c-format
+msgid "Europe"
+msgstr "أوروبا"
+
+#. i18n: file skins/default/Data/world.desktop line 134
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/default/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 134
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 575
+#. i18n: file skins/static/Data/world.desktop line 134
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 575
+#. i18n: file skins/default/Data/world.desktop line 134
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/default/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 134
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 575
+#. i18n: file skins/static/Data/world.desktop line 134
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 575
+#: rc.cpp:474 rc.cpp:705 rc.cpp:789 rc.cpp:855 rc.cpp:1092 rc.cpp:1179
+#: rc.cpp:1245 rc.cpp:1482 rc.cpp:1569
+#, fuzzy, no-c-format
+msgid "France"
+msgstr "فرنسا"
+
+#. i18n: file skins/default/Data/world.desktop line 146
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 145
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 145
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 146
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 145
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 145
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:477 rc.cpp:747 rc.cpp:858 rc.cpp:1134 rc.cpp:1248 rc.cpp:1524
+#, fuzzy, no-c-format
+msgid "Gabon"
+msgstr "الغابون"
+
+#. i18n: file skins/default/Data/world.desktop line 156
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 155
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 155
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 156
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 155
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 155
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:480 rc.cpp:678 rc.cpp:861 rc.cpp:1065 rc.cpp:1251 rc.cpp:1455
+#, fuzzy, no-c-format
+msgid "Groenland"
+msgstr "جرينلاند"
+
+#. i18n: file skins/default/Data/world.desktop line 166
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 165
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 165
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 166
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 165
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 165
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:483 rc.cpp:765 rc.cpp:864 rc.cpp:1152 rc.cpp:1254 rc.cpp:1542
+#, fuzzy, no-c-format
+msgid "India"
+msgstr "الهند"
+
+#. i18n: file skins/default/Data/world.desktop line 176
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 175
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 175
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 176
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 175
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 175
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:486 rc.cpp:771 rc.cpp:867 rc.cpp:1158 rc.cpp:1257 rc.cpp:1548
+#, fuzzy, no-c-format
+msgid "Indonesia"
+msgstr "اندونيسيا"
+
+#. i18n: file skins/default/Data/world.desktop line 186
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 185
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 185
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 186
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 185
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 185
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:489 rc.cpp:717 rc.cpp:870 rc.cpp:1104 rc.cpp:1260 rc.cpp:1494
+#, fuzzy, no-c-format
+msgid "Iran"
+msgstr "إيران"
+
+#. i18n: file skins/default/Data/world.desktop line 196
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 195
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 195
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 196
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 195
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 195
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:492 rc.cpp:696 rc.cpp:873 rc.cpp:1083 rc.cpp:1263 rc.cpp:1473
+#, fuzzy, no-c-format
+msgid "Island"
+msgstr "الجزيرة"
+
+#. i18n: file skins/default/Data/world.desktop line 206
+#. i18n: file skins/default/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 205
+#. i18n: file skins/legacy/Data/world.desktop line 575
+#. i18n: file skins/static/Data/world.desktop line 205
+#. i18n: file skins/static/Data/world.desktop line 575
+#. i18n: file skins/default/Data/world.desktop line 206
+#. i18n: file skins/default/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 205
+#. i18n: file skins/legacy/Data/world.desktop line 575
+#. i18n: file skins/static/Data/world.desktop line 205
+#. i18n: file skins/static/Data/world.desktop line 575
+#: rc.cpp:495 rc.cpp:804 rc.cpp:876 rc.cpp:1194 rc.cpp:1266 rc.cpp:1584
+#, fuzzy, no-c-format
+msgid "Italy"
+msgstr "إيطاليا"
+
+#. i18n: file skins/default/Data/world.desktop line 210
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/default/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 209
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 575
+#. i18n: file skins/static/Data/world.desktop line 209
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 575
+#. i18n: file skins/default/Data/world.desktop line 210
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/default/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 209
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 575
+#. i18n: file skins/static/Data/world.desktop line 209
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 575
+#: rc.cpp:498 rc.cpp:735 rc.cpp:801 rc.cpp:879 rc.cpp:1122 rc.cpp:1191
+#: rc.cpp:1269 rc.cpp:1512 rc.cpp:1581
+#, fuzzy, no-c-format
+msgid "Japan"
+msgstr "اليابان"
+
+#. i18n: file skins/default/Data/world.desktop line 222
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 220
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 220
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 222
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 220
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 220
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:501 rc.cpp:726 rc.cpp:882 rc.cpp:1113 rc.cpp:1272 rc.cpp:1503
+#, fuzzy, no-c-format
+msgid "Kazakstan"
+msgstr "باكستان"
+
+#. i18n: file skins/default/Data/world.desktop line 232
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 230
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 230
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 232
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 230
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 230
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:504 rc.cpp:756 rc.cpp:885 rc.cpp:1143 rc.cpp:1275 rc.cpp:1533
+#, fuzzy, no-c-format
+msgid "Madagascar"
+msgstr "مدغشقر"
+
+#. i18n: file skins/default/Data/world.desktop line 242
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 240
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 240
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 242
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 240
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 240
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:507 rc.cpp:681 rc.cpp:888 rc.cpp:1068 rc.cpp:1278 rc.cpp:1458
+#, fuzzy, no-c-format
+msgid "Mexico"
+msgstr "المكسيك"
+
+#. i18n: file skins/default/Data/world.desktop line 252
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 260
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 260
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 252
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 260
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 260
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:510 rc.cpp:732 rc.cpp:894 rc.cpp:1119 rc.cpp:1284 rc.cpp:1509
+#, fuzzy, no-c-format
+msgid "Mongolia"
+msgstr "منغوليا"
+
+#. i18n: file skins/default/Data/world.desktop line 262
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 270
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 270
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 262
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 270
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 270
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:513 rc.cpp:780 rc.cpp:897 rc.cpp:1167 rc.cpp:1287 rc.cpp:1557
+#, fuzzy, no-c-format
+msgid "New South Wales"
+msgstr "جديد جنوب"
+
+#. i18n: file skins/default/Data/world.desktop line 272
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 280
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 280
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 272
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 280
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 280
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:516 rc.cpp:762 rc.cpp:900 rc.cpp:1170 rc.cpp:1290 rc.cpp:1560
+#, fuzzy, no-c-format
+msgid "New Zealand"
+msgstr "نيوزيلندا"
+
+#. i18n: file skins/default/Data/world.desktop line 282
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 290
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 290
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 282
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 290
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 290
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:519 rc.cpp:741 rc.cpp:903 rc.cpp:1128 rc.cpp:1293 rc.cpp:1518
+#, fuzzy, no-c-format
+msgid "Niger"
+msgstr "النيجر"
+
+#. i18n: file skins/default/Data/world.desktop line 292
+#. i18n: file skins/default/Data/world.desktop line 516
+#. i18n: file skins/default/Data/world.desktop line 521
+#. i18n: file skins/default/Data/world.desktop line 558
+#. i18n: file skins/legacy/Data/world.desktop line 300
+#. i18n: file skins/legacy/Data/world.desktop line 529
+#. i18n: file skins/legacy/Data/world.desktop line 539
+#. i18n: file skins/legacy/Data/world.desktop line 566
+#. i18n: file skins/static/Data/world.desktop line 300
+#. i18n: file skins/static/Data/world.desktop line 529
+#. i18n: file skins/static/Data/world.desktop line 539
+#. i18n: file skins/static/Data/world.desktop line 566
+#. i18n: file skins/default/Data/world.desktop line 292
+#. i18n: file skins/default/Data/world.desktop line 516
+#. i18n: file skins/default/Data/world.desktop line 521
+#. i18n: file skins/default/Data/world.desktop line 558
+#. i18n: file skins/legacy/Data/world.desktop line 300
+#. i18n: file skins/legacy/Data/world.desktop line 529
+#. i18n: file skins/legacy/Data/world.desktop line 539
+#. i18n: file skins/legacy/Data/world.desktop line 566
+#. i18n: file skins/static/Data/world.desktop line 300
+#. i18n: file skins/static/Data/world.desktop line 529
+#. i18n: file skins/static/Data/world.desktop line 539
+#. i18n: file skins/static/Data/world.desktop line 566
+#: rc.cpp:522 rc.cpp:588 rc.cpp:597 rc.cpp:642 rc.cpp:906 rc.cpp:981
+#: rc.cpp:999 rc.cpp:1029 rc.cpp:1296 rc.cpp:1371 rc.cpp:1389 rc.cpp:1419
+#, fuzzy, no-c-format
+msgid "North America"
+msgstr "أميركا الشّماليّة"
+
+#. i18n: file skins/default/Data/world.desktop line 297
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 305
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 305
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 297
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 305
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 305
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:525 rc.cpp:777 rc.cpp:909 rc.cpp:1164 rc.cpp:1299 rc.cpp:1554
+#, fuzzy, no-c-format
+msgid "Occidental Australia"
+msgstr "غربي أستراليا"
+
+#. i18n: file skins/default/Data/world.desktop line 307
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 315
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 315
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 307
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 315
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 315
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:528 rc.cpp:669 rc.cpp:912 rc.cpp:1056 rc.cpp:1302 rc.cpp:1446
+#, fuzzy, no-c-format
+msgid "Ontario"
+msgstr "أونتاريو"
+
+#. i18n: file skins/default/Data/world.desktop line 317
+#. i18n: file skins/default/Data/world.desktop line 536
+#. i18n: file skins/default/Data/world.desktop line 558
+#. i18n: file skins/legacy/Data/world.desktop line 325
+#. i18n: file skins/legacy/Data/world.desktop line 524
+#. i18n: file skins/legacy/Data/world.desktop line 539
+#. i18n: file skins/legacy/Data/world.desktop line 566
+#. i18n: file skins/static/Data/world.desktop line 325
+#. i18n: file skins/static/Data/world.desktop line 524
+#. i18n: file skins/static/Data/world.desktop line 539
+#. i18n: file skins/static/Data/world.desktop line 566
+#. i18n: file skins/default/Data/world.desktop line 317
+#. i18n: file skins/default/Data/world.desktop line 536
+#. i18n: file skins/default/Data/world.desktop line 558
+#. i18n: file skins/legacy/Data/world.desktop line 325
+#. i18n: file skins/legacy/Data/world.desktop line 524
+#. i18n: file skins/legacy/Data/world.desktop line 539
+#. i18n: file skins/legacy/Data/world.desktop line 566
+#. i18n: file skins/static/Data/world.desktop line 325
+#. i18n: file skins/static/Data/world.desktop line 524
+#. i18n: file skins/static/Data/world.desktop line 539
+#. i18n: file skins/static/Data/world.desktop line 566
+#: rc.cpp:531 rc.cpp:621 rc.cpp:657 rc.cpp:915 rc.cpp:975 rc.cpp:1002
+#: rc.cpp:1044 rc.cpp:1305 rc.cpp:1365 rc.cpp:1392 rc.cpp:1434
+#, fuzzy, no-c-format
+msgid "Pacific"
+msgstr "Pacific"
+
+#. i18n: file skins/default/Data/world.desktop line 322
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 330
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 330
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 322
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 330
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 330
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:534 rc.cpp:723 rc.cpp:918 rc.cpp:1110 rc.cpp:1308 rc.cpp:1500
+#, fuzzy, no-c-format
+msgid "Pakistan"
+msgstr "باكستان"
+
+#. i18n: file skins/default/Data/world.desktop line 332
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 340
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 340
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 332
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 340
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 340
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:537 rc.cpp:774 rc.cpp:921 rc.cpp:1161 rc.cpp:1311 rc.cpp:1551
+#, no-c-format
+msgid "Papouasie"
+msgstr ""
+
+#. i18n: file skins/default/Data/world.desktop line 342
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 350
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 350
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 342
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 350
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 350
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:540 rc.cpp:690 rc.cpp:924 rc.cpp:1077 rc.cpp:1314 rc.cpp:1467
+#, fuzzy, no-c-format
+msgid "Paraguay"
+msgstr "باراغواي"
+
+#. i18n: file skins/default/Data/world.desktop line 352
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 360
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 360
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 352
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 360
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 360
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:543 rc.cpp:708 rc.cpp:927 rc.cpp:1095 rc.cpp:1317 rc.cpp:1485
+#, fuzzy, no-c-format
+msgid "Prussia"
+msgstr "بروسيا"
+
+#. i18n: file skins/default/Data/world.desktop line 362
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 370
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 370
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 362
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 370
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 370
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:546 rc.cpp:666 rc.cpp:930 rc.cpp:1053 rc.cpp:1320 rc.cpp:1443
+#, fuzzy, no-c-format
+msgid "Quebec"
+msgstr "كويبيك"
+
+#. i18n: file skins/default/Data/world.desktop line 372
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 380
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 380
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 372
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 380
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 380
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:549 rc.cpp:714 rc.cpp:933 rc.cpp:1101 rc.cpp:1323 rc.cpp:1491
+#, fuzzy, no-c-format
+msgid "Russia"
+msgstr "روسيا"
+
+#. i18n: file skins/default/Data/world.desktop line 382
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 390
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 390
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 382
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 390
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 390
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:552 rc.cpp:711 rc.cpp:936 rc.cpp:1098 rc.cpp:1326 rc.cpp:1488
+#, fuzzy, no-c-format
+msgid "Scandinavia"
+msgstr "الإسكندنافيا"
+
+#. i18n: file skins/default/Data/world.desktop line 392
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 400
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 400
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 392
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 400
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 400
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:555 rc.cpp:729 rc.cpp:939 rc.cpp:1116 rc.cpp:1329 rc.cpp:1506
+#, fuzzy, no-c-format
+msgid "Siberia"
+msgstr "سايبيريا"
+
+#. i18n: file skins/default/Data/world.desktop line 402
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 410
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 410
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 402
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 410
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 410
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:558 rc.cpp:753 rc.cpp:942 rc.cpp:1140 rc.cpp:1332 rc.cpp:1530
+#, fuzzy, no-c-format
+msgid "South Africa"
+msgstr "جنوب إفريقيا"
+
+#. i18n: file skins/default/Data/world.desktop line 412
+#. i18n: file skins/default/Data/world.desktop line 526
+#. i18n: file skins/default/Data/world.desktop line 541
+#. i18n: file skins/default/Data/world.desktop line 558
+#. i18n: file skins/legacy/Data/world.desktop line 420
+#. i18n: file skins/legacy/Data/world.desktop line 534
+#. i18n: file skins/legacy/Data/world.desktop line 549
+#. i18n: file skins/legacy/Data/world.desktop line 566
+#. i18n: file skins/static/Data/world.desktop line 420
+#. i18n: file skins/static/Data/world.desktop line 534
+#. i18n: file skins/static/Data/world.desktop line 549
+#. i18n: file skins/static/Data/world.desktop line 566
+#. i18n: file skins/default/Data/world.desktop line 412
+#. i18n: file skins/default/Data/world.desktop line 526
+#. i18n: file skins/default/Data/world.desktop line 541
+#. i18n: file skins/default/Data/world.desktop line 558
+#. i18n: file skins/legacy/Data/world.desktop line 420
+#. i18n: file skins/legacy/Data/world.desktop line 534
+#. i18n: file skins/legacy/Data/world.desktop line 549
+#. i18n: file skins/legacy/Data/world.desktop line 566
+#. i18n: file skins/static/Data/world.desktop line 420
+#. i18n: file skins/static/Data/world.desktop line 534
+#. i18n: file skins/static/Data/world.desktop line 549
+#. i18n: file skins/static/Data/world.desktop line 566
+#: rc.cpp:561 rc.cpp:606 rc.cpp:630 rc.cpp:645 rc.cpp:945 rc.cpp:990
+#: rc.cpp:1017 rc.cpp:1032 rc.cpp:1335 rc.cpp:1380 rc.cpp:1407 rc.cpp:1422
+#, fuzzy, no-c-format
+msgid "South America"
+msgstr "أميركا الجنوبيّة"
+
+#. i18n: file skins/default/Data/world.desktop line 417
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 425
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 425
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 417
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 425
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 425
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:564 rc.cpp:699 rc.cpp:948 rc.cpp:1086 rc.cpp:1338 rc.cpp:1476
+#, fuzzy, no-c-format
+msgid "United Kingdom"
+msgstr "المملكة المتحدة"
+
+#. i18n: file skins/default/Data/world.desktop line 427
+#. i18n: file skins/default/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 435
+#. i18n: file skins/legacy/Data/world.desktop line 575
+#. i18n: file skins/static/Data/world.desktop line 435
+#. i18n: file skins/static/Data/world.desktop line 575
+#. i18n: file skins/default/Data/world.desktop line 427
+#. i18n: file skins/default/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 435
+#. i18n: file skins/legacy/Data/world.desktop line 575
+#. i18n: file skins/static/Data/world.desktop line 435
+#. i18n: file skins/static/Data/world.desktop line 575
+#: rc.cpp:567 rc.cpp:795 rc.cpp:951 rc.cpp:1185 rc.cpp:1341 rc.cpp:1575
+#, fuzzy, no-c-format
+msgid "United States"
+msgstr "الولايات المتّحدة"
+
+#. i18n: file skins/default/Data/world.desktop line 431
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 439
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 439
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 431
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 439
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 439
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:570 rc.cpp:768 rc.cpp:954 rc.cpp:1155 rc.cpp:1344 rc.cpp:1545
+#, fuzzy, no-c-format
+msgid "Vietnam"
+msgstr "فيتنام"
+
+#. i18n: file skins/default/Data/world.desktop line 441
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 449
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 449
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 441
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 449
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 449
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:573 rc.cpp:660 rc.cpp:957 rc.cpp:1047 rc.cpp:1347 rc.cpp:1437
+#, fuzzy, no-c-format
+msgid "Western US"
+msgstr "غربي JO"
+
+#. i18n: file skins/default/Data/world.desktop line 451
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 459
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 459
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/default/Data/world.desktop line 451
+#. i18n: file skins/default/Data/world.desktop line 559
+#. i18n: file skins/legacy/Data/world.desktop line 459
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 459
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:576 rc.cpp:750 rc.cpp:960 rc.cpp:1137 rc.cpp:1350 rc.cpp:1527
+#, fuzzy, no-c-format
+msgid "Zair"
+msgstr "قليل"
+
+#. i18n: file skins/default/Data/world.desktop line 504
+#. i18n: file skins/legacy/Data/world.desktop line 512
+#. i18n: file skins/static/Data/world.desktop line 512
+#. i18n: file skins/default/Data/world.desktop line 504
+#. i18n: file skins/legacy/Data/world.desktop line 512
+#. i18n: file skins/static/Data/world.desktop line 512
+#: rc.cpp:579 rc.cpp:963 rc.cpp:1353
+#, fuzzy, no-c-format, kde-format
+msgid ""
+"%1, you'll have to conquer %2 countries and place %3 armies in each one."
+msgstr "إلى و بوصة."
+
+#. i18n: file skins/default/Data/world.desktop line 510
+#. i18n: file skins/legacy/Data/world.desktop line 518
+#. i18n: file skins/static/Data/world.desktop line 518
+#. i18n: file skins/default/Data/world.desktop line 510
+#. i18n: file skins/legacy/Data/world.desktop line 518
+#. i18n: file skins/static/Data/world.desktop line 518
+#: rc.cpp:582 rc.cpp:966 rc.cpp:1356
+#, fuzzy, no-c-format, kde-format
+msgid "%1, you'll have to conquer %2 countries."
+msgstr "إلى."
+
+#. i18n: file skins/default/Data/world.desktop line 517
+#. i18n: file skins/legacy/Data/world.desktop line 525
+#. i18n: file skins/static/Data/world.desktop line 525
+#. i18n: file skins/default/Data/world.desktop line 517
+#. i18n: file skins/legacy/Data/world.desktop line 525
+#. i18n: file skins/static/Data/world.desktop line 525
+#: rc.cpp:591 rc.cpp:978 rc.cpp:1368
+#, fuzzy, no-c-format, kde-format
+msgid "%1, you'll have to conquer %2, %3 and another continent at your choice."
+msgstr "إلى و عند اختيار."
+
+#. i18n: file skins/default/Data/world.desktop line 522
+#. i18n: file skins/default/Data/world.desktop line 527
+#. i18n: file skins/default/Data/world.desktop line 532
+#. i18n: file skins/default/Data/world.desktop line 537
+#. i18n: file skins/default/Data/world.desktop line 542
+#. i18n: file skins/legacy/Data/world.desktop line 530
+#. i18n: file skins/legacy/Data/world.desktop line 535
+#. i18n: file skins/legacy/Data/world.desktop line 540
+#. i18n: file skins/legacy/Data/world.desktop line 545
+#. i18n: file skins/legacy/Data/world.desktop line 550
+#. i18n: file skins/static/Data/world.desktop line 530
+#. i18n: file skins/static/Data/world.desktop line 535
+#. i18n: file skins/static/Data/world.desktop line 540
+#. i18n: file skins/static/Data/world.desktop line 545
+#. i18n: file skins/static/Data/world.desktop line 550
+#. i18n: file skins/default/Data/world.desktop line 522
+#. i18n: file skins/default/Data/world.desktop line 527
+#. i18n: file skins/default/Data/world.desktop line 532
+#. i18n: file skins/default/Data/world.desktop line 537
+#. i18n: file skins/default/Data/world.desktop line 542
+#. i18n: file skins/legacy/Data/world.desktop line 530
+#. i18n: file skins/legacy/Data/world.desktop line 535
+#. i18n: file skins/legacy/Data/world.desktop line 540
+#. i18n: file skins/legacy/Data/world.desktop line 545
+#. i18n: file skins/legacy/Data/world.desktop line 550
+#. i18n: file skins/static/Data/world.desktop line 530
+#. i18n: file skins/static/Data/world.desktop line 535
+#. i18n: file skins/static/Data/world.desktop line 540
+#. i18n: file skins/static/Data/world.desktop line 545
+#. i18n: file skins/static/Data/world.desktop line 550
+#: rc.cpp:600 rc.cpp:609 rc.cpp:618 rc.cpp:627 rc.cpp:636 rc.cpp:987
+#: rc.cpp:996 rc.cpp:1005 rc.cpp:1014 rc.cpp:1023 rc.cpp:1377 rc.cpp:1386
+#: rc.cpp:1395 rc.cpp:1404 rc.cpp:1413
+#, fuzzy, no-c-format, kde-format
+msgid "%1, you'll have to conquer %2 and %3."
+msgstr "إلى و."
+
+#. i18n: file skins/default/Data/world.desktop line 546
+#. i18n: file skins/legacy/Data/world.desktop line 554
+#. i18n: file skins/static/Data/world.desktop line 554
+#. i18n: file skins/default/Data/world.desktop line 546
+#. i18n: file skins/legacy/Data/world.desktop line 554
+#. i18n: file skins/static/Data/world.desktop line 554
+#: rc.cpp:639 rc.cpp:1026 rc.cpp:1416
+#, fuzzy, no-c-format, kde-format
+msgid ""
+"%1, you'll have to eliminate %2. If it is eliminated by another player, "
+"you'll have to conquer %3 countries."
+msgstr "إلى إذا الإيطالية هو أداء إلى."
+
+#. i18n: file skins/default/Data/world.desktop line 560
+#: rc.cpp:783
+#, fuzzy, no-c-format
+msgid ""
+"This skin shows a world that looks like the real one with some "
+"nationalities\n"
+"randomly chosen and proposes various interesting goals"
+msgstr "هذا a العالم مثل حقيقي مع بعض و"
+
+#. i18n: file skins/default/Data/world.desktop line 566
+#: rc.cpp:786
+#, fuzzy, no-c-format
+msgid "Earth-like"
+msgstr "الأرض مثل"
+
+#. i18n: file skins/legacy/Data/world.desktop line 250
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 250
+#. i18n: file skins/static/Data/world.desktop line 567
+#. i18n: file skins/legacy/Data/world.desktop line 250
+#. i18n: file skins/legacy/Data/world.desktop line 567
+#. i18n: file skins/static/Data/world.desktop line 250
+#. i18n: file skins/static/Data/world.desktop line 567
+#: rc.cpp:891 rc.cpp:1149 rc.cpp:1281 rc.cpp:1539
+#, fuzzy, no-c-format
+msgid "Middle East"
+msgstr "الشّرق الأوسط"
+
+#. i18n: file skins/legacy/Data/world.desktop line 524
+#. i18n: file skins/static/Data/world.desktop line 524
+#. i18n: file skins/legacy/Data/world.desktop line 524
+#. i18n: file skins/static/Data/world.desktop line 524
+#: rc.cpp:969 rc.cpp:1359
+#, no-c-format
+msgid "0"
+msgstr ""
+
+#. i18n: file skins/legacy/Data/world.desktop line 568
+#: rc.cpp:1173
+#, fuzzy, no-c-format
+msgid ""
+"This skin shows a world that looks like the real one with some nationalities "
+"randomly chosen and proposes various interesting goals.\n"
+"It looks like KsirK before vector graphics."
+msgstr "هذا a العالم مثل حقيقي مع بعض و"
+
+#. i18n: file skins/legacy/Data/world.desktop line 574
+#: rc.cpp:1176
+#, no-c-format
+msgid "Legacy"
+msgstr ""
+
+#. i18n: file skins/static/Data/world.desktop line 568
+#: rc.cpp:1563
+#, fuzzy, no-c-format
+msgid ""
+"This skin shows a world that looks like the real one with some "
+"nationalities\n"
+"randomly chosen and proposes various interesting goals.\n"
+"It features non-animated sprites"
+msgstr "هذا a العالم مثل حقيقي مع بعض و العفاريت."
+
+#. i18n: file skins/static/Data/world.desktop line 574
+#: rc.cpp:1566
+#, no-c-format
+msgid "Less animated Earth-like"
+msgstr ""
+
+#: krightdialog.cpp:121
+msgid "<b>Nationality:</b>"
+msgstr ""
+
+#: krightdialog.cpp:122
+#, kde-format
+msgid "<b>Continent:</b> %1"
+msgstr ""
+
+#: krightdialog.cpp:123
+#, kde-format
+msgid "<b>Country:</b> %1"
+msgstr ""
+
+#: krightdialog.cpp:127
+#, kde-format
+msgid "<b>Owner:</b> %1"
+msgstr ""
+
+#: krightdialog.cpp:128
+msgid "<b><u>Country details</u></b>"
+msgstr ""
+
+#: krightdialog.cpp:175
+msgid "<i>Fighting in progress...</i>"
+msgstr ""
+
+#: krightdialog.cpp:227
+#, fuzzy, kde-format
+msgid "<font color=\"red\">Attack</font> with 1 army.<br>"
+msgid_plural "<font color=\"red\">Attack</font> with %1 armies.<br>"
+msgstr[0] "الـ<font color=\"red\"></font>"
+msgstr[1] "الـ<font color=\"red\"></font>"
+msgstr[2] "الـ<font color=\"red\"></font>"
+msgstr[3] "الـ<font color=\"red\"></font>"
+msgstr[4] "الـ<font color=\"red\"></font>"
+msgstr[5] "الـ<font color=\"red\"></font>"
+
+#: krightdialog.cpp:238
+#, fuzzy, kde-format
+msgid "<font color=\"blue\">Defend</font> with 1 army.<br>"
+msgid_plural "<font color=\"blue\">Defend</font> with %1 armies.<br>"
+msgstr[0] "الـ<font color=\"blue\"></font>"
+msgstr[1] "الـ<font color=\"blue\"></font>"
+msgstr[2] "الـ<font color=\"blue\"></font>"
+msgstr[3] "الـ<font color=\"blue\"></font>"
+msgstr[4] "الـ<font color=\"blue\"></font>"
+msgstr[5] "الـ<font color=\"blue\"></font>"
+
+#: krightdialog.cpp:270
+#, fuzzy
+msgid "Stop Auto-Attack"
+msgstr "لا شيء إلى!"
+
+#: krightdialog.cpp:278
+msgid "Stop Auto-Defense"
+msgstr ""
+
+#: krightdialog.cpp:303
+msgid "Valid"
+msgstr ""
+
+#: krightdialog.cpp:304
+msgid "Recycle"
+msgstr ""
+
+#: krightdialog.cpp:305
+msgid "Done"
+msgstr ""
+
+#: krightdialog.cpp:332
+#, fuzzy, kde-format
+msgid "%1 army to place"
+msgid_plural "%1 armies to place"
+msgstr[0] "إلى"
+msgstr[1] "إلى"
+msgstr[2] "إلى"
+msgstr[3] "إلى"
+msgstr[4] "إلى"
+msgstr[5] "إلى"
+
+#: krightdialog.cpp:380
+msgid "<u><b>Change some<br>placements?</b></u> "
+msgstr ""
+
+#: krightdialog.cpp:395
+#, fuzzy, kde-format
+msgid "1 army to place"
+msgid_plural "%1 armies to place"
+msgstr[0] "إلى"
+msgstr[1] "إلى"
+msgstr[2] "إلى"
+msgstr[3] "إلى"
+msgstr[4] "إلى"
+msgstr[5] "إلى"
+
+#: krightdialog.cpp:397
+#, kde-format
+msgid "<b>Armies:</b> %1"
+msgstr ""
+
+#: krightdialog.cpp:466
+#, fuzzy, kde-format
+msgid "<font color=\"red\">lost armies: %1</font>"
+msgstr "الـ<font color=\"red\"></font>"
+
+#: krightdialog.cpp:471
+#, fuzzy, kde-format
+msgid "<font color=\"blue\">lost armies: %1</font>"
+msgstr "الـ<font color=\"blue\"></font>"
+
+#: Sprites/skinSpritesData.cpp:88
+#, fuzzy
+msgid "Error - Unknown skin int data: "
+msgstr "خطأ مجهول int البيانات "
+
+#: Sprites/skinSpritesData.cpp:104
+#, fuzzy
+msgid "Error - Unknown skin string data: "
+msgstr "خطأ مجهول سلسلة نص البيانات "
+
+#: Sprites/animsprite.cpp:511
+#, fuzzy
+msgid "Cannot find Max X for sprite: no background!"
+msgstr "لا يستطيع ابحث الحد الأقصى س لـ لا الخلفية!"
+
+#: Sprites/animsprite.cpp:526
+#, fuzzy
+msgid "Cannot find Max Y for sprite: no background!"
+msgstr "لا يستطيع ابحث الحد الأقصى ص لـ لا الخلفية!"
+
+#: kgamewin.cpp:153 kgamewin.cpp:743
+#, fuzzy
+msgid "Cannot load icon<br>Program cannot continue"
+msgstr "لا يستطيع التحميل أيقونة<br/> البرنامج متابعة"
+
+#: kgamewin.cpp:352 kgamewin.cpp:369 kgamewin.cpp:386
+#, fuzzy, kde-format
+msgid "Cannot load button image %1<br>Program cannot continue"
+msgstr "لا يستطيع التحميل زر صورة<br/> البرنامج متابعة"
+
+#: kgamewin.cpp:355
+msgid "Play over Jabber"
+msgstr ""
+
+#: kgamewin.cpp:356
+msgid "Play KsirK over the Jabber Network"
+msgstr ""
+
+#: kgamewin.cpp:357
+#, fuzzy
+msgid "Jabber"
+msgstr "خطأ قاتل"
+
+#: kgamewin.cpp:359
+msgid ""
+"Allow to connect to a KsirK Jabber Multi User Gaming Room to create new "
+"games or to join present games"
+msgstr ""
+
+#: kgamewin.cpp:373
+msgid "New TCP/IP"
+msgstr ""
+
+#: kgamewin.cpp:375
+msgid "Create a new standard TCP/IP network game"
+msgstr ""
+
+#: kgamewin.cpp:390
+#, fuzzy
+msgid "Join a Standard TCP/IP Network Game"
+msgstr "انضم شبكة لعبة"
+
+#: kgamewin.cpp:391
+msgid "Join TCP/IP"
+msgstr ""
+
+#: kgamewin.cpp:393
+#, fuzzy
+msgid "Join a standard TCP/IP network game"
+msgstr "انضم شبكة لعبة"
+
+#: kgamewin.cpp:399
+#, fuzzy
+msgid "Display the Current Player's Goal"
+msgstr "العرض الحالي"
+
+#: kgamewin.cpp:402
+#, fuzzy
+msgid "Display the current player's goal"
+msgstr "العرض الحالي"
+
+#: kgamewin.cpp:408
+msgid "Contextual Help"
+msgstr ""
+
+#: kgamewin.cpp:418
+#, fuzzy
+msgid "Lets the next player play"
+msgstr "العرض الحالي"
+
+#: kgamewin.cpp:422
+msgid "Finish moves"
+msgstr ""
+
+#: kgamewin.cpp:424
+msgid "Finish moving the current sprites"
+msgstr ""
+
+#: kgamewin.cpp:539
+#, fuzzy
+msgid ""
+"World definition file not found - Verify your installation<br>Program cannot "
+"continue"
+msgstr "تعريف XML ملفّ ليس موجود تحقّق تثبيت<br/> البرنامج متابعة"
+
+#: kgamewin.cpp:805
+#, fuzzy, kde-format
+msgid "<font color=\"red\">%1 conquered %2 from %3</font>"
+msgstr "<font color=\"red\"> من</font>"
+
+#: kgamewin.cpp:829
+#, fuzzy, kde-format
+msgid "%1, you are defeated! Bye, bye..."
+msgstr "مع السلامةوقفة التّأهّب."
+
+#: kgamewin.cpp:898
+#, fuzzy, kde-format
+msgid "%1: it is up to you again"
+msgstr "الإيطالية هو أعلى إلى"
+
+#: kgamewin.cpp:910
+#, kde-format
+msgid "%1 won!"
+msgstr ""
+
+#: kgamewin.cpp:913
+#, kde-format
+msgid "<big><b>%1</b>, you won!</big>"
+msgstr ""
+
+#: kgamewin.cpp:917
+#, kde-format
+msgid ""
+"<br>Winner's goal was stated like this:<br><i>%1</i><br><br>Do you want to "
+"play again?"
+msgstr ""
+
+#: kgamewin.cpp:923
+msgid "<br>You conquered all the world!"
+msgstr ""
+
+#: kgamewin.cpp:927
+msgid "<br>He conquered all the world!"
+msgstr ""
+
+#: kgamewin.cpp:1102
+#, fuzzy
+msgid "Do you want to quit the game?"
+msgstr "تنفيذ إلى حفظ لعبة?"
+
+#: kgamewin.cpp:1112
+#, fuzzy
+msgid "Before you quit, do you want to save your game?"
+msgstr "قبل اخرج إلى حفظ لعبة?"
+
+#: kgamewin.cpp:1146
+#, fuzzy
+msgid "KsirK - Load Game"
+msgstr "تحميل لعبة"
+
+#: kgamewin.cpp:1184
+#, fuzzy, kde-format
+msgid "Waiting for the connection of %1 network players."
+msgstr "منتظر لـ اتصال من شبكة."
+
+#: kgamewin.cpp:1280
+msgid "Defend 1"
+msgstr ""
+
+#: kgamewin.cpp:1281
+msgid "Defend 2"
+msgstr ""
+
+#: kgamewin.cpp:1282
+msgid "Defend-Auto"
+msgstr ""
+
+#: kgamewin.cpp:1285
+#, fuzzy, kde-format
+msgid ""
+"<font color=\"red\">%2</font> attacks you from <font color=\"red\">%3</font> "
+"with 1 army!<br> How do you want to defend <font color=\"blue\">%4</font>?"
+msgid_plural ""
+"<font color=\"red\">%2</font> attacks you from <font color=\"red\">%3</font> "
+"with %1 armies!<br> How do you want to defend <font color=\"blue\">%4</font>?"
+msgstr[0] "أداء<font color=\"red\"></font> مع<font color=\"blue\"></font>?"
+msgstr[1] "أداء<font color=\"red\"></font> مع<font color=\"blue\"></font>?"
+msgstr[2] "أداء<font color=\"red\"></font> مع<font color=\"blue\"></font>?"
+msgstr[3] "أداء<font color=\"red\"></font> مع<font color=\"blue\"></font>?"
+msgstr[4] "أداء<font color=\"red\"></font> مع<font color=\"blue\"></font>?"
+msgstr[5] "أداء<font color=\"red\"></font> مع<font color=\"blue\"></font>?"
+
+#: kgamewin.cpp:1424
+#, fuzzy, kde-format
+msgid "Waiting for %1 players to connect"
+msgstr "منتظر لـ إلى اتصال"
+
+#: kgamewin.cpp:1853 kgamewin.cpp:1893
+#, fuzzy
+msgid "There is no country here!"
+msgstr "هناك هو لا!"
+
+#: kgamewin.cpp:1857 kgamewin.cpp:1898
+#, fuzzy, kde-format
+msgid "You are not the owner of the first country: %1!"
+msgstr "أنت ليس مالك من الأوّل!"
+
+#: kgamewin.cpp:1861
+#, fuzzy, kde-format
+msgid "You are not the owner of the second country: %1!"
+msgstr "أنت ليس مالك من ثانية!"
+
+#: kgamewin.cpp:1865 kgamewin.cpp:1909
+#, fuzzy, kde-format
+msgid "You are trying to move armies from %1 to itself!"
+msgstr "أنت إلى انقل من إلى نفسها!"
+
+#: kgamewin.cpp:1870 kgamewin.cpp:1915
+#, fuzzy, kde-format
+msgid "%1 is not a neighbour of %2!"
+msgstr "هو ليس a من!"
+
+#: kgamewin.cpp:1876
+#, fuzzy, kde-format
+msgid "Moving armies from %1 to %2."
+msgstr "جاري النقل من إلى."
+
+#: kgamewin.cpp:1904
+#, fuzzy, kde-format
+msgid "You are the owner of the second country: %1!"
+msgstr "أنت ليس مالك من ثانية!"
+
+#: kgamewin.cpp:1922
+msgid "Ready to fight!"
+msgstr ""
+
+#: kgamewin.cpp:2016
+#, fuzzy
+msgid "<font color=\"orange\">No country here!</font>"
+msgstr "<font color=\"orange\"> لا</font>"
+
+#: kgamewin.cpp:2024
+#, fuzzy, kde-format
+msgid "<font color=\"orange\">You are not the owner of %1!</font>"
+msgstr "<font color=\"orange\"> أنت ليس مالك من</font>"
+
+#: kgamewin.cpp:2031
+#, fuzzy, kde-format
+msgid "<font color=\"orange\">There is only %1 armies in %2!</font>"
+msgstr "<font color=\"orange\"> هناك هو بوصة</font>"
+
+#: kgamewin.cpp:2171
+#, fuzzy, kde-format
+msgid "%1, you defend with the only army you have in %2."
+msgstr "مع فريد."
+
+#: kgamewin.cpp:2397
+#, fuzzy
+msgid "Exchange armies again or continue?"
+msgstr "التبادل أو متابعة?"
+
+#: kgamewin.cpp:2422
+#, fuzzy
+msgid ""
+"You must distribute\n"
+"all your armies"
+msgstr "أنت وزّع"
+
+#: kgamewin.cpp:2491 kgamewin.cpp:2708 kgamewin.cpp:2719 kgamewin.cpp:2742
+#: kgamewin.cpp:2939
+#, fuzzy, kde-format
+msgid "%1, it is up to you."
+msgstr "الإيطالية هو أعلى إلى."
+
+#: kgamewin.cpp:2588
+msgid "Battle ongoing."
+msgstr ""
+
+#: kgamewin.cpp:2771
+#, fuzzy
+msgid "Do you really want to end your current game and start a new one?"
+msgstr "تنفيذ إلى end الحالي لعبة و تشغيل a جديد?"
+
+#: kgamewin.cpp:3026
+msgid "<b>KsirK quick Introduction</b>"
+msgstr ""
+
+#: kgamewin.cpp:3030
+msgid ""
+"Attacks and moves are issued through drag & drop between neighbour countries."
+msgstr ""
+
+#: kgamewin.cpp:3034
+#, fuzzy
+msgid "Start a new game or join a network game with the menu or the toolbar..."
+msgstr "ابدأ a جديد لعبة أو انضمام a شبكة لعبة مع قائمة أو شريط الأدوات."
+
+#: kgamewin.cpp:3038
+#, fuzzy
+msgid ""
+"and then let the system guide you through messages and tooltips appearing on "
+"buttons when hovering above them. You can disable bubble help in the options "
+"window."
+msgstr "و نظام رسائل و يعمل أعلى."
+
+#: kgamewin.cpp:3045
+msgid "Don't show messages anymore"
+msgstr ""
+
+#: SaveLoad/ksirkgamexmlloader.cpp:47
+#, fuzzy
+msgid "Skin file parsing error"
+msgstr "الجلد ملفّ خطأ"
+
+#: SaveLoad/ksirkgamexmlloader.cpp:48
+#, fuzzy
+msgid "KsirK - Error"
+msgstr "خطأ"
+
+#: SaveLoad/ksirkgamexmlhandler.cpp:57
+#, fuzzy, kde-format
+msgid "Wrong save game format. Waited %1 and got %2!"
+msgstr "الخطأ حفظ لعبة تنسيق انتظرَ و!"
+
+#: SaveLoad/ksirkgamexmlhandler.cpp:58
+#, fuzzy
+msgid "KsirK - Cannot load!"
+msgstr "لا يستطيع التحميل!"
+
+#: SaveLoad/ksirkgamexmlhandler.cpp:139
+#, fuzzy, kde-format
+msgid "Current player is: %1"
+msgstr "الحالي هو 1"
+
+#, fuzzy
+#~ msgid "%1 armies to place"
+#~ msgstr "إلى"
+
+#, fuzzy
+#~ msgid "Fatal Error !"
+#~ msgstr ""
+#~ "حاسم :: قَدَريّ :: نُبوئي :: مُقدّر أو محتوم :: مقرّر لمصير المرء :: مُميت :: "
+#~ "مُهلِك :: مشؤوم :: لا سبيل إلى مقاومته خطأ!"
+
+#, fuzzy
+#~ msgid "KsirK - Game Over !"
+#~ msgstr "لعبة إنتهى!"
+
+#, fuzzy
+#~ msgid "Error - Invalid skin definition file format. Expected %1 and got %2"
+#~ msgstr "خطأ غير صحيح تعريف ملفّ تنسيق متوقّع و 2"
+
+#, fuzzy
+#~ msgctxt "@info Report the wrong number of nations given"
+#~ msgid "Error - 2 nations minimum. Got %1."
+#~ msgstr "خطأ الأدنى أصبح."
+
+#, fuzzy
+#~ msgid "Port and Net players configuration"
+#~ msgstr "منفذ و شبكة تشكيل"
+
+#, fuzzy
+#~ msgid "Number of network players"
+#~ msgstr "الرقم من شبكة"
+
+#, fuzzy
+#~ msgid "Check this to create a network game"
+#~ msgstr "كِش إلى إ_نشيء a شبكة لعبة"
+
+#, fuzzy
+#~ msgid "A network game will be created if checked"
+#~ msgstr "A شبكة لعبة IF مؤكّد"
+
+#, fuzzy
+#~ msgid "Game Actions Toolbar"
+#~ msgstr "لعبة إجراءات شريط الأدوات"
+
+#, fuzzy
+#~ msgid "Redistribute"
+#~ msgstr "أعد توزيع"
+
+#, fuzzy
+#~ msgid "End redistribute"
+#~ msgstr "نهاية"
+
+#, fuzzy
+#~ msgid "Open game"
+#~ msgstr "افتح لعبة"
+
+#, fuzzy
+#~ msgid "Attack with one army"
+#~ msgstr "الهجوم مع"
+
+#, fuzzy
+#~ msgid "Attack with two armies"
+#~ msgstr "الهجوم مع إثنان"
+
+#, fuzzy
+#~ msgid "Attack with three armies"
+#~ msgstr "الهجوم مع ثلاثة"
+
+#, fuzzy
+#~ msgid "Move armies"
+#~ msgstr "نقل"
+
+#, fuzzy
+#~ msgid "Defend with one army"
+#~ msgstr "دافع مع"
+
+#, fuzzy
+#~ msgid "Defend with two armies"
+#~ msgstr "دافع مع إثنان"
+
+#, fuzzy
+#~ msgid "Invade with one army"
+#~ msgstr "إغز مع"
+
+#, fuzzy
+#~ msgid "Invade with five armies"
+#~ msgstr "إغز مع خمسة"
+
+#, fuzzy
+#~ msgid "Invade with ten armies"
+#~ msgstr "إغز مع عشرة"
+
+#, fuzzy
+#~ msgid "Retract one army"
+#~ msgstr "سحب"
+
+#, fuzzy
+#~ msgid "Retract five armies"
+#~ msgstr "سحب خمسة"
+
+#, fuzzy
+#~ msgid "Retract ten armies"
+#~ msgstr "سحب عشرة"
+
+#, fuzzy
+#~ msgid "Real Politiks"
+#~ msgstr "حقيقي"
+
+#, fuzzy
+#~ msgid "North-West-Territory"
+#~ msgstr "شمال غرب الأرض"
+
+#, fuzzy
+#~ msgid "Western-United-States"
+#~ msgstr "غربي متّحد الولايات"
+
+#, fuzzy
+#~ msgid "Central-America"
+#~ msgstr "سنترال أمريكا الشمالية"
+
+#, fuzzy
+#~ msgid "Eastern-United-States"
+#~ msgstr "شرقي متّحد الولايات"
+
+#, fuzzy
+#~ msgid "Venezuela"
+#~ msgstr "فينزويلا"
+
+#, fuzzy
+#~ msgid "Peru"
+#~ msgstr "بيرو"
+
+#, fuzzy
+#~ msgid "Argentina"
+#~ msgstr "الأرجنتين"
+
+#, fuzzy
+#~ msgid "Iceland"
+#~ msgstr "آيسلندا"
+
+#, fuzzy
+#~ msgid "Ukraine"
+#~ msgstr "أوكرانيا"
+
+#, fuzzy
+#~ msgid "Great-Britain"
+#~ msgstr "عظيم بريطانيا"
+
+#, fuzzy
+#~ msgid "Northern-Europe"
+#~ msgstr "شمالي أوروبا"
+
+#, fuzzy
+#~ msgid "Western-Europe"
+#~ msgstr "غربي أوروبا"
+
+#, fuzzy
+#~ msgid "Southern-Europe"
+#~ msgstr "جنوبي أوروبا"
+
+#, fuzzy
+#~ msgid "North-Africa"
+#~ msgstr "شمال إفريقيا"
+
+#, fuzzy
+#~ msgid "Congo"
+#~ msgstr "الكنغو"
+
+#, fuzzy
+#~ msgid "East-Africa"
+#~ msgstr "شرق إفريقيا"
+
+#, fuzzy
+#~ msgid "South-Africa"
+#~ msgstr "جنوب إفريقيا"
+
+#, fuzzy
+#~ msgid "Ural"
+#~ msgstr "سلسلة جبال أورال الممتدّة بين اوروبا واسيا"
+
+#, fuzzy
+#~ msgid "Afghanistan"
+#~ msgstr "أفغانستان"
+
+#, fuzzy
+#~ msgid "Middle-East"
+#~ msgstr "الشرق الأوسط"
+
+#, fuzzy
+#~ msgid "Yakutsk"
+#~ msgstr "ياكوتسك"
+
+#, fuzzy
+#~ msgid "Irkutsk"
+#~ msgstr "إركتسك"
+
+#, fuzzy
+#~ msgid "Kamchatka"
+#~ msgstr "كامتشاتكا"
+
+#, fuzzy
+#~ msgid "New-Guinea"
+#~ msgstr "جديد غينيا"
+
+#, fuzzy
+#~ msgid "Western-Australia"
+#~ msgstr "غربي أستراليا"
+
+#, fuzzy
+#~ msgid "Eastern-Australia"
+#~ msgstr "شرقي أستراليا"
+
+#, fuzzy
+#~ msgid "North-America"
+#~ msgstr "شمال أمريكا الشمالية"
+
+#, fuzzy
+#~ msgid "South-America"
+#~ msgstr "جنوب أمريكا الشمالية"
+
+#, fuzzy
+#~ msgid "Australia"
+#~ msgstr "أستراليا"
+
+#, fuzzy
+#~ msgid "All commands are issued through changing buttons and drag & drop."
+#~ msgstr "الكل و سحب."
+
+#, fuzzy
+#~ msgid "KsirK - Cannot save !"
+#~ msgstr "لا يستطيع حفظ!"
+
+#, fuzzy
+#~ msgid ""
+#~ "Now, attack by dragging from the attacking country<br/>and droping to the "
+#~ "attacked one<br/>or choose another action by using the right mouse click."
+#~ "<br/>Note that moving armies is the last action of a turn."
+#~ msgstr ""
+#~ "الآن اختيار الأفعال مع عند الأسفل<br/> ملاحظة هو الأخير الأفعال من a."
+
+#, fuzzy
+#~ msgid ""
+#~ "Flag image resource not found\n"
+#~ "Program cannot continue"
+#~ msgstr "العلمعلمالعلامة صورة مورِد ليس موجود متابعة"
+
+#, fuzzy
+#~ msgid "The attacker <font color=\"red\">%1</font> ("
+#~ msgstr "الـ<font color=\"red\"></font>"
+
+#, fuzzy
+#~ msgid "The defender <font color=\"blue\">%1</font> ("
+#~ msgstr "الـ<font color=\"blue\"></font>"
+
+#, fuzzy
+#~ msgid ""
+#~ "%1, use the buttons below to choose<br/>with how much armies you defend %"
+#~ "2."
+#~ msgstr "استخدام أسفل إلى اختيار<br/> مع."
+
+#, fuzzy
+#~ msgid "%1 attacks from %2 with <font color=\"red\">%3 armies</font>"
+#~ msgstr "من مع<font color=\"red\"></font>"
+
+#, fuzzy
+#~ msgid "Invalid attacked country."
+#~ msgstr "غير صحيح."
+
+#, fuzzy
+#~ msgid "You are trying to attack %1 from itself !"
+#~ msgstr "أنت إلى من نفسها!"
+
+#, fuzzy
+#~ msgid "%1! You cannot attack %2! It is yours!"
+#~ msgstr "أنت itإيطالياهو هو!"
+
+#, fuzzy
+#~ msgid "%1 ! You are not the owner of %2!"
+#~ msgstr "أنت ليس مالك من!"
+
+#, fuzzy
+#~ msgid "%1, you have to keep one army to defend %2."
+#~ msgstr "إلى و."
+
+#, fuzzy
+#~ msgid "%1, with how many armies do you defend %2 ?"
+#~ msgstr "مع?"
+
+#, fuzzy
+#~ msgid "Attack with %1 armies : Designate the belligerants"
+#~ msgstr "الهجوم مع مرشّح"
+
+#, fuzzy
+#~ msgid "Battle between <font color=\"red\">%1</font> ("
+#~ msgstr "المعركة بين<font color=\"red\"></font>"
+
+#, fuzzy
+#~ msgid ""
+#~ "%1) <font color=\"red\">with %2 armies</font> and <font color=\"blue\">%"
+#~ "3</font> ("
+#~ msgstr "<font color=\"red\"> مع</font> و<font color=\"blue\"></font>"
+
+#, fuzzy
+#~ msgid "%1) <font color=\"blue\">with %2 armies</font>."
+#~ msgstr "<font color=\"blue\"> مع</font>."
+
+#, fuzzy
+#~ msgid ""
+#~ "<font color=\"orange\">Cannot remove %1 armies from %2</font>: %3 maximum."
+#~ msgstr "<font color=\"orange\"> لا يستطيع أزِل من</font> الأقصى."
+
+#, fuzzy
+#~ msgid "%1, please change your distributions."
+#~ msgstr "تغيير."
+
+#, fuzzy
+#~ msgid "You conquered <font color=\"blue\">"
+#~ msgstr "الـ<font color=\"blue\"></font>"
+
+#, fuzzy
+#~ msgid "Arena"
+#~ msgstr "الأرجنتين"
+
+#, fuzzy
+#~ msgid ""
+#~ "To attack, press the mouse button in the attacking country<br/>and then "
+#~ "<b>drag and drop</b> on its neighbour your want to attack."
+#~ msgstr "إلى ضغط الماوس زر بوصة<br/> و<b> سحب و</b> يعمل إلى."
+
+#, fuzzy
+#~ msgid "%1 attacks %2 from %3 with <font color=\"red\">%4 armies</font>."
+#~ msgstr "من مع<font color=\"red\"></font>."

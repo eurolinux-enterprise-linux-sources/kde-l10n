@@ -1,0 +1,392 @@
+# translation of kcmaccess.po to Arabic
+# translation of kcmaccess.po to
+# Copyright (C) 2001,2002, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Mohammed Gamal <f2c2001@yahoo.com>, 2001.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Ossama Khayat <okhayat@yahoo.com>, 2004.
+# Munzir Taha <munzir@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmaccess\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-11-06 09:43+0100\n"
+"PO-Revision-Date: 2008-11-27 17:43+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+
+#: kcmaccess.cpp:194
+msgid "AltGraph"
+msgstr "AltGraph"
+
+#: kcmaccess.cpp:196
+msgid "Hyper"
+msgstr "فائق"
+
+#: kcmaccess.cpp:198
+msgid "Super"
+msgstr "ممتاز"
+
+#: kcmaccess.cpp:212
+#, kde-format
+msgid "Press %1 while NumLock, CapsLock and ScrollLock are active"
+msgstr "اضغط %1 بينما NumLock ، CapsLock  و  ScrollLock في وضع نشط "
+
+#: kcmaccess.cpp:214
+#, kde-format
+msgid "Press %1 while CapsLock and ScrollLock are active"
+msgstr "اضغط %1 بينما CapsLock  و  ScrollLock في وضع نشط"
+
+#: kcmaccess.cpp:216
+#, kde-format
+msgid "Press %1 while NumLock and ScrollLock are active"
+msgstr "اضغط %1 بينما NumLock   و  ScrollLock في وضع نشط"
+
+#: kcmaccess.cpp:218
+#, kde-format
+msgid "Press %1 while ScrollLock is active"
+msgstr "اضغط %1 بينما ScrollLock في وضع نشط"
+
+#: kcmaccess.cpp:221
+#, kde-format
+msgid "Press %1 while NumLock and CapsLock are active"
+msgstr "اضغط %1 بينما NumLock  و CapsLock في وضع نشط"
+
+#: kcmaccess.cpp:223
+#, kde-format
+msgid "Press %1 while CapsLock is active"
+msgstr "اضغط %1 بينما CapsLock في وضع نشط"
+
+#: kcmaccess.cpp:225
+#, kde-format
+msgid "Press %1 while NumLock is active"
+msgstr "اضغط %1 بينما NumLock  في وضع نشط"
+
+#: kcmaccess.cpp:227
+#, kde-format
+msgid "Press %1"
+msgstr "اضغط %1"
+
+#: kcmaccess.cpp:237
+msgid "kaccess"
+msgstr "kaccess"
+
+#: kcmaccess.cpp:237
+msgid "KDE Accessibility Tool"
+msgstr "أداة إتاحة الوصول لكيدي"
+
+#: kcmaccess.cpp:239
+msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
+msgstr "(c) 2000, Matthias Hoelzer-Kluepfel"
+
+#: kcmaccess.cpp:241
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: kcmaccess.cpp:241
+msgid "Author"
+msgstr "المؤلف"
+
+#: kcmaccess.cpp:258
+msgid "Audible Bell"
+msgstr "جرس مسموع"
+
+#: kcmaccess.cpp:267
+msgid "Use &system bell"
+msgstr "استخدم جرس ال&نظام"
+
+#: kcmaccess.cpp:269
+msgid "Us&e customized bell"
+msgstr "استخدم جرس &مخصص"
+
+#: kcmaccess.cpp:271
+msgid ""
+"If this option is checked, the default system bell will be used. See the "
+"\"System Bell\" control module for how to customize the system bell. "
+"Normally, this is just a \"beep\"."
+msgstr ""
+"عند التأشير على هذا الخيار، سيتم استخدام جرس النظام المبدئي. القِ نظرة على "
+"وحدة تحكم \"جرس النظام\" لكيفية تخصيص جرس النظام. عادة، ما تكون هذه مجرد "
+"\"تصفيره\"."
+
+#: kcmaccess.cpp:274
+msgid ""
+"<p>Check this option if you want to use a customized bell, playing a sound "
+"file. If you do this, you will probably want to turn off the system bell.</"
+"p><p> Please note that on slow machines this may cause a \"lag\" between the "
+"event causing the bell and the sound being played.</p>"
+msgstr ""
+"<p>اختر هذا الخيار إذا رغبت في استخدام جرس مخصص يشغل ملف صوتي.إذا فعلت ذلك "
+"فأنت على الأرجح تريد تعطيل جرس النظام.</p><p>الرجاء ملاحظة أن هذا قد يحدث "
+"\"تأخر\" بينالحدث الذي سبب الجرس والصوت الذي سوف يشغل في الأجهزة البطئية.</p>"
+
+#: kcmaccess.cpp:283
+msgid "Sound &to play:"
+msgstr "الصوت الم&طلوب تشغيله:"
+
+#: kcmaccess.cpp:287
+msgid "Browse..."
+msgstr "استعرض..."
+
+#: kcmaccess.cpp:289
+msgid ""
+"If the option \"Use customized bell\" is enabled, you can choose a sound "
+"file here. Click \"Browse...\" to choose a sound file using the file dialog."
+msgstr ""
+"عند تمكين خيار \"استخدم جرس مخصص \" , يمكنك اختيار الملف الصوتي هنا. انقر "
+"على  \"استعرض...\" لاختيار ملف صوتي باستخدام مربع حوار الملفات."
+
+#: kcmaccess.cpp:306
+msgid "Visible Bell"
+msgstr "جرس مرئي"
+
+#: kcmaccess.cpp:315
+msgid "&Use visible bell"
+msgstr "ا&ستخدم جرس مرئي"
+
+#: kcmaccess.cpp:317
+msgid ""
+"This option will turn on the \"visible bell\", i.e. a visible notification "
+"shown every time that normally just a bell would occur. This is especially "
+"useful for deaf people."
+msgstr ""
+"هذا الخيار سيقوم بتشغيل \"جرس مرئي\", أي إشعار مرئي يظهر في الوقت الذي يفترض "
+"به لجرس النظام أن يعمل. هذا الخيار مفيد جداً للمصابين بالصمم."
+
+#: kcmaccess.cpp:325
+msgid "I&nvert screen"
+msgstr "ع&كس الشاشة"
+
+#: kcmaccess.cpp:330
+msgid ""
+"All screen colors will be inverted for the amount of time specified below."
+msgstr "كلّ ألوان الشاشة سيتم عكسها حسب كمية الوقت المحدد بالأسفل."
+
+#: kcmaccess.cpp:332
+msgid "F&lash screen"
+msgstr "بري&ق الشاشة"
+
+#: kcmaccess.cpp:334
+msgid ""
+"The screen will turn to a custom color for the amount of time specified "
+"below."
+msgstr "ستقوم الشاشة بالتحول إلى لون مخصص حسب كمية الوقت المحدد بالأسفل."
+
+#: kcmaccess.cpp:340
+msgid ""
+"Click here to choose the color used for the \"flash screen\" visible bell."
+msgstr "انقر هنا لاختيار اللون المستخدم للجرس المرئي \"بريق الشاشة\" ."
+
+#: kcmaccess.cpp:349
+msgid "Duration:"
+msgstr "المدة:"
+
+#: kcmaccess.cpp:350 kcmaccess.cpp:473 kcmaccess.cpp:516
+msgid " msec"
+msgstr "مللي ثانية"
+
+#: kcmaccess.cpp:352
+msgid ""
+"Here you can customize the duration of the \"visible bell\" effect being "
+"shown."
+msgstr "تستطيع هنا تخصيص المدة التي سيفعّل فيه خيار \"جرس مرئي\"."
+
+#: kcmaccess.cpp:369
+msgid "&Bell"
+msgstr "&جرس"
+
+#: kcmaccess.cpp:379
+msgid "S&ticky Keys"
+msgstr "&مثبتات مفاتيح "
+
+#: kcmaccess.cpp:388
+msgid "Use &sticky keys"
+msgstr "استخدم م&ثبتات المفاتيح"
+
+#: kcmaccess.cpp:395
+msgid "&Lock sticky keys"
+msgstr "أ&قفل مثبتات المفاتيح"
+
+#: kcmaccess.cpp:402
+msgid "Turn sticky keys off when two keys are pressed simultaneously"
+msgstr "أوقف مثبتات المفاتيح عند ضغط مفتاحين في نفس الوقت"
+
+#: kcmaccess.cpp:409
+msgid "Use system bell whenever a modifier gets latched, locked or unlocked"
+msgstr "استخدم جرس النظام حينما يقوم المغيير بالإغلاق، الإقفال أو فك الإقفال"
+
+#: kcmaccess.cpp:412
+msgid "Locking Keys"
+msgstr "مفاتيح الإقفال"
+
+#: kcmaccess.cpp:421
+msgid "Use system bell whenever a locking key gets activated or deactivated"
+msgstr "استخدم جرس النظام حينما يصبح مفتاح الإقفال منشطاً أو خاملاً"
+
+#: kcmaccess.cpp:424
+msgid ""
+"Use KDE's system notification mechanism whenever a modifier or locking key "
+"changes its state"
+msgstr ""
+"استخدم آلية إشعارات النظام لكيدي حينما يتم تغيير حالة مغيير أو مفتاح إقفال"
+
+#: kcmaccess.cpp:431 kcmaccess.cpp:610
+msgid "Configure &Notifications..."
+msgstr "ضبط الإ&شعارات..."
+
+#: kcmaccess.cpp:448
+msgid "&Modifier Keys"
+msgstr "مفاتيح م&غييره"
+
+#: kcmaccess.cpp:456
+msgid "Slo&w Keys"
+msgstr "مفاتيح ب&طيئة"
+
+#: kcmaccess.cpp:465
+msgid "&Use slow keys"
+msgstr "استخدم مفاتيح &بطيئة"
+
+#: kcmaccess.cpp:475
+msgid "Acceptance dela&y:"
+msgstr "تأ&خير التجاوب:"
+
+#: kcmaccess.cpp:482
+msgid "&Use system bell whenever a key is pressed"
+msgstr "است&خدم جرس النظام حيثما ضُغط زر"
+
+#: kcmaccess.cpp:489
+msgid "&Use system bell whenever a key is accepted"
+msgstr "است&خدم جرس النظام حيثما قبّل زر"
+
+#: kcmaccess.cpp:496
+msgid "&Use system bell whenever a key is rejected"
+msgstr "است&خدم جرس النظام حيثما رفض زر"
+
+#: kcmaccess.cpp:499
+msgid "Bounce Keys"
+msgstr "مفاتيح قافزة"
+
+#: kcmaccess.cpp:508
+msgid "Use bou&nce keys"
+msgstr "استخدم مفاتيح &قافزة"
+
+#: kcmaccess.cpp:518
+msgid "D&ebounce time:"
+msgstr "وقت تعطيل القفز:"
+
+#: kcmaccess.cpp:525
+msgid "Use the system bell whenever a key is rejected"
+msgstr "استخدم جرس النظام حيثما رفض زر"
+
+#: kcmaccess.cpp:543
+msgid "&Keyboard Filters"
+msgstr "مر&شحات لوحة المفاتيح"
+
+#: kcmaccess.cpp:552 kcmaccess.cpp:626
+msgid "Activation Gestures"
+msgstr "حركات التنشيط"
+
+#: kcmaccess.cpp:561
+msgid "Use gestures for activating sticky keys and slow keys"
+msgstr "استخدم حركات لتنشيط مثبتات المفاتيح والمفاتيح البطيئة"
+
+#: kcmaccess.cpp:565
+msgid ""
+"Here you can activate keyboard gestures that turn on the following "
+"features: \n"
+"Sticky keys: Press Shift key 5 consecutive times\n"
+"Slow keys: Hold down Shift for 8 seconds"
+msgstr ""
+"هنا يمكنك تنشيط حركات لوحة المفاتيح عند تشغيل الميّزات التالية: \n"
+"مثبتات المفاتيح: اضغط مفتاح Shift خمس مرات متتالية\n"
+"مفاتيح بطيئة: ابقِ ضاغطاً Shift لمدة 8 ثوان"
+
+#: kcmaccess.cpp:569
+#, kde-format
+msgid ""
+"Here you can activate keyboard gestures that turn on the following "
+"features: \n"
+"Mouse Keys: %1\n"
+"Sticky keys: Press Shift key 5 consecutive times\n"
+"Slow keys: Hold down Shift for 8 seconds"
+msgstr ""
+"هنا يمكنك تنشيط حركات لوحة المفاتيح عند تشغيل الميّزات التالية: \n"
+"مفاتيح الفأرة: %1\n"
+"مثبتات المفاتيح: اضغط مفتاح Shift خمس مرات متتالية\n"
+"مفاتيح بطيئة: ابقِ ضاغطاً Shift لمدة 8 ثوان"
+
+#: kcmaccess.cpp:574
+msgid ""
+"Turn sticky keys and slow keys off after a certain period of inactivity."
+msgstr "أوقف مثبتات المفاتيح والمفاتيح البطيئة بعد وقت محقق من الخمول "
+
+#: kcmaccess.cpp:582
+msgid " min"
+msgstr " دقيقة"
+
+#: kcmaccess.cpp:584
+msgid "Timeout:"
+msgstr "المهلة:"
+
+#: kcmaccess.cpp:587
+msgid "Notification"
+msgstr "إشعار"
+
+#: kcmaccess.cpp:596
+msgid ""
+"Use the system bell whenever a gesture is used to turn an accessibility "
+"feature on or off"
+msgstr "استخدم جرس النظام حينما تستخدم حركة لتشغيل ميزة إتاحة وصول أو إيقافها"
+
+#: kcmaccess.cpp:599
+msgid ""
+"Show a confirmation dialog whenever a keyboard accessibility feature is "
+"turned on or off"
+msgstr ""
+"أظهر حوار التأكيد حينما تكون ميزة إتاحة الوصول للوحة المفاتيح في وضع تشغيل "
+"أو إيقاف"
+
+#: kcmaccess.cpp:601
+msgid ""
+"If this option is checked, KDE will show a confirmation dialog whenever a "
+"keyboard accessibility feature is turned on or off.\n"
+"Ensure you know what you are doing if you uncheck it, as the keyboard "
+"accessibility settings will then always be applied without confirmation."
+msgstr ""
+"إذا اختير هذا الخيار ، فإن الكيدي ستعرض حوار التأكيد كلما أطفئت أو شغلت ميزة "
+"إتاحة الوصول للوحة المفاتيح.\n"
+"أزل هذا الخيار إذا كنت تعرف ماذا تفعل ، حيث أن إعدادات إتاحة الوصول للوحة "
+"المفاتيح سوف تطبق بدون طلب تأكيد."
+
+#: kcmaccess.cpp:603
+msgid ""
+"Use KDE's system notification mechanism whenever a keyboard accessibility "
+"feature is turned on or off"
+msgstr ""
+"استخدم آلية إشعارات النظام لكيدي حينما تصبح ميزة إتاحة الوصول للوحة المفاتيح "
+"في وضع تشغيل أو إيقاف"
+
+#: kcmaccess.cpp:653
+msgid "*.wav|WAV Files"
+msgstr "*.wav|ملفات WAV"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD  محمد سعد ,زايد السعيدي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr,zayed.alsaidi@gmail.com"

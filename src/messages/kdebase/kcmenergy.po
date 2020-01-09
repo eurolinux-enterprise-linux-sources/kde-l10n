@@ -1,0 +1,116 @@
+# translation of kcmenergy.po to Arabic
+# translation of kcmenergy.po to
+# Copyright (C) 2001,2002, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+# Mohammed Gamal <f2c2001@yahoo.com>, 2001.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Ossama Khayat <okhayat@yahoo.com>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmenergy\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-10 11:08+0200\n"
+"PO-Revision-Date: 2008-11-29 10:27+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+
+#: energy.cpp:155
+msgid ""
+"<h1>Display Power Control</h1> <p>If your display supports power saving "
+"features, you can configure them using this module.</p> <p>There are three "
+"levels of power saving: standby, suspend, and off. The greater the level of "
+"power saving, the longer it takes for the display to return to an active "
+"state.</p> <p>To wake up the display from a power saving mode, you can make "
+"a small movement with the mouse, or press a key that is not likely to cause "
+"any unintentional side-effects, for example, the \"Shift\" key.</p>"
+msgstr ""
+"<h1>التحكم بطاقة الشاشة</h1> <p>إذا كانت شاشتك تدعم ميزة حفظ الطاقة؛ فيمكنك "
+"ضبطها باستخدام هذه الوحدة .</p> <p>توجد ثلاث مستويات لحفظ الطاقة: وضعية "
+"الاستعداد ،و التعليق ، و الإطفاء. كلما كان المستوى أكثر محافظة للطاقة كلما "
+"كان استعادة الشاشة لنشاطها أبطئ.</p> <p>لتعيد النشاط إلى شاشتك من نمط حفظ "
+"الطاقة ، قم تحريك الفأرة أو اضغط على أي زر ، تأكد من أن الزر لا يؤدي إلى "
+"أعراض غير مرغوبة ، على سبيل المثال زر \"Shift\" .</p>"
+
+#: energy.cpp:177
+msgid "&Enable display power management"
+msgstr "&مكّن إدارة حفظ الطاقة للشاشة"
+
+#: energy.cpp:180
+msgid "Check this option to enable the power saving features of your display."
+msgstr "حدد هذا الخيار لتمكين ميّزات حفظ الطاقة لشاشتك."
+
+#: energy.cpp:183
+msgid "Your display does not support power saving."
+msgstr "لا تدعم شاشتك حفظ الطاقة."
+
+#: energy.cpp:191
+msgid "Learn more about the Energy Star program"
+msgstr "تعلّم المزيد حول برنامج Energy Star"
+
+#: energy.cpp:201
+msgid "&Standby after:"
+msgstr "وضعية  ا&ستعداد بعد:"
+
+#: energy.cpp:203 energy.cpp:214 energy.cpp:226
+msgid " min"
+msgstr " دقيقة"
+
+#: energy.cpp:204
+msgctxt "Disables display entering standby mode after x min"
+msgid "Disabled"
+msgstr "معطّل"
+
+#: energy.cpp:207
+msgid ""
+"Choose the period of inactivity after which the display should enter "
+"\"standby\" mode. This is the first level of power saving."
+msgstr ""
+"اختر فترة عدم النشاط التي يتم بعدها اتخاذ وضعية \"الاستعداد\". هذا هو "
+"المستوى الأول من حفظ الطاقة."
+
+#: energy.cpp:212
+msgid "S&uspend after:"
+msgstr "&علّق بعد:"
+
+#: energy.cpp:215
+msgctxt "Disables display entering suspend mode after x min"
+msgid "Disabled"
+msgstr "معطّل"
+
+#: energy.cpp:218
+msgid ""
+"Choose the period of inactivity after which the display should enter "
+"\"suspend\" mode. This is the second level of power saving, but may not be "
+"different from the first level for some displays."
+msgstr ""
+"اختر فترة عدم النشاط التي يتم بعدها اتخاذ وضعية \"علّق\". هذا هو المستوى "
+"الثاني من حفظ الطاقة، و لكن قد لا يختلف عن المستوى الأول عند بعض الشاشات."
+
+#: energy.cpp:224
+msgid "&Power off after:"
+msgstr "أ&طفئ بعد:"
+
+#: energy.cpp:227
+msgctxt "Disables display being turned off after x min"
+msgid "Disabled"
+msgstr "معطّل"
+
+#: energy.cpp:230
+msgid ""
+"Choose the period of inactivity after which the display should be powered "
+"off. This is the greatest level of power saving that can be achieved while "
+"the display is still physically turned on."
+msgstr ""
+"اختر فترة عدم النشاط التي يتم بعدها تطفئ الشاشة. هذا هو المستوى الأعلى من "
+"حفظ الطاقة الذي يمكن تحقيقه بينما ما تزال الشاشة تعمل."

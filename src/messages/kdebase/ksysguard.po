@@ -1,0 +1,1522 @@
+# translation of ksysguard.po to Arabic
+# translation of ksysguard.po to
+# Copyright (C) 2001,2002, 2004, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+#
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2001,2002.
+# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002.
+# Ossama Khayat <okhayat@yahoo.com>, 2004.
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Munzir Taha <munzir@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008, 2009.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksysguard\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-07-04 07:15+0200\n"
+"PO-Revision-Date: 2009-07-08 22:48+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+
+#: WorkSheet.cc:97
+#, kde-format
+msgid "Cannot open the file %1."
+msgstr "غير قادر على فتح الملف %1."
+
+#: WorkSheet.cc:105
+#, kde-format
+msgid "The file %1 does not contain valid XML."
+msgstr "الملف %1 لا يحتوي على XML صالحة."
+
+#: WorkSheet.cc:112
+#, kde-format
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+"الملف %1 لا يحتوي على تعريف صالح لورقة العمل، والذي يجب أن يكون من نوع "
+"مستند'KSysGuardWorkSheet'."
+
+#: WorkSheet.cc:136
+#, kde-format
+msgid "The file %1 has an invalid worksheet size."
+msgstr "الملف %1 يحتوي على حجم غير صالح لورقة العمل."
+
+#: WorkSheet.cc:238
+#, kde-format
+msgid "Cannot save file %1"
+msgstr "لا أستطيع حفظ الملف %1"
+
+#: WorkSheet.cc:284
+msgid "The clipboard does not contain a valid display description."
+msgstr "لا تحتوي الحافظة على وصف عرض صالح."
+
+#: WorkSheet.cc:382
+msgid "Select Display Type"
+msgstr "اختر نوع العرض"
+
+#: WorkSheet.cc:383
+msgid "&Line graph"
+msgstr "ر&سم بياني خطي"
+
+#: WorkSheet.cc:384
+msgid "&Digital display"
+msgstr "الع&رض الرقمي"
+
+#: WorkSheet.cc:385
+msgid "&Bar graph"
+msgstr "رسم بياني &شريطي"
+
+#: WorkSheet.cc:386
+msgid "Log to a &file"
+msgstr "سجّل الوقائع إلى م&لف"
+
+#: WorkSheet.cc:546
+msgid "Do you really want to delete the display?"
+msgstr "هل تريد متأكد من حذف العرض ؟"
+
+#: WorkSheet.cc:547
+msgid "Delete Display"
+msgstr "احذف العرض"
+
+#: ksgrd/SensorAgent.cc:109
+#, kde-format
+msgctxt "%1 is a host name"
+msgid ""
+"Message from %1:\n"
+"%2"
+msgstr ""
+"رسالة من %1:\n"
+"%2"
+
+#: ksgrd/SensorShellAgent.cc:126
+#, kde-format
+msgid "Could not run daemon program '%1'."
+msgstr "لم يتسطع تشغيل مراقب البرنامج '%1'."
+
+#: ksgrd/SensorShellAgent.cc:133
+#, kde-format
+msgid "The daemon program '%1' failed."
+msgstr "فشل رقيب البرنامج '%1' ."
+
+#: ksgrd/SensorManager.cc:56
+msgid "Change"
+msgstr "غيّر"
+
+#: ksgrd/SensorManager.cc:57
+msgid "Rate"
+msgstr "النسبة"
+
+#: ksgrd/SensorManager.cc:59
+msgid "CPU Load"
+msgstr "حمولة وحدة المعالجة المركزية"
+
+#: ksgrd/SensorManager.cc:60
+msgid "Idling"
+msgstr "خمول"
+
+#: ksgrd/SensorManager.cc:61
+msgid "Nice Load"
+msgstr "حمولة الخفيف الأولوية"
+
+#: ksgrd/SensorManager.cc:62
+msgid "User Load"
+msgstr "حمولة المستخدمين"
+
+#: ksgrd/SensorManager.cc:63
+msgctxt "@item sensor description"
+msgid "System Load"
+msgstr "حمولة النظام"
+
+#: ksgrd/SensorManager.cc:64
+msgid "Waiting"
+msgstr "ينتظر"
+
+#: ksgrd/SensorManager.cc:65
+msgid "Total Load"
+msgstr "إجمالي الحمولة"
+
+#: ksgrd/SensorManager.cc:66
+msgid "Memory"
+msgstr "الذاكرة"
+
+#: ksgrd/SensorManager.cc:67
+msgid "Physical Memory"
+msgstr "الذاكرة الملموسة"
+
+#: ksgrd/SensorManager.cc:68
+msgid "Swap Memory"
+msgstr "ذاكرة الإبدال"
+
+#: ksgrd/SensorManager.cc:69
+msgid "Cached Memory"
+msgstr "الذاكرة المخبأة"
+
+#: ksgrd/SensorManager.cc:70
+msgid "Buffered Memory"
+msgstr "الذاكرة التخزينية"
+
+#: ksgrd/SensorManager.cc:71
+msgid "Used Memory"
+msgstr "الذاكرة المستخدمة"
+
+#: ksgrd/SensorManager.cc:72
+msgid "Application Memory"
+msgstr "ذاكرة التطبيقات"
+
+#: ksgrd/SensorManager.cc:73
+msgid "Free Memory"
+msgstr "الذاكرة الفارغة"
+
+#: ksgrd/SensorManager.cc:74
+msgid "Active Memory"
+msgstr "الذاكرة النشطة"
+
+#: ksgrd/SensorManager.cc:75
+msgid "Inactive Memory"
+msgstr "الذاكرة الخاملة"
+
+#: ksgrd/SensorManager.cc:76
+msgid "Wired Memory"
+msgstr "الذاكرة المربوطة"
+
+#: ksgrd/SensorManager.cc:77
+msgid "Exec Pages"
+msgstr "صفحات الملفات التنفيذية"
+
+#: ksgrd/SensorManager.cc:78
+msgid "File Pages"
+msgstr "صفحات الملف"
+
+#: ksgrd/SensorManager.cc:79
+msgid "Process Count"
+msgstr "عدد الإجراءات"
+
+#: ksgrd/SensorManager.cc:80 ksgrd/SensorManager.cc:166
+msgid "Process Controller"
+msgstr "المتحكم بالإجراءات"
+
+#: ksgrd/SensorManager.cc:81
+msgid "Disk Throughput"
+msgstr "إنتاجيّة القرص"
+
+#: ksgrd/SensorManager.cc:82
+msgctxt "CPU Load"
+msgid "Load"
+msgstr "الحمل"
+
+#: ksgrd/SensorManager.cc:83
+msgid "Total Accesses"
+msgstr "إجمالي عدد مرات الوصول"
+
+#: ksgrd/SensorManager.cc:84
+msgid "Read Accesses"
+msgstr "الوصول للقراءة"
+
+#: ksgrd/SensorManager.cc:85
+msgid "Write Accesses"
+msgstr "الوصول للكتابة"
+
+#: ksgrd/SensorManager.cc:86
+msgid "Read Data"
+msgstr "البيانات المقروءة"
+
+#: ksgrd/SensorManager.cc:87
+msgid "Written Data"
+msgstr "البيانات المكتوبة"
+
+#: ksgrd/SensorManager.cc:88
+msgid "Milliseconds spent reading"
+msgstr "ملي.ثانية المستهلكة للقراءة"
+
+#: ksgrd/SensorManager.cc:89
+msgid "Milliseconds spent writing"
+msgstr "ملي.ثانية المستهلكة للكتابة"
+
+#: ksgrd/SensorManager.cc:90
+msgid "I/Os currently in progress"
+msgstr "الدخل/الخرج الذي يجري الآن"
+
+#: ksgrd/SensorManager.cc:91
+msgid "Pages In"
+msgstr "الصفحات الداخلة"
+
+#: ksgrd/SensorManager.cc:92
+msgid "Pages Out"
+msgstr "الصفحات الخارجة"
+
+#: ksgrd/SensorManager.cc:93
+msgid "Context Switches"
+msgstr "تبديل السياق"
+
+#: ksgrd/SensorManager.cc:94
+msgid "Network"
+msgstr "الشبكة"
+
+#: ksgrd/SensorManager.cc:95
+msgid "Interfaces"
+msgstr "الواجهات"
+
+#: ksgrd/SensorManager.cc:96
+msgid "Receiver"
+msgstr "المستقبل"
+
+#: ksgrd/SensorManager.cc:97
+msgid "Transmitter"
+msgstr "المرسل"
+
+#: ksgrd/SensorManager.cc:98
+msgid "Data"
+msgstr "البيانات"
+
+#: ksgrd/SensorManager.cc:99
+msgid "Compressed Packets"
+msgstr "الحزمات المضغوطة"
+
+#: ksgrd/SensorManager.cc:100
+msgid "Dropped Packets"
+msgstr "الحزمات المفقودة"
+
+#: ksgrd/SensorManager.cc:101
+msgid "Errors"
+msgstr "الأخطاء"
+
+#: ksgrd/SensorManager.cc:102
+msgid "FIFO Overruns"
+msgstr "FIFO تجاوزات"
+
+#: ksgrd/SensorManager.cc:103
+msgid "Frame Errors"
+msgstr "أخطاء الإطار"
+
+#: ksgrd/SensorManager.cc:104
+msgid "Multicast"
+msgstr "الإذاعة المتعددة"
+
+#: ksgrd/SensorManager.cc:105
+msgid "Packets"
+msgstr "الحزمات"
+
+#: ksgrd/SensorManager.cc:106
+msgctxt "@item sensor description ('carrier' is a type of network signal)"
+msgid "Carrier"
+msgstr "الإشارة الناقلة"
+
+#: ksgrd/SensorManager.cc:107
+msgid "Collisions"
+msgstr "الإصتدامات"
+
+#: ksgrd/SensorManager.cc:108
+msgid "Sockets"
+msgstr "المقابس"
+
+#: ksgrd/SensorManager.cc:109
+msgid "Total Number"
+msgstr "الإجمالي"
+
+#: ksgrd/SensorManager.cc:110 ksgrd/SensorManager.cc:167
+msgid "Table"
+msgstr "الجدول"
+
+#: ksgrd/SensorManager.cc:111
+msgid "Advanced Power Management"
+msgstr "إدارة الطاقة المتقدمة"
+
+#: ksgrd/SensorManager.cc:112
+msgid "ACPI"
+msgstr "ACPI"
+
+#: ksgrd/SensorManager.cc:113
+msgid "Thermal Zone"
+msgstr "المنطقة الحرارية"
+
+#: ksgrd/SensorManager.cc:114
+msgid "Temperature"
+msgstr "درجة الحرارة"
+
+#: ksgrd/SensorManager.cc:115
+msgid "Fan"
+msgstr "المروحة"
+
+#: ksgrd/SensorManager.cc:116
+msgid "State"
+msgstr "الحالة"
+
+#: ksgrd/SensorManager.cc:117
+msgid "Battery"
+msgstr "البطارية"
+
+#: ksgrd/SensorManager.cc:118
+msgid "Battery Charge"
+msgstr "شحنة البطارية"
+
+#: ksgrd/SensorManager.cc:119
+msgid "Battery Usage"
+msgstr "إستعمال البطارية"
+
+#: ksgrd/SensorManager.cc:120
+msgid "Remaining Time"
+msgstr "الوقت الباقي"
+
+#: ksgrd/SensorManager.cc:121
+msgid "Interrupts"
+msgstr "الانقطاعات"
+
+#: ksgrd/SensorManager.cc:122
+msgid "Load Average (1 min)"
+msgstr "متوسط الحمولة ( دقيقة 1 )"
+
+#: ksgrd/SensorManager.cc:123
+msgid "Load Average (5 min)"
+msgstr "متوسط الحمولة (5 دقائق)"
+
+#: ksgrd/SensorManager.cc:124
+msgid "Load Average (15 min)"
+msgstr "متوسط الحمولة (15 دقيقة)"
+
+#: ksgrd/SensorManager.cc:125
+msgid "Clock Frequency"
+msgstr "تردد الساعة"
+
+#: ksgrd/SensorManager.cc:126
+msgid "Hardware Sensors"
+msgstr "مجسات العتاد"
+
+#: ksgrd/SensorManager.cc:127
+msgid "Partition Usage"
+msgstr "استعمال القسم"
+
+#: ksgrd/SensorManager.cc:128
+msgid "Used Space"
+msgstr "المساحة المستخدمة"
+
+#: ksgrd/SensorManager.cc:129
+msgid "Free Space"
+msgstr "المساحة الفارغة"
+
+#: ksgrd/SensorManager.cc:130
+msgid "Fill Level"
+msgstr "مستوى الملئ"
+
+#: ksgrd/SensorManager.cc:131
+msgid "System"
+msgstr "النظام"
+
+#: ksgrd/SensorManager.cc:132
+msgid "Uptime"
+msgstr "مدة الاشتغال"
+
+#: ksgrd/SensorManager.cc:133
+msgid "Linux Soft Raid (md)"
+msgstr "Linux Soft Raid (md)"
+
+#: ksgrd/SensorManager.cc:134
+msgid "Processors"
+msgstr "المعالجات"
+
+#: ksgrd/SensorManager.cc:135
+msgid "Cores"
+msgstr "الأنوية"
+
+#: ksgrd/SensorManager.cc:138
+#, kde-format
+msgid "CPU %1"
+msgstr "المعالج %1"
+
+#: ksgrd/SensorManager.cc:139
+#, kde-format
+msgid "Disk %1"
+msgstr "القرص %1"
+
+#: ksgrd/SensorManager.cc:143
+#, kde-format
+msgid "Fan %1"
+msgstr "المروحة %1"
+
+#: ksgrd/SensorManager.cc:144
+#, kde-format
+msgid "Temperature %1"
+msgstr "درجة الحرارة %1"
+
+#: ksgrd/SensorManager.cc:147
+msgid "Total"
+msgstr "الإجمالي"
+
+#: ksgrd/SensorManager.cc:152
+#, kde-format
+msgid "Int %1"
+msgstr "الانقطاع %1"
+
+#: ksgrd/SensorManager.cc:157
+msgctxt "the unit 1 per second"
+msgid "1/s"
+msgstr "1/ثانية"
+
+#: ksgrd/SensorManager.cc:158
+msgid "kBytes"
+msgstr "ك. بايت"
+
+#: ksgrd/SensorManager.cc:159
+msgctxt "the unit minutes"
+msgid "min"
+msgstr "دقيقة"
+
+#: ksgrd/SensorManager.cc:160
+msgctxt "the frequency unit"
+msgid "MHz"
+msgstr "ميغاهيرتز"
+
+#: ksgrd/SensorManager.cc:161
+msgctxt "a percentage"
+msgid "%"
+msgstr "%"
+
+#: ksgrd/SensorManager.cc:164
+msgid "Integer Value"
+msgstr "قيمة عددية صحيحة"
+
+#: ksgrd/SensorManager.cc:165
+msgid "Floating Point Value"
+msgstr "قيمة عددية عشرية"
+
+#: ksgrd/SensorSocketAgent.cc:103
+#, kde-format
+msgid "Connection to %1 refused"
+msgstr "رفض الاتصال بـ %1"
+
+#: ksgrd/SensorSocketAgent.cc:107
+#, kde-format
+msgid "Host %1 not found"
+msgstr "لا يمكن العثور على المضيف %1"
+
+#: ksgrd/SensorSocketAgent.cc:111
+#, kde-format
+msgid ""
+"An error occurred with the network (e.g. the network cable was accidentally "
+"unplugged) for host %1."
+msgstr "هناك خطأ في الشبكة (مثلاً ، كبل الشبكة قد فُصل بالصدفة) للمضيف %1."
+
+#: ksgrd/SensorSocketAgent.cc:115
+#, kde-format
+msgid "Error for host %1: %2"
+msgstr "خطأ في المضيف %1: %2"
+
+#: TimerSettings.cc:38
+msgid "Timer Settings"
+msgstr "إعدادات المؤقت"
+
+#: TimerSettings.cc:49
+msgid "Use update interval of worksheet"
+msgstr "استخدم فترة تحديث ورقة العمل"
+
+#: TimerSettings.cc:52 WorkSheetSettings.cc:91
+msgid "Update interval:"
+msgstr "فترة التحديث:"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
+#. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
+#: TimerSettings.cc:59 rc.cpp:23 WorkSheetSettings.cc:95
+msgid " sec"
+msgstr " ثانية"
+
+#: TimerSettings.cc:62 WorkSheetSettings.cc:101
+msgid "All displays of the sheet are updated at the rate specified here."
+msgstr "سيتم تحديث كل معروضات الورقة بالمعدل المحدّد هنا."
+
+#: HostConnector.cc:44
+msgid "Connect Host"
+msgstr "اتصل بالمضيف"
+
+#: HostConnector.cc:56
+msgid "Host:"
+msgstr "المضيف:"
+
+#: HostConnector.cc:66
+msgid "Enter the name of the host you want to connect to."
+msgstr "أدخل اسم المضيف الذي تريد الاتصال به."
+
+#: HostConnector.cc:72
+msgid "Connection Type"
+msgstr "نوع الاتصال"
+
+#: HostConnector.cc:78
+msgid "ssh"
+msgstr "ssh"
+
+#: HostConnector.cc:81
+msgid "Select this to use the secure shell to login to the remote host."
+msgstr "اختر هذا لاستخدام صدَفة آمنة للدخول إلى المضيف البعيد."
+
+#: HostConnector.cc:84
+msgid "rsh"
+msgstr "rsh"
+
+#: HostConnector.cc:85
+msgid "Select this to use the remote shell to login to the remote host."
+msgstr "اختر هذا لاستخدام الصدَفة البعيدة للدخول إلى المضيف البعيد."
+
+#: HostConnector.cc:88
+msgid "Daemon"
+msgstr "الرقيب"
+
+#: HostConnector.cc:89
+msgid ""
+"Select this if you want to connect to a ksysguard daemon that is running on "
+"the machine you want to connect to, and is listening for client requests."
+msgstr ""
+"اختر هذا إذا كنت تريد الاتصال برقيب ksysguard مشغَّل على الجهاز الذي تريد "
+"الاتصال به، و هو يستمع لطلبات العميل."
+
+#: HostConnector.cc:92
+msgid "Custom command"
+msgstr "الأمر المخصص"
+
+#: HostConnector.cc:93
+msgid ""
+"Select this to use the command you entered below to start ksysguardd on the "
+"remote host."
+msgstr ""
+"اختر هذا لاستخدام الأمر الذي أدخلته أدناه لبدء ksysguardd على المضيف البعيد."
+
+#: HostConnector.cc:96
+msgid "Port:"
+msgstr "المنفذ:"
+
+#: HostConnector.cc:103
+msgid ""
+"Enter the port number on which the ksysguard daemon is listening for "
+"connections."
+msgstr "أدخل رقم المنفذ الذي يستمع عليه رقيب  ksysguard لِلاتصالات."
+
+#: HostConnector.cc:106
+msgid "e.g.  3112"
+msgstr "مثلاً: 3112"
+
+#: HostConnector.cc:109
+msgid "Command:"
+msgstr "الأمر:"
+
+#: HostConnector.cc:118
+msgid "Enter the command that runs ksysguardd on the host you want to monitor."
+msgstr "أدخل الأمر الذي يشغل ksysguardd على المضيف الذي تريد مراقبته."
+
+#: HostConnector.cc:122
+msgid "e.g. ssh -l root remote.host.org ksysguardd"
+msgstr "مثلاً: ssh -l root remote.host.org ksysguardd"
+
+#: Workspace.cc:47
+msgid ""
+"This is your work space. It holds your tabs. You need to create a new tab "
+"(Menu File->New) before you can drag sensors here."
+msgstr ""
+"هذا هو مكان عملك. و هو يحتوي الألسنة الخاصة بك. تحتاج إلى إنشاء لسان جديد"
+"( قائمة ملف -> جديد ) قبل أن تستطيع سحب المجسات إلى هنا."
+
+#: Workspace.cc:118
+#, kde-format
+msgid "Sheet %1"
+msgstr "الورقة %1"
+
+#: Workspace.cc:173
+#, kde-format
+msgid ""
+"The tab '%1' contains unsaved data.\n"
+"Do you want to save the tab?"
+msgstr ""
+"اللسان '%1' يحتوي على بيانات غير محفوظة.\n"
+"هل تريد حفظ اللسان ؟"
+
+#: Workspace.cc:188
+msgid "*.sgrd|Sensor Files (*.sgrd)"
+msgstr "*.sgrd|ملفات المجسات (*.sgrd)"
+
+#: Workspace.cc:188
+msgid "Select Tab File to Import"
+msgstr "اختر ملف لسان لإستيراده"
+
+#: Workspace.cc:216 Workspace.cc:237
+msgid "You do not have a tab that could be saved."
+msgstr "ليس لديك لسان يمكن حفظه."
+
+#: Workspace.cc:244
+msgid "Export Tab"
+msgstr "صدر اللسان"
+
+#: Workspace.cc:262
+msgid "There are no tabs that could be deleted."
+msgstr "لا يوجد ألسنة يمكن حذفها."
+
+#: Workspace.cc:296
+#, kde-format
+msgid ""
+"<qt>To propose the current custom tab as a new System Monitor tab, email "
+"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
+"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
+"qt>"
+msgstr ""
+"<qt>لتقترح اللسان الحالي كلسان مراقب النظام ، فضلا أرسل بريد إلى <br><a href="
+"\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
+"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
+"qt>"
+
+#: Workspace.cc:296
+msgid "Upload custom System Monitor tab"
+msgstr "ارفع لسان مراقب النظام المخصص"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:43
+msgid "Edit BarGraph Preferences"
+msgstr "حرّر تفضيلات الرسم الشريطي"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:53
+msgid "Range"
+msgstr "المدى"
+
+#. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
+#. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
+#: SensorDisplayLib/DancingBarsSettings.cc:58 rc.cpp:89 rc.cpp:104
+#: WorkSheetSettings.cc:51
+msgid "Title"
+msgstr "العنوان"
+
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:35
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, m_title)
+#: SensorDisplayLib/DancingBarsSettings.cc:63
+#: SensorDisplayLib/FancyPlotterSettings.cc:72 rc.cpp:53
+msgid "Enter the title of the display here."
+msgstr "أدخل عنوان العرض هنا."
+
+#: SensorDisplayLib/DancingBarsSettings.cc:68
+msgid "Display Range"
+msgstr "مدى العرض"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:73
+#: SensorDisplayLib/FancyPlotterSettings.cc:99
+msgid "Minimum value:"
+msgstr "القيمة الأدنى:"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:81
+#: SensorDisplayLib/FancyPlotterSettings.cc:106
+msgid ""
+"Enter the minimum value for the display here. If both values are 0, "
+"automatic range detection is enabled."
+msgstr "أدخل القيمة الدنيا للعرض هنا. إذا كانت القيمتان 0 سيكتشف المدى آليا."
+
+#: SensorDisplayLib/DancingBarsSettings.cc:85
+#: SensorDisplayLib/FancyPlotterSettings.cc:110
+msgid "Maximum value:"
+msgstr "القيمة الأعلى:"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:93
+#: SensorDisplayLib/FancyPlotterSettings.cc:117
+msgid ""
+"Enter the maximum value for the display here. If both values are 0, "
+"automatic range detection is enabled."
+msgstr ""
+"أدخل القيمة الأعلى للعرض هنا. إذا كانت القيمتين 0 سيتم الاكتشاف التلقائي "
+"للمدى."
+
+#: SensorDisplayLib/DancingBarsSettings.cc:103
+msgid "Alarms"
+msgstr "المنبهات"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:59
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: SensorDisplayLib/DancingBarsSettings.cc:108 rc.cpp:26
+msgid "Alarm for Minimum Value"
+msgstr "نبه للقيمة الأدنى"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:113
+#: SensorDisplayLib/DancingBarsSettings.cc:136
+msgid "Enable alarm"
+msgstr "مكّن المنبه"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:71
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:56
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
+#: SensorDisplayLib/DancingBarsSettings.cc:114 rc.cpp:32 rc.cpp:62
+msgid "Enable the minimum value alarm."
+msgstr "مكّن منبه القيمة الأدنى."
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:97
+#. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
+#: SensorDisplayLib/DancingBarsSettings.cc:117 rc.cpp:35
+msgid "Lower limit:"
+msgstr "الحد الأقل:"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:123
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1_2)
+#: SensorDisplayLib/DancingBarsSettings.cc:131 rc.cpp:38
+msgid "Alarm for Maximum Value"
+msgstr "المنبه للقيمة العليا"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:135
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:115
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
+#: SensorDisplayLib/DancingBarsSettings.cc:137 rc.cpp:44 rc.cpp:71
+msgid "Enable the maximum value alarm."
+msgstr "مكّن المنبه للقيمة الأعلى."
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:161
+#. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
+#: SensorDisplayLib/DancingBarsSettings.cc:140 rc.cpp:47
+msgid "Upper limit:"
+msgstr "الحد الأعلى:"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:157
+msgctxt "@title:tab Appearance of the bar graph"
+msgid "Look"
+msgstr "المظهر"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:162
+msgid "Normal bar color:"
+msgstr "لون الشريط العادي:"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:169
+msgid "Out-of-range color:"
+msgstr "لون خارج-عن-المدى:"
+
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:228
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:77
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:64
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:74
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: SensorDisplayLib/DancingBarsSettings.cc:176 SensorDisplayLib/LogFile.cc:100
+#: rc.cpp:86 rc.cpp:101 rc.cpp:113 rc.cpp:128
+msgid "Background color:"
+msgstr "لون الخلفية:"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:183
+#: SensorDisplayLib/FancyPlotterSettings.cc:185
+msgid "Font size:"
+msgstr "حجم الخط:"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:187
+msgid ""
+"This determines the size of the font used to print a label underneath the "
+"bars. Bars are automatically suppressed if text becomes too large, so it is "
+"advisable to use a small font size here."
+msgstr ""
+"من هنا يحدّد حجم الخط المستخدم لطباعة التسمية أسفل الأشرطة. يتم رزمها في حال "
+"كان الخط كبير جداً، لذا ينصح باستخدام حجم صغير للخط هنا."
+
+#: SensorDisplayLib/DancingBarsSettings.cc:195
+#: SensorDisplayLib/FancyPlotterSettings.cc:230
+msgid "Sensors"
+msgstr "المجسات"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:208
+msgid "Edit..."
+msgstr "حرّر..."
+
+#: SensorDisplayLib/DancingBarsSettings.cc:209
+msgid "Push this button to configure the label."
+msgstr "اضغط على هذا الزر لضبط التسمية."
+
+#: SensorDisplayLib/DancingBarsSettings.cc:212
+#: SensorDisplayLib/FancyPlotterSettings.cc:253
+msgid "Delete"
+msgstr "احذف"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:213
+#: SensorDisplayLib/FancyPlotterSettings.cc:254
+msgid "Push this button to delete the sensor."
+msgstr "اضغط على هذا الزر لحذف المِجَسّ."
+
+#: SensorDisplayLib/DancingBarsSettings.cc:367
+msgid "Label of Bar Graph"
+msgstr "تسمية الرسم الشريطي"
+
+#: SensorDisplayLib/DancingBarsSettings.cc:368
+msgid "Enter new label:"
+msgstr "أدخل تسمية جديدة:"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:49
+msgid "Signal Plotter Settings"
+msgstr "إعدادات خطاط الإشارة"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:63
+msgid "General"
+msgstr "عام"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:68
+msgid "Title:"
+msgstr "العنوان:"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:84
+msgid "Scales"
+msgstr "مقاييس"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:89
+msgid "Vertical Scale"
+msgstr "قياس عمودي"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:95
+msgid "Automatic range detection"
+msgstr "تحديد تلقائي للمدى"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:96
+msgid ""
+"Check this box if you want the display range to adapt dynamically to the "
+"currently displayed values; if you do not check this, you have to specify "
+"the range you want in the fields below."
+msgstr ""
+"حدّد هذا المربع إذا كنت تريد لمدى العرض أن يتوافق ديناميكياً مع القيم المعروضة "
+"حالياً ، إذا لم تحدد هذا الخيار، يجب عليك تحديد مدى العرض الذي تريده في "
+"الحقول أدناه."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:123
+msgid "Horizontal Scale"
+msgstr "قياس أفقي"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:134
+msgid "pixels per time period"
+msgstr "بيكسلات لكل فترة من الوقت"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:141
+msgid "Grid"
+msgstr "الشبكة"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:146
+msgid "Lines"
+msgstr "الأسطر"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:152
+msgid "Vertical lines"
+msgstr "الأسطر العمودية"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:153
+msgid "Check this to activate the vertical lines if display is large enough."
+msgstr "اختر هذا لتنشيط الأسطر العمودية إذا كان العرض كبيراً بما يكفي."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:156
+msgid "Distance:"
+msgstr "المسافة:"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:162
+msgid "Enter the distance between two vertical lines here."
+msgstr "أدخل المسافة بين سطرين عامودين هنا."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:166
+msgid "Vertical lines scroll"
+msgstr "تمرير الأسطر العمودية"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:169
+msgid "Horizontal lines"
+msgstr "الأسطر الأفقية"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:170
+msgid "Check this to enable horizontal lines if display is large enough."
+msgstr "حدّد هذا الخيار لتمكين الأسطر الأفقية إذا كان العرض كبيراً بما يكفي."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:175
+msgid "Text"
+msgstr "النص"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:181
+msgid "Show axis labels"
+msgstr "أظهر مسميات المحاور"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:182
+msgid ""
+"Check this box if horizontal lines should be decorated with the values they "
+"mark."
+msgstr "حدّد هذا المربع إذا كنت تريد تزيين الأسطر الأفقية بالقيم التي تمثلها."
+
+#. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:37
+#. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
+#. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:37
+#. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
+#: SensorDisplayLib/FancyPlotterSettings.cc:197 rc.cpp:92 rc.cpp:107
+msgid "Colors"
+msgstr "الألوان"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:202
+msgid "Font:"
+msgstr "الخط:"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:209
+msgid "Grid lines:"
+msgstr "خطوط الشبكة:"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:215
+msgid "Background:"
+msgstr "الخلفية:"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:245
+msgid "Set Color..."
+msgstr "عيّن اللون..."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:246
+msgid "Push this button to configure the color of the sensor in the diagram."
+msgstr "اضغط على هذا الزر لضبط اللون للمجس في الرسم البياني."
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:258
+msgid "Move Up"
+msgstr "انقل للأعلى"
+
+#: SensorDisplayLib/FancyPlotterSettings.cc:263
+msgid "Move Down"
+msgstr "انقل للأسفل"
+
+#: SensorDisplayLib/SensorLoggerDlg.cc:32 SensorDisplayLib/SensorLogger.cc:431
+msgid "Sensor Logger"
+msgstr "مُسجل المجس"
+
+#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:196
+msgid "OK"
+msgstr "موافق"
+
+#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:196
+#: SensorDisplayLib/FancyPlotter.cc:398 SensorDisplayLib/FancyPlotter.cc:452
+msgid "Error"
+msgstr "خطأ"
+
+#: SensorDisplayLib/SensorDisplay.cc:118 SensorDisplayLib/SensorLogger.cc:598
+msgid "&Properties"
+msgstr "خ&صائص"
+
+#: SensorDisplayLib/SensorDisplay.cc:123 SensorDisplayLib/SensorLogger.cc:603
+msgid "&Remove Display"
+msgstr "أ&زل العرض"
+
+#: SensorDisplayLib/SensorDisplay.cc:192
+#, kde-format
+msgid ""
+"<qt><p>This is a sensor display. To customize a sensor display click the "
+"right mouse button here and select the <i>Properties</i> entry from the "
+"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
+"p>%1</qt>"
+msgstr ""
+"<qt><p>هذا عرض مِجَسّ. لتخصيص عرض المِجَسّ قم بنقر الزر الأيمن للفأرة على الإطار "
+"أو مربع العرض ثم اختر <i>خصائص</i> من القائمة المنبثقة. انتق <i>أزل </i> "
+"لحذف العرض من ورقة العمل.</p>%1</qt>"
+
+#: SensorDisplayLib/FancyPlotter.cc:105
+msgctxt "Largest axis title"
+msgid "99999 XXXX"
+msgstr "99999 XXXX"
+
+#: SensorDisplayLib/FancyPlotter.cc:401
+#, kde-format
+msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
+msgid "<p><b>%1:</b><br>"
+msgstr "<p><b>%1:</b><br>"
+
+#: SensorDisplayLib/FancyPlotter.cc:450
+#, kde-format
+msgctxt "%1 and %2 are sensor's last and maximum value"
+msgid "%1 of %2"
+msgstr "%1 من %2"
+
+#: SensorDisplayLib/SensorLogger.cc:138
+msgid "Logging"
+msgstr "تسجيل الوقائع"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
+#. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
+#: SensorDisplayLib/SensorLogger.cc:141 rc.cpp:20
+msgid "Timer Interval"
+msgstr "فترة المؤقت"
+
+#: SensorDisplayLib/SensorLogger.cc:144
+msgid "Sensor Name"
+msgstr "اسم المِجَسّ"
+
+#: SensorDisplayLib/SensorLogger.cc:147
+msgid "Host Name"
+msgstr "اسم المضيف"
+
+#: SensorDisplayLib/SensorLogger.cc:150
+msgid "Log File"
+msgstr "ملف سجل الوقائع"
+
+#: SensorDisplayLib/SensorLogger.cc:608
+msgid "&Remove Sensor"
+msgstr "أ&زل المِجَسّ"
+
+#: SensorDisplayLib/SensorLogger.cc:613
+msgid "&Edit Sensor..."
+msgstr "&حرّر المِجَسّ..."
+
+#: SensorDisplayLib/SensorLogger.cc:621
+msgid "St&op Logging"
+msgstr "أ&وقف تسجيل الوقائع"
+
+#: SensorDisplayLib/SensorLogger.cc:624
+msgid "S&tart Logging"
+msgstr "ا&بدأ تسجيل الوقائع"
+
+#: SensorDisplayLib/SensorModel.cc:166
+msgid "Host"
+msgstr "المضيف"
+
+#: SensorDisplayLib/SensorModel.cc:169
+msgid "Sensor"
+msgstr "المِجَسّ"
+
+#: SensorDisplayLib/SensorModel.cc:172
+msgid "Unit"
+msgstr "الوحدة"
+
+#: SensorDisplayLib/SensorModel.cc:175
+msgid "Status"
+msgstr "الحالة"
+
+#: SensorDisplayLib/SensorModel.cc:178
+msgid "Label"
+msgstr "العنوان"
+
+#: SensorDisplayLib/LogFile.cc:92
+msgid "File logging settings"
+msgstr "إعدادات ملف سجل الوقائع"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:61
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: SensorDisplayLib/LogFile.cc:98 rc.cpp:125
+msgid "Foreground color:"
+msgstr "لون الأمامية:"
+
+#: SensorDisplayLib/MultiMeterSettings.cc:31
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
+msgid "Multimeter Settings"
+msgstr "إعدادات المقياس المتعدد"
+
+#: SensorDisplayLib/ListViewSettings.cc:30
+msgid "List View Settings"
+msgstr "اعرض إعدادات العرض"
+
+#: SensorDisplayLib/SensorLoggerSettings.cc:30
+msgid "Sensor Logger Settings"
+msgstr "إعدادات مُسجل وقائع المِجَسّ"
+
+#: SensorDisplayLib/DummyDisplay.cc:30 SensorDisplayLib/DummyDisplay.cc:38
+msgid "Drop Sensor Here"
+msgstr "اسقط المِجَسّ هنا"
+
+#: SensorDisplayLib/DummyDisplay.cc:32
+msgid ""
+"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
+"and drop it here. A sensor display will appear that allows you to monitor "
+"the values of the sensor over time."
+msgstr ""
+"هذه مساحة فارغة في ورقة العمل. أسحب مجساً من متصفح المجسات و أسقطه هنا. سيتم "
+"عرض شاشة لهذا المجس تسمح لك بمراقبة  قيم المِجَسّ خلال الوقت."
+
+#. i18n: file: ksysguardui.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3
+msgid "&File"
+msgstr "م&لف"
+
+#. i18n: file: ksysguardui.rc:14
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6
+msgid "&Edit"
+msgstr "ح&رّر"
+
+#. i18n: file: ksysguardui.rc:18
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:9
+msgid "&Settings"
+msgstr "إ&عدادات"
+
+#. i18n: file: ksysguardui.rc:21
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:12
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسية"
+
+#: rc.cpp:13
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد,زايد السعيدي"
+
+#: rc.cpp:14
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr,zayed.alsaidi@gmail.com"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, fileFrame)
+#: rc.cpp:17
+msgid "File"
+msgstr "الملف"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:68
+#. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:59
+#. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
+#: rc.cpp:29 rc.cpp:65
+msgid "&Enable alarm"
+msgstr "&مكّن المنبه"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:132
+#. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:118
+#. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
+#: rc.cpp:41 rc.cpp:74
+msgid "E&nable alarm"
+msgstr "م&كّن المنبه"
+
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:25
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:50
+msgid "&Title:"
+msgstr "ال&عنوان:"
+
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:42
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_showUnit)
+#: rc.cpp:56
+msgid "Enable this to append the unit to the title of the display."
+msgstr "مكّن هذا الخيار لإلحاق الوحدة مع عنوان العرض."
+
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:45
+#. i18n: ectx: property (text), widget (QCheckBox, m_showUnit)
+#: rc.cpp:59
+msgid "&Show unit"
+msgstr "أ&ظهر الوحدة"
+
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:85
+#. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
+#: rc.cpp:68
+msgid "Lo&wer limit:"
+msgstr "ال&حد الأقل:"
+
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:144
+#. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
+#: rc.cpp:77
+msgid "&Upper limit:"
+msgstr "ال&حد الأعلى:"
+
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:174
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:80
+msgid "Normal digit color:"
+msgstr "لون الرقم العادي:"
+
+#. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:201
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: rc.cpp:83
+msgid "Alarm digit color:"
+msgstr "لون رقم التنبيه:"
+
+#. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:51
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:51
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:95 rc.cpp:110
+msgid "Text color:"
+msgstr "لون النص:"
+
+#. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:64
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:98
+msgid "Grid color:"
+msgstr "لون الشبكة:"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:77
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:116
+msgid "Alarm color:"
+msgstr "لون التنبيه:"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:28
+#. i18n: ectx: attribute (title), widget (QWidget, textTab)
+#: rc.cpp:119
+msgid "&Text"
+msgstr "ال&نص"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:36
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:122
+msgid "T&itle:"
+msgstr "ال&عنوان:"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:154
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:131
+msgid "Fi&lter"
+msgstr "ال&مرشح"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:175
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: rc.cpp:134
+msgid "&Add"
+msgstr "أ&ضف"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:182
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: rc.cpp:137
+msgid "&Delete"
+msgstr "ا&حذف"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:189
+#. i18n: ectx: property (text), widget (QPushButton, changeButton)
+#: rc.cpp:140
+msgid "&Change"
+msgstr "&غيّر"
+
+#. i18n: tag WorkSheet attribute title
+#. i18n: file: ./ProcessTable.sgrd:3
+#. i18n: tag display attribute title
+#. i18n: file: ./ProcessTable.sgrd:5
+#: rc.cpp:143 rc.cpp:146
+msgid "Process Table"
+msgstr "جدول العمليات"
+
+#. i18n: tag WorkSheet attribute title
+#. i18n: file: ./SystemLoad2.sgrd:3
+#: rc.cpp:149
+msgid "System Load"
+msgstr "حمولة النظام"
+
+#. i18n: tag display attribute title
+#. i18n: file: ./SystemLoad2.sgrd:5
+#: rc.cpp:152
+msgid "CPU History"
+msgstr "تاريخ عمل المعالج"
+
+#. i18n: tag display attribute title
+#. i18n: file: ./SystemLoad2.sgrd:8
+#: rc.cpp:155
+msgid "Memory and Swap History"
+msgstr "تاريخ الذاكرة و ذاكرة التبديل"
+
+#. i18n: tag display attribute title
+#. i18n: file: ./SystemLoad2.sgrd:12
+#: rc.cpp:158
+msgid "Network History"
+msgstr "تاريخ الشبكة"
+
+#: WorkSheetSettings.cc:40
+msgid "Tab Properties"
+msgstr "لسان الخصائص"
+
+#: WorkSheetSettings.cc:62
+msgid "Properties"
+msgstr "خصائص"
+
+#: WorkSheetSettings.cc:71
+msgid "Rows:"
+msgstr "الأسطر:"
+
+#: WorkSheetSettings.cc:80
+msgid "Columns:"
+msgstr "الأعمدة:"
+
+#: WorkSheetSettings.cc:88
+msgid "Enter the number of rows the sheet should have."
+msgstr "أدخل عدد أسطر الورقة."
+
+#: WorkSheetSettings.cc:89
+msgid "Enter the number of columns the sheet should have."
+msgstr "أدخل عدد أعمدة الورقة."
+
+#: WorkSheetSettings.cc:102
+msgid "Enter the title of the worksheet here."
+msgstr "أدخل عنوان ورقة العمل هنا."
+
+#: SensorBrowser.cc:116
+msgid "Sensor Browser"
+msgstr "متصفح المجسات"
+
+#: SensorBrowser.cc:438
+msgid "Drag sensors to empty cells of a worksheet "
+msgstr "اسحب المجسات إلى خلايا فارغة من ورقة العمل"
+
+#: SensorBrowser.cc:439
+msgid ""
+"The sensor browser lists the connected hosts and the sensors that they "
+"provide. Click and drag sensors into drop zones of a worksheet. A display "
+"will appear that visualizes the values provided by the sensor. Some sensor "
+"displays can display values of multiple sensors. Simply drag other sensors "
+"on to the display to add more sensors."
+msgstr ""
+"إن متصفح المجسات يعرض الأجهزة المضيفة الموصولة والمجسات التي تزودها. انقر "
+"على المجسات واسحبها في مناطق الإسقاط في ورقة عمل. سوف يظهر عرض يبين القيم "
+"المزودة من قبل المجس. بعض عروض المجسات يمكن أن تعرض القيم من عدة مجسات. "
+"ببساطة، اسحب المجسات الأخرى إلى مكان العرض لإضافة المزيد من المجسات."
+
+#: ksysguard.cc:73
+msgid "KDE System Monitor"
+msgstr "مراقب نظام كدي"
+
+#: ksysguard.cc:155 ksysguard.cc:527
+msgid "System Monitor"
+msgstr "مراقب النظام"
+
+#: ksysguard.cc:156
+msgid "&New Tab..."
+msgstr "ل&سان جديد..."
+
+#: ksysguard.cc:157
+msgid "Import Tab Fr&om File..."
+msgstr "استورد لسان من &ملف...."
+
+#: ksysguard.cc:158
+msgid "Save Tab &As..."
+msgstr "ا&حفظ اللسان كـ ..."
+
+#: ksysguard.cc:159
+msgid "&Close Tab"
+msgstr "أ&غلق اللسان"
+
+#: ksysguard.cc:160
+msgid "Monitor &Remote Machine..."
+msgstr "راقب آلة &بعيدة..."
+
+#: ksysguard.cc:161
+msgid "&Download New Tabs..."
+msgstr "&نزل ألسنة جديدة..."
+
+#: ksysguard.cc:162
+msgid "&Upload Current Tab..."
+msgstr "ا&رفع اللسان الحالي..."
+
+#: ksysguard.cc:164
+msgid "Tab &Properties"
+msgstr "خ&صائص اللسان"
+
+#: ksysguard.cc:435
+#, kde-format
+msgid " 1 process "
+msgid_plural " %1 processes "
+msgstr[0] "لا توجد عملية"
+msgstr[1] "عملية واحدة"
+msgstr[2] "عمليتين"
+msgstr[3] " %1 عمليات"
+msgstr[4] " %1 عملية"
+msgstr[5] " %1 عملية"
+
+#: ksysguard.cc:441
+#, kde-format
+msgid " CPU: %1% "
+msgstr "المعالج: %1% "
+
+#: ksysguard.cc:455
+#, kde-format
+msgctxt "Arguments are formatted byte sizes (used/total)"
+msgid " Memory: %1 / %2 "
+msgstr "الذاكرة: %1 من %2 "
+
+#: ksysguard.cc:482
+msgid " No swap space available "
+msgstr "مجال الإبدال غير متوفر"
+
+#: ksysguard.cc:484
+#, kde-format
+msgctxt "Arguments are formatted byte sizes (used/total)"
+msgid " Swap: %1 / %2 "
+msgstr "الإبدال: %1 من %2 "
+
+#: ksysguard.cc:529
+msgid "(c) 1996-2008 The KDE System Monitor Developers"
+msgstr "(c) 1996-2008 مطوري مراقب كدي"
+
+#: ksysguard.cc:530
+msgid "John Tapsell"
+msgstr "John Tapsell"
+
+#: ksysguard.cc:530
+msgid "Current Maintainer"
+msgstr "مشرف المشروع الحالي"
+
+#: ksysguard.cc:531
+msgid "Chris Schlaeger"
+msgstr "Chris Schlaeger"
+
+#: ksysguard.cc:531
+msgid "Previous Maintainer"
+msgstr "مشرف المشروع السابق"
+
+#: ksysguard.cc:532
+msgid "Greg Martyn"
+msgstr "Greg Martyn"
+
+#: ksysguard.cc:533
+msgid "Tobias Koenig"
+msgstr "Tobias Koenig"
+
+#: ksysguard.cc:534
+msgid "Nicolas Leclercq"
+msgstr "Nicolas Leclercq"
+
+#: ksysguard.cc:535
+msgid "Alex Sanda"
+msgstr "Alex Sanda"
+
+#: ksysguard.cc:536
+msgid "Bernd Johannes Wuebben"
+msgstr "Bernd Johannes Wuebben"
+
+#: ksysguard.cc:537
+msgid "Ralf Mueller"
+msgstr "Ralf Mueller"
+
+#: ksysguard.cc:538
+msgid "Hamish Rodda"
+msgstr "Hamish Rodda"
+
+#: ksysguard.cc:539
+msgid "Torsten Kasch"
+msgstr "Torsten Kasch"
+
+#: ksysguard.cc:539
+msgid ""
+"Solaris Support\n"
+"Parts derived (by permission) from the sunos5\n"
+"module of William LeFebvre's \"top\" utility."
+msgstr ""
+"دعم Solaris \n"
+"الأجزاء اشتُقَّت (مع الأذن) من sunos5\n"
+"الوحدة من أداة \"top\" الخاصة بـ William LeFebvre's."
+
+#: ksysguard.cc:548
+msgid "Optional worksheet files to load"
+msgstr "ملفات أوراق العمل الاختيارية التي تريد تحميلها"
+
+#~ msgid "Connection to %1 has been lost."
+#~ msgstr "فقد الاتصال بـ %1."
+
+#~ msgid "&Title"
+#~ msgstr "ال&عنوان"
+
+#~ msgid "T&itle"
+#~ msgstr "ال&عنوان"
+
+#~ msgid "Dummy"
+#~ msgstr "هامد"
+
+#~ msgid "System Guard Applet Settings"
+#~ msgstr "إعدادات بريمج حارس النظام"
+
+#~ msgid "Number of displays:"
+#~ msgstr "عدد شاشات العرض:"
+
+#~ msgid "Size ratio:"
+#~ msgstr "نسبة الحجم:"
+
+#~ msgctxt "Number suffix in spinbox"
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "Launch &System Guard"
+#~ msgstr "أطلق حارس ال&نظام"

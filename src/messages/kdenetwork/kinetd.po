@@ -1,0 +1,29 @@
+# translation of kinetd.po to
+# Copyright (C) 2004, 2007 Free Software Foundation, Inc.
+#
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kinetd\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-11-06 05:57+0100\n"
+"PO-Revision-Date: 2007-10-14 15:50+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: kinetd.cpp:219
+#, kde-format
+msgid "Connection from %1"
+msgstr "اتصال من %1"
+
+#: kinetd.cpp:235
+#, kde-format
+msgid "Call \"%1 %2 %3\" failed"
+msgstr "الاتصال \"%1 %2 %3\" فشل"

@@ -1,0 +1,154 @@
+# translation of plasma-overlay.po to Arabic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-overlay\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-03 11:05+0200\n"
+"PO-Revision-Date: 2009-07-02 15:08+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: backgrounddialog.cpp:46
+msgid "Background Settings"
+msgstr "إعدادات الخلفية"
+
+#: backgrounddialog.cpp:61
+msgid ""
+"This picture of a monitor contains a preview of what the current settings "
+"will look like on your desktop."
+msgstr ""
+"هذه الشاشة تحوي على معاينة لما سوف يكون عليه سطح مكتبك عندما تطبق الإعدادات "
+"الحالية"
+
+#: backgrounddialog.cpp:122
+msgid "No Wallpaper"
+msgstr "بدون خلفية الشاشة"
+
+#: main.cpp:29
+msgid "Plasma widgets over the screensaver"
+msgstr "ودجات البلازما فوق حافظ الشاشة"
+
+#: main.cpp:35
+msgid "Plasma for the Screensaver"
+msgstr "بلازما لحافظ الشاشة"
+
+#: main.cpp:37
+msgid "Copyright 2006-2008, The KDE Team"
+msgstr "Copyright 2006-2008، فريق كدي"
+
+#: main.cpp:38
+msgid "Chani Armitage"
+msgstr "Chani Armitage"
+
+#: main.cpp:39
+msgid "Author and maintainer"
+msgstr "المؤلف و المشرف"
+
+#: main.cpp:41
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:42
+msgid "Plasma Author and maintainer"
+msgstr "مؤلف بلازما و المشرف"
+
+#: main.cpp:44
+msgid "John Lions"
+msgstr "John Lions"
+
+#: main.cpp:45
+msgid "In memory of his contributions, 1937-1998."
+msgstr "في ذكرى مساهماته ، 1937-1998."
+
+#: main.cpp:51
+msgid "Enables some cheats that are useful for debugging."
+msgstr "تمكن بعض الحيل التي تكون مفيدة للتنقيح"
+
+#: main.cpp:52
+msgid "Start unlocked for configuration."
+msgstr "ابدأ بدون غلق للضبط"
+
+#. i18n: file: BackgroundDialog.ui:36
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperLabel_2)
+#: rc.cpp:3 rc.cpp:23
+msgid "Widget Translucency"
+msgstr "ودجة شبه شفافة"
+
+#. i18n: file: BackgroundDialog.ui:59
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:6 rc.cpp:26
+msgid "User activity:"
+msgstr "نشاط المستخدم:"
+
+#. i18n: file: BackgroundDialog.ui:85
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:9 rc.cpp:29
+msgid "While idle:"
+msgstr "في السكون:"
+
+#. i18n: file: BackgroundDialog.ui:136
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperLabel)
+#: rc.cpp:12 rc.cpp:32
+msgid "Wallpaper"
+msgstr "خلفية الشاشة"
+
+#. i18n: file: BackgroundDialog.ui:159
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
+#: rc.cpp:15 rc.cpp:35
+msgid "Type:"
+msgstr "النوع:"
+
+#. i18n: file: BackgroundDialog.ui:198
+#. i18n: ectx: property (text), widget (QLabel, m_monitor)
+#: rc.cpp:18 rc.cpp:38
+msgid "Monitor"
+msgstr "الشاشة"
+
+#: rc.cpp:19
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#: rc.cpp:20
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"
+
+#: savercorona.cpp:64 savercorona.cpp:125
+msgid "Lock Screen"
+msgstr "اقفل الشاشة"
+
+#: savercorona.cpp:64 savercorona.cpp:125
+msgid "Configure Widgets"
+msgstr "اضبط الودجات"
+
+#: savercorona.cpp:68 savercorona.cpp:129
+msgid "Leave Screensaver"
+msgstr "اترك حافظ شاشة"
+
+#: savercorona.cpp:68 savercorona.cpp:129
+msgid "Unlock"
+msgstr "فك"
+
+#: savercorona.cpp:144
+msgid "Unlock widgets to configure them"
+msgstr "فك الودجات لتضبطها"
+
+#: saverview.cpp:103
+msgid "Add Widgets"
+msgstr "أضف ودجات"
+
+#: saverview.cpp:141
+msgid "Setup Mode - Screen is NOT locked"
+msgstr "وضع الإعداد - الشاشة غير مغلوقة"

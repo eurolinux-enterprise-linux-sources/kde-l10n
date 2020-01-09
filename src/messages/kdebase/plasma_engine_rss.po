@@ -1,0 +1,39 @@
+# translation of plasma_engine_rss.po to Arabic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_engine_rss\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-10-07 09:45+0200\n"
+"PO-Revision-Date: 2009-07-04 13:45+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: rss.cpp:176
+msgid "Syndication did not work out"
+msgstr "لم تنجح المزامنة"
+
+#: rss.cpp:177
+msgid "Fetching feed failed."
+msgstr "فشل جلب التغذية"
+
+#: rss.cpp:240
+#, kde-format
+msgid "1 RSS feed fetched"
+msgid_plural "%1 RSS feeds fetched"
+msgstr[0] "لم تجلب خلاصة"
+msgstr[1] "جلبت خلاصة واحدة"
+msgstr[2] "جلبت خلاصتين"
+msgstr[3] "جلبت %1 خلاصات"
+msgstr[4] "جلبت %1 خلاصة"
+msgstr[5] "جلبت %1 خلاصة"

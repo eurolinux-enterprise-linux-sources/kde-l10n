@@ -1,0 +1,2940 @@
+# translation of timezones4.po to Arabic
+# translation of timezones4.po to
+# Copyright (C) 2002-2003, 2004, 2007, 2008 Free Software Foundation, Inc.
+#
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002,2003.
+# Youcef Rabah Rahal <rahal@arabeyes.org>, 2003.
+# Mohammed Gamal <f2c2001@yahoo.com>, 2004.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: timezones4\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-12-08 10:18+0100\n"
+"PO-Revision-Date: 2009-06-27 15:33+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: TIMEZONES:1
+msgid "Africa/Abidjan"
+msgstr "إفريقيا/أبيجان"
+
+#: TIMEZONES:2
+msgid "Africa/Accra"
+msgstr "إفريقيا/أكرا"
+
+#: TIMEZONES:3
+msgid "Africa/Addis_Ababa"
+msgstr "إفريقيا/أديس_أبيبا"
+
+#: TIMEZONES:4
+msgid "Africa/Algiers"
+msgstr "إفريقيا/الجزائر_العاصمة"
+
+#: TIMEZONES:5
+msgid "Africa/Asmara"
+msgstr "إفريقيا/أسمره"
+
+#: TIMEZONES:6
+msgid "Africa/Asmera"
+msgstr "إفريقيا/أسمره"
+
+#: TIMEZONES:7
+msgid "Africa/Bamako"
+msgstr "إفريقيا/باماكو"
+
+#: TIMEZONES:8
+msgid "Africa/Bangui"
+msgstr "إفريقيا/بانغوي"
+
+#: TIMEZONES:9
+msgid "Africa/Banjul"
+msgstr "إفريقيا/بانجول"
+
+#: TIMEZONES:10
+msgid "Africa/Bissau"
+msgstr "إفريقيا/بيساو"
+
+#: TIMEZONES:11
+msgid "Africa/Blantyre"
+msgstr "إفريقيا/بلانتير"
+
+#: TIMEZONES:12
+msgid "Africa/Brazzaville"
+msgstr "إفريقيا/برازافيل"
+
+#: TIMEZONES:13
+msgid "Africa/Bujumbura"
+msgstr "إفريقيا/بوجمبورا"
+
+#: TIMEZONES:14
+msgid "Africa/Cairo"
+msgstr "إفريقيا/القاهرة"
+
+#: TIMEZONES:15
+msgid "Africa/Casablanca"
+msgstr "إفريقيا/الدار_البيضاء"
+
+#: TIMEZONES:16
+msgid "Africa/Ceuta"
+msgstr "إفريقيا/سبتة"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:18
+msgid "Ceuta & Melilla"
+msgstr "سبتة و مليلية"
+
+#: TIMEZONES:19
+msgid "Africa/Conakry"
+msgstr "إفريقيا/كوناكري"
+
+#: TIMEZONES:20
+msgid "Africa/Dakar"
+msgstr "إفريقيا/داكار"
+
+#: TIMEZONES:21
+msgid "Africa/Dar_es_Salaam"
+msgstr "إفريقيا/دار_السّلام"
+
+#: TIMEZONES:22
+msgid "Africa/Djibouti"
+msgstr "إفريقيا/جيبوتي"
+
+#: TIMEZONES:23
+msgid "Africa/Douala"
+msgstr "إفريقيا/دوالا"
+
+#: TIMEZONES:24
+msgid "Africa/El_Aaiun"
+msgstr "إفريقيا/العين"
+
+#: TIMEZONES:25
+msgid "Africa/Freetown"
+msgstr "إفريقيا/فريتاون"
+
+#: TIMEZONES:26
+msgid "Africa/Gaborone"
+msgstr "إفريقيا/غابورون"
+
+#: TIMEZONES:27
+msgid "Africa/Harare"
+msgstr "إفريقيا/هراري"
+
+#: TIMEZONES:28
+msgid "Africa/Johannesburg"
+msgstr "إفريقيا/جوهانسبورغ"
+
+#: TIMEZONES:29
+msgid "Africa/Kampala"
+msgstr "إفريقيا/كمبالا"
+
+#: TIMEZONES:30
+msgid "Africa/Khartoum"
+msgstr "إفريقيا/الخرطوم"
+
+#: TIMEZONES:31
+msgid "Africa/Kigali"
+msgstr "إفريقيا/كيغالي"
+
+#: TIMEZONES:32
+msgid "Africa/Kinshasa"
+msgstr "إفريقيا/كنشاسا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:34
+msgid "west Dem. Rep. of Congo"
+msgstr "غرب جمهورية الكونغو الديمقراطية"
+
+#: TIMEZONES:35
+msgid "Africa/Lagos"
+msgstr "إفريقيا/لاغوس"
+
+#: TIMEZONES:36
+msgid "Africa/Libreville"
+msgstr "إفريقيا/ليبروفيل"
+
+#: TIMEZONES:37
+msgid "Africa/Lome"
+msgstr "إفريقيا/لومي"
+
+#: TIMEZONES:38
+msgid "Africa/Luanda"
+msgstr "إفريقيا/لواندا"
+
+#: TIMEZONES:39
+msgid "Africa/Lubumbashi"
+msgstr "إفريقيا/لوبومباشي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:41
+msgid "east Dem. Rep. of Congo"
+msgstr "شرق جمهورية الكونغو الديمقراطية"
+
+#: TIMEZONES:42
+msgid "Africa/Lusaka"
+msgstr "إفريقيا/لوساكا"
+
+#: TIMEZONES:43
+msgid "Africa/Malabo"
+msgstr "إفريقيا/مالابو"
+
+#: TIMEZONES:44
+msgid "Africa/Maputo"
+msgstr "إفريقيا/مابوتو"
+
+#: TIMEZONES:45
+msgid "Africa/Maseru"
+msgstr "إفريقيا/ماسيرو"
+
+#: TIMEZONES:46
+msgid "Africa/Mbabane"
+msgstr "إفريقيا/مباباني"
+
+#: TIMEZONES:47
+msgid "Africa/Mogadishu"
+msgstr "إفريقيا/مقاديشو"
+
+#: TIMEZONES:48
+msgid "Africa/Monrovia"
+msgstr "إفريقيا/مونروفيا"
+
+#: TIMEZONES:49
+msgid "Africa/Nairobi"
+msgstr "إفريقيا/نيروبي"
+
+#: TIMEZONES:50
+msgid "Africa/Ndjamena"
+msgstr "إفريقيا/نجامينا"
+
+#: TIMEZONES:51
+msgid "Africa/Niamey"
+msgstr "إفريقيا/نيامي"
+
+#: TIMEZONES:52
+msgid "Africa/Nouakchott"
+msgstr "إفريقيا/نواقشط"
+
+#: TIMEZONES:53
+msgid "Africa/Ouagadougou"
+msgstr "إفريقيا/واغادوغو"
+
+#: TIMEZONES:54
+msgid "Africa/Porto-Novo"
+msgstr "إفريقيا/بورتو-نوفو"
+
+#: TIMEZONES:55
+msgid "Africa/Pretoria"
+msgstr "إفريقيا/بريتوريا"
+
+#: TIMEZONES:56
+msgid "Africa/Sao_Tome"
+msgstr "إفريقيا/ساو_تومي"
+
+#: TIMEZONES:57
+msgid "Africa/Timbuktu"
+msgstr "إفريقيا/تمبكتو"
+
+#: TIMEZONES:58
+msgid "Africa/Tripoli"
+msgstr "إفريقيا/طرابلس"
+
+#: TIMEZONES:59
+msgid "Africa/Tunis"
+msgstr "إفريقيا/تونس"
+
+#: TIMEZONES:60
+msgid "Africa/Windhoek"
+msgstr "إفريقيا/ويندهوك"
+
+#: TIMEZONES:61
+msgid "America/Adak"
+msgstr "أمريكا/أداك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:63 TIMEZONES:120 TIMEZONES:991
+msgid "Aleutian Islands"
+msgstr "جزر ألوشيان"
+
+#: TIMEZONES:64
+msgid "America/Anchorage"
+msgstr "أمريكا/أنكورايج"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:66 TIMEZONES:988
+msgid "Alaska Time"
+msgstr "توقيت ألاسكا"
+
+#: TIMEZONES:67
+msgid "America/Anguilla"
+msgstr "أمريكا/أنغويلا"
+
+#: TIMEZONES:68
+msgid "America/Antigua"
+msgstr "أمريكا/أنتيغوا"
+
+#: TIMEZONES:69
+msgid "America/Araguaina"
+msgstr "أمريكا/أراغوينا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:71
+msgid "Tocantins"
+msgstr "توكانتينس"
+
+#: TIMEZONES:72
+msgid "America/Argentina/Buenos_Aires"
+msgstr "أمريكا/أرجنتينا/بوينس_أيرس"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:74 TIMEZONES:141
+msgid "Buenos Aires (BA, CF)"
+msgstr "بوينس ايرس (BA, CF)"
+
+#: TIMEZONES:75
+msgid "America/Argentina/Catamarca"
+msgstr "أمريكا/أرجنتينا/كاتاماركا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:77 TIMEZONES:80 TIMEZONES:157
+msgid "Catamarca (CT), Chubut (CH)"
+msgstr "كاتاماركا (CT) ، وتشوبوت (CH)"
+
+#: TIMEZONES:78
+msgid "America/Argentina/ComodRivadavia"
+msgstr "أمريكا/أرجنتينا/كومود_ريدافيا"
+
+#: TIMEZONES:81
+msgid "America/Argentina/Cordoba"
+msgstr "أمريكا/أرجنتينا/قرطبة"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:83 TIMEZONES:171 TIMEZONES:392
+msgid "most locations (CB, CC, CN, ER, FM, LP, MN, NQ, RN, SA, SE, SF)"
+msgstr "أغلب المواقع (CB, CC, CN, ER, FM, LP, MN, NQ, RN, SA, SE, SF)"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:85
+msgid "most locations (CB, CC, CN, ER, FM, MN, SE, SF)"
+msgstr "أغلب المواقع (CB, CC, CN, ER, FM, MN, SE, SF)"
+
+#: TIMEZONES:86
+msgid "America/Argentina/Jujuy"
+msgstr "أمريكا/أرجنتينا/خوخوي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:88 TIMEZONES:276
+msgid "Jujuy (JY)"
+msgstr "جوجوي (JY)"
+
+#: TIMEZONES:89
+msgid "America/Argentina/La_Rioja"
+msgstr "أمريكا/لا_ريوخا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:91
+msgid "La Rioja (LR)"
+msgstr "لاريوخا (LR)"
+
+#: TIMEZONES:92
+msgid "America/Argentina/Mendoza"
+msgstr "أمريكا/أرجنتينا/مندوزا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:94 TIMEZONES:311
+msgid "Mendoza (MZ)"
+msgstr "ميندوزا (MZ)"
+
+#: TIMEZONES:95
+msgid "America/Argentina/Rio_Gallegos"
+msgstr "أمريكا/أرجنتينا/ريو_غاييغوس"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:97
+msgid "Santa Cruz (SC)"
+msgstr "سانتا كروز (SC)"
+
+#: TIMEZONES:98
+msgid "America/Argentina/Salta"
+msgstr "أمريكا/أرجنتينا/سالتا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:100
+msgid "(SA, LP, NQ, RN)"
+msgstr "(SA, LP, NQ, RN)"
+
+#: TIMEZONES:101
+msgid "America/Argentina/San_Juan"
+msgstr "أمريكا/أرجنتينا/سان_خوان"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:103
+msgid "San Juan (SJ)"
+msgstr "سان خوان (SJ)"
+
+#: TIMEZONES:104
+msgid "America/Argentina/San_Luis"
+msgstr "أمريكا/أرجنتينا/سان_لويس"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:106
+msgid "San Luis (SL)"
+msgstr "سان لويس (SL)"
+
+#: TIMEZONES:107
+msgid "America/Argentina/Tucuman"
+msgstr "أمريكا/أرجنتينا/توكومان"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:109
+msgid "Tucuman (TM)"
+msgstr "توكومان (TM)"
+
+#: TIMEZONES:110
+msgid "America/Argentina/Ushuaia"
+msgstr "أمريكا/أرجنتينا/أوشوايا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:112
+msgid "Tierra del Fuego (TF)"
+msgstr "تييرا ديل فويغو (TF)"
+
+#: TIMEZONES:113
+msgid "America/Aruba"
+msgstr "أمريكا/أروبا"
+
+#: TIMEZONES:114
+msgid "America/Asuncion"
+msgstr "أمريكا/أسنسيون"
+
+#: TIMEZONES:115
+msgid "America/Atikokan"
+msgstr "أمريكا/أنتيغوا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:117 TIMEZONES:168
+msgid "Eastern Standard Time - Atikokan, Ontario and Southampton I, Nunavut"
+msgstr "التوقيت الشرقي -- أتكوكن ، أونتاريو وساوثامبتون الأول ، نونافوت"
+
+#: TIMEZONES:118
+msgid "America/Atka"
+msgstr "أمريكا/أتكا"
+
+#: TIMEZONES:121
+msgid "America/Bahia"
+msgstr "أمريكا/باهيا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:123
+msgid "Bahia"
+msgstr "باهيا"
+
+#: TIMEZONES:124
+msgid "America/Barbados"
+msgstr "أمريكا/بربادوس"
+
+#: TIMEZONES:125
+msgid "America/Belem"
+msgstr "أمريكا/بيليم"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:127
+msgid "Amapa, E Para"
+msgstr "أمابا ، إي بارا"
+
+#: TIMEZONES:128
+msgid "America/Belize"
+msgstr "أمريكا/بيليز"
+
+#: TIMEZONES:129
+msgid "America/Blanc-Sablon"
+msgstr "أمريكا/بلانك-سابلون"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:131
+msgid "Atlantic Standard Time - Quebec - Lower North Shore"
+msgstr "التوقيت الأطلسي - كيبيك - السفلى نورث شور"
+
+#: TIMEZONES:132
+msgid "America/Boa_Vista"
+msgstr "أمريكا/بوا_فيستا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:134
+msgid "Roraima"
+msgstr "رورايما"
+
+#: TIMEZONES:135
+msgid "America/Bogota"
+msgstr "أمريكا/بوغوتا"
+
+#: TIMEZONES:136
+msgid "America/Boise"
+msgstr "أمريكا/بوويز"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:138
+msgid "Mountain Time - south Idaho & east Oregon"
+msgstr "التوقيت الجبلي - ايداهو و جنوب شرق ولاية أوريغون"
+
+#: TIMEZONES:139
+msgid "America/Buenos_Aires"
+msgstr "أمريكا/بوينس_أيرس"
+
+#: TIMEZONES:142
+msgid "America/Calgary"
+msgstr "أمريكا/كلغري"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:144 TIMEZONES:195 TIMEZONES:755
+msgid "Mountain Time - Alberta, east British Columbia & west Saskatchewan"
+msgstr "التوقيت الجبلي -- البرتا و شرق كولومبيا البريطانية و غرب سسكتشوان"
+
+#: TIMEZONES:145
+msgid "America/Cambridge_Bay"
+msgstr "أمريكا/كامبردج_بي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:147
+msgid "Mountain Time - west Nunavut"
+msgstr "التوقيت الجبلي -- غرب نونافوت"
+
+#: TIMEZONES:148
+msgid "America/Campo_Grande"
+msgstr "أمريكا/كامبو_غراندي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:150
+msgid "Mato Grosso do Sul"
+msgstr "ماتو غروسو دو سول"
+
+#: TIMEZONES:151
+msgid "America/Cancun"
+msgstr "أمريكا/كانكن"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:153
+msgid "Central Time - Quintana Roo"
+msgstr "التوقيت المركزي - ولاية كوينتانا رو"
+
+#: TIMEZONES:154
+msgid "America/Caracas"
+msgstr "أمريكا/كاراكاس"
+
+#: TIMEZONES:155
+msgid "America/Catamarca"
+msgstr "أمريكا/كاتاماركا"
+
+#: TIMEZONES:158
+msgid "America/Cayenne"
+msgstr "أمريكا/كايان"
+
+#: TIMEZONES:159
+msgid "America/Cayman"
+msgstr "أمريكا/كايمان"
+
+#: TIMEZONES:160
+msgid "America/Chicago"
+msgstr "أمريكا/شيكاغو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:162 TIMEZONES:997
+msgid "Central Time"
+msgstr "التوقيت المركزي"
+
+#: TIMEZONES:163
+msgid "America/Chihuahua"
+msgstr "أمريكا/شيواوا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:165
+msgid "Mountain Time - Chihuahua"
+msgstr "التوقيت الجبلي -- تشيهواهوا"
+
+#: TIMEZONES:166
+msgid "America/Coral_Harbour"
+msgstr "أمريكا/ميناء كورال"
+
+#: TIMEZONES:169
+msgid "America/Cordoba"
+msgstr "أمريكا/قرطبة"
+
+#: TIMEZONES:172
+msgid "America/Costa_Rica"
+msgstr "أمريكا/كوستاريكا"
+
+#: TIMEZONES:173
+msgid "America/Cuiaba"
+msgstr "أمريكا/كوييابا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:175
+msgid "Mato Grosso"
+msgstr "ماتو غروسو"
+
+#: TIMEZONES:176
+msgid "America/Curacao"
+msgstr "أمريكا/كوراكاو"
+
+#: TIMEZONES:177
+msgid "America/Danmarkshavn"
+msgstr "أمريكا/دانماركشافن"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:179
+msgid "east coast, north of Scoresbysund"
+msgstr "الساحل الشرقي وشمال Scoresbysund"
+
+#: TIMEZONES:180
+msgid "America/Dawson"
+msgstr "أمريكا/داوسن"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:182
+msgid "Pacific Time - north Yukon"
+msgstr "توقيت المحيط الهادئ - شمال يوكون"
+
+#: TIMEZONES:183
+msgid "America/Dawson_Creek"
+msgstr "أمريكا/داوسن_كريك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:185
+msgid ""
+"Mountain Standard Time - Dawson Creek & Fort Saint John, British Columbia"
+msgstr "التوقيت الجبلي - داوسون كريك و فورت سانت جون ، كولومبيا البريطانية"
+
+#: TIMEZONES:186
+msgid "America/Denver"
+msgstr "أمريكا/دنفر"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:188 TIMEZONES:894 TIMEZONES:1015
+msgid "Mountain Time"
+msgstr "التوقيت الجبلي"
+
+#: TIMEZONES:189
+msgid "America/Detroit"
+msgstr "أمريكا/ديترويت"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:191 TIMEZONES:1012
+msgid "Eastern Time - Michigan - most locations"
+msgstr "التوقيت الشرقي - ميتشيغان - معظم المواقع"
+
+#: TIMEZONES:192
+msgid "America/Dominica"
+msgstr "أمريكا/دومينيكا"
+
+#: TIMEZONES:193
+msgid "America/Edmonton"
+msgstr "أمريكا/أدمنتون"
+
+#: TIMEZONES:196
+msgid "America/Eirunepe"
+msgstr "أمريكا/أيرونيبي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:198
+msgid "W Amazonas"
+msgstr "دبليو أمازوناس"
+
+#: TIMEZONES:199
+msgid "America/El_Salvador"
+msgstr "أمريكا/السّلفادور"
+
+#: TIMEZONES:200
+msgid "America/Ensenada"
+msgstr "أمريكا/انسنادا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:202 TIMEZONES:293 TIMEZONES:432 TIMEZONES:879 TIMEZONES:1018
+msgid "Pacific Time"
+msgstr "توقيت المحيط الهادي"
+
+#: TIMEZONES:203
+msgid "America/Fort_Wayne"
+msgstr "أمريكا/فورت واين"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:205 TIMEZONES:238 TIMEZONES:266 TIMEZONES:1000
+msgid "Eastern Time - Indiana - most locations"
+msgstr "التوقيت الشرقي - انديانا - معظم المواقع"
+
+#: TIMEZONES:206
+msgid "America/Fortaleza"
+msgstr "أمريكا/فورتاليزا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:208
+msgid "NE Brazil (MA, PI, CE, RN, PB)"
+msgstr "شمال شرق البرازيل (MA, PI, CE, RN, PB)"
+
+#: TIMEZONES:209
+msgid "America/Fredericton"
+msgstr "أمريكا / فريدريكتون"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:211 TIMEZONES:231 TIMEZONES:743
+msgid "Atlantic Time - Nova Scotia (most places), PEI"
+msgstr "التوقيت الأطلسي -- نوفا سكوتيا (معظم الأماكن) ، وجزيرة الأمير إدوارد"
+
+#: TIMEZONES:212
+msgid "America/Glace_Bay"
+msgstr "أمريكا/غلاس_بي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:214
+msgid "Atlantic Time - Nova Scotia - places that did not observe DST 1966-1971"
+msgstr "التوقيت الأطلسي -- نوفا سكوتيا -- الأماكن التي لا تراعي DST 1966-1971"
+
+#: TIMEZONES:215
+msgid "America/Godthab"
+msgstr "أمريكا/غودتهاب"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:217 TIMEZONES:398 TIMEZONES:487 TIMEZONES:624 TIMEZONES:627
+#: TIMEZONES:770 TIMEZONES:801 TIMEZONES:888 TIMEZONES:901 TIMEZONES:940
+msgid "most locations"
+msgstr "معظم الأماكن"
+
+#: TIMEZONES:218
+msgid "America/Goose_Bay"
+msgstr "أمريكا/غوس_بي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:220
+msgid "Atlantic Time - Labrador - most locations"
+msgstr "التوقيت الأطلسي - لابرادور - معظم المواقع"
+
+#: TIMEZONES:221
+msgid "America/Grand_Turk"
+msgstr "أمريكا/غراند_تورك"
+
+#: TIMEZONES:222
+msgid "America/Grenada"
+msgstr "أمريكا/غرينادا"
+
+#: TIMEZONES:223
+msgid "America/Guadeloupe"
+msgstr "أمريكا/غوادلوب"
+
+#: TIMEZONES:224
+msgid "America/Guatemala"
+msgstr "أمريكا/غواتيمالا"
+
+#: TIMEZONES:225
+msgid "America/Guayaquil"
+msgstr "أمريكا/غواياكويل"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:227 TIMEZONES:804 TIMEZONES:810 TIMEZONES:981
+msgid "mainland"
+msgstr "البر الرئيسى"
+
+#: TIMEZONES:228
+msgid "America/Guyana"
+msgstr "أمريكا/غوييانا"
+
+#: TIMEZONES:229
+msgid "America/Halifax"
+msgstr "أمريكا/هاليفاكس"
+
+#: TIMEZONES:232
+msgid "America/Havana"
+msgstr "أمريكا/هافانا"
+
+#: TIMEZONES:233
+msgid "America/Hermosillo"
+msgstr "أمريكا/هرموزيلو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:235
+msgid "Mountain Standard Time - Sonora"
+msgstr "التوقيت الجبلي - سونورا"
+
+#: TIMEZONES:236
+msgid "America/Indiana/Indianapolis"
+msgstr "أمريكا/إنديانا/بوليس"
+
+#: TIMEZONES:239
+msgid "America/Indiana/Knox"
+msgstr "أمريكا/إنديانا/نوكس"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:241 TIMEZONES:288 TIMEZONES:1009
+msgid "Eastern Time - Indiana - Starke County"
+msgstr "التوقيت الشرقي - انديانا - بلدة ستارك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:243
+msgid "Central Time - Indiana - Starke County"
+msgstr "التوقيت المركزي - انديانا - بلدة ستارك"
+
+#: TIMEZONES:244
+msgid "America/Indiana/Marengo"
+msgstr "أمريكا/إنديانا/مارنغو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:246
+msgid "Eastern Time - Indiana - Crawford County"
+msgstr "التوقيت الشرقي - انديانا - بلدة كروفورد"
+
+#: TIMEZONES:247
+msgid "America/Indiana/Petersburg"
+msgstr "أمريكا/إنديانا/بتروسبورج"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:249
+msgid "Central Time - Indiana - Pike County"
+msgstr "التوقيت المركزي - انديانا - بلدة بايك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:251
+msgid "Eastern Time - Indiana - Pike County"
+msgstr "التوقيت الشرقي - انديانا - بلدة بايك"
+
+#: TIMEZONES:252
+msgid "America/Indiana/Tell_City"
+msgstr "أمريكا/إنديانا/تل_ستي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:254
+msgid "Central Time - Indiana - Perry County"
+msgstr "التوقيت المركزي - انديانا - بلدة بيري"
+
+#: TIMEZONES:255
+msgid "America/Indiana/Vevay"
+msgstr "أمريكا/إنديانا/فيفاي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:257
+msgid "Eastern Time - Indiana - Switzerland County"
+msgstr "التوقيت الشرقي - انديانا - بلدة سويسرا"
+
+#: TIMEZONES:258
+msgid "America/Indiana/Vincennes"
+msgstr "أمريكا/إنديانا/فينسنيس"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:260
+msgid "Eastern Time - Indiana - Daviess, Dubois, Knox & Martin Counties"
+msgstr "التوقيت الشرقي - انديانا - بلدات دايفنسس و دوبوا و نوكس ومارتن"
+
+#: TIMEZONES:261
+msgid "America/Indiana/Winamac"
+msgstr "أمريكا/إنديانا/وينماك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:263
+msgid "Eastern Time - Indiana - Pulaski County"
+msgstr "التوقيت الشرقي - انديانا - بلدة بولاسكي"
+
+#: TIMEZONES:264
+msgid "America/Indianapolis"
+msgstr "أمريكا/إنديانابوليس"
+
+#: TIMEZONES:267
+msgid "America/Inuvik"
+msgstr "أمريكا/إينوفيك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:269
+msgid "Mountain Time - west Northwest Territories"
+msgstr "التوقيت الجبلي - غرب الأقاليم الشمالية الغربية"
+
+#: TIMEZONES:270
+msgid "America/Iqaluit"
+msgstr "أمريكا/إيكالويت"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:272
+msgid "Eastern Time - east Nunavut - most locations"
+msgstr "التوقيت الشرقي - شرق نونافوت - معظم المواقع"
+
+#: TIMEZONES:273
+msgid "America/Jamaica"
+msgstr "أمريكا/جامايكا"
+
+#: TIMEZONES:274
+msgid "America/Jujuy"
+msgstr "أمريكا/خوخوي"
+
+#: TIMEZONES:277
+msgid "America/Juneau"
+msgstr "أمريكا / جانيو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:279
+msgid "Alaska Time - Alaska panhandle"
+msgstr "توقيت ألاسكا - ألاسكا بانهندل"
+
+#: TIMEZONES:280
+msgid "America/Kentucky/Louisville"
+msgstr "أمريكا / كنتاكي / لويزفيل"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:282 TIMEZONES:296
+msgid "Eastern Time - Kentucky - Louisville area"
+msgstr "التوقيت الشرقي - كنتاكي - منطقة لويسفيل"
+
+#: TIMEZONES:283
+msgid "America/Kentucky/Monticello"
+msgstr "أمريكا/كنتاكي/مونتيسيلو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:285
+msgid "Eastern Time - Kentucky - Wayne County"
+msgstr "التوقيت الشرقي - كنتاكي - بلدة واين"
+
+#: TIMEZONES:286
+msgid "America/Knox_IN"
+msgstr "أمريكا/إنديانا_نوكس"
+
+#: TIMEZONES:289
+msgid "America/La_Paz"
+msgstr "أمريكا/لاباز"
+
+#: TIMEZONES:290
+msgid "America/Lima"
+msgstr "أمريكا/ليما"
+
+#: TIMEZONES:291
+msgid "America/Los_Angeles"
+msgstr "أمريكا/لوس_أنجلس"
+
+#: TIMEZONES:294
+msgid "America/Louisville"
+msgstr "أمريكا/لويسفيل"
+
+#: TIMEZONES:297
+msgid "America/Maceio"
+msgstr "أمريكا/ماسييو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:299
+msgid "Alagoas, Sergipe"
+msgstr "ألاغوس ، سيرغيبي"
+
+#: TIMEZONES:300
+msgid "America/Managua"
+msgstr "أمريكا/ماناغوا"
+
+#: TIMEZONES:301
+msgid "America/Manaus"
+msgstr "أمريكا/ماناوس"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:303 TIMEZONES:740
+msgid "E Amazonas"
+msgstr "شرق أمازوناس"
+
+#: TIMEZONES:304
+msgid "America/Marigot"
+msgstr "أمريكا / ماريغو"
+
+#: TIMEZONES:305
+msgid "America/Martinique"
+msgstr "أمريكا/مارتينيك"
+
+#: TIMEZONES:306
+msgid "America/Mazatlan"
+msgstr "أمريكا/مازاتلان"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:308 TIMEZONES:882
+msgid "Mountain Time - S Baja, Nayarit, Sinaloa"
+msgstr "التوقيت الجبلي - دإ باخا ، ناياريت ، سينالوا"
+
+#: TIMEZONES:309
+msgid "America/Mendoza"
+msgstr "أمريكا/مندوزا"
+
+#: TIMEZONES:312
+msgid "America/Menominee"
+msgstr "أمريكا/مينوميني"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:314
+msgid "Central Time - Michigan - Dickinson, Gogebic, Iron & Menominee Counties"
+msgstr ""
+"التوقيت المركزي - ميتشيغان - بلدات ديكينسون ، وجوجباك ، وأيرون ، ومنومني"
+
+#: TIMEZONES:315
+msgid "America/Merida"
+msgstr "أمريكا/ميريدا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:317
+msgid "Central Time - Campeche, Yucatan"
+msgstr "التوقيت المركزي - كامبيتشي ، يوكاتان"
+
+#: TIMEZONES:318
+msgid "America/Mexico_City"
+msgstr "أمريكا/مكسيكو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:320 TIMEZONES:885
+msgid "Central Time - most locations"
+msgstr "التوقيت المركزي - معظم المواقع"
+
+#: TIMEZONES:321
+msgid "America/Miquelon"
+msgstr "أمريكا/ميكويلون"
+
+#: TIMEZONES:322
+msgid "America/Moncton"
+msgstr "أمريكا/مونكتون"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:324
+msgid "Atlantic Time - New Brunswick"
+msgstr "التوقيت الأطلسي - نيو برونزويك"
+
+#: TIMEZONES:325
+msgid "America/Monterrey"
+msgstr "أمريكا/مونتيري"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:327
+msgid "Central Time - Coahuila, Durango, Nuevo Leon, Tamaulipas"
+msgstr "التوقيت المركزي -- كواهويلا ، دورانغو ، ولاية نويفو ليون ، تاماوليباس"
+
+#: TIMEZONES:328
+msgid "America/Montevideo"
+msgstr "أمريكا/مونتيفيديو"
+
+#: TIMEZONES:329
+msgid "America/Montreal"
+msgstr "أمريكا/مونريال"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:331 TIMEZONES:354
+msgid "Eastern Time - Quebec - most locations"
+msgstr "التوقيت الشرقي - كيبيك - معظم المواقع"
+
+#: TIMEZONES:332
+msgid "America/Montserrat"
+msgstr "أمريكا/مونتسيرات"
+
+#: TIMEZONES:333
+msgid "America/Nassau"
+msgstr "أمريكا/ناسو"
+
+#: TIMEZONES:334
+msgid "America/New_York"
+msgstr "أمريكا/نيويورك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:336 TIMEZONES:1003
+msgid "Eastern Time"
+msgstr "التوقيت الشرقي"
+
+#: TIMEZONES:337
+msgid "America/Nipigon"
+msgstr "أمريكا/نيبيغون"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:339
+msgid ""
+"Eastern Time - Ontario & Quebec - places that did not observe DST 1967-1973"
+msgstr ""
+"التوقيت الشرقي - أونتاريو و كيبيك - الأماكن التي لا تراعي DST 1967-1973"
+
+#: TIMEZONES:340
+msgid "America/Nome"
+msgstr "أمريكا/نومي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:342
+msgid "Alaska Time - west Alaska"
+msgstr "توقيت ألاسكا - غرب ألاسكا"
+
+#: TIMEZONES:343
+msgid "America/Noronha"
+msgstr "أمريكا/نورونيا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:345 TIMEZONES:734
+msgid "Atlantic islands"
+msgstr "جزر الأطلسي"
+
+#: TIMEZONES:346
+msgid "America/North_Dakota/Center"
+msgstr "أمريكا/داكوتا_الشّمالية/سنتر"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:348
+msgid "Central Time - North Dakota - Oliver County"
+msgstr "التوقيت المركزي - نورث داكوتا -  بلدة اوليفر"
+
+#: TIMEZONES:349
+msgid "America/North_Dakota/New_Salem"
+msgstr "أمريكا/داكوتا_الشّمالية/نيوسليم"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:351
+msgid "Central Time - North Dakota - Morton County (except Mandan area)"
+msgstr ""
+"التوقيت المركزي - نورث داكوتا - مورتون المقاطعات (باستثناء منطقة Mandan)"
+
+#: TIMEZONES:352
+msgid "America/Ontario"
+msgstr "أمريكا / اونتاريو"
+
+#: TIMEZONES:355
+msgid "America/Panama"
+msgstr "أمريكا/باناما"
+
+#: TIMEZONES:356
+msgid "America/Pangnirtung"
+msgstr "أمريكا/بانغنيرتنغ"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:358
+msgid "Eastern Time - Pangnirtung, Nunavut"
+msgstr "التوقيت الشرقي - Pangnirtung ، نونافوت"
+
+#: TIMEZONES:359
+msgid "America/Paramaribo"
+msgstr "أمريكا/باراماريبو"
+
+#: TIMEZONES:360
+msgid "America/Phoenix"
+msgstr "أمريكا/فينكس"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:362 TIMEZONES:994
+msgid "Mountain Standard Time - Arizona"
+msgstr "التوقيت الجبلي - أريزونا"
+
+#: TIMEZONES:363
+msgid "America/Port-au-Prince"
+msgstr "أمريكا/بورت_أو_برنس"
+
+#: TIMEZONES:364
+msgid "America/Port_of_Spain"
+msgstr "أمريكا/بورت_أوف_سباين"
+
+#: TIMEZONES:365
+msgid "America/Porto_Acre"
+msgstr "أمريكا/بورتو_أكري"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:367 TIMEZONES:389 TIMEZONES:731
+msgid "Acre"
+msgstr "أكري"
+
+#: TIMEZONES:368
+msgid "America/Porto_Velho"
+msgstr "أمريكا/بورتو_فيليو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:370
+msgid "Rondonia"
+msgstr "روندونيا"
+
+#: TIMEZONES:371
+msgid "America/Puerto_Rico"
+msgstr "أمريكا/بورتو_ريكو"
+
+#: TIMEZONES:372
+msgid "America/Rainy_River"
+msgstr "أمريكا/رايني_ريفر"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:374
+msgid "Central Time - Rainy River & Fort Frances, Ontario"
+msgstr "التوقيت المركزي -- نهر ريني و فورت فرانسيس ، أونتاريو"
+
+#: TIMEZONES:375
+msgid "America/Rankin_Inlet"
+msgstr "أمريكا/رانكين_إنلت"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:377
+msgid "Central Time - central Nunavut"
+msgstr "التوقيت المركزي - سنترال نونافوت"
+
+#: TIMEZONES:378
+msgid "America/Recife"
+msgstr "أمريكا/ريسيفي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:380
+msgid "Pernambuco"
+msgstr "بيرنامبيوكو"
+
+#: TIMEZONES:381
+msgid "America/Regina"
+msgstr "أمريكا/ريجينا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:383 TIMEZONES:405 TIMEZONES:749 TIMEZONES:764
+msgid "Central Standard Time - Saskatchewan - most locations"
+msgstr "التوقيت المركزي - سسكتشوان - معظم المواقع"
+
+#: TIMEZONES:384
+msgid "America/Resolute"
+msgstr "أمريكا/ريسولت"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:386
+msgid "Eastern Time - Resolute, Nunavut"
+msgstr "التوقيت الشرقي -- رسوليت ، نونافو"
+
+#: TIMEZONES:387
+msgid "America/Rio_Branco"
+msgstr "أمريكا/ريو_برانكو"
+
+#: TIMEZONES:390
+msgid "America/Rosario"
+msgstr "أمريكا/روزاريو"
+
+#: TIMEZONES:393
+msgid "America/Santarem"
+msgstr "أمريكا/سانترايم"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:395
+msgid "W Para"
+msgstr "بارا الغربية"
+
+#: TIMEZONES:396
+msgid "America/Santiago"
+msgstr "أمريكا/سانتياغو"
+
+#: TIMEZONES:399
+msgid "America/Santo_Domingo"
+msgstr "أمريكا/سانتو_دومينغو"
+
+#: TIMEZONES:400
+msgid "America/Sao_Paulo"
+msgstr "أمريكا/ساو_باولو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:402 TIMEZONES:737
+msgid "S & SE Brazil (GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
+msgstr "شرق وجنوب شرق البرازيل (GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
+
+#: TIMEZONES:403
+msgid "America/Saskatoon"
+msgstr "أمريكا/ساسكاتون"
+
+#: TIMEZONES:406
+msgid "America/Scoresbysund"
+msgstr "أمريكا/سكورسبيسوند"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:408
+msgid "Scoresbysund / Ittoqqortoormiit"
+msgstr "Scoresbysund / Ittoqqortoormiit"
+
+#: TIMEZONES:409
+msgid "America/Shiprock"
+msgstr "أمريكا/شيبروك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:411
+msgid "Mountain Time - Navajo"
+msgstr "التوقيت الجبلي - النافاجو"
+
+#: TIMEZONES:412
+msgid "America/St_Barthelemy"
+msgstr "أمريكا/سانت بارتيليمي"
+
+#: TIMEZONES:413
+msgid "America/St_Johns"
+msgstr "أمريكا/سانت_جونس"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:415 TIMEZONES:758
+msgid "Newfoundland Time, including SE Labrador"
+msgstr "توقيت نيوفواندلاند ، بما في ذلك جنوب شرق لابرادور"
+
+#: TIMEZONES:416
+msgid "America/St_Kitts"
+msgstr "أمريكا/سانت_كيتس"
+
+#: TIMEZONES:417
+msgid "America/St_Lucia"
+msgstr "أمريكا/سانتا_لوسيا"
+
+#: TIMEZONES:418
+msgid "America/St_Thomas"
+msgstr "أمريكا/سانت_توماس"
+
+#: TIMEZONES:419
+msgid "America/St_Vincent"
+msgstr "أمريكا/سانت_فينسنت"
+
+#: TIMEZONES:420
+msgid "America/Swift_Current"
+msgstr "أمريكا/سويفت_كيورنت"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:422
+msgid "Central Standard Time - Saskatchewan - midwest"
+msgstr "التوقيت المركزي - سسكتشوان - الغرب الاوسط"
+
+#: TIMEZONES:423
+msgid "America/Tegucigalpa"
+msgstr "أمريكا/تيغوسيغالبا"
+
+#: TIMEZONES:424
+msgid "America/Thule"
+msgstr "أمريكا/تولي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:426
+msgid "Thule / Pituffik"
+msgstr "ثول / بتوفاك"
+
+#: TIMEZONES:427
+msgid "America/Thunder_Bay"
+msgstr "أمريكا/ثندر_بي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:429
+msgid "Eastern Time - Thunder Bay, Ontario"
+msgstr "التوقيت الشرقي - خليج ثندر ، أونتاريو"
+
+#: TIMEZONES:430
+msgid "America/Tijuana"
+msgstr "أمريكا/تيخوانا"
+
+#: TIMEZONES:433
+msgid "America/Toronto"
+msgstr "أمريكا/تورونتو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:435 TIMEZONES:752
+msgid "Eastern Time - Ontario - most locations"
+msgstr "التوقيت الشرقي - أونتاريو - معظم المواقع"
+
+#: TIMEZONES:436
+msgid "America/Tortola"
+msgstr "أمريكا/تورتولا"
+
+#: TIMEZONES:437
+msgid "America/Vancouver"
+msgstr "أمريكا/فانكوفر"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:439 TIMEZONES:761
+msgid "Pacific Time - west British Columbia"
+msgstr "وقيت المحيط الهادئ - غرب كولومبيا البريطانية"
+
+#: TIMEZONES:440
+msgid "America/Virgin"
+msgstr "أمريكا/فرجينيا"
+
+#: TIMEZONES:441
+msgid "America/Whitehorse"
+msgstr "أمريكا/وايتهورس"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:443 TIMEZONES:767
+msgid "Pacific Time - south Yukon"
+msgstr "توقيت المحيط الهادئ - جنوب يوكون"
+
+#: TIMEZONES:444
+msgid "America/Winnipeg"
+msgstr "أمريكا/وينيباغ"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:446 TIMEZONES:746
+msgid "Central Time - Manitoba & west Ontario"
+msgstr "التوقيت المركزي - غرب أونتاريو ومانيتوبا"
+
+#: TIMEZONES:447
+msgid "America/Yakutat"
+msgstr "أمريكا/ياكوتات"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:449
+msgid "Alaska Time - Alaska panhandle neck"
+msgstr "توقيت ألاسكا - رقبة ألاسكا بانهندل"
+
+#: TIMEZONES:450
+msgid "America/Yellowknife"
+msgstr "أمريكا/ييلونايف"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:452
+msgid "Mountain Time - central Northwest Territories"
+msgstr "التوقيت الجبلي -- سنترال الأقاليم الشمالية الغربية"
+
+#: TIMEZONES:453
+msgid "Antarctica/Casey"
+msgstr "أنتاركتيكا/كاسي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:455
+msgid "Casey Station, Bailey Peninsula"
+msgstr "محطة كيسي ، جزيرة بيلي"
+
+#: TIMEZONES:456
+msgid "Antarctica/Davis"
+msgstr "أنتاركتيكا/دايفس"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:458
+msgid "Davis Station, Vestfold Hills"
+msgstr "محطة ديفيس ، فيستفولد هيلز"
+
+#: TIMEZONES:459
+msgid "Antarctica/DumontDUrville"
+msgstr "أنتاركتيكا/دومنت_دورفيل"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:461
+msgid "Dumont-d'Urville Station, Terre Adelie"
+msgstr "Dumont-d'Urville Station, Terre Adelie"
+
+#: TIMEZONES:462
+msgid "Antarctica/Mawson"
+msgstr "أنتاركتيكا/ماوسن"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:464
+msgid "Mawson Station, Holme Bay"
+msgstr "محطة موسن ، خليج هولم"
+
+#: TIMEZONES:465
+msgid "Antarctica/McMurdo"
+msgstr "أنتاركتيكا/ماك_موردو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:467
+msgid "McMurdo Station, Ross Island"
+msgstr "محطة ماكمورد ، جزيرةة روس"
+
+#: TIMEZONES:468
+msgid "Antarctica/Palmer"
+msgstr "أنتاركتيكا/بالمر"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:470
+msgid "Palmer Station, Anvers Island"
+msgstr "محطة بالمر ، جزيرة أنفيرس"
+
+#: TIMEZONES:471
+msgid "Antarctica/Rothera"
+msgstr "القطب_الجنوبي/روثيرا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:473
+msgid "Rothera Station, Adelaide Island"
+msgstr "محطة روثيرا ، جزيرة أدليد"
+
+#: TIMEZONES:474
+msgid "Antarctica/South_Pole"
+msgstr "أنتاركتيكا/القطب_الجنوبي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:476
+msgid "Amundsen-Scott Station, South Pole"
+msgstr "محطة أموندسن سكوت ، القطب الشمالي"
+
+#: TIMEZONES:477
+msgid "Antarctica/Syowa"
+msgstr "أنتاركتيكا/سايووا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:479
+msgid "Syowa Station, E Ongul I"
+msgstr "محطة سيوا ، E Ongul I"
+
+#: TIMEZONES:480
+msgid "Antarctica/Vostok"
+msgstr "أنتاركتيكا/فوستك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:482
+msgid "Vostok Station, S Magnetic Pole"
+msgstr "محطة فوستوك ، القطب الجنوبي المغناطيسي"
+
+#: TIMEZONES:483
+msgid "Arctic/Longyearbyen"
+msgstr "أركتيك/لونغيربين"
+
+#: TIMEZONES:484
+msgid "Asia/Aden"
+msgstr "آسيا/عدن"
+
+#: TIMEZONES:485
+msgid "Asia/Almaty"
+msgstr "آسيا/الماتي"
+
+#: TIMEZONES:488
+msgid "Asia/Amman"
+msgstr "آسيا/عمّان"
+
+#: TIMEZONES:489
+msgid "Asia/Anadyr"
+msgstr "آسيا/أنادير"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:491
+msgid "Moscow+10 - Bering Sea"
+msgstr "موسكو +10 - بحر بيرينغ"
+
+#: TIMEZONES:492
+msgid "Asia/Aqtau"
+msgstr "آسيا/أكتاوو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:494
+msgid "Atyrau (Atirau, Gur'yev), Mangghystau (Mankistau)"
+msgstr "اتيراو (Atirau ، Gur'yev) ، Mangghystau (Mankistau)"
+
+#: TIMEZONES:495
+msgid "Asia/Aqtobe"
+msgstr "آسيا/أكتوبي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:497
+msgid "Aqtobe (Aktobe)"
+msgstr "Aqtobe (اكتوبي)"
+
+#: TIMEZONES:498
+msgid "Asia/Ashgabat"
+msgstr "آسيا/أشغبت"
+
+#: TIMEZONES:499
+msgid "Asia/Ashkhabad"
+msgstr "آسيا/عشق أباد"
+
+#: TIMEZONES:500
+msgid "Asia/Baghdad"
+msgstr "آسيا/بغداد"
+
+#: TIMEZONES:501
+msgid "Asia/Bahrain"
+msgstr "آسيا/البحرين"
+
+#: TIMEZONES:502
+msgid "Asia/Baku"
+msgstr "آسيا/باكو"
+
+#: TIMEZONES:503
+msgid "Asia/Bangkok"
+msgstr "آسيا/بانكوك"
+
+#: TIMEZONES:504
+msgid "Asia/Beijing"
+msgstr "آسيا/بكين"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:506 TIMEZONES:607 TIMEZONES:897
+msgid "east China - Beijing, Guangdong, Shanghai, etc."
+msgstr "شرق الصين - بكين وقوانغدونغ وشانغهاي ، الخ."
+
+#: TIMEZONES:507
+msgid "Asia/Beirut"
+msgstr "آسيا/بيروت"
+
+#: TIMEZONES:508
+msgid "Asia/Bishkek"
+msgstr "آسيا/بيشكك"
+
+#: TIMEZONES:509
+msgid "Asia/Brunei"
+msgstr "آسيا/بروناي"
+
+#: TIMEZONES:510
+msgid "Asia/Calcutta"
+msgstr "آسيا/كلكتا"
+
+#: TIMEZONES:511
+msgid "Asia/Choibalsan"
+msgstr "آسيا/شويبالسان"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:513
+msgid "Dornod, Sukhbaatar"
+msgstr "دورنود ، سخباتار"
+
+#: TIMEZONES:514
+msgid "Asia/Chongqing"
+msgstr "آسيا/تشونغكنغ"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:516 TIMEZONES:519
+msgid "central China - Sichuan, Yunnan, Guangxi, Shaanxi, Guizhou, etc."
+msgstr "وسط الصين - سيتشوان ويوننان وقوانغشى ، وشنشى ، وقويتشو ، الخ."
+
+#: TIMEZONES:517
+msgid "Asia/Chungking"
+msgstr "آسيا/تشونغكنغ"
+
+#: TIMEZONES:520
+msgid "Asia/Colombo"
+msgstr "آسيا/كولومبو"
+
+#: TIMEZONES:521
+msgid "Asia/Dacca"
+msgstr "آسيا/دكّا"
+
+#: TIMEZONES:522
+msgid "Asia/Damascus"
+msgstr "آسيا/دمشق"
+
+#: TIMEZONES:523
+msgid "Asia/Dhaka"
+msgstr "آسيا/دكّا"
+
+#: TIMEZONES:524
+msgid "Asia/Dili"
+msgstr "آسيا/ديلي"
+
+#: TIMEZONES:525
+msgid "Asia/Dubai"
+msgstr "آسيا/دبي"
+
+#: TIMEZONES:526
+msgid "Asia/Dushanbe"
+msgstr "آسيا/دوشانبي"
+
+#: TIMEZONES:527
+msgid "Asia/Gaza"
+msgstr "آسيا/غزة"
+
+#: TIMEZONES:528
+msgid "Asia/Harbin"
+msgstr "آسيا/هاربن"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:530
+msgid "Heilongjiang (except Mohe), Jilin"
+msgstr "هيلونغجيانغ (باستثناء Mohe) ، جيلين"
+
+#: TIMEZONES:531
+msgid "Asia/Ho_Chi_Minh"
+msgstr "آسيا/تشو تشا منه"
+
+#: TIMEZONES:532
+msgid "Asia/Hong_Kong"
+msgstr "آسيا/هونغ_كونغ"
+
+#: TIMEZONES:533
+msgid "Asia/Hovd"
+msgstr "آسيا/هوفد"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:535
+msgid "Bayan-Olgiy, Govi-Altai, Hovd, Uvs, Zavkhan"
+msgstr "Bayan-Olgiy, Govi-Altai, Hovd, Uvs, Zavkhan"
+
+#: TIMEZONES:536
+msgid "Asia/Irkutsk"
+msgstr "آسيا/إيركوتسك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:538
+msgid "Moscow+05 - Lake Baikal"
+msgstr "موسكو +05 - بحيرة بايكال"
+
+#: TIMEZONES:539
+msgid "Asia/Jakarta"
+msgstr "آسيا/جاكارتا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:541
+msgid "Java & Sumatra"
+msgstr "جافا و سومطرا"
+
+#: TIMEZONES:542
+msgid "Asia/Jayapura"
+msgstr "آسيا/جايابورا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:544
+msgid "Irian Jaya & the Moluccas"
+msgstr "إيريان جايا و مولوكاس"
+
+#: TIMEZONES:545
+msgid "Asia/Jerusalem"
+msgstr "آسيا/القدس"
+
+#: TIMEZONES:546
+msgid "Asia/Kabul"
+msgstr "آسيا/كابول"
+
+#: TIMEZONES:547
+msgid "Asia/Kamchatka"
+msgstr "آسيا/كامشاتكا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:549
+msgid "Moscow+09 - Kamchatka"
+msgstr "موسكو +09 - كامتشاتكا"
+
+#: TIMEZONES:550
+msgid "Asia/Karachi"
+msgstr "آسيا/كراتشي"
+
+#: TIMEZONES:551
+msgid "Asia/Kashgar"
+msgstr "آسيا/كشغر"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:553
+msgid "west Tibet & Xinjiang"
+msgstr "غرب شينجيانغ والتبت"
+
+#: TIMEZONES:554
+msgid "Asia/Katmandu"
+msgstr "آسيا/كاتماندو"
+
+#: TIMEZONES:555
+msgid "Asia/Kolkata"
+msgstr "آسيا/كولكاتا"
+
+#: TIMEZONES:556
+msgid "Asia/Krasnoyarsk"
+msgstr "آسيا/كراسنويارسك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:558
+msgid "Moscow+04 - Yenisei River"
+msgstr "موسكو +04 - نهر يناسي"
+
+#: TIMEZONES:559
+msgid "Asia/Kuala_Lumpur"
+msgstr "آسيا/كوالالمبور"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:561
+msgid "peninsular Malaysia"
+msgstr "شبه جزيرة ماليزيا"
+
+#: TIMEZONES:562
+msgid "Asia/Kuching"
+msgstr "آسيا/كوشينغ"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:564
+msgid "Sabah & Sarawak"
+msgstr "الصباح و ساراواك"
+
+#: TIMEZONES:565
+msgid "Asia/Kuwait"
+msgstr "آسيا/الكويت"
+
+#: TIMEZONES:566
+msgid "Asia/Macao"
+msgstr "آسيا/ماكاو"
+
+#: TIMEZONES:567
+msgid "Asia/Macau"
+msgstr "آسيا/ماكو"
+
+#: TIMEZONES:568
+msgid "Asia/Magadan"
+msgstr "آسيا/ماغادان"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:570
+msgid "Moscow+08 - Magadan"
+msgstr "موسكو +08 - ماغادان"
+
+#: TIMEZONES:571
+msgid "Asia/Makassar"
+msgstr "آسيا/ماكاسّار"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:573 TIMEZONES:621
+msgid "east & south Borneo, Celebes, Bali, Nusa Tengarra, west Timor"
+msgstr "جنوب شرق بورنيو ، سيليبس ، بالي ، نوسا تينجارا ، وتيمور الغربية"
+
+#: TIMEZONES:574
+msgid "Asia/Manila"
+msgstr "آسيا/مانيلا"
+
+#: TIMEZONES:575
+msgid "Asia/Muscat"
+msgstr "آسيا/مسقط"
+
+#: TIMEZONES:576
+msgid "Asia/Nicosia"
+msgstr "آسيا/نيقوسيا"
+
+#: TIMEZONES:577
+msgid "Asia/Novosibirsk"
+msgstr "آسيا/نوفوسيبيرسك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:579
+msgid "Moscow+03 - Novosibirsk"
+msgstr "موسكو +03 - نوفوسيبيرسك"
+
+#: TIMEZONES:580
+msgid "Asia/Omsk"
+msgstr "آسيا/أومسك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:582
+msgid "Moscow+03 - west Siberia"
+msgstr "موسكو +03 - غرب سيبيريا"
+
+#: TIMEZONES:583
+msgid "Asia/Oral"
+msgstr "آسيا/أورال"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:585
+msgid "West Kazakhstan"
+msgstr "غرب كازاخستان"
+
+#: TIMEZONES:586
+msgid "Asia/Phnom_Penh"
+msgstr "آسيا/بنوم_بين"
+
+#: TIMEZONES:587
+msgid "Asia/Pontianak"
+msgstr "آسيا/بونتيياناك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:589
+msgid "west & central Borneo"
+msgstr "وسط و غرب بورنيو"
+
+#: TIMEZONES:590
+msgid "Asia/Pyongyang"
+msgstr "آسيا/بيونغ_ينغ"
+
+#: TIMEZONES:591
+msgid "Asia/Qatar"
+msgstr "آسيا/قطر"
+
+#: TIMEZONES:592
+msgid "Asia/Qyzylorda"
+msgstr "آسيا/كيزيلوردا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:594
+msgid "Qyzylorda (Kyzylorda, Kzyl-Orda)"
+msgstr "كيزيلوردا (Kyzylorda ، Kzyl - Orda)"
+
+#: TIMEZONES:595
+msgid "Asia/Rangoon"
+msgstr "آسيا/رانغون"
+
+#: TIMEZONES:596
+msgid "Asia/Riyadh"
+msgstr "آسيا/الرّياض"
+
+#: TIMEZONES:597
+msgid "Asia/Saigon"
+msgstr "آسيا/سايغون"
+
+#: TIMEZONES:598
+msgid "Asia/Sakhalin"
+msgstr "آسيا/ساخالين"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:600
+msgid "Moscow+07 - Sakhalin Island"
+msgstr "موسكو +07 - جزيرة سخالين"
+
+#: TIMEZONES:601
+msgid "Asia/Samarkand"
+msgstr "آسيا/سمرقند"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:603
+msgid "west Uzbekistan"
+msgstr "غرب أوزبكستان"
+
+#: TIMEZONES:604
+msgid "Asia/Seoul"
+msgstr "آسيا/سيول"
+
+#: TIMEZONES:605
+msgid "Asia/Shanghai"
+msgstr "آسيا/شنغهاي"
+
+#: TIMEZONES:608
+msgid "Asia/Singapore"
+msgstr "آسيا/سنغافورة"
+
+#: TIMEZONES:609
+msgid "Asia/Taipei"
+msgstr "آسيا/تايبي"
+
+#: TIMEZONES:610
+msgid "Asia/Tashkent"
+msgstr "آسيا/طشقند"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:612
+msgid "east Uzbekistan"
+msgstr "شرق أوزبكستان"
+
+#: TIMEZONES:613
+msgid "Asia/Tbilisi"
+msgstr "آسيا/تبيليسي"
+
+#: TIMEZONES:614
+msgid "Asia/Tehran"
+msgstr "آسيا/طهران"
+
+#: TIMEZONES:615
+msgid "Asia/Tel_Aviv"
+msgstr "آسيا/تل أبيب"
+
+#: TIMEZONES:616
+msgid "Asia/Thimbu"
+msgstr "آسيا/ثيمبو"
+
+#: TIMEZONES:617
+msgid "Asia/Thimphu"
+msgstr "آسيا/تيمفو"
+
+#: TIMEZONES:618
+msgid "Asia/Tokyo"
+msgstr "آسيا/طوكيو"
+
+#: TIMEZONES:619
+msgid "Asia/Ujung_Pandang"
+msgstr "آسيا/أوجونغ_باندانغ"
+
+#: TIMEZONES:622
+msgid "Asia/Ulaanbaatar"
+msgstr "آسيا/أولانباتار"
+
+#: TIMEZONES:625
+msgid "Asia/Ulan_Bator"
+msgstr "آسيا/أولان باتور"
+
+#: TIMEZONES:628
+msgid "Asia/Urumqi"
+msgstr "آسيا/أورومكي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:630
+msgid "most of Tibet & Xinjiang"
+msgstr "معظم شينجيانغ والتبت"
+
+#: TIMEZONES:631
+msgid "Asia/Vientiane"
+msgstr "آسيا/فيينتيان"
+
+#: TIMEZONES:632
+msgid "Asia/Vladivostok"
+msgstr "آسيا/فلاديفوستوك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:634
+msgid "Moscow+07 - Amur River"
+msgstr "موسكو +07 - نهر آمور"
+
+#: TIMEZONES:635
+msgid "Asia/Yakutsk"
+msgstr "آسيا/ياكوتسك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:637
+msgid "Moscow+06 - Lena River"
+msgstr "موسكو +06 - نهر لينا"
+
+#: TIMEZONES:638
+msgid "Asia/Yekaterinburg"
+msgstr "آسيا/ييكاتيرينبورغ"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:640
+msgid "Moscow+02 - Urals"
+msgstr "موسكو +02 - الاورال"
+
+#: TIMEZONES:641
+msgid "Asia/Yerevan"
+msgstr "آسيا/يريفان"
+
+#: TIMEZONES:642
+msgid "Atlantic/Azores"
+msgstr "الأطلسي/الازور"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:644
+msgid "Azores"
+msgstr "الازور"
+
+#: TIMEZONES:645
+msgid "Atlantic/Bermuda"
+msgstr "الأطلسي/برمودا"
+
+#: TIMEZONES:646
+msgid "Atlantic/Canary"
+msgstr "الأطلسي/كاناري"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:648
+msgid "Canary Islands"
+msgstr "جزر الكاناري"
+
+#: TIMEZONES:649
+msgid "Atlantic/Cape_Verde"
+msgstr "الأطلسي/كابي_فردي"
+
+#: TIMEZONES:650
+msgid "Atlantic/Faeroe"
+msgstr "الأطلسي/فيرووي"
+
+#: TIMEZONES:651
+msgid "Atlantic/Faroe"
+msgstr "الأطلسي/فيرووي"
+
+#: TIMEZONES:652
+msgid "Atlantic/Jan_Mayen"
+msgstr "الأطلسي/جان_ماين"
+
+#: TIMEZONES:653
+msgid "Atlantic/Madeira"
+msgstr "الأطلسي/ماديرا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:655
+msgid "Madeira Islands"
+msgstr "جزر ماديرا"
+
+#: TIMEZONES:656
+msgid "Atlantic/Reykjavik"
+msgstr "الأطلسي/ريكيافيك"
+
+#: TIMEZONES:657
+msgid "Atlantic/South_Georgia"
+msgstr "الأطلسي/جيورجيا_الجنوبية"
+
+#: TIMEZONES:658
+msgid "Atlantic/St_Helena"
+msgstr "الأطلسي/سانتا_هيلينا"
+
+#: TIMEZONES:659
+msgid "Atlantic/Stanley"
+msgstr "الأطلسي/ستانلي"
+
+#: TIMEZONES:660
+msgid "Australia/ACT"
+msgstr "أستراليا/إقليم العاصمة الأسترالية"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:662 TIMEZONES:674 TIMEZONES:701 TIMEZONES:716
+msgid "New South Wales - most locations"
+msgstr "نيو ساوث ويلز - معظم المواقع"
+
+#: TIMEZONES:663
+msgid "Australia/Adelaide"
+msgstr "أستراليا/أديلاييد"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:665 TIMEZONES:713
+msgid "South Australia"
+msgstr "حنوب أستراليا"
+
+#: TIMEZONES:666
+msgid "Australia/Brisbane"
+msgstr "أستراليا/بريسبان"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:668 TIMEZONES:710
+msgid "Queensland - most locations"
+msgstr "كوينزلاند - معظم المواقع"
+
+#: TIMEZONES:669
+msgid "Australia/Broken_Hill"
+msgstr "أستراليا/بروكن_هيل"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:671 TIMEZONES:728
+msgid "New South Wales - Yancowinna"
+msgstr "نيو ساوث ويلز - Yancowinna"
+
+#: TIMEZONES:672
+msgid "Australia/Canberra"
+msgstr "أستراليا/كانبيرا"
+
+#: TIMEZONES:675
+msgid "Australia/Currie"
+msgstr "أستراليا/كيرري"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:677
+msgid "Tasmania - King Island"
+msgstr "تسمانيا - جزيرة الملك"
+
+#: TIMEZONES:678
+msgid "Australia/Darwin"
+msgstr "أستراليا/داروين"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:680 TIMEZONES:704
+msgid "Northern Territory"
+msgstr "الإقليم الشمالي"
+
+#: TIMEZONES:681
+msgid "Australia/Eucla"
+msgstr "أستراليا/إيوكلا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:683
+msgid "Western Australia - Eucla area"
+msgstr "غرب أستراليا - منطقة إيوكلا"
+
+#: TIMEZONES:684
+msgid "Australia/Hobart"
+msgstr "أستراليا/هوبارت"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:686 TIMEZONES:719
+msgid "Tasmania - most locations"
+msgstr "تسمانيا -- معظم المواقع"
+
+#: TIMEZONES:687
+msgid "Australia/LHI"
+msgstr "أستراليا / جزيرة لورد هاو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:689 TIMEZONES:695
+msgid "Lord Howe Island"
+msgstr "جزيرة لورد هاو"
+
+#: TIMEZONES:690
+msgid "Australia/Lindeman"
+msgstr "أستراليا/ليندمان"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:692
+msgid "Queensland - Holiday Islands"
+msgstr "كوينزلاند - جزر هوليداي"
+
+#: TIMEZONES:693
+msgid "Australia/Lord_Howe"
+msgstr "أستراليا/لورد_هووي"
+
+#: TIMEZONES:696
+msgid "Australia/Melbourne"
+msgstr "أستراليا/ملبورن"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:698 TIMEZONES:722
+msgid "Victoria"
+msgstr "فيكتوريا"
+
+#: TIMEZONES:699
+msgid "Australia/NSW"
+msgstr "أستراليا / نيو ساوث ويلز "
+
+#: TIMEZONES:702
+msgid "Australia/North"
+msgstr "أستراليا/الشمال"
+
+#: TIMEZONES:705
+msgid "Australia/Perth"
+msgstr "أستراليا/بيرث"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:707 TIMEZONES:725
+msgid "Western Australia - most locations"
+msgstr "غرب أستراليا - معظم المواقع"
+
+#: TIMEZONES:708
+msgid "Australia/Queensland"
+msgstr "أستراليا/كوينزلاند"
+
+#: TIMEZONES:711
+msgid "Australia/South"
+msgstr "أستراليا/الجنوب"
+
+#: TIMEZONES:714
+msgid "Australia/Sydney"
+msgstr "أستراليا/سيدني"
+
+#: TIMEZONES:717
+msgid "Australia/Tasmania"
+msgstr "أستراليا/تسمانيا"
+
+#: TIMEZONES:720
+msgid "Australia/Victoria"
+msgstr "أستراليا/فيكتوريا"
+
+#: TIMEZONES:723
+msgid "Australia/West"
+msgstr "أستراليا/غرب"
+
+#: TIMEZONES:726
+msgid "Australia/Yancowinna"
+msgstr "أستراليا/يانكوينا"
+
+#: TIMEZONES:729
+msgid "Brazil/Acre"
+msgstr "برازيل/أكرا"
+
+#: TIMEZONES:732
+msgid "Brazil/DeNoronha"
+msgstr "برازيل/دينومونها"
+
+#: TIMEZONES:735
+msgid "Brazil/East"
+msgstr "برازيل/شرق"
+
+#: TIMEZONES:738
+msgid "Brazil/West"
+msgstr "البرازيل/غرب"
+
+#: TIMEZONES:741
+msgid "Canada/Atlantic"
+msgstr "كندا / المحيط الأطلسي"
+
+#: TIMEZONES:744
+msgid "Canada/Central"
+msgstr "كندا / الوسط"
+
+#: TIMEZONES:747
+msgid "Canada/East-Saskatchewan"
+msgstr "كندا / شرق سسكتشوان"
+
+#: TIMEZONES:750
+msgid "Canada/Eastern"
+msgstr "كندا / الشرقية"
+
+#: TIMEZONES:753
+msgid "Canada/Mountain"
+msgstr "كندا / الجبال"
+
+#: TIMEZONES:756
+msgid "Canada/Newfoundland"
+msgstr "كندا / نيوفاوندلاند"
+
+#: TIMEZONES:759
+msgid "Canada/Pacific"
+msgstr "كندا / المحيط الهادي"
+
+#: TIMEZONES:762
+msgid "Canada/Saskatchewan"
+msgstr "كندا / سسكتشوان"
+
+#: TIMEZONES:765
+msgid "Canada/Yukon"
+msgstr "كندا / يوكون"
+
+#: TIMEZONES:768
+msgid "Chile/Continental"
+msgstr "شيلي / كونتنتال"
+
+#: TIMEZONES:771
+msgid "Chile/EasterIsland"
+msgstr "شيلي / الجزيرة الشرقية"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:773 TIMEZONES:907
+msgid "Easter Island & Sala y Gomez"
+msgstr "جزيرة الفصح و ذ سالا غوميز"
+
+#: TIMEZONES:774
+msgid "Cuba"
+msgstr "كوبا"
+
+#: TIMEZONES:775
+msgid "Egypt"
+msgstr "مصر"
+
+#: TIMEZONES:776
+msgid "Eire"
+msgstr "جمهورية ايرلندا"
+
+#: TIMEZONES:777
+msgid "Europe/Amsterdam"
+msgstr "أوروبا/أمستردام"
+
+#: TIMEZONES:778
+msgid "Europe/Andorra"
+msgstr "أوروبا/أندورا"
+
+#: TIMEZONES:779
+msgid "Europe/Athens"
+msgstr "أوروبا/أثينا"
+
+#: TIMEZONES:780
+msgid "Europe/Belfast"
+msgstr "أوروبا/بلفاست"
+
+#: TIMEZONES:781
+msgid "Europe/Belgrade"
+msgstr "أوروبا/بلغراد"
+
+#: TIMEZONES:782
+msgid "Europe/Berlin"
+msgstr "أوروبا/برلين"
+
+#: TIMEZONES:783
+msgid "Europe/Bratislava"
+msgstr "أوروبا/براتيسلافا"
+
+#: TIMEZONES:784
+msgid "Europe/Brussels"
+msgstr "أوروبا/بروكسل"
+
+#: TIMEZONES:785
+msgid "Europe/Bucharest"
+msgstr "أوروبا/بوخارست"
+
+#: TIMEZONES:786
+msgid "Europe/Budapest"
+msgstr "أوروبا/بودابست"
+
+#: TIMEZONES:787
+msgid "Europe/Chisinau"
+msgstr "أوروبا/شيزيناو"
+
+#: TIMEZONES:788
+msgid "Europe/Copenhagen"
+msgstr "أوروبا/كوبنهاجن"
+
+#: TIMEZONES:789
+msgid "Europe/Dublin"
+msgstr "أوروبا/دبلن"
+
+#: TIMEZONES:790
+msgid "Europe/Gibraltar"
+msgstr "أوروبا/جبل_طارق"
+
+#: TIMEZONES:791
+msgid "Europe/Guernsey"
+msgstr "أوروبا/جيورنسي"
+
+#: TIMEZONES:792
+msgid "Europe/Helsinki"
+msgstr "أوروبا/هلسنكي"
+
+#: TIMEZONES:793
+msgid "Europe/Isle_of_Man"
+msgstr "أوروبا/ايسل_أوف_مان"
+
+#: TIMEZONES:794
+msgid "Europe/Istanbul"
+msgstr "أوروبا/إسطنبول"
+
+#: TIMEZONES:795
+msgid "Europe/Jersey"
+msgstr "أوروبا/جيرسي"
+
+#: TIMEZONES:796
+msgid "Europe/Kaliningrad"
+msgstr "أوروبا/كالينينغراد"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:798
+msgid "Moscow-01 - Kaliningrad"
+msgstr "موسكو 01 - كالينينجراد"
+
+#: TIMEZONES:799
+msgid "Europe/Kiev"
+msgstr "أوروبا/كييف"
+
+#: TIMEZONES:802
+msgid "Europe/Lisbon"
+msgstr "أوروبا/لشبونة"
+
+#: TIMEZONES:805
+msgid "Europe/Ljubljana"
+msgstr "أوروبا/ليوبليانا"
+
+#: TIMEZONES:806
+msgid "Europe/London"
+msgstr "أوروبا/لندن"
+
+#: TIMEZONES:807
+msgid "Europe/Luxembourg"
+msgstr "أوروبا/لوكسمبورغ"
+
+#: TIMEZONES:808
+msgid "Europe/Madrid"
+msgstr "أوروبا/مدريد"
+
+#: TIMEZONES:811
+msgid "Europe/Malta"
+msgstr "أوروبا/مالطا"
+
+#: TIMEZONES:812
+msgid "Europe/Mariehamn"
+msgstr "أوروبا/ماريهامن"
+
+#: TIMEZONES:813
+msgid "Europe/Minsk"
+msgstr "أوروبا/منسك"
+
+#: TIMEZONES:814
+msgid "Europe/Monaco"
+msgstr "أوروبا/موناكو"
+
+#: TIMEZONES:815
+msgid "Europe/Moscow"
+msgstr "أوروبا/موسكو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:817 TIMEZONES:1022
+msgid "Moscow+00 - west Russia"
+msgstr "موسكو +00 - غرب روسيا"
+
+#: TIMEZONES:818
+msgid "Europe/Oslo"
+msgstr "أوروبا/أوسلو"
+
+#: TIMEZONES:819
+msgid "Europe/Paris"
+msgstr "أوروبا/باريس"
+
+#: TIMEZONES:820
+msgid "Europe/Podgorica"
+msgstr "أوروبا/بودجوريكا"
+
+#: TIMEZONES:821
+msgid "Europe/Prague"
+msgstr "أوروبا/براغ"
+
+#: TIMEZONES:822
+msgid "Europe/Riga"
+msgstr "أوروبا/ريغا"
+
+#: TIMEZONES:823
+msgid "Europe/Rome"
+msgstr "أوروبا/روما"
+
+#: TIMEZONES:824
+msgid "Europe/Samara"
+msgstr "أوروبا/سامارا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:826
+msgid "Moscow+01 - Samara, Udmurtia"
+msgstr "موسكو +01 -- سامارا ، يدمرتيا"
+
+#: TIMEZONES:827
+msgid "Europe/San_Marino"
+msgstr "أوروبا/سان_مارينو"
+
+#: TIMEZONES:828
+msgid "Europe/Sarajevo"
+msgstr "أوروبا/سراييفو"
+
+#: TIMEZONES:829
+msgid "Europe/Simferopol"
+msgstr "أوروبا/سمفيروبول"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:831
+msgid "central Crimea"
+msgstr "وسط القرم"
+
+#: TIMEZONES:832
+msgid "Europe/Skopje"
+msgstr "أوروبا/سكوبيي"
+
+#: TIMEZONES:833
+msgid "Europe/Sofia"
+msgstr "أوروبا/صوفيا"
+
+#: TIMEZONES:834
+msgid "Europe/Stockholm"
+msgstr "أوروبا/ستوكهولم"
+
+#: TIMEZONES:835
+msgid "Europe/Tallinn"
+msgstr "أوروبا/تالين"
+
+#: TIMEZONES:836
+msgid "Europe/Tirane"
+msgstr "أوروبا/تيران"
+
+#: TIMEZONES:837
+msgid "Europe/Tiraspol"
+msgstr "أوروبا/تيراسبول"
+
+#: TIMEZONES:838
+msgid "Europe/Uzhgorod"
+msgstr "أوروبا/أوزغورود"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:840
+msgid "Ruthenia"
+msgstr "ريوثنيا"
+
+#: TIMEZONES:841
+msgid "Europe/Vaduz"
+msgstr "أوروبا/فادوز"
+
+#: TIMEZONES:842
+msgid "Europe/Vatican"
+msgstr "أوروبا/الفاتيكان"
+
+#: TIMEZONES:843
+msgid "Europe/Vienna"
+msgstr "أوروبا/فيينّا"
+
+#: TIMEZONES:844
+msgid "Europe/Vilnius"
+msgstr "أوروبا/فيلنيوس"
+
+#: TIMEZONES:845
+msgid "Europe/Volgograd"
+msgstr "أوروبا/فولجوجراد"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:847
+msgid "Moscow+00 - Caspian Sea"
+msgstr "موسكو +00 - بحر قزوين"
+
+#: TIMEZONES:848
+msgid "Europe/Warsaw"
+msgstr "أوروبا/وارسو"
+
+#: TIMEZONES:849
+msgid "Europe/Zagreb"
+msgstr "أوروبا/زغرب"
+
+#: TIMEZONES:850
+msgid "Europe/Zaporozhye"
+msgstr "أوروبا/زابوروزيي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:852
+msgid "Zaporozh'ye, E Lugansk / Zaporizhia, E Luhansk"
+msgstr "Zaporozh'ye, E Lugansk / Zaporizhia, E Luhansk"
+
+#: TIMEZONES:853
+msgid "Europe/Zurich"
+msgstr "أوروبا/زيوريخ"
+
+#: TIMEZONES:854
+msgid "GB"
+msgstr "بريطانيا العظمى"
+
+#: TIMEZONES:855
+msgid "GB-Eire"
+msgstr "بريطانيا العظمى -إيرلندا"
+
+#: TIMEZONES:856
+msgid "Hongkong"
+msgstr "هونغ كونغ"
+
+#: TIMEZONES:857
+msgid "Iceland"
+msgstr "آيسلند"
+
+#: TIMEZONES:858
+msgid "Indian/Antananarivo"
+msgstr "الهندي/أنتاناناريفو"
+
+#: TIMEZONES:859
+msgid "Indian/Chagos"
+msgstr "الهندي/تشاغوس"
+
+#: TIMEZONES:860
+msgid "Indian/Christmas"
+msgstr "الهندي/الميلاد"
+
+#: TIMEZONES:861
+msgid "Indian/Cocos"
+msgstr "الهندي/كوكوس"
+
+#: TIMEZONES:862
+msgid "Indian/Comoro"
+msgstr "الهندي/جزر_القمر"
+
+#: TIMEZONES:863
+msgid "Indian/Kerguelen"
+msgstr "الهندي/كرغويلن"
+
+#: TIMEZONES:864
+msgid "Indian/Mahe"
+msgstr "الهندي/ماهي"
+
+#: TIMEZONES:865
+msgid "Indian/Maldives"
+msgstr "الهندي/مالديف"
+
+#: TIMEZONES:866
+msgid "Indian/Mauritius"
+msgstr "الهندي/جزيرة_موريس"
+
+#: TIMEZONES:867
+msgid "Indian/Mayotte"
+msgstr "الهندي/مايوت"
+
+#: TIMEZONES:868
+msgid "Indian/Reunion"
+msgstr "الهندي/ريوونيون"
+
+#: TIMEZONES:869
+msgid "Iran"
+msgstr "إيران"
+
+#: TIMEZONES:870
+msgid "Israel"
+msgstr "إسرائيل"
+
+#: TIMEZONES:871
+msgid "Jamaica"
+msgstr "جامايكا"
+
+#: TIMEZONES:872
+msgid "Japan"
+msgstr "اليابان"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:873 TIMEZONES:875 TIMEZONES:937
+msgid "Kwajalein"
+msgstr "كواجالييين"
+
+#: TIMEZONES:876
+msgid "Libya"
+msgstr "ليبيا"
+
+#: TIMEZONES:877
+msgid "Mexico/BajaNorte"
+msgstr "المكسيك / BajaNorte"
+
+#: TIMEZONES:880
+msgid "Mexico/BajaSur"
+msgstr "المكسيك /BajaSur"
+
+#: TIMEZONES:883
+msgid "Mexico/General"
+msgstr "المكسيك / عام"
+
+#: TIMEZONES:886
+msgid "NZ"
+msgstr "نيوزلندا"
+
+#: TIMEZONES:889
+msgid "NZ-CHAT"
+msgstr "نيوزلندا-CHAT"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:891 TIMEZONES:904
+msgid "Chatham Islands"
+msgstr "جزر تشاتام"
+
+#: TIMEZONES:892
+msgid "Navajo"
+msgstr "النافاجو"
+
+#: TIMEZONES:895
+msgid "PRC"
+msgstr "PRC"
+
+#: TIMEZONES:898
+msgid "Pacific/Apia"
+msgstr "الهادي/أبيا"
+
+#: TIMEZONES:899
+msgid "Pacific/Auckland"
+msgstr "الهادي/أوكلند"
+
+#: TIMEZONES:902
+msgid "Pacific/Chatham"
+msgstr "الهادي/شاتهام"
+
+#: TIMEZONES:905
+msgid "Pacific/Easter"
+msgstr "الهادي/جزيرة_الفصح"
+
+#: TIMEZONES:908
+msgid "Pacific/Efate"
+msgstr "الهادي/إيفاتي"
+
+#: TIMEZONES:909
+msgid "Pacific/Enderbury"
+msgstr "الهادي/أندربوري"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:911
+msgid "Phoenix Islands"
+msgstr "جزر فينيكس"
+
+#: TIMEZONES:912
+msgid "Pacific/Fakaofo"
+msgstr "الهادي/فاكاووفو"
+
+#: TIMEZONES:913
+msgid "Pacific/Fiji"
+msgstr "الهادي/فيجّي"
+
+#: TIMEZONES:914
+msgid "Pacific/Funafuti"
+msgstr "الهادي/فونافوتي"
+
+#: TIMEZONES:915
+msgid "Pacific/Galapagos"
+msgstr "الهادي/غالاباغوس"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:917
+msgid "Galapagos Islands"
+msgstr "جزر غالاباغوس"
+
+#: TIMEZONES:918
+msgid "Pacific/Gambier"
+msgstr "الهادي/غامبير"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:920
+msgid "Gambier Islands"
+msgstr "جزر جامبير"
+
+#: TIMEZONES:921
+msgid "Pacific/Guadalcanal"
+msgstr "الهادي/غوادالكانال"
+
+#: TIMEZONES:922
+msgid "Pacific/Guam"
+msgstr "الهادي/غوام"
+
+#: TIMEZONES:923
+msgid "Pacific/Honolulu"
+msgstr "الهادي/هونولولو"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:925 TIMEZONES:1006
+msgid "Hawaii"
+msgstr "هاواي"
+
+#: TIMEZONES:926
+msgid "Pacific/Johnston"
+msgstr "الهادي/جونستون"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:928
+msgid "Johnston Atoll"
+msgstr "جزيرة جونستون"
+
+#: TIMEZONES:929
+msgid "Pacific/Kiritimati"
+msgstr "الهادي/كيريتيماتي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:931
+msgid "Line Islands"
+msgstr "جزر الخط"
+
+#: TIMEZONES:932
+msgid "Pacific/Kosrae"
+msgstr "الهادي/كوسراي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:934
+msgid "Kosrae"
+msgstr "كوسراي"
+
+#: TIMEZONES:935
+msgid "Pacific/Kwajalein"
+msgstr "الهادي/كواجالييين"
+
+#: TIMEZONES:938
+msgid "Pacific/Majuro"
+msgstr "الهادي/ماجورو"
+
+#: TIMEZONES:941
+msgid "Pacific/Marquesas"
+msgstr "الهادي/جزر_الماركيز"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:943
+msgid "Marquesas Islands"
+msgstr "جزر الماركيز"
+
+#: TIMEZONES:944
+msgid "Pacific/Midway"
+msgstr "الهادي/ميدواي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:946
+msgid "Midway Islands"
+msgstr "جزر ميدواي"
+
+#: TIMEZONES:947
+msgid "Pacific/Nauru"
+msgstr "الهادي/ناورو"
+
+#: TIMEZONES:948
+msgid "Pacific/Niue"
+msgstr "الهادي/نيووي"
+
+#: TIMEZONES:949
+msgid "Pacific/Norfolk"
+msgstr "الهادي/نورفولك"
+
+#: TIMEZONES:950
+msgid "Pacific/Noumea"
+msgstr "الهادي/نومييا"
+
+#: TIMEZONES:951
+msgid "Pacific/Pago_Pago"
+msgstr "الهادي/باغو_باغو"
+
+#: TIMEZONES:952
+msgid "Pacific/Palau"
+msgstr "الهادي/بالاو"
+
+#: TIMEZONES:953
+msgid "Pacific/Pitcairn"
+msgstr "الهادي/بيتكارن"
+
+#: TIMEZONES:954
+msgid "Pacific/Ponape"
+msgstr "الهادي/بونابي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:956
+msgid "Ponape (Pohnpei)"
+msgstr "Ponape (بوهنباي)"
+
+#: TIMEZONES:957
+msgid "Pacific/Port_Moresby"
+msgstr "الهادي/بورت_مورسبي"
+
+#: TIMEZONES:958
+msgid "Pacific/Rarotonga"
+msgstr "الهادي/راروتونغا"
+
+#: TIMEZONES:959
+msgid "Pacific/Saipan"
+msgstr "الهادي/سايبان"
+
+#: TIMEZONES:960
+msgid "Pacific/Samoa"
+msgstr "الهادي/ساموا"
+
+#: TIMEZONES:961
+msgid "Pacific/Tahiti"
+msgstr "الهادي/تاهيتي"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:963
+msgid "Society Islands"
+msgstr "جزر المجتمع"
+
+#: TIMEZONES:964
+msgid "Pacific/Tarawa"
+msgstr "الهادي/تاراوا"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:966
+msgid "Gilbert Islands"
+msgstr "جزر جيلبرت"
+
+#: TIMEZONES:967
+msgid "Pacific/Tongatapu"
+msgstr "الهادي/تونغاتابو"
+
+#: TIMEZONES:968
+msgid "Pacific/Truk"
+msgstr "الهادي/تروك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:970 TIMEZONES:977
+msgid "Truk (Chuuk) and Yap"
+msgstr "تراك (Chuuk) وياب"
+
+#: TIMEZONES:971
+msgid "Pacific/Wake"
+msgstr "الهادي/وايك"
+
+#. i18n: comment to the previous timezone
+#: TIMEZONES:973
+msgid "Wake Island"
+msgstr "جزيرة وايك"
+
+#: TIMEZONES:974
+msgid "Pacific/Wallis"
+msgstr "الهادي/واليس"
+
+#: TIMEZONES:975
+msgid "Pacific/Yap"
+msgstr "الهادي/ياب"
+
+#: TIMEZONES:978
+msgid "Poland"
+msgstr "بولندا"
+
+#: TIMEZONES:979
+msgid "Portugal"
+msgstr "البرتغال"
+
+#: TIMEZONES:982
+msgid "ROC"
+msgstr "جمهورية الصين"
+
+#: TIMEZONES:983
+msgid "ROK"
+msgstr "كوريا الجنوبية"
+
+#: TIMEZONES:984
+msgid "Singapore"
+msgstr "سنغافورة"
+
+#: TIMEZONES:985
+msgid "Turkey"
+msgstr "تركيا"
+
+#: TIMEZONES:986
+msgid "US/Alaska"
+msgstr "الولايات المتحدا/ألاسكا"
+
+#: TIMEZONES:989
+msgid "US/Aleutian"
+msgstr "الولايات المتحدة / أليوت"
+
+#: TIMEZONES:992
+msgid "US/Arizona"
+msgstr "الولايات المتحدة / أريزونا"
+
+#: TIMEZONES:995
+msgid "US/Central"
+msgstr "الولايات المتحدة / الوسط"
+
+#: TIMEZONES:998
+msgid "US/East-Indiana"
+msgstr "الولايات المتحدة / شرق انديانا"
+
+#: TIMEZONES:1001
+msgid "US/Eastern"
+msgstr "الولايات المتحدة / الشرق"
+
+#: TIMEZONES:1004
+msgid "US/Hawaii"
+msgstr "الولايات المتحدة / هاواي"
+
+#: TIMEZONES:1007
+msgid "US/Indiana-Starke"
+msgstr "الولايات المتحدة / انديانا - ستارك"
+
+#: TIMEZONES:1010
+msgid "US/Michigan"
+msgstr "الولايات المتحدة / ميتشيغان"
+
+#: TIMEZONES:1013
+msgid "US/Mountain"
+msgstr "الولايات المتحدة / جبال"
+
+#: TIMEZONES:1016
+msgid "US/Pacific"
+msgstr "الولايات المتحدة / الهادي"
+
+#: TIMEZONES:1019
+msgid "US/Samoa"
+msgstr "الولايات المتحدة / ساموا"
+
+#: TIMEZONES:1020
+msgid "W-SU"
+msgstr "W-SU"

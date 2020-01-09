@@ -1,0 +1,110 @@
+# translation of kfile_mp3.po to
+# Copyright (C) 2004, 2006, 2007 Free Software Foundation, Inc.
+#
+# Yaqoob Al Jasmi <yaqoob_aljasmi@whoever.com>, 2002.
+# waleed fathalla <fathalla_w@yahoo.com>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# ahmad samawi <ahmad.samawi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kfile_mp3\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2007-08-20 05:31+0200\n"
+"PO-Revision-Date: 2009-01-03 13:38+0300\n"
+"Last-Translator: ahmad samawi <ahmad.samawi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@lists.kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: kfile_mp3.cpp:54
+msgid "ID3 Tag"
+msgstr "علامة ID3"
+
+#: kfile_mp3.cpp:61
+msgid "Title"
+msgstr "العنوان"
+
+#: kfile_mp3.cpp:65
+msgid "Artist"
+msgstr "الفنان"
+
+#: kfile_mp3.cpp:69
+msgid "Album"
+msgstr "الألبوم"
+
+#: kfile_mp3.cpp:72
+msgid "Year"
+msgstr "السنة"
+
+#: kfile_mp3.cpp:75
+msgid "Comment"
+msgstr "الملاحظات"
+
+#: kfile_mp3.cpp:79
+msgid "Track"
+msgstr "المسار"
+
+#: kfile_mp3.cpp:82
+msgid "Genre"
+msgstr "النوع"
+
+#: kfile_mp3.cpp:87
+msgid "Technical Details"
+msgstr "التفاصيل التقنية"
+
+#: kfile_mp3.cpp:89
+msgid "Version"
+msgstr "الإصدار"
+
+#: kfile_mp3.cpp:90
+msgid "MPEG "
+msgstr "MPEG"
+
+#: kfile_mp3.cpp:92
+msgid "Layer"
+msgstr "الطبقة"
+
+#: kfile_mp3.cpp:93
+msgid "CRC"
+msgstr "تدقيق دوري عن الأخطاء CRC"
+
+#: kfile_mp3.cpp:94
+msgid "Bitrate"
+msgstr "معدل البت"
+
+#: kfile_mp3.cpp:97
+msgid " kbps"
+msgstr "ك. بت/ثانية"
+
+#: kfile_mp3.cpp:99
+msgid "Sample Rate"
+msgstr "معدل العينة"
+
+#: kfile_mp3.cpp:100
+msgid "Hz"
+msgstr "هرتز"
+
+#: kfile_mp3.cpp:102
+msgid "Channels"
+msgstr "القنوات"
+
+#: kfile_mp3.cpp:103
+msgid "Copyright"
+msgstr "حقوق النشر"
+
+#: kfile_mp3.cpp:104
+msgid "Original"
+msgstr "الأصلي"
+
+#: kfile_mp3.cpp:105
+msgid "Length"
+msgstr "المدة"
+
+#: kfile_mp3.cpp:108
+msgid "Emphasis"
+msgstr "تشديد"

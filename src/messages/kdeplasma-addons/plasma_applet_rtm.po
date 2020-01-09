@@ -1,0 +1,282 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_rtm\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-10-15 01:27+0200\n"
+"PO-Revision-Date: 2009-07-11 13:06+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#. i18n: file: authenticate.ui:17
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox_2)
+#: rc.cpp:3
+msgid ""
+"Displays the current authentication state of the KDE Remember The Milk "
+"applet. If the light is green, the applet is authenticated. If the light is "
+"red, you need to enter your username and password below to log in."
+msgstr ""
+"تعرض حالة الاستيثاق الحالي لبريمج كدي تذكر الحليب. إذا كان اللون أخضر فإن "
+"البريمج قد ولج ، أما إذا كان احمر ، فستحتاج إلى إدخال اسم المستخدم و كلمة "
+"السر في الأسفل حتى تستطيع الولوج."
+
+#. i18n: file: authenticate.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:6
+msgid "Current Authentication Status"
+msgstr "حالة الاستيثاق الحالية"
+
+#. i18n: file: authenticate.ui:38
+#. i18n: ectx: property (text), widget (QLabel, authStatus)
+#: rc.cpp:9 rememberthemilk-plasmoid.cpp:185
+msgid "Authenticated"
+msgstr "استوثق"
+
+#. i18n: file: authenticate.ui:50
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:12
+#, fuzzy
+#| msgid "Authenticated"
+msgid "Authenticate"
+msgstr "استوثق"
+
+#. i18n: file: authenticate.ui:68
+#. i18n: ectx: property (text), widget (QPushButton, authenticate)
+#: rc.cpp:15
+#, fuzzy
+#| msgid "Authentication to Remember The Milk needed"
+msgid "Authenticate with Remember The Milk Service"
+msgstr "بحاجة إلى استياق من Remember The Milk"
+
+#. i18n: file: authenticate.ui:80
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:18
+msgid "No Remember The Milk Account?"
+msgstr "لا يوجد عندك حساب Remember The Milk ؟"
+
+#. i18n: file: authenticate.ui:90
+#. i18n: ectx: property (text), widget (KUrlLabel, signupLabel)
+#: rc.cpp:21
+msgid "Register for one here."
+msgstr "سجل لواحد من هنا."
+
+#. i18n: file: authenticate.ui:96
+#. i18n: ectx: property (url), widget (KUrlLabel, signupLabel)
+#: rc.cpp:24
+#, fuzzy
+#| msgid "http://www.rememberthemilk.com/signup/"
+msgid "https://www.rememberthemilk.com/signup/"
+msgstr "http://www.rememberthemilk.com/signup/"
+
+#. i18n: file: general.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:27
+msgid "Sort By:"
+msgstr "افرز بواسطة:"
+
+#. i18n: file: general.ui:39
+#. i18n: ectx: property (whatsThis), widget (KComboBox, sortType)
+#: rc.cpp:30
+msgid ""
+"Change the current sorting method.\n"
+"\n"
+"Priority:\n"
+"Items are first sorted by their priority (1, 2, 3, none) and secondly by due "
+"date.\n"
+"\n"
+"Due Date:\n"
+"Items are first sorted by their due date and secondly by priority."
+msgstr ""
+"غير طريقة الفرز الحالية.\n"
+"\n"
+"الأولوية:\n"
+"تفرز العناصر أولا حسب أولويتها (1 ، 2 ، 3 ، بدون) ، ثم عن طريقة التاريخ.\n"
+"\n"
+"الموعد: \n"
+"تفرز العناصر أولا حسب موعدها ثم حسب أهميتها."
+
+#: rememberthemilk-plasmoid.cpp:68
+msgid "Due Date"
+msgstr "الموعد"
+
+#: rememberthemilk-plasmoid.cpp:69
+msgid "Priority"
+msgstr "الأهمية"
+
+#: rememberthemilk-plasmoid.cpp:98
+msgid "Authentication to Remember The Milk needed"
+msgstr "بحاجة إلى استياق من Remember The Milk"
+
+#: rememberthemilk-plasmoid.cpp:152
+msgid "General"
+msgstr "عام"
+
+#: rememberthemilk-plasmoid.cpp:152
+msgid "General Configuration Options"
+msgstr "خيرات الضبط العام"
+
+#: rememberthemilk-plasmoid.cpp:153
+msgid "Authentication"
+msgstr "الاستيثاق"
+
+#: rememberthemilk-plasmoid.cpp:153
+msgid "Remember The Milk Authentication"
+msgstr "استيثاق Remember The Milk"
+
+#: rememberthemilk-plasmoid.cpp:189
+msgid "Not Authenticated"
+msgstr "لم يستوثق"
+
+#: rememberthemilk-plasmoid.cpp:202
+msgid "Login Failed. Please try again."
+msgstr "فشل الولوج . حاولة مرة أخرى."
+
+#: rememberthemilk-plasmoid.cpp:251 rememberthemilk-plasmoid.cpp:308
+msgid "Remember The Milk Tasks"
+msgstr "مهام Remember The Milk"
+
+#: rememberthemilk-plasmoid.cpp:263
+msgid "Editing Task: "
+msgstr "تحرير المهمة: "
+
+#: rememberthemilk-plasmoid.cpp:296
+msgid "Failed to load the Remember The Milk DataEngine"
+msgstr "فشل في تحميل محرك بيانات Remember The Milk"
+
+#: rememberthemilk-plasmoid.cpp:311
+msgid "No Data Yet. Refreshing..."
+msgstr "لا يوجد بيانات لحد الآن ، يحدث..."
+
+#: rememberthemilk-plasmoid.cpp:349
+msgid "Filter Tasks..."
+msgstr "رشح المهام ..."
+
+#: taskeditor.cpp:53
+msgid "Name:"
+msgstr "الاسم:"
+
+#: taskeditor.cpp:55
+msgid "Due:"
+msgstr "الموعد:"
+
+#: taskeditor.cpp:57
+msgid "Tags:"
+msgstr "الوسوم:"
+
+#: taskeditor.cpp:59
+msgid "Priority:"
+msgstr "الأولوية:"
+
+#: taskeditor.cpp:61
+msgid "Complete:"
+msgstr "الانتهاء:"
+
+#: taskeditor.cpp:64
+msgid "Top Priority"
+msgstr "أولوية قصوى"
+
+#: taskeditor.cpp:64
+msgid "Medium Priority"
+msgstr "أولوية متوسطة"
+
+#: taskeditor.cpp:64
+msgid "Low Priority"
+msgstr "أولوية منخفضة"
+
+#: taskeditor.cpp:64
+msgid "No Priority"
+msgstr "بدون أولوية"
+
+#: taskeditor.cpp:75
+msgid "Update Task"
+msgstr "حدث المهمة"
+
+#: taskeditor.cpp:78
+msgid "Discard Changes"
+msgstr "ارفض التغيرات"
+
+#: taskitemdelegate.cpp:45
+msgid "Tags: "
+msgstr "الوسوم:"
+
+#: taskmodel.cpp:80
+msgid "Top Priority:"
+msgstr "أولوية قصوى:"
+
+#: taskmodel.cpp:81
+msgid "Medium Priority:"
+msgstr "أولوية متوسطة:"
+
+#: taskmodel.cpp:82
+msgid "Low Priority:"
+msgstr "أولوية منخفضة:"
+
+#: taskmodel.cpp:83
+msgid "No Priority:"
+msgstr "بدون أولوية:"
+
+#: taskmodel.cpp:86
+msgid "Overdue"
+msgstr "فات موعدها"
+
+#: taskmodel.cpp:87
+msgid "Today"
+msgstr "اليوم"
+
+#: taskmodel.cpp:88
+msgid "Tomorrow"
+msgstr "غدا"
+
+#: taskmodel.cpp:89
+msgid "Anytime"
+msgstr "أي وقت"
+
+#~ msgid "Authenticate as:"
+#~ msgstr "استوثق كـ :"
+
+#~ msgid "Username:"
+#~ msgstr "اسم المستخدم:"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-"
+#~ "weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Enter your Remember The "
+#~ "Milk username here. If you do not have an account, visit <a href=\"http://"
+#~ "www.rememberthemilk.com/signup/\"><span style=\" text-decoration: "
+#~ "underline; color:#0000ff;\">http://www.rememberthemilk.com/signup/</"
+#~ "span></a> to create one.</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-"
+#~ "weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">أدخل اسم المستخدم ل  "
+#~ "Remember The Milk ، إذا لم تملك واحد ، فزر  <a href=\"http://www."
+#~ "rememberthemilk.com/signup/\"><span style=\" text-decoration: underline; "
+#~ "color:#0000ff;\">http://www.rememberthemilk.com/signup/</span></a> لتنشئ "
+#~ "واحد.</p></body></html>"
+
+#~ msgid "Password:"
+#~ msgstr "كلمة السر:"
+
+#~ msgid "Enter your Remember The Milk password here."
+#~ msgstr "ادخل كلمة سر Remember The Milk هنا."

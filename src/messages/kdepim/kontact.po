@@ -1,0 +1,1819 @@
+# translation of kontact.po to
+# Copyright (C) 2004, 2006, 2007 Free Software Foundation, Inc.
+#
+# Ahmad M. Zawawi <azawawi@emirates.net.ae>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kontact\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-10-28 01:26+0100\n"
+"PO-Revision-Date: 2007-10-14 15:55+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"
+
+#. i18n: file: src/kontact.kcfg:14
+#. i18n: ectx: label, entry (ForceStartupPlugin), group (View)
+#: rc.cpp:5
+msgid "Always start with specified component:"
+msgstr "دائماً إبدء التشغيل بلمكون المحدد:"
+
+#. i18n: file: src/kontact.kcfg:15
+#. i18n: ectx: whatsthis, entry (ForceStartupPlugin), group (View)
+#: rc.cpp:8
+msgid ""
+"Usually Kontact will come up with the component used before shutdown. Check "
+"this box if you would like a specific component to come up on start instead."
+msgstr ""
+"يبدء عادتا Kontact بتشغيل المكونات المستعملة قبل إنهاء الجلسة الأخيرة. إختر "
+"هذا الصندوق إذا أردت أن يظهر مكون آخر محدد عند بدء التشغيل بدلا من ذلك. "
+
+#. i18n: file: src/kontactui.rc:6
+#. i18n: ectx: Menu (file)
+#. i18n: file: plugins/knotes/knotes_part.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:11 rc.cpp:74
+msgid "&File"
+msgstr ""
+
+#. i18n: file: src/kontactui.rc:16
+#. i18n: ectx: Menu (settings)
+#. i18n: file: plugins/summary/kontactsummary_part.rc:5
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:14 rc.cpp:71
+#, fuzzy
+#| msgid "Meeting"
+msgid "&Settings"
+msgstr "إجتماع"
+
+#. i18n: file: src/kontactui.rc:30
+#. i18n: ectx: Menu (help)
+#: rc.cpp:17
+msgid "&Help"
+msgstr ""
+
+#. i18n: file: src/kontactui.rc:35
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:20
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: file: src/kontactui.rc:40
+#. i18n: ectx: ToolBar (navigatorToolBar)
+#: rc.cpp:23
+msgid "Navigator"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:21
+#. i18n: ectx: property (windowTitle), widget (QWidget, SDSummaryConfig_Base)
+#: rc.cpp:26
+#, fuzzy
+#| msgid "Special Dates Summary"
+msgid "Special Dates Summary Configuration"
+msgstr "ملخص التواريخ الخاصة"
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:27
+#. i18n: ectx: property (title), widget (QGroupBox, mDaysGroup)
+#: rc.cpp:29
+#, fuzzy
+msgid "Show Special Dates Starting"
+msgstr "قادم خاص تواريخ"
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:42
+#. i18n: ectx: property (text), widget (QRadioButton, mDateMonthButton)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:144
+#. i18n: ectx: property (text), widget (QRadioButton, mDateMonthButton)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:55
+#. i18n: ectx: property (text), widget (QRadioButton, mDateMonthButton)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:37
+#. i18n: ectx: property (text), widget (QRadioButton, mDateMonthButton)
+#: rc.cpp:32 rc.cpp:113 rc.cpp:173 rc.cpp:212
+msgid "Within the next &month (31 days)"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:55
+#. i18n: ectx: property (text), widget (QRadioButton, mDateRangeButton)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:159
+#. i18n: ectx: property (text), widget (QRadioButton, mDateRangeButton)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:68
+#. i18n: ectx: property (text), widget (QRadioButton, mDateRangeButton)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:50
+#. i18n: ectx: property (text), widget (QRadioButton, mDateRangeButton)
+#: rc.cpp:35 rc.cpp:116 rc.cpp:176 rc.cpp:215
+msgid "Within the &next:"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:68
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, mCustomDays)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:172
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, mCustomDays)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:81
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, mCustomDays)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:63
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, mCustomDays)
+#: rc.cpp:38 rc.cpp:119 rc.cpp:179 rc.cpp:218
+#, fuzzy
+msgid "1 day"
+msgstr "اليوم"
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:71
+#. i18n: ectx: property (suffix), widget (QSpinBox, mCustomDays)
+#: rc.cpp:41
+#, fuzzy
+msgid " days"
+msgstr "اليوم"
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:90
+#. i18n: ectx: property (text), widget (QRadioButton, mDateTodayButton)
+#. i18n: file: plugins/planner/plannerconfig_base.ui:134
+#. i18n: ectx: property (text), widget (QRadioButton, mDateTodayButton)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:45
+#. i18n: ectx: property (text), widget (QRadioButton, mDateTodayButton)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:27
+#. i18n: ectx: property (text), widget (QRadioButton, mDateTodayButton)
+#: rc.cpp:44 rc.cpp:110 rc.cpp:170 rc.cpp:209
+#, fuzzy
+#| msgid "Today"
+msgid "&Today only"
+msgstr "اليوم"
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:103
+#. i18n: ectx: property (title), widget (QGroupBox, mShowFromCalGroup)
+#: rc.cpp:47
+msgid "Show These Special Dates From Your Calendar"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:121
+#. i18n: ectx: property (text), widget (QCheckBox, mShowBirthdaysFromCalBox)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:100
+#. i18n: ectx: property (text), widget (QCheckBox, mShowBirthdaysFromCal)
+#: rc.cpp:50 rc.cpp:233
+#, fuzzy
+#| msgid "Birthday"
+msgid "Show &birthdays"
+msgstr "عيد الميلاد"
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:131
+#. i18n: ectx: property (text), widget (QCheckBox, mShowAnniversariesFromCalBox)
+#: rc.cpp:53
+#, fuzzy
+#| msgid "Anniversary"
+msgid "Show &anniversaries"
+msgstr "ذكرة سنوية"
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:141
+#. i18n: ectx: property (text), widget (QCheckBox, mShowHolidaysFromCalBox)
+#: rc.cpp:56
+#, fuzzy
+#| msgid "Show Icons"
+msgid "Show &holidays"
+msgstr "أعرض الأيقونات"
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:151
+#. i18n: ectx: property (text), widget (QCheckBox, mShowSpecialsFromCalBox)
+#: rc.cpp:59
+#, fuzzy
+#| msgid "Special Occasion"
+msgid "Show s&pecial occasions"
+msgstr "مناسبة خاصة"
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:164
+#. i18n: ectx: property (title), widget (QGroupBox, mShowFromKABButtonGroup)
+#: rc.cpp:62
+msgid "Show These Special Dates From Your Contact List"
+msgstr ""
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:179
+#. i18n: ectx: property (text), widget (QCheckBox, mShowBirthdaysFromKABBox)
+#: rc.cpp:65
+#, fuzzy
+#| msgid "Birthday"
+msgid "Show birth&days"
+msgstr "عيد الميلاد"
+
+#. i18n: file: plugins/specialdates/sdsummaryconfig_base.ui:189
+#. i18n: ectx: property (text), widget (QCheckBox, mShowAnniversariesFromKABBox)
+#: rc.cpp:68
+#, fuzzy
+#| msgid "Anniversary"
+msgid "Show anni&versaries"
+msgstr "ذكرة سنوية"
+
+#. i18n: file: plugins/knotes/knotes_part.rc:8
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:77
+#, fuzzy
+msgid "&Edit"
+msgstr "تحرير إلى."
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:21
+#. i18n: ectx: property (windowTitle), widget (QWidget, PlannerSummaryConfig_Base)
+#: rc.cpp:80
+#, fuzzy
+#| msgid "Mail Summary Configuration Dialog"
+msgid "Planner Summary Configuration"
+msgstr "حوار إعداد ملخص البريد"
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:31
+#. i18n: ectx: attribute (title), widget (QWidget, GeneralTab)
+#: rc.cpp:83
+msgctxt "general settings"
+msgid "General"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:37
+#. i18n: ectx: property (title), widget (QGroupBox, mGeneralBox)
+#: rc.cpp:86
+#, fuzzy
+#| msgid "Mail Summary Configuration Dialog"
+msgid "General Configuration"
+msgstr "حوار إعداد ملخص البريد"
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:58
+#. i18n: ectx: property (text), widget (QCheckBox, mShowRecurrence)
+#: rc.cpp:89
+msgid "Show recurrence icon"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:68
+#. i18n: ectx: property (text), widget (QCheckBox, mShowReminder)
+#: rc.cpp:92
+msgid "Show reminder icon"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:78
+#. i18n: ectx: property (text), widget (QCheckBox, mUnderline)
+#: rc.cpp:95
+msgid "Underline links"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:88
+#. i18n: ectx: property (text), widget (QCheckBox, mTodo)
+#: rc.cpp:98
+#, fuzzy
+#| msgid "Show Icons"
+msgid "Show to-dos in planner"
+msgstr "أعرض الأيقونات"
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:98
+#. i18n: ectx: property (text), widget (QCheckBox, mSd)
+#: rc.cpp:101
+#, fuzzy
+msgid "Show special dates in planner"
+msgstr "قادم خاص تواريخ"
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:113
+#. i18n: ectx: attribute (title), widget (QWidget, CalendarTab)
+#: rc.cpp:104
+#, fuzzy
+#| msgid "Active Calendar"
+msgid "Calendar"
+msgstr "التقويم النشط"
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:119
+#. i18n: ectx: property (title), widget (QGroupBox, mDaysGroup)
+#: rc.cpp:107
+#, fuzzy
+#| msgid "Active Calendar"
+msgid "Show Calendar Days"
+msgstr "زامن التقويم"
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:175
+#. i18n: ectx: property (suffix), widget (QSpinBox, mCustomDays)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:84
+#. i18n: ectx: property (suffix), widget (QSpinBox, mCustomDays)
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:66
+#. i18n: ectx: property (suffix), widget (QSpinBox, mCustomDays)
+#: rc.cpp:122 rc.cpp:182 rc.cpp:221
+#, fuzzy
+msgctxt "days to show in summary"
+msgid " days"
+msgstr "اليوم"
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:202
+#. i18n: ectx: attribute (title), widget (QWidget, TodoTab)
+#: rc.cpp:125
+#, fuzzy
+msgid "To-dos"
+msgstr "منتظِر إلى"
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:208
+#. i18n: ectx: property (title), widget (QGroupBox, mHideGroup)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:106
+#. i18n: ectx: property (title), widget (QGroupBox, mHideGroup)
+#: rc.cpp:128 rc.cpp:185
+msgid "Hide Following To-do Types"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:226
+#. i18n: ectx: property (text), widget (QCheckBox, mHideCompletedBox)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:121
+#. i18n: ectx: property (text), widget (QCheckBox, mHideCompletedBox)
+#: rc.cpp:131 rc.cpp:188
+#, fuzzy
+msgid "&Completed"
+msgstr "مكتمل"
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:236
+#. i18n: ectx: property (text), widget (QCheckBox, mHideOpenEndedBox)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:131
+#. i18n: ectx: property (text), widget (QCheckBox, mHideOpenEndedBox)
+#: rc.cpp:134 rc.cpp:191
+msgid "&Open-ended (no due date)"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:246
+#. i18n: ectx: property (text), widget (QCheckBox, mHideUnstartedBox)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:141
+#. i18n: ectx: property (text), widget (QCheckBox, mHideUnstartedBox)
+#: rc.cpp:137 rc.cpp:194
+msgid "&Unstarted (start date is in the future)"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:253
+#. i18n: ectx: property (text), widget (QCheckBox, mHideInProgressBox)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:148
+#. i18n: ectx: property (text), widget (QCheckBox, mHideInProgressBox)
+#: rc.cpp:140 rc.cpp:197
+msgid "&In-progress (started but not completed)"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:260
+#. i18n: ectx: property (text), widget (QCheckBox, mHideOverdueBox)
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:155
+#. i18n: ectx: property (text), widget (QCheckBox, mHideOverdueBox)
+#: rc.cpp:143 rc.cpp:200
+msgid "Over&due (not completed and beyond due-date)"
+msgstr ""
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:272
+#. i18n: ectx: attribute (title), widget (QWidget, SdTab)
+#: rc.cpp:146
+#, fuzzy
+#| msgid "Special Dates Summary"
+msgid "Special Dates"
+msgstr "ملخص التواريخ الخاصة"
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:278
+#. i18n: ectx: property (title), widget (QGroupBox, mSdBox)
+#: rc.cpp:149
+#, fuzzy
+msgid "Show these Special Dates"
+msgstr "قادم خاص تواريخ"
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:296
+#. i18n: ectx: property (text), widget (QCheckBox, mBirthdayConList)
+#: rc.cpp:152
+#, fuzzy
+#| msgid "Anniversary"
+msgid "Show birthdays from KAddressBook"
+msgstr "ذكرة سنوية"
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:306
+#. i18n: ectx: property (text), widget (QCheckBox, mAnniversariesConList)
+#: rc.cpp:155
+#, fuzzy
+#| msgid "Anniversary"
+msgid "Show anniversaries from KAddressBook"
+msgstr "ذكرة سنوية"
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:316
+#. i18n: ectx: property (text), widget (QCheckBox, mHolidaysCal)
+#: rc.cpp:158
+#, fuzzy
+#| msgid "Special Occasion"
+msgid "Show holidays from calendar"
+msgstr "مناسبة خاصة"
+
+#. i18n: file: plugins/planner/plannerconfig_base.ui:326
+#. i18n: ectx: property (text), widget (QCheckBox, mSpecialOccasionsCal)
+#: rc.cpp:161
+#, fuzzy
+#| msgid "Special Occasion"
+msgid "Show special occasions from calendar"
+msgstr "مناسبة خاصة"
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:21
+#. i18n: ectx: property (windowTitle), widget (QWidget, TodoSummaryConfig_Base)
+#: rc.cpp:164
+#, fuzzy
+#| msgid "Mail Summary Configuration Dialog"
+msgid "To-do Summary Configuration"
+msgstr "حوار إعداد ملخص البريد"
+
+#. i18n: file: plugins/korganizer/todosummaryconfig_base.ui:33
+#. i18n: ectx: property (title), widget (QGroupBox, mDaysGroup)
+#: rc.cpp:167
+#, fuzzy
+#| msgid "Show Icons"
+msgid "Show To-dos Due"
+msgstr "أعرض الأيقونات"
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWidget, ApptSummaryConfig_Base)
+#: rc.cpp:203
+#, fuzzy
+#| msgid "Mail Summary Configuration Dialog"
+msgid "Event Summary Configuration"
+msgstr "حوار إعداد ملخص البريد"
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:21
+#. i18n: ectx: property (title), widget (QGroupBox, mDaysButtonGroup)
+#: rc.cpp:206
+#, fuzzy
+msgid "Show Upcoming Events Starting"
+msgstr "قادم خاص تواريخ"
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:88
+#. i18n: ectx: property (title), widget (QGroupBox, mShowButtonGroup)
+#: rc.cpp:224
+msgid "Show These Upcoming Events From Your Calendar"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:94
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowBirthdaysFromCal)
+#: rc.cpp:227
+msgid "Show birthdays from your calendar when also using the Birthday resource"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:97
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowBirthdaysFromCal)
+#: rc.cpp:230
+msgid ""
+"Enable this option to include birthdays from your calendar in the upcoming "
+"Events summary. This option is only available if you are using the Birthdays "
+"resource in your calendar."
+msgstr ""
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:107
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mShowAnniversariesFromCal)
+#: rc.cpp:236
+msgid ""
+"Shows anniversaries from your calendar when using the Birthdays resource"
+msgstr ""
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:110
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mShowAnniversariesFromCal)
+#: rc.cpp:239
+msgid ""
+"Enable this option to include anniversaries from your calendar in the "
+"Upcoming Events summary. This option is only available if you are using the "
+"Birthdays resource in your calendar."
+msgstr ""
+
+#. i18n: file: plugins/korganizer/apptsummaryconfig_base.ui:113
+#. i18n: ectx: property (text), widget (QCheckBox, mShowAnniversariesFromCal)
+#: rc.cpp:242
+#, fuzzy
+#| msgid "Anniversary"
+msgid "Show &anniveraries"
+msgstr "ذكرة سنوية"
+
+#: src/aboutdialog.cpp:45
+msgid "About Kontact"
+msgstr "حول Kontact "
+
+#: src/aboutdialog.cpp:51
+msgid "Kontact Container"
+msgstr "الوعاء Kontact"
+
+#: src/aboutdialog.cpp:94
+msgid "No about information available."
+msgstr "لا توجد معلومات متوفرة حول البرنامج."
+
+#: src/aboutdialog.cpp:103
+#, fuzzy, kde-format
+#| msgid "Version %1</p>"
+msgid "Version %1"
+msgstr "الإصدار %1</p>"
+
+#: src/aboutdialog.cpp:132
+msgid "<p><b>Authors:</b></p>"
+msgstr "<p><b>المؤلفون:</b></p>"
+
+#: src/aboutdialog.cpp:145
+msgid "<p><b>Thanks to:</b></p>"
+msgstr "<p><b>الشكر إلى :</b></p>"
+
+#: src/aboutdialog.cpp:158
+msgid "<p><b>Translators:</b></p>"
+msgstr "<p><b>المترجمون:</b></p>"
+
+#: src/aboutdialog.cpp:286
+#, kde-format
+msgid "%1 License"
+msgstr "الترخيص %1"
+
+#: src/iconsidepane.cpp:245
+#, fuzzy
+#| msgid "Show Icons"
+msgid "Show Icons Only"
+msgstr "أعرض الأيقونات"
+
+#: src/iconsidepane.cpp:251
+#, fuzzy
+#| msgid "Show Text"
+msgid "Show Text Only"
+msgstr "أعرض النص"
+
+#: src/iconsidepane.cpp:257
+#, fuzzy
+#| msgid "Show Icons"
+msgid "Show Icons && Text"
+msgstr "أعرض الأيقونات"
+
+#: src/iconsidepane.cpp:268
+#, fuzzy
+#| msgid "Show Icons"
+msgid "Big Icons"
+msgstr "أعرض الأيقونات"
+
+#: src/iconsidepane.cpp:274
+#, fuzzy
+#| msgid "Normal"
+msgid "Normal Icons"
+msgstr "عادي"
+
+#: src/iconsidepane.cpp:280
+#, fuzzy
+#| msgid "Show Icons"
+msgid "Small Icons"
+msgstr "أعرض الأيقونات"
+
+#: src/kcmkontact.cpp:97
+msgid "kontactconfig"
+msgstr "إعدادات kontact"
+
+#: src/kcmkontact.cpp:98 src/mainwindow.cpp:375
+msgid "KDE Kontact"
+msgstr "KDE Kontact"
+
+#: src/kcmkontact.cpp:100
+msgid "(c), 2003 Cornelius Schumacher"
+msgstr "(c), 2003 Cornelius Schumacher"
+
+#: src/kcmkontact.cpp:102 src/main.cpp:171
+#: plugins/summary/summaryview_plugin.cpp:131
+#, fuzzy
+#| msgid "(c), 2003 Cornelius Schumacher"
+msgid "Cornelius Schumacher"
+msgstr "Cornelius Schumacher"
+
+#: src/kcmkontact.cpp:103 plugins/kmail/kcmkmailsummary.cpp:72
+#: plugins/knotes/knotes_plugin.cpp:99
+#: plugins/korganizer/kcmapptsummary.cpp:159
+#: plugins/korganizer/kcmtodosummary.cpp:165
+#: plugins/planner/kcmplanner.cpp:235 plugins/planner/plannerplugin.cpp:65
+#: plugins/specialdates/kcmsdsummary.cpp:185
+#: plugins/specialdates/specialdates_plugin.cpp:64
+#: plugins/summary/kcmkontactsummary.cpp:122
+#: plugins/summary/summaryview_plugin.cpp:133
+#, fuzzy
+#| msgid "(c) 2004 Tobias Koenig"
+msgid "Tobias Koenig"
+msgstr "كونيج"
+
+#: src/main.cpp:51
+msgid "KDE personal information manager"
+msgstr "منظم المعلومات الشخصي لـ KDE"
+
+#: src/main.cpp:108
+msgid "Start with a specific Kontact module"
+msgstr "إبدء بوحدة عمل Kontact محددة"
+
+#: src/main.cpp:109
+msgid "Start in iconified (minimized) mode"
+msgstr "إبدء بلنمط الأيقوني ( مصغًر )"
+
+#: src/main.cpp:110
+msgid "List all possible modules and exit"
+msgstr "أعرض كل المكونات ثم أخرج"
+
+#: src/main.cpp:162
+msgid "Kontact"
+msgstr "Kontact"
+
+#: src/main.cpp:164
+#, fuzzy
+#| msgid "(C) 2001-2004 The Kontact developers"
+msgid "(C) 2001-2009 The Kontact developers"
+msgstr "(C) 2001-2004 طاقم تطوير Kontact"
+
+#: src/main.cpp:167 plugins/korganizer/kcmapptsummary.cpp:160
+#: plugins/korganizer/kcmtodosummary.cpp:167
+#: plugins/planner/kcmplanner.cpp:236 plugins/planner/plannerplugin.cpp:63
+#: plugins/specialdates/kcmsdsummary.cpp:184
+#: plugins/specialdates/specialdates_plugin.cpp:62
+#, fuzzy
+msgid "Allen Winter"
+msgstr "ألين شتاء"
+
+#: src/main.cpp:168
+msgid "Rafael Fernández López"
+msgstr ""
+
+#: src/main.cpp:169
+#, fuzzy
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: src/main.cpp:170
+#, fuzzy
+msgid "Don Sanders"
+msgstr "دون ساندرز"
+
+#: src/main.cpp:172
+#, fuzzy
+#| msgid "(c) 2004 Tobias Koenig"
+msgid "Tobias König"
+msgstr "(c) 2004 Tobias Koenig"
+
+#: src/main.cpp:173
+#, fuzzy
+msgid "David Faure"
+msgstr "David Faure"
+
+#: src/main.cpp:174
+msgid "Ingo Klöcker"
+msgstr ""
+
+#: src/main.cpp:175
+msgid "Sven Lüppken"
+msgstr ""
+
+#: src/main.cpp:176
+msgid "Zack Rusin"
+msgstr ""
+
+#: src/main.cpp:177
+#, fuzzy
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: src/main.cpp:178
+msgid "Original Author"
+msgstr "المؤلف الأصلي"
+
+#: src/mainwindow.cpp:340
+#, fuzzy
+#| msgid "Configure Kontact..."
+msgid "Loading Kontact..."
+msgstr "إعداد Kontact ..."
+
+#: src/mainwindow.cpp:339
+#, kde-format
+msgid ""
+"<h2 style='text-align:center; margin-top: 0px; margin-bottom: 0px'>%1</h2>"
+msgstr ""
+
+#: src/mainwindow.cpp:350
+msgid " Initializing..."
+msgstr " جاري بدء التشغيل..."
+
+#: src/mainwindow.cpp:376
+msgid "Get Organized!"
+msgstr " نظًم أعمالك !"
+
+#: src/mainwindow.cpp:377
+msgid "The KDE Personal Information Management Suite"
+msgstr "طاقم برامج منظم المعلومات الشخصي لــ KDE"
+
+#: src/mainwindow.cpp:423
+#, fuzzy
+#| msgid "New"
+msgctxt "@title:menu create new pim items (message,calendar,to-do,etc.)"
+msgid "New"
+msgstr "جديد"
+
+#: src/mainwindow.cpp:438
+msgctxt "@title:menu synchronize pim items (message,calendar,to-do,etc.)"
+msgid "Sync"
+msgstr ""
+
+#: src/mainwindow.cpp:444
+msgid "Configure Kontact..."
+msgstr "إعداد Kontact ..."
+
+#: src/mainwindow.cpp:448
+msgid "&Kontact Introduction"
+msgstr "مقدمة الت&عريف عن Kontact"
+
+#: src/mainwindow.cpp:451
+msgid "&Tip of the Day"
+msgstr "&تلميحة اليوم"
+
+#: src/mainwindow.cpp:742
+msgid "Application is running standalone. Foregrounding..."
+msgstr "التطبيق جاري تنفيذه بشكل مستقل. جاري النقل إلى الأمامية...."
+
+#: src/mainwindow.cpp:758
+#, kde-format
+msgid "Cannot load part for %1."
+msgstr "غير قادر على تحميل الجزء لــ %1"
+
+#: src/mainwindow.cpp:826
+#, fuzzy, kde-format
+msgctxt "Plugin dependent window title"
+msgid "%1 - Kontact"
+msgstr "Kontact"
+
+#: src/mainwindow.cpp:1156
+#, fuzzy, kde-format
+msgid ""
+"<h2 style='text-align:center; margin-top: 0px;'>Welcome to Kontact %1</h2><p "
+"align=\"center\">%2</p><table align=\"center\"><tr><td><a href=\"%3\"><img "
+"width=\"%4\" height=\"%5\" src=\"%6\" /></a></td><td><a href=\"%7\">%8</"
+"a><br /><span id=\"subtext\"><nobr>%9</nobr></span></td></tr><tr><td><a href="
+"\"%10\"><img width=\"%11\" height=\"%12\" src=\"%13\" /></a></td><td><a href="
+"\"%14\">%15</a><br /><span id=\"subtext\"><nobr>%16</nobr></span></td></"
+"tr><tr><td><a href=\"%17\"><img width=\"%18\" height=\"%19\" src=\"%20\" /></"
+"a></td><td><a href=\"%21\">%22</a><br /><span id=\"subtext\"><nobr>%23</"
+"nobr></span></td></tr></table><p style=\"margin-bottom: 0px\"> <a href=\"%24"
+"\">Skip this introduction</a></p>"
+msgstr ""
+"<h2 style='text-align:center; margin-top: 0px;'> مرحبا إلى Kontact</h2><p></"
+"p><table align=\"center\"><tr><td><a href=\"%3\"><img width=\"%4\" height=\"%"
+"5\" src=\"%6\" /></a></td><td><a href=\"%7\"></a><br /><span id=\"subtext"
+"\"><nobr></nobr></span></td></tr><tr><td><a href=\"%10\"><img width=\"%11\" "
+"height=\"%12\" src=\"%13\" /></a></td><td><a href=\"%14\"></a><br /><span id="
+"\"subtext\"><nobr></nobr></span></td></tr><tr><td><a href=\"%17\"><img width="
+"\"%18\" height=\"%19\" src=\"%20\" /></a></td><td><a href=\"%21\"></a><br /"
+"><span id=\"subtext\"><nobr></nobr></span></td></tr></table><p style="
+"\"margin-bottom: 0px\"><a href=\"%24\"> تخطّي</a></p>"
+
+#: src/mainwindow.cpp:1168
+#, fuzzy
+#| msgid ""
+#| "Kontact handles your e-mail, addressbook, calendar, to-do list and more."
+msgid ""
+"Kontact handles your e-mail, address book, calendar, to-do list and more."
+msgstr ""
+"يسيير Kontact بريدك الألكتروني ، دفتر عناوينك ، مفكرتك ، تقويمك ، لائحات "
+"واجباتك و أكثر من ذلك."
+
+#: src/mainwindow.cpp:1174
+msgid "Read Manual"
+msgstr "إقرء الكتييب"
+
+#: src/mainwindow.cpp:1175
+msgid "Learn more about Kontact and its components"
+msgstr "تعلًم الأكثر عن Kontact و مكوناته"
+
+#: src/mainwindow.cpp:1181
+msgid "Visit Kontact Website"
+msgstr "راجع موقع Kontact على الشبكة"
+
+#: src/mainwindow.cpp:1182
+msgid "Access online resources and tutorials"
+msgstr "تصفّح الموارد و نظام التعليم الأفرادي على الخط"
+
+#: src/mainwindow.cpp:1188
+msgid "Configure Kontact as Groupware Client"
+msgstr "إعداد Kontact كزبون البرمجيات الجماعية Groupware"
+
+#: src/mainwindow.cpp:1189
+msgid "Prepare Kontact for use in corporate networks"
+msgstr "هيئ Kontact للإستعمال في شبكات الشركة/المنظمة"
+
+#: plugins/akregator/akregator_plugin.cpp:53
+msgid "New Feed..."
+msgstr "تغذية أخبار جديدة..."
+
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:58
+msgid "New Contact..."
+msgstr "مراسل جديد..."
+
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:65
+msgid "New Distribution List..."
+msgstr ""
+
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:71
+#, fuzzy
+#| msgid "View &Contact"
+msgid "Synchronize Contacts"
+msgstr "زامن المراسَلون"
+
+#: plugins/kaddressbook/kaddressbook_plugin.cpp:177
+#: plugins/knotes/knotes_plugin.cpp:161
+#: plugins/korganizer/korganizerplugin.cpp:229
+#: plugins/korganizer/todoplugin.cpp:230
+#, fuzzy
+#| msgid "Drops of multiple mails are not supported."
+msgid "Dropping multiple mails is not supported."
+msgstr "إسقاط رسائل البريد المتعددة غير مدعوم."
+
+#: plugins/kjots/kjots_plugin.cpp:48
+#, fuzzy
+#| msgid "New Messages"
+msgid "New KJots Page"
+msgstr "رسائل جديدة"
+
+#: plugins/kjots/kjots_plugin.cpp:54
+msgid "New KJots Book"
+msgstr ""
+
+#: plugins/kmail/kcmkmailsummary.cpp:67
+msgid "kcmkmailsummary"
+msgstr "kcmkmailsummary"
+
+#: plugins/kmail/kcmkmailsummary.cpp:68
+msgid "Mail Summary Configuration Dialog"
+msgstr "حوار إعداد ملخص البريد"
+
+#: plugins/kmail/kcmkmailsummary.cpp:70
+msgid "(c) 2004 Tobias Koenig"
+msgstr "(c) 2004 Tobias Koenig"
+
+#: plugins/kmail/kcmkmailsummary.cpp:89
+msgid "Summary"
+msgstr "الملخص"
+
+#: plugins/kmail/kcmkmailsummary.cpp:91
+msgid "Show full path for folders"
+msgstr "أعرض المسار الكامل للمجلدات"
+
+#: plugins/kmail/kcmkmailsummary.cpp:110
+msgctxt "prefix for local folders"
+msgid "Local"
+msgstr "المحلًي"
+
+#: plugins/kmail/kmail_plugin.cpp:63
+msgid "New Message..."
+msgstr "رسالة جديدة..."
+
+#: plugins/kmail/kmail_plugin.cpp:69
+#, fuzzy
+msgid "Synchronize Mail"
+msgstr "زامن بريد"
+
+#: plugins/kmail/summarywidget.cpp:61
+msgid "New Messages"
+msgstr "رسائل جديدة"
+
+#: plugins/kmail/summarywidget.cpp:199
+#, kde-format
+msgctxt "%1: number of unread messages %2: total number of messages"
+msgid "%1 / %2"
+msgstr "%1 / %2"
+
+#: plugins/kmail/summarywidget.cpp:205
+#, kde-format
+msgid "<qt><b>%1</b><br/>Total: %2<br/>Unread: %3</qt>"
+msgstr ""
+
+#: plugins/kmail/summarywidget.cpp:220
+msgid "No unread messages in your monitored folders"
+msgstr "لا رسائل غير مقروءة في مجلداتك المُراقبة"
+
+#: plugins/kmail/summarywidget.cpp:237
+#, kde-format
+msgid "Open Folder: \"%1\""
+msgstr "إفتح المجلًد:  \"%1\""
+
+#: plugins/knode/knode_plugin.cpp:45
+msgid "New Article..."
+msgstr "مقال جديد..."
+
+#: plugins/knotes/knotes_part.cpp:74
+msgid "&New"
+msgstr "&جديد"
+
+#: plugins/knotes/knotes_part.cpp:79
+#, fuzzy
+msgid "Edit..."
+msgstr "تحرير إلى."
+
+#: plugins/knotes/knotes_part.cpp:83
+msgid "Rename..."
+msgstr "إعادة التسمية..."
+
+#: plugins/knotes/knotes_part.cpp:87
+#, fuzzy
+msgid "Delete"
+msgstr "احذف"
+
+#: plugins/knotes/knotes_part.cpp:92
+#, fuzzy
+#| msgid "Select Components..."
+msgid "Print Selected Notes..."
+msgstr "اطبع مختار ملاحظات."
+
+#: plugins/knotes/knotes_part.cpp:157
+#, fuzzy
+msgid "To print notes, first select the notes to print from the list."
+msgstr "إلى طبع الأوّل تحديد إلى طبع من قائمة."
+
+#: plugins/knotes/knotes_part.cpp:158
+#, fuzzy
+#| msgid "Edit Note"
+msgid "Print Popup Notes"
+msgstr "اطبع ملاحظات"
+
+#: plugins/knotes/knotes_part.cpp:238 plugins/knotes/knotes_part.cpp:317
+#, fuzzy, kde-format
+msgid "Do you really want to delete this note?"
+msgid_plural "Do you really want to delete these %1 notes?"
+msgstr[0] "هل تريد حقاً محو هذه الملاحظة ؟"
+msgstr[1] "هل تريد حقاً محو هذه الملاحظة ؟"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: plugins/knotes/knotes_part.cpp:239 plugins/knotes/knotes_part.cpp:319
+msgid "Confirm Delete"
+msgstr "أكّد المحو"
+
+#: plugins/knotes/knotes_part.cpp:415
+#, fuzzy
+#| msgid "Rename..."
+msgid "Rename"
+msgstr "إعادة التسمية..."
+
+#: plugins/knotes/knotes_part.cpp:415 plugins/knotes/knotes_part_p.h:131
+msgid "Name:"
+msgstr "الإسم:"
+
+#: plugins/knotes/knotes_plugin.cpp:56
+#, fuzzy
+#| msgid "New Note..."
+msgid "New Popup Note..."
+msgstr "ملاحظة جديدة..."
+
+#: plugins/knotes/knotes_plugin.cpp:62
+#, fuzzy
+msgid "Synchronize Popup Notes"
+msgstr "زامن الملاحظات"
+
+#: plugins/knotes/knotes_plugin.cpp:93
+#, fuzzy
+#| msgid "Notes"
+msgid "KNotes"
+msgstr "الملاحظات"
+
+#: plugins/knotes/knotes_plugin.cpp:94 plugins/knotes/summarywidget.cpp:57
+#, fuzzy
+#| msgid "Edit Note"
+msgid "Popup Notes"
+msgstr "اطبع ملاحظات"
+
+#: plugins/knotes/knotes_plugin.cpp:96
+#, fuzzy
+#| msgid "(C) 2001-2004 The Kontact developers"
+msgid "(c) 2003-2004 The Kontact developers"
+msgstr "c الـ Kontact"
+
+#: plugins/knotes/knotes_plugin.cpp:97
+#, fuzzy
+msgid "Michael Brade"
+msgstr "مايكل"
+
+#: plugins/knotes/knotes_plugin.cpp:98 plugins/planner/plannerplugin.cpp:64
+#: plugins/specialdates/specialdates_plugin.cpp:63
+#, fuzzy
+#| msgid "Maintainer"
+msgid "Current Maintainer"
+msgstr "المشرف الحالي"
+
+#: plugins/knotes/knotes_plugin.cpp:133
+#: plugins/korganizer/korganizerplugin.cpp:192
+#: plugins/korganizer/todoplugin.cpp:194
+msgid "Meeting"
+msgstr "إجتماع"
+
+#: plugins/knotes/knotes_plugin.cpp:144
+#: plugins/korganizer/korganizerplugin.cpp:206
+#: plugins/korganizer/todoplugin.cpp:208
+#, fuzzy, kde-format
+#| msgid "Read Note: \"%1\""
+msgid "Note: %1"
+msgstr "ملاحظة: %1"
+
+#: plugins/knotes/knotes_plugin.cpp:152
+#, fuzzy
+#| msgid "New Note..."
+msgid "New Note"
+msgstr "ملاحظة جديدة..."
+
+#: plugins/knotes/knotes_plugin.cpp:164
+#: plugins/korganizer/korganizerplugin.cpp:232
+#: plugins/korganizer/todoplugin.cpp:233
+#, kde-format
+msgid ""
+"From: %1\n"
+"To: %2\n"
+"Subject: %3"
+msgstr ""
+"من: %1\n"
+"إلى: %2\n"
+"الموضوع: %3"
+
+#: plugins/knotes/knotes_plugin.cpp:165
+#: plugins/korganizer/korganizerplugin.cpp:240
+#: plugins/korganizer/todoplugin.cpp:241
+#, kde-format
+msgid "Mail: %1"
+msgstr "البريد: %1"
+
+#: plugins/knotes/summarywidget.cpp:125
+msgid "No Notes Available"
+msgstr "لا توجد ملاحظات متوفرة"
+
+#: plugins/knotes/summarywidget.cpp:150
+#, fuzzy, kde-format
+#| msgid "Read Note: \"%1\""
+msgid "Read Popup Note: \"%1\""
+msgstr "الملاحظة المقروءة :\"%1\""
+
+#: plugins/korganizer/apptsummarywidget.cpp:53
+#, fuzzy
+msgid "Upcoming Events"
+msgstr "قادم أحداث"
+
+#: plugins/korganizer/apptsummarywidget.cpp:197
+#, fuzzy, kde-format
+msgid "No upcoming events starting within the next day"
+msgid_plural "No upcoming events starting within the next %1 days"
+msgstr[0] "لا بدء التالي اليوم"
+msgstr[1] "لا بدء التالي اليوم"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: plugins/korganizer/apptsummarywidget.cpp:229
+#: plugins/planner/planner.cpp:791
+#, fuzzy
+msgid "&Edit Appointment..."
+msgstr "تحرير موعد."
+
+#: plugins/korganizer/apptsummarywidget.cpp:230
+#: plugins/planner/planner.cpp:792
+#, fuzzy
+msgid "&Delete Appointment"
+msgstr "احذف موعد"
+
+#: plugins/korganizer/apptsummarywidget.cpp:247
+#, fuzzy, kde-format
+msgid "Edit Event: \"%1\""
+msgstr "تحرير حدث"
+
+#: plugins/korganizer/journalplugin.cpp:50
+msgid "New Journal..."
+msgstr "يومية جديدة..."
+
+#: plugins/korganizer/journalplugin.cpp:56
+#, fuzzy
+msgid "Synchronize Journal"
+msgstr "زامن سّجل يومي"
+
+#: plugins/korganizer/kcmapptsummary.cpp:83
+#: plugins/korganizer/kcmtodosummary.cpp:87 plugins/planner/kcmplanner.cpp:95
+#: plugins/specialdates/kcmsdsummary.cpp:94
+#, fuzzy
+msgid " day"
+msgid_plural " days"
+msgstr[0] "اليوم"
+msgstr[1] "اليوم"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: plugins/korganizer/kcmapptsummary.cpp:154
+#, fuzzy
+msgid "kcmapptsummary"
+msgstr "kcmsdsummary"
+
+#: plugins/korganizer/kcmapptsummary.cpp:155
+#, fuzzy
+msgid "Upcoming Events Configuration Dialog"
+msgstr "قادم أحداث إعدادات حوار"
+
+#: plugins/korganizer/kcmapptsummary.cpp:157
+#: plugins/korganizer/kcmtodosummary.cpp:163
+msgid "(c) 2003 - 2004 Tobias Koenig"
+msgstr "(c) 2003 - 2004 Tobias Koenig"
+
+#: plugins/korganizer/kcmtodosummary.cpp:160
+#, fuzzy
+msgid "kcmtodosummary"
+msgstr "kcmsdsummary"
+
+#: plugins/korganizer/kcmtodosummary.cpp:161
+#, fuzzy
+msgid "Pending To-dos Configuration Dialog"
+msgstr "منتظِر إلى إعدادات حوار"
+
+#: plugins/korganizer/korganizerplugin.cpp:64
+msgid "New Event..."
+msgstr "حدث جديد..."
+
+#: plugins/korganizer/korganizerplugin.cpp:71
+#, fuzzy
+#| msgid "Active Calendar"
+msgid "Synchronize Calendar"
+msgstr "زامن التقويم"
+
+#: plugins/korganizer/summaryeventinfo.cpp:55
+#: plugins/specialdates/sdsummarywidget.cpp:284
+msgid "BIRTHDAY"
+msgstr "عيد ميلاد"
+
+#: plugins/korganizer/summaryeventinfo.cpp:59
+#: plugins/specialdates/sdsummarywidget.cpp:300
+msgid "ANNIVERSARY"
+msgstr "ذكرة سنوية"
+
+#: plugins/korganizer/summaryeventinfo.cpp:186
+#, fuzzy
+#| msgid "Today"
+msgctxt "the appointment is today"
+msgid "Today"
+msgstr "اليوم"
+
+#: plugins/korganizer/summaryeventinfo.cpp:190
+#, fuzzy
+#| msgid "Tomorrow"
+msgctxt "the appointment is tomorrow"
+msgid "Tomorrow"
+msgstr "غداً"
+
+#: plugins/korganizer/summaryeventinfo.cpp:212
+#: plugins/korganizer/todosummarywidget.cpp:226
+#: plugins/specialdates/sdsummarywidget.cpp:473
+#, fuzzy, kde-format
+msgid "in 1 day"
+msgid_plural "in %1 days"
+msgstr[0] "بوصة اليوم"
+msgstr[1] "بوصة اليوم"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: plugins/korganizer/summaryeventinfo.cpp:214
+#: plugins/specialdates/sdsummarywidget.cpp:471
+msgid "now"
+msgstr "الآن"
+
+#: plugins/korganizer/summaryeventinfo.cpp:244 plugins/planner/planner.cpp:524
+#, kde-format
+msgctxt "Time from - to"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: plugins/korganizer/todoplugin.cpp:63
+msgid "New To-do..."
+msgstr "واجب جديد..."
+
+#: plugins/korganizer/todoplugin.cpp:70
+#, fuzzy
+msgid "Sync To-do List"
+msgstr "زامن إلى قائمة"
+
+#: plugins/korganizer/todosummarywidget.cpp:68
+#, fuzzy
+msgid "Pending To-dos"
+msgstr "منتظِر إلى"
+
+#: plugins/korganizer/todosummarywidget.cpp:204
+#, fuzzy
+#| msgid "Today"
+msgctxt "the to-do is due today"
+msgid "Today"
+msgstr "اليوم"
+
+#: plugins/korganizer/todosummarywidget.cpp:206
+#, fuzzy
+#| msgid "Tomorrow"
+msgctxt "the to-do is due tomorrow"
+msgid "Tomorrow"
+msgstr "غداً"
+
+#: plugins/korganizer/todosummarywidget.cpp:228
+#, fuzzy, kde-format
+msgid "1 day ago"
+msgid_plural "%1 days ago"
+msgstr[0] "منذ يوم واحد"
+msgstr[1] "منذ يوم واحد"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: plugins/korganizer/todosummarywidget.cpp:230
+#, fuzzy
+msgctxt "the to-do is due"
+msgid "due"
+msgstr "مطلوب فوراً"
+
+#: plugins/korganizer/todosummarywidget.cpp:287
+#, fuzzy, kde-format
+msgid "No pending to-dos due within the next day"
+msgid_plural "No pending to-dos due within the next %1 days"
+msgstr[0] "لا pending إلى التالي اليوم"
+msgstr[1] "لا pending إلى التالي اليوم"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: plugins/korganizer/todosummarywidget.cpp:329
+#: plugins/planner/planner.cpp:854
+#, fuzzy
+msgid "&Edit To-do..."
+msgstr "تحرير إلى."
+
+#: plugins/korganizer/todosummarywidget.cpp:330
+#: plugins/planner/planner.cpp:855
+#, fuzzy
+msgid "&Delete To-do"
+msgstr "&أمحي الواجب"
+
+#: plugins/korganizer/todosummarywidget.cpp:335
+#: plugins/planner/planner.cpp:860
+#, fuzzy
+msgid "&Mark To-do Completed"
+msgstr "علامة إلى اكتمل"
+
+#: plugins/korganizer/todosummarywidget.cpp:355
+#: plugins/planner/planner.cpp:952
+#, kde-format
+msgid "Edit To-do: \"%1\""
+msgstr "حرر الواجب: \"%1\""
+
+#: plugins/korganizer/todosummarywidget.cpp:438
+#, fuzzy
+msgid "open-ended"
+msgstr "فتح"
+
+#: plugins/korganizer/todosummarywidget.cpp:441
+#, fuzzy
+#| msgid "overdue"
+msgctxt "the to-do is overdue"
+msgid "overdue"
+msgstr "مطلوب فوراً"
+
+#: plugins/korganizer/todosummarywidget.cpp:444
+#, fuzzy
+#| msgid "starts today"
+msgctxt "the to-do starts today"
+msgid "starts today"
+msgstr "يبدء اليوم"
+
+#: plugins/korganizer/todosummarywidget.cpp:448
+#, fuzzy
+msgctxt "the to-do has not been started yet"
+msgid "not-started"
+msgstr "ليس"
+
+#: plugins/korganizer/todosummarywidget.cpp:450
+#, fuzzy
+msgctxt "the to-do is completed"
+msgid "completed"
+msgstr "مكتمل"
+
+#: plugins/korganizer/todosummarywidget.cpp:452
+#, fuzzy
+msgctxt "the to-do is in-progress"
+msgid "in-progress "
+msgstr "بوصة progress "
+
+#: plugins/korganizer/todosummarywidget.cpp:457
+#, fuzzy
+msgctxt "Separator for status like this: overdue, completed"
+msgid ","
+msgstr "،"
+
+#: plugins/ktimetracker/ktimetracker_plugin.cpp:48
+msgid "New Task"
+msgstr "مهمة جديدة"
+
+#: plugins/planner/kcmplanner.cpp:232
+msgid "kcmplanner"
+msgstr ""
+
+#: plugins/planner/kcmplanner.cpp:232
+#, fuzzy
+#| msgid "Mail Summary Configuration Dialog"
+msgid "Planner Summary Configuration Dialog"
+msgstr "حوار إعداد ملخص البريد"
+
+#: plugins/planner/kcmplanner.cpp:233
+#, fuzzy
+msgid "(c) 2007-2008 Oral Timocin"
+msgstr "c ألين شتاء"
+
+#: plugins/planner/kcmplanner.cpp:237 plugins/planner/plannerplugin.cpp:67
+msgid "Oral Timocin"
+msgstr ""
+
+#: plugins/planner/planner.cpp:103
+msgid "Planner"
+msgstr ""
+
+#: plugins/planner/planner.cpp:190
+#, fuzzy
+#| msgid "Today"
+msgctxt "today"
+msgid "Today"
+msgstr "اليوم"
+
+#: plugins/planner/planner.cpp:194
+#, fuzzy
+#| msgid "Tomorrow"
+msgctxt "tomorrow"
+msgid "Tomorrow"
+msgstr "غداً"
+
+#: plugins/planner/planner.cpp:236
+#, fuzzy, kde-format
+msgid "No appointments pending within the next day"
+msgid_plural "No appointments pending within the next %1 days"
+msgstr[0] "لا بدء التالي اليوم"
+msgstr[1] "لا بدء التالي اليوم"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: plugins/planner/planner.cpp:337 plugins/planner/planner.cpp:365
+#: plugins/planner/planner.cpp:388 plugins/planner/planner.cpp:826
+#, fuzzy
+#| msgid "overdue"
+msgctxt "to-do is overdue"
+msgid "overdue"
+msgstr "مطلوب فوراً"
+
+#: plugins/planner/planner.cpp:710
+#: plugins/specialdates/sdsummarywidget.cpp:484
+msgid "Birthday"
+msgstr "عيد الميلاد"
+
+#: plugins/planner/planner.cpp:713
+#: plugins/specialdates/sdsummarywidget.cpp:487
+msgid "Anniversary"
+msgstr "ذكرة سنوية"
+
+#: plugins/planner/planner.cpp:716
+#: plugins/specialdates/sdsummarywidget.cpp:490
+msgid "Holiday"
+msgstr "عطلة"
+
+#: plugins/planner/planner.cpp:719
+#: plugins/specialdates/sdsummarywidget.cpp:493
+msgid "Special Occasion"
+msgstr "مناسبة خاصة"
+
+#: plugins/planner/planner.cpp:760
+#: plugins/specialdates/sdsummarywidget.cpp:535
+#, fuzzy, kde-format
+msgid "one year"
+msgid_plural "%1 years"
+msgstr[0] "السنة"
+msgstr[1] "السنة"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: plugins/planner/planner.cpp:809
+#, fuzzy, kde-format
+msgid "Edit Appointment: \"%1\""
+msgstr "تحرير موعد."
+
+#: plugins/planner/planner.cpp:833
+#, fuzzy
+msgctxt "work on to-do is in progress"
+msgid "in progress"
+msgstr "بوصة progress "
+
+#: plugins/planner/planner.cpp:838
+#, fuzzy
+#| msgid "starts today"
+msgctxt "to-do starts today"
+msgid "starts today"
+msgstr "يبدء اليوم"
+
+#: plugins/planner/planner.cpp:843
+#, fuzzy
+#| msgid "starts today"
+msgctxt "to-do ends today"
+msgid "ends today"
+msgstr "يبدء اليوم"
+
+#: plugins/planner/planner.cpp:846
+#, fuzzy
+msgctxt "to-do is completed"
+msgid "completed"
+msgstr "مكتمل"
+
+#: plugins/planner/planner.cpp:904 plugins/planner/planner.cpp:905
+#: plugins/planner/planner.cpp:906 plugins/planner/planner.cpp:907
+#: plugins/planner/planner.cpp:908 plugins/planner/planner.cpp:909
+#: plugins/planner/planner.cpp:910 plugins/planner/planner.cpp:911
+#: plugins/planner/planner.cpp:912 plugins/planner/planner.cpp:913
+#: plugins/planner/planner.cpp:914
+#, kde-format
+msgid "%1%"
+msgstr ""
+
+#: plugins/planner/plannerplugin.cpp:58
+#, fuzzy
+#| msgid "Summary"
+msgid "Planner Summary"
+msgstr "الملخص"
+
+#: plugins/planner/plannerplugin.cpp:60
+#, fuzzy
+#| msgid "Kontact Summary"
+msgid "Kontact Planner Summary"
+msgstr "ملخص Kontact"
+
+#: plugins/planner/plannerplugin.cpp:62
+#: plugins/specialdates/specialdates_plugin.cpp:61
+msgid "(c) 2004-2005 The KDE PIM Team"
+msgstr "(c) 2004-2005 طاقم تطوير منظم المعلومات الشخصي لــ KDE"
+
+#: plugins/specialdates/kcmsdsummary.cpp:179
+msgid "kcmsdsummary"
+msgstr "kcmsdsummary"
+
+#: plugins/specialdates/kcmsdsummary.cpp:180
+#, fuzzy
+msgid "Upcoming Special Dates Configuration Dialog"
+msgstr "قادم خاص تواريخ إعدادات حوار"
+
+#: plugins/specialdates/kcmsdsummary.cpp:182
+#, fuzzy
+msgid "(c) 2004-2006 Allen Winter"
+msgstr "c ألين شتاء"
+
+#: plugins/specialdates/sdsummarywidget.cpp:98
+#, fuzzy
+msgid "Upcoming Special Dates"
+msgstr "قادم خاص تواريخ"
+
+#: plugins/specialdates/sdsummarywidget.cpp:316
+msgid "HOLIDAY"
+msgstr "عطلة"
+
+#: plugins/specialdates/sdsummarywidget.cpp:334
+msgid "SPECIAL OCCASION"
+msgstr "مناسبة خاصة"
+
+#: plugins/specialdates/sdsummarywidget.cpp:444
+#, fuzzy
+#| msgid "Today"
+msgctxt "the special day is today"
+msgid "Today"
+msgstr "اليوم"
+
+#: plugins/specialdates/sdsummarywidget.cpp:446
+#, fuzzy
+#| msgid "Tomorrow"
+msgctxt "the special day is tomorrow"
+msgid "Tomorrow"
+msgstr "غداً"
+
+#: plugins/specialdates/sdsummarywidget.cpp:546
+#, fuzzy, kde-format
+msgid "No special dates within the next 1 day"
+msgid_plural "No special dates pending within the next %1 days"
+msgstr[0] "لا التالي اليوم"
+msgstr[1] "لا التالي اليوم"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: plugins/specialdates/sdsummarywidget.cpp:588
+msgid "Send &Mail"
+msgstr "أرسل &بريد"
+
+#: plugins/specialdates/sdsummarywidget.cpp:591
+msgid "View &Contact"
+msgstr "أ&عرض المراسل"
+
+#: plugins/specialdates/sdsummarywidget.cpp:606
+#, kde-format
+msgid "Mail to:\"%1\""
+msgstr "أرسل بريد إلى: \"%1\""
+
+#: plugins/specialdates/specialdates_plugin.cpp:57
+msgid "Special Dates Summary"
+msgstr "ملخص التواريخ الخاصة"
+
+#: plugins/specialdates/specialdates_plugin.cpp:59
+msgid "Kontact Special Dates Summary"
+msgstr "ملخص Kontact للمواعيد الخاصة"
+
+#: plugins/summary/kcmkontactsummary.cpp:89
+msgctxt "@title:column plugin name"
+msgid "Summary Plugin Name"
+msgstr ""
+
+#: plugins/summary/kcmkontactsummary.cpp:105
+msgid "Select the plugin summaries to show on the summary page."
+msgstr ""
+
+#: plugins/summary/kcmkontactsummary.cpp:117
+msgid "kontactsummary"
+msgstr "kontactsummary"
+
+#: plugins/summary/kcmkontactsummary.cpp:118
+msgid "KDE Kontact Summary"
+msgstr "ملخص KDE Kontact"
+
+#: plugins/summary/kcmkontactsummary.cpp:120
+msgid "(c), 2004 Tobias Koenig"
+msgstr "(c), 2004 Tobias Koenig"
+
+#: plugins/summary/summaryview_part.cpp:80
+msgid "&Configure Summary View..."
+msgstr "أ&عداد العرض الملخص..."
+
+#: plugins/summary/summaryview_part.cpp:127
+#, kde-format
+msgid "Summary for %1"
+msgstr "الملخص لـ %1"
+
+#: plugins/summary/summaryview_part.cpp:386
+msgid "What's next?"
+msgstr "ما هو التالي ؟"
+
+#: plugins/summary/summaryview_plugin.cpp:49
+#, fuzzy
+msgid "Synchronize All"
+msgstr "زامن الكل"
+
+#: plugins/summary/summaryview_plugin.cpp:61
+#, fuzzy
+#| msgid "All"
+msgctxt "@action:inmenu sync everything"
+msgid "All"
+msgstr "الكلّ"
+
+#: plugins/summary/summaryview_plugin.cpp:77
+#, fuzzy
+#| msgid "All"
+msgctxt "sync everything"
+msgid "All"
+msgstr "الكلّ"
+
+#: plugins/summary/summaryview_plugin.cpp:123
+msgid "Kontact Summary"
+msgstr "ملخص Kontact"
+
+#: plugins/summary/summaryview_plugin.cpp:125
+msgid "Kontact Summary View"
+msgstr "عرض Kontact الملخص"
+
+#: plugins/summary/summaryview_plugin.cpp:127
+msgid "(c) 2003 The Kontact developers"
+msgstr "(c) 2003 طاقم تطوير Kontact"
+
+#: plugins/summary/summaryview_plugin.cpp:129
+msgid "Sven Lueppken"
+msgstr ""
+
+#: plugins/knotes/knotes_part_p.h:112
+#, fuzzy
+#| msgid "Edit Note"
+msgid "Edit Popup Note"
+msgstr "حرر الملاحظة"
+
+#, fuzzy
+#~ msgid "New SMS..."
+#~ msgstr "جديد SMS."
+
+#~ msgid "New News Feed"
+#~ msgstr "تغذية أخبار جديدة"
+
+#~ msgid "URL:"
+#~ msgstr "عنوان المَوْرِد النظامي:"
+
+#~ msgid "Arts"
+#~ msgstr "الفنون"
+
+#~ msgid "Business"
+#~ msgstr "الأعمال"
+
+#~ msgid "Computers"
+#~ msgstr "أجهزة الحاسوب"
+
+#~ msgid "Misc"
+#~ msgstr "المتفرقات"
+
+#~ msgid "Recreation"
+#~ msgstr "الترفيه"
+
+#~ msgid "Society"
+#~ msgstr "الجمعية/المنظمة/الشركة"
+
+#~ msgid "Custom"
+#~ msgstr "المعتاد"
+
+#~ msgid "All"
+#~ msgstr "الكلّ"
+
+#, fuzzy
+#~ msgid "Add"
+#~ msgstr "إضافة"
+
+#, fuzzy
+#~ msgid "Remove"
+#~ msgstr "احذف"
+
+#~ msgid "Selected"
+#~ msgstr "المختار"
+
+#~ msgid "News Feed Settings"
+#~ msgstr "تعيينات تغذية الأخبار"
+
+#~ msgid "Refresh time:"
+#~ msgstr "فترة التحديث:"
+
+#~ msgid "Number of items shown:"
+#~ msgstr "عدد البنود المعروضة:"
+
+#~ msgid "Delete Feed"
+#~ msgstr "أمحي الخبر"
+
+#~ msgid "kcmkontactknt"
+#~ msgstr "kcmkontactknt"
+
+#~ msgid "Newsticker Configuration Dialog"
+#~ msgstr "حوار إعداد شريط الأخبار Newsticker"
+
+#~ msgid "News Feeds"
+#~ msgstr "تغذيات الأخبار"
+
+#~ msgid ""
+#~ "No rss dcop service available.\n"
+#~ "You need rssservice to use this plugin."
+#~ msgstr ""
+#~ "لا يوجد خدمة  rss dcop متوفرة.\n"
+#~ "أنت بحاجة إلى rssservice كي تستعمل هذا القابس."
+
+#~ msgid "Copy URL to Clipboard"
+#~ msgstr "أنسخ عنوان المورد النظامي إلى الحافظة"
+
+#~ msgid "Weather Information"
+#~ msgstr "أخبار الطقس"
+
+#, fuzzy
+#~ msgid ""
+#~ "No weather D-Bus service available;\n"
+#~ "you need KWeather to use this plugin."
+#~ msgstr "لا D الناقل خدمة متوفّر إلى استخدام ملحق."
+
+#~ msgid "Last updated on"
+#~ msgstr "تمّ آخر تحديث في"
+
+#~ msgid "Wind Speed"
+#~ msgstr "سرعة الرياح"
+
+#~ msgid "Rel. Humidity"
+#~ msgstr "الرطوبة النسبية"
+
+#~ msgid "View Weather Report for Station"
+#~ msgstr "شاهد معلومات الطقس للمحطة"
+
+#, fuzzy
+#~ msgid "Ian Reinhart Geiser"
+#~ msgstr "Ian Reinhart Geiser"
+
+#, fuzzy
+#~ msgid "John Ratke"
+#~ msgstr "جون"
+
+#~ msgid "Improvements and more code cleanups"
+#~ msgstr "تحسينات و زيادة تنظيف البرمجة"
+
+#~ msgid "Unknown"
+#~ msgstr "غير معروف"
+
+#, fuzzy
+#~| msgid "Show Icons"
+#~ msgid "Show To-dos"
+#~ msgstr "أعرض الأيقونات"
+
+#, fuzzy
+#~ msgid "Show Special Dates"
+#~ msgstr "قادم خاص تواريخ"
+
+#, fuzzy
+#~ msgid "To-do's / Special Dates"
+#~ msgstr "قادم خاص تواريخ"
+
+#~ msgid "Default KOrganizer resource"
+#~ msgstr "مورد KOrganizer الأفتراضي"
+
+#~ msgid "Active Calendar"
+#~ msgstr "التقويم النشط"
+
+#, fuzzy
+#~| msgid "Today"
+#~ msgid "&Today"
+#~ msgstr "اليوم"
+
+#~ msgid "Cannot handle drop events of type '%1'."
+#~ msgstr "لا يمكن معاملة أحداث الإسقاط من النوع '%1'."
+
+#, fuzzy
+#~| msgid "Today"
+#~ msgctxt "@label the appointment is today"
+#~ msgid "Today"
+#~ msgstr "اليوم"
+
+#, fuzzy
+#~| msgid "Tomorrow"
+#~ msgctxt "@label the appointment is tomorrow"
+#~ msgid "Tomorrow"
+#~ msgstr "غداً"
+
+#, fuzzy
+#~| msgid "Newsticker Configuration Dialog"
+#~ msgid "Schedule Configuration Dialog"
+#~ msgstr "حوار إعداد شريط الأخبار Newsticker"
+
+#, fuzzy
+#~ msgid "One day"
+#~ msgstr "اليوم"
+
+#, fuzzy
+#~ msgid "Five days"
+#~ msgstr "اليوم"
+
+#, fuzzy
+#~ msgid "Overdue to-dos"
+#~ msgstr "منتظِر إلى"
+
+#, fuzzy
+#~ msgid "Starting to-dos"
+#~ msgstr "منتظِر إلى"
+
+#, fuzzy
+#~ msgid "Ending to-dos"
+#~ msgstr "منتظِر إلى"
+
+#, fuzzy
+#~ msgid "To-dos in progress"
+#~ msgstr "بوصة progress "
+
+#, fuzzy
+#~ msgid "Completed to-dos"
+#~ msgstr "&أمحي الواجب"
+
+#~ msgid "Notes Management"
+#~ msgstr "تدبير الملاحظات"
+
+#, fuzzy
+#~| msgid "Icon Size"
+#~ msgctxt "@title:menu"
+#~ msgid "Icon Size"
+#~ msgstr "قياس الأيقونة"
+
+#, fuzzy
+#~| msgid "Large"
+#~ msgctxt "@action:inmenu change to large icons"
+#~ msgid "Large"
+#~ msgstr "كبير"
+
+#, fuzzy
+#~| msgid "Small"
+#~ msgctxt "@action:inmenu change to small icons"
+#~ msgid "Small"
+#~ msgstr "صغير"
+
+#, fuzzy
+#~| msgid "Icon Size"
+#~ msgid "Synchronize"
+#~ msgstr "زامن"
+
+#~ msgid "Name"
+#~ msgstr "الإسم"
+
+#~ msgid ""
+#~ "Here you can select which summary plugins to have visible in your summary "
+#~ "view."
+#~ msgstr "يمكنك هنا تحديد أي من قوابس الملخص تراه في عرض الملخص."

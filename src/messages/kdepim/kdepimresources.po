@@ -1,0 +1,243 @@
+# translation of kdepimresources.po to
+# Language AR translations for PACKAGE package.
+#
+# Automatically generated, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepimresources\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-11 12:54+0200\n"
+"PO-Revision-Date: 2007-10-14 15:53+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: folderconfig.cpp:53
+#, fuzzy
+msgid "Folder Selection"
+msgstr "مجلّد التحديد"
+
+#: folderconfig.cpp:57
+#, fuzzy
+msgid "Update Folder List"
+msgstr "تحديث مجلّد قائمة"
+
+#: folderlistview.cpp:58
+#, fuzzy
+msgid "Folder"
+msgstr "مجلّد"
+
+#: folderlistview.cpp:63
+#, fuzzy
+msgctxt "Short column header meaning default for new events"
+msgid "Events"
+msgstr "أحداث"
+
+#: folderlistview.cpp:68
+msgctxt "Short column header meaning default for new to-dos"
+msgid "Todos"
+msgstr ""
+
+#: folderlistview.cpp:73
+#, fuzzy
+msgctxt "Short column header meaning default for new journals"
+msgid "Journals"
+msgstr "المجلات"
+
+#: folderlistview.cpp:78
+#, fuzzy
+msgctxt "Short column header meaning default for new contacts"
+msgid "Contacts"
+msgstr "المراسَلون"
+
+#: folderlistview.cpp:83
+#, fuzzy
+msgctxt "Short column header meaning default for all items"
+msgid "All"
+msgstr "الكل"
+
+#: folderlistview.cpp:88
+#, fuzzy
+msgctxt "Short column header meaning default for unknown new items"
+msgid "Unknown"
+msgstr "مجهول"
+
+#: folderlistview.cpp:101
+#, fuzzy
+msgid "&Enabled"
+msgstr "م&فعل"
+
+#: folderlistview.cpp:108
+#, fuzzy
+msgid "Default for New &Events"
+msgstr "افتراضي لـ جديد أحداث"
+
+#: folderlistview.cpp:114
+#, fuzzy
+msgid "Default for New &Todos"
+msgstr "افتراضي لـ جديد"
+
+#: folderlistview.cpp:120
+#, fuzzy
+msgid "Default for New &Journals"
+msgstr "افتراضي لـ جديد المجلات"
+
+#: folderlistview.cpp:126
+#, fuzzy
+msgid "Default for New &Contacts"
+msgstr "افتراضي لـ جديد المراسَلون"
+
+#: folderlistview.cpp:132
+#, fuzzy
+msgid "Default for All New &Items"
+msgstr "افتراضي لـ الكل جديد عناصر"
+
+#: folderlistview.cpp:138
+#, fuzzy
+msgid "Default for &Unknown New Items"
+msgstr "افتراضي لـ مجهول جديد عناصر"
+
+#: groupwaredownloadjob.cpp:49
+#, fuzzy
+msgid "Unable to initialize the download job."
+msgstr ""
+"عاجز إلى يهيئ\n"
+"يُبدِء التشغيلئ تنزيلات شغل."
+
+#: groupwareuploadjob.cpp:460
+#, fuzzy, kde-format
+msgid "1 item could not be uploaded."
+msgid_plural "%1 items could not be uploaded."
+msgstr[0] "عنصر ليس."
+msgstr[1] "عنصر ليس."
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: kabc_resourcegroupwarebaseconfig.cpp:51
+#: kcal_resourcegroupwarebaseconfig.cpp:57
+#, fuzzy
+msgid "URL:"
+msgstr "العنوان:"
+
+#: kabc_resourcegroupwarebaseconfig.cpp:57
+#: kcal_resourcegroupwarebaseconfig.cpp:62
+#, fuzzy
+msgid "User:"
+msgstr "المستخدم:"
+
+#: kabc_resourcegroupwarebaseconfig.cpp:63
+#: kcal_resourcegroupwarebaseconfig.cpp:67
+#, fuzzy
+msgid "Password:"
+msgstr "كلمة المرور:"
+
+#: kabc_resourcegroupwarebase.cpp:98
+#, fuzzy
+msgid "Downloading address book"
+msgstr "يجري التنزيل"
+
+#: kabc_resourcegroupwarebase.cpp:99
+#, fuzzy
+msgid "Uploading address book"
+msgstr "الإرسال"
+
+#: kcal_cachesettingsdlg.cpp:45
+#, fuzzy
+msgid "Resource Cache Settings"
+msgstr "مورد الذّاكرة المؤقّتة إعدادات"
+
+#: kcal_resourcegroupwarebaseconfig.cpp:79
+#, fuzzy
+msgid "Configure Cache Settings..."
+msgstr "اضبط الذّاكرة المؤقّتة إعدادات."
+
+#: kcal_resourcegroupwarebase.cpp:403
+#, fuzzy
+msgid "Added"
+msgstr "المضاف"
+
+#: kcal_resourcegroupwarebase.cpp:404
+#, fuzzy
+msgid "Changed"
+msgstr "غُيِّر"
+
+#: kcal_resourcegroupwarebase.cpp:405
+#, fuzzy
+msgid "Deleted"
+msgstr "محذوف"
+
+#. i18n: file: kresources_groupwareprefs.kcfg:9
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:3
+#, fuzzy
+msgid "Server URL"
+msgstr "الخادم URL"
+
+#. i18n: file: kresources_groupwareprefs.kcfg:12
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:6
+#, fuzzy
+msgid "User Name"
+msgstr "إسم المستخدم"
+
+#. i18n: file: kresources_groupwareprefs.kcfg:15
+#. i18n: ectx: label, entry, group (General)
+#: rc.cpp:9
+#, fuzzy
+msgid "Password"
+msgstr "كلمة المرور"
+
+#. i18n: file: kresources_groupwareprefs.kcfg:20
+#. i18n: ectx: label, group (Folders)
+#: rc.cpp:12
+#, fuzzy
+msgid "All folder IDs on the server"
+msgstr "الكل مجلد يعمل خادم"
+
+#. i18n: file: kresources_groupwareprefs.kcfg:23
+#. i18n: ectx: label, entry, group (Folders)
+#: rc.cpp:15
+#, fuzzy
+msgid "All folder names on the server"
+msgstr "الكل مجلد يعمل خادم"
+
+#. i18n: file: kresources_groupwareprefs.kcfg:26
+#. i18n: ectx: label, entry, group (Folders)
+#: rc.cpp:18
+#, fuzzy
+msgid "All active folders from the server"
+msgstr "الكل نشط من خادم"
+
+#. i18n: file: kresources_groupwareprefs.kcfg:29
+#. i18n: ectx: label, entry, group (Folders)
+#: rc.cpp:21
+#, fuzzy
+msgid "Number of folders on the server and in the config file"
+msgstr "الرقم من يعمل خادم و بوصة ملفّ"
+
+#. i18n: file: kresources_groupwareprefs.kcfg:35
+#. i18n: ectx: label, entry (DefaultDestinations), group (Folders)
+#: rc.cpp:24
+#, fuzzy
+msgid "Default destinations for the various types"
+msgstr "افتراضي لـ"
+
+#. i18n: file: kresources_groupwareprefs.kcfg:38
+#. i18n: ectx: whatsthis, entry (DefaultDestinations), group (Folders)
+#: rc.cpp:27
+#, fuzzy
+msgid ""
+"These are the default destinations for the different data\n"
+"types in the following order:\n"
+"Event, Todo, Journal, Contact, All, Unknown"
+msgstr ""
+"هذه افتراضي لـ مختلف البيانات بوصة متابعة ترتيب الواجبات سّجل يومي المراسَل "
+"الكل مجهول"

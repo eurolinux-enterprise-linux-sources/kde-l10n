@@ -1,0 +1,184 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_systemloadviewer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-05-30 12:13+0200\n"
+"PO-Revision-Date: 2009-07-11 13:24+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#. i18n: file: coloursconfig.ui:5
+#. i18n: ectx: property (windowTitle), widget (QWidget, coloursConfig)
+#: rc.cpp:3
+msgid "Colors"
+msgstr "الألوان"
+
+#. i18n: file: coloursconfig.ui:11
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:6
+msgid "CPU"
+msgstr "المعالج"
+
+#. i18n: file: coloursconfig.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:9
+msgid "Nice:"
+msgstr "Nice:"
+
+#. i18n: file: coloursconfig.ui:64
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:12
+msgid "System:"
+msgstr "النظام:"
+
+#. i18n: file: coloursconfig.ui:98
+#. i18n: ectx: property (text), widget (QLabel, lblUser)
+#: rc.cpp:15
+msgid "User:"
+msgstr "المستخدم:"
+
+#. i18n: file: coloursconfig.ui:125
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:18
+msgid "IOWait:"
+msgstr "IOWait:"
+
+#. i18n: file: coloursconfig.ui:162
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:21
+msgid "Memory"
+msgstr "الذاكرة"
+
+#. i18n: file: coloursconfig.ui:181
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: file: coloursconfig.ui:307
+#. i18n: ectx: property (text), widget (QLabel, lblSwapUsed)
+#: rc.cpp:24 rc.cpp:36
+msgid "Used:"
+msgstr "المتسخدم:"
+
+#. i18n: file: coloursconfig.ui:191
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:27
+msgid "Buffers:"
+msgstr "البفر:"
+
+#. i18n: file: coloursconfig.ui:225
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: rc.cpp:30
+msgid "Cached:"
+msgstr "المخبأة:"
+
+#. i18n: file: coloursconfig.ui:301
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:33
+msgid "Swap"
+msgstr "التبادل"
+
+#. i18n: file: coloursconfig.ui:344
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: rc.cpp:39
+msgid "Background"
+msgstr "الخلفية"
+
+#. i18n: file: coloursconfig.ui:350
+#. i18n: ectx: property (text), widget (QLabel, lblSwapUsed_2)
+#: rc.cpp:42
+msgid "Color:"
+msgstr "اللون:"
+
+#. i18n: file: coloursconfig.ui:383
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:45
+msgid "Translucency:"
+msgstr "الشفافية:"
+
+#. i18n: file: generalconfig.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, generalConfig)
+#: rc.cpp:48
+msgid "General Config"
+msgstr "ضبط عام"
+
+#. i18n: file: generalconfig.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:51
+msgid "Apperance"
+msgstr "المظهر"
+
+#. i18n: file: generalconfig.ui:25
+#. i18n: ectx: property (text), widget (QCheckBox, chkIsVertical)
+#: rc.cpp:54
+msgid "Show vertically in panel"
+msgstr "أظهر  عموديا في اللوحة"
+
+#. i18n: file: generalconfig.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, chkShowAllProcessors)
+#: rc.cpp:57
+msgid "Show usage of all processors"
+msgstr "أظهر استخدام كل المعالجات"
+
+#. i18n: file: generalconfig.ui:39
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:60
+msgid "Update interval:"
+msgstr "فترة التحديث:"
+
+#. i18n: file: generalconfig.ui:63
+#. i18n: ectx: property (suffix), widget (QSpinBox, spbxUpdateInterval)
+#: rc.cpp:63
+msgid " ms"
+msgstr "م.ث"
+
+#: systemloadviewer.cpp:609
+#, kde-format
+msgid "CPU %1 Usage: %2% at %3 MHz<br />"
+msgstr "المعالج %1 الاستخدام: %2% عند %3 م.هرتز<br />"
+
+#: systemloadviewer.cpp:612
+#, kde-format
+msgid "CPU %1 Usage: %2%<br />"
+msgstr "المعالج %1 الاستخدام: %2%<br />"
+
+#: systemloadviewer.cpp:619
+#, kde-format
+msgid "CPU Usage: %1% at %2 MHz/CPU<br />"
+msgstr "استخدام المعالج: %1% عند %2 م.هرتز/معالج<br />"
+
+#: systemloadviewer.cpp:622
+#, kde-format
+msgid "CPU Usage: %1% at %2 MHz<br />"
+msgstr "استخدام المعالج: %1% عند %2 م.هرتز<br />"
+
+#: systemloadviewer.cpp:626
+#, kde-format
+msgid "CPU Usage: %1%<br />"
+msgstr "استخدام المعالج: %1%<br />"
+
+#: systemloadviewer.cpp:632
+#, kde-format
+msgid "Ram Usage: %1%<br />"
+msgstr "استخدام الذاكرة العشوائية: %1%<br />"
+
+#: systemloadviewer.cpp:637
+#, kde-format
+msgid "Swap Usage: %1%"
+msgstr "استخدام ذاكرة التبادل: %1%"
+
+#: systemloadviewer.cpp:639
+msgctxt "not available means the system does not have swap"
+msgid "Swap: not available"
+msgstr "ذاكرة التبادل: غير موجودة"
+
+#: systemloadviewer.cpp:643
+msgid "System Load Viewer"
+msgstr "عارض حمل النظام"

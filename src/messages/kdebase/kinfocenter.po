@@ -1,0 +1,962 @@
+# translation of kinfocenter.po to Arabic
+# translation of kcontrol.po to
+# Copyright (C) 2001,2002, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2001,2002.
+# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002.
+# Munzir Taha <munzir@kacst.edu.sa>, 2004.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kinfocenter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-04-24 11:12+0200\n"
+"PO-Revision-Date: 2009-07-07 16:54+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+
+#: base/info_aix.cpp:54
+msgid "Name"
+msgstr "الاسم"
+
+#: base/info_aix.cpp:55
+msgid "Status"
+msgstr "الحالة"
+
+#: base/info_aix.cpp:56
+msgid "Location"
+msgstr "الموقع"
+
+#: base/info_aix.cpp:57 base/info_fbsd.cpp:305
+msgid "Description"
+msgstr "الوصف"
+
+#: base/info_aix.cpp:177 base/info_hpux.cpp:163 base/info_hpux.cpp:438
+#: base/info_linux.cpp:113 base/info_netbsd.cpp:53 base/info_openbsd.cpp:49
+#: base/os_base.h:203
+msgid "Information"
+msgstr "المعلومات"
+
+#: base/info_aix.cpp:178 base/info_hpux.cpp:164 base/info_hpux.cpp:439
+#: base/info_linux.cpp:113 base/info_netbsd.cpp:53 base/info_openbsd.cpp:49
+#: base/info_solaris.cpp:697 base/os_base.h:203
+msgid "Value"
+msgstr "القيمة"
+
+#: base/info_aix.cpp:307 base/info_hpux.cpp:356 base/info_linux.cpp:334
+#: base/info_linux.cpp:445
+msgid "MB"
+msgstr " م. بايت"
+
+#: base/info_aix.cpp:312 base/info_fbsd.cpp:277 base/info_fbsd.cpp:305
+#: base/info_hpux.cpp:361 base/info_linux.cpp:476 base/info_netbsd.cpp:161
+#: base/info_netbsd.cpp:273 base/info_openbsd.cpp:172
+#: base/info_openbsd.cpp:267 base/info_solaris.cpp:174
+msgid "Device"
+msgstr "الجهاز"
+
+#: base/info_aix.cpp:313 base/info_fbsd.cpp:277 base/info_hpux.cpp:362
+#: base/info_linux.cpp:476 base/info_netbsd.cpp:273 base/info_openbsd.cpp:267
+#: base/info_solaris.cpp:174
+msgid "Mount Point"
+msgstr "نقطة الضم"
+
+#: base/info_aix.cpp:314 base/info_fbsd.cpp:277 base/info_hpux.cpp:363
+#: base/info_linux.cpp:476 base/info_netbsd.cpp:273 base/info_openbsd.cpp:267
+#: base/info_solaris.cpp:174
+msgid "FS Type"
+msgstr "نوع نظام الملفات"
+
+#: base/info_aix.cpp:315 base/info_hpux.cpp:364 base/info_linux.cpp:476
+#: base/info_netbsd.cpp:273 base/info_solaris.cpp:174
+msgid "Total Size"
+msgstr "الحجم الكلي"
+
+#: base/info_aix.cpp:316 base/info_hpux.cpp:365 base/info_linux.cpp:476
+#: base/info_netbsd.cpp:273 base/info_solaris.cpp:174
+msgid "Free Size"
+msgstr "الحجم الحر"
+
+#: base/info_aix.cpp:334 base/info_aix.cpp:340 base/info_hpux.cpp:383
+#: base/info_hpux.cpp:389
+msgid "n/a"
+msgstr "غير منطبق"
+
+#: base/info_fbsd.cpp:81
+#, kde-format
+msgid "CPU %1: %2, %3 MHz"
+msgstr "المعالج %1: %2 ، %3 ميجاهرتز"
+
+#: base/info_fbsd.cpp:83
+#, kde-format
+msgid "CPU %1: %2, unknown speed"
+msgstr "المعالج %1: %2 ، سرعة غير معروفة"
+
+#: base/info_fbsd.cpp:145
+msgid ""
+"Your sound system could not be queried.  /dev/sndstat does not exist or is "
+"not readable."
+msgstr ""
+"نظامك الصوتي لا يمكن استعلامه. /dev/sndstat غير موجود أو غير قابل للقراءة"
+
+#: base/info_fbsd.cpp:173
+msgid ""
+"SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
+msgstr "نظام SCSI الفرعي لا يمكن استعلامه: /sbin/camcontrol لا يمكن إيجاده"
+
+#: base/info_fbsd.cpp:178
+msgid ""
+"SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
+msgstr "نظام SCSI الفرعي لا يمكن استعلامه: /sbin/camcontrol لا يمكن تنفيذه"
+
+#: base/info_fbsd.cpp:226
+msgid ""
+"Could not find any programs with which to query your system's PCI information"
+msgstr "لم يتم العثور على أي برنامج ليستفسر عن معلومات PCI"
+
+#: base/info_fbsd.cpp:243
+#, kde-format
+msgid "PCI subsystem could not be queried: %1 could not be executed"
+msgstr "نظام PCI الفرعي لا يمكن استعلامه:%1 لا يمكن تنفيذه."
+
+#: base/info_fbsd.cpp:255
+msgid "The PCI subsystem could not be queried, this may need root privileges."
+msgstr "نظام PCI الفرعي لا يمكن استعلامه , ربما تحتاج إلى صلاحيات الجذر"
+
+#: base/info_fbsd.cpp:270
+msgid "Could not check file system info: "
+msgstr "غير قادر على فحص معلومات نظام الملفات:"
+
+#: base/info_fbsd.cpp:277 base/info_linux.cpp:476 base/info_openbsd.cpp:267
+#: base/info_solaris.cpp:174
+msgid "Mount Options"
+msgstr "خيارات الضم"
+
+#: base/info_hpux.cpp:129
+msgid "PA-RISC Processor"
+msgstr "معالج PA-RISC"
+
+#: base/info_hpux.cpp:131
+msgid "PA-RISC Revision"
+msgstr "تنقيحة PA-RISC"
+
+#: base/info_hpux.cpp:168
+msgid "Machine"
+msgstr "آلة"
+
+#: base/info_hpux.cpp:175
+msgid "Model"
+msgstr "طراز"
+
+#: base/info_hpux.cpp:182
+msgid "Machine Identification Number"
+msgstr "رقم تعريف الآلة"
+
+#: base/info_hpux.cpp:183 base/info_solaris.cpp:619
+msgid "(none)"
+msgstr "(بدون)"
+
+#: base/info_hpux.cpp:188
+msgid "Number of Active Processors"
+msgstr "عدد المعالجات النشطة"
+
+#: base/info_hpux.cpp:192
+msgid "CPU Clock"
+msgstr "ساعة المعالج"
+
+#: base/info_hpux.cpp:193 base/info_solaris.cpp:69
+msgid "MHz"
+msgstr "م.هيرتز"
+
+#: base/info_hpux.cpp:226
+msgid "(unknown)"
+msgstr "(مجهول)"
+
+#: base/info_hpux.cpp:230
+msgid "CPU Architecture"
+msgstr "معمارية  المعالج"
+
+#: base/info_hpux.cpp:236
+msgid "enabled"
+msgstr "ممكّن"
+
+#: base/info_hpux.cpp:236
+msgid "disabled"
+msgstr "معطل"
+
+#: base/info_hpux.cpp:238
+msgid "Numerical Coprocessor (FPU)"
+msgstr "معالج مساعد رقمي (FPU)"
+
+#: base/info_hpux.cpp:242
+msgid " MB"
+msgstr "م. بايت"
+
+#: base/info_hpux.cpp:243
+msgid "Total Physical Memory"
+msgstr "إجمالي الذاكرة الفيزيائية"
+
+#: base/info_hpux.cpp:245
+msgid " Bytes"
+msgstr "بايتات"
+
+#: base/info_hpux.cpp:246
+msgid "Size of One Page"
+msgstr "حجم صفحة واحدة"
+
+#: base/info_hpux.cpp:441
+msgid "Audio Name"
+msgstr "اسم الصوت"
+
+#: base/info_hpux.cpp:442
+msgid "Vendor"
+msgstr "البائع"
+
+#: base/info_hpux.cpp:443
+msgid "Alib Version"
+msgstr "إصدارة Alib"
+
+#: base/info_hpux.cpp:447
+msgid "Protocol Revision"
+msgstr "مراجعة البروتوكول"
+
+#: base/info_hpux.cpp:451
+msgid "Vendor Number"
+msgstr "اسم البائع"
+
+#: base/info_hpux.cpp:454
+msgid "Release"
+msgstr "إصدار"
+
+#: base/info_hpux.cpp:457
+msgid "Byte Order"
+msgstr "ترتيب البايت"
+
+#: base/info_hpux.cpp:458
+msgid "ALSBFirst (LSB)"
+msgstr "ALSBFirst (LSB)"
+
+#: base/info_hpux.cpp:459
+msgid "AMSBFirst (MSB)"
+msgstr "AMSBFirst (MSB)"
+
+#: base/info_hpux.cpp:460
+msgid "Invalid Byteorder."
+msgstr "ترتيب البايت غير صالح"
+
+#: base/info_hpux.cpp:462
+msgid "Bit Order"
+msgstr "ترتيب البت"
+
+#: base/info_hpux.cpp:464
+msgid "ALeastSignificant (LSB)"
+msgstr "ALeastSignificant (LSB)"
+
+#: base/info_hpux.cpp:466
+msgid "AMostSignificant (MSB)"
+msgstr "AMostSignificant (MSB)"
+
+#: base/info_hpux.cpp:466
+msgid "Invalid Bitorder."
+msgstr "ترتيب بت غير صالح"
+
+#: base/info_hpux.cpp:468
+msgid "Data Formats"
+msgstr "صيغ البيانات"
+
+#: base/info_hpux.cpp:475
+msgid "Sampling Rates"
+msgstr "تردد الإعتيان"
+
+#: base/info_hpux.cpp:481
+msgid "Input Sources"
+msgstr "مصادر الدخل"
+
+#: base/info_hpux.cpp:483
+msgid "Mono-Microphone"
+msgstr "مايكروفون أحادي"
+
+#: base/info_hpux.cpp:485
+msgid "Mono-Auxiliary"
+msgstr "مساعد أحادي"
+
+#: base/info_hpux.cpp:487
+msgid "Left-Microphone"
+msgstr "مايكروفون أيسر"
+
+#: base/info_hpux.cpp:489
+msgid "Right-Microphone"
+msgstr "مايكروفون أيمن"
+
+#: base/info_hpux.cpp:491
+msgid "Left-Auxiliary"
+msgstr "مساعد أيسر"
+
+#: base/info_hpux.cpp:493
+msgid "Right-Auxiliary"
+msgstr "مساعد أيمن"
+
+#: base/info_hpux.cpp:496
+msgid "Input Channels"
+msgstr "قنوات الإدخال"
+
+#: base/info_hpux.cpp:498 base/info_hpux.cpp:522
+msgid "Mono-Channel"
+msgstr "قناة أحادية"
+
+#: base/info_hpux.cpp:500 base/info_hpux.cpp:524
+msgid "Left-Channel"
+msgstr "قناة يُسرى"
+
+#: base/info_hpux.cpp:502 base/info_hpux.cpp:526
+msgid "Right-Channel"
+msgstr "قناة يُمنى"
+
+#: base/info_hpux.cpp:505
+msgid "Output Destinations"
+msgstr "أهداف الخرج"
+
+#: base/info_hpux.cpp:507
+msgid "Mono-InternalSpeaker"
+msgstr "مكبر صوت داخلي أحادي"
+
+#: base/info_hpux.cpp:509
+msgid "Mono-Jack"
+msgstr "مقبس أحادي"
+
+#: base/info_hpux.cpp:511
+msgid "Left-InternalSpeaker"
+msgstr "مكبر صوت داخلي أيسر"
+
+#: base/info_hpux.cpp:513
+msgid "Right-InternalSpeaker"
+msgstr "مكبر صوت داخلي أيمن"
+
+#: base/info_hpux.cpp:515
+msgid "Left-Jack"
+msgstr "مقبس أيسر"
+
+#: base/info_hpux.cpp:517
+msgid "Right-Jack"
+msgstr "مقبس أيمن"
+
+#: base/info_hpux.cpp:520
+msgid "Output Channels"
+msgstr "قنوات الإخراج"
+
+#: base/info_hpux.cpp:529
+msgid "Gain"
+msgstr "كسب"
+
+#: base/info_hpux.cpp:530
+msgid "Input Gain Limits"
+msgstr "حدود كسب الدخل"
+
+#: base/info_hpux.cpp:532
+msgid "Output Gain Limits"
+msgstr "حدود كسب الخرج"
+
+#: base/info_hpux.cpp:535
+msgid "Monitor Gain Limits"
+msgstr "حدود كسب الشاشة"
+
+#: base/info_hpux.cpp:538
+msgid "Gain Restricted"
+msgstr "حُضر الكسب"
+
+#: base/info_hpux.cpp:542
+msgid "Lock"
+msgstr "قفل"
+
+#: base/info_hpux.cpp:544
+msgid "Queue Length"
+msgstr "طول الطابور"
+
+#: base/info_hpux.cpp:546
+msgid "Block Size"
+msgstr "حجم الكتلة"
+
+#: base/info_hpux.cpp:548
+msgid "Stream Port (decimal)"
+msgstr "منفذ الدفق (عشري)"
+
+#: base/info_linux.cpp:130
+msgid "DMA-Channel"
+msgstr "قناة ذاكرة الوصول المباشر"
+
+#: base/info_linux.cpp:130 base/info_linux.cpp:181
+msgid "Used By"
+msgstr "يُستخدم بواسطة"
+
+#: base/info_linux.cpp:181
+msgid "I/O-Range"
+msgstr "مدى الإخراج/الإدخال"
+
+#: base/info_linux.cpp:206
+msgid "Devices"
+msgstr "الأجهزة"
+
+#: base/info_linux.cpp:206
+msgid "Major Number"
+msgstr "رقم رئيسي"
+
+#: base/info_linux.cpp:206
+msgid "Minor Number"
+msgstr "رقم ثانوي"
+
+#: base/info_linux.cpp:220
+msgid "Character Devices"
+msgstr "أجهزة محرفية"
+
+#: base/info_linux.cpp:227
+msgid "Block Devices"
+msgstr "أجهزة الكتلة"
+
+#: base/info_linux.cpp:262
+msgid "Miscellaneous Devices"
+msgstr "أجهزة متنوعة"
+
+#: base/info_netbsd.cpp:161 base/info_openbsd.cpp:172
+msgid "IRQ"
+msgstr "IRQ"
+
+#: base/info_netbsd.cpp:179 base/info_openbsd.cpp:185
+msgid "No PCI devices found."
+msgstr "لم يتم العثور على أجهزة PCI"
+
+#: base/info_netbsd.cpp:188 base/info_openbsd.cpp:194
+msgid "No I/O port devices found."
+msgstr "لم يتم العثور على أجهزة إدخال وإخراج"
+
+#: base/info_netbsd.cpp:199 base/info_openbsd.cpp:203
+msgid "No audio devices found."
+msgstr "لم يتم العثور على أجهزة صوتية"
+
+#: base/info_netbsd.cpp:237 base/info_openbsd.cpp:247
+msgid "No SCSI devices found."
+msgstr "لم يتم العثور على أجهزة SCSI"
+
+#: base/info_netbsd.cpp:273
+msgid "Total Nodes"
+msgstr "إجمالي العٌقد"
+
+#: base/info_netbsd.cpp:273
+msgid "Free Nodes"
+msgstr "عقدة مجانية"
+
+#: base/info_netbsd.cpp:273
+msgid "Flags"
+msgstr "رايات"
+
+#: base/info_openbsd.cpp:261
+msgid "Unable to run /sbin/mount."
+msgstr "غير قادر على تشغيل /sbin/mount."
+
+#: base/info_osx.cpp:121
+msgid "Device Name"
+msgstr "اسم الجهاز"
+
+#: base/info_osx.cpp:131
+msgid "Manufacturer"
+msgstr "المُصنع"
+
+#: base/info_solaris.cpp:69
+msgid "Instance"
+msgstr "حالة "
+
+#: base/info_solaris.cpp:69
+msgid "CPU Type"
+msgstr "نوع المعالج"
+
+#: base/info_solaris.cpp:69
+msgid "FPU Type"
+msgstr "نوع FPU"
+
+#: base/info_solaris.cpp:69
+msgid "State"
+msgstr "الحالة"
+
+#: base/info_solaris.cpp:174
+msgid "Mount Time"
+msgstr "وقت الضم"
+
+#: base/info_solaris.cpp:444
+msgid "character special"
+msgstr "خاص محرفي"
+
+#: base/info_solaris.cpp:446
+msgid "block special"
+msgstr "خاص كتلة"
+
+#: base/info_solaris.cpp:449
+msgctxt "Can be either character special or block special"
+msgid "Special type:"
+msgstr "نوع خاص:"
+
+#: base/info_solaris.cpp:462
+msgid "Nodetype:"
+msgstr "نوع العقدة:"
+
+#: base/info_solaris.cpp:469
+msgid "Major/Minor:"
+msgstr "رئيسي/ثانوي:"
+
+#: base/info_solaris.cpp:540
+msgid "(no value)"
+msgstr "(لا يوجد قيمة)"
+
+#: base/info_solaris.cpp:605
+msgid "Driver Name:"
+msgstr "اسم السائق:"
+
+#: base/info_solaris.cpp:607
+msgid "(driver not attached)"
+msgstr "السائق غير موصول"
+
+#: base/info_solaris.cpp:614
+msgid "Binding Name:"
+msgstr "اسم الربط:"
+
+#: base/info_solaris.cpp:629
+msgid "Compatible Names:"
+msgstr "أسماء متوافقة:"
+
+#: base/info_solaris.cpp:633
+msgid "Physical Path:"
+msgstr "مسار فيزيائي:"
+
+#: base/info_solaris.cpp:643
+msgid "Properties"
+msgstr "خصائص"
+
+#: base/info_solaris.cpp:657
+msgid "Type:"
+msgstr "النوع:"
+
+#: base/info_solaris.cpp:661
+msgid "Value:"
+msgstr "القيمة:"
+
+#: base/info_solaris.cpp:672
+msgid "Minor Nodes"
+msgstr "العقد رئيسية"
+
+#: base/info_solaris.cpp:697
+msgid "Device Information"
+msgstr "معلومات الجهاز"
+
+#: base/os_base.h:36
+msgid "LSBFirst"
+msgstr "LSBFirst"
+
+#: base/os_base.h:38
+msgid "MSBFirst"
+msgstr "MSBFirst"
+
+#: base/os_base.h:40
+#, kde-format
+msgid "Unknown Order %1"
+msgstr "%1 ترتيب مجهول"
+
+#: base/os_base.h:44
+#, kde-format
+msgid "1 Bit"
+msgid_plural "%1 Bits"
+msgstr[0] "بت"
+msgstr[1] "واحد بت"
+msgstr[2] "بتان"
+msgstr[3] "%1 بتات"
+msgstr[4] "%1 بت"
+msgstr[5] "%1 بت"
+
+#: base/os_base.h:50
+msgctxt "singular form: '1 Byte' (yes, it is '1', not '%1'!)"
+msgid "1 Byte"
+msgstr "بايت"
+
+#: base/os_base.h:52
+#, kde-format
+msgctxt "plural form: '%1 Bytes'"
+msgid "%1 Bytes"
+msgstr "%1 بايت"
+
+#: base/os_base.h:90
+#, kde-format
+msgid "Screen # %1"
+msgstr "الشاشة # %1"
+
+#: base/os_base.h:92
+msgid "(Default Screen)"
+msgstr "(الشاشة الافتراضية)"
+
+#: base/os_base.h:101
+msgid "Dimensions"
+msgstr "الأبعاد"
+
+#: base/os_base.h:101
+#, kde-format
+msgid "%1 x %2 Pixels (%3 x %4 mm)"
+msgstr "%1 × %2 بكسل (%3 × %4 مم)"
+
+#: base/os_base.h:105
+msgid "Resolution"
+msgstr "الدقة"
+
+#: base/os_base.h:105
+#, kde-format
+msgid "%1 x %2 dpi"
+msgstr "%1 × %2 dpi"
+
+#: base/os_base.h:122
+#, kde-format
+msgid "Depths (%1)"
+msgstr "العمق (%1)"
+
+#: base/os_base.h:128
+msgid "Root Window ID"
+msgstr "معرف النافذة الأم"
+
+#: base/os_base.h:132
+msgid "Depth of Root Window"
+msgstr "عمق النافذة الأم"
+
+#: base/os_base.h:132
+#, kde-format
+msgid "%1 plane"
+msgid_plural "%1 planes"
+msgstr[0] "مستوى"
+msgstr[1] "مستوى واحد"
+msgstr[2] "مستويين"
+msgstr[3] "%1 مستويات"
+msgstr[4] "%1 مستوى"
+msgstr[5] "%1 مستوى"
+
+#: base/os_base.h:136
+msgid "Number of Colormaps"
+msgstr "عدد خرائط الألوان"
+
+#: base/os_base.h:136
+#, kde-format
+msgid "minimum %1, maximum %2"
+msgstr "الأقل %1 ، الأقصى %2"
+
+#: base/os_base.h:140
+msgid "Default Colormap"
+msgstr "خريطة اللونية الافتراضية"
+
+#: base/os_base.h:144
+msgid "Default Number of Colormap Cells"
+msgstr "عدد خلايا الخريطة اللونية الافتراضية"
+
+#: base/os_base.h:148
+msgid "Preallocated Pixels"
+msgstr "البكسلات المحددة مسبقا"
+
+#: base/os_base.h:148
+#, kde-format
+msgid "Black %1, White %2"
+msgstr "الأسود %1 ، الأبيض %2"
+
+#: base/os_base.h:151
+msgid "Yes"
+msgstr "نعم"
+
+#: base/os_base.h:152
+msgid "No"
+msgstr "لا"
+
+#: base/os_base.h:155
+msgid "Options"
+msgstr "الخيارات"
+
+#: base/os_base.h:155
+msgid "When mapped"
+msgstr "عندما ترسم"
+
+#: base/os_base.h:155
+#, kde-format
+msgid "backing-store: %1, save-unders: %2"
+msgstr ""
+
+#: base/os_base.h:161
+msgid "Largest Cursor"
+msgstr "أكبر مؤشر"
+
+#: base/os_base.h:163
+msgid "unlimited"
+msgstr "غير محدود"
+
+#: base/os_base.h:169
+msgid "Current Input Event Mask"
+msgstr "قناع حدث الادخال الحالي"
+
+#: base/os_base.h:175
+#, kde-format
+msgid "Event = %1"
+msgstr "الحدث = %1"
+
+#: base/os_base.h:208
+msgid "Server Information"
+msgstr "معلومات الخادم"
+
+#: base/os_base.h:214
+msgid "Name of the Display"
+msgstr "اسم الشاشة"
+
+#: base/os_base.h:218
+msgid "Vendor String"
+msgstr "نص البائع"
+
+#: base/os_base.h:222
+msgid "Vendor Release Number"
+msgstr "رقم إصدارة البائع"
+
+#: base/os_base.h:226
+msgid "Version Number"
+msgstr "رقم الإصدارة"
+
+#: base/os_base.h:230
+msgid "Available Screens"
+msgstr "الشاشات المتوفرة"
+
+#: base/os_base.h:240
+msgid "Supported Extensions"
+msgstr "الامتدادات المدعومة"
+
+#: base/os_base.h:255
+msgid "Supported Pixmap Formats"
+msgstr "تنسيقات Pixmap المدعومة"
+
+#: base/os_base.h:262
+#, kde-format
+msgid "Pixmap Format #%1"
+msgstr "تنسيق Pixmap  #%1"
+
+#: base/os_base.h:262
+#, kde-format
+msgid "%1 BPP, Depth: %2, Scanline padding: %3"
+msgstr "%1 BPP العمق: %2 ، حاشية خط المسح: %3"
+
+#: base/os_base.h:274
+msgid "Maximum Request Size"
+msgstr "أقصى حجم للطلب"
+
+#: base/os_base.h:278
+msgid "Motion Buffer Size"
+msgstr "حجم مخبأ الحركة"
+
+#: base/os_base.h:282
+msgid "Bitmap"
+msgstr "بت ماب"
+
+#: base/os_base.h:286
+msgid "Unit"
+msgstr "الوحدة"
+
+#: base/os_base.h:290
+msgid "Order"
+msgstr "ترتيب"
+
+#: base/os_base.h:294
+msgid "Padding"
+msgstr "الحاشية"
+
+#: base/os_base.h:298
+msgid "Image Byte Order"
+msgstr "ترتيب بايت الصورة"
+
+#: base/os_current.h:50 base/os_current.h:65 base/os_current.h:96
+#: base/os_current.h:110 base/os_current.h:124 base/os_current.h:138
+#: base/os_current.h:153 base/os_current.h:167 base/os_current.h:181
+msgid "This system may not be completely supported yet."
+msgstr "قد يكون هذا النظام غير مدعوم بشكل كامل حتى الآن."
+
+#: aboutwidget.cpp:38 main.cpp:91
+msgid "KDE Info Center"
+msgstr "مركز معلومات كدي"
+
+#: aboutwidget.cpp:40
+msgid "Get system and desktop environment information"
+msgstr "احصل على معلومات النظام و سطح المكتب"
+
+#: aboutwidget.cpp:42
+msgid ""
+"Welcome to the \"KDE Info Center\", a central place to find information "
+"about your computer system."
+msgstr ""
+"مرحباً بك في \"مركز معلومات كدي\", و هو المكان المركزي لمعرفة معلومات حول "
+"نظام حاسوبك."
+
+#: aboutwidget.cpp:46
+msgid ""
+"Click on the \"Help\" tab on the left to view help for the active control "
+"module. Use the \"Search\" tab if you are unsure where to look for a "
+"particular configuration option."
+msgstr ""
+"انقر على لسان \"مساعدة\" الموجود على اليمين لمزيد من المعلومات حول وحدة "
+"التحكم النشطة. استخدم لسان \"ابحث\" للولوج مباشرة إلى خيار ضبط معين."
+
+#: aboutwidget.cpp:52
+msgid "KDE version:"
+msgstr "إصدار كدي:"
+
+#: aboutwidget.cpp:53
+msgid "User:"
+msgstr "المستخدم:"
+
+#: aboutwidget.cpp:54
+msgid "Hostname:"
+msgstr "اسم المضيف:"
+
+#: aboutwidget.cpp:55
+msgid "System:"
+msgstr "النظام:"
+
+#: aboutwidget.cpp:56
+msgid "Release:"
+msgstr "الإصدارة:"
+
+#: aboutwidget.cpp:57
+msgid "Machine:"
+msgstr "الجهاز:"
+
+#: dockcontainer.cpp:69
+#, kde-format
+msgid "<p>Click here to consult the full <a href=\"%1\">Manual</a>.</p>"
+msgstr "<p>أنقر لاستشارة<a href=\"%1\">الدليل</a>الكامل</p>"
+
+#: dockcontainer.cpp:74
+msgid ""
+"<h1>KDE Info Center</h1>There is no quick help available for the active info "
+"module.<br /><br />Click <a href = \"kinfocenter/index.html\">here</a> to "
+"read the general Info Center manual."
+msgstr ""
+"<h1>مركز معلومات كيدي</h1>لا يوجد مساعدة سريعة متوفرة لوحدة المعلومات النشطة."
+"<br /><br />أنقر<a href = \"kinfocenter/index.html\"></a> لقراءة كتيب "
+"معلومات المركز العامة.."
+
+#: dockcontainer.cpp:91
+msgid "<big><b>Loading...</b></big>"
+msgstr "<big><b>يحمل...</b></big>"
+
+#: dockcontainer.cpp:147
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before running the new module or discard "
+"the changes?"
+msgstr ""
+"هناك تغييرات غير محفوظة في الوحدة النشطة.\n"
+"هل تريد تطبيق التغييرات قبل تشغيل الوحدة الجديدة أم تريد تجاهل التغييرات؟"
+
+#: dockcontainer.cpp:149
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before exiting the Control Center or "
+"discard the changes?"
+msgstr ""
+"هناك تغييرات غير محفوظة في الوحدة النشطة.\n"
+"هل تريد تطبيق التغييرات قبل الخروج من مركز التحكم أم تجاهل هذه التغييرات؟"
+
+#: dockcontainer.cpp:151
+msgid "Unsaved Changes"
+msgstr "تغييرات غير محفوظة"
+
+#: indexwidget.cpp:45
+msgid "Filter:"
+msgstr "المرشِّح:"
+
+#: main.cpp:92
+msgid "The KDE Info Center"
+msgstr "مركز معلومات كدي"
+
+#: main.cpp:93
+msgid "(c) 1998-2004, The KDE Control Center Developers"
+msgstr "(c) 1998-2004, مطوري مركز تحكم كدي"
+
+#: main.cpp:98
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: main.cpp:98
+msgid "Current Maintainer"
+msgstr "المشرف الحالي على المشروع"
+
+#: main.cpp:99
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: main.cpp:99
+msgid "Previous Maintainer"
+msgstr "المشرف السابق على المشروع"
+
+#: main.cpp:100
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:101
+msgid "Matthias Elter"
+msgstr "Matthias Elter"
+
+#: main.cpp:102
+msgid "Matthias Ettrich"
+msgstr "Matthias Ettrich"
+
+#: main.cpp:103
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: moduletreeview.cpp:43 toplevel.cpp:221
+msgid "General Information"
+msgstr "معلومات عامة"
+
+#: proxywidget.cpp:51
+msgid "The currently loaded configuration module."
+msgstr "وحدة الضبط المحملة حالياً."
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Majed Ali,زايد السعيدي"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "GMajedli@gmail.com,zayed.alsaidi@gmail.com"
+
+#: toplevel.cpp:119 toplevel.cpp:150 toplevel.cpp:217
+msgid "About Current Module"
+msgstr "حول الوحدة الحالية"
+
+#: toplevel.cpp:126 toplevel.cpp:158 toplevel.cpp:223
+msgid "&Report Bug..."
+msgstr "بلّغ عن &خلل..."
+
+#: toplevel.cpp:146
+#, kde-format
+msgctxt "Help menu->about <modulename>"
+msgid "About %1"
+msgstr "حول %1"
+
+#: toplevel.cpp:160
+#, kde-format
+msgid "Report Bug on Module %1..."
+msgstr "بلّغ عن خلل في الوحدة %1..."
+
+#~ msgid "Kernel is configured for %1 CPUs"
+#~ msgstr "النواة ضُبطت لمعالجات  %1"
+
+#~ msgid "CPU %1: %2"
+#~ msgstr "المعالج %1: %2"
+
+#~ msgid "Ext Number"
+#~ msgstr "رقم Ext"

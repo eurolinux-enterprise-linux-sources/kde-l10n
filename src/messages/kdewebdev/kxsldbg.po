@@ -1,0 +1,2505 @@
+# translation of kxsldbg.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kxsldbg\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-03-11 11:21+0100\n"
+"PO-Revision-Date: 2007-10-14 16:02+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: main.cpp:20
+#, fuzzy
+msgid "A KDE KPart Application for xsldbg, an XSLT debugger"
+msgstr "A كيدي تطبيق لـ منقّح"
+
+#: main.cpp:25
+#, fuzzy
+msgid "KXSLDbg"
+msgstr "KXSLDbg"
+
+#: main.cpp:25 xsldbgmain.cpp:86
+#, fuzzy
+msgid "(C) 2003 Keith Isdale"
+msgstr "C كيث"
+
+#: main.cpp:26 kxsldbgpart/kxsldbg_part.cpp:309 xsldbgmain.cpp:87
+#, fuzzy
+msgid "Keith Isdale"
+msgstr "كيث"
+
+#: main.cpp:30 xsldbgmain.cpp:127
+#, fuzzy
+msgid "XSL script to run"
+msgstr "برنامج نصي إلى تنفيذ"
+
+#: main.cpp:31 xsldbgmain.cpp:128
+#, fuzzy
+msgid "XML data to be transformed"
+msgstr "XML البيانات إلى"
+
+#: main.cpp:32
+#, fuzzy
+msgid "File to save results to"
+msgstr "ملف إلى حفظ النتائج إلى"
+
+#: kxsldbg.cpp:83
+#, fuzzy
+msgid "Could not create our part."
+msgstr "يمكن أن ليس ابحث جزء."
+
+#: kxsldbg.cpp:91
+#, fuzzy
+msgid "Could not find our part."
+msgstr "يمكن أن ليس ابحث جزء."
+
+#: kxsldbg.cpp:176
+#, fuzzy, kde-format
+msgid "File: %1  Line: %2  Col: %3"
+msgstr "ملف خط عمود 3"
+
+#: kxsldbgpart/xsldbgvariablesimpl.cpp:87
+#, fuzzy
+msgid "Local"
+msgstr "محلي"
+
+#: kxsldbgpart/xsldbgvariablesimpl.cpp:89
+#, fuzzy
+msgid "Global"
+msgstr "شامل"
+
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:90
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:99
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:122
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:127
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:150
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:155
+#: kxsldbgpart/xsldbgdebugger.cpp:286 kxsldbgpart/xsldbgdebugger.cpp:306
+#: kxsldbgpart/xsldbgdebugger.cpp:324 kxsldbgpart/xsldbgdebugger.cpp:344
+#: kxsldbgpart/xsldbgdebugger.cpp:364 kxsldbgpart/xsldbgdebugger.cpp:383
+#, fuzzy
+msgid "Operation Failed"
+msgstr "فشلت العملية"
+
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:91
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:123
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:151
+#, fuzzy
+msgid "A line number was provided without a file name."
+msgstr "A سطر رقم a ملفّ الإسم."
+
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:100
+#, fuzzy
+msgid "No details provided or an invalid line number was supplied."
+msgstr "لا تفاصيل أو غير صالح سطر رقم."
+
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:128
+#, fuzzy
+msgid "No details provided or an invalid line or ID was supplied."
+msgstr "لا تفاصيل أو غير صالح سطر أو الهوية."
+
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:156
+#, fuzzy
+msgid "No details provided."
+msgstr "لا تفاصيل."
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:58
+#. i18n: ectx: property (text), widget (QTableWidget, breakpointView)
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:267 rc.cpp:233
+#, fuzzy
+msgid "Enabled"
+msgstr "ممكّن"
+
+#: kxsldbgpart/xsldbgbreakpointsimpl.cpp:269
+#, fuzzy
+msgid "Disabled"
+msgstr "معطل"
+
+#: kxsldbgpart/xsldbginspector.cpp:65
+#, fuzzy
+msgid "Xsldbg Inspector"
+msgstr "المفتش"
+
+#: kxsldbgpart/xsldbginspector.cpp:73
+#, fuzzy
+msgid "Breakpoints"
+msgstr "نقاط الإيقاف"
+
+#: kxsldbgpart/xsldbginspector.cpp:79
+#, fuzzy
+msgid "Variables"
+msgstr "متغيرات"
+
+#: kxsldbgpart/xsldbginspector.cpp:85
+msgid "CallStack"
+msgstr ""
+
+#: kxsldbgpart/xsldbginspector.cpp:91
+#, fuzzy
+msgid "Templates"
+msgstr "قوالب"
+
+#: kxsldbgpart/xsldbginspector.cpp:97
+#, fuzzy
+msgid "Sources"
+msgstr "المصادر"
+
+#: kxsldbgpart/xsldbginspector.cpp:103
+#, fuzzy
+msgid "Entities"
+msgstr "الكيانات"
+
+#: kxsldbgpart/libxsldbg/files.cpp:181 kxsldbgpart/libxsldbg/files.cpp:204
+#, fuzzy, kde-format
+msgid "Error: Unable to open terminal %1.\n"
+msgstr "خطأ عاجز إلى فتح شاشة طرفية n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:184
+#, fuzzy
+msgid "Error: Did not previously open terminal.\n"
+msgstr "خطأ عمل ليس فتح شاشة طرفية n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:424 kxsldbgpart/libxsldbg/files.cpp:439
+#, fuzzy, kde-format
+msgid "Error: Unable to change to directory %1.\n"
+msgstr "خطأ عاجز إلى تغيير إلى دليل n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:443
+#, fuzzy, kde-format
+msgid "Changed to directory %1.\n"
+msgstr "غُيِّر إلى دليل n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:460
+#, fuzzy, kde-format
+msgid "Setting XML Data file name to %1.\n"
+msgstr "الإعداد XML البيانات ملفّ الإسم إلى n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:472
+#, fuzzy, kde-format
+msgid "Setting stylesheet file name to %1.\n"
+msgstr "الإعداد ملفّ الإسم إلى n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:486
+#, fuzzy, kde-format
+msgid "Setting stylesheet base path to %1.\n"
+msgstr "الإعداد القاعدة المسار إلى n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:501
+#, fuzzy
+msgid "Missing file name.\n"
+msgstr "مفقود ملفّ الإسم n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:863 kxsldbgpart/libxsldbg/files.cpp:889
+#, fuzzy
+msgid "Encoding of text failed.\n"
+msgstr "الترميز من نص failed n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:913
+#, fuzzy, kde-format
+msgid "Unable to initialize encoding %1."
+msgstr ""
+"عاجز إلى يهيئ\n"
+"يُبدِء التشغيلئ ترميز."
+
+#: kxsldbgpart/libxsldbg/files.cpp:917
+#, fuzzy, kde-format
+msgid "Invalid encoding %1.\n"
+msgstr "غير صحيح ترميز n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:962
+#, fuzzy
+msgid " ----- more ---- \n"
+msgstr "المزيد n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:1047
+#: kxsldbgpart/libxsldbg/variable_cmds.cpp:109
+#: kxsldbgpart/libxsldbg/files_unix.cpp:53
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:442 kxsldbgpart/libxsldbg/xsldbg.cpp:965
+#: kxsldbgpart/libxsldbg/search.cpp:106 kxsldbgpart/libxsldbg/search.cpp:899
+#: kxsldbgpart/libxsldbg/search.cpp:951 kxsldbgpart/libxsldbg/search.cpp:1001
+#: kxsldbgpart/libxsldbg/search.cpp:1042 kxsldbgpart/libxsldbg/search.cpp:1080
+#: kxsldbgpart/libxsldbg/search.cpp:1124 kxsldbgpart/libxsldbg/search.cpp:1159
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:569
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:603
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:989
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1092
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:191
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:277
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:909
+#, fuzzy
+msgid "Error: Out of memory.\n"
+msgstr "خطأ خارج من ذاكرة n"
+
+#: kxsldbgpart/libxsldbg/files.cpp:1057
+#, fuzzy, kde-format
+msgid "Error: Unable to convert %1 to local file name.\n"
+msgstr "خطأ عاجز إلى تحويل إلى محليّ ملفّ الإسم n"
+
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:41
+#, fuzzy
+msgid "Failed to add parameter"
+msgstr "فشل إلى اضف معلمة"
+
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:45
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:54
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:73
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:84
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:202
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:218
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1637
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1650
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1797
+#, fuzzy, kde-format
+msgid "Error: Invalid arguments for the command %1.\n"
+msgstr "خطأ غير صحيح المعاملات لـ أمر n"
+
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:69
+#, fuzzy
+msgid "Failed to delete parameter"
+msgstr "فشل إلى حذف معلمة"
+
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:81
+#, fuzzy, kde-format
+msgid "Error: Unable to find parameter %1.\n"
+msgstr "خطأ عاجز إلى ابحث معلمة n"
+
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:106
+#, fuzzy
+msgid "Unable to print parameters"
+msgstr "عاجز إلى طبع البارامترات"
+
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:120
+#, fuzzy, kde-format
+msgid " Parameter %1 %2=\"%3\"\n"
+msgstr "ضابطة n"
+
+#: kxsldbgpart/libxsldbg/param_cmds.cpp:125
+#, fuzzy
+msgid ""
+"\n"
+"No parameters present.\n"
+msgstr "البارامترات n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:83
+#, fuzzy, kde-format
+msgid "Error: Unable to parse %1 as an option value.\n"
+msgstr "خطأ عاجز إلى إعراب خيار قيمة n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:99
+#, kde-format
+msgid ""
+"Information: The new value for option '%1' will not be applied until the run "
+"command is used.\n"
+msgstr ""
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:109
+#, fuzzy, kde-format
+msgid "Error: Unknown option name %1.\n"
+msgstr "خطأ مجهول خيار الإسم n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:112
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:115
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:178
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:222
+#: kxsldbgpart/libxsldbg/os_cmds.cpp:43
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1748
+#, fuzzy, kde-format
+msgid "Error: Missing arguments for the command %1.\n"
+msgstr "خطأ مفقود المعاملات لـ أمر n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:140
+#, fuzzy, kde-format
+msgid "Option %1 = %2\n"
+msgstr "الخيار n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:146
+#, fuzzy, kde-format
+msgid "Option %1 = \"%2\"\n"
+msgstr "الخيار n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:149
+#, fuzzy, kde-format
+msgid "Option %1 = \"\"\n"
+msgstr "الخيار n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:180
+#, fuzzy
+msgid "\tNo expression watches set.\n"
+msgstr "تعبير set n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:187
+#, fuzzy, kde-format
+msgid " WatchExpression %1 "
+msgstr "1 "
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:204
+#, fuzzy, kde-format
+msgid ""
+"Error: Unable to add watch expression \"%1\". It already has been added or "
+"it cannot be watched.\n"
+msgstr "خطأ عاجز إلى اضف تعبير itإيطالياهو أو الإيطالية n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:220
+#, fuzzy, kde-format
+msgid "Error: Unable to parse %1 as a watchID.\n"
+msgstr "خطأ عاجز إلى إعراب a n"
+
+#: kxsldbgpart/libxsldbg/option_cmds.cpp:225
+#, fuzzy, kde-format
+msgid "Error: Watch expression %1 does not exist.\n"
+msgstr "خطأ راقب تعبير ليس n"
+
+#: kxsldbgpart/libxsldbg/options.cpp:114 kxsldbgpart/libxsldbg/options.cpp:139
+#, fuzzy, kde-format
+msgid "Error: Option %1 is not a valid boolean/integer option.\n"
+msgstr "خطأ الخيار هو ليس a سليم منطقي عدد صحيح خيار n"
+
+#: kxsldbgpart/libxsldbg/options.cpp:162 kxsldbgpart/libxsldbg/options.cpp:188
+#, fuzzy, kde-format
+msgid "Error: Option %1 is not a valid string xsldbg option.\n"
+msgstr "خطأ الخيار هو ليس a سليم سلسلة نص خيار n"
+
+#: kxsldbgpart/libxsldbg/variable_cmds.cpp:40
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:151
+#, fuzzy
+msgid "Error: Stylesheet is not valid.\n"
+msgstr "خطأ صفحة الأسلوب هو ليس سليم n"
+
+#: kxsldbgpart/libxsldbg/variable_cmds.cpp:103
+#, fuzzy
+msgid ""
+"Error: Cannot change a variable that does not use the select attribute.\n"
+msgstr "خطأ لا يستطيع تغيير a متغير ليس استخدام تحديد وصف n"
+
+#: kxsldbgpart/libxsldbg/variable_cmds.cpp:106
+#, fuzzy, kde-format
+msgid "Error: Variable %1 was not found.\n"
+msgstr "خطأ متغير ليس موجود n"
+
+#: kxsldbgpart/libxsldbg/variable_cmds.cpp:115
+#: kxsldbgpart/libxsldbg/trace_cmds.cpp:53
+#: kxsldbgpart/libxsldbg/search.cpp:401
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:364
+#, fuzzy, kde-format
+msgid "Error: Invalid arguments to command %1.\n"
+msgstr "خطأ غير صحيح المعاملات إلى أمر n"
+
+#: kxsldbgpart/libxsldbg/breakpoint.cpp:432
+#, fuzzy
+msgid "disabled"
+msgstr "معطل"
+
+#: kxsldbgpart/libxsldbg/breakpoint.cpp:433
+#, fuzzy
+msgid "enabled"
+msgstr "ممكن"
+
+#: kxsldbgpart/libxsldbg/breakpoint.cpp:452
+#, fuzzy, kde-format
+msgid ""
+"Breakpoint %1 %2 for template: \"%3\" mode: \"%4\" in file \"%5\" at line %6"
+msgstr "نقطة التوقّف لـ قالب نمط بوصة ملفّ عند سطر 6"
+
+#: kxsldbgpart/libxsldbg/breakpoint.cpp:454
+#, fuzzy, kde-format
+msgid "Breakpoint %1 %2 for template: \"%3\" mode: \"%4\""
+msgstr "نقطة التوقّف لـ قالب نمط"
+
+#: kxsldbgpart/libxsldbg/help_unix.cpp:45
+#: kxsldbgpart/libxsldbg/help_unix.cpp:51
+#, fuzzy
+msgid "xsldbg version"
+msgstr "النسخة"
+
+#: kxsldbgpart/libxsldbg/help_unix.cpp:46
+#: kxsldbgpart/libxsldbg/help_unix.cpp:52
+#, fuzzy
+msgid "Help document version"
+msgstr "مساعدة مستند النسخة"
+
+#: kxsldbgpart/libxsldbg/help_unix.cpp:47
+#: kxsldbgpart/libxsldbg/help_unix.cpp:53
+#, fuzzy
+msgid "Help not found for command"
+msgstr "مساعدة ليس موجود لـ أمر"
+
+#: kxsldbgpart/libxsldbg/help_unix.cpp:85
+#, fuzzy, kde-format
+msgid ""
+"Error: Unable to display help. Help files not found in %1 or xsldbg not "
+"found in path.\n"
+msgstr ""
+"خطأ عاجز إلى عرض مساعدة مساعدة ملفات ليس موجود بوصة أو ليس موجود بوصة المسار "
+"n"
+
+#: kxsldbgpart/libxsldbg/help_unix.cpp:88
+#, fuzzy
+msgid "Error: Unable to find xsldbg or help files.\n"
+msgstr "خطأ عاجز إلى ابحث أو مساعدة ملفات n"
+
+#: kxsldbgpart/libxsldbg/help_unix.cpp:93
+#, fuzzy
+msgid "Error: Unable to print help file.\n"
+msgstr "خطأ عاجز إلى طبع مساعدة ملفّ n"
+
+#: kxsldbgpart/libxsldbg/help_unix.cpp:98
+#, fuzzy
+msgid "Error: No path to documentation; aborting help.\n"
+msgstr "خطأ لا المسار إلى توثيق مساعدة n"
+
+#: kxsldbgpart/libxsldbg/trace_cmds.cpp:54
+#, fuzzy
+msgid "Warning: Assuming normal speed.\n"
+msgstr "تحذير الافتراض عادي سرعة n"
+
+#: kxsldbgpart/libxsldbg/debug.cpp:101
+#, fuzzy
+msgid "Error: XSLT source and XML data are empty. Cannot enter the debugger.\n"
+msgstr "خطأ مصدر و XML البيانات فارغ لا يستطيع أدخل منقّح n"
+
+#: kxsldbgpart/libxsldbg/files_unix.cpp:59
+#, fuzzy
+msgid "Error: USER environment variable is not set.\n"
+msgstr "خطأ المستخدم بيئة متغير هو ليس set n"
+
+#: kxsldbgpart/libxsldbg/files_unix.cpp:117
+#, fuzzy
+msgid ""
+"Error: The value of the option docspath or searchresultspath is empty. See "
+"help on setoption or options command for more information.\n"
+msgstr ""
+"خطأ الـ قيمة من خيار أو هو فارغ انظر مساعدة يعمل أو خيارات أمر لـ المزيد "
+"معلومات n"
+
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:66
+#, fuzzy, kde-format
+msgid "Entity %1 "
+msgstr "كيان 1 "
+
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:73
+#, fuzzy
+msgid "No external General Parsed entities present.\n"
+msgstr "لا خارجي عام معرب n"
+
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:75
+#, fuzzy, kde-format
+msgid "\tTotal of %1 entity found."
+msgid_plural "\tTotal of %1 entities found."
+msgstr[0] "من كيان موجود."
+msgstr[1] "من كيان موجود."
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:106
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:114
+#, fuzzy, kde-format
+msgid "SystemID \"%1\" was not found in current catalog.\n"
+msgstr ""
+"ليس موجود بوصة الحالي كتالوج\n"
+"مسرد n"
+
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:110
+#, fuzzy, kde-format
+msgid "SystemID \"%1\" maps to: \"%2\"\n"
+msgstr "إلى n"
+
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:143
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:151
+#, fuzzy, kde-format
+msgid "PublicID \"%1\" was not found in current catalog.\n"
+msgstr ""
+"ليس موجود بوصة الحالي كتالوج\n"
+"مسرد n"
+
+#: kxsldbgpart/libxsldbg/file_cmds.cpp:147
+#, fuzzy, kde-format
+msgid "PublicID \"%1\" maps to: \"%2\"\n"
+msgstr "إلى n"
+
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:120
+#, fuzzy, kde-format
+msgid " template: \"%1\" mode: \"%2\" in file \"%3\" at line %4\n"
+msgstr "قالب نمط بوصة ملفّ عند سطر n"
+
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:193
+#, fuzzy
+msgid "\tNo XSLT templates found.\n"
+msgstr "قوالب موجود n"
+
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:195
+#, fuzzy, kde-format
+msgid "\tTotal of %1 XSLT template found"
+msgid_plural "\tTotal of %1 XSLT templates found"
+msgstr[0] "من قالب موجود"
+msgstr[1] "من قالب موجود"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:196
+#, fuzzy, kde-format
+msgid "\tTotal of %1 XSLT template printed"
+msgid_plural "\tTotal of %1 XSLT templates printed"
+msgstr[0] "من قالب"
+msgstr[1] "من قالب"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:218
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:237
+#, fuzzy, kde-format
+msgid " Stylesheet %1\n"
+msgstr "صفحة الأسلوب n"
+
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:262
+#, fuzzy, kde-format
+msgid "\tTotal of %1 XSLT stylesheet found."
+msgid_plural "\tTotal of %1 XSLT stylesheets found."
+msgstr[0] "من موجود."
+msgstr[1] "من موجود."
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: kxsldbgpart/libxsldbg/template_cmds.cpp:265
+#, fuzzy
+msgid "\tNo XSLT stylesheets found.\n"
+msgstr "موجود n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:256
+#, fuzzy, kde-format
+msgid "%1 took %2 ms to complete.\n"
+msgstr "ملّي ثانية إلى كامل n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:276
+#, fuzzy
+msgid "Warning: Too many libxslt parameters provided.\n"
+msgstr "تحذير أيضا البارامترات أمر سطر خيار n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:296
+#, fuzzy, kde-format
+msgid "XInclude processing %1."
+msgstr "جاري التطبيق ، جاري المعاملة ، جاري التنفيذ."
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:334 kxsldbgpart/libxsldbg/xsldbg.cpp:380
+#, fuzzy, kde-format
+msgid "Error: Unable to write temporary results to %1.\n"
+msgstr "خطأ عاجز إلى كتابة مؤقت النتائج إلى n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:344
+#, fuzzy, kde-format
+msgid "Applying stylesheet %1 time"
+msgid_plural "Applying stylesheet %1 times"
+msgstr[0] "الانطباق وقت"
+msgstr[1] "الانطباق وقت"
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:347
+#, fuzzy
+msgid "Applying stylesheet"
+msgstr "جاري تطبيق stylesheet"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:405 kxsldbgpart/libxsldbg/xsldbg.cpp:421
+#, fuzzy
+msgid "Saving result"
+msgstr "جاري الحفظ نتيجو"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:408
+#, fuzzy
+msgid "Warning: Generating non-standard output XHTML.\n"
+msgstr "تحذير التوليد قياسي مخرجات n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:423
+#, fuzzy, kde-format
+msgid "Warning: Unsupported, non-standard output method %1.\n"
+msgstr "تحذير غير مدعوم قياسي مخرجات طريقة n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:439
+#, fuzzy
+msgid "Running stylesheet and saving result"
+msgstr "يعمل و نتيجو"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:446
+#, fuzzy, kde-format
+msgid "Error: Unable to save results of transformation to file %1.\n"
+msgstr "خطأ عاجز إلى حفظ النتائج من تحويل إلى ملفّ n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:490 kxsldbgpart/libxsldbg/xsldbg.cpp:830
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:854 kxsldbgpart/libxsldbg/xsldbg.cpp:915
+#, fuzzy
+msgid "Fatal error: Aborting debugger due to an unrecoverable error.\n"
+msgstr ""
+"حاسم :: قَدَريّ :: نُبوئي :: مُقدّر أو محتوم :: مقرّر لمصير المرء :: مُميت :: "
+"مُهلِك :: مشؤوم :: لا سبيل إلى مقاومته خطأ جاري الإجهاض منقّح إلى خطأ n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:507
+#, fuzzy, kde-format
+msgid "Error: Unable to determine expanded file name for %1\n"
+msgstr "خطأ عاجز إلى ابحث a البيانات ملفّ مَن الإسم يحتوي n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:522 kxsldbgpart/kxsldbg_part.cpp:756
+#, fuzzy
+msgid "Error: Too many file names supplied via command line.\n"
+msgstr "خطأ أيضا ملفّ أمر سطر n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:625
+#, fuzzy, kde-format
+msgid "Warning: Unable to add libxslt parameter %1.\n"
+msgstr "خطأ عاجز إلى ابحث معلمة n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:627 kxsldbgpart/libxsldbg/xsldbg.cpp:631
+#, fuzzy, kde-format
+msgid ""
+"Error: Argument \"%1\" to --param is not in the format <name>:<value>.\n"
+msgstr "خطأ النّقاش إلى هو ليس بوصة تنسيق<name><value> n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:687
+#, fuzzy
+msgid ""
+"\n"
+"Starting stylesheet\n"
+"\n"
+msgstr "n n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:698
+#, fuzzy
+msgid "Error: No XSLT source file supplied.\n"
+msgstr "خطأ لا مصدر ملفّ n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:701
+#, fuzzy
+msgid "Error: No XML data file supplied.\n"
+msgstr "خطأ لا XML البيانات ملفّ n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:738
+#, fuzzy
+msgid ""
+"\n"
+"Debugger never received control.\n"
+msgstr "never control n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:743
+#, fuzzy
+msgid ""
+"\n"
+"Finished stylesheet\n"
+"\n"
+msgstr "n n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:800
+#, fuzzy
+msgid ""
+"Going to the command shell; not all xsldbg commands will work as not all "
+"needed have been loaded.\n"
+msgstr "إلى أمر صدَفة ليس الكل ليس الكل تمَ التحميل n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:849
+#, fuzzy, kde-format
+msgid "Parsing stylesheet %1"
+msgstr "الإعراب 1"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:851
+#, fuzzy, kde-format
+msgid "Error: Cannot parse file %1.\n"
+msgstr "خطأ لا يستطيع إعراب ملفّ n"
+
+#: kxsldbgpart/libxsldbg/xsldbg.cpp:913 kxsldbgpart/libxsldbg/xsldbg.cpp:947
+#, fuzzy, kde-format
+msgid "Error: Unable to parse file %1.\n"
+msgstr "خطأ عاجز إلى إعراب ملفّ n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:131
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:215
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:342
+#, fuzzy, kde-format
+msgid "Error: XPath %1 results in an empty Node Set.\n"
+msgstr "خطأ النتائج بوصة فارغ نقطة اتّصال ضبط n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:158
+#, fuzzy, kde-format
+msgid ""
+"Information: Temporarily setting document's encoding to UTF-8. Previously "
+"was %1.\n"
+msgstr ""
+"معلومات بشكل مؤقت مستند s ترميز إلى الرموز العالميه لتحوير الهيئة سابقا n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:201
+#, fuzzy, kde-format
+msgid "Error: Unable to save temporary results to %1.\n"
+msgstr "خطأ عاجز إلى حفظ مؤقت النتائج إلى n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:223
+#, fuzzy
+msgid "NULL string value supplied."
+msgstr "فارغ سلسلة نص قيمة."
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:234
+#, fuzzy
+msgid "Unable to convert XPath to string."
+msgstr "عاجز إلى تحويل إلى سلسلة نص."
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:317
+#, fuzzy
+msgid ""
+"Warning: Unable to print expression. No stylesheet was properly loaded.\n"
+msgstr "تحذير عاجز إلى طبع تعبير لا تمَ التحميل n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:369
+#, fuzzy, kde-format
+msgid " Global %1\n"
+msgstr "شامل n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:372
+#, fuzzy
+msgid " Global "
+msgstr "شامل "
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:375
+#, fuzzy, kde-format
+msgid " Global = %1\n"
+msgstr "شامل n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:378
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:381
+#, fuzzy, kde-format
+msgid ""
+" Global = %1\n"
+"%2"
+msgstr "شامل n 2"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:381
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:506
+#, fuzzy
+msgid "Warning: No value assigned to variable.\n"
+msgstr "تحذير لا قيمة إلى متغير n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:422
+#, fuzzy
+msgid ""
+"Error: Debugger has no files loaded or libxslt has not reached a template.\n"
+"Try reloading files or taking more steps.\n"
+msgstr "خطأ المنقّح لا ملفات تمَ التحميل أو ليس a قالب ملفات أو المزيد n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:459
+#, fuzzy
+msgid ""
+"Error: Libxslt has not initialized variables yet; try stepping to a "
+"template.\n"
+msgstr "خطأ ليس إلى a قالب n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:494
+#, fuzzy, kde-format
+msgid " Local %1"
+msgstr "محلي 1"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:497
+#, fuzzy
+msgid " Local "
+msgstr "محلي "
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:500
+#, fuzzy, kde-format
+msgid " Local = %1\n"
+msgstr "محلي n"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:503
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:506
+#, fuzzy, kde-format
+msgid ""
+" Local = %1\n"
+"%2"
+msgstr "محلي n 2"
+
+#: kxsldbgpart/libxsldbg/nodeview_cmds.cpp:521
+#, fuzzy
+msgid ""
+"Error: Libxslt has not initialized variables yet; try stepping past the xsl:"
+"param elements in the template.\n"
+msgstr "خطأ ليس بوصة قالب n"
+
+#: kxsldbgpart/libxsldbg/search.cpp:335
+#, fuzzy, kde-format
+msgid ""
+"Error: Unable to write search Database to file %1. Try setting the "
+"\"searchresultspath\" option to a writable path.\n"
+msgstr "خطأ عاجز إلى كتابة ابحث قاعدة بيانات إلى ملفّ حاول خيار إلى a المسار n"
+
+#: kxsldbgpart/libxsldbg/search.cpp:399
+#, fuzzy, kde-format
+msgid "Information: Transformed %1 using %2 and saved to %3.\n"
+msgstr "معلومات تحوّل و إلى n"
+
+#: kxsldbgpart/libxsldbg/search.cpp:574
+#, fuzzy, kde-format
+msgid "Error: XSLT template named \"%1\" was not found.\n"
+msgstr "خطأ قالب مسمى ليس موجود n"
+
+#: kxsldbgpart/libxsldbg/os_cmds.cpp:55
+#, fuzzy, kde-format
+msgid "Error: No command processor available for shell command \"%1\".\n"
+msgstr "خطأ لا أمر معالج متوفّر لـ صدَفة أمر n"
+
+#: kxsldbgpart/libxsldbg/os_cmds.cpp:60
+#, fuzzy, kde-format
+msgid "Information: Starting shell command \"%1\".\n"
+msgstr "معلومات جاري التشغيل صدَفة أمر n"
+
+#: kxsldbgpart/libxsldbg/os_cmds.cpp:75
+#, fuzzy
+msgid "Information: Finished shell command.\n"
+msgstr "معلومات انتهى صدَفة أمر n"
+
+#: kxsldbgpart/libxsldbg/os_cmds.cpp:79
+#, fuzzy, kde-format
+msgid "Error: Unable to run command. System error %1.\n"
+msgstr "خطأ عاجز إلى تنفيذ أمر النظام خطأ n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:411
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:74
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:299
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:697
+#, fuzzy
+msgid "Error: Debugger has no files loaded. Try reloading files.\n"
+msgstr "خطأ المنقّح لا ملفات تمَ التحميل حاول ملفات n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:433
+#, fuzzy, kde-format
+msgid "Error: The XSLT template named \"%1\" was not found.\n"
+msgstr "خطأ الـ قالب مسمى ليس موجود n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:436
+#, fuzzy, kde-format
+msgid " template: \"%1\"\n"
+msgstr "قالب n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:461
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:467
+#, fuzzy
+msgid "Error: Unable to cd. No stylesheet loaded.\n"
+msgstr "خطأ عاجز إلى قرص مدمج لا تمَ التحميل n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:464
+#, fuzzy, kde-format
+msgid "Error: Unknown arguments to the command %1.\n"
+msgstr "خطأ مجهول المعاملات إلى أمر n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:486
+#, fuzzy, kde-format
+msgid "Error: Invalid arguments to the command %1.\n"
+msgstr "خطأ غير صحيح المعاملات إلى أمر n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:507
+#, fuzzy, kde-format
+msgid "Warning: XPath %2 is a Node Set with %1 child."
+msgid_plural "Warning: XPath %2 is a Node Set with %1 children."
+msgstr[0] "تحذير هو a نقطة اتّصال ضبط مع ابن."
+msgstr[1] "تحذير هو a نقطة اتّصال ضبط مع ابن."
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:509
+#, fuzzy, kde-format
+msgid "Warning: XPath %1 is an empty Node Set.\n"
+msgstr "تحذير هو فارغ نقطة اتّصال ضبط n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:518
+#, fuzzy, kde-format
+msgid "Error: XPath %1 was not found.\n"
+msgstr "خطأ ليس موجود n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:562
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:565
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:596
+#, fuzzy, kde-format
+msgid "#%1 template: \"%2\" mode: \"%3\""
+msgstr "قالب نمط"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:567
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:584
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:599
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:652
+#, fuzzy, kde-format
+msgid " in file \"%1\" at line %2\n"
+msgstr "بوصة ملفّ عند سطر n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:582
+#, fuzzy, kde-format
+msgid "#%1 template: \"LIBXSLT_DEFAULT\" mode: \"\""
+msgstr "قالب افتراضي نمط"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:625
+#, fuzzy
+msgid "\tNo items in call stack.\n"
+msgstr ""
+"عناصر بوصة نداء رصة\n"
+"رصّ n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:648
+#, fuzzy, kde-format
+msgid "#%1 template: \"%2\""
+msgstr "قالب"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:823
+#, fuzzy
+msgid "Information: Updating search database. This may take a while...\n"
+msgstr "معلومات التحديث ابحث قاعدة بيانات هذا أيار a بينما n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:826
+#, fuzzy
+msgid "Information: Looking for breakpoints.\n"
+msgstr "معلومات النظر لـ n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:828
+#, fuzzy
+msgid "Information: Looking for imports and top-level stylesheets.\n"
+msgstr "معلومات النظر لـ واردات و الأعلى مستوى n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:830
+#, fuzzy
+msgid "Information: Looking for xsl:includes.\n"
+msgstr "معلومات النظر لـ n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:832
+#, fuzzy
+msgid "Information: Looking for templates.\n"
+msgstr "معلومات النظر لـ قوالب n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:834
+#, fuzzy
+msgid "Information: Looking for global variables.\n"
+msgstr "معلومات النظر لـ عمومي n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:836
+#, fuzzy
+msgid "Information: Looking for local variables.\n"
+msgstr "معلومات النظر لـ محليّ n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:838
+#, fuzzy
+msgid "Information: Formatting output.\n"
+msgstr "معلومات التنسيق مخرجات n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:892
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:894
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:900
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:902
+#, fuzzy, kde-format
+msgid ""
+"\n"
+"Reached template: \"%1\" mode: \"%2\"\n"
+msgstr "قالب نمط n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1047
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1840
+#, fuzzy, kde-format
+msgid "Breakpoint for file \"%1\" at line %2.\n"
+msgstr "نقطة التوقّف لـ ملفّ عند سطر n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1049
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1842
+#, fuzzy, kde-format
+msgid "Breakpoint at text node in file \"%1\".\n"
+msgstr "نقطة التوقّف عند نص عقدة بوصة ملفّ n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1212
+#, fuzzy
+msgid ""
+"Unable to print local help. Online help can be found at http://xsldbg."
+"sourceforge.net/docs/index.html.\n"
+msgstr ""
+"عاجز إلى طبع محليّ مساعدة متصل مساعدة موجود عندhttp://xsldbg.sourceforge.net/"
+"docs/index.html. n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1365
+#, fuzzy
+msgid ""
+"\n"
+"No breakpoints are set for the file.\n"
+msgstr "set لـ ملفّ n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1367
+#, fuzzy, kde-format
+msgid "\tTotal of %1 breakpoint present."
+msgid_plural "\tTotal of %1 breakpoints present."
+msgstr[0] "من نقطة المقاطعة."
+msgstr[1] "من نقطة المقاطعة."
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1386
+#, fuzzy
+msgid "Error: Unable to delete breakpoint.\n"
+msgstr "خطأ عاجز إلى حذف نقطة المقاطعة n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1408
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1428
+#, fuzzy
+msgid "Error: Unable to enable/disable breakpoint.\n"
+msgstr "خطأ عاجز إلى تمكين تعطيل نقطة المقاطعة n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1461
+#, fuzzy, kde-format
+msgid " in file \"%1\" at line %2"
+msgstr "بوصة ملفّ عند سطر 2"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1469
+#, fuzzy
+msgid "Error: Unable to print working directory.\n"
+msgstr "خطأ عاجز إلى طبع دليل n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1489
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1511
+#, fuzzy
+msgid "Error: Need to use the run command first.\n"
+msgstr "خطأ الحاجة إلى استخدام تنفيذ أمر الأوّل n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1546
+#, fuzzy
+msgid "Load of source deferred. Use the run command.\n"
+msgstr "تحميل من مصدر إستعمل تنفيذ أمر n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1584
+#, fuzzy
+msgid "Load of data file deferred. Use the run command.\n"
+msgstr "تحميل من البيانات ملفّ إستعمل تنفيذ أمر n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1660
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1668
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1676
+#, fuzzy, kde-format
+msgid "Warning: The %1 command is disabled.\n"
+msgstr "تحذير الـ أمر هو معطل n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1732
+#, fuzzy, kde-format
+msgid "Opening terminal %1.\n"
+msgstr "الإفتتاح شاشة طرفية n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1752
+#, fuzzy, kde-format
+msgid "Warning: The %1 command is disabled\n"
+msgstr "تحذير الـ أمر هو معطل n"
+
+#: kxsldbgpart/libxsldbg/debugXSL.cpp:1829
+#, fuzzy, kde-format
+msgid "Error: Unknown command %1. Try help.\n"
+msgstr "خطأ مجهول أمر حاول مساعدة n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:71
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:292
+#, fuzzy
+msgid "Failed to add breakpoint."
+msgstr "فشل إلى اضف نقطة المقاطعة."
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:90
+#, fuzzy, kde-format
+msgid "Error: Unable to parse %1 as a number of frames.\n"
+msgstr "خطأ عاجز إلى إعراب a رقم من إطارات n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:119
+#, fuzzy
+msgid "Error: Stylesheet is not valid or file is not loaded.\n"
+msgstr "خطأ صفحة الأسلوب هو ليس سليم أو ملفّ هو ليس تمَ التحميل n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:159
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:183
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:261
+#, fuzzy, kde-format
+msgid ""
+"Warning: Breakpoint for file \"%1\" at line %2 does not seem to be valid.\n"
+msgstr "تحذير نقطة التوقّف لـ ملفّ عند سطر ليس إلى سليم n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:181
+#, fuzzy, kde-format
+msgid "Error: Unable to find a stylesheet file whose name contains %1.\n"
+msgstr "خطأ عاجز إلى ابحث a ملفّ مَن الإسم يحتوي n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:208
+#, fuzzy
+msgid "Error: Data file is invalid. Try the run command first.\n"
+msgstr "خطأ البيانات ملفّ هو غير صالح حاول تنفيذ أمر الأوّل n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:263
+#, fuzzy, kde-format
+msgid "Error: Unable to find a data file whose name contains %1.\n"
+msgstr "خطأ عاجز إلى ابحث a البيانات ملفّ مَن الإسم يحتوي n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:322
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:624
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:718
+#, fuzzy, kde-format
+msgid "Error: Unable to parse %1 as a line number.\n"
+msgstr "خطأ عاجز إلى إعراب a سطر رقم n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:358
+#, fuzzy
+msgid "Error: Unable to find the added breakpoint."
+msgstr "خطأ عاجز إلى ابحث نقطة المقاطعة."
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:466
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:643
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:737
+#, fuzzy, kde-format
+msgid "Error: Invalid arguments for command %1.\n"
+msgstr "خطأ غير صحيح المعاملات لـ أمر n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:535
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:832
+#, fuzzy, kde-format
+msgid ""
+"Information: Breakpoint validation has caused breakpoint %1 to be re-"
+"created.\n"
+msgstr "معلومات نقطة التوقّف تحقق من سلامة نقطة المقاطعة إلى NULL n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:542
+#, fuzzy, kde-format
+msgid "Warning: Breakpoint exits for file \"%1\" at line %2.\n"
+msgstr "تحذير نقطة التوقّف لـ ملفّ عند سطر n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:565
+#, fuzzy
+msgid "Error: No templates found or unable to add breakpoint.\n"
+msgstr "خطأ لا قوالب موجود أو إلى اضف نقطة المقاطعة n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:570
+#, fuzzy, kde-format
+msgid "Information: Added %1 new breakpoint."
+msgid_plural "Information: Added %1 new breakpoints."
+msgstr[0] "معلومات المضاف جديد نقطة المقاطعة."
+msgstr[1] "معلومات المضاف جديد نقطة المقاطعة."
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:590
+#, fuzzy, kde-format
+msgid "Error: Failed to add breakpoint for file \"%1\" at line %2.\n"
+msgstr "خطأ فشل إلى اضف نقطة المقاطعة لـ ملفّ عند سطر n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:592
+#, fuzzy
+msgid "Error: Failed to add breakpoint.\n"
+msgstr "خطأ فشل إلى اضف نقطة المقاطعة n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:606
+#, fuzzy
+msgid "Failed to delete breakpoint."
+msgstr "فشل إلى حذف نقطة المقاطعة."
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:635
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:731
+#, fuzzy, kde-format
+msgid "Error: Breakpoint does not exist for file \"%1\" at line %2.\n"
+msgstr "خطأ نقطة التوقّف ليس لـ ملفّ عند سطر n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:656
+#, fuzzy, kde-format
+msgid "Error: Unable to delete breakpoint %1.\n"
+msgstr "خطأ عاجز إلى حذف نقطة المقاطعة n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:659
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:753
+#, fuzzy, kde-format
+msgid "Error: Breakpoint %1 does not exist.\n"
+msgstr "خطأ نقطة التوقّف ليس n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:666
+#, fuzzy, kde-format
+msgid "Error: Unable to delete breakpoint at template %1.\n"
+msgstr "خطأ عاجز إلى حذف نقطة المقاطعة عند قالب n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:669
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:760
+#, fuzzy, kde-format
+msgid "Error: Breakpoint at template \"%1\" does not exist.\n"
+msgstr "خطأ نقطة التوقّف عند قالب ليس n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:694
+#, fuzzy
+msgid "Failed to enable/disable breakpoint."
+msgstr "فشل إلى تمكين تعطيل نقطة المقاطعة."
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:750
+#, fuzzy, kde-format
+msgid "Error: Unable to enable/disable breakpoint %1.\n"
+msgstr "خطأ عاجز إلى تمكين تعطيل نقطة المقاطعة n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:836
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:873
+#, fuzzy, kde-format
+msgid "Warning: Validation of breakpoint %1 failed.\n"
+msgstr "تحذير التّحقّق من نقطة المقاطعة failed n"
+
+#: kxsldbgpart/libxsldbg/breakpoint_cmds.cpp:862
+#, fuzzy
+msgid ""
+"Information: Breakpoint validation has caused one or more breakpoints to be "
+"re-created.\n"
+msgstr "معلومات نقطة التوقّف تحقق من سلامة أو المزيد إلى NULL n"
+
+#: kxsldbgpart/libxsldbg/utils.cpp:95
+#, fuzzy
+msgid "Error: Unmatched quotes in input.\n"
+msgstr "خطأ غير مطابق علامات التصريح بوصة دَخْل n"
+
+#: kxsldbgpart/libxsldbg/search_cmds.cpp:45
+#, fuzzy
+msgid "Error: No path to documentation; aborting searching.\n"
+msgstr "خطأ لا المسار إلى توثيق n"
+
+#: kxsldbgpart/libxsldbg/search_cmds.cpp:47
+#, fuzzy
+msgid "Error: Error in value of USE_DOCS_MACRO; look at Makefile.am.\n"
+msgstr "خطأ خطأ بوصة قيمة من عند Makefile ص n"
+
+#: kxsldbgpart/libxsldbg/search_cmds.cpp:49
+#, fuzzy, kde-format
+msgid ""
+"Error: Required environment variable %1 not set to the directory of xsldbg "
+"documentation.\n"
+msgstr "خطأ مطلوب بيئة متغير ليس set إلى دليل من توثيق n"
+
+#: kxsldbgpart/libxsldbg/search_cmds.cpp:55
+#, fuzzy
+msgid "Error: Stylesheet not valid, files not loaded yet?\n"
+msgstr "خطأ صفحة الأسلوب ليس سليم ملفات ليس تمَ التحميل n"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:191
+#, fuzzy
+msgid "\t\"XSL source\" \n"
+msgstr "t مصدر n"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:193
+#, fuzzy
+msgid "\t\"XML data\" \n"
+msgstr "t XML البيانات n"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:195
+#, fuzzy
+msgid "\t\"Output file\" \n"
+msgstr "t مخرجات ملفّ n"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:197
+#, fuzzy
+msgid "Missing values for \n"
+msgstr "مفقود لـ n"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:201
+#, fuzzy
+msgid "Output file is the same as either XSL Source or XML Data file\n"
+msgstr "مخرجات ملفّ هو المصدر أو XML البيانات ملفّ n"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:294
+#, fuzzy
+msgctxt "variable name"
+msgid "Name"
+msgstr "الاسم"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:294
+#, fuzzy
+msgctxt "variable value"
+msgid "Value"
+msgstr "قيّم"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:316
+#, fuzzy
+msgid "Choose XSL Source to Debug"
+msgstr "اختر المصدر إلى تنقيح"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:328
+#, fuzzy
+msgid "Choose XML Data to Debug"
+msgstr "اختر XML البيانات إلى تنقيح"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:339
+#, fuzzy
+msgid "Choose Output File for XSL Transformation"
+msgstr "اختر مخرجات ملف لـ تحويلالتحويل"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:352
+#, fuzzy
+msgid "Choose working directory for XSL Transformation"
+msgstr "اختر مخرجات ملف لـ تحويلالتحويل"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:380
+#, fuzzy
+msgid "Unable to delete a LibXSLT parameter"
+msgstr "فشل إلى حذف معلمة"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:381
+msgid "Select a LibXSLT parameter before trying to delete a parameter"
+msgstr ""
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:390
+#, fuzzy
+msgid "Suspect Configuration"
+msgstr "المشتبه به إعدادات"
+
+#: kxsldbgpart/xsldbgconfigimpl.cpp:394
+#, fuzzy
+msgid "Incomplete or Invalid Configuration"
+msgstr "ناقص أو غير صحيح إعدادات"
+
+#: kxsldbgpart/xsldbgdebugger.cpp:287 kxsldbgpart/xsldbgdebugger.cpp:307
+#: kxsldbgpart/xsldbgdebugger.cpp:325 kxsldbgpart/xsldbgdebugger.cpp:345
+#: kxsldbgpart/xsldbgdebugger.cpp:365 kxsldbgpart/xsldbgdebugger.cpp:384
+#, fuzzy
+msgid "Cannot set/edit breakpoints on the output file."
+msgstr "لا يستطيع set حرّر يعمل مخرجات ملفّ."
+
+#: kxsldbgpart/xsldbgoutputview.cpp:68
+#, fuzzy
+msgid "xsldbg Output"
+msgstr "مخرجات"
+
+#: kxsldbgpart/xsldbgoutputview.cpp:69
+#, fuzzy
+msgid ""
+"\t\txsldbg output capture ready\n"
+"\n"
+msgstr "t مخرجات التقاط جاهز n n"
+
+#: kxsldbgpart/xsldbgoutputview.cpp:84
+#, fuzzy
+msgid "Result of evaluation"
+msgstr "النتيجة من تقويم"
+
+#: kxsldbgpart/xsldbgoutputview.cpp:101
+#, fuzzy
+msgid "Request Failed "
+msgstr "الطلب فشل "
+
+#: kxsldbgpart/kxsldbg_part.cpp:99 kxsldbgpart/kxsldbg_part.cpp:673
+#, fuzzy
+msgid "Goto XPath"
+msgstr "القفز من مكان إلى آخر في البرمجيات"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:96
+#. i18n: ectx: property (text), widget (QPushButton, expressionButton)
+#: kxsldbgpart/kxsldbg_part.cpp:107 rc.cpp:41
+#, fuzzy
+msgid "Evaluate"
+msgstr "قيّم"
+
+#: kxsldbgpart/kxsldbg_part.cpp:122
+#, fuzzy
+msgid "Configure Editor..."
+msgstr "اضبط المحرر."
+
+#: kxsldbgpart/kxsldbg_part.cpp:126
+#, fuzzy
+msgid "Configure..."
+msgstr "إعداد..."
+
+#: kxsldbgpart/kxsldbg_part.cpp:132
+#, fuzzy
+msgid "Inspect..."
+msgstr "تحقَّق..."
+
+#: kxsldbgpart/kxsldbg_part.cpp:140
+#, fuzzy
+msgid "Run"
+msgstr "شغّل"
+
+#: kxsldbgpart/kxsldbg_part.cpp:147
+#, fuzzy
+msgid "Continue"
+msgstr "استمر"
+
+#: kxsldbgpart/kxsldbg_part.cpp:154
+#, fuzzy
+msgid "Step"
+msgstr "خطوة"
+
+#: kxsldbgpart/kxsldbg_part.cpp:160
+#, fuzzy
+msgid "Next"
+msgstr "التالي"
+
+#: kxsldbgpart/kxsldbg_part.cpp:165
+#, fuzzy
+msgid "Step Up"
+msgstr "خطوة أعلى"
+
+#: kxsldbgpart/kxsldbg_part.cpp:170
+#, fuzzy
+msgid "Step Down"
+msgstr "خطوة أسفل"
+
+#: kxsldbgpart/kxsldbg_part.cpp:176
+#, fuzzy
+msgid "Break"
+msgstr "توقّف"
+
+#: kxsldbgpart/kxsldbg_part.cpp:181
+#, fuzzy
+msgid "Enable/Disable"
+msgstr "مكّن عطّل"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:336
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:258
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: kxsldbgpart/kxsldbg_part.cpp:186 rc.cpp:212 rc.cpp:266
+#, fuzzy
+msgid "Delete"
+msgstr "احذف"
+
+#: kxsldbgpart/kxsldbg_part.cpp:191
+#, fuzzy
+msgid "&Source"
+msgstr "ال&مصدر"
+
+#: kxsldbgpart/kxsldbg_part.cpp:196
+#, fuzzy
+msgid "&Data"
+msgstr "&بيانات"
+
+#: kxsldbgpart/kxsldbg_part.cpp:201
+#, fuzzy
+msgid "&Output"
+msgstr "مخرجات"
+
+#: kxsldbgpart/kxsldbg_part.cpp:206
+msgid "Reload"
+msgstr ""
+
+#: kxsldbgpart/kxsldbg_part.cpp:212
+#, fuzzy
+msgid "Walk Through Stylesheet..."
+msgstr "المشي عَبْر صفحة الأسلوب."
+
+#: kxsldbgpart/kxsldbg_part.cpp:216
+#, fuzzy
+msgid "Stop Wal&king Through Stylesheet"
+msgstr "قف المشي عَبْر صفحة الأسلوب"
+
+#: kxsldbgpart/kxsldbg_part.cpp:220
+#, fuzzy
+msgid "Tr&ace Execution of Stylesheet"
+msgstr "تعقّب تنفيذ من صفحة الأسلوب"
+
+#: kxsldbgpart/kxsldbg_part.cpp:224
+#, fuzzy
+msgid "Stop Tracing of Stylesheet"
+msgstr "قف الإقتفاء من صفحة الأسلوب"
+
+#: kxsldbgpart/kxsldbg_part.cpp:229
+#, fuzzy
+msgid "&Evaluate Expression..."
+msgstr "قيّم تعبير."
+
+#: kxsldbgpart/kxsldbg_part.cpp:234
+#, fuzzy
+msgid "Goto &XPath..."
+msgstr "القفز من مكان إلى آخر في البرمجيات."
+
+#: kxsldbgpart/kxsldbg_part.cpp:239
+#, fuzzy
+msgid "Lookup SystemID..."
+msgstr "البحث."
+
+#: kxsldbgpart/kxsldbg_part.cpp:243
+#, fuzzy
+msgid "Lookup PublicID..."
+msgstr "البحث."
+
+#: kxsldbgpart/kxsldbg_part.cpp:247
+#, fuzzy
+msgid "Quit"
+msgstr "اخرج"
+
+#: kxsldbgpart/kxsldbg_part.cpp:308
+msgid "KXsldbgPart"
+msgstr ""
+
+#: kxsldbgpart/kxsldbg_part.cpp:410
+#, fuzzy
+msgid "Debugger Not Ready"
+msgstr "المنقّح لا جاهز"
+
+#: kxsldbgpart/kxsldbg_part.cpp:411
+#, fuzzy
+msgid "Configure and start the debugger first."
+msgstr "اضبط و تشغيل منقّح الأوّل."
+
+#: kxsldbgpart/kxsldbg_part.cpp:427
+#, fuzzy
+msgid "Lookup SystemID"
+msgstr "البحث"
+
+#: kxsldbgpart/kxsldbg_part.cpp:428
+#, fuzzy
+msgid "Please enter SystemID to find:"
+msgstr "رجاء أدخل إلى ابحث:"
+
+#: kxsldbgpart/kxsldbg_part.cpp:451
+#, fuzzy
+msgid "Lookup PublicID"
+msgstr "البحث"
+
+#: kxsldbgpart/kxsldbg_part.cpp:452
+#, fuzzy
+msgid "Please enter PublicID to find:"
+msgstr "رجاء أدخل إلى ابحث:"
+
+#: kxsldbgpart/kxsldbg_part.cpp:665
+#, fuzzy
+msgid "Evaluate Expression"
+msgstr "قيّم تعبير"
+
+#: kxsldbgpart/kxsldbg_part.cpp:665 kxsldbgpart/kxsldbg_part.cpp:673
+msgid "XPath:"
+msgstr ""
+
+#: kxsldbgpart/kxsldbg_part.cpp:829
+#, fuzzy
+msgid "SystemID or PublicID Resolution Result"
+msgstr "أو الدقة النتيجة"
+
+#: kxsldbgpart/kxsldbg_part.cpp:830
+#, fuzzy, kde-format
+msgid ""
+"SystemID or PublicID has been resolved to\n"
+".%1"
+msgstr "أو إلى n 1"
+
+#. i18n: file: kxsldbg_shell.rc:4
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3 rc.cpp:339
+#, fuzzy
+msgid "&File"
+msgstr "&ملف"
+
+#. i18n: file: kxsldbg_shell.rc:9
+#. i18n: ectx: Menu (debug)
+#. i18n: file: kxsldbgpart/kxsldbg_part.rc:4
+#. i18n: ectx: Menu (debug)
+#. i18n: file: kxsldbg_shell.rc:9
+#. i18n: ectx: Menu (debug)
+#: rc.cpp:6 rc.cpp:324 rc.cpp:342
+#, fuzzy
+msgid "Debug"
+msgstr "تنقيح"
+
+#. i18n: file: kxsldbg_shell.rc:11
+#. i18n: ectx: Menu (settings)
+#. i18n: file: kxsldbgpart/kxsldbg_part.rc:34
+#. i18n: ectx: Menu (settings)
+#. i18n: file: kxsldbg_shell.rc:11
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:9 rc.cpp:327 rc.cpp:345
+#, fuzzy
+msgid "&Settings"
+msgstr "إ&عدادات"
+
+#. i18n: file: kxsldbg_shell.rc:25
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:12 rc.cpp:348
+#, fuzzy
+msgid "Main Toolbar"
+msgstr "شريط الأدوات الرئيسي"
+
+#: rc.cpp:13
+#, fuzzy
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد"
+
+#: rc.cpp:14
+#, fuzzy
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr"
+
+#. i18n: file: kxsldbgpart/xsldbgcallstack.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, XsldbgCallStack)
+#: rc.cpp:17
+msgid "Xsldbg Callstack"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgcallstack.ui:27
+#. i18n: ectx: property (text), widget (QTableWidget, callstackView)
+#: rc.cpp:20
+#, fuzzy
+msgid "Frame# Template Name"
+msgstr "إطار قالب الاسم"
+
+#. i18n: file: kxsldbgpart/xsldbgcallstack.ui:32
+#. i18n: ectx: property (text), widget (QTableWidget, callstackView)
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:148
+#. i18n: ectx: property (text), widget (QTableWidget, varsView)
+#. i18n: file: kxsldbgpart/xsldbgtemplates.ui:37
+#. i18n: ectx: property (text), widget (QTableWidget, templatesView)
+#. i18n: file: kxsldbgpart/xsldbgsources.ui:30
+#. i18n: ectx: property (text), widget (QTableWidget, sourcesView)
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:48
+#. i18n: ectx: property (text), widget (QTableWidget, breakpointView)
+#: rc.cpp:23 rc.cpp:56 rc.cpp:86 rc.cpp:95 rc.cpp:227
+#, fuzzy
+msgid "File Name"
+msgstr "اسم الملف"
+
+#. i18n: file: kxsldbgpart/xsldbgcallstack.ui:37
+#. i18n: ectx: property (text), widget (QTableWidget, callstackView)
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:153
+#. i18n: ectx: property (text), widget (QTableWidget, varsView)
+#. i18n: file: kxsldbgpart/xsldbgtemplates.ui:42
+#. i18n: ectx: property (text), widget (QTableWidget, templatesView)
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:53
+#. i18n: ectx: property (text), widget (QTableWidget, breakpointView)
+#: rc.cpp:26 rc.cpp:59 rc.cpp:89 rc.cpp:230
+#, fuzzy
+msgid "Line Number"
+msgstr "خط الرقم"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, XsldbgVariables)
+#: rc.cpp:29
+#, fuzzy
+msgid "Xsldbg Variables"
+msgstr "محلي متغيرات"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:58
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:32
+#, fuzzy
+msgid "Expression:"
+msgstr "الصلاحية:"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:68
+#. i18n: ectx: property (toolTip), widget (QLineEdit, expressionEdit)
+#: rc.cpp:35
+#, fuzzy
+msgid "Enter a valid XPath expression"
+msgstr "إدخال a سليم تعبير"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:93
+#. i18n: ectx: property (toolTip), widget (QPushButton, expressionButton)
+#: rc.cpp:38
+#, fuzzy
+msgid "Result of evaluation will appear in message window"
+msgstr "النتيجة من تقويم ظهور بوصة رسالة نافذة"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:128
+#. i18n: ectx: property (text), widget (QTableWidget, varsView)
+#. i18n: file: kxsldbgpart/xsldbgtemplates.ui:27
+#. i18n: ectx: property (text), widget (QTableWidget, templatesView)
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:38
+#. i18n: ectx: property (text), widget (QTableWidget, breakpointView)
+#: rc.cpp:44 rc.cpp:80 rc.cpp:221
+#, fuzzy
+msgid "Name"
+msgstr "الاسم"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:133
+#. i18n: ectx: property (text), widget (QTableWidget, varsView)
+#: rc.cpp:47
+#, fuzzy
+msgid "Template Context"
+msgstr "قالب السياق"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:138
+#. i18n: ectx: property (text), widget (QTableWidget, varsView)
+#: rc.cpp:50
+#, fuzzy
+msgid "Type"
+msgstr "النوع"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:143
+#. i18n: ectx: property (text), widget (QTableWidget, varsView)
+#: rc.cpp:53
+#, fuzzy
+msgid "XPath"
+msgstr "القفز من مكان إلى آخر في البرمجيات"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:163
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:62
+#, fuzzy
+msgid "Variable Expression:"
+msgstr "متغير تعبير:"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:186
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:65
+#, fuzzy
+msgid "Variable Type:"
+msgstr "متغير نوع:"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:201
+#. i18n: ectx: property (toolTip), widget (QPushButton, setExpressionButton)
+#: rc.cpp:68
+#, fuzzy
+msgid "Set the selection for variable "
+msgstr "ضبط منتقى لـ متغير "
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:204
+#. i18n: ectx: property (text), widget (QPushButton, setExpressionButton)
+#: rc.cpp:71
+#, fuzzy
+msgid "Set Expression"
+msgstr "ضبط تعبير"
+
+#. i18n: file: kxsldbgpart/xsldbgvariables.ui:213
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: rc.cpp:74
+#, fuzzy
+msgid "Variable Name:"
+msgstr "متغير الإسم:"
+
+#. i18n: file: kxsldbgpart/xsldbgtemplates.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, XsldbgTemplates)
+#: rc.cpp:77
+#, fuzzy
+msgid "Xsldbg Templates"
+msgstr "قوالب"
+
+#. i18n: file: kxsldbgpart/xsldbgtemplates.ui:32
+#. i18n: ectx: property (text), widget (QTableWidget, templatesView)
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:43
+#. i18n: ectx: property (text), widget (QTableWidget, breakpointView)
+#: rc.cpp:83 rc.cpp:224
+#, fuzzy
+msgid "Mode"
+msgstr "الوضع"
+
+#. i18n: file: kxsldbgpart/xsldbgsources.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, XsldbgSources)
+#: rc.cpp:92
+#, fuzzy
+msgid "Xsldbg Source Files"
+msgstr "المصدر ملفات"
+
+#. i18n: file: kxsldbgpart/xsldbgsources.ui:35
+#. i18n: ectx: property (text), widget (QTableWidget, sourcesView)
+#: rc.cpp:98
+#, fuzzy
+msgid "Parent File"
+msgstr "أب ملف"
+
+#. i18n: file: kxsldbgpart/xsldbgsources.ui:40
+#. i18n: ectx: property (text), widget (QTableWidget, sourcesView)
+#: rc.cpp:101
+#, fuzzy
+msgid "Parent Line Number"
+msgstr "أب خط الرقم"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:26
+#. i18n: ectx: property (windowTitle), widget (QWidget, XsldbgConfig)
+#: rc.cpp:104
+#, fuzzy
+msgid "KXsldbg Configuration"
+msgstr "إعدادات"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:34
+#. i18n: ectx: property (text), widget (QLabel, xslSourceLabel)
+#: rc.cpp:107
+#, fuzzy
+msgid "XSL source:"
+msgstr "مصدر:"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:47
+#. i18n: ectx: property (toolTip), widget (QLineEdit, xslSourceEdit)
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:80
+#. i18n: ectx: property (toolTip), widget (QLineEdit, xmlDataEdit)
+#: rc.cpp:110 rc.cpp:119
+msgid "URI can have a prefix of ~, file:/, http:// or ftp://"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:60
+#. i18n: ectx: property (text), widget (QPushButton, xslSourceButton)
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:93
+#. i18n: ectx: property (text), widget (QPushButton, xmlDataButton)
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:126
+#. i18n: ectx: property (text), widget (QPushButton, outputFileButton)
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:159
+#. i18n: ectx: property (text), widget (QPushButton, workDirButton)
+#: rc.cpp:113 rc.cpp:122 rc.cpp:131 rc.cpp:140
+#, fuzzy
+msgid "..."
+msgstr "..."
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:67
+#. i18n: ectx: property (text), widget (QLabel, xmlSourceLabel)
+#: rc.cpp:116
+#, fuzzy
+msgid "XML data:"
+msgstr "XML البيانات:"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:100
+#. i18n: ectx: property (text), widget (QLabel, outputFileLabel)
+#: rc.cpp:125
+#, fuzzy
+msgid "Output file:"
+msgstr "ملف الإخراج:"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:113
+#. i18n: ectx: property (toolTip), widget (QLineEdit, outputFileEdit)
+#: rc.cpp:128
+msgid "URI can have a prefix of ~, file:/"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:133
+#. i18n: ectx: property (text), widget (QLabel, workDirLabel)
+#: rc.cpp:134
+msgid "Work dir:"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:146
+#. i18n: ectx: property (toolTip), widget (QLineEdit, workDirEdit)
+#: rc.cpp:137
+#, fuzzy
+msgid "The directory to change into prior to loading files"
+msgstr "المسار إلى تغيير قبل يجري التحميل ملفات"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:174
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:143
+#, fuzzy
+msgid "Options"
+msgstr "خيارات"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:182
+#. i18n: ectx: property (toolTip), widget (QCheckBox, catalogsChkBox)
+#: rc.cpp:146
+#, fuzzy
+msgid "use catalogs from $SGML_CATALOGS_FILES"
+msgstr "استخدام من SGML الملفات"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:185
+#. i18n: ectx: property (text), widget (QCheckBox, catalogsChkBox)
+#: rc.cpp:149
+msgid "catalogs"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:192
+#. i18n: ectx: property (toolTip), widget (QCheckBox, htmlChkBox)
+#: rc.cpp:152
+#, fuzzy
+msgid "the input document is(are) an HTML file(s)"
+msgstr "دَخْل مستند هو HTML ملفّ s"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:195
+#. i18n: ectx: property (text), widget (QCheckBox, htmlChkBox)
+#: rc.cpp:155
+#, fuzzy
+msgid "html"
+msgstr "HTML"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:202
+#. i18n: ectx: property (toolTip), widget (QCheckBox, docbookChkBox)
+#: rc.cpp:158
+#, fuzzy
+msgid "the input document is SGML docbook"
+msgstr "دَخْل مستند هو SGML"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:205
+#. i18n: ectx: property (text), widget (QCheckBox, docbookChkBox)
+#: rc.cpp:161
+msgid "docbook"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:212
+#. i18n: ectx: property (toolTip), widget (QCheckBox, debugChkBox)
+#: rc.cpp:164
+msgid ""
+"If the \"out\" option is selected and the \"dump\" option is selected dump "
+"the XML tree to the xsldbg output capture window"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:215
+#. i18n: ectx: property (text), widget (QCheckBox, debugChkBox)
+#: rc.cpp:167
+#, fuzzy
+msgid "debug"
+msgstr ""
+"يصحح\n"
+"تنقيح"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:222
+#. i18n: ectx: property (toolTip), widget (QCheckBox, netChkBox)
+#: rc.cpp:170
+#, fuzzy
+msgid "enables fetching of DTDs or entities over network"
+msgstr "عطّل أو شبكة"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:225
+#. i18n: ectx: property (text), widget (QCheckBox, netChkBox)
+#: rc.cpp:173
+msgid "net"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:232
+#. i18n: ectx: property (toolTip), widget (QCheckBox, validChkBox)
+#: rc.cpp:176
+#, fuzzy
+msgid "perform the DTD loading phase"
+msgstr "تخطِّ DTD يجري التحميل"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:235
+#. i18n: ectx: property (text), widget (QCheckBox, validChkBox)
+#: rc.cpp:179
+msgid "valid"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:242
+#. i18n: ectx: property (toolTip), widget (QCheckBox, outChkBox)
+#: rc.cpp:182
+msgid "Output the results to 'Output file'"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:245
+#. i18n: ectx: property (text), widget (QCheckBox, outChkBox)
+#: rc.cpp:185
+msgid "out"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:252
+#. i18n: ectx: property (toolTip), widget (QCheckBox, profileChkBox)
+#: rc.cpp:188
+#, fuzzy
+msgid "print profiling information"
+msgstr "طبع معلومات"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:255
+#. i18n: ectx: property (text), widget (QCheckBox, profileChkBox)
+#: rc.cpp:191
+#, fuzzy
+msgid "profile"
+msgstr "التوصيف"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:262
+#. i18n: ectx: property (toolTip), widget (QCheckBox, timingChkBox)
+#: rc.cpp:194
+#, fuzzy
+msgid "display the time used"
+msgstr "عرض وقت مُستخدَم"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:265
+#. i18n: ectx: property (text), widget (QCheckBox, timingChkBox)
+#: rc.cpp:197
+msgid "timing"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:277
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:200
+#, fuzzy
+msgid "LibXSLT Parameters"
+msgstr "معاملات"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:317
+#. i18n: ectx: property (toolTip), widget (QPushButton, addButton)
+#: rc.cpp:203
+msgid "Add an empty parameter to the list"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:320
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:308
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: rc.cpp:206 rc.cpp:296
+#, fuzzy
+msgid "Add"
+msgstr "إضافة"
+
+#. i18n: file: kxsldbgpart/xsldbgconfig.ui:333
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteButton)
+#: rc.cpp:209
+#, fuzzy
+msgid "Delete the selected parameter"
+msgstr "فشل إلى حذف معلمة"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, XsldbgBreakpoints)
+#: rc.cpp:215
+#, fuzzy
+msgid "Xsldbg Breakpoints"
+msgstr "نقاط الإيقاف"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:33
+#. i18n: ectx: property (text), widget (QTableWidget, breakpointView)
+#: rc.cpp:218
+#, fuzzy
+msgid "ID"
+msgstr "الهوية"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:66
+#. i18n: ectx: property (text), widget (QLabel, idLabel)
+#: rc.cpp:236
+#, fuzzy
+msgid "ID:"
+msgstr "الهوية:"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:90
+#. i18n: ectx: property (toolTip), widget (QLineEdit, idEdit)
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:215
+#. i18n: ectx: property (toolTip), widget (QLineEdit, lineNumberEdit)
+#: rc.cpp:239 rc.cpp:260
+#, fuzzy
+msgid "Must be positive"
+msgstr "يجب أن"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:128
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:242
+#, fuzzy
+msgid "Name:"
+msgstr "الاسم:"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:138
+#. i18n: ectx: property (toolTip), widget (QLineEdit, templateNameEdit)
+#: rc.cpp:245
+#, fuzzy
+msgid "Template name or match name to look for"
+msgstr "قالب الإسم أو طابق الإسم إلى لـ"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:145
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1_2)
+#: rc.cpp:248
+#, fuzzy
+msgid "Mode:"
+msgstr "النمط:"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:174
+#. i18n: ectx: property (text), widget (QLabel, sourceFileLabel)
+#: rc.cpp:251
+#, fuzzy
+msgid "File Name:"
+msgstr "اسم الملف"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:184
+#. i18n: ectx: property (toolTip), widget (QLineEdit, sourceFileEdit)
+#: rc.cpp:254
+#, fuzzy
+msgid "You don't need to specify directory for file name"
+msgstr "أنت t إلى تحديد دليل لـ ملفّ الإسم"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:191
+#. i18n: ectx: property (text), widget (QLabel, lineNumberLabel)
+#: rc.cpp:257
+#, fuzzy
+msgid "Line number:"
+msgstr "خط رقم:"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:255
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteButton)
+#: rc.cpp:263
+#, fuzzy
+msgid "Delete breakpoint using ID"
+msgstr "احذف نقطة المقاطعة الهوية"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:265
+#. i18n: ectx: property (toolTip), widget (QPushButton, PushButton5)
+#: rc.cpp:269
+#, fuzzy
+msgid "Clear entered text"
+msgstr "امسح نص"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:268
+#. i18n: ectx: property (text), widget (QPushButton, PushButton5)
+#: rc.cpp:272
+#, fuzzy
+msgid "Clear"
+msgstr "امسح"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:275
+#. i18n: ectx: property (toolTip), widget (QPushButton, addAllButton)
+#: rc.cpp:275
+#, fuzzy
+msgid "Add breakpoint on all templates found"
+msgstr "إضافة نقطة المقاطعة يعمل الكل قوالب موجود"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:278
+#. i18n: ectx: property (text), widget (QPushButton, addAllButton)
+#: rc.cpp:278
+#, fuzzy
+msgid "Add All"
+msgstr "إضافة الكل"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:285
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteAllButton)
+#: rc.cpp:281
+#, fuzzy
+msgid "Delete all breakpoints"
+msgstr "احذف الكل"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:288
+#. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
+#: rc.cpp:284
+#, fuzzy
+msgid "Delete All"
+msgstr "احذف الكل"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:295
+#. i18n: ectx: property (toolTip), widget (QPushButton, enableButton)
+#: rc.cpp:287
+#, fuzzy
+msgid "Enable breakpoint using ID"
+msgstr "مكّن نقطة المقاطعة الهوية"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:298
+#. i18n: ectx: property (text), widget (QPushButton, enableButton)
+#: rc.cpp:290
+#, fuzzy
+msgid "Enable"
+msgstr "مكّن"
+
+#. i18n: file: kxsldbgpart/xsldbgbreakpoints.ui:305
+#. i18n: ectx: property (toolTip), widget (QPushButton, addButton)
+#: rc.cpp:293
+#, fuzzy
+msgid "Add breakpoint using file name with line number or a template name"
+msgstr "إضافة نقطة المقاطعة ملفّ الإسم مع سطر رقم أو a قالب الإسم"
+
+#. i18n: file: kxsldbgpart/xsldbgwalkspeed.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, XsldbgWalkSpeed)
+#: rc.cpp:299
+#, fuzzy
+msgid "Configure xsldbg's Walk Speed"
+msgstr "اضبط s المشي السرعة"
+
+#. i18n: file: kxsldbgpart/xsldbgwalkspeed.ui:41
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#: rc.cpp:302
+#, fuzzy
+msgid ""
+"Change the speed at which xsldbg walks through execution of the stylesheet."
+msgstr "غيّر سرعة عند من."
+
+#. i18n: file: kxsldbgpart/xsldbgwalkspeed.ui:78
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:305
+#, fuzzy
+msgid "Slow"
+msgstr "بطيء"
+
+#. i18n: file: kxsldbgpart/xsldbgwalkspeed.ui:104
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: rc.cpp:308
+#, fuzzy
+msgid "Fast"
+msgstr "سريع"
+
+#. i18n: file: kxsldbgpart/xsldbgwalkspeed.ui:156
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#. i18n: file: kxsldbgpart/xsldbgmsgdialog.ui:111
+#. i18n: ectx: property (text), widget (QPushButton, PushButton1)
+#: rc.cpp:311 rc.cpp:321
+#, fuzzy
+msgid "&OK"
+msgstr "&موافق"
+
+#. i18n: file: kxsldbgpart/xsldbgwalkspeed.ui:179
+#. i18n: ectx: property (text), widget (QPushButton, PushButton2)
+#: rc.cpp:314
+#, fuzzy
+msgid "&Cancel"
+msgstr "إل&غاء"
+
+#. i18n: file: kxsldbgpart/xsldbgmsgdialog.ui:21
+#. i18n: ectx: property (windowTitle), widget (QDialog, XsldbgMsgDialog)
+#: rc.cpp:317
+msgid "Message Dialog"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgentities.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, XsldbgEntities)
+#: rc.cpp:330
+#, fuzzy
+msgid "Xsldbg Entities"
+msgstr "الكيانات"
+
+#. i18n: file: kxsldbgpart/xsldbgentities.ui:27
+#. i18n: ectx: property (text), widget (QTableWidget, entitiesView)
+#: rc.cpp:333
+msgid "PublicID"
+msgstr ""
+
+#. i18n: file: kxsldbgpart/xsldbgentities.ui:32
+#. i18n: ectx: property (text), widget (QTableWidget, entitiesView)
+#: rc.cpp:336
+msgid "SystemID"
+msgstr ""
+
+#: xsldbgmain.cpp:54
+#, fuzzy
+msgid "A KDE console application for xsldbg, an XSLT debugger"
+msgstr "A كيدي لوحة تحكم تطبيق لـ منقّح"
+
+#: xsldbgmain.cpp:80
+#, fuzzy, kde-format
+msgid "Using libxml %1, libxslt %2 and libexslt %3\n"
+msgstr "الإستعمال و n"
+
+#: xsldbgmain.cpp:81
+#, fuzzy, kde-format
+msgid "xsldbg was compiled against libxml %1, libxslt %2 and libexslt %3\n"
+msgstr "و n"
+
+#: xsldbgmain.cpp:82
+#, fuzzy, kde-format
+msgid "libxslt %1 was compiled against libxml %2\n"
+msgstr "n"
+
+#: xsldbgmain.cpp:83
+#, fuzzy, kde-format
+msgid "libexslt %1 was compiled against libxml %2\n"
+msgstr "n"
+
+#: xsldbgmain.cpp:86
+msgid "Xsldbg"
+msgstr ""
+
+#: xsldbgmain.cpp:91
+#, fuzzy
+msgid "Start a shell"
+msgstr "ابدأ a صدَفة"
+
+#: xsldbgmain.cpp:92
+#, fuzzy
+msgid "Path to change into before loading files"
+msgstr "المسار إلى تغيير قبل يجري التحميل ملفات"
+
+#: xsldbgmain.cpp:93
+#, fuzzy
+msgid "Add a parameter named <name> and value <value> to XSL environment"
+msgstr "إضافة a معلمة مسمى<name> و قيمة<value> إلى بيئة"
+
+#: xsldbgmain.cpp:94
+#, fuzzy
+msgid "Use ISO 639 language code specified; for example en_US"
+msgstr "إستعمل آيزو لغة رمز لـ JO"
+
+#: xsldbgmain.cpp:95
+#, fuzzy
+msgid "Save to a given file. See output command documentation"
+msgstr "احفظ إلى a ملفّ انظر مخرجات أمر توثيق"
+
+#: xsldbgmain.cpp:96
+#, fuzzy
+msgid "Show the version of libxml and libxslt used"
+msgstr "اعرض النسخة من و مُستخدَم"
+
+#: xsldbgmain.cpp:97
+#, fuzzy
+msgid "Show logs of what is happening"
+msgstr "اعرض سجلات من هو"
+
+#: xsldbgmain.cpp:98
+#, fuzzy
+msgid "Display the time used"
+msgstr "العرض وقت مُستخدَم"
+
+#: xsldbgmain.cpp:99
+#, fuzzy
+msgid "Run the transformation 20 times"
+msgstr "شغّل تحويل الوقت"
+
+#: xsldbgmain.cpp:100
+msgid "Automatically load/save configuration."
+msgstr ""
+
+#: xsldbgmain.cpp:102
+#, fuzzy
+msgid "Dump the tree of the result instead"
+msgstr "تفريغ شجرة من نتيجو"
+
+#: xsldbgmain.cpp:104
+#, fuzzy
+msgid "Disable the DTD loading phase"
+msgstr "عطّل DTD يجري التحميل"
+
+#: xsldbgmain.cpp:105
+#, fuzzy
+msgid "Disable the output of the result"
+msgstr "عطّل مخرجات من نتيجو"
+
+#: xsldbgmain.cpp:106
+#, fuzzy
+msgid "Increase the maximum depth"
+msgstr "زيادة الأقصى عمق"
+
+#: xsldbgmain.cpp:108
+#, fuzzy
+msgid "The input document is(are) an HTML file(s)"
+msgstr "الـ دَخْل مستند هو HTML ملفّ s"
+
+#: xsldbgmain.cpp:111
+#, fuzzy
+msgid "The input document is SGML docbook"
+msgstr "الـ دَخْل مستند هو SGML"
+
+#: xsldbgmain.cpp:113
+#, fuzzy
+msgid "Disable the fetching DTDs or entities over network"
+msgstr "عطّل أو شبكة"
+
+#: xsldbgmain.cpp:115
+#, fuzzy
+msgid "Use the catalogs from $SGML_CATALOG_FILES"
+msgstr "إستعمل من SGML الملفات"
+
+#: xsldbgmain.cpp:118
+#, fuzzy
+msgid "Disable XInclude processing on document input"
+msgstr "عطّل جاري التطبيق ، جاري المعاملة ، جاري التنفيذ يعمل مستند دَخْل"
+
+#: xsldbgmain.cpp:120
+#, fuzzy
+msgid "Print profiling information"
+msgstr "اطبع معلومات"
+
+#: xsldbgmain.cpp:121
+#, fuzzy
+msgid "Do not run gdb compatibility mode and print less information"
+msgstr "تنفيذ ليس تنفيذ نمط و طبع معلومات"
+
+#: xsldbgmain.cpp:122
+#, fuzzy
+msgid "Detect and use encodings in the stylesheet"
+msgstr "اكتشاف و استخدام بوصة"
+
+#: xsldbgmain.cpp:123
+#, fuzzy
+msgid "Treat command line input as encoded in UTF-8"
+msgstr "المتعة أمر سطر دَخْل بوصة الرموز العالميه لتحوير الهيئة 8"
+
+#: xsldbgmain.cpp:124
+#, fuzzy
+msgid "Use HTML output when generating search reports"
+msgstr "إستعمل HTML مخرجات توليد ابحث"
+
+#: xsldbgmain.cpp:125
+#, fuzzy
+msgid ""
+"Print all error messages to stdout, normally error messages go to stderr"
+msgstr "اطبع الكل خطأ رسائل إلى خطأ رسائل اذهب إلى"
+
+#: xsldbgmain.cpp:126
+#, fuzzy
+msgid ""
+"Disable the automatic restarting of execution when current processing pass "
+"is complete"
+msgstr ""
+"عطّل تلقائي من الحالي جاري التطبيق ، جاري المعاملة ، جاري التنفيذ تمرير هو "
+"كامل"
+
+#, fuzzy
+#~ msgid "TextLabel1"
+#~ msgstr "إطار نص 1"
+
+#, fuzzy
+#~ msgid "File name:"
+#~ msgstr "إسم الملف:"
+
+#, fuzzy
+#~ msgid "Apply changes to xsldbg after restarting execution"
+#~ msgstr "تطبيق إلى بعد"
+
+#, fuzzy
+#~ msgid "&Refresh"
+#~ msgstr "تح&ديث"
+
+#, fuzzy
+#~ msgid "Refresh values in inspectors from xsldbg"
+#~ msgstr "تحديث بوصة من"
+
+#, fuzzy
+#~ msgid "Error: The file name \"%1\" is too long.\n"
+#~ msgstr "خطأ الـ ملفّ الإسم هو n"
+
+#, fuzzy
+#~ msgid ""
+#~ "The following libxslt parameters are empty\n"
+#~ "\t"
+#~ msgstr "الـ متابعة البارامترات فارغ n t"
+
+#, fuzzy
+#~ msgid "Refresh"
+#~ msgstr "تحديث"
+
+#, fuzzy
+#~ msgid "dump the tree of the result instead"
+#~ msgstr "تفريغ شجرة من نتيجو"
+
+#, fuzzy
+#~ msgid "refuse to fetch DTDs or entities over network"
+#~ msgstr "رفض إلى جلب أو شبكة"
+
+#, fuzzy
+#~ msgid "do not dump the result"
+#~ msgstr "ليس تفريغ نتيجو"
+
+#, fuzzy
+#~ msgid "Parameter value:"
+#~ msgstr "ضابطة قيمة:"
+
+#, fuzzy
+#~ msgid "Parameter name:"
+#~ msgstr "ضابطة الإسم:"
+
+#, fuzzy
+#~ msgid "Prev"
+#~ msgstr "سابقالسابقبريف"
+
+#, fuzzy
+#~ msgid "&Apply"
+#~ msgstr "&طبّق"
+
+#, fuzzy
+#~ msgid "Reload Current File From Disk"
+#~ msgstr "أعد التحميل الحالي ملف من قرص"
+
+#, fuzzy
+#~ msgid "Xsldbg Global Variables"
+#~ msgstr "شامل متغيرات"
+
+#, fuzzy
+#~ msgid "Source File"
+#~ msgstr "ملف المصدر"
+
+#, fuzzy
+#~ msgid "Source Line Number"
+#~ msgstr "المصدر خط الرقم"
+
+#, fuzzy
+#~ msgid "Source File Name"
+#~ msgstr "المصدر ملف الاسم"
+
+#, fuzzy
+#~ msgid "Oldest Frame # is 0, Frame # has been added to the first column"
+#~ msgstr "أقدم إطار هو إطار إلى الأوّل عمود"
+
+#, fuzzy
+#~ msgid "Click breakpoint in list to modify or delete it"
+#~ msgstr "نقر نقطة المقاطعة بوصة قائمة إلى تغيير أو حذف الإيطالية"
+
+#, fuzzy
+#~ msgid "qxsldbg Message"
+#~ msgstr "رسالة"

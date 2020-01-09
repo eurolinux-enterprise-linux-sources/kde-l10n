@@ -1,0 +1,72 @@
+# translation of kcmsolidproc.po to Arabic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# majed <gmajedli@gmail.com>, 2008.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmsolidproc\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-11-19 10:54+0100\n"
+"PO-Revision-Date: 2008-11-24 21:01+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#. i18n: file: solidproc.ui:23
+#. i18n: ectx: property (title), widget (QGroupBox, groupProcInfo)
+#: rc.cpp:3
+msgid "Selected Processor"
+msgstr "المعالج المنتقى"
+
+#. i18n: file: solidproc.ui:29
+#. i18n: ectx: property (text), widget (QLabel, labelVendor)
+#: rc.cpp:6
+msgid "Vendor"
+msgstr "البائع"
+
+#. i18n: file: solidproc.ui:49
+#. i18n: ectx: property (text), widget (QLabel, labelModel)
+#: rc.cpp:9
+msgid "Model:"
+msgstr "الطراز:"
+
+#. i18n: file: solidproc.ui:69
+#. i18n: ectx: property (text), widget (QLabel, labelSpeed)
+#: rc.cpp:12
+msgid "Speed:"
+msgstr "السرعة:"
+
+#. i18n: file: solidproc.ui:89
+#. i18n: ectx: property (text), widget (QLabel, labelExtensions)
+#: rc.cpp:15
+msgid "Supported extensions:"
+msgstr "الملحقات المدعومة:"
+
+#: rc.cpp:16
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ماجد علي, زايد السعيدي"
+
+#: rc.cpp:17
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "GMajedli@gmail.com,zayed.alsaidi@gmail.com"
+
+#: solidproc.cpp:71
+msgid "KCM Solid Processor Information"
+msgstr "معلومات معالج لسولد"
+
+#: solidproc.cpp:73
+msgid "(c) 2008 Ivo Anjo"
+msgstr "(c) 2008 Ivo Anjo"
+
+#: solidproc.cpp:75
+msgid "Ivo Anjo"
+msgstr "Ivo Anjo"

@@ -1,0 +1,132 @@
+# translation of kmail_text_calendar_plugin.po to
+#
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmail_text_calendar_plugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2009-08-14 01:26+0200\n"
+"PO-Revision-Date: 2007-10-14 15:54+0000\n"
+"Last-Translator: Youssef Chahibi <chahibi@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: text_calendar.cpp:292
+#, fuzzy
+msgid "Incidence with no summary"
+msgstr "الحادثة مع لا الملخص"
+
+#: text_calendar.cpp:296
+#, kde-format
+msgid "Answer: %1"
+msgstr "جواب: %1"
+
+#: text_calendar.cpp:299
+#, fuzzy, kde-format
+msgid "Delegated: %1"
+msgstr "مفوّض 1"
+
+#: text_calendar.cpp:302
+#, fuzzy, kde-format
+msgid "Forwarded: %1"
+msgstr "حوّلت الى 1"
+
+#: text_calendar.cpp:305
+#, kde-format
+msgid "Declined Counter Proposal: %1"
+msgstr ""
+
+#: text_calendar.cpp:355
+msgid "Could not save file to KOrganizer"
+msgstr "لم استطع حفظ الملف الى KOrganizer"
+
+#: text_calendar.cpp:385
+msgid "Reaction to Invitation"
+msgstr ""
+
+#: text_calendar.cpp:386 text_calendar.cpp:533
+msgid "Comment:"
+msgstr ""
+
+#: text_calendar.cpp:420
+#, fuzzy
+msgid "Delegation to organizer is not possible."
+msgstr "الوفد إلى هو ليس."
+
+#: text_calendar.cpp:532
+msgid "Decline Counter Proposal"
+msgstr ""
+
+#: text_calendar.cpp:582
+msgid "No writable calendar found."
+msgstr ""
+
+#: text_calendar.cpp:653
+msgid "Accept incidence"
+msgstr "تقبًل الوُقْع"
+
+#: text_calendar.cpp:655
+msgid "Accept incidence conditionally"
+msgstr "تقبًل شرطي للوُقْع"
+
+#: text_calendar.cpp:657
+msgid "Accept counter proposal"
+msgstr ""
+
+#: text_calendar.cpp:659
+msgid "Create a counter proposal..."
+msgstr ""
+
+#: text_calendar.cpp:661
+msgid "Throw mail away"
+msgstr "أقذف البريد بعيدا"
+
+#: text_calendar.cpp:663
+msgid "Decline incidence"
+msgstr "أرفض الوُقْع"
+
+#: text_calendar.cpp:665
+msgid "Decline counter proposal"
+msgstr ""
+
+#: text_calendar.cpp:667
+msgid "Check my calendar..."
+msgstr "افحص تقويمي..."
+
+#: text_calendar.cpp:669
+msgid "Enter incidence into my calendar"
+msgstr "أدخل الوُقْع إلى تقويمي"
+
+#: text_calendar.cpp:671
+#, fuzzy
+msgid "Delegate incidence"
+msgstr "المندوب"
+
+#: text_calendar.cpp:673
+#, fuzzy
+msgid "Forward incidence"
+msgstr "مرر"
+
+#: text_calendar.cpp:675
+msgid "Remove incidence from my calendar"
+msgstr "أحذف الوُقْع من تقويمي"
+
+#. i18n: file: ui_attendeeselector.ui:20
+#. i18n: ectx: property (text), widget (KPushButton, addButton)
+#: rc.cpp:3
+#, fuzzy
+msgid "Add"
+msgstr "إضافة"
+
+#. i18n: file: ui_attendeeselector.ui:30
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: rc.cpp:6
+#, fuzzy
+msgid "Remove"
+msgstr "احذف"
