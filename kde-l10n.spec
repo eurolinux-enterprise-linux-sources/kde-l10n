@@ -3,7 +3,7 @@
 Name:    kde-l10n
 Summary: Internationalization support for KDE
 Version: 4.10.5
-Release: 1%{?dist}
+Release: 2%{?dist}
 
 Url:     http://www.kde.org
 License: LGPLv2
@@ -1460,6 +1460,9 @@ rm -rfv  %{buildroot}%{_datadir}/locale/*/flag.png
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.10.5-2
+- Mass rebuild 2013-12-27
+
 * Sun Jun 02 2013 Rex Dieter <rdieter@fedoraproject.org> - 4.10.4-1
 - 4.10.4
 - +%%lang(mr)
